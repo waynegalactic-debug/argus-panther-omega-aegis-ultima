@@ -1,13 +1,13 @@
 {
-  "brand": "US IPFORCE",
-  "version": "v2026.07.15-US-IPFORCE-ENHANCED",
-  "case_id": "US-IPFORCE-20260715-ENHANCED-CONSOLIDATED",
+  "brand": "IP FORCE",
+  "version": "v2026.07.15-IP-FORCE-ENHANCED",
+  "case_id": "IP-FORCE-20260715-ENHANCED-CONSOLIDATED",
   "entry_points": [
     "us_ipforce.py",
     "us_ipforce_monolith.py",
     "us_ipforce_monolith_live.py"
   ],
-  "confirmation": "US_IPFORCE_CONSOLIDATION_CONFIRMED.md",
-  "manifest": "US_IPFORCE_ENHANCED_MANIFEST.json",
+  "confirmation": "IP_FORCE_CONSOLIDATION_CONFIRMED.md",
+  "manifest": "IP_FORCE_ENHANCED_MANIFEST.json",
   "status": "consolidated_enhanced"
 }

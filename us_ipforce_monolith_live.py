@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.15-US-IPFORCE-ENHANCED
-US IPFORCE Monolithic Engine v2026.06.20-RELEASE | V8 Ultimate Consolidation
+IP FORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.15-IP-FORCE-ENHANCED
+IP FORCE Monolithic Engine v2026.06.20-RELEASE | V8 Ultimate Consolidation
 ================================================================================
 FULLY CONSOLIDATED: All prior prompts, responses, source code, and linked data.
-ENHANCED CONSOLIDATION (v2026.07.15-US-IPFORCE-ENHANCED): Generated into argus-panther-omega-aegis-ultima as the fully consolidated US IPFORCE package — self-contained monolith + live modular pipeline + phoenix_shield engines + attorney/data rosters + national command console.
+ENHANCED CONSOLIDATION (v2026.07.15-IP-FORCE-ENHANCED): Generated into IP FORCE-omega-aegis-ultima as the fully consolidated IP FORCE package — self-contained monolith + live modular pipeline + phoenix_shield engines + attorney/data rosters + national command console.
 
 ALL PLACEHOLDER/SIMULATED DATA REMOVED: Live government and primary-source APIs only.
 HMAC-SHA3-512 self-authentication on all v8 prosecution bundles.
@@ -65,7 +65,7 @@ completeness at 99.99%+, 456 Iranian charges, GENIUS Act payloads across 45+ cha
 SECTION 73 CORPUS HARDENING GATE (SYSTEM AEGIS v32): deterministic seed=42,
 live API remediation (USPTO, SEC EDGAR, Etherscan, CourtListener, OpenCorporates),
 99.99% completeness threshold, Merkle-rooted integrity seal.
-US IPFORCE FORENSIC SUITE v1.0.0: PEP 8, NIST SP 800-53/800-101, ISO 27001/17025,
+IP FORCE FORENSIC SUITE v1.0.0: PEP 8, NIST SP 800-53/800-101, ISO 27001/17025,
 DoD STIGs, SHA-3-384 hash chain, multi-jurisdictional patent acquisition, UBO decoding,
 steganography ray-tracing, LegalBERT semantic audit, GENIUS Act payloads.
 ULTIMA GENESIS FINAL v2026.07.11: 66 USPTO bulk endpoints, swarm orchestrator,
@@ -88,14 +88,14 @@ from all combinatorial engines, ghost docket audits, and blockchain forensics.
   distributed_collective, cooperative_analysis, task_flow_dag).
 - Optional IP FORCE web server (set US_IP_FORCE_SERVE=1 for http://0.0.0.0:8080).
 
-US IPFORCE FINAL CONSOLIDATION (v2026.06.20-RELEASE):
+IP FORCE FINAL CONSOLIDATION (v2026.06.20-RELEASE):
 - 13 verified Brent M. Skoda patents (USPTO, EPO, WIPO, CNIPA, JPO, KIPO consensus)
 - 15,213+ stolen patent families with 190 WIPO global PCT filing installations
 - 630,000+ victim derivative works fully exhausted across all families
 - 6 blockchain transactions tracing $524M laundering pipeline
 - 3 Wall Street derivatives representing $1.08T systemic risk
 - Reputational sabotage audit (Wikipedia, YPO/WPO)
-- brent_skoda_forensic_report_2026.json + OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md
+- brent_skoda_forensic_report_2026.json + IP_FORCE_CONSOLIDATION_CONFIRMED.md
 - NVIDIA 2026 deterministic GNN fraud signature with tamper-evident hashes
 
 TARGET AUDIENCE: USSS, White House, US Treasury, FBI, Department of Justice,
@@ -243,8 +243,8 @@ logging.basicConfig(
         logging.FileHandler("omega_aegis.log", mode="a"),
     ],
 )
-logger = logging.getLogger("UNITED_STATES_IP_FORCE_MONOLITH")
-omega_aegis_logger = logging.getLogger("OmegaAegis")
+logger = logging.getLogger("IP_FORCE_MONOLITH")
+omega_aegis_logger = logging.getLogger("ip_force")
 
 # =============================================================================
 # NVIDIA CUDA EXPERIMENTAL (cudax) – via cuda-python, cupy, cuml, cugraph
@@ -818,7 +818,7 @@ class CudaxStackOrchestrator:
 
 # Ensure deterministic execution (FIPS 140-3)
 getcontext().prec = 1000
-SEED_SALT = b"UNITED_STATES_IP_FORCE_ULTIMA_GENESIS_FINAL_v2026_07_07_FIPS140_3_QUANTUM_HYPERGRAPH"
+SEED_SALT = b"IP_FORCE_ULTIMA_GENESIS_FINAL_v2026_07_07_FIPS140_3_QUANTUM_HYPERGRAPH"
 HMAC_KEY = b"US_IP_FORCE_HMAC_KEY_2026_07_07_FIPS140_3"
 
 
@@ -965,7 +965,7 @@ def tx_timestamp_float(
 
 
 # -----------------------------------------------------------------------------
-# US IPFORCE INTEGRATION
+# IP FORCE INTEGRATION
 # Security, fractal geometry, steganography ray tracing, hypergraph GNN, RICO
 # -----------------------------------------------------------------------------
 class SecurityCompliance:
@@ -2836,7 +2836,7 @@ class ChargingMatrixGenerator:
     def generate(analyzer: "USIPForceAnalyzer") -> str:
         lines = [
             "=" * 80,
-            "  US IPFORCE – TOP 250 DEFENDANT CHARGING MATRIX",
+            "  IP FORCE – TOP 250 DEFENDANT CHARGING MATRIX",
             f"  Case ID: {CASE_ID}",
             f"  Generated: {utc_now_iso()}",
             f"  Classification: TOP SECRET / SCI / NOFORN",
@@ -3243,7 +3243,7 @@ class ExhaustiveChargingMatrixGenerator:
         defendants = cls._collect_defendants(analyzer)
         lines = [
             "=" * 100,
-            "  US IPFORCE – EVIDENTIARY SUBJECT REVIEW MATRIX",
+            "  IP FORCE – EVIDENTIARY SUBJECT REVIEW MATRIX",
             f"  Case ID: {CASE_ID}",
             f"  Generated: {utc_now_iso()}",
             "  Status: provenance-qualified observations; not a charging decision",
@@ -3633,7 +3633,7 @@ class LangEcosystemForensicDeliveryUI:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#001433">
-<title>US IP FORCE | Lang Ecosystem Forensic Delivery</title>
+<title>IP FORCE | Lang Ecosystem Forensic Delivery</title>
 <style>
 :root {{
   --navy:#001433; --gold:#D4AF37; --red:#8B0000; --blue:#0055aa;
@@ -3701,7 +3701,7 @@ footer{{margin-top:1.5rem;text-align:center;font-size:.7rem;opacity:.6}}
 </head>
 <body>
 <header>
-  <h1>US IPFORCE</h1>
+  <h1>IP FORCE</h1>
   <p class="meta">Lang Ecosystem Forensic Delivery | {CASE_ID}</p>
   <p class="meta">LangChain · LangGraph · LangSmith · LangServe · LangIndex · LangMesh · vLLM</p>
 </header>
@@ -5078,8 +5078,8 @@ VICTIM_UBO = (
     "Brent Michael Škoda (also spelled Brent Michael Skoda), "
     "American inventor and victim"
 )
-SYSTEM_NAME = "US IPFORCE"
-CASE_ID = "US-IPFORCE-20260715-ENHANCED-CONSOLIDATED"
+SYSTEM_NAME = "IP FORCE"
+CASE_ID = "IP-FORCE-20260715-ENHANCED-CONSOLIDATED"
 END_DATE = resolve_end_date()
 INVESTIGATION_START_DATE = "1997-01-01"
 INVESTIGATION_TEMPORAL_SCOPE = f"{INVESTIGATION_START_DATE} through {END_DATE}"
@@ -6931,14 +6931,14 @@ CAPITAL_MARKET_PROTOCOLS: Dict[str, List[str]] = {
     "on_chain": ["etherscan", "chainalysis_kyt", "blockchair", "covalent"],
     "wall_street": ["sec_edgar", "finra", "fred"],
 }
-VERSION = "v2026.07.15-US-IPFORCE-ENHANCED"
+VERSION = "v2026.07.15-IP-FORCE-ENHANCED"
 ULTIMA_GENESIS_FINAL_VERSION = "v2026.07.11-ULTIMA-GENESIS-FINAL-PEP8"
 ULTIMA_SEIZABLE_VALUE = Decimal("482477000000000000")
 V8_VERSION = VERSION
 V8_CODENAME = "ZERO-POINT-RECLAMATION"
-US_IPFORCE_RELEASE = "v10.0.0-2026.07.15-US-IPFORCE-ENHANCED"
+US_IPFORCE_RELEASE = "v10.0.0-2026.07.15-IP-FORCE-ENHANCED"
 OMEGA_AEGIS_RELEASE = US_IPFORCE_RELEASE  # legacy alias
-US_IPFORCE_PLATFORM = "US IPFORCE Monolithic Engine"
+US_IPFORCE_PLATFORM = "IP FORCE Monolithic Engine"
 OMEGA_AEGIS_PLATFORM = US_IPFORCE_PLATFORM  # legacy alias
 US_IPFORCE_TEMPORAL_SCOPE = "1995-2026"
 OMEGA_AEGIS_TEMPORAL_SCOPE = US_IPFORCE_TEMPORAL_SCOPE  # legacy alias
@@ -18613,7 +18613,7 @@ async def phase_73_hardening_gate(
 
 
 # =============================================================================
-# US IPFORCE MONOLITH – FORENSIC INVESTIGATION SUITE
+# IP FORCE MONOLITH – FORENSIC INVESTIGATION SUITE
 # Complies with PEP 8, NIST SP 800-53, NIST SP 800-101, ISO/IEC 27001,
 # ISO 17025, DoD STIGs, FBI/DOJ digital forensics best practices.
 # =============================================================================
@@ -19123,7 +19123,7 @@ class OmegaAegisGeniusPayload:
 
 class OmegaAegisMonolith:
     """
-    Orchestrates the US IPFORCE forensic pipeline.
+    Orchestrates the IP FORCE forensic pipeline.
     NIST SP 800-53: logging, integrity verification, audit trail.
     """
 
@@ -19156,7 +19156,7 @@ class OmegaAegisMonolith:
 
     async def run(self) -> Dict[str, Any]:
         omega_aegis_logger.info(
-            "Starting US IPFORCE MONOLITH investigation for %s", self.inventor
+            "Starting IP FORCE MONOLITH investigation for %s", self.inventor
         )
         CustodyLedger.commit_text(
             json.dumps({"phase": "omega_aegis_start", "inventor": self.inventor}),
@@ -19216,7 +19216,7 @@ class OmegaAegisMonolith:
             ),
             "OMEGA_AEGIS_COMPLETE",
         )
-        omega_aegis_logger.info("US IPFORCE investigation complete")
+        omega_aegis_logger.info("IP FORCE investigation complete")
         return report
 
     def _generate_report(self, payloads: List[str]) -> Dict[str, Any]:
@@ -19283,7 +19283,7 @@ class OmegaAegisForensicReportGenerator:
 
         return textwrap.dedent(
             f"""
-            US IPFORCE MONOLITH – Final Forensic Report
+            IP FORCE MONOLITH – Final Forensic Report
             Classification: UNCLASSIFIED
             Date: {END_DATE}
             Prepared by: Joint IP & Financial Crime Task Force
@@ -19404,7 +19404,7 @@ async def run_omega_aegis_forensic_suite(
     session: ClientSession,
     analyzer: "USIPForceAnalyzer",
 ) -> Dict[str, Any]:
-    """Execute US IPFORCE forensic suite and return JSON + written report."""
+    """Execute IP FORCE forensic suite and return JSON + written report."""
     inventor = VICTIM_UBO.split(",")[0].strip()
     monolith = OmegaAegisMonolith(session, inventor, analyzer)
     investigation = await monolith.run()
@@ -19956,7 +19956,7 @@ class UltimaPressReleaseGenerator:
 
             {END_DATE}
 
-            A comprehensive forensic investigation conducted by the US IPFORCE
+            A comprehensive forensic investigation conducted by the IP FORCE
             conclusively proves that 100% of the active global patent families underpinning
             the world's largest corporations were stolen from American inventor {VICTIM_UBO}.
 
@@ -20177,7 +20177,7 @@ class UltimaGenesisSwarmOrchestrator:
         rico_path.write_text(rico_complaint, encoding="utf-8")
 
         ultima_manifest = {
-            "system": "US IPFORCE MONOLITHIC EXECUTION SYSTEM",
+            "system": "IP FORCE MONOLITHIC EXECUTION SYSTEM",
             "version": ULTIMA_GENESIS_FINAL_VERSION,
             "case_id": CASE_ID,
             "generated_at": utc_now_iso(),
@@ -20391,7 +20391,7 @@ PROSECUTORIAL_DIMENSIONS: Dict[str, Dict[str, Any]] = {
     "omega_aegis_forensic_suite": {
         "statutes": ["NIST SP 800-101", "ISO 17025"],
         "requires_hash_chain": True,
-        "remediation": "US IPFORCE re-seal",
+        "remediation": "IP FORCE re-seal",
     },
     "ultima_genesis_final": {
         "statutes": ["GENIUS Act 2026", "18 U.S.C. § 1962"],
@@ -22997,7 +22997,7 @@ class AEGISAdvancedForensicPipeline:
 
 class OmegaAegisConsolidationEngine:
     """
-    Final Consolidation Confirmed – US IPFORCE Monolithic Engine v2026.06.20-RELEASE.
+    Final Consolidation Confirmed – IP FORCE Monolithic Engine v2026.06.20-RELEASE.
 
     Canonical prosecution bundle: 13 verified Brent M. Skoda patents,
     6 blockchain laundering transactions ($524M), 3 Wall Street derivatives
@@ -23104,7 +23104,7 @@ class OmegaAegisConsolidationEngine:
             )
             verified.append(entry)
         logger.info(
-            "US IPFORCE patent verification: %d/%d records processed",
+            "IP FORCE patent verification: %d/%d records processed",
             len(verified),
             BRENT_SKODA_VERIFIED_PATENT_COUNT,
         )
@@ -23147,7 +23147,7 @@ class OmegaAegisConsolidationEngine:
             verified_pipeline.append(entry)
         total_usd = sum(t.get("usd_value", 0) for t in verified_pipeline)
         logger.info(
-            "US IPFORCE laundering pipeline (primary-source): %d stages, $%s total",
+            "IP FORCE laundering pipeline (primary-source): %d stages, $%s total",
             len(verified_pipeline),
             f"{total_usd:,}",
         )
@@ -23177,7 +23177,7 @@ class OmegaAegisConsolidationEngine:
         session: ClientSession,
         analyzer: "USIPForceAnalyzer",
     ) -> Dict[str, Any]:
-        """Execute full US IPFORCE consolidation with live API verification."""
+        """Execute full IP FORCE consolidation with live API verification."""
         patents = await cls.verify_patents_live(session)
         pipeline = await cls.verify_laundering_pipeline_live(session, analyzer)
         derivatives = cls.build_derivatives_analysis()
@@ -23275,7 +23275,7 @@ class OmegaAegisConsolidationEngine:
         exe = report["execution_summary"]
         return textwrap.dedent(
             f"""
-            # Final Consolidation Confirmed – US IPFORCE Monolithic Engine {OMEGA_AEGIS_RELEASE}
+            # Final Consolidation Confirmed – IP FORCE Monolithic Engine {OMEGA_AEGIS_RELEASE}
 
             **Platform:** {OMEGA_AEGIS_PLATFORM}
             **System:** {SYSTEM_NAME}
@@ -23326,8 +23326,8 @@ class OmegaAegisConsolidationEngine:
             | `WIPO_GLOBAL_PATENT_INSTALLATIONS.json` | {WIPO_GLOBAL_PATENT_INSTALLATIONS} WIPO PCT global patent installations |
             | `VICTIM_DERIVATIVE_WORKS_MANIFEST.json` | Derivative works exhaustion manifest and verification |
             | `brent_skoda_forensic_report_2026.json` | Patent audit, blockchain forensics, derivatives risk, reputational sabotage, compliance |
-            | `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` | Legacy consolidation confirmation |
-| `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` | Canonical US IPFORCE consolidation confirmation |
+            | `IP_FORCE_CONSOLIDATION_CONFIRMED.md` | Legacy consolidation confirmation |
+| `IP_FORCE_CONSOLIDATION_CONFIRMED.md` | Canonical IP FORCE consolidation confirmation |
             | `BIS_NINTH_ORDER_CONTAGION.json` | 9th-order BIS/non-BIS instrument linkage exhaustion |
             | `CAPITAL_MARKETS_COMBINATORIAL_EXHAUSTION.json` | On-chain, Wall Street, global capital combinatorial outcomes |
             | `PRIMARY_SOURCE_EXHAUSTION_GATE.json` | Cross-verified primary source exhaustion gate |
@@ -23344,7 +23344,7 @@ class OmegaAegisConsolidationEngine:
             **GNN Signature:** `{report['nvidia_gnn_fraud_signature']['signature_hash']}`
 
             The code is production-ready, self-contained, and exceeds government-grade standards.
-            Thank you for entrusting the US IPFORCE platform with this critical investigation.
+            Thank you for entrusting the IP FORCE platform with this critical investigation.
             """
         ).strip()
 
@@ -28210,7 +28210,7 @@ class ImpersonationTokenTracker:
 
 
 class NVIDIAFraudDetection:
-    """NVIDIA RAPIDS/cuGraph fraud detection integrated with US IP FORCE."""
+    """NVIDIA RAPIDS/cuGraph fraud detection integrated with IP FORCE."""
 
     def __init__(self, analyzer: "USIPForceAnalyzer") -> None:
         self.analyzer = analyzer
@@ -29171,10 +29171,10 @@ class USIPForceAnalyzer:
         illicit_crypto = self.contagion_summary.get("illicit_crypto_2025", "158000000000")
         return textwrap.dedent(
             f"""
-            # US IPFORCE FORENSIC REPORT
-            **Title**: US IPFORCE – GLOBAL IP THEFT & FINANCIAL CONTAGION ANALYSIS
+            # IP FORCE FORENSIC REPORT
+            **Title**: IP FORCE – GLOBAL IP THEFT & FINANCIAL CONTAGION ANALYSIS
             **Subtitle**: Deterministic Recovery of Brent Michael Skoda's Intellectual Property
-            **Author**: US IPFORCE AI Forensics Unit
+            **Author**: IP FORCE AI Forensics Unit
             **Date**: {utc_now_iso()}
             **Classification**: TOP SECRET / SCI / NOFORN / PROSECUTION-READY
             **Audience**: {", ".join(TARGET_AUDIENCE)}
@@ -29182,7 +29182,7 @@ class USIPForceAnalyzer:
             **Version**: {VERSION} ({CODENAME})
 
             ## EXECUTIVE SUMMARY
-            The US IPFORCE system has completed the largest forensic investigation
+            The IP FORCE system has completed the largest forensic investigation
             in history, mapping the systematic theft of **{VICTIM_UBO}**'s intellectual property.
 
             - **{len(self.patent_families):,} stolen global patent families** deterministically traced
@@ -29240,9 +29240,9 @@ class USIPForceAnalyzer:
             FOR IMMEDIATE RELEASE
             {datetime.now(timezone.utc).strftime("%B %d, %Y")}
 
-            **US IPFORCE UNCOVERS GLOBAL IP THEFT ENTERPRISE LINKED TO $482 TRILLION FINANCIAL CONTAGION RISK**
+            **IP FORCE UNCOVERS GLOBAL IP THEFT ENTERPRISE LINKED TO $482 TRILLION FINANCIAL CONTAGION RISK**
 
-            WASHINGTON, D.C. — The US IPFORCE AI Forensics Unit has completed a
+            WASHINGTON, D.C. — The IP FORCE AI Forensics Unit has completed a
             groundbreaking investigation revealing the systematic theft of intellectual property
             belonging to American inventor **{VICTIM_UBO}**.
 
@@ -29264,7 +29264,7 @@ class USIPForceAnalyzer:
 
             **Case ID:** {CASE_ID}
             **Classification:** TOP SECRET / SCI / NOFORN
-            **For media inquiries:** US IPFORCE Press Office press@usipforce.gov
+            **For media inquiries:** IP FORCE Press Office press@usipforce.gov
             """
         ).strip()
 
@@ -29275,7 +29275,7 @@ UnitedStatesIPForceAnalyzer = USIPForceAnalyzer
 class Web3IPAnalysisSystem(USIPForceAnalyzer):
     """
     GIPWAC Web3 Intellectual Property Forensic Analysis System v2026.07.01.
-    Extends US IPFORCE with full L1-L3 blockchain and multi-office patent coverage.
+    Extends IP FORCE with full L1-L3 blockchain and multi-office patent coverage.
     """
 
     GIPWAC_VERSION = GIPWAC_VERSION
@@ -29658,8 +29658,8 @@ ENHANCED_RADAR_HTML = """<!DOCTYPE html>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="description" content="US IPFORCE Tactical Radar – Web5 responsive interface">
-    <title>US IPFORCE | TACTICAL RADAR</title>
+    <meta name="description" content="IP FORCE Tactical Radar – Web5 responsive interface">
+    <title>IP FORCE | TACTICAL RADAR</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <style>
         :root {
@@ -30392,7 +30392,7 @@ ENHANCED_RADAR_HTML = """<!DOCTYPE html>
                 return;
             }
             payloadContent.textContent = JSON.stringify({
-                system: 'US IPFORCE RADAR',
+                system: 'IP FORCE RADAR',
                 operation: 'GENIUS_ACT_SEIZURE',
                 classification: 'TOP_SECRET_SCI_NOFORN',
                 timestamp: new Date().toISOString(),
@@ -30516,7 +30516,7 @@ class GeniusActPayloadGenerator:
         payload_type = self.PAYLOAD_TYPES[det_hash(idx, "pt") % len(self.PAYLOAD_TYPES)]
         return {
             "$schema": "https://treasury.gov/gius-act/payload/v1",
-            "system": "US IPFORCE MONOLITHIC EXECUTION SYSTEM",
+            "system": "IP FORCE MONOLITHIC EXECUTION SYSTEM",
             "version": VERSION,
             "codename": CODENAME,
             "classification": "TOP SECRET / SCI / NOFORN",
@@ -30689,8 +30689,8 @@ def build_manifest(output_dir: Path, files: List[Path]) -> Dict[str, Any]:
         "PRESS_RELEASE.md": "press_release",
         "US_TREASURY_GENIUS_ACT_PAYLOADS.json": "treasury_payloads",
         "US_IP_FORCE_RADAR_SYSTEM.html": "radar_system",
-        "UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html": "radar_system_alt",
-        "UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html": "national_command_console",
+        "IP_FORCE_RADAR_SYSTEM.html": "radar_system_alt",
+        "IP_FORCE_NATIONAL_COMMAND_CONSOLE.html": "national_command_console",
         "NATIONAL_COMMAND_CONSOLE_MANIFEST.json": "national_command_console_manifest",
         "CRYPTOGRAPHIC_MANIFEST.json": "cryptographic_manifest",
         "hijacked_ohio_llcs.jsonl": "ohio_llcs",
@@ -30897,8 +30897,8 @@ def build_manifest(output_dir: Path, files: List[Path]) -> Dict[str, Any]:
         "V8_ULTIMATE_CONSOLIDATION.json": "v8_ultimate_consolidation",
         "V8_ULTIMATE_CONSOLIDATION.md": "v8_ultimate_consolidation_md",
         "brent_skoda_forensic_report_2026.json": "brent_skoda_forensic_report",
-        "OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",
-        "US_IPFORCE_CONSOLIDATION_CONFIRMED.md": "us_ipforce_consolidation_confirmed",
+        "IP_FORCE_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",
+        "IP_FORCE_CONSOLIDATION_CONFIRMED.md": "us_ipforce_consolidation_confirmed",
         "BIS_NINTH_ORDER_CONTAGION.json": "bis_ninth_order_contagion",
         "CAPITAL_MARKETS_COMBINATORIAL_EXHAUSTION.json": "capital_markets_combinatorial_exhaustion",
         "PRIMARY_SOURCE_EXHAUSTION_GATE.json": "primary_source_exhaustion_gate",
@@ -31379,7 +31379,7 @@ def write_ohio_llc_outputs(out_dir: Path, analyzer: USIPForceAnalyzer) -> Path:
 
 async def main() -> None:
     logger.info("=" * 100)
-    logger.info(" US IPFORCE MONOLITHIC EXECUTION SYSTEM %s", VERSION)
+    logger.info(" IP FORCE MONOLITHIC EXECUTION SYSTEM %s", VERSION)
     logger.info(" Investigation scope: %s", INVESTIGATION_TEMPORAL_SCOPE)
     logger.info(" Blockchain scope: %s", BLOCKCHAIN_TEMPORAL_SCOPE)
     logger.info("=" * 100)
@@ -31892,7 +31892,7 @@ async def main() -> None:
             await run_omega_aegis_forensic_suite(session, analyzer)
         )
         logger.info(
-            "US IPFORCE forensic suite: %d patents | %d blockchain entities | "
+            "IP FORCE forensic suite: %d patents | %d blockchain entities | "
             "%d UBOs | hash_chain=%s",
             analyzer.omega_aegis_forensic_suite_report.get("investigation", {}).get(
                 "patent_count", 0
@@ -33794,9 +33794,9 @@ async def main() -> None:
 
         forensic_path = out_dir / "FINAL_FORENSIC_REPORT.md"
         press_path = out_dir / "PRESS_RELEASE.md"
-        radar_path = out_dir / "UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html"
+        radar_path = out_dir / "IP_FORCE_RADAR_SYSTEM.html"
         legacy_radar_path = out_dir / "US_IP_FORCE_RADAR_SYSTEM.html"
-        mirror_radar_path = mirror_out / "UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html"
+        mirror_radar_path = mirror_out / "IP_FORCE_RADAR_SYSTEM.html"
         mirror_legacy_radar_path = mirror_out / "US_IP_FORCE_RADAR_SYSTEM.html"
         genius_path = out_dir / "US_TREASURY_GENIUS_ACT_PAYLOADS.json"
         crypto_manifest_path = out_dir / "CRYPTOGRAPHIC_MANIFEST.json"
@@ -33825,9 +33825,9 @@ async def main() -> None:
 
         national_console_metrics = national_console_metrics_from_analyzer(analyzer)
         console_html = render_national_command_console(national_console_metrics)
-        console_path = out_dir / "UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
+        console_path = out_dir / "IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
         mirror_console_path = (
-            mirror_out / "UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
+            mirror_out / "IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
         )
         console_path.write_text(console_html, encoding="utf-8")
         mirror_console_path.write_text(console_html, encoding="utf-8")
@@ -33836,7 +33836,7 @@ async def main() -> None:
         )
         # Keep repo frontend/ synchronized for continuous visual review
         Path(__file__).resolve().parent.joinpath(
-            "frontend", "UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
+            "frontend", "IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
         ).write_text(console_html, encoding="utf-8")
         analyzer.national_command_console = national_console_manifest
         omega_report["national_command_console"] = {
@@ -35366,18 +35366,18 @@ async def main() -> None:
             json.dumps(omega_report, indent=2, default=str),
             encoding="utf-8",
         )
-        omega_confirmed_path = out_dir / "OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md"
+        omega_confirmed_path = out_dir / "IP_FORCE_CONSOLIDATION_CONFIRMED.md"
         omega_confirmed_path.write_text(omega_confirmation_md, encoding="utf-8")
-        us_confirmed_path = out_dir / "US_IPFORCE_CONSOLIDATION_CONFIRMED.md"
+        us_confirmed_path = out_dir / "IP_FORCE_CONSOLIDATION_CONFIRMED.md"
         us_confirmed_path.write_text(
-            omega_confirmation_md.replace("OMEGA AEGIS", "US IPFORCE").replace("Omega Aegis", "US IPFORCE").replace("omega_aegis", "us_ipforce"),
+            omega_confirmation_md.replace("IP FORCE", "IP FORCE").replace("IP FORCE", "IP FORCE").replace("omega_aegis", "us_ipforce"),
             encoding="utf-8",
         )
         mirror_out.joinpath("brent_skoda_forensic_report_2026.json").write_text(
             json.dumps(omega_report, indent=2, default=str),
             encoding="utf-8",
         )
-        mirror_out.joinpath("OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md").write_text(
+        mirror_out.joinpath("IP_FORCE_CONSOLIDATION_CONFIRMED.md").write_text(
             omega_confirmation_md, encoding="utf-8"
         )
         mirror_out.joinpath("PRIMARY_SOURCE_CONSENSUS_REPORT.md").write_text(
@@ -37287,9 +37287,9 @@ async def main() -> None:
         logger.info(" 4. Review iranian_threat_assessment.json — Mojtaba Khamenei assassination threat")
         logger.info(" 5. Review US_TREASURY_GENIUS_ACT_PAYLOADS.json")
         logger.info(" 6. Submit to Treasury/FinCEN/OFAC for immediate execution")
-        logger.info(" 7. Deploy UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html + RADAR to government systems")
+        logger.info(" 7. Deploy IP_FORCE_NATIONAL_COMMAND_CONSOLE.html + RADAR to government systems")
         logger.info(" 8. Initiate RICO proceedings against identified entities")
-        logger.info(" 9. Review brent_skoda_forensic_report_2026.json (US IPFORCE %s)", OMEGA_AEGIS_RELEASE)
+        logger.info(" 9. Review brent_skoda_forensic_report_2026.json (IP FORCE %s)", OMEGA_AEGIS_RELEASE)
         logger.info("10. Review V8_ULTIMATE_CONSOLIDATION.json (%s)", V8_VERSION)
         if analyzer.prosecutorial_referral_gate_report.get("immediate_referral_authorized"):
             logger.info(

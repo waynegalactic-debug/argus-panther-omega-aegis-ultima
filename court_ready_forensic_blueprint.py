@@ -863,7 +863,7 @@ class CourtReadyForensicBlueprint:
 
 
 class CourtReadyForensicBlueprintIntegration:
-    """Bridge court-ready blueprint into US IPFORCE monolith."""
+    """Bridge court-ready blueprint into IP FORCE monolith."""
 
     RELEASE = BLUEPRINT_RELEASE
 

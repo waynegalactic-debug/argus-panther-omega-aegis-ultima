@@ -378,12 +378,12 @@ class PhoenixShieldOmegaUniqueEnginesExhaustionEngine:
                     "Deploy National Command Console for Situation Room review",
                     "Execute prosecutorial gap remediation plan",
                 ],
-                "prepared_by": "US IPFORCE / AEGIS",
+                "prepared_by": "IP FORCE / AEGIS",
                 "date": utc_now_iso(),
             },
             "legal_memo": {
                 "to": "White House Situation Room / DOJ / Treasury",
-                "from": "US IPFORCE AEGIS",
+                "from": "IP FORCE AEGIS",
                 "date": utc_now_iso(),
                 "re": "Phoenix Shield unique engine integration",
                 "question_presented": "Whether unique Phoenix Shield engines enhance AEGIS prosecutorial readiness.",
@@ -396,7 +396,7 @@ class PhoenixShieldOmegaUniqueEnginesExhaustionEngine:
                 "victim": VICTIM_INVENTOR,
             },
             "press_release": {
-                "headline": "US IPFORCE integrates Phoenix Shield court-document and market engines",
+                "headline": "IP FORCE integrates Phoenix Shield court-document and market engines",
                 "dateline": "WASHINGTON",
                 "lead": "AEGIS incorporates unique Phoenix Shield engines for court delivery and market forensics.",
                 "body_paragraphs": [

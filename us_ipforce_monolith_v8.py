@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE – MONOLITHIC EXECUTION SYSTEM
+IP FORCE – MONOLITHIC EXECUTION SYSTEM
 ================================================================================
 Canonical self-contained monolith: us_ipforce_monolith.py
 Live modular pipeline: us_ipforce_monolith_live.py

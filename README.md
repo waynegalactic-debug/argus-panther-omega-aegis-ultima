@@ -1,18 +1,18 @@
-# US IPFORCE
+# IP FORCE
 
-**United States Intellectual Property Force** — fully consolidated, updated, and
+**IP FORCE** — fully consolidated, updated, and
 enhanced forensic IP-enforcement system.
 
 | Field | Value |
 |-------|-------|
-| Version | `v2026.07.15-US-IPFORCE-ENHANCED` |
-| Case ID | `US-IPFORCE-20260715-ENHANCED-CONSOLIDATED` |
-| Release | `v10.0.0-2026.07.15-US-IPFORCE-ENHANCED` |
+| Version | `v2026.07.15-IP-FORCE-ENHANCED` |
+| Case ID | `IP-FORCE-20260715-ENHANCED-CONSOLIDATED` |
+| Release | `v10.0.0-2026.07.15-IP-FORCE-ENHANCED` |
 | Generated | `2026-07-15` |
 | Status | PRODUCTION-READY — Immediate Execution Capable |
 
-Legacy names (ARGUS-PANTHER, OMEGA AEGIS, Ω-ÆGIS) remain only as thin compatibility
-shims. Canonical brand is **US IPFORCE**.
+Legacy names (IP FORCE, IP FORCE, IP FORCE) remain only as thin compatibility
+shims. Canonical brand is **IP FORCE**.
 
 ---
 
@@ -31,17 +31,17 @@ python3 us_ipforce_monolith_live.py
 python3 us_ipforce_deterministic_all.py run
 python3 court_ready_forensic_blueprint.py run
 
-# Legacy shim (forwards to US IPFORCE)
-python3 ARGUS_ULTIMA.py
+# Legacy shim (forwards to IP FORCE)
+python3 IP_FORCE.py
 ```
 
 Optional web UI:
 
 ```bash
-US_IPFORCE_SERVE=1 python3 us_ipforce.py
+IP_FORCE_SERVE=1 python3 us_ipforce.py
 # or static console:
 python3 -m http.server 8099 --directory frontend
-# open UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
+# open IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
 ```
 
 ---
@@ -62,7 +62,7 @@ python3 -m http.server 8099 --directory frontend
 | `data/` | Attorney / victim / LLC JSON rosters |
 | `frontend/` | National Command Console HTML |
 | `CORPUS_HARDENING_GATE.py` | 99.99% completeness / FRE 901 gate |
-| `ARGUS_ULTIMA.py` | Legacy shim → `us_ipforce_monolith` |
+| `IP_FORCE.py` | Legacy shim → `us_ipforce_monolith` |
 
 ---
 
@@ -70,7 +70,7 @@ python3 -m http.server 8099 --directory frontend
 
 Establish deterministic proof of IP ownership for stolen global patent families,
 trace illicit financial flows, model contagion pathways, and generate Genius Act
-2026-compliant seizure payloads — all under the single **US IPFORCE** brand.
+2026-compliant seizure payloads — all under the single **IP FORCE** brand.
 
 **Victim / UBO:** Brent Michael Skoda  
 **Primary adversary track:** Meta Platforms, Inc. (NASDAQ: META) and linked shells
@@ -88,16 +88,16 @@ trace illicit financial flows, model contagion pathways, and generate Genius Act
 
 ## Outputs
 
-Artifacts write under `us_ipforce_output/` (and legacy `us_ip_force_output/` where
+Artifacts write under `ip_force_output/` (and legacy `us_ip_force_output/` where
 compatibility paths remain), including:
 
-- `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` (canonical)
-- `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` (legacy alias)
+- `IP_FORCE_CONSOLIDATION_CONFIRMED.md` (canonical)
+- `IP_FORCE_CONSOLIDATION_CONFIRMED.md` (legacy alias)
 - Court-ready JSON / Markdown prosecution bundles
 - HMAC-SHA3-512 self-authenticated evidence envelopes
 
-See `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` and
-`US_IPFORCE_ENHANCED_MANIFEST.json` for the consolidation seal.
+See `IP_FORCE_CONSOLIDATION_CONFIRMED.md` and
+`IP_FORCE_ENHANCED_MANIFEST.json` for the consolidation seal.
 
 ---
 
@@ -118,4 +118,4 @@ Optional GPU/ML deps are ImportError-guarded and safe to omit.
 US Treasury, FinCEN, OFAC, IRS-CI, US Secret Service, FBI, USPTO, DOJ  
 Classification: LAW ENFORCEMENT SENSITIVE
 
-© 2026 US IPFORCE
+© 2026 IP FORCE

@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from typing import Dict, List, Tuple, Any, Optional
 from dataclasses import dataclass, asdict
 
-logger = logging.getLogger("argus.hardening_gate")
+logger = logging.getLogger("ip_force")
 
 @dataclass
 class DimensionScore:

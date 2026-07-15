@@ -1,16 +1,16 @@
-US IPFORCE: Forensic Investigation Report
+IP FORCE: Forensic Investigation Report
 ========================================
-Date: 2026-07-15 | Case ID: US-IPFORCE-20260715-ENHANCED-CONSOLIDATED
-Version: v2026.07.15-US-IPFORCE-ENHANCED
+Date: 2026-07-15 | Case ID: IP-FORCE-20260715-ENHANCED-CONSOLIDATED
+Version: v2026.07.15-IP-FORCE-ENHANCED
 Classification: LAW ENFORCEMENT SENSITIVE
 
 EXECUTIVE SUMMARY
 -----------------
-Fully consolidated US IPFORCE forensic package deployed in this repository.
+Fully consolidated IP FORCE forensic package deployed in this repository.
 Canonical engines: us_ipforce_monolith.py + us_ipforce_monolith_live.py.
-Legacy ARGUS_ULTIMA.py is a thin shim to US IPFORCE.
+Legacy IP_FORCE.py is a thin shim to IP FORCE.
 
-See US_IPFORCE_CONSOLIDATION_CONFIRMED.md and US_IPFORCE_ENHANCED_MANIFEST.json
+See IP_FORCE_CONSOLIDATION_CONFIRMED.md and IP_FORCE_ENHANCED_MANIFEST.json
 for integrity seals and artifact hashes. Run:
 
   python3 us_ipforce.py

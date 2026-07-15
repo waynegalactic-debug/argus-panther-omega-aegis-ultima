@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE – canonical entry point.
+IP FORCE – canonical entry point.
 
 One cohesive forensic IP-enforcement system.
 Self-contained monolith: us_ipforce_monolith.py

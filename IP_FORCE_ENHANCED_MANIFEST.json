@@ -1,9 +1,9 @@
 {
   "artifacts": {
-    "ARGUS_ULTIMA.py": {
+    "IP_FORCE.py": {
       "bytes": 712,
       "lines": 29,
-      "path": "ARGUS_ULTIMA.py",
+      "path": "IP_FORCE.py",
       "sha256": "bfb7f5568fc33e23d397d9ff2f39e42da6ca986fa84e17c28fc9ed4d56de8875"
     },
     "CORPUS_HARDENING_GATE.py": {
@@ -79,8 +79,8 @@
       "sha256": "52bc532d4e4cb84b4d6753d0a93179a67415bb5114b9bf3671f9e70adf7398ea"
     }
   },
-  "brand": "US IPFORCE",
-  "case_id": "US-IPFORCE-20260715-ENHANCED-CONSOLIDATED",
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260715-ENHANCED-CONSOLIDATED",
   "generated_utc": "2026-07-15T17:17:48.726502+00:00",
   "manifest_sha256": "2e6e891b6992f00e1fd77edb689b4b55d3d01410611bb7dfafe1e3d636f056bc",
   "package_counts": {
@@ -104,15 +104,15 @@
       "sha256": "af115b7d2e2b362c7f8c424db4aef5f3d17d617dc804fa19c1db66b874fada4a"
     }
   ],
-  "release": "v10.0.0-2026.07.15-US-IPFORCE-ENHANCED",
+  "release": "v10.0.0-2026.07.15-IP-FORCE-ENHANCED",
   "repository": "waynegalactic-debug/argus-panther-omega-aegis-ultima",
   "source_consolidation": [
     "cursor/us_ipforce_monolith.py",
     "cursor/us_ipforce_monolith_live.py",
     "cursor/phoenix_shield/*",
     "cursor/data/*",
-    "cursor/frontend/UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
+    "cursor/frontend/IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
     "local CORPUS_HARDENING_GATE.py"
   ],
-  "version": "v2026.07.15-US-IPFORCE-ENHANCED"
+  "version": "v2026.07.15-IP-FORCE-ENHANCED"
 }

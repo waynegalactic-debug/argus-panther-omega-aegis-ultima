@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE v18.2 – IRAN WAR ESCALATION FINAL MONOLITH
+IP FORCE v18.2 – IRAN WAR ESCALATION FINAL MONOLITH
 ================================================================================
 CLASSIFICATION: TOP SECRET//SCI//ORCON//NOFORN//IRAN-WAR-ESCALATION
 DISTRIBUTION: POTUS, VPOTUS, NSC, Treasury, DOJ, FBI, CIA, DOD, DEA, USSS
@@ -166,7 +166,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger('OMEGA_AEGIS_ULTIMATE')
+logger = logging.getLogger("IP_FORCE")
 logger.setLevel(logging.INFO)
 
 # High precision for financial calculations
@@ -622,7 +622,7 @@ class LangChainClient:
         return {'sentiment': 'positive', 'confidence': 0.8}
 
 # -----------------------------------------------------------------------------
-# Main Analysis Engine – US IPFORCE
+# Main Analysis Engine – IP FORCE
 # -----------------------------------------------------------------------------
 class OmegaAegisUltimate:
     """The monolithic forensic analysis engine."""
@@ -673,7 +673,7 @@ class OmegaAegisUltimate:
         if self.monolith_context["patent_count"]:
             self.evidence_corpus.add_evidence(
                 {"monolith_ingestion": self.monolith_context},
-                "US IPFORCE Monolith",
+                "IP FORCE Monolith",
             )
         enterprise = getattr(analyzer, "ceo_patent_enterprise_audit", None)
         if enterprise:
@@ -802,7 +802,7 @@ class OmegaAegisUltimate:
         self.evidence_corpus.add_evidence(payload, 'GENIUS Act Payload')
 
     async def run_full_analysis(self) -> None:
-        logger.info("=== US IPFORCE v18.2 START ===")
+        logger.info("=== IP FORCE v18.2 START ===")
         await self.expand_patent_families(SEED_PATENT)
         await self.trace_iranian_wallets()
         await self.identify_fentanyl_tokens()
@@ -815,7 +815,7 @@ class OmegaAegisUltimate:
             self.evidence_corpus.harden_gaps()
         self.compile_report()
         self.write_outputs()
-        logger.info("=== US IPFORCE v18.2 COMPLETE ===")
+        logger.info("=== IP FORCE v18.2 COMPLETE ===")
 
     def compile_report(self) -> None:
         self.report = {
@@ -917,7 +917,7 @@ class OmegaAegisUltimate:
             json.dumps(
                 {
                     "release": ABD_MAXIMIZE_RELEASE,
-                    "engine": "US IPFORCE v18.2",
+                    "engine": "IP FORCE v18.2",
                     "completeness_score": self.evidence_corpus.completeness_score,
                     "evidence_count": len(self.evidence_corpus.evidence),
                     "iranian_entities": list(self.evidence_corpus.iranian_entities),
@@ -954,7 +954,7 @@ class OmegaAegisUltimate:
     def _generate_summary(self) -> str:
         return f"""
         ================================================================================
-        US IPFORCE v18.2 – EXECUTIVE SUMMARY
+        IP FORCE v18.2 – EXECUTIVE SUMMARY
         ================================================================================
         Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}
         Seed Patent: {SEED_PATENT['number']} ({SEED_PATENT['title']}) priority {SEED_PATENT['priority_date']}
@@ -974,9 +974,9 @@ class OmegaAegisUltimate:
         ================================================================================
         FOR IMMEDIATE RELEASE
         ================================================================================
-        US IPFORCE FORENSIC ANALYSIS REVEALS UNPRECEDENTED IRANIAN THEFT OF AMERICAN IP
+        IP FORCE FORENSIC ANALYSIS REVEALS UNPRECEDENTED IRANIAN THEFT OF AMERICAN IP
 
-        Washington, DC – {datetime.now().strftime('%B %d, %Y')} – The US IPFORCE forensic
+        Washington, DC – {datetime.now().strftime('%B %d, %Y')} – The IP FORCE forensic
         engine has conclusively identified a massive theft of over 15,000 US patent families
         by Iranian state‑sponsored actors, including the IRGC and Quds Force.
 
@@ -997,7 +997,7 @@ class OmegaAegisUltimate:
 
 class ABDMaximizeIntegration:
     """
-    ABD Maximize bridge – wires US IPFORCE v18.2 into the US IPFORCE monolith.
+    ABD Maximize bridge – wires IP FORCE v18.2 into the IP FORCE monolith.
     """
 
     RELEASE = ABD_MAXIMIZE_RELEASE

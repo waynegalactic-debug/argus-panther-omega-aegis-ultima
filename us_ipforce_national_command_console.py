@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE — National Command Console (frontend generator)
+IP FORCE — National Command Console (frontend generator)
 
 WhiteHouse.gov–aligned, futuristic-yet-realistic HTML5/CSS3+ adaptive UI.
 Regenerates with each maximize iteration so operators can review the living
@@ -12,7 +12,7 @@ Standalone:
     python3 us_ip_force_national_command_console.py run
 
 Outputs:
-    frontend/UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
+    frontend/IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
     (and optional out_dir copies when invoked from the monolith)
 """
 from __future__ import annotations
@@ -30,14 +30,14 @@ from typing import Any, Dict, Mapping, Optional
 
 logger = logging.getLogger("us_ip_force_national_command_console")
 
-ENGINE_RELEASE = "US-IP-FORCE-NATIONAL-COMMAND-CONSOLE-2026.07.13"
+ENGINE_RELEASE = "IP-FORCE-NATIONAL-COMMAND-CONSOLE-2026.07.13"
 VICTIM_INVENTOR = "Brent Michael Škoda"
 FOUNDATIONAL_PATENT_ID = "CZ1997-CaffeineVaporizer"
 FOUNDATIONAL_DATE = "1997-03-15"
 PERIOD_A_START = "1997-03-01"
 NATIONAL_VALUE_AT_RISK = Decimal("19600000000000000")
 GODADDY_ACCOUNT = "474-9532"
-CONSOLE_FILENAME = "UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
+CONSOLE_FILENAME = "IP_FORCE_NATIONAL_COMMAND_CONSOLE.html"
 
 DEFAULT_METRICS: Dict[str, Any] = {
     "release": ENGINE_RELEASE,
@@ -63,7 +63,7 @@ DEFAULT_METRICS: Dict[str, Any] = {
         {
             "id": "radar",
             "title": "Web5 Radar System",
-            "href": "UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html",
+            "href": "IP_FORCE_RADAR_SYSTEM.html",
             "blurb": "Tactical target lock and GENIUS Act payload visualization.",
         },
         {
@@ -201,8 +201,8 @@ def render_national_command_console(metrics: Optional[Mapping[str, Any]] = None)
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light" />
   <meta name="theme-color" content="#0b1f3a" />
-  <meta name="description" content="US IPFORCE National Command Console — Situation Room extension surface for maximize-pipeline review." />
-  <title>US IPFORCE — National Command Console</title>
+  <meta name="description" content="IP FORCE National Command Console — Situation Room extension surface for maximize-pipeline review." />
+  <title>IP FORCE — National Command Console</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
@@ -846,7 +846,7 @@ def render_national_command_console(metrics: Optional[Mapping[str, Any]] = None)
     <a class="brand-lockup" href="#top" id="top">
       <span class="seal" aria-hidden="true"></span>
       <span class="brand-text">
-        <span>US IPFORCE</span>
+        <span>IP FORCE</span>
         <span>National Command Console</span>
       </span>
     </a>
@@ -871,11 +871,11 @@ def render_national_command_console(metrics: Optional[Mapping[str, Any]] = None)
     </svg>
     <div class="hero-inner">
       <p class="hero-kicker">Executive branch review surface</p>
-      <h1 class="hero-brand">US IPFORCE</h1>
+      <h1 class="hero-brand">IP FORCE</h1>
       <p class="hero-lead">A living national command console for maximize-pipeline exhaustion, True-UBO resolution, and Situation Room–ready verification.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#command">Enter command deck</a>
-        <a class="btn btn-ghost" href="UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html">Open radar</a>
+        <a class="btn btn-ghost" href="IP_FORCE_RADAR_SYSTEM.html">Open radar</a>
       </div>
     </div>
   </section>
@@ -959,7 +959,7 @@ seal: {html.escape(seal[:32])}…</pre>
 
   <footer>
     <div class="section-inner">
-      <div class="seal-line">US IPFORCE · National Command Console</div>
+      <div class="seal-line">IP FORCE · National Command Console</div>
       <p><strong>Victim:</strong> {html.escape(str(m["victim_inventor"]))} · <strong>GoDaddy:</strong> {html.escape(str(m["godaddy_account"]))} · <strong>F500 issuers:</strong> {html.escape(str(m["fortune500_issuers"]))} · <strong>Unique persons:</strong> {html.escape(str(m["unique_canonical_persons"]))}</p>
       <p>Designed as a futuristic yet realistic extension for White House Situation Room review alongside WhiteHouse.gov operational culture — navy authority, Public Sans / Merriweather typography, and adaptive multi-modal controls.</p>
       <p class="meta">SHA3-256 seal: {html.escape(seal)} · {html.escape(str(m["release"]))}</p>
@@ -1093,7 +1093,7 @@ seal: {html.escape(seal[:32])}…</pre>
   function handleVoice(text) {{
     const t = (text || '').toLowerCase();
     voiceStatus.textContent = 'Heard: “' + text + '”';
-    if (t.includes('radar')) location.href = 'UNITED_STATES_IP_FORCE_RADAR_SYSTEM.html';
+    if (t.includes('radar')) location.href = 'IP_FORCE_RADAR_SYSTEM.html';
     else if (t.includes('verify') || t.includes('console')) location.href = 'LE_WHITE_HOUSE_ONE_CLICK_VERIFICATION_CONSOLE.html';
     else if (t.includes('command') || t.includes('deck')) document.getElementById('command').scrollIntoView({{ behavior: 'smooth' }});
     else if (t.includes('mission')) document.getElementById('mission').scrollIntoView({{ behavior: 'smooth' }});
@@ -1201,7 +1201,7 @@ class Integration:
 
 def main(argv: Optional[list] = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    parser = argparse.ArgumentParser(description="US IPFORCE National Command Console")
+    parser = argparse.ArgumentParser(description="IP FORCE National Command Console")
     parser.add_argument("command", nargs="?", default="render", choices=["render", "run"])
     parser.add_argument("--out", type=Path, default=None, help="Output directory")
     args = parser.parse_args(argv)

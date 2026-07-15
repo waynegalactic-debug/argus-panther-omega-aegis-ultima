@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""US IPFORCE – hardened entry (US_IPFORCE_HARDENED=1)."""
+"""IP FORCE – hardened entry (US_IPFORCE_HARDENED=1)."""
 import os
 import asyncio
 import sys

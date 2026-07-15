@@ -1055,7 +1055,7 @@ class CorpusCompletenessHardeningMaximize:
 
 
 class CorpusCompletenessHardeningMaximizeIntegration:
-    """Bridge into US IPFORCE monolith."""
+    """Bridge into IP FORCE monolith."""
 
     RELEASE = GATE_RELEASE
 

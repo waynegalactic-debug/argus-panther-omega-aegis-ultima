@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-US IPFORCE v21.0 – FINAL CONSOLIDATED MONOLITH
+IP FORCE v21.0 – FINAL CONSOLIDATED MONOLITH
 ================================================================================
 CLASSIFICATION: TOP SECRET//SCI//ORCON//NOFORN//IRAN-WAR-ESCALATION
 DISTRIBUTION: POTUS, VPOTUS, NSC, Treasury, DOJ, FBI, CIA, DOD, DEA, USSS
@@ -72,7 +72,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-logger = logging.getLogger("OMEGA_AEGIS_ULTIMATE")
+logger = logging.getLogger("IP_FORCE")
 getcontext().prec = 1000
 
 DETERMINISTIC_ALL_RELEASE = "v21.0-FINAL-CONSOLIDATED"
@@ -97,7 +97,7 @@ API_KEYS = {
     "OFAC": os.getenv("OFAC_API_KEY", ""),
 }
 
-SYSTEM_NAME = "US IPFORCE"
+SYSTEM_NAME = "IP FORCE"
 VERSION = "v21.0"
 CASE_ID = f"OMEGA-AEGIS-{datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')}"
 VICTIM_INVENTOR = "Brent Michael Škoda"
@@ -414,7 +414,7 @@ class OmegaAegisUltimateFinal:
             }
         self.evidence_corpus.add_evidence(
             {"monolith_context": self.monolith_context, "deterministic_hash": deterministic_hash("context")},
-            "US IPFORCE Monolith",
+            "IP FORCE Monolith",
         )
 
     async def _make_request(
@@ -647,9 +647,9 @@ class OmegaAegisUltimateFinal:
         return f"""FOR IMMEDIATE RELEASE
 {date_str}
 
-US IPFORCE v21.0 – FINAL CONSOLIDATED FORENSIC ANALYSIS
+IP FORCE v21.0 – FINAL CONSOLIDATED FORENSIC ANALYSIS
 
-Washington, D.C. – The US IPFORCE engine has completed deterministic
+Washington, D.C. – The IP FORCE engine has completed deterministic
 scaling across Fortune 5000, Global 2000, and S&P 500 corporations and leadership.
 
 KEY FINDINGS:
@@ -737,7 +737,7 @@ All evidence cryptographically signed and archived for court proceedings.
         return mirrored
 
     async def run(self) -> Dict[str, Any]:
-        logger.info("Starting US IPFORCE v21.0 – DeterministicAll Maximize")
+        logger.info("Starting IP FORCE v21.0 – DeterministicAll Maximize")
         self.evidence_corpus.harden_corpus()
         await self.analyze_seed_patent()
         await self._scale_deterministic_all()
@@ -756,7 +756,7 @@ All evidence cryptographically signed and archived for court proceedings.
 
 
 class DeterministicAllMaximizeIntegration:
-    """Bridge US IPFORCE v21.0 into the US IPFORCE monolith."""
+    """Bridge IP FORCE v21.0 into the IP FORCE monolith."""
 
     RELEASE = DETERMINISTIC_ALL_RELEASE
 

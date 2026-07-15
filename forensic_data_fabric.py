@@ -702,7 +702,7 @@ class ForensicDataFabric:
 
 
 class ForensicDataFabricIntegration:
-    """Bridge Forensic Data Fabric into US IPFORCE monolith."""
+    """Bridge Forensic Data Fabric into IP FORCE monolith."""
 
     RELEASE = FABRIC_RELEASE
 

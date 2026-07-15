@@ -1,6 +1,6 @@
 """
 AEGIS Advanced Mathematical Forensic Models v4.0.0
-Embedded module for US IPFORCE Monolith v9.
+Embedded module for IP FORCE Monolith v9.
 """
 import hashlib
 import math

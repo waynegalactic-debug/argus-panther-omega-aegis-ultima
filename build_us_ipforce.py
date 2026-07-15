@@ -22,16 +22,16 @@ def patch_metadata(text: str) -> str:
             'from typing import Any, Dict, List, Optional, Set, Tuple',
         ),
         (
-            "US IPFORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.07-ULTIMA-GENESIS",
-            "US IPFORCE MONOLITH – FULLY SELF-CONTAINED CONSOLIDATION v2026.07.11",
+            "IP FORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.07-ULTIMA-GENESIS",
+            "IP FORCE MONOLITH – FULLY SELF-CONTAINED CONSOLIDATION v2026.07.11",
         ),
         (
             'VERSION = "v2026.07.07-ULTIMA-GENESIS"',
             'VERSION = "v2026.07.11-OMEGA-AEGIS-V9-CONSOLIDATED"',
         ),
         (
-            'CASE_ID = "US-IP-FORCE-20260702-ULTIMA-GENESIS-FINAL"',
-            'CASE_ID = "US-IP-FORCE-20260711-OMEGA-AEGIS-V9-FINAL"',
+            'CASE_ID = "IP-FORCE-20260702-ULTIMA-GENESIS-FINAL"',
+            'CASE_ID = "IP-FORCE-20260711-OMEGA-AEGIS-V9-FINAL"',
         ),
         (
             'OMEGA_AEGIS_RELEASE = "v2026.06.20-RELEASE"',
@@ -86,7 +86,7 @@ except ImportError:
 '''
     abd_section = f"""
 # =============================================================================
-# INLINED US IPFORCE (ABD MAXIMIZE) – SELF-CONTAINED v9
+# INLINED IP FORCE (ABD MAXIMIZE) – SELF-CONTAINED v9
 # =============================================================================
 {abd_preamble}
 {abd_full}
@@ -98,7 +98,7 @@ except ImportError:
             ABD_IMPORT,
             "# ABDMaximizeIntegration inlined below (self-contained v9 monolith)",
         )
-    if "INLINED US IPFORCE" not in text:
+    if "INLINED IP FORCE" not in text:
         text = text.replace(
             "\nasync def main() -> None:",
             abd_section + "\nasync def main() -> None:",
@@ -106,7 +106,7 @@ except ImportError:
         )
     else:
         # Replace existing inlined block
-        start = text.find("# INLINED US IPFORCE")
+        start = text.find("# INLINED IP FORCE")
         end = text.find("\nasync def main() -> None:")
         if start != -1 and end != -1:
             text = text[:start] + abd_section.strip() + text[end:]

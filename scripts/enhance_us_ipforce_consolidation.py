@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Enhance and finalize the fully consolidated US IPFORCE package in this repo.
+"""Enhance and finalize the fully consolidated IP FORCE package in this repo.
 
 Applies branding/version bumps, dual-writes US_IPFORCE consolidation confirmation
-artifacts (alongside legacy OMEGA AEGIS filenames), and regenerates the
+artifacts (alongside legacy IP FORCE filenames), and regenerates the
 consolidation manifest + confirmation document.
 """
 from __future__ import annotations
@@ -15,9 +15,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-VERSION = "v2026.07.15-US-IPFORCE-ENHANCED"
-CASE_ID = "US-IPFORCE-20260715-ENHANCED-CONSOLIDATED"
-RELEASE = "v10.0.0-2026.07.15-US-IPFORCE-ENHANCED"
+VERSION = "v2026.07.15-IP-FORCE-ENHANCED"
+CASE_ID = "IP-FORCE-20260715-ENHANCED-CONSOLIDATED"
+RELEASE = "v10.0.0-2026.07.15-IP-FORCE-ENHANCED"
 
 
 def sha256_file(path: Path) -> str:
@@ -67,40 +67,40 @@ def patch_monolith(path: Path) -> dict:
 
     replacements = [
         (
-            "US IPFORCE Monolithic Engine | v2026.07.15-US-IPFORCE",
-            f"US IPFORCE Monolithic Engine | {VERSION}",
+            "IP FORCE Monolithic Engine | v2026.07.15-IP-FORCE",
+            f"IP FORCE Monolithic Engine | {VERSION}",
         ),
         (
-            "US IPFORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.11-ULTIMA-GENESIS-FINAL",
-            f"US IPFORCE – MONOLITHIC EXECUTION SYSTEM {VERSION}",
+            "IP FORCE – MONOLITHIC EXECUTION SYSTEM v2026.07.11-ULTIMA-GENESIS-FINAL",
+            f"IP FORCE – MONOLITHIC EXECUTION SYSTEM {VERSION}",
         ),
     ]
     for old, new in replacements:
         text = text.replace(old, new)
 
-    # Dual-write consolidation confirmation under US IPFORCE brand.
-    if 'US_IPFORCE_CONSOLIDATION_CONFIRMED.md' not in text:
+    # Dual-write consolidation confirmation under IP FORCE brand.
+    if 'IP_FORCE_CONSOLIDATION_CONFIRMED.md' not in text:
         text = text.replace(
-            '"OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",',
-            '"OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",\n'
-            '        "US_IPFORCE_CONSOLIDATION_CONFIRMED.md": "us_ipforce_consolidation_confirmed",',
+            '"IP_FORCE_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",',
+            '"IP_FORCE_CONSOLIDATION_CONFIRMED.md": "omega_aegis_consolidation_confirmed",\n'
+            '        "IP_FORCE_CONSOLIDATION_CONFIRMED.md": "us_ipforce_consolidation_confirmed",',
         )
 
-    # Prefer writing US IPFORCE confirmation path in main() when present.
-    if "US_IPFORCE_CONSOLIDATION_CONFIRMED.md" not in text or text.count(
-        "US_IPFORCE_CONSOLIDATION_CONFIRMED.md"
+    # Prefer writing IP FORCE confirmation path in main() when present.
+    if "IP_FORCE_CONSOLIDATION_CONFIRMED.md" not in text or text.count(
+        "IP_FORCE_CONSOLIDATION_CONFIRMED.md"
     ) < 2:
         old_write = (
-            '        omega_confirmed_path = out_dir / "OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md"\n'
+            '        omega_confirmed_path = out_dir / "IP_FORCE_CONSOLIDATION_CONFIRMED.md"\n'
             "        omega_confirmed_path.write_text(omega_confirmation_md, encoding=\"utf-8\")"
         )
         new_write = (
-            '        omega_confirmed_path = out_dir / "OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md"\n'
+            '        omega_confirmed_path = out_dir / "IP_FORCE_CONSOLIDATION_CONFIRMED.md"\n'
             "        omega_confirmed_path.write_text(omega_confirmation_md, encoding=\"utf-8\")\n"
-            '        us_confirmed_path = out_dir / "US_IPFORCE_CONSOLIDATION_CONFIRMED.md"\n'
+            '        us_confirmed_path = out_dir / "IP_FORCE_CONSOLIDATION_CONFIRMED.md"\n'
             "        us_confirmed_path.write_text(\n"
-            '            omega_confirmation_md.replace("OMEGA AEGIS", "US IPFORCE")'
-            '.replace("Omega Aegis", "US IPFORCE")'
+            '            omega_confirmation_md.replace("IP FORCE", "IP FORCE")'
+            '.replace("IP FORCE", "IP FORCE")'
             '.replace("omega_aegis", "us_ipforce"),\n'
             '            encoding="utf-8",\n'
             "        )"
@@ -110,14 +110,14 @@ def patch_monolith(path: Path) -> dict:
 
     # Enhance consolidation confirmation markdown title.
     text = text.replace(
-        "| `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` | This consolidation confirmation |",
-        "| `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` | Legacy consolidation confirmation |\n"
-        "| `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` | Canonical US IPFORCE consolidation confirmation |",
+        "| `IP_FORCE_CONSOLIDATION_CONFIRMED.md` | This consolidation confirmation |",
+        "| `IP_FORCE_CONSOLIDATION_CONFIRMED.md` | Legacy consolidation confirmation |\n"
+        "| `IP_FORCE_CONSOLIDATION_CONFIRMED.md` | Canonical IP FORCE consolidation confirmation |",
     )
 
     header_boost = (
         f"\nENHANCED CONSOLIDATION ({VERSION}): Generated into "
-        "argus-panther-omega-aegis-ultima as the fully consolidated US IPFORCE "
+        "IP FORCE-omega-aegis-ultima as the fully consolidated IP FORCE "
         "package — self-contained monolith + live modular pipeline + phoenix_shield "
         "engines + attorney/data rosters + national command console.\n"
     )
@@ -146,9 +146,9 @@ def write_argus_shim() -> None:
     path.write_text(
         '''#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Legacy ARGUS-PANTHER entry — thin shim to canonical US IPFORCE.
+"""Legacy IP FORCE entry — thin shim to canonical IP FORCE.
 
-Brand: US IPFORCE only.
+Brand: IP FORCE only.
 Canonical engines:
   python3 us_ipforce.py
   python3 us_ipforce_monolith.py
@@ -167,7 +167,7 @@ from us_ipforce_monolith import main  # noqa: E402
 
 
 if __name__ == "__main__":
-    print("US IPFORCE — legacy ARGUS_ULTIMA shim")
+    print("IP FORCE — legacy ARGUS_ULTIMA shim")
     print(f"Forwarding to us_ipforce_monolith (args={sys.argv[1:]})")
     try:
         asyncio.run(main())
@@ -182,9 +182,9 @@ def write_readme(manifest: dict) -> None:
     mono = manifest["artifacts"]["us_ipforce_monolith.py"]
     live = manifest["artifacts"]["us_ipforce_monolith_live.py"]
     (ROOT / "README.md").write_text(
-        f"""# US IPFORCE
+        f"""# IP FORCE
 
-**United States Intellectual Property Force** — fully consolidated, updated, and
+**IP FORCE** — fully consolidated, updated, and
 enhanced forensic IP-enforcement system.
 
 | Field | Value |
@@ -195,8 +195,8 @@ enhanced forensic IP-enforcement system.
 | Generated | `{TODAY}` |
 | Status | PRODUCTION-READY — Immediate Execution Capable |
 
-Legacy names (ARGUS-PANTHER, OMEGA AEGIS, Ω-ÆGIS) remain only as thin compatibility
-shims. Canonical brand is **US IPFORCE**.
+Legacy names (IP FORCE, IP FORCE, IP FORCE) remain only as thin compatibility
+shims. Canonical brand is **IP FORCE**.
 
 ---
 
@@ -215,7 +215,7 @@ python3 us_ipforce_monolith_live.py
 python3 us_ipforce_deterministic_all.py run
 python3 court_ready_forensic_blueprint.py run
 
-# Legacy shim (forwards to US IPFORCE)
+# Legacy shim (forwards to IP FORCE)
 python3 ARGUS_ULTIMA.py
 ```
 
@@ -225,7 +225,7 @@ Optional web UI:
 US_IPFORCE_SERVE=1 python3 us_ipforce.py
 # or static console:
 python3 -m http.server 8099 --directory frontend
-# open UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
+# open IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
 ```
 
 ---
@@ -254,7 +254,7 @@ python3 -m http.server 8099 --directory frontend
 
 Establish deterministic proof of IP ownership for stolen global patent families,
 trace illicit financial flows, model contagion pathways, and generate Genius Act
-2026-compliant seizure payloads — all under the single **US IPFORCE** brand.
+2026-compliant seizure payloads — all under the single **IP FORCE** brand.
 
 **Victim / UBO:** Brent Michael Skoda  
 **Primary adversary track:** Meta Platforms, Inc. (NASDAQ: META) and linked shells
@@ -275,13 +275,13 @@ trace illicit financial flows, model contagion pathways, and generate Genius Act
 Artifacts write under `us_ipforce_output/` (and legacy `us_ip_force_output/` where
 compatibility paths remain), including:
 
-- `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` (canonical)
-- `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` (legacy alias)
+- `IP_FORCE_CONSOLIDATION_CONFIRMED.md` (canonical)
+- `IP_FORCE_CONSOLIDATION_CONFIRMED.md` (legacy alias)
 - Court-ready JSON / Markdown prosecution bundles
 - HMAC-SHA3-512 self-authenticated evidence envelopes
 
-See `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` and
-`US_IPFORCE_ENHANCED_MANIFEST.json` for the consolidation seal.
+See `IP_FORCE_CONSOLIDATION_CONFIRMED.md` and
+`IP_FORCE_ENHANCED_MANIFEST.json` for the consolidation seal.
 
 ---
 
@@ -302,7 +302,7 @@ Optional GPU/ML deps are ImportError-guarded and safe to omit.
 US Treasury, FinCEN, OFAC, IRS-CI, US Secret Service, FBI, USPTO, DOJ  
 Classification: LAW ENFORCEMENT SENSITIVE
 
-© 2026 US IPFORCE
+© 2026 IP FORCE
 """,
         encoding="utf-8",
     )
@@ -310,7 +310,7 @@ Classification: LAW ENFORCEMENT SENSITIVE
 
 def write_confirmation(manifest: dict) -> None:
     lines = [
-        f"# US IPFORCE CONSOLIDATION CONFIRMED",
+        f"# IP FORCE CONSOLIDATION CONFIRMED",
         "",
         f"**Version:** `{VERSION}`  ",
         f"**Case ID:** `{CASE_ID}`  ",
@@ -320,8 +320,8 @@ def write_confirmation(manifest: dict) -> None:
         "",
         "## Verdict",
         "",
-        "The fully consolidated, updated, and enhanced **US IPFORCE** package is",
-        "present in this repository. Legacy ARGUS / OMEGA AEGIS entry points are",
+        "The fully consolidated, updated, and enhanced **IP FORCE** package is",
+        "present in this repository. Legacy ARGUS / IP FORCE entry points are",
         "thin shims only.",
         "",
         "## Consolidated engines",
@@ -356,21 +356,21 @@ def write_confirmation(manifest: dict) -> None:
             "",
             "## Integrity",
             "",
-            f"- Manifest: `US_IPFORCE_ENHANCED_MANIFEST.json`",
+            f"- Manifest: `IP_FORCE_ENHANCED_MANIFEST.json`",
             f"- Manifest SHA-256: `{manifest['manifest_sha256']}`",
             "",
             "---",
             "",
-            "US IPFORCE · Fully Consolidated · Enhanced · Immediate Execution Capable",
+            "IP FORCE · Fully Consolidated · Enhanced · Immediate Execution Capable",
             "",
         ]
     )
-    (ROOT / "US_IPFORCE_CONSOLIDATION_CONFIRMED.md").write_text(
+    (ROOT / "IP_FORCE_CONSOLIDATION_CONFIRMED.md").write_text(
         "\n".join(lines), encoding="utf-8"
     )
     # Legacy alias for older consumers.
-    (ROOT / "OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md").write_text(
-        "\n".join(lines).replace("US IPFORCE", "OMEGA AEGIS / US IPFORCE"),
+    (ROOT / "IP_FORCE_CONSOLIDATION_CONFIRMED.md").write_text(
+        "\n".join(lines).replace("IP FORCE", "IP FORCE / IP FORCE"),
         encoding="utf-8",
     )
 
@@ -427,7 +427,7 @@ def main() -> None:
 
     generated = datetime.now(timezone.utc).isoformat()
     manifest = {
-        "brand": "US IPFORCE",
+        "brand": "IP FORCE",
         "version": VERSION,
         "case_id": CASE_ID,
         "release": RELEASE,
@@ -438,7 +438,7 @@ def main() -> None:
             "cursor/us_ipforce_monolith_live.py",
             "cursor/phoenix_shield/*",
             "cursor/data/*",
-            "cursor/frontend/UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
+            "cursor/frontend/IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
             "local CORPUS_HARDENING_GATE.py",
         ],
         "patch_results": results,
@@ -455,7 +455,7 @@ def main() -> None:
     raw = json.dumps(manifest, sort_keys=True, indent=2)
     manifest["manifest_sha256"] = hashlib.sha256(raw.encode()).hexdigest()
 
-    manifest_path = ROOT / "US_IPFORCE_ENHANCED_MANIFEST.json"
+    manifest_path = ROOT / "IP_FORCE_ENHANCED_MANIFEST.json"
     manifest_path.write_text(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
@@ -465,9 +465,9 @@ def main() -> None:
     write_readme(manifest)
     write_confirmation(manifest)
 
-    # Refresh forensic report / press release stubs with US IPFORCE branding.
+    # Refresh forensic report / press release stubs with IP FORCE branding.
     (ROOT / "forensic_report.txt").write_text(
-        f"""US IPFORCE: Forensic Investigation Report
+        f"""IP FORCE: Forensic Investigation Report
 ========================================
 Date: {TODAY} | Case ID: {CASE_ID}
 Version: {VERSION}
@@ -475,11 +475,11 @@ Classification: LAW ENFORCEMENT SENSITIVE
 
 EXECUTIVE SUMMARY
 -----------------
-Fully consolidated US IPFORCE forensic package deployed in this repository.
+Fully consolidated IP FORCE forensic package deployed in this repository.
 Canonical engines: us_ipforce_monolith.py + us_ipforce_monolith_live.py.
-Legacy ARGUS_ULTIMA.py is a thin shim to US IPFORCE.
+Legacy ARGUS_ULTIMA.py is a thin shim to IP FORCE.
 
-See US_IPFORCE_CONSOLIDATION_CONFIRMED.md and US_IPFORCE_ENHANCED_MANIFEST.json
+See IP_FORCE_CONSOLIDATION_CONFIRMED.md and IP_FORCE_ENHANCED_MANIFEST.json
 for integrity seals and artifact hashes. Run:
 
   python3 us_ipforce.py
@@ -488,21 +488,21 @@ for integrity seals and artifact hashes. Run:
         encoding="utf-8",
     )
     (ROOT / "press_release.txt").write_text(
-        f"""FOR IMMEDIATE RELEASE — US IPFORCE {VERSION}
+        f"""FOR IMMEDIATE RELEASE — IP FORCE {VERSION}
 {TODAY}
 
-US IPFORCE fully consolidated forensic IP-enforcement package released for
+IP FORCE fully consolidated forensic IP-enforcement package released for
 immediate execution. Self-contained and live modular engines, Phoenix Shield
 supporting modules, attorney/data rosters, and National Command Console are
 unified under a single brand.
 
-Contact: US IPFORCE Forensic Systems Division
+Contact: IP FORCE Forensic Systems Division
 Classification: LAW ENFORCEMENT SENSITIVE
 """,
         encoding="utf-8",
     )
     (ROOT / "PROSECUTORIAL_REFERRAL.txt").write_text(
-        f"""US IPFORCE — PROSECUTORIAL REFERRAL STATUS
+        f"""IP FORCE — PROSECUTORIAL REFERRAL STATUS
 Case ID: {CASE_ID}
 Version: {VERSION}
 Status: PACKAGE CONSOLIDATED — run corpus gate + monolith for live referral seal

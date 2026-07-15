@@ -1,4 +1,4 @@
-"""Phoenix Shield unique engines integrated into US IPFORCE / AEGIS.
+"""Phoenix Shield unique engines integrated into IP FORCE / AEGIS.
 
 Sourced from the Kimi Agent full-chain Python package after exhaustive review.
 Modules that duplicated existing monolith forensics, IP/blockchain clients,
