@@ -1,0 +1,66 @@
+{
+  "form_type": "outside_political_consultant_bdo_coordination_declaration",
+  "sync_method": "bacobague_wikipedia_primary_source",
+  "synced_at": "2026-07-12T06:21:55Z",
+  "subject": {
+    "consultant_id": "AB-001",
+    "slug": "alberto-baco-bague",
+    "name": "Alberto Bac\u00f3 Bagu\u00e9",
+    "name_variants": [
+      "Albert Baco",
+      "Alberto Baco",
+      "Alberto Bac\u00f3 Bagu\u00e9",
+      "Alberto Baco-Bagu\u00e9",
+      "Albert Bac\u00f3"
+    ],
+    "title": "Outside Political Consultant / Strategic Advisor",
+    "firm": "RE Capital LLC / bacobague.com",
+    "office": "San Juan, PR",
+    "profile_url": "https://www.bacobague.com/about",
+    "linkedin_url": "https://www.linkedin.com/in/albertobacobague",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alberto_Bac%C3%B3_Bagu%C3%A9",
+    "credentials": [
+      "Attorney",
+      "CPA",
+      "Former Secretary of Economic Development and Commerce of Puerto Rico"
+    ]
+  },
+  "victim_inventor": "Brent Michael \u0160koda",
+  "outside_political_consultant": true,
+  "bdo_coordination_nexus": {
+    "bdo_global": {
+      "firm": "BDO Global",
+      "roster_source": "https://www.bdo.com/leadership-team",
+      "coordination_role": "political_operations_financial_advisory_nexus"
+    },
+    "bdo_puerto_rico": {
+      "firm": "BDO Puerto Rico, P.S.C.",
+      "primary_partners": [
+        "Gabriel Hern\u00e1ndez, CPA",
+        "Fernando Scherrer, CPA"
+      ],
+      "coordination_role": "puerto_rico_undercover_financial_enabler"
+    }
+  },
+  "foundational_patent": "CZ1997-CaffeineVaporizer",
+  "foundational_patent_date": "1997-03-15",
+  "investigation_temporal_scope": "1997-01-01 through present",
+  "ground_troop_coordination": true,
+  "blockchain_transaction_nexus": true,
+  "ip_backed_securities_nexus": true,
+  "tokenized_ip_royalty_nexus": true,
+  "coordination_vectors": [
+    "outside_political_consultant_bdo_nexus",
+    "puerto_rico_government_advisory_coordination",
+    "undercover_financial_enabler_ground_troops",
+    "blockchain_transaction_flow_coordination",
+    "ip_backed_securities_derivatives_nexus",
+    "tokenized_royalty_bribe_channel",
+    "rico_enabler_coordination"
+  ],
+  "ghost_docket_role": "outside_political_consultant_bdo_coordinator",
+  "rico_enabler": true,
+  "verified_professional_enabler": true,
+  "priority_consultant": true,
+  "source": "https://www.bacobague.com/about"
+}

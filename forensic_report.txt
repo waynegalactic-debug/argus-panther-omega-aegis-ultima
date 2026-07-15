@@ -1,30 +1,17 @@
-OPERATION PHOENIX SHIELD: Forensic Investigation Report
-=======================================================
-Date: 2026-07-09 | Case ID: OPERATION-PHOENIX-SHIELD-2026
+US IPFORCE: Forensic Investigation Report
+========================================
+Date: 2026-07-15 | Case ID: US-IPFORCE-20260715-ENHANCED-CONSOLIDATED
+Version: v2026.07.15-US-IPFORCE-ENHANCED
 Classification: LAW ENFORCEMENT SENSITIVE
 
 EXECUTIVE SUMMARY
 -----------------
-This report documents the findings of the ARGUS-PANTHER OMEGA AEGIS ULTIMA
-forensic investigation into Meta Platforms, Inc. (NASDAQ: META) regarding
-allegations of systematic intellectual property theft affecting 15,213+
-global patent families attributed to inventor Brent Michael Skoda.
+Fully consolidated US IPFORCE forensic package deployed in this repository.
+Canonical engines: us_ipforce_monolith.py + us_ipforce_monolith_live.py.
+Legacy ARGUS_ULTIMA.py is a thin shim to US IPFORCE.
 
-REAL-WORLD DATA VERIFIED FINDINGS:
-  - META Market Capitalization: $1.531 Trillion (Yahoo Finance, 2026-07-09)
-  - META Revenue FY2025: $200.97 Billion (SEC EDGAR XBRL)
-  - META Net Income FY2025: $60.46 Billion (SEC EDGAR XBRL)
-  - 5-Year Revenue CAGR: 18.5% (FY2020-FY2025)
-  - 5-Year Net Income CAGR: 15.7% (FY2020-FY2025)
-  - Insider Sales Tracked: $23.4 Million (14 Form 4 filings)
-  - BTC Price: $62,798 (Binance, 2026-07-09)
-  - ETH Price: $1,749 (Binance, 2026-07-09)
-  - USD Reserve Share: 57.13% (IMF COFER, 2026 Q1)
-  - US GDP Growth Forecast 2025: 2.12% (IMF WEO)
+See US_IPFORCE_CONSOLIDATION_CONFIRMED.md and US_IPFORCE_ENHANCED_MANIFEST.json
+for integrity seals and artifact hashes. Run:
 
-FINANCIAL IMPACT:
-  - Total Reported Systemic Exposure: $861 Trillion (BIS + FSB)
-  - Estimated IP-Linked Exposure: $2.64 Trillion
-  - Restitution Amount: $18.554 Quadrillion (estimated)
-
-See full report in repository.
+  python3 us_ipforce.py
+  python3 us_ipforce_deterministic_all.py run

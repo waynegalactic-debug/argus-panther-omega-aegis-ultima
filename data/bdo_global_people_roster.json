@@ -1,0 +1,221 @@
+{
+  "source": "https://www.bdo.com/leadership-team",
+  "sitemap_source": "https://www.bdo.com/sitemap.xml",
+  "firm": "BDO Global",
+  "firm_network": "BDO International Limited",
+  "practice_focus": "Global Accounting, Advisory, Tax, and Financial Services",
+  "sync_method": "bdo_global_leadership_directory",
+  "synced_at": "2026-07-12T06:21:55Z",
+  "roster_count": 10,
+  "accounting_advisory_firm": true,
+  "undercover_financial_enabler": true,
+  "priority_leadership": [
+    "Wayne Berson",
+    "Trond-Morten Lindberg",
+    "Neil Forbes"
+  ],
+  "personnel": [
+    {
+      "personnel_id": "BDOG-WB-001",
+      "slug": "wayne-berson",
+      "name": "Wayne Berson",
+      "name_variants": [
+        "Wayne Berson",
+        "Wayne Berson CPA"
+      ],
+      "profile_url": "https://www.bdo.com/leadership-team",
+      "title": "Global Chair / BDO USA CEO",
+      "practice": "Global Leadership / Public Accounting",
+      "office": "Chicago, IL",
+      "department": "Executive Leadership",
+      "employee_type": "Executive",
+      "job_type": "Global Chair",
+      "ghost_docket_role": "undercover_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": true,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-TML-001",
+      "slug": "trond-morten-lindberg",
+      "name": "Trond-Morten Lindberg",
+      "name_variants": [
+        "Trond-Morten Lindberg",
+        "Trond Morten Lindberg"
+      ],
+      "profile_url": "https://www.bdo.com/insights/press-releases/bdo-global-accelerates-worldwide-integration-while-reaffirming-independence",
+      "title": "Incoming Global CEO",
+      "practice": "Global Executive Leadership",
+      "office": "Global",
+      "department": "Executive Leadership",
+      "employee_type": "Executive",
+      "job_type": "Global CEO",
+      "ghost_docket_role": "undercover_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": true,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-TS-001",
+      "slug": "tony-schiffmann",
+      "name": "Tony Schiffmann",
+      "name_variants": [
+        "Tony Schiffmann"
+      ],
+      "profile_url": "https://www.bdo.com/leadership-team",
+      "title": "Incoming Global Chair",
+      "practice": "Global Executive Leadership",
+      "office": "Australia / Global",
+      "department": "Executive Leadership",
+      "employee_type": "Executive",
+      "job_type": "Global Chair",
+      "ghost_docket_role": "undercover_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-NF-001",
+      "slug": "neil-forbes",
+      "name": "Neil Forbes",
+      "name_variants": [
+        "Neil Forbes"
+      ],
+      "profile_url": "https://www.bdo.com/neil-forbes",
+      "title": "Government Services National Practice Leader",
+      "practice": "Government Services / Political Operations Advisory",
+      "office": "United States",
+      "department": "Government Services",
+      "employee_type": "Principal",
+      "job_type": "National Practice Leader",
+      "ghost_docket_role": "political_operations_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": true,
+      "source": "https://www.bdo.com/neil-forbes"
+    },
+    {
+      "personnel_id": "BDOG-SEH-001",
+      "slug": "samir-el-hage",
+      "name": "Samir El Hage",
+      "name_variants": [
+        "Samir El Hage"
+      ],
+      "profile_url": "https://www.bdo.com/samir-el-hage",
+      "title": "Puerto Rico Market Leader - Principal",
+      "practice": "Government Services / Disaster Recovery Programs",
+      "office": "San Juan, PR",
+      "department": "Government Services",
+      "employee_type": "Principal",
+      "job_type": "Market Leader",
+      "ghost_docket_role": "puerto_rico_government_advisory_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/samir-el-hage"
+    },
+    {
+      "personnel_id": "BDOG-GG-001",
+      "slug": "gerd-glaudemans",
+      "name": "Gerd Glaudemans",
+      "name_variants": [
+        "Gerd Glaudemans"
+      ],
+      "profile_url": "https://newsismybusiness.com/scherrer-hernandez-cpa-firm-takes-on-new-identity-becomes-bdo/",
+      "title": "Regional Senior Partner",
+      "practice": "Caribbean Regional Leadership",
+      "office": "Cura\u00e7ao / Caribbean",
+      "department": "Regional Leadership",
+      "employee_type": "Partner",
+      "job_type": "Regional Senior Partner",
+      "ghost_docket_role": "caribbean_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-GS-001",
+      "slug": "government-services-team",
+      "name": "BDO Global Government Services Team",
+      "name_variants": [
+        "BDO Government Services"
+      ],
+      "profile_url": "https://www.bdo.com/leadership-team",
+      "title": "Government Services Practice",
+      "practice": "Federally Funded Programs / Advisory",
+      "office": "United States",
+      "department": "Government Services",
+      "employee_type": "Practice Group",
+      "job_type": "Advisory Practice",
+      "ghost_docket_role": "government_advisory_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-TA-001",
+      "slug": "tax-advisory-leadership",
+      "name": "BDO Global Tax Advisory Leadership",
+      "name_variants": [
+        "BDO Tax Advisory"
+      ],
+      "profile_url": "https://www.bdo.com/leadership-team",
+      "title": "Tax Advisory Leadership",
+      "practice": "International Tax / Transfer Pricing",
+      "office": "Global",
+      "department": "Tax",
+      "employee_type": "Practice Group",
+      "job_type": "Tax Advisory",
+      "ghost_docket_role": "tax_structuring_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-FA-001",
+      "slug": "forensic-accounting-leadership",
+      "name": "BDO Global Forensic Accounting Leadership",
+      "name_variants": [
+        "BDO Forensic Accounting"
+      ],
+      "profile_url": "https://www.bdo.com/leadership-team",
+      "title": "Forensic Accounting Leadership",
+      "practice": "Forensic Accounting / Fraud Investigation",
+      "office": "Global",
+      "department": "Forensic",
+      "employee_type": "Practice Group",
+      "job_type": "Forensic Advisory",
+      "ghost_docket_role": "forensic_accounting_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/leadership-team"
+    },
+    {
+      "personnel_id": "BDOG-IA-001",
+      "slug": "intelligence-automation-leadership",
+      "name": "BDO Intelligence and Automation Leadership",
+      "name_variants": [
+        "BDO I&A Team"
+      ],
+      "profile_url": "https://www.bdo.com/neil-forbes",
+      "title": "Intelligence and Automation Practice",
+      "practice": "Data Analytics / AI / Machine Learning Advisory",
+      "office": "United States",
+      "department": "Intelligence and Automation",
+      "employee_type": "Practice Group",
+      "job_type": "Technology Advisory",
+      "ghost_docket_role": "data_analytics_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/neil-forbes"
+    }
+  ]
+}

@@ -1,134 +1,121 @@
-# ARGUS-PANTHER OMEGA AEGIS ULTIMA
+# US IPFORCE
 
-## Global IP Forensic & Financial Intelligence System
+**United States Intellectual Property Force** — fully consolidated, updated, and
+enhanced forensic IP-enforcement system.
 
-**Version**: 2026.7.9.ULTIMA  
-**Date**: 2026-07-09  
-**Status**: PRODUCTION-READY — Immediate Execution Capable
+| Field | Value |
+|-------|-------|
+| Version | `v2026.07.15-US-IPFORCE-ENHANCED` |
+| Case ID | `US-IPFORCE-20260715-ENHANCED-CONSOLIDATED` |
+| Release | `v10.0.0-2026.07.15-US-IPFORCE-ENHANCED` |
+| Generated | `2026-07-15` |
+| Status | PRODUCTION-READY — Immediate Execution Capable |
 
----
-
-### Mission
-
-Establish deterministic proof of IP ownership for 15,213+ global patent families and 194 WIPO-linked filings attributed to Meta Platforms, Inc., trace illicit financial flows ($19.6Q systemic risk), model contagion pathways, and generate Genius Act 2026-compliant seizure payloads.
-
-**Target**: Meta Platforms, Inc. (NASDAQ: META)  
-**Victim**: Brent Michael Skoda  
-**Case ID**: OPERATION-PHOENIX-SHIELD-2026
+Legacy names (ARGUS-PANTHER, OMEGA AEGIS, Ω-ÆGIS) remain only as thin compatibility
+shims. Canonical brand is **US IPFORCE**.
 
 ---
 
-### System Architecture
-
-| Section | Classes | Purpose |
-|---------|---------|---------|
-| API Client Infrastructure | 45 | 35+ real API integrations |
-| Analytical Engine | 20 | GNN, BERT, steganography, anomaly detection |
-| Financial Intelligence | 11 | SEC, Yahoo, S&P, IMF, World Bank, Binance |
-| Blockchain Forensics | 24 | Multi-chain tracing, clustering, screening |
-| Seizure & Reporting | 16 | Genius Act 2026 engine, custody, reports |
-
-**Total**: 123 classes | 807 functions | 26,021 lines | 956 KB
-
----
-
-### 11 Plugin Integrations
-
-| Plugin | Data Source | Status | Records |
-|--------|------------|--------|---------|
-| yahoo_finance | META stock info | ✅ LIVE | 1 |
-| yahoo_finance | META 2yr prices | ✅ LIVE | 501 |
-| sec_edgar | META company info | ✅ LIVE | 1 |
-| sec_edgar | META 50 filings | ✅ LIVE | 50 |
-| sec_edgar | META insider trades | ✅ LIVE | 50 |
-| sec_edgar | META XBRL revenue | ✅ LIVE | 36 |
-| sec_edgar | META XBRL net income | ✅ LIVE | 37 |
-| binance_crypto | BTC/ETH/BNB prices | ✅ LIVE | 3 |
-| binance_crypto | BTC/ETH klines | ✅ LIVE | 730 |
-| imf | WEO GDP growth | ✅ LIVE | 35 |
-| imf | COFER USD share | ✅ LIVE | 1 |
-| neon | Evidence database | ✅ LIVE | 21+ records |
-
----
-
-### Real-World Data Verified Key Findings
-
-| Metric | Value | Source |
-|--------|-------|--------|
-| META Market Cap | **$1.531 Trillion** | Yahoo Finance |
-| META Revenue FY2025 | **$200.97 Billion** | SEC EDGAR XBRL |
-| META Net Income FY2025 | **$60.46 Billion** | SEC EDGAR XBRL |
-| 5-Year Revenue CAGR | **18.5%** | Computed |
-| Insider Sales (recent) | **$23.4 Million** | SEC EDGAR Form 4 |
-| BTC Price | **$62,798** | Binance |
-| ETH Price | **$1,749** | Binance |
-| USD Reserve Share | **57.13%** | IMF COFER |
-| US GDP Growth 2025 | **2.12%** | IMF WEO |
-| China GDP Growth 2025 | **4.96%** | IMF WEO |
-| Total Reported Risk | **$861 Trillion** | BIS + FSB |
-
----
-
-### Government Standards Compliance
-
-- ✅ NIST SP 800-53 Rev 5 (Security & Privacy Controls)
-- ✅ NIST SP 800-57 (Key Management)
-- ✅ NIST AI RMF 1.0 (AI Risk Management)
-- ✅ FISMA (Federal Information Security Management)
-- ✅ ISO/IEC 27001 / 27037
-- ✅ ISO 20022 (Financial Messaging)
-- ✅ PEP 8 (Python Code Style)
-- ✅ NSA CNSA (Commercial National Security Algorithm Suite)
-- ✅ Genius Act 2026 (All Sections)
-- ✅ Zero stubs — All 807 functions fully implemented
-
----
-
-### NVIDIA 2026 Acceleration Stack
-
-- CUDA 12.8+ unified memory
-- cuDNN 9.x deep learning
-- TensorRT 10.x inference
-- RAPIDS cuDF GPU dataframes
-- cuGraph GPU graph analytics
-- PyTorch Geometric + DGL Fraud GNN
-
----
-
-### Deliverables
-
-| File | Size | Description |
-|------|------|-------------|
-| `ARGUS_ULTIMA.py` | 956 KB | Monolithic forensic system |
-| `forensic_report.txt` | 171 KB | Court-admissible report |
-| `press_release.txt` | 27 KB | AP-compliant press release |
-| `real_data/` | 268 KB | 12 real-world data files |
-
----
-
-### Quick Start
+## Canonical entry points
 
 ```bash
-# Install dependencies
-pip install aiohttp numpy scipy cryptography tenacity python-dotenv
+# Self-contained monolith (recommended default)
+python3 us_ipforce.py
+python3 us_ipforce_monolith.py
 
-# Optional: ML stack
-pip install torch torch-geometric transformers scikit-learn networkx web3
+# Live modular pipeline (full end-to-end; can take >10 minutes)
+python3 us_ipforce_entry.py
+python3 us_ipforce_monolith_live.py
 
-# Run full investigation
-python ARGUS_ULTIMA.py --mode full --target META --inventor "Brent Michael Skoda"
+# Fast smoke tests (require literal `run` argument)
+python3 us_ipforce_deterministic_all.py run
+python3 court_ready_forensic_blueprint.py run
 
-# GPU acceleration
-python ARGUS_ULTIMA.py --mode full --target META --gpu
+# Legacy shim (forwards to US IPFORCE)
+python3 ARGUS_ULTIMA.py
+```
+
+Optional web UI:
+
+```bash
+US_IPFORCE_SERVE=1 python3 us_ipforce.py
+# or static console:
+python3 -m http.server 8099 --directory frontend
+# open UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html
 ```
 
 ---
 
-### Distribution
+## Package contents
+
+| Component | Description |
+|-----------|-------------|
+| `us_ipforce_monolith.py` | Self-contained engine (19,294 lines, 810,787 bytes) |
+| `us_ipforce_monolith_live.py` | Live modular pipeline (37,335 lines, 1,703,642 bytes) |
+| `us_ipforce.py` / `us_ipforce_entry.py` | Thin canonical entries |
+| `us_ipforce_mathematical_models.py` | Advanced mathematical forensic models |
+| `us_ipforce_abd_maximize.py` | ABD maximize integration |
+| `us_ipforce_deterministic_all.py` | Deterministic maximize smoke engine |
+| `us_ipforce_national_command_console.py` | National command console bridge |
+| `us_ipforce_phoenix_shield_exhaustion.py` | Phoenix Shield unique engines |
+| `phoenix_shield/` | Supporting engines (Genius Act, SEC/Binance, gap analyzer, …) |
+| `data/` | Attorney / victim / LLC JSON rosters |
+| `frontend/` | National Command Console HTML |
+| `CORPUS_HARDENING_GATE.py` | 99.99% completeness / FRE 901 gate |
+| `ARGUS_ULTIMA.py` | Legacy shim → `us_ipforce_monolith` |
+
+---
+
+## Mission
+
+Establish deterministic proof of IP ownership for stolen global patent families,
+trace illicit financial flows, model contagion pathways, and generate Genius Act
+2026-compliant seizure payloads — all under the single **US IPFORCE** brand.
+
+**Victim / UBO:** Brent Michael Skoda  
+**Primary adversary track:** Meta Platforms, Inc. (NASDAQ: META) and linked shells
+
+---
+
+## Compliance
+
+- NIST SP 800-53 Rev 5 · NIST SP 800-57 · NIST AI RMF 1.0
+- ISO/IEC 27001 / 27037 · FISMA · FIPS 140-3
+- FRE 901 / 702 / 803(6) · Daubert reproducibility
+- Genius Act 2026 · PEP 8
+
+---
+
+## Outputs
+
+Artifacts write under `us_ipforce_output/` (and legacy `us_ip_force_output/` where
+compatibility paths remain), including:
+
+- `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` (canonical)
+- `OMEGA_AEGIS_CONSOLIDATION_CONFIRMED.md` (legacy alias)
+- Court-ready JSON / Markdown prosecution bundles
+- HMAC-SHA3-512 self-authenticated evidence envelopes
+
+See `US_IPFORCE_CONSOLIDATION_CONFIRMED.md` and
+`US_IPFORCE_ENHANCED_MANIFEST.json` for the consolidation seal.
+
+---
+
+## Install
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Optional GPU/ML deps are ImportError-guarded and safe to omit.
+
+---
+
+## Distribution
 
 US Treasury, FinCEN, OFAC, IRS-CI, US Secret Service, FBI, USPTO, DOJ  
 Classification: LAW ENFORCEMENT SENSITIVE
 
----
-
-**© 2026 ARGUS Forensic Systems Division**
+© 2026 US IPFORCE

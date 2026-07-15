@@ -1,0 +1,15 @@
+---
+description: US IPFORCE forensic IP pipeline — project context (legacy rule filename)
+alwaysApply: true
+---
+
+# US IPFORCE
+
+This rule file is retained for compatibility. Canonical guidance lives in
+`us-ipforce-project.mdc`.
+
+- **Brand:** US IPFORCE only
+- Prefer `us_ipforce_*` entry points (`us_ipforce.py`, `us_ipforce_monolith.py`,
+  `us_ipforce_monolith_live.py`)
+- Legacy `omega_aegis_*` / `aegis_*` / `us_ip_force_*` names are shims only
+- Extend existing monoliths; avoid parallel reimplementations

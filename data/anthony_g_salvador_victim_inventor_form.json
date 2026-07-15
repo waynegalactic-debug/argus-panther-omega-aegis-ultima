@@ -1,0 +1,82 @@
+{
+  "form_type": "victim_inventor_counsel_betrayal_declaration",
+  "sync_method": "california_state_bar_primary_source",
+  "synced_at": "2026-07-12T06:00:00Z",
+  "subject": {
+    "attorney_id": "AGS-001",
+    "slug": "anthony-g-salvador",
+    "name": "Anthony G. Salvador, Esq.",
+    "legal_name": "Anthony Guy Salvador",
+    "name_variants": [
+      "Anthony G. Salvador",
+      "Anthony G Salvador",
+      "Anthony Guy Salvador",
+      "Anthony Salvador",
+      "A. G. Salvador",
+      "A.G. Salvador Esq."
+    ],
+    "title": "Attorney (Disbarred)",
+    "firm": "Salvador Law Group, PLLC",
+    "office": "Phoenix, AZ",
+    "address": "2 N Central Ave, Ste 400, Phoenix, AZ 85004-2411",
+    "phone": "602-595-6896",
+    "email": "anthony@salvadorlawgroup.com",
+    "profile_url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/310681",
+    "license_number": "310681",
+    "license_status": "Disbarred",
+    "license_jurisdiction": "California State Bar",
+    "disbarment_date": "2022-08-14",
+    "disbarment_reference": "Disbarment 21-J-30201"
+  },
+  "victim_inventor": "Brent Michael Škoda",
+  "victim_inventor_counsel_role": "former_victim_inventor_counsel",
+  "betrayal_allegation": true,
+  "betrayal_severity": "significant",
+  "initial_misappropriation_theft_nexus": true,
+  "foundational_patent": "CZ1997-CaffeineVaporizer",
+  "foundational_patent_date": "1997-03-15",
+  "foundational_patent_office": "Czech Patent Office",
+  "investigation_temporal_scope": "1997-01-01 through present",
+  "coordination_nexus": {
+    "foley_lardner_llp": {
+      "firm": "Foley & Lardner LLP",
+      "primary_coordinator": "Christopher J. McKenna",
+      "coordinator_slug": "mckenna-christopher-j",
+      "coordinator_profile": "https://www.foley.com/people/mckenna-christopher-j/",
+      "coordination_role": "initial_misappropriation_and_theft",
+      "ghost_docket_architect_firm": true,
+      "priority_attorneys": [
+        "Shabbi S. Khan",
+        "Christopher J. McKenna",
+        "David W. Kantaros"
+      ]
+    },
+    "ulmer_berne_llp": {
+      "firm": "Ulmer & Berne LLP",
+      "role": "foundational_counsel_conjunction",
+      "foundational_counsel_firm": true,
+      "priority_former_partners": [
+        "Peter A. Rome",
+        "Wayne M. Serra",
+        "Suzann R. Moskowitz"
+      ]
+    }
+  },
+  "betrayal_vectors": [
+    "victim_inventor_counsel_betrayal",
+    "initial_ip_misappropriation_coordination",
+    "dual_representation_conflict",
+    "foundational_patent_theft_conjunction",
+    "ghost_docket_facilitation",
+    "sealed_docket_obstruction",
+    "rico_enabler_coordination"
+  ],
+  "ghost_docket_role": "victim_inventor_counsel_betrayal_coordinator",
+  "victim_attorney_firm": false,
+  "victim_inventor_counsel_betrayer": true,
+  "dual_representation_conflict": true,
+  "rico_enabler": true,
+  "verified_professional_enabler": true,
+  "priority_attorney": true,
+  "source": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/310681"
+}

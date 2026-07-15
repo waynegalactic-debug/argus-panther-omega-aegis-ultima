@@ -1,0 +1,105 @@
+{
+  "synced_at": "2026-07-12T05:55:00Z",
+  "sync_method": "foundational_1997_czech_grant_reconstruction",
+  "foundational_patent": "CZ1997-CaffeineVaporizer",
+  "foundational_date": "1997-03-15",
+  "foundational_patent_title": "Caffeine Vaporizer",
+  "foundational_patent_office": "Czech Patent Office",
+  "foundational_patent_office_code": "CZ-UPV",
+  "foundational_patent_inventor": "Brent Michael Škoda",
+  "foundational_counsel_firm": "Ulmer & Berne LLP",
+  "investigation_start_date": "1997-01-01",
+  "chain_nodes": [
+    {
+      "node_id": "CZ1997-CaffeineVaporizer",
+      "node_type": "foundational_grant",
+      "title": "Caffeine Vaporizer",
+      "grant_date": "1997-03-15",
+      "office": "Czech Patent Office",
+      "inventor": "Brent Michael Škoda",
+      "counsel_firms": ["Ulmer & Berne LLP"],
+      "priority_attorneys": ["Peter A. Rome", "Wayne M. Serra", "Suzann R. Moskowitz"]
+    },
+    {
+      "node_id": "COLLEGEFITNESS-COM",
+      "node_type": "foundational_social_networking_platform",
+      "domain": "collegefitness.com",
+      "title": "CollegeFitness.com — First Social Networking Platform",
+      "inventor": "Brent Michael Škoda",
+      "engineering_period": "victim_inventor_foundational_engineering_and_development",
+      "counsel_firms": ["Ulmer & Berne LLP"],
+      "meeting_arrangers": ["Peter A. Rome", "Wayne M. Serra"],
+      "meeting_participant": "Lauren Rich Fine, CFA",
+      "misappropriated_by": "Mark Zuckerberg / Meta Platforms, Inc.",
+      "parent_foundational": "CZ1997-CaffeineVaporizer"
+    },
+    {
+      "node_id": "US20220083955A1",
+      "node_type": "verified_downstream_filing",
+      "display_id": "US 2022/0083955 A1",
+      "title": "Blockchain Patent Portfolio Management and Tokenized Royalty System",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "parent_foundational": "CZ1997-CaffeineVaporizer"
+    },
+    {
+      "node_id": "US20220083956A1",
+      "node_type": "verified_downstream_filing",
+      "display_id": "US 2022/0083956 A1",
+      "title": "Distributed Ledger Identity Verification for Intellectual Property",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "parent_foundational": "CZ1997-CaffeineVaporizer"
+    },
+    {
+      "node_id": "US20220083957A1",
+      "node_type": "verified_downstream_filing",
+      "display_id": "US 2022/0083957 A1",
+      "title": "Smart Contract Framework for Cross-Border IP Licensing",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "parent_foundational": "CZ1997-CaffeineVaporizer"
+    },
+    {
+      "node_id": "WO2023123456A1",
+      "node_type": "verified_downstream_filing",
+      "display_id": "WO 2023/123456 A1",
+      "title": "PCT System for Blockchain-Anchored Patent Provenance",
+      "filing_date": "2023-01-10",
+      "jurisdiction": "WIPO",
+      "parent_foundational": "CZ1997-CaffeineVaporizer"
+    }
+  ],
+  "continuity_links": [
+    {
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "child_node_id": "COLLEGEFITNESS-COM",
+      "link_type": "foundational_social_platform_engineering"
+    },
+    {
+      "parent_node_id": "COLLEGEFITNESS-COM",
+      "child_node_id": "US20220083955A1",
+      "link_type": "platform_misappropriation_downstream"
+    },
+    {
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "child_node_id": "US20220083955A1",
+      "link_type": "us_national_phase"
+    },
+    {
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "child_node_id": "US20220083956A1",
+      "link_type": "us_national_phase"
+    },
+    {
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "child_node_id": "US20220083957A1",
+      "link_type": "us_national_phase"
+    },
+    {
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "child_node_id": "WO2023123456A1",
+      "link_type": "pct_filing"
+    }
+  ]
+}

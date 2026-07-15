@@ -1,0 +1,270 @@
+{
+  "source": "https://www.fdaimports.com/",
+  "sitemap_source": "https://www.fdaimports.com/sitemap.xml",
+  "firm": "Benjamin L. England & Associates, LLC",
+  "firm_aliases": [
+    "FDAimports.com",
+    "FDAImports.com, LLC",
+    "Benjamin England and Associates",
+    "Benjamin L. England & Associates"
+  ],
+  "practice_focus": "FDA/USDA/Customs Regulatory Law, Intellectual Property, USPTO, VAPERGY FDA Registration",
+  "sync_method": "fdaimports_justia_primary_source",
+  "synced_at": "2026-07-12T06:14:02Z",
+  "roster_count": 8,
+  "victim_attorney_firm": false,
+  "primary_partner_engaged_victim_inventor": true,
+  "victim_inventor_counsel_firm": true,
+  "fda_ip_regulatory_counsel": true,
+  "priority_primary_partner": "Benjamin L. England, Esq.",
+  "priority_primary_partners": [
+    "Benjamin L. England, Esq."
+  ],
+  "vapergy_fda_registration_nexus": true,
+  "foundational_ip_composition_timeframe": true,
+  "investigation_temporal_scope": "1997-01-01 through present",
+  "attorneys": [
+    {
+      "attorney_id": "BLE-BLE-001",
+      "slug": "benjamin-l-england",
+      "name": "Benjamin L. England, Esq.",
+      "name_variants": [
+        "Benjamin L. England",
+        "Benjamin England",
+        "Benjamin L. England, Esq.",
+        "Ben England",
+        "Benjamin England ESQ"
+      ],
+      "profile_url": "https://lawyers.justia.com/lawyer/benjamin-l-england-771928",
+      "title": "Founder and CEO / Founding Member",
+      "practice": "FDA Regulatory Law, Intellectual Property, USPTO, Customs, VAPERGY FDA Registration",
+      "office": "Glen Burnie, MD",
+      "department": "Legal / Regulatory",
+      "employee_type": "Attorney",
+      "job_type": "Founder and CEO",
+      "practices": [
+        "FDA Regulatory Law",
+        "Intellectual Property",
+        "USPTO",
+        "Customs and Border Protection",
+        "VAPERGY FDA Registration",
+        "Food and Drug Law",
+        "Medical Device Law"
+      ],
+      "phone": "(410) 220-2800",
+      "email": "",
+      "ghost_docket_role": "victim_inventor_fda_ip_regulatory_counsel",
+      "victim_inventor_counsel": true,
+      "primary_partner_engaged_victim_inventor": true,
+      "foundational_ip_composition_nexus": true,
+      "vapergy_fda_registration_counsel": true,
+      "dual_representation_conflict": true,
+      "managing_partner": true,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": true,
+      "verified_professional_enabler": true,
+      "priority_attorney": true,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-RDQ-001",
+      "slug": "rick-d-quinn",
+      "name": "Rick D. Quinn, Esq.",
+      "name_variants": [
+        "Rick D. Quinn",
+        "Rick Quinn",
+        "Rick D. Quinn, Esq.",
+        "Rick Quinn Esq."
+      ],
+      "profile_url": "https://www.fdaimports.com/docs/Press%20Releases/2012/PR_Rick_Quinn_Promoted_Partner.pdf",
+      "title": "Partner / Principal",
+      "practice": "FDA Business and Corporate, Export Counsel, Regulatory Compliance",
+      "office": "Columbia, MD / Sydney, Australia",
+      "department": "Legal",
+      "employee_type": "Attorney",
+      "job_type": "Partner",
+      "practices": [
+        "FDA Business and Corporate",
+        "Export Counsel",
+        "Regulatory Compliance",
+        "Food and Drug Law"
+      ],
+      "ghost_docket_role": "fda_ip_regulatory_counsel",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": true,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-GS-001",
+      "slug": "ge-song",
+      "name": "Ge Song, Esq.",
+      "name_variants": [
+        "Ge Song",
+        "Ge Song, Esq."
+      ],
+      "profile_url": "https://www.fdaimports.com/new-hires-attorney-regulatory-specialist-administrative-associates/",
+      "title": "Attorney",
+      "practice": "Food and Drug Law, Intellectual Property and Technology",
+      "office": "Glen Burnie, MD",
+      "department": "Legal",
+      "employee_type": "Attorney",
+      "job_type": "Attorney",
+      "practices": [
+        "Food and Drug Law",
+        "Intellectual Property and Technology"
+      ],
+      "ghost_docket_role": "fda_ip_regulatory_counsel",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": true,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-YSC-001",
+      "slug": "yun-sang-cheah",
+      "name": "Yun-Sang (Naomi) Cheah",
+      "name_variants": [
+        "Yun-Sang Cheah",
+        "Naomi Cheah",
+        "Yun-Sang (Naomi) Cheah"
+      ],
+      "profile_url": "https://www.fdaimports.com/new-hires-attorney-regulatory-specialist-administrative-associates/",
+      "title": "Regulatory Specialist",
+      "practice": "FDA Regulatory Consulting, Food and Drug Compliance",
+      "office": "Glen Burnie, MD",
+      "department": "Regulatory",
+      "employee_type": "Regulatory Specialist",
+      "job_type": "Regulatory Specialist",
+      "practices": [
+        "FDA Regulatory Consulting",
+        "Food and Drug Compliance"
+      ],
+      "ghost_docket_role": "fda_regulatory_enabler",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-SL-001",
+      "slug": "shelly-li",
+      "name": "Shelly Li",
+      "name_variants": [
+        "Shelly Li"
+      ],
+      "profile_url": "https://www.fdaimports.com/fdaimports-exporttousa-attended-china-fisheries-seafood-expo/",
+      "title": "Regulatory / Trade Specialist",
+      "practice": "FDA Import Compliance, International Trade",
+      "office": "Glen Burnie, MD / Qingdao, China",
+      "department": "Regulatory",
+      "employee_type": "Regulatory Specialist",
+      "job_type": "Regulatory Specialist",
+      "practices": [
+        "FDA Import Compliance",
+        "International Trade"
+      ],
+      "ghost_docket_role": "fda_regulatory_enabler",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-ALISON-001",
+      "slug": "alison-admin",
+      "name": "Alison",
+      "name_variants": [
+        "Alison"
+      ],
+      "profile_url": "https://www.fdaimports.com/new-hires-attorney-regulatory-specialist-administrative-associates/",
+      "title": "Administrative Associate",
+      "practice": "Finance and Human Resources Administration",
+      "office": "Glen Burnie, MD",
+      "department": "Administrative",
+      "employee_type": "Administrative",
+      "job_type": "Administrative Associate",
+      "practices": [
+        "Finance",
+        "Human Resources"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": false,
+      "rico_enabler": false,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-NS-001",
+      "slug": "nichole-sheppard",
+      "name": "Nichole Sheppard",
+      "name_variants": [
+        "Nichole Sheppard"
+      ],
+      "profile_url": "https://www.fdaimports.com/new-hires-attorney-regulatory-specialist-administrative-associates/",
+      "title": "Administrative Associate",
+      "practice": "Accounts Receivable and Client Invoicing",
+      "office": "Glen Burnie, MD",
+      "department": "Administrative",
+      "employee_type": "Administrative",
+      "job_type": "Administrative Associate",
+      "practices": [
+        "Accounts Receivable",
+        "Client Invoicing"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": false,
+      "rico_enabler": false,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    },
+    {
+      "attorney_id": "BLE-OFWT-001",
+      "slug": "olsson-frank-weeda-staff",
+      "name": "Olsson Frank Weeda Terman Matz PC \u2014 Migrated Staff",
+      "name_variants": [
+        "Olsson Frank Weeda Terman Matz",
+        "OFWTM Migrated Staff"
+      ],
+      "profile_url": "https://www.linkedin.com/company/benjamin-l-england-&-associates-llc",
+      "title": "Migrated FDA/USDA Regulatory Staff (2023)",
+      "practice": "FDA and USDA Regulatory Law",
+      "office": "Glen Burnie, MD",
+      "department": "Legal / Regulatory",
+      "employee_type": "Attorney",
+      "job_type": "Regulatory Counsel",
+      "practices": [
+        "FDA Regulatory Law",
+        "USDA Regulatory Law"
+      ],
+      "ghost_docket_role": "fda_ip_regulatory_counsel",
+      "victim_inventor_counsel": false,
+      "dual_representation_conflict": true,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.fdaimports.com/"
+    }
+  ]
+}

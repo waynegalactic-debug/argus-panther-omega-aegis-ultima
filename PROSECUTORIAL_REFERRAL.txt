@@ -1,1 +1,9 @@
-SEE_FULL_FILE_IN_OUTPUT
+US IPFORCE — PROSECUTORIAL REFERRAL STATUS
+Case ID: US-IPFORCE-20260715-ENHANCED-CONSOLIDATED
+Version: v2026.07.15-US-IPFORCE-ENHANCED
+Status: PACKAGE CONSOLIDATED — run corpus gate + monolith for live referral seal
+
+Commands:
+  python3 CORPUS_HARDENING_GATE.py
+  python3 us_ipforce_deterministic_all.py run
+  python3 us_ipforce_monolith.py

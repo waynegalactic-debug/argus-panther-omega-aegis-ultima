@@ -1,0 +1,4227 @@
+{
+  "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393",
+  "firm": "Ulmer & Berne LLP",
+  "successor_firm": "UB Greensfelder LLP",
+  "successor_source": "https://www.ubglaw.com/",
+  "sync_method": "attorneys_org_directory_scrape",
+  "synced_at": "2026-07-12T05:24:33Z",
+  "roster_count": 145,
+  "foundational_counsel_firm": true,
+  "victim_foundational_counsel": true,
+  "investigation_start_date": "1997-01-01",
+  "priority_former_partners": [
+    "Peter A. Rome",
+    "Wayne M. Serra",
+    "Suzann R. Moskowitz"
+  ],
+  "attorneys": [
+    {
+      "attorney_id": "UB-ADRIENNEHALLOTTA",
+      "slug": "adrienne-h-allotta",
+      "name": "Adrienne H Allotta",
+      "name_variants": [
+        "Adrienne Allotta",
+        "Adrienne H Allotta"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#adrienne-h-allotta",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ALANSSIMS",
+      "slug": "alan-s-sims",
+      "name": "Alan S Sims",
+      "name_variants": [
+        "Alan S Sims",
+        "Alan Sims"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#alan-s-sims",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ALANWSCHEUFLER",
+      "slug": "alan-w-scheufler",
+      "name": "Alan W Scheufler",
+      "name_variants": [
+        "Alan Scheufler",
+        "Alan W Scheufler"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#alan-w-scheufler",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ALEXANDERMANDREWS",
+      "slug": "alexander-m-andrews",
+      "name": "Alexander M Andrews",
+      "name_variants": [
+        "Alexander Andrews",
+        "Alexander M Andrews"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#alexander-m-andrews",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-AMYKSCHERMER",
+      "slug": "amy-k-schermer",
+      "name": "Amy K Schermer",
+      "name_variants": [
+        "Amy K Schermer",
+        "Amy Schermer"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#amy-k-schermer",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ANDREWRGIANNELLA",
+      "slug": "andrew-r-giannella",
+      "name": "Andrew R Giannella",
+      "name_variants": [
+        "Andrew Giannella",
+        "Andrew R Giannella"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#andrew-r-giannella",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ANTHONYCIPITIJR",
+      "slug": "anthony-cipiti-jr",
+      "name": "Anthony Cipiti Jr",
+      "name_variants": [
+        "Anthony Cipiti Jr",
+        "Anthony Jr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#anthony-cipiti-jr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ARLISHEALFULTON",
+      "slug": "arlishea-l-fulton",
+      "name": "Arlishea L Fulton",
+      "name_variants": [
+        "Arlishea Fulton",
+        "Arlishea L Fulton"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#arlishea-l-fulton",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BSCOTTBOSTER",
+      "slug": "b-scott-boster",
+      "name": "B Scott Boster",
+      "name_variants": [
+        "B Boster",
+        "B Scott Boster"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#b-scott-boster",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BARIEGOGGINS",
+      "slug": "bari-e-goggins",
+      "name": "Bari E Goggins",
+      "name_variants": [
+        "Bari E Goggins",
+        "Bari Goggins"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#bari-e-goggins",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BARTONABIXENSTINE",
+      "slug": "barton-a-bixenstine",
+      "name": "Barton A Bixenstine",
+      "name_variants": [
+        "Barton A Bixenstine",
+        "Barton Bixenstine"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#barton-a-bixenstine",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BETSYHAUPTMANCOY",
+      "slug": "betsy-hauptman-coy",
+      "name": "Betsy Hauptman Coy",
+      "name_variants": [
+        "Betsy Coy",
+        "Betsy Hauptman Coy"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#betsy-hauptman-coy",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BILLJGAGLIANO",
+      "slug": "bill-j-gagliano",
+      "name": "Bill J Gagliano",
+      "name_variants": [
+        "Bill Gagliano",
+        "Bill J Gagliano"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#bill-j-gagliano",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BRIANMONEILL",
+      "slug": "brian-m-oneill",
+      "name": "Brian M O'Neill",
+      "name_variants": [
+        "Brian M O'Neill",
+        "Brian O'Neill"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#brian-m-oneill",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BRIANNRAMM",
+      "slug": "brian-n-ramm",
+      "name": "Brian N Ramm",
+      "name_variants": [
+        "Brian N Ramm",
+        "Brian Ramm"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#brian-n-ramm",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BRITTJROSSITER",
+      "slug": "britt-j-rossiter",
+      "name": "Britt J Rossiter",
+      "name_variants": [
+        "Britt J Rossiter",
+        "Britt Rossiter"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#britt-j-rossiter",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-BRUCEPMANDEL",
+      "slug": "bruce-p-mandel",
+      "name": "Bruce P Mandel",
+      "name_variants": [
+        "Bruce Mandel",
+        "Bruce P Mandel"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#bruce-p-mandel",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CASHHMISCHKA",
+      "slug": "cash-h-mischka",
+      "name": "Cash H Mischka",
+      "name_variants": [
+        "Cash H Mischka",
+        "Cash Mischka"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#cash-h-mischka",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHARLESACREHORE",
+      "slug": "charles-a-crehore",
+      "name": "Charles A Crehore",
+      "name_variants": [
+        "Charles A Crehore",
+        "Charles Crehore"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#charles-a-crehore",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHARLESRJANES",
+      "slug": "charles-r-janes",
+      "name": "Charles R Janes",
+      "name_variants": [
+        "Charles Janes",
+        "Charles R Janes"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#charles-r-janes",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHRISTOPHERCMCCRACKEN",
+      "slug": "christopher-c-mccracken",
+      "name": "Christopher C McCracken",
+      "name_variants": [
+        "Christopher C McCracken",
+        "Christopher McCracken"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#christopher-c-mccracken",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHRISTOPHERDCATHEY",
+      "slug": "christopher-d-cathey",
+      "name": "Christopher D Cathey",
+      "name_variants": [
+        "Christopher Cathey",
+        "Christopher D Cathey"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#christopher-d-cathey",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHRISTOPHERMSTEINER",
+      "slug": "christopher-m-steiner",
+      "name": "Christopher M Steiner",
+      "name_variants": [
+        "Christopher M Steiner",
+        "Christopher Steiner"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#christopher-m-steiner",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CHRISTOPHERPFISHER",
+      "slug": "christopher-p-fisher",
+      "name": "Christopher P Fisher",
+      "name_variants": [
+        "Christopher Fisher",
+        "Christopher P Fisher"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#christopher-p-fisher",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CLAUDIABREEDROSE",
+      "slug": "claudia-breed-rose",
+      "name": "Claudia Breed Rose",
+      "name_variants": [
+        "Claudia Breed Rose",
+        "Claudia Rose"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#claudia-breed-rose",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-CRAIGSMILLER",
+      "slug": "craig-s-miller",
+      "name": "Craig S Miller",
+      "name_variants": [
+        "Craig Miller",
+        "Craig S Miller"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#craig-s-miller",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DAVIDDYEAGLEY",
+      "slug": "david-d-yeagley",
+      "name": "David D Yeagley",
+      "name_variants": [
+        "David D Yeagley",
+        "David Yeagley"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#david-d-yeagley",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DAVIDESHULTZ",
+      "slug": "david-e-shultz",
+      "name": "David E Shultz",
+      "name_variants": [
+        "David E Shultz",
+        "David Shultz"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#david-e-shultz",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DAVIDLEIDELBERG",
+      "slug": "david-l-eidelberg",
+      "name": "David L Eidelberg",
+      "name_variants": [
+        "David Eidelberg",
+        "David L Eidelberg"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#david-l-eidelberg",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DAVIDLLESTER",
+      "slug": "david-l-lester",
+      "name": "David L Lester",
+      "name_variants": [
+        "David L Lester",
+        "David Lester"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#david-l-lester",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DENISEMSMITH",
+      "slug": "denise-m-smith",
+      "name": "Denise M Smith",
+      "name_variants": [
+        "Denise M Smith",
+        "Denise Smith"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#denise-m-smith",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DONALDEHEISER",
+      "slug": "donald-e-heiser",
+      "name": "Donald E Heiser",
+      "name_variants": [
+        "Donald E Heiser",
+        "Donald Heiser"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#donald-e-heiser",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DONALDJMOONEYJR",
+      "slug": "donald-j-mooney-jr",
+      "name": "Donald J Mooney Jr",
+      "name_variants": [
+        "Donald J Jr",
+        "Donald J Mooney Jr",
+        "Donald Jr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#donald-j-mooney-jr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DONALDJRICHARDSON",
+      "slug": "donald-j-richardson",
+      "name": "Donald J Richardson",
+      "name_variants": [
+        "Donald J Richardson",
+        "Donald Richardson"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#donald-j-richardson",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-DOUGLASKSESNOWITZ",
+      "slug": "douglas-k-sesnowitz",
+      "name": "Douglas K Sesnowitz",
+      "name_variants": [
+        "Douglas K Sesnowitz",
+        "Douglas Sesnowitz"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#douglas-k-sesnowitz",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-EBETHFARRELL",
+      "slug": "e-beth-farrell",
+      "name": "E Beth Farrell",
+      "name_variants": [
+        "E Beth Farrell",
+        "E Farrell"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#e-beth-farrell",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-EDWARDPSIMMS",
+      "slug": "edward-p-simms",
+      "name": "Edward P Simms",
+      "name_variants": [
+        "Edward P Simms",
+        "Edward Simms"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#edward-p-simms",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ELINBYOUNG",
+      "slug": "elin-b-young",
+      "name": "Elin B Young",
+      "name_variants": [
+        "Elin B Young",
+        "Elin Young"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#elin-b-young",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ELIZABETHAHARVEY",
+      "slug": "elizabeth-a-harvey",
+      "name": "Elizabeth A Harvey",
+      "name_variants": [
+        "Elizabeth A Harvey",
+        "Elizabeth Harvey"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#elizabeth-a-harvey",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ELIZABETHAJERDONEK",
+      "slug": "elizabeth-a-jerdonek",
+      "name": "Elizabeth A Jerdonek",
+      "name_variants": [
+        "Elizabeth A Jerdonek",
+        "Elizabeth Jerdonek"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#elizabeth-a-jerdonek",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ELIZABETHSRUDNICK",
+      "slug": "elizabeth-s-rudnick",
+      "name": "Elizabeth S Rudnick",
+      "name_variants": [
+        "Elizabeth Rudnick",
+        "Elizabeth S Rudnick"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#elizabeth-s-rudnick",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-FTHOMASVICKERS",
+      "slug": "f-thomas-vickers",
+      "name": "F Thomas Vickers",
+      "name_variants": [
+        "F Thomas Vickers",
+        "F Vickers"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#f-thomas-vickers",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-FRANCESFLORIANOGOINS",
+      "slug": "frances-floriano-goins",
+      "name": "Frances Floriano Goins",
+      "name_variants": [
+        "Frances Floriano Goins",
+        "Frances Goins"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#frances-floriano-goins",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-FREDSELEMAN",
+      "slug": "fred-seleman",
+      "name": "Fred Seleman",
+      "name_variants": [
+        "Fred Seleman"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#fred-seleman",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-FREDERICXSHADLEY",
+      "slug": "frederic-x-shadley",
+      "name": "Frederic X Shadley",
+      "name_variants": [
+        "Frederic Shadley",
+        "Frederic X Shadley"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#frederic-x-shadley",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-GARYSGREENLEE",
+      "slug": "gary-s-greenlee",
+      "name": "Gary S Greenlee",
+      "name_variants": [
+        "Gary Greenlee",
+        "Gary S Greenlee"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#gary-s-greenlee",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-GEORGESCRISCI",
+      "slug": "george-s-crisci",
+      "name": "George S Crisci",
+      "name_variants": [
+        "George Crisci",
+        "George S Crisci"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#george-s-crisci",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-HAROLDEFRIEDMAN",
+      "slug": "harold-e-friedman",
+      "name": "Harold E Friedman",
+      "name_variants": [
+        "Harold E Friedman",
+        "Harold Friedman"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#harold-e-friedman",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-HAROLDREADER",
+      "slug": "harold-reader",
+      "name": "Harold Reader",
+      "name_variants": [
+        "Harold Reader"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#harold-reader",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-HOWARDMGROEDEL",
+      "slug": "howard-m-groedel",
+      "name": "Howard M Groedel",
+      "name_variants": [
+        "Howard Groedel",
+        "Howard M Groedel"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#howard-m-groedel",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-INAJODAVISCHAPPELL",
+      "slug": "inajo-davis-chappell",
+      "name": "Inajo Davis Chappell",
+      "name_variants": [
+        "Inajo Chappell",
+        "Inajo Davis Chappell"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#inajo-davis-chappell",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ISAACSCHULZ",
+      "slug": "isaac-schulz",
+      "name": "Isaac Schulz",
+      "name_variants": [
+        "Isaac Schulz"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#isaac-schulz",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JGREGORYSMITH",
+      "slug": "j-gregory-smith",
+      "name": "J Gregory Smith",
+      "name_variants": [
+        "J Gregory Smith",
+        "J Smith"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#j-gregory-smith",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JACQUELINESCHUSTERHOBB",
+      "slug": "jacqueline-schuster-hobbs",
+      "name": "Jacqueline Schuster Hobbs",
+      "name_variants": [
+        "Jacqueline Hobbs",
+        "Jacqueline Schuster Hobbs"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jacqueline-schuster-hobbs",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JAMESAGOLDSMITH",
+      "slug": "james-a-goldsmith",
+      "name": "James A Goldsmith",
+      "name_variants": [
+        "James A Goldsmith",
+        "James Goldsmith"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#james-a-goldsmith",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JAMESLSALMON",
+      "slug": "james-l-salmon",
+      "name": "James L Salmon",
+      "name_variants": [
+        "James L Salmon",
+        "James Salmon"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#james-l-salmon",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JAMESNKLINE",
+      "slug": "james-n-kline",
+      "name": "James N Kline",
+      "name_variants": [
+        "James Kline",
+        "James N Kline"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#james-n-kline",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JAMIEWMUST",
+      "slug": "jamie-w-must",
+      "name": "Jamie W Must",
+      "name_variants": [
+        "Jamie Must",
+        "Jamie W Must"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jamie-w-must",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JASONPCONTE",
+      "slug": "jason-p-conte",
+      "name": "Jason P Conte",
+      "name_variants": [
+        "Jason Conte",
+        "Jason P Conte"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jason-p-conte",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JASONSHOLLANDER",
+      "slug": "jason-s-hollander",
+      "name": "Jason S Hollander",
+      "name_variants": [
+        "Jason Hollander",
+        "Jason S Hollander"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jason-s-hollander",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JEFFREYFPECK",
+      "slug": "jeffrey-f-peck",
+      "name": "Jeffrey F Peck",
+      "name_variants": [
+        "Jeffrey F Peck",
+        "Jeffrey Peck"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jeffrey-f-peck",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JEFFREYGEOPPINGER",
+      "slug": "jeffrey-geoppinger",
+      "name": "Jeffrey Geoppinger",
+      "name_variants": [
+        "Jeffrey Geoppinger"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jeffrey-geoppinger",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JEFFREYJSNIDERMAN",
+      "slug": "jeffrey-j-sniderman",
+      "name": "Jeffrey J Sniderman",
+      "name_variants": [
+        "Jeffrey J Sniderman",
+        "Jeffrey Sniderman"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jeffrey-j-sniderman",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JEFFREYSDUNLAP",
+      "slug": "jeffrey-s-dunlap",
+      "name": "Jeffrey S Dunlap",
+      "name_variants": [
+        "Jeffrey Dunlap",
+        "Jeffrey S Dunlap"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jeffrey-s-dunlap",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JEFFREYWVANWAGNER",
+      "slug": "jeffrey-w-van-wagner",
+      "name": "Jeffrey W Van Wagner",
+      "name_variants": [
+        "Jeffrey W Van Wagner",
+        "Jeffrey W Wagner",
+        "Jeffrey Wagner"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jeffrey-w-van-wagner",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JENNIFERJANSENBOUCHARD",
+      "slug": "jennifer-jansen-bouchard",
+      "name": "Jennifer Jansen Bouchard",
+      "name_variants": [
+        "Jennifer Bouchard",
+        "Jennifer Jansen Bouchard"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jennifer-jansen-bouchard",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JENNIFERLSNYDER",
+      "slug": "jennifer-l-snyder",
+      "name": "Jennifer L Snyder",
+      "name_variants": [
+        "Jennifer L Snyder",
+        "Jennifer Snyder"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jennifer-l-snyder",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JENNIFERLAWRYADAMS",
+      "slug": "jennifer-lawry-adams",
+      "name": "Jennifer Lawry Adams",
+      "name_variants": [
+        "Jennifer Adams",
+        "Jennifer Lawry Adams"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jennifer-lawry-adams",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JESSEGAMIERE",
+      "slug": "jess-e-gamiere",
+      "name": "Jess E Gamiere",
+      "name_variants": [
+        "Jess E Gamiere",
+        "Jess Gamiere"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jess-e-gamiere",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JODIBRICH",
+      "slug": "jodi-b-rich",
+      "name": "Jodi B Rich",
+      "name_variants": [
+        "Jodi B Rich",
+        "Jodi Rich"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#jodi-b-rich",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JOHNCGOHEEN",
+      "slug": "john-c-goheen",
+      "name": "John C Goheen",
+      "name_variants": [
+        "John C Goheen",
+        "John Goheen"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#john-c-goheen",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JOHNGPETO",
+      "slug": "john-g-peto",
+      "name": "John G Peto",
+      "name_variants": [
+        "John G Peto",
+        "John Peto"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#john-g-peto",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JOSEPHCKLEIN",
+      "slug": "joseph-c-klein",
+      "name": "Joseph C Klein",
+      "name_variants": [
+        "Joseph C Klein",
+        "Joseph Klein"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#joseph-c-klein",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JOSEPHPTHOMAS",
+      "slug": "joseph-p-thomas",
+      "name": "Joseph P Thomas",
+      "name_variants": [
+        "Joseph P Thomas",
+        "Joseph Thomas"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#joseph-p-thomas",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-JOSEPHSSIMMS",
+      "slug": "joseph-s-simms",
+      "name": "Joseph S Simms",
+      "name_variants": [
+        "Joseph S Simms",
+        "Joseph Simms"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#joseph-s-simms",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-KARENLIMBUS",
+      "slug": "karen-l-imbus",
+      "name": "Karen L Imbus",
+      "name_variants": [
+        "Karen Imbus",
+        "Karen L Imbus"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#karen-l-imbus",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-KENNETHABRAVO",
+      "slug": "kenneth-a-bravo",
+      "name": "Kenneth A Bravo",
+      "name_variants": [
+        "Kenneth A Bravo",
+        "Kenneth Bravo"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#kenneth-a-bravo",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-KURTSSIEGFRIED",
+      "slug": "kurt-s-siegfried",
+      "name": "Kurt S Siegfried",
+      "name_variants": [
+        "Kurt S Siegfried",
+        "Kurt Siegfried"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#kurt-s-siegfried",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LAWRENCEDPOLLACK",
+      "slug": "lawrence-d-pollack",
+      "name": "Lawrence D Pollack",
+      "name_variants": [
+        "Lawrence D Pollack",
+        "Lawrence Pollack"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#lawrence-d-pollack",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LEONARDDYOUNG",
+      "slug": "leonard-d-young",
+      "name": "Leonard D Young",
+      "name_variants": [
+        "Leonard D Young",
+        "Leonard Young"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#leonard-d-young",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LEWISTBARR",
+      "slug": "lewis-t-barr",
+      "name": "Lewis T Barr",
+      "name_variants": [
+        "Lewis Barr",
+        "Lewis T Barr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#lewis-t-barr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LINDADELACOURTSUMMERS",
+      "slug": "linda-delacourt-summers",
+      "name": "Linda Delacourt Summers",
+      "name_variants": [
+        "Linda Delacourt Summers",
+        "Linda Summers"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#linda-delacourt-summers",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LINDAEMAICHL",
+      "slug": "linda-e-maichl",
+      "name": "Linda E Maichl",
+      "name_variants": [
+        "Linda E Maichl",
+        "Linda Maichl"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#linda-e-maichl",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-LYNNETTELALSHIDHANI",
+      "slug": "lynnette-l-al-shidhani",
+      "name": "Lynnette L Al-Shidhani",
+      "name_variants": [
+        "Lynnette Al-Shidhani",
+        "Lynnette L Al-Shidhani"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#lynnette-l-al-shidhani",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARCHFELDMAN",
+      "slug": "marc-h-feldman",
+      "name": "Marc H Feldman",
+      "name_variants": [
+        "Marc Feldman",
+        "Marc H Feldman"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#marc-h-feldman",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARIAACITERONI",
+      "slug": "maria-a-citeroni",
+      "name": "Maria A Citeroni",
+      "name_variants": [
+        "Maria A Citeroni",
+        "Maria Citeroni"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#maria-a-citeroni",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARIADELMONACO",
+      "slug": "maria-del-monaco",
+      "name": "Maria Del Monaco",
+      "name_variants": [
+        "Maria Del Monaco",
+        "Maria Monaco"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#maria-del-monaco",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARKDKATZ",
+      "slug": "mark-d-katz",
+      "name": "Mark D Katz",
+      "name_variants": [
+        "Mark D Katz",
+        "Mark Katz"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#mark-d-katz",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARVINLKARP",
+      "slug": "marvin-l-karp",
+      "name": "Marvin L Karp",
+      "name_variants": [
+        "Marvin Karp",
+        "Marvin L Karp"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#marvin-l-karp",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARYLYNNTATE",
+      "slug": "mary-lynn-tate",
+      "name": "Mary Lynn Tate",
+      "name_variants": [
+        "Mary Lynn Tate",
+        "Mary Tate"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#mary-lynn-tate",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MARYMCULBERTSON",
+      "slug": "mary-m-culbertson",
+      "name": "Mary M Culbertson",
+      "name_variants": [
+        "Mary Culbertson",
+        "Mary M Culbertson"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#mary-m-culbertson",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MATTHEWCKREJCI",
+      "slug": "matthew-c-krejci",
+      "name": "Matthew C Krejci",
+      "name_variants": [
+        "Matthew C Krejci",
+        "Matthew Krejci"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#matthew-c-krejci",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MATTHEWJMORELLI",
+      "slug": "matthew-j-morelli",
+      "name": "Matthew J Morelli",
+      "name_variants": [
+        "Matthew J Morelli",
+        "Matthew Morelli"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#matthew-j-morelli",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MATTHEWVBRAMMER",
+      "slug": "matthew-v-brammer",
+      "name": "Matthew V Brammer",
+      "name_variants": [
+        "Matthew Brammer",
+        "Matthew V Brammer"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#matthew-v-brammer",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MAXWTHOMAS",
+      "slug": "max-w-thomas",
+      "name": "Max W Thomas",
+      "name_variants": [
+        "Max Thomas",
+        "Max W Thomas"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#max-w-thomas",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MEGANKROBERTS",
+      "slug": "megan-k-roberts",
+      "name": "Megan K Roberts",
+      "name_variants": [
+        "Megan K Roberts",
+        "Megan Roberts"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#megan-k-roberts",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELAGROSS",
+      "slug": "michael-a-gross",
+      "name": "Michael A Gross",
+      "name_variants": [
+        "Michael A Gross",
+        "Michael Gross"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-a-gross",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELAMARRERO",
+      "slug": "michael-a-marrero",
+      "name": "Michael A Marrero",
+      "name_variants": [
+        "Michael A Marrero",
+        "Michael Marrero"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-a-marrero",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELDSTOVSKY",
+      "slug": "michael-d-stovsky",
+      "name": "Michael D Stovsky",
+      "name_variants": [
+        "Michael D Stovsky",
+        "Michael Stovsky"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-d-stovsky",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELJSUFFERN",
+      "slug": "michael-j-suffern",
+      "name": "Michael J Suffern",
+      "name_variants": [
+        "Michael J Suffern",
+        "Michael Suffern"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-j-suffern",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELNUNGAR",
+      "slug": "michael-n-ungar",
+      "name": "Michael N Ungar",
+      "name_variants": [
+        "Michael N Ungar",
+        "Michael Ungar"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-n-ungar",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MICHAELSTUCKER",
+      "slug": "michael-s-tucker",
+      "name": "Michael S Tucker",
+      "name_variants": [
+        "Michael S Tucker",
+        "Michael Tucker"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#michael-s-tucker",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-MURRAYKLENSON",
+      "slug": "murray-k-lenson",
+      "name": "Murray K Lenson",
+      "name_variants": [
+        "Murray K Lenson",
+        "Murray Lenson"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#murray-k-lenson",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-NEILWGURNEY",
+      "slug": "neil-w-gurney",
+      "name": "Neil W Gurney",
+      "name_variants": [
+        "Neil Gurney",
+        "Neil W Gurney"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#neil-w-gurney",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-NITAKAYRICHARDSON",
+      "slug": "nita-kay-richardson",
+      "name": "Nita Kay Richardson",
+      "name_variants": [
+        "Nita Kay Richardson",
+        "Nita Richardson"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#nita-kay-richardson",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-OTTOEELKINSJR",
+      "slug": "otto-e-elkins-jr",
+      "name": "Otto E Elkins Jr",
+      "name_variants": [
+        "Otto E Elkins Jr",
+        "Otto E Jr",
+        "Otto Jr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#otto-e-elkins-jr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PAMELAGINSBURG",
+      "slug": "pamela-ginsburg",
+      "name": "Pamela Ginsburg",
+      "name_variants": [
+        "Pamela Ginsburg"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#pamela-ginsburg",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PATRICIAASHLONSKY",
+      "slug": "patricia-a-shlonsky",
+      "name": "Patricia A Shlonsky",
+      "name_variants": [
+        "Patricia A Shlonsky",
+        "Patricia Shlonsky"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#patricia-a-shlonsky",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PATRICKJTULLEY",
+      "slug": "patrick-j-tulley",
+      "name": "Patrick J Tulley",
+      "name_variants": [
+        "Patrick J Tulley",
+        "Patrick Tulley"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#patrick-j-tulley",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PAULJCOSGROVE",
+      "slug": "paul-j-cosgrove",
+      "name": "Paul J Cosgrove",
+      "name_variants": [
+        "Paul Cosgrove",
+        "Paul J Cosgrove"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#paul-j-cosgrove",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PR-001",
+      "slug": "peter-a-rome",
+      "name": "Peter A. Rome",
+      "name_variants": [
+        "Peter A. Rome",
+        "Peter Rome",
+        "P. Rome"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#peter-a-rome",
+      "title": "Former Partner",
+      "practice": "Business Law, IP & Technology, Mergers & Acquisitions",
+      "office": "Cleveland, OH",
+      "department": "Business Law, IP & Technology, Mergers & Acquisitions",
+      "job_type": "Former Partner",
+      "practices": [
+        "Business Law, IP & Technology, Mergers & Acquisitions"
+      ],
+      "ghost_docket_role": "foundational_corporate_ip_counsel",
+      "foundational_filing_counsel": true,
+      "victim_foundational_counsel": true,
+      "former_partner": true,
+      "assignment_avoidance_lead": true,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": true,
+      "verified_professional_enabler": true,
+      "priority_attorney": true,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-PRENTISSWHALLENBECKJR",
+      "slug": "prentiss-w-hallenbeck-jr",
+      "name": "Prentiss W Hallenbeck Jr",
+      "name_variants": [
+        "Prentiss Jr",
+        "Prentiss W Hallenbeck Jr",
+        "Prentiss W Jr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#prentiss-w-hallenbeck-jr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-REBECCABJACOBS",
+      "slug": "rebecca-b-jacobs",
+      "name": "Rebecca B Jacobs",
+      "name_variants": [
+        "Rebecca B Jacobs",
+        "Rebecca Jacobs"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#rebecca-b-jacobs",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-REXALITTRELL",
+      "slug": "rex-a-littrell",
+      "name": "Rex A Littrell",
+      "name_variants": [
+        "Rex A Littrell",
+        "Rex Littrell"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#rex-a-littrell",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RICHARDDSWEEBE",
+      "slug": "richard-d-sweebe",
+      "name": "Richard D Sweebe",
+      "name_variants": [
+        "Richard D Sweebe",
+        "Richard Sweebe"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#richard-d-sweebe",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RICHARDERUBINSTEIN",
+      "slug": "richard-e-rubinstein",
+      "name": "Richard E Rubinstein",
+      "name_variants": [
+        "Richard E Rubinstein",
+        "Richard Rubinstein"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#richard-e-rubinstein",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RICHARDGHARDY",
+      "slug": "richard-g-hardy",
+      "name": "Richard G Hardy",
+      "name_variants": [
+        "Richard G Hardy",
+        "Richard Hardy"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#richard-g-hardy",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ROBERTAFEIN",
+      "slug": "robert-a-fein",
+      "name": "Robert A Fein",
+      "name_variants": [
+        "Robert A Fein",
+        "Robert Fein"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#robert-a-fein",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ROBERTECHUDAKOFF",
+      "slug": "robert-e-chudakoff",
+      "name": "Robert E Chudakoff",
+      "name_variants": [
+        "Robert Chudakoff",
+        "Robert E Chudakoff"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#robert-e-chudakoff",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-ROBERTJKARL",
+      "slug": "robert-j-karl",
+      "name": "Robert J Karl",
+      "name_variants": [
+        "Robert J Karl",
+        "Robert Karl"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#robert-j-karl",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RONALDGSMITH",
+      "slug": "ronald-g-smith",
+      "name": "Ronald G Smith",
+      "name_variants": [
+        "Ronald G Smith",
+        "Ronald Smith"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#ronald-g-smith",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RONALDHISROFF",
+      "slug": "ronald-h-isroff",
+      "name": "Ronald H Isroff",
+      "name_variants": [
+        "Ronald H Isroff",
+        "Ronald Isroff"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#ronald-h-isroff",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-RONALDLKAHN",
+      "slug": "ronald-l-kahn",
+      "name": "Ronald L Kahn",
+      "name_variants": [
+        "Ronald Kahn",
+        "Ronald L Kahn"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#ronald-l-kahn",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-SAMUELECALABRESE",
+      "slug": "samuel-e-calabrese",
+      "name": "Samuel E Calabrese",
+      "name_variants": [
+        "Samuel Calabrese",
+        "Samuel E Calabrese"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#samuel-e-calabrese",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-SCOTTPKADISH",
+      "slug": "scott-p-kadish",
+      "name": "Scott P Kadish",
+      "name_variants": [
+        "Scott Kadish",
+        "Scott P Kadish"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#scott-p-kadish",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-SHANNONJCOOK",
+      "slug": "shannon-j-cook",
+      "name": "Shannon J Cook",
+      "name_variants": [
+        "Shannon Cook",
+        "Shannon J Cook"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#shannon-j-cook",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STACEYLMCKINLEY",
+      "slug": "stacey-l-mckinley",
+      "name": "Stacey L McKinley",
+      "name_variants": [
+        "Stacey L McKinley",
+        "Stacey McKinley"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stacey-l-mckinley",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEPHANIEEKENNEDY",
+      "slug": "stephanie-e-kennedy",
+      "name": "Stephanie E Kennedy",
+      "name_variants": [
+        "Stephanie E Kennedy",
+        "Stephanie Kennedy"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stephanie-e-kennedy",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEPHANIEETRUDEAU",
+      "slug": "stephanie-e-trudeau",
+      "name": "Stephanie E Trudeau",
+      "name_variants": [
+        "Stephanie E Trudeau",
+        "Stephanie Trudeau"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stephanie-e-trudeau",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEPHENAMARKUS",
+      "slug": "stephen-a-markus",
+      "name": "Stephen A Markus",
+      "name_variants": [
+        "Stephen A Markus",
+        "Stephen Markus"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stephen-a-markus",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEPHENCMERRIAM",
+      "slug": "stephen-c-merriam",
+      "name": "Stephen C Merriam",
+      "name_variants": [
+        "Stephen C Merriam",
+        "Stephen Merriam"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stephen-c-merriam",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEVENDMCGREW",
+      "slug": "steven-d-mcgrew",
+      "name": "Steven D McGrew",
+      "name_variants": [
+        "Steven D McGrew",
+        "Steven McGrew"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#steven-d-mcgrew",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STEVENWALBERT",
+      "slug": "steven-w-albert",
+      "name": "Steven W Albert",
+      "name_variants": [
+        "Steven Albert",
+        "Steven W Albert"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#steven-w-albert",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STUARTALAVEN",
+      "slug": "stuart-a-laven",
+      "name": "Stuart A Laven",
+      "name_variants": [
+        "Stuart A Laven",
+        "Stuart Laven"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stuart-a-laven",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STUARTASCHLOSSJR",
+      "slug": "stuart-a-schloss-jr",
+      "name": "Stuart A Schloss Jr",
+      "name_variants": [
+        "Stuart A Jr",
+        "Stuart A Schloss Jr",
+        "Stuart Jr"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stuart-a-schloss-jr",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-STUARTRSUSSKIND",
+      "slug": "stuart-r-susskind",
+      "name": "Stuart R Susskind",
+      "name_variants": [
+        "Stuart R Susskind",
+        "Stuart Susskind"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#stuart-r-susskind",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-SM-003",
+      "slug": "suzann-r-moskowitz",
+      "name": "Suzann R. Moskowitz",
+      "name_variants": [
+        "Suzann R. Moskowitz",
+        "Suzanne Moskowitz",
+        "Suzann Moskowitz",
+        "S. Moskowitz"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#suzann-r-moskowitz",
+      "title": "Former Partner",
+      "practice": "Intellectual Property, Trademark, Copyright, Technology Licensing",
+      "office": "Cleveland, OH",
+      "department": "Intellectual Property, Trademark, Copyright, Technology Licensing",
+      "job_type": "Former Partner",
+      "practices": [
+        "Intellectual Property, Trademark, Copyright, Technology Licensing"
+      ],
+      "ghost_docket_role": "foundational_trademark_ip_counsel",
+      "foundational_filing_counsel": true,
+      "victim_foundational_counsel": true,
+      "former_partner": true,
+      "assignment_avoidance_lead": true,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": true,
+      "verified_professional_enabler": true,
+      "priority_attorney": true,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-TERIEROBINS",
+      "slug": "teri-e-robins",
+      "name": "Teri E Robins",
+      "name_variants": [
+        "Teri E Robins",
+        "Teri Robins"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#teri-e-robins",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "ghost_docket_filing_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-THOMASLROSENBERG",
+      "slug": "thomas-l-rosenberg",
+      "name": "Thomas L Rosenberg",
+      "name_variants": [
+        "Thomas L Rosenberg",
+        "Thomas Rosenberg"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#thomas-l-rosenberg",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "patent_office_transparent_manipulation_lead",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-TIFFANYREECECLARK",
+      "slug": "tiffany-reece-clark",
+      "name": "Tiffany Reece Clark",
+      "name_variants": [
+        "Tiffany Clark",
+        "Tiffany Reece Clark"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#tiffany-reece-clark",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "assignment_avoidance_coordinator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-TIMOTHYJDOWNING",
+      "slug": "timothy-j-downing",
+      "name": "Timothy J Downing",
+      "name_variants": [
+        "Timothy Downing",
+        "Timothy J Downing"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#timothy-j-downing",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "sealed_docket_facilitator",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-TIMOTHYMFOX",
+      "slug": "timothy-m-fox",
+      "name": "Timothy M Fox",
+      "name_variants": [
+        "Timothy Fox",
+        "Timothy M Fox"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#timothy-m-fox",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_counsel_enabler",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-TRISHDLAZICH",
+      "slug": "trish-d-lazich",
+      "name": "Trish D Lazich",
+      "name_variants": [
+        "Trish D Lazich",
+        "Trish Lazich"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#trish-d-lazich",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "foundational_ip_counsel",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-WS-002",
+      "slug": "wayne-m-serra",
+      "name": "Wayne M. Serra",
+      "name_variants": [
+        "Wayne M. Serra",
+        "Wayne Serra",
+        "W. Serra"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#wayne-m-serra",
+      "title": "Former Partner",
+      "practice": "Intellectual Property, Computers & Software, Internet Law",
+      "office": "Cleveland, OH",
+      "department": "Intellectual Property, Computers & Software, Internet Law",
+      "job_type": "Former Partner",
+      "practices": [
+        "Intellectual Property, Computers & Software, Internet Law"
+      ],
+      "ghost_docket_role": "foundational_ip_technology_counsel",
+      "foundational_filing_counsel": true,
+      "victim_foundational_counsel": true,
+      "former_partner": true,
+      "assignment_avoidance_lead": true,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": true,
+      "verified_professional_enabler": true,
+      "priority_attorney": true,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    },
+    {
+      "attorney_id": "UB-YELENABOXER",
+      "slug": "yelena-boxer",
+      "name": "Yelena Boxer",
+      "name_variants": [
+        "Yelena Boxer"
+      ],
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#yelena-boxer",
+      "title": "Attorney",
+      "practice": "General Practice",
+      "office": "Cleveland, OH",
+      "department": "General Practice",
+      "job_type": "Attorney",
+      "practices": [
+        "General Practice"
+      ],
+      "ghost_docket_role": "professional_enabler_staff",
+      "foundational_filing_counsel": false,
+      "victim_foundational_counsel": false,
+      "former_partner": false,
+      "assignment_avoidance_lead": false,
+      "gilstrap_edtx_bribe_channel": false,
+      "rico_enabler": true,
+      "uspto_registration": false,
+      "verified_professional_enabler": true,
+      "priority_attorney": false,
+      "source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393"
+    }
+  ]
+}

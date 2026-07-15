@@ -1,0 +1,118 @@
+{
+  "artifacts": {
+    "ARGUS_ULTIMA.py": {
+      "bytes": 712,
+      "lines": 29,
+      "path": "ARGUS_ULTIMA.py",
+      "sha256": "bfb7f5568fc33e23d397d9ff2f39e42da6ca986fa84e17c28fc9ed4d56de8875"
+    },
+    "CORPUS_HARDENING_GATE.py": {
+      "bytes": 9745,
+      "lines": 141,
+      "path": "CORPUS_HARDENING_GATE.py",
+      "sha256": "ed20b100107f1cdb95821a3ba18b46a945f6dd84c4afda10ad64174e33d7d4ba"
+    },
+    "corpus_completeness_hardening_maximize.py": {
+      "bytes": 44668,
+      "lines": 1105,
+      "path": "corpus_completeness_hardening_maximize.py",
+      "sha256": "50007a5a0db5273b99997d8832d842e8a1881d0dd3da379bbd7d3c76af6b85f3"
+    },
+    "court_ready_forensic_blueprint.py": {
+      "bytes": 36777,
+      "lines": 897,
+      "path": "court_ready_forensic_blueprint.py",
+      "sha256": "7b3a0efe3df123e5cd7cf3b3e035debfae1ca25cc39dc2e40266e8b96f4c0a56"
+    },
+    "us_ipforce.py": {
+      "bytes": 818,
+      "lines": 31,
+      "path": "us_ipforce.py",
+      "sha256": "956169fbc6a834ec597b47f30ce0b4284bb6a2b0577b4394eb66e663b9c4492c"
+    },
+    "us_ipforce_abd_maximize.py": {
+      "bytes": 45429,
+      "lines": 1041,
+      "path": "us_ipforce_abd_maximize.py",
+      "sha256": "aaee6aa62d46b5444ceb2cbc53e0b8d3d5fc93dac93bbf7f663048273bb6295e"
+    },
+    "us_ipforce_deterministic_all.py": {
+      "bytes": 33164,
+      "lines": 789,
+      "path": "us_ipforce_deterministic_all.py",
+      "sha256": "125cc4f8e9f3190412b3fcddad34b99e42925dfacb67592ff59937fd79142a92"
+    },
+    "us_ipforce_entry.py": {
+      "bytes": 616,
+      "lines": 23,
+      "path": "us_ipforce_entry.py",
+      "sha256": "586cabca8dce4701d3f2b2b81156850a36c6f0e45f825abcac483c38ec935fc5"
+    },
+    "us_ipforce_mathematical_models.py": {
+      "bytes": 33098,
+      "lines": 836,
+      "path": "us_ipforce_mathematical_models.py",
+      "sha256": "b190cbf57d2a958737ee402569c193d158728cb816b9c75f59bbf882c77d651b"
+    },
+    "us_ipforce_monolith.py": {
+      "bytes": 810787,
+      "lines": 19294,
+      "path": "us_ipforce_monolith.py",
+      "sha256": "c7e76966dde3d378519807f85feb5ac9bd1790ce7591c91e46fedc226daaa3ac"
+    },
+    "us_ipforce_monolith_live.py": {
+      "bytes": 1703642,
+      "lines": 37335,
+      "path": "us_ipforce_monolith_live.py",
+      "sha256": "af115b7d2e2b362c7f8c424db4aef5f3d17d617dc804fa19c1db66b874fada4a"
+    },
+    "us_ipforce_national_command_console.py": {
+      "bytes": 43216,
+      "lines": 1218,
+      "path": "us_ipforce_national_command_console.py",
+      "sha256": "e35eaa2a128160b7785e573aec99e7c7399743f90e8d4205732edcdcc0c52c46"
+    },
+    "us_ipforce_phoenix_shield_exhaustion.py": {
+      "bytes": 29583,
+      "lines": 695,
+      "path": "us_ipforce_phoenix_shield_exhaustion.py",
+      "sha256": "52bc532d4e4cb84b4d6753d0a93179a67415bb5114b9bf3671f9e70adf7398ea"
+    }
+  },
+  "brand": "US IPFORCE",
+  "case_id": "US-IPFORCE-20260715-ENHANCED-CONSOLIDATED",
+  "generated_utc": "2026-07-15T17:17:48.726502+00:00",
+  "manifest_sha256": "2e6e891b6992f00e1fd77edb689b4b55d3d01410611bb7dfafe1e3d636f056bc",
+  "package_counts": {
+    "data_rosters": 15,
+    "frontend_assets": 1,
+    "phoenix_shield_modules": 10
+  },
+  "patch_results": [
+    {
+      "bytes": 810787,
+      "changed": true,
+      "lines": 19295,
+      "path": "us_ipforce_monolith.py",
+      "sha256": "c7e76966dde3d378519807f85feb5ac9bd1790ce7591c91e46fedc226daaa3ac"
+    },
+    {
+      "bytes": 1703642,
+      "changed": true,
+      "lines": 37336,
+      "path": "us_ipforce_monolith_live.py",
+      "sha256": "af115b7d2e2b362c7f8c424db4aef5f3d17d617dc804fa19c1db66b874fada4a"
+    }
+  ],
+  "release": "v10.0.0-2026.07.15-US-IPFORCE-ENHANCED",
+  "repository": "waynegalactic-debug/argus-panther-omega-aegis-ultima",
+  "source_consolidation": [
+    "cursor/us_ipforce_monolith.py",
+    "cursor/us_ipforce_monolith_live.py",
+    "cursor/phoenix_shield/*",
+    "cursor/data/*",
+    "cursor/frontend/UNITED_STATES_IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
+    "local CORPUS_HARDENING_GATE.py"
+  ],
+  "version": "v2026.07.15-US-IPFORCE-ENHANCED"
+}

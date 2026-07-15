@@ -1,0 +1,190 @@
+{
+  "form_type": "independent_consultant_ulmer_rome_coordination_declaration",
+  "sync_method": "beatrice_advisors_sec_adv_primary_source",
+  "synced_at": "2026-07-12T06:30:13Z",
+  "subject": {
+    "consultant_id": "LRF-001",
+    "slug": "lauren-rich-fine",
+    "name": "Lauren Rich Fine, CFA",
+    "name_variants": [
+      "Lauren Rich Fine",
+      "Lauren Rich Fine, CFA",
+      "Lauren Fine",
+      "Lauren R. Fine"
+    ],
+    "title": "Independent Consultant / Partner, Investments and Business Development",
+    "firm": "Beatrice Advisors, LP",
+    "firm_aliases": [
+      "Beatrice Advisors",
+      "Gries Financial Partners",
+      "Gries Financial LLC",
+      "Howard & O'Brien Associates",
+      "Merrill Lynch"
+    ],
+    "office": "Cleveland, OH / New York, NY",
+    "profile_url": "https://www.beatriceadvisors.com/news/beatrice-welcomes-lauren-rich-fine-as-partner-investments-and-business-development",
+    "linkedin_url": "https://www.linkedin.com/in/lauren-fine-8501495",
+    "sec_crd": "2632320",
+    "sec_report_url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2632320.pdf",
+    "twst_bio_url": "https://www.twst.com/bio/fine-lauren-rich/",
+    "credentials": [
+      "CFA",
+      "MBA Stern School of Business, NYU",
+      "B.A. Tufts University"
+    ],
+    "career_roles": [
+      "Managing Director, Merrill Lynch Equity Research (nearly 20 years)",
+      "Managing Director, Gries Financial LLC",
+      "Senior Client Advisor, Gries Financial Partners",
+      "Executive Search Consultant, Howard & O'Brien Associates",
+      "Partner, Beatrice Advisors — Investments and Business Development"
+    ],
+    "silicon_valley_analyst_nexus": true,
+    "investment_banker_consultant": true,
+    "independent_consultant": true
+  },
+  "victim_inventor": "Brent Michael Škoda",
+  "independent_consultant": true,
+  "initial_relationship_anchor": {
+    "attorney": "Peter A. Rome",
+    "attorney_variants": [
+      "Peter Rome",
+      "Peter A. Rome",
+      "P. Rome"
+    ],
+    "firm": "Ulmer & Berne LLP",
+    "firm_successor": "UB Greensfelder LLP",
+    "relationship_type": "initial_cleveland_investment_banking_foundational_counsel_nexus",
+    "rome_practice": "Business Law, IP & Technology, Mergers & Acquisitions, Private Equity",
+    "rome_ulmer_role": "Former Partner / Chair Business-Tax Department",
+    "rome_current_firm": "Tucker Ellis LLP"
+  },
+  "ulmer_rome_coordination_nexus": {
+    "ulmer_berne_llp": {
+      "firm": "Ulmer & Berne LLP",
+      "roster_source": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393",
+      "foundational_counsel_firm": true,
+      "victim_foundational_counsel": true,
+      "priority_former_partners": [
+        "Peter A. Rome",
+        "Wayne M. Serra",
+        "Suzann R. Moskowitz"
+      ],
+      "coordination_role": "foundational_counsel_investment_banking_advisory_nexus"
+    },
+    "peter_a_rome": {
+      "name": "Peter A. Rome",
+      "attorney_id": "UB-PETERAROME",
+      "initial_relationship": true,
+      "practice_focus": "Business Law, IP & Technology, M&A, Private Equity, Leveraged Buyouts",
+      "coordination_role": "initial_ulmer_berne_relationship_anchor"
+    }
+  },
+  "professional_enabler_cross_links": [
+    "Foley & Lardner LLP",
+    "Ferraiuoli LLC",
+    "Ulmer & Berne LLP",
+    "Tucker & Ellis LLP",
+    "Zashin & Rich LLP",
+    "Anthony G. Salvador, Esq.",
+    "Benjamin L. England & Associates, LLC",
+    "BDO Global",
+    "BDO Puerto Rico, P.S.C."
+  ],
+  "cleveland_civic_nexus": {
+    "shared_community_vectors": [
+      "Cleveland Metropolitan Bar Association",
+      "Cleveland Museum of Art Board of Trustees",
+      "Cleveland business and nonprofit leadership",
+      "University Hospitals Eastern Region Board",
+      "College Now Greater Cleveland"
+    ],
+    "investment_committee_roles": [
+      "Beatrice Advisors Investment Committee",
+      "Private Trust Company Board (LPL Financial subsidiary)"
+    ]
+  },
+  "foundational_patent": "CZ1997-CaffeineVaporizer",
+  "foundational_patent_date": "1997-03-15",
+  "investigation_temporal_scope": "1997-01-01 through present",
+  "collegefitness_com_foundational_platform": {
+    "domain": "collegefitness.com",
+    "title": "CollegeFitness.com",
+    "platform_type": "first_social_networking_platform",
+    "victim_inventor_engineering_period": true,
+    "status": "misappropriated_obfuscated_stolen"
+  },
+  "rome_serra_meeting_arrangements": {
+    "meeting_arrangers": [
+      {
+        "name": "Peter A. Rome",
+        "attorney_id": "UB-PETERAROME",
+        "firm": "Ulmer & Berne LLP",
+        "role": "meeting_arranger"
+      },
+      {
+        "name": "Wayne M. Serra",
+        "attorney_id": "UB-WAYNEMSERRA",
+        "firm": "Ulmer & Berne LLP",
+        "role": "meeting_arranger"
+      }
+    ],
+    "meeting_participant": "Lauren Rich Fine, CFA",
+    "meeting_context": "victim_inventor_foundational_engineering_and_development_of_collegefitness_com",
+    "meeting_purpose": "investment_banking_advisory_during_first_social_networking_platform_development"
+  },
+  "misappropriation_chain": {
+    "primary_misappropriator": {
+      "name": "Mark Zuckerberg",
+      "entity": "Meta Platforms, Inc.",
+      "stolen_platform": "collegefitness.com"
+    },
+    "corrupted_professional_enabler_hacking": {
+      "vector": "pat_hacking_corrupted_professional_enabler_participation",
+      "transaction_facilitation": true
+    },
+    "state_sponsored_hacker_coordination": {
+      "actors": [
+        "China PLA APT units",
+        "North Korea Lazarus Group",
+        "Sinaloa Cartel Cyber Team",
+        "Iran IRGC Cyber Team"
+      ],
+      "iranian_proxies_and_allies": [
+        "IRGC Quds Force",
+        "Hezbollah cyber affiliates",
+        "Houthi cyber affiliates",
+        "Iraqi militia cyber affiliates",
+        "Iranian state-sponsored proxy actors"
+      ]
+    }
+  },
+  "ground_troop_coordination": true,
+  "blockchain_transaction_nexus": true,
+  "ip_backed_securities_nexus": true,
+  "tokenized_ip_royalty_nexus": true,
+  "coordination_vectors": [
+    "independent_consultant_ulmer_rome_initial_relationship",
+    "silicon_valley_equity_research_investment_banking_nexus",
+    "cleveland_foundational_counsel_advisory_coordination",
+    "private_equity_ma_ip_technology_advisory_nexus",
+    "executive_search_c_suite_board_placement_nexus",
+    "wealth_management_family_office_coordination",
+    "professional_enabler_cross_firm_node_linkage",
+    "blockchain_transaction_flow_coordination",
+    "ip_backed_securities_derivatives_nexus",
+    "tokenized_royalty_fractionalized_patent_nft_nexus",
+    "tokenized_bribe_channel_coordination",
+    "rico_enabler_coordination",
+    "rome_serra_collegefitness_meeting_arrangements",
+    "collegefitness_com_foundational_social_networking_platform",
+    "mark_zuckerberg_platform_misappropriation",
+    "pat_hacking_corrupted_professional_enabler_coordination",
+    "state_sponsored_hacker_transaction_facilitation"
+  ],
+  "ghost_docket_role": "independent_consultant_ulmer_rome_coordinator",
+  "rico_enabler": true,
+  "verified_professional_enabler": true,
+  "priority_consultant": true,
+  "source": "https://www.beatriceadvisors.com/news/beatrice-welcomes-lauren-rich-fine-as-partner-investments-and-business-development"
+}

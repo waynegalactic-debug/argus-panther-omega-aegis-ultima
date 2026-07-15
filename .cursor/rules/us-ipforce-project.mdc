@@ -1,0 +1,36 @@
+---
+description: US IPFORCE forensic IP pipeline — cohesive project context
+alwaysApply: true
+---
+
+# US IPFORCE
+
+- **Primary account:** bmskoda@gmail.com
+- **Legacy account:** waynegalactic@gmail.com (migrated)
+- **Repo:** github.com/waynegalactic-debug/argus-panther-omega-aegis-ultima
+- **Brand:** US IPFORCE only — do not introduce parallel product names
+- **Package:** v2026.07.15-US-IPFORCE-ENHANCED (fully consolidated)
+
+## Architecture
+
+One cohesive forensic IP enforcement pipeline. Prefer `us_ipforce_*` modules.
+
+Key entry points:
+- `python3 us_ipforce.py`
+- `python3 us_ipforce_monolith.py`
+- `python3 us_ipforce_monolith_live.py`
+- `python3 us_ipforce_deterministic_all.py run`
+- `python3 court_ready_forensic_blueprint.py run`
+
+Legacy `ARGUS_ULTIMA.py` / `omega_aegis_*` / `aegis_*` / `us_ip_force_*` filenames are shims only.
+
+## Conventions
+
+- Extend existing US IPFORCE monoliths; avoid parallel reimplementations.
+- Data rosters are JSON in `data/` — sync via `scripts/sync_*.py`.
+- Dependencies: `requirements.txt`.
+- Agent branches use `cursor/<descriptive-name>-<suffix>` naming.
+
+## Migration
+
+See `cursor-migration/` for export/import scripts and `DATA-MANIFEST.md`.

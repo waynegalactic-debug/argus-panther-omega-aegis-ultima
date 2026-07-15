@@ -1,0 +1,16 @@
+us_ip_force_output/
+us_ip_force_execution.log
+united_states_ip_force_output/
+united_states_ip_force_execution.log
+__pycache__/
+*.pyc
+.venv/
+merge_v2_head.py
+merge_v2_main.py
+packages/*.zip
+
+# US IPFORCE / legacy logs
+*.log
+us_ipforce_output/
+output_artifacts/
+omega_aegis_ultimate.log

@@ -1,0 +1,232 @@
+{
+  "source": "https://www.bdo.com/locations/bdo-san-juan-office",
+  "firm": "BDO Puerto Rico, P.S.C.",
+  "firm_aliases": [
+    "BDO Puerto Rico",
+    "Scherrer Hern\u00e1ndez & Co.",
+    "BDO PR"
+  ],
+  "practice_focus": "Audit, Tax, Advisory, Government Services",
+  "sync_method": "bdo_puerto_rico_directory_primary_source",
+  "synced_at": "2026-07-12T06:21:55Z",
+  "roster_count": 10,
+  "accounting_advisory_firm": true,
+  "undercover_financial_enabler": true,
+  "former_entity": "Scherrer Hern\u00e1ndez & Co.",
+  "bdo_network_join_date": "2012-06-01",
+  "priority_main_partners": [
+    "Gabriel Hern\u00e1ndez, CPA",
+    "Fernando Scherrer, CPA"
+  ],
+  "personnel": [
+    {
+      "personnel_id": "BDOPR-GH-001",
+      "slug": "gabriel-hernandez",
+      "name": "Gabriel Hern\u00e1ndez, CPA",
+      "name_variants": [
+        "Gabriel Hernandez",
+        "Gabriel Hern\u00e1ndez",
+        "Gabriel Hernandez CPA",
+        "Gabriel Hern\u00e1ndez, CPA"
+      ],
+      "profile_url": "https://newsismybusiness.com/scherrer-hernandez-cpa-firm-takes-on-new-identity-becomes-bdo/",
+      "title": "Co-Founder / Partner \u2014 Tax Division",
+      "practice": "Tax / Audit / Business Advisory",
+      "office": "San Juan, PR",
+      "department": "Tax",
+      "employee_type": "CPA",
+      "job_type": "Partner",
+      "ghost_docket_role": "undercover_financial_enabler",
+      "main_partner": true,
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": true,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-FS-001",
+      "slug": "fernando-scherrer",
+      "name": "Fernando Scherrer, CPA",
+      "name_variants": [
+        "Fernando Scherrer",
+        "Fernando Scherrer CPA",
+        "Fernando Scherrer, CPA, CIRA, CA, MBA"
+      ],
+      "profile_url": "https://www.linkedin.com/in/fernando-scherrer-b316b941",
+      "title": "Managing Partner / Managing Shareholder",
+      "practice": "Audit / Business Advisory / Assurance",
+      "office": "San Juan, PR",
+      "department": "Audit and Advisory",
+      "employee_type": "CPA",
+      "job_type": "Managing Partner",
+      "phone": "(787) 378-4363",
+      "email": "fernando@bdo.com.pr",
+      "ghost_docket_role": "undercover_financial_enabler",
+      "main_partner": true,
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": true,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-SEH-001",
+      "slug": "samir-el-hage-pr",
+      "name": "Samir El Hage",
+      "name_variants": [
+        "Samir El Hage"
+      ],
+      "profile_url": "https://www.bdo.com/samir-el-hage",
+      "title": "Principal \u2014 Government Services",
+      "practice": "CDBG Disaster Recovery / Government Advisory",
+      "office": "San Juan, PR",
+      "department": "Government Services",
+      "employee_type": "Principal",
+      "job_type": "Market Leader",
+      "ghost_docket_role": "puerto_rico_government_advisory_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/samir-el-hage"
+    },
+    {
+      "personnel_id": "BDOPR-TA-001",
+      "slug": "tax-advisory-team",
+      "name": "BDO Puerto Rico Tax Advisory Team",
+      "name_variants": [
+        "BDO PR Tax Team"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Tax Advisory Practice",
+      "practice": "Tax Compliance / International Tax",
+      "office": "San Juan, PR",
+      "department": "Tax",
+      "employee_type": "Practice Group",
+      "job_type": "Tax Advisory",
+      "ghost_docket_role": "tax_structuring_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-AA-001",
+      "slug": "audit-assurance-team",
+      "name": "BDO Puerto Rico Audit and Assurance Team",
+      "name_variants": [
+        "BDO PR Audit Team"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Audit and Assurance Practice",
+      "practice": "Financial Audit / Regulatory Compliance",
+      "office": "San Juan, PR",
+      "department": "Audit",
+      "employee_type": "Practice Group",
+      "job_type": "Audit",
+      "ghost_docket_role": "audit_compliance_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-BA-001",
+      "slug": "business-advisory-team",
+      "name": "BDO Puerto Rico Business Advisory Team",
+      "name_variants": [
+        "BDO PR Advisory Team"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Business Advisory Practice",
+      "practice": "M&A / Risk Management / Consulting",
+      "office": "San Juan, PR",
+      "department": "Advisory",
+      "employee_type": "Practice Group",
+      "job_type": "Business Advisory",
+      "ghost_docket_role": "business_advisory_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-GS-001",
+      "slug": "government-services-pr",
+      "name": "BDO Puerto Rico Government Services Team",
+      "name_variants": [
+        "BDO PR Government Services"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Government Services Practice",
+      "practice": "Puerto Rico Government Advisory / Federally Funded Programs",
+      "office": "San Juan, PR",
+      "department": "Government Services",
+      "employee_type": "Practice Group",
+      "job_type": "Government Advisory",
+      "ghost_docket_role": "puerto_rico_government_advisory_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-FA-001",
+      "slug": "forensic-accounting-pr",
+      "name": "BDO Puerto Rico Forensic Accounting Team",
+      "name_variants": [
+        "BDO PR Forensic Team"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Forensic Accounting Practice",
+      "practice": "Fraud Investigation / Litigation Support",
+      "office": "San Juan, PR",
+      "department": "Forensic",
+      "employee_type": "Practice Group",
+      "job_type": "Forensic Advisory",
+      "ghost_docket_role": "forensic_accounting_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-INTL-001",
+      "slug": "international-client-services",
+      "name": "BDO Puerto Rico International Client Services",
+      "name_variants": [
+        "BDO PR International Services"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "International Client Services",
+      "practice": "Cross-Border Advisory / Import-Export Compliance",
+      "office": "San Juan, PR",
+      "department": "International",
+      "employee_type": "Practice Group",
+      "job_type": "International Advisory",
+      "ghost_docket_role": "international_financial_enabler",
+      "rico_enabler": true,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    },
+    {
+      "personnel_id": "BDOPR-ADMIN-001",
+      "slug": "administrative-operations",
+      "name": "BDO Puerto Rico Administrative Operations",
+      "name_variants": [
+        "BDO PR Admin"
+      ],
+      "profile_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+      "title": "Administrative Operations",
+      "practice": "Finance / HR / Client Services",
+      "office": "San Juan, PR",
+      "department": "Administrative",
+      "employee_type": "Administrative",
+      "job_type": "Operations",
+      "ghost_docket_role": "professional_enabler_staff",
+      "rico_enabler": false,
+      "verified_professional_enabler": true,
+      "priority_personnel": false,
+      "source": "https://www.bdo.com/locations/bdo-san-juan-office"
+    }
+  ]
+}

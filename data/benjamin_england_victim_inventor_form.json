@@ -1,0 +1,87 @@
+{
+  "form_type": "victim_inventor_counsel_fda_ip_regulatory_declaration",
+  "sync_method": "fdaimports_justia_primary_source",
+  "synced_at": "2026-07-12T06:14:02Z",
+  "subject": {
+    "attorney_id": "BLE-BLE-001",
+    "slug": "benjamin-l-england",
+    "name": "Benjamin L. England, Esq.",
+    "legal_name": "Benjamin L. England",
+    "name_variants": [
+      "Benjamin L. England",
+      "Benjamin England",
+      "Benjamin L. England, Esq.",
+      "Ben England",
+      "Benjamin England ESQ"
+    ],
+    "title": "Founder and CEO / Founding Member",
+    "firm": "Benjamin L. England & Associates, LLC",
+    "firm_aliases": [
+      "FDAimports.com",
+      "FDAImports.com, LLC"
+    ],
+    "office": "Glen Burnie, MD",
+    "address": "810 Landmark Dr, Suite 126, Glen Burnie, MD 21061",
+    "phone": "(410) 220-2800",
+    "email": "",
+    "profile_url": "https://lawyers.justia.com/lawyer/benjamin-l-england-771928",
+    "fdaimports_url": "https://www.fdaimports.com/",
+    "license_jurisdictions": [
+      "District of Columbia",
+      "Florida",
+      "Maryland"
+    ],
+    "years_experience": 26
+  },
+  "victim_inventor": "Brent Michael \u0160koda",
+  "victim_inventor_counsel_role": "primary_partner_fda_ip_regulatory_counsel",
+  "primary_partner_engaged_victim_inventor": true,
+  "foundational_ip_composition_nexus": true,
+  "foundational_patent": "CZ1997-CaffeineVaporizer",
+  "foundational_patent_date": "1997-03-15",
+  "foundational_patent_office": "Czech Patent Office",
+  "investigation_temporal_scope": "1997-01-01 through present",
+  "vapergy_fda_registration_nexus": {
+    "corporation": "VAPERGY",
+    "domain": "VAPERGY.COM",
+    "fda_registration_counsel": true,
+    "regulatory_counsel_firm": "Benjamin L. England & Associates, LLC",
+    "consulting_firm": "FDAImports.com, LLC",
+    "ip_venture_counsel": true
+  },
+  "ip_venture_counsel_scope": [
+    "intellectual_property_before_uspto",
+    "fda_regulatory_registration",
+    "customs_and_border_protection",
+    "vapergy_fda_registration",
+    "foundational_ip_composition",
+    "follow_on_ip_ventures"
+  ],
+  "professional_enabler_nexus": {
+    "unlawful_leverage_vectors": [
+      "patent_fraud",
+      "patent_theft",
+      "trade_secret_theft",
+      "fraudulent_settlements",
+      "unjust_enrichment",
+      "tokenized_ip_royalty_misappropriation"
+    ],
+    "combination_subset_derivative_tracking": true
+  },
+  "engagement_vectors": [
+    "victim_inventor_fda_ip_regulatory_counsel",
+    "foundational_ip_composition_presence",
+    "vapergy_fda_registration_counsel",
+    "uspto_intellectual_property_representation",
+    "professional_enabler_unlawful_leverage",
+    "rico_enabler_coordination"
+  ],
+  "ghost_docket_role": "victim_inventor_fda_ip_regulatory_counsel",
+  "victim_attorney_firm": false,
+  "victim_inventor_counsel": true,
+  "dual_representation_conflict": true,
+  "rico_enabler": true,
+  "verified_professional_enabler": true,
+  "priority_attorney": true,
+  "source": "https://www.fdaimports.com/"
+}
