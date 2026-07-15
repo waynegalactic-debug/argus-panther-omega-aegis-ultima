@@ -1,3 +1,5 @@
+> **SUPERSEDED:** continue all US IPFORCE work in https://github.com/waynegalactic-debug/Cursor
+
 # IP FORCE
 
 **IP FORCE** — fully consolidated, updated, and
