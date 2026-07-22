@@ -1,16 +1,16 @@
 {
   "artifacts": {
-    "IP_FORCE.py": {
-      "bytes": 712,
-      "lines": 29,
-      "path": "IP_FORCE.py",
-      "sha256": "bfb7f5568fc33e23d397d9ff2f39e42da6ca986fa84e17c28fc9ed4d56de8875"
-    },
     "CORPUS_HARDENING_GATE.py": {
       "bytes": 9745,
       "lines": 141,
       "path": "CORPUS_HARDENING_GATE.py",
       "sha256": "ed20b100107f1cdb95821a3ba18b46a945f6dd84c4afda10ad64174e33d7d4ba"
+    },
+    "IP_FORCE.py": {
+      "bytes": 712,
+      "lines": 29,
+      "path": "IP_FORCE.py",
+      "sha256": "bfb7f5568fc33e23d397d9ff2f39e42da6ca986fa84e17c28fc9ed4d56de8875"
     },
     "corpus_completeness_hardening_maximize.py": {
       "bytes": 44668,
@@ -24,6 +24,18 @@
       "path": "court_ready_forensic_blueprint.py",
       "sha256": "7b3a0efe3df123e5cd7cf3b3e035debfae1ca25cc39dc2e40266e8b96f4c0a56"
     },
+    "data/public_source_registry.json": {
+      "bytes": 22983,
+      "lines": 663,
+      "path": "data/public_source_registry.json",
+      "sha256": "1ab37180a6b71d074573871d4d29fd30754e400a260e1d2e1aac8f3bbd9fef1f"
+    },
+    "scripts/sync_public_source_registry.py": {
+      "bytes": 13979,
+      "lines": 351,
+      "path": "scripts/sync_public_source_registry.py",
+      "sha256": "3ce856defc58faf1b5a6c8b0bd5c46f48aa3dac4dfb378cdfd4742f0f54088ef"
+    },
     "us_ipforce.py": {
       "bytes": 818,
       "lines": 31,
@@ -36,6 +48,12 @@
       "path": "us_ipforce_abd_maximize.py",
       "sha256": "aaee6aa62d46b5444ceb2cbc53e0b8d3d5fc93dac93bbf7f663048273bb6295e"
     },
+    "us_ipforce_consolidated_orchestrator.py": {
+      "bytes": 23572,
+      "lines": 682,
+      "path": "us_ipforce_consolidated_orchestrator.py",
+      "sha256": "70489912f8d2f7c5737413cb2c93b62e9bf10b469b7755ac09d087d7d4079d8d"
+    },
     "us_ipforce_deterministic_all.py": {
       "bytes": 33164,
       "lines": 789,
@@ -47,6 +65,12 @@
       "lines": 23,
       "path": "us_ipforce_entry.py",
       "sha256": "586cabca8dce4701d3f2b2b81156850a36c6f0e45f825abcac483c38ec935fc5"
+    },
+    "us_ipforce_hardening_pass.py": {
+      "bytes": 6255,
+      "lines": 202,
+      "path": "us_ipforce_hardening_pass.py",
+      "sha256": "acef39a366d10cc75eed7890a21bebc245aa7eb7532eeb23617c17971420db84"
     },
     "us_ipforce_mathematical_models.py": {
       "bytes": 33098,
@@ -77,10 +101,22 @@
       "lines": 695,
       "path": "us_ipforce_phoenix_shield_exhaustion.py",
       "sha256": "52bc532d4e4cb84b4d6753d0a93179a67415bb5114b9bf3671f9e70adf7398ea"
+    },
+    "us_ipforce_tier0_probe_pool.py": {
+      "bytes": 8676,
+      "lines": 238,
+      "path": "us_ipforce_tier0_probe_pool.py",
+      "sha256": "52fe51fc17cbec399e69f9f8c0e0b59f5c549fdb2cc10ba055964d720b9564e8"
     }
   },
   "brand": "IP FORCE",
-  "case_id": "IP-FORCE-20260715-ENHANCED-CONSOLIDATED",
+  "case_id": "IP-FORCE-20260722-CONSOLIDATED-SCALE",
+  "consolidation": {
+    "custody_root": "545a14dfb7688f2571c1fcfe9475a6f59d687efbc3342b8afdc4464ba0fa0dc9ab95ae7cbd20936d5b77fa7f6410155f92ec4c72a5797adff469ae750d275127",
+    "orchestrator": "us_ipforce_consolidated_orchestrator.py",
+    "seal": "e79a3961050ee04d00f1b1f09809d0b49d7ba597d6736ac1fb3cc36bfad44018"
+  },
+  "generated_at": "2026-07-22T23:48:47Z",
   "generated_utc": "2026-07-15T17:17:48.726502+00:00",
   "manifest_sha256": "2e6e891b6992f00e1fd77edb689b4b55d3d01410611bb7dfafe1e3d636f056bc",
   "package_counts": {
@@ -114,5 +150,5 @@
     "cursor/frontend/IP_FORCE_NATIONAL_COMMAND_CONSOLE.html",
     "local CORPUS_HARDENING_GATE.py"
   ],
-  "version": "v2026.07.15-IP-FORCE-ENHANCED"
+  "version": "2026.7.22-CONSOLIDATED-ORCHESTRATOR"
 }

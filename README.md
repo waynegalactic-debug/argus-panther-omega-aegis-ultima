@@ -21,20 +21,18 @@ shims. Canonical brand is **IP FORCE**.
 ## Canonical entry points
 
 ```bash
-# Self-contained monolith (recommended default)
-python3 us_ipforce.py
-python3 us_ipforce_monolith.py
+# Consolidated control plane (recommended default)
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_consolidated_orchestrator.py --workers 8
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_tier0_probe_pool.py
 
-# Live modular pipeline (full end-to-end; can take >10 minutes)
-python3 us_ipforce_entry.py
-python3 us_ipforce_monolith_live.py
+# Legacy monoliths (explicit opt-in)
+python3 us_ipforce.py --legacy-monolith
+python3 us_ipforce_entry.py --legacy-live
 
-# Fast smoke tests (require literal `run` argument)
+# Fast legacy smoke tests (require literal `run` argument)
 python3 us_ipforce_deterministic_all.py run
 python3 court_ready_forensic_blueprint.py run
-
-# Legacy shim (forwards to IP FORCE)
-python3 IP_FORCE.py
 ```
 
 Optional web UI:

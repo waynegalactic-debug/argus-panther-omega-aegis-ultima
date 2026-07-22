@@ -1,0 +1,39 @@
+{
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260722-CONSOLIDATED-SCALE",
+  "evidence_policy": "Radar tracks are investigation vectors, not adjudications. True-UBO / theft / RICO remain 0 without primary-source corroboration.",
+  "generated_at": "2026-07-22T23:48:47Z",
+  "seal": "92160302d2c46874e8bc71b695ab205009079a65cb823ae62a9f96de89794262",
+  "tier0_probe_engine": {
+    "elapsed_ms": 763,
+    "ok": true
+  },
+  "vectors": [
+    {
+      "adjudicated": 0,
+      "claimed": 69,
+      "gaps": [
+        "missing_28_claimed_entities"
+      ],
+      "id": "ohio_llc_roster",
+      "label": "Ohio LLC evidence roster",
+      "screened": 41
+    },
+    {
+      "adjudicated": 0,
+      "id": "tier0_public_sources",
+      "label": "Tier-0 public source probes",
+      "probe_ok": 20,
+      "screened": 41,
+      "wired": 1
+    },
+    {
+      "adjudicated": 0,
+      "id": "engine_dag",
+      "label": "Consolidated engine DAG",
+      "ok": 8,
+      "screened": 8
+    }
+  ],
+  "version": "2026.7.22-CONSOLIDATED-ORCHESTRATOR"
+}

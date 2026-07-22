@@ -1,0 +1,25 @@
+{
+  "brand": "IP FORCE",
+  "counts": {
+    "by_category": {
+      "corporate_legal_public": 4,
+      "crypto_public": 20,
+      "financial_public": 4,
+      "government_public": 5,
+      "news_public": 1,
+      "scientific_academic_public": 3,
+      "social_public": 4
+    },
+    "by_status": {
+      "documented": 20,
+      "wired": 21
+    },
+    "endpoints_documented": 41,
+    "services": 28
+  },
+  "generated_at": "2026-07-22T23:48:46Z",
+  "quality_path": "output_artifacts/public_source_registry/COMMUNITY_DATA_QUALITY.json",
+  "registry_path": "data/public_source_registry.json",
+  "seal": "0f2b7ea5e0edb8a343a1dee9b732c52ab8fb057188d9fca82c3c02066f2ac578",
+  "version": "2026.7.22-PUBLIC-SOURCE-REGISTRY"
+}

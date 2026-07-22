@@ -6,29 +6,40 @@ forensic IP-enforcement package.
 ## Canonical entry points
 
 ```bash
-python3 us_ipforce.py
-python3 us_ipforce_monolith.py
-python3 us_ipforce_monolith_live.py
+# Consolidated control plane (default) — integrate/optimize/streamline/scale
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_consolidated_orchestrator.py --workers 8
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_tier0_probe_pool.py
+
+# Legacy monoliths (explicit opt-in)
+python3 us_ipforce.py --legacy-monolith
+python3 us_ipforce_entry.py --legacy-live
+
+# Fast legacy smoke (may be skipped under verified hardening findings)
 python3 us_ipforce_deterministic_all.py run
 python3 court_ready_forensic_blueprint.py run
 ```
 
-Legacy: `python3 IP_FORCE.py` is a thin shim to `us_ipforce_monolith`.
-
 ## Layout
 
-- `us_ipforce_monolith.py` — self-contained engine
-- `us_ipforce_monolith_live.py` — live modular pipeline
+- `us_ipforce_consolidated_orchestrator.py` — declarative DAG + custody + radar
+- `us_ipforce_hardening_pass.py` — fail-closed credential scan
+- `us_ipforce_tier0_probe_pool.py` — parallel public probes
+- `scripts/sync_public_source_registry.py` / `data/public_source_registry.json`
+- `us_ipforce_monolith.py` — self-contained engine (legacy)
+- `us_ipforce_monolith_live.py` — live modular pipeline (legacy)
 - `phoenix_shield/` — supporting engines
 - `data/` — JSON rosters
-- `frontend/` — National Command Console HTML
-- `CORPUS_HARDENING_GATE.py` — 99.99% completeness gate
+- `frontend/` — National Command Console + radar feed
 - `IP_FORCE_CONSOLIDATION_CONFIRMED.md` — consolidation seal
 - `IP_FORCE_ENHANCED_MANIFEST.json` — integrity manifest
+- `SUPERSEDED.md` — successor is Cursor US IPFORCE monorepo
 
 ## Notes
 
 - Activate venv: `source .venv/bin/activate`
-- Live external APIs may return 401/410 — handled via fallback
-- Outputs: `ip_force_output/`
+- Verified mode rejects `community-*` / demo credential defaults
+- Live external APIs may return 401/410 — not treated as adjudications
+- Outputs: `us_ipforce_output/`, `output_artifacts/`, `ip_force_output/`
 - Brand: **IP FORCE** only
+- Successor: https://github.com/waynegalactic-debug/Cursor
