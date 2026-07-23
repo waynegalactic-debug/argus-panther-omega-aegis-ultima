@@ -1,0 +1,46 @@
+{
+  "adjudicated": false,
+  "az_bar_portal_probe": {
+    "body_sha3_256": null,
+    "elapsed_ms": 326,
+    "error": "HTTPError:404",
+    "ok": false,
+    "status_code": 404,
+    "url": "https://www.azbar.org/for-the-public/lawyer-regulation/"
+  },
+  "draft_path": "output_artifacts/investigation/PRESERVATION_LETTERS_DRAFT.md",
+  "elapsed_ms": 328,
+  "id": "counsel_preservation",
+  "matched_ulmer_names": [
+    {
+      "name": "Peter A. Rome",
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#peter-a-rome",
+      "title": "Former Partner"
+    },
+    {
+      "name": "Suzann R. Moskowitz",
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#suzann-r-moskowitz",
+      "title": "Former Partner"
+    },
+    {
+      "name": "Wayne M. Serra",
+      "profile_url": "https://www.attorneys.org/firms/ulmer-and-berne-llp-f123393#wayne-m-serra",
+      "title": "Former Partner"
+    }
+  ],
+  "next_actions": [
+    "Counsel review + send preservation letters",
+    "Download certified AZ bar discipline order for Anthony G. Salvador",
+    "Pull Foley priority attorney engagement chronology (McKenna/Khan/Kantaros) after bar primary"
+  ],
+  "screening_only_flags_ignored": [
+    "rico_enabler",
+    "ghost_docket_role",
+    "state_sponsored_hacker_coordination"
+  ],
+  "status": "draft_ready",
+  "successor_firm": "UB Greensfelder LLP",
+  "title": "Counsel preservation holds (Ulmer/Fine) + Salvador bar-primary",
+  "track": 6,
+  "ulmer_roster_count": 145
+}

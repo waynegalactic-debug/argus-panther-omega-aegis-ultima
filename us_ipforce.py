@@ -32,6 +32,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--plan-only", action="store_true")
     parser.add_argument("--include-legacy-smoke", action="store_true")
     parser.add_argument("--print-report", action="store_true")
+    parser.add_argument(
+        "--investigate",
+        action="store_true",
+        help="Run systematic investigation tracks only",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -41,6 +46,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.legacy_monolith and args.legacy_live:
         print("Choose only one of --legacy-monolith / --legacy-live", file=sys.stderr)
         return 2
+
+    if args.investigate:
+        from us_ipforce_investigation_runner import main as investigate_main
+
+        return int(investigate_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

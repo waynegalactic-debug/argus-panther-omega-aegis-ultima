@@ -1,0 +1,164 @@
+{
+  "adjudicated": false,
+  "elapsed_ms": 2349,
+  "entities": [
+    {
+      "entity_id": "VI-006",
+      "jurisdiction": "US",
+      "name": "BMS TRUST GLOBAL",
+      "phase": "bms_trust_series"
+    },
+    {
+      "entity_id": "VI-007",
+      "jurisdiction": "US",
+      "name": "BMS IRREVOCABLE TRUST DTD",
+      "phase": "bms_trust_series"
+    },
+    {
+      "entity_id": "VI-008",
+      "jurisdiction": "US",
+      "name": "BRENT MICHAEL SKODA REVOCABLE TRUST",
+      "phase": "bms_trust_series"
+    },
+    {
+      "entity_id": "VI-009",
+      "jurisdiction": "US",
+      "name": "BRENT MICHAEL SKODA LIVING TRUST",
+      "phase": "bms_trust_series"
+    },
+    {
+      "entity_id": "VI-014",
+      "jurisdiction": "US",
+      "name": "LG CHEMICAL LLP",
+      "phase": "chemical_partnership"
+    },
+    {
+      "entity_id": "VI-039",
+      "jurisdiction": "pr",
+      "name": "AHKEO HOLDINGS PUERTO RICO LLC",
+      "phase": "ahkeo_cluster"
+    },
+    {
+      "entity_id": "VI-043",
+      "jurisdiction": "US",
+      "name": "WONDERVIEW PLAZA PARTNERS & CO",
+      "phase": "real_estate_partnership"
+    }
+  ],
+  "id": "non_ohio_asset_cluster",
+  "next_actions": [
+    "Order certified abstracts (PR Dept. of State for Ahkeo; trust instruments for BMS series)",
+    "Banking/KYC preservation where account nexus identified",
+    "Venue memo after formation facts land"
+  ],
+  "probes": [
+    {
+      "chronology_phase": "bms_trust_series",
+      "entity_id": "VI-006",
+      "jurisdiction": "US",
+      "name": "BMS TRUST GLOBAL",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=BMS%20TRUST%20GLOBAL"
+      }
+    },
+    {
+      "chronology_phase": "bms_trust_series",
+      "entity_id": "VI-007",
+      "jurisdiction": "US",
+      "name": "BMS IRREVOCABLE TRUST DTD",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 36,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=BMS%20IRREVOCABLE%20TRUST%20DTD"
+      }
+    },
+    {
+      "chronology_phase": "bms_trust_series",
+      "entity_id": "VI-008",
+      "jurisdiction": "US",
+      "name": "BRENT MICHAEL SKODA REVOCABLE TRUST",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=BRENT%20MICHAEL%20SKODA%20REVOCABLE%20TRUST"
+      }
+    },
+    {
+      "chronology_phase": "bms_trust_series",
+      "entity_id": "VI-009",
+      "jurisdiction": "US",
+      "name": "BRENT MICHAEL SKODA LIVING TRUST",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 37,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=BRENT%20MICHAEL%20SKODA%20LIVING%20TRUST"
+      }
+    },
+    {
+      "chronology_phase": "chemical_partnership",
+      "entity_id": "VI-014",
+      "jurisdiction": "US",
+      "name": "LG CHEMICAL LLP",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=LG%20CHEMICAL%20LLP"
+      }
+    },
+    {
+      "chronology_phase": "ahkeo_cluster",
+      "entity_id": "VI-039",
+      "jurisdiction": "pr",
+      "name": "AHKEO HOLDINGS PUERTO RICO LLC",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 32,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=AHKEO%20HOLDINGS%20PUERTO%20RICO%20LLC&jurisdiction_code=pr"
+      }
+    },
+    {
+      "chronology_phase": "real_estate_partnership",
+      "entity_id": "VI-043",
+      "jurisdiction": "US",
+      "name": "WONDERVIEW PLAZA PARTNERS & CO",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=WONDERVIEW%20PLAZA%20PARTNERS%20%26%20CO"
+      }
+    }
+  ],
+  "status": "partial",
+  "title": "Lock non-Ohio trusts / PR / partnership cluster",
+  "track": 8
+}

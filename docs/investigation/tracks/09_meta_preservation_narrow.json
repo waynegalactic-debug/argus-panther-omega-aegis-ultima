@@ -1,0 +1,27 @@
+{
+  "adjudicated": false,
+  "draft_path": "output_artifacts/investigation/PRESERVATION_LETTERS_DRAFT.md",
+  "elapsed_ms": 0,
+  "excluded_from_this_letter": [
+    "China PLA APT",
+    "DPRK Lazarus",
+    "Sinaloa Cartel Cyber",
+    "Iran IRGC Cyber"
+  ],
+  "id": "meta_preservation_narrow",
+  "next_actions": [
+    "Send narrow Meta preservation after counsel review",
+    "Continue CollegeFitness Wayback/RDAP + USPTO tracks for corroboration",
+    "No indictment language on state-actor/cartel lists without independent primary proof"
+  ],
+  "screening_allegation": {
+    "entity": "Meta Platforms, Inc.",
+    "name": "Mark Zuckerberg",
+    "status": "screening_only_not_adjudicated",
+    "vector": "collegefitness_com_social_networking_platform_theft"
+  },
+  "status": "draft_ready",
+  "title": "Meta preservation letter (narrow) \u2014 defer uncorroborated actor lists",
+  "track": 9,
+  "true_ubo_asserted": 0
+}

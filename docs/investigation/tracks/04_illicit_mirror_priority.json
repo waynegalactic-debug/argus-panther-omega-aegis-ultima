@@ -1,0 +1,44 @@
+{
+  "adjudicated": false,
+  "elapsed_ms": 775,
+  "id": "illicit_mirror_priority",
+  "next_actions": [
+    "Obtain Ohio SOS certified abstracts for both entities",
+    "Compare formation dates/agents to victim timeline",
+    "No trademark-confusion charge theory without primary filings"
+  ],
+  "policy": "illicit_mirror is a screening tag \u2014 not an adjudication of Tesla, Inc. nexus",
+  "probes": [
+    {
+      "entity_id": "VI-046",
+      "name": "TESLA MOTORS LLC",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 38,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=TESLA%20MOTORS%20LLC&jurisdiction_code=us_oh"
+      },
+      "screening_only": true
+    },
+    {
+      "entity_id": "VI-047",
+      "name": "TESLA ENERGY LLC",
+      "opencorporates_search": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 36,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=TESLA%20ENERGY%20LLC&jurisdiction_code=us_oh"
+      },
+      "screening_only": true
+    }
+  ],
+  "status": "partial",
+  "title": "Prioritize TESLA MOTORS LLC / TESLA ENERGY LLC Ohio screens",
+  "track": 4
+}

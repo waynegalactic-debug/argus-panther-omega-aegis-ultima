@@ -130,6 +130,17 @@ ENGINE_REGISTRY: list[dict[str, Any]] = [
         "verified_mode_required": False,
         "skip_if_verified_blocking": True,
     },
+    {
+        "id": "systematic_investigation",
+        "tier": "investigation",
+        "weight": 105,
+        "depends_on": ["hardening_pass", "public_source_registry"],
+        "parallel_group": "B",
+        "kind": "python_main",
+        "module": "us_ipforce_investigation_runner",
+        "args": [],
+        "verified_mode_required": False,
+    },
 ]
 
 

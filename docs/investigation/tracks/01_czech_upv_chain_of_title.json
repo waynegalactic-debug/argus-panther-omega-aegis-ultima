@@ -1,0 +1,36 @@
+{
+  "adjudicated": false,
+  "elapsed_ms": 1036,
+  "evidence": {
+    "counsel_firms": [
+      "Ulmer & Berne LLP"
+    ],
+    "foundational_patent": "CZ1997-CaffeineVaporizer",
+    "grant_date": "1997-03-15",
+    "inventor": "Brent Michael \u0160koda",
+    "office": "Czech Patent Office",
+    "priority_attorneys": [
+      "Peter A. Rome",
+      "Wayne M. Serra",
+      "Suzann R. Moskowitz"
+    ],
+    "upv_portal_probe": {
+      "body_sha3_256": "6160b27f9f8341a8102429420aba596d27a33889bdd1542fa56167e060d03c3c",
+      "elapsed_ms": 1035,
+      "error": null,
+      "ok": true,
+      "status_code": 200,
+      "url": "https://www.upv.gov.cz/"
+    }
+  },
+  "id": "czech_upv_chain_of_title",
+  "next_actions": [
+    "Request certified file history / grant extract from \u00da\u0159ad pr\u016fmyslov\u00e9ho vlastnictv\u00ed",
+    "Hash certified PDF into custody ledger (SHA3-512 leaf)",
+    "Do not assert chain-of-title completeness until certified extract lands"
+  ],
+  "screening_only": false,
+  "status": "open_manual",
+  "title": "Authenticate CZ1997 foundational grant at Czech UPV",
+  "track": 1
+}

@@ -1,0 +1,39 @@
+{
+  "adjudicated": false,
+  "elapsed_ms": 358,
+  "foley_priority_attorneys": [
+    "Shabbi S. Khan",
+    "Christopher J. McKenna",
+    "David W. Kantaros"
+  ],
+  "id": "salvador_foley_screen",
+  "next_actions": [
+    "Certified AZ discipline order first",
+    "Then Foley engagement/conflict file preservation",
+    "Do not charge from rico_enabler JSON flags"
+  ],
+  "probes": [
+    {
+      "body_sha3_256": "3719d6b9d3ddfa303bdef9b7951878582c21ca806126058c2c3c92abe2b66e26",
+      "bytes": 262144,
+      "elapsed_ms": 35,
+      "error": null,
+      "label": "mckenna_profile",
+      "ok": true,
+      "status_code": 200,
+      "url": "https://www.foley.com/people/mckenna-christopher-j/"
+    }
+  ],
+  "screening_only": true,
+  "status": "open_manual",
+  "subject": {
+    "betrayal_allegation": true,
+    "firm": "Salvador Law Group, PLLC",
+    "name": "Anthony G. Salvador, Esq.",
+    "office": "Phoenix, AZ",
+    "title": "Attorney (Disbarred)",
+    "victim_inventor_counsel_role": "former_victim_inventor_counsel"
+  },
+  "title": "Salvador counsel-betrayal track \u2014 bar primary before Foley",
+  "track": 7
+}

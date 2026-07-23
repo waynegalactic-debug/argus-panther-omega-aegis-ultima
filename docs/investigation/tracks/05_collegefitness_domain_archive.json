@@ -1,0 +1,45 @@
+{
+  "adjudicated": false,
+  "cdx_snapshots_sample": [],
+  "domain": "collegefitness.com",
+  "elapsed_ms": 35064,
+  "id": "collegefitness_domain_archive",
+  "next_actions": [
+    "Export full CDX history + WARC captures for key timestamps",
+    "Pull registrar/RDAP historical if available; note GoDaddy account lead separately",
+    "Correlate archive dates to Ulmer/Fine meeting period (human review)"
+  ],
+  "probes": {
+    "rdap": {
+      "body_sha3_256": null,
+      "bytes": 0,
+      "elapsed_ms": 15028,
+      "error": "TimeoutError",
+      "ok": false,
+      "status_code": null,
+      "url": "https://rdap.org/domain/collegefitness.com"
+    },
+    "wayback_available": {
+      "body_sha3_256": "b544c4d4a5c8bc740a471bd35679bac72e8221b88237bdebddbd71fb93b36921",
+      "bytes": 216,
+      "elapsed_ms": 4671,
+      "error": null,
+      "ok": true,
+      "status_code": 200,
+      "url": "https://archive.org/wayback/available?url=collegefitness.com"
+    },
+    "wayback_cdx": {
+      "body_sha3_256": null,
+      "bytes": 0,
+      "elapsed_ms": 15150,
+      "error": "TimeoutError",
+      "ok": false,
+      "status_code": null,
+      "url": "https://web.archive.org/cdx/search/cdx?url=collegefitness.com&output=json&limit=5&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest"
+    }
+  },
+  "status": "partial",
+  "title": "Preserve CollegeFitness.com registration + archive timeline",
+  "track": 5,
+  "wayback_closest_timestamp": "20260309213507"
+}

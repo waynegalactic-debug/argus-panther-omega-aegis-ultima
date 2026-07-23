@@ -1,0 +1,77 @@
+{
+  "adjudicated": false,
+  "counts": {
+    "claimed_scope": 69,
+    "entities": 48,
+    "gap": 28,
+    "illicit_mirror_tagged": 2,
+    "non_ohio": 7,
+    "ohio_llc_count": 41
+  },
+  "elapsed_ms": 0,
+  "gap_memo": "output_artifacts/investigation/OHIO_ROSTER_GAP_MEMO.md",
+  "id": "ohio_sos_roster_gap",
+  "illicit_mirrors": [
+    {
+      "entity_id": "VI-046",
+      "name": "TESLA MOTORS LLC",
+      "screening_only": true
+    },
+    {
+      "entity_id": "VI-047",
+      "name": "TESLA ENERGY LLC",
+      "screening_only": true
+    }
+  ],
+  "next_actions": [
+    "Ohio SOS business search for each of the 41 names (articles/agent/status)",
+    "Produce unlocated-name residual vs any external claimed-69 list",
+    "Never fabricate LLCs to force count=69"
+  ],
+  "ohio_names": [
+    "\u0160KODA WORKS LLC",
+    "\u0160KODA INNOVATIONS LLC",
+    "\u0160KODA AEROSPACE LLC",
+    "\u0160KODA INTERNATIONAL HOLDINGS GROUP LLC",
+    "GENESIS TECHNOLOGIES GROUP",
+    "\u0160KODA LABS LLC",
+    "NICOVENTURES LLC",
+    "VMR PRODUCTS LLC",
+    "RAI STRATEGIES LLC",
+    "VAPERGY INTERNATIONAL LLC",
+    "VAPERGY USA LLC",
+    "VAPERGY IP LLC",
+    "VAPETECH LLC",
+    "TREFIT COLLEGE FITNESS LLC",
+    "COLLEGE FITNESS LLC",
+    "TREFIT IP HOLDINGS LLC",
+    "INTELLECTUAL VENTURES LLC",
+    "GLOBALEZBUY LLC",
+    "SANTAS411.COM",
+    "INTERACTIVE ORGANICS LLC",
+    "EASTON PARTNERS LLC",
+    "WILD CHERRY",
+    "LEDGEBROOK MANAGEMENT LLC",
+    "BMS MANAGEMENT LLC",
+    "BMS CONSULTING LLC",
+    "GALACTIC LABS LLC",
+    "SPARTAN HOLDINGS LLC",
+    "YUMEE LLC",
+    "LEGACY BUILDERS AND CONTRACTORS LLC",
+    "AHKEO LLC",
+    "AHKEO VENTURES LLC",
+    "AHKEO ELECTRIC LLC",
+    "AHKEO MANAGEMENT LLC",
+    "KEEN FLOW INTERNATIONAL LLC",
+    "FRACRIGHT LLC",
+    "AE LED SOLUTIONS LLC",
+    "CROSSWINDS MANAGEMENT LLC",
+    "CROSSWINDS CONSULTING LLC",
+    "TESLA MOTORS LLC",
+    "TESLA ENERGY LLC",
+    "SKODA TECHNOLOGIES LLC"
+  ],
+  "status": "open_manual",
+  "title": "Ohio SOS bulk pull for 41 LLCs; retain gap 28",
+  "track": 3
+}
