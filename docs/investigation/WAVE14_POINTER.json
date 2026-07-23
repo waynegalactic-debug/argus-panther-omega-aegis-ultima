@@ -1,0 +1,14 @@
+{
+  "brand": "IP FORCE",
+  "expanded_portfolio": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+  "generated_at": "2026-07-23T03:15:41Z",
+  "new_beyond_wave4": [
+    "US20180191180A1",
+    "US20220104664A1",
+    "US20250054595A1"
+  ],
+  "seal": "48663055a8c33570746a351476d29bca0626f69f5c9ee24d61f92dd35cfb4395",
+  "summary_md": "docs/investigation/WAVE14_PORTFOLIO_REFRESH.md",
+  "summary_path": "docs/investigation/wave14/WAVE14_RUN_SUMMARY.json",
+  "wave14_case": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14"
+}

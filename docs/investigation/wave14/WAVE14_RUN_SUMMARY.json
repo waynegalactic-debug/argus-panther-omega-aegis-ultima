@@ -1,0 +1,191 @@
+{
+  "artifacts": {
+    "expanded_portfolio": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+    "gp_refresh": "docs/investigation/wave14/google_patents_portfolio_refresh.json",
+    "portals": "docs/investigation/wave14/portal_operator_paths.json",
+    "sam": "docs/investigation/wave14/sam_gov_ahkeo_negative.json",
+    "summary_md": "docs/investigation/WAVE14_PORTFOLIO_REFRESH.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 7,
+    "new_beyond_wave4": 3,
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "union_publications": 15
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "f3a67682650e3da78efe3a6fff3f79166b6edf014ddbafdf7ddc99eb80738a4f",
+    "leaves": [
+      {
+        "id": "google_patents_portfolio_refresh",
+        "sha3_256": "9861b143297f09485681ed95752f65596a02065d958c9d5fdc3903d63a8986e2",
+        "status": "SEALED"
+      },
+      {
+        "id": "sam_gov_ahkeo_negative",
+        "sha3_256": "db782adce297f38b78816327d2bf2049549e52ccab309484de77ab28a459be58",
+        "status": "SEALED"
+      },
+      {
+        "id": "portal_operator_paths",
+        "sha3_256": "f985f9ab92587cc33e0659dc0fe9c9f2d548710f8013593484b7de0558d055a7",
+        "status": "PROBED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "2c87515b4ba370dc05ba6b6ed35f559ea2dcf10b2eee7f48389d269049d7be7f",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "6065c6c9916300116c77dc19eba757a6c44afd333ed6dbe835e92e2e961d0b8bba7c90b7ae5d6663eb140d9de248cb8c0263c41169a437a45239dabf0c20c73f"
+  },
+  "elapsed_ms": 70263,
+  "findings": [
+    {
+      "detail": "Paginated inventor queries recovered 12/12 Wave-4 publications. Missing list empty means continuity confirmed.",
+      "id": "W14-F1",
+      "missing_from_refresh": [],
+      "severity": "google_patents_xhr",
+      "title": "Google Patents inventor refresh \u2014 Wave-4 portfolio still present",
+      "wave4_publication_count": 12,
+      "wave4_still_present": 12
+    },
+    {
+      "detail": "New IDs appear on Google Patents inventor search pages not captured in the Wave-4 sealed set of 12. Not an ownership adjudication; assignment chain still requires USPTO_API_KEY / assignment records.",
+      "id": "W14-F2",
+      "new_pub_summaries": [
+        {
+          "assignee_field": "Ahkeo Labs, Llc",
+          "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20180191180A1",
+          "title": "Systems and methods for portable charging systems and designs thereof"
+        },
+        {
+          "assignee_field": "UrgentRN LLC",
+          "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20220104664A1",
+          "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+        },
+        {
+          "assignee_field": "Zorday IP, LLC",
+          "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20250054595A1",
+          "title": "Systems and methods for smart mixers"
+        }
+      ],
+      "new_publications": [
+        "US20180191180A1",
+        "US20220104664A1",
+        "US20250054595A1"
+      ],
+      "severity": "google_patents_xhr",
+      "title": "Expanded portfolio \u2014 3 publication(s) beyond Wave-4"
+    },
+    {
+      "detail": "US20220104664A1 lists assignee UrgentRN LLC on Google Patents inventor search for Brent M. Skoda. Corporate abstract / assignment still required; not Ohio-roster invented.",
+      "id": "W14-F3",
+      "publications": [
+        "US20220104664A1"
+      ],
+      "severity": "google_patents_xhr",
+      "title": "New assignee cluster observed \u2014 UrgentRN LLC"
+    },
+    {
+      "count": 1,
+      "detail": "Caffeine hits from title/snippet only. Foundational CZ1997 claim remains OPEN_MANUAL_STILL_UNVERIFIED; quarantined CZ283061 not cited.",
+      "id": "W14-F4",
+      "publications": [
+        {
+          "assignee_field": "Ahkeo Ventures LLC",
+          "publication": "US20240215633A1",
+          "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+        }
+      ],
+      "severity": "google_patents_xhr",
+      "title": "Caffeine-related publication continuity"
+    },
+    {
+      "detail": "SAM exclusions index search for 'Ahkeo Labs' returned other '*Labs*' entities (Mirror Labs, Massey Analytical Labs, etc.) \u2014 fuzzy token matches only. No exact Ahkeo Labs SAM registration/exclusion sealed.",
+      "exact_hit_count": 0,
+      "fuzzy_labs_returned": 10,
+      "id": "W14-F5",
+      "severity": "sam_gov",
+      "title": "SAM.gov \u2014 no exact Ahkeo Labs entity/exclusion hit"
+    },
+    {
+      "detail": "MyPlace / Fiscal Officer property-search HTML reachable. Structured parcel ownership for 6685 Beta Drive, Mayfield Village OH 44143 still requires operator browser session \u2014 not sealed here.",
+      "id": "W14-F6",
+      "ok": true,
+      "portals": [
+        "https://myplace.cuyahogacounty.gov/",
+        "https://fiscalofficer.cuyahogacounty.us/en-US/Search-Property.aspx"
+      ],
+      "severity": "portal_probe",
+      "title": "Cuyahoga County property portals reachable (6685 Beta Drive path)"
+    },
+    {
+      "detail": "tmsearch.uspto.gov and tsdr.uspto.gov return public HTML. Structured AHKEO trademark case JSON (TSDR API) returned 401 without credentials \u2014 operator mark search remains open.",
+      "id": "W14-F7",
+      "ok": true,
+      "severity": "portal_probe",
+      "title": "USPTO trademark search/TSDR portals reachable; case API gated"
+    }
+  ],
+  "generated_at": "2026-07-23T03:15:41Z",
+  "new_beyond_wave4": [
+    "US20180191180A1",
+    "US20220104664A1",
+    "US20250054595A1"
+  ],
+  "policy": "Wave-14 seals Google Patents paginated inventor refresh (expanded portfolio), SAM.gov Ahkeo Labs negative filter, and portal operator paths. No theft/RICO/UBO adjudication.",
+  "seal": "48663055a8c33570746a351476d29bca0626f69f5c9ee24d61f92dd35cfb4395",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "google_patents_portfolio_refresh",
+      "next_actions": [
+        "USPTO_API_KEY \u2192 assignment retrieval for expanded 15-pub set",
+        "Ohio / DE abstracts for UrgentRN LLC if counsel pursues cluster"
+      ],
+      "status": "SEALED",
+      "title": "Google Patents inventor continuity refresh vs Wave-4"
+    },
+    {
+      "adjudicated": false,
+      "id": "sam_gov_ahkeo_negative",
+      "next_actions": [
+        "No SAM exclusion action for Ahkeo Labs on this evidence"
+      ],
+      "status": "SEALED",
+      "title": "SAM.gov Ahkeo Labs negative / false-positive filter"
+    },
+    {
+      "adjudicated": false,
+      "id": "portal_operator_paths",
+      "next_actions": [
+        "Operator: MyPlace/Fiscal Officer parcel search for 6685 Beta Drive",
+        "Operator: USPTO TMsearch for AHKEO / AHKEO LABS marks"
+      ],
+      "status": "PROBED",
+      "title": "Cuyahoga parcel + USPTO trademark portal probes"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        "Export USPTO_API_KEY and re-run assignment pull against Wave-14 union set"
+      ],
+      "status": "OPEN",
+      "title": "Wave-14 operator priority worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE14"
+}

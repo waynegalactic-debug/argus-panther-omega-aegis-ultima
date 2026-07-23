@@ -1,0 +1,378 @@
+{
+  "adjudicated": false,
+  "assignee_clusters": {
+    "Ahkeo Labs, Llc": [
+      "US11234465B2",
+      "US11275070B2",
+      "US20180191180A1"
+    ],
+    "Ahkeo Ventures LLC": [
+      "US20240215633A1",
+      "USD795407S1"
+    ],
+    "Brent M. Skoda": [
+      "US20190378609A1"
+    ],
+    "UrgentRN LLC": [
+      "US20220104664A1"
+    ],
+    "Zorday IP, LLC": [
+      "US20190240429A1",
+      "US20200005924A1",
+      "US20210202056A1",
+      "US20230112752A1",
+      "US20240242809A1",
+      "US20240244430A1",
+      "US20250054595A1",
+      "US20250177708A1"
+    ]
+  },
+  "findings": [
+    {
+      "detail": "Paginated inventor queries recovered 12/12 Wave-4 publications. Missing list empty means continuity confirmed.",
+      "id": "W14-F1",
+      "missing_from_refresh": [],
+      "severity": "google_patents_xhr",
+      "title": "Google Patents inventor refresh \u2014 Wave-4 portfolio still present",
+      "wave4_publication_count": 12,
+      "wave4_still_present": 12
+    },
+    {
+      "detail": "New IDs appear on Google Patents inventor search pages not captured in the Wave-4 sealed set of 12. Not an ownership adjudication; assignment chain still requires USPTO_API_KEY / assignment records.",
+      "id": "W14-F2",
+      "new_pub_summaries": [
+        {
+          "assignee_field": "Ahkeo Labs, Llc",
+          "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20180191180A1",
+          "title": "Systems and methods for portable charging systems and designs thereof"
+        },
+        {
+          "assignee_field": "UrgentRN LLC",
+          "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20220104664A1",
+          "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+        },
+        {
+          "assignee_field": "Zorday IP, LLC",
+          "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+          "mentions_caffeine": false,
+          "publication": "US20250054595A1",
+          "title": "Systems and methods for smart mixers"
+        }
+      ],
+      "new_publications": [
+        "US20180191180A1",
+        "US20220104664A1",
+        "US20250054595A1"
+      ],
+      "severity": "google_patents_xhr",
+      "title": "Expanded portfolio \u2014 3 publication(s) beyond Wave-4"
+    },
+    {
+      "detail": "US20220104664A1 lists assignee UrgentRN LLC on Google Patents inventor search for Brent M. Skoda. Corporate abstract / assignment still required; not Ohio-roster invented.",
+      "id": "W14-F3",
+      "publications": [
+        "US20220104664A1"
+      ],
+      "severity": "google_patents_xhr",
+      "title": "New assignee cluster observed \u2014 UrgentRN LLC"
+    },
+    {
+      "count": 1,
+      "detail": "Caffeine hits from title/snippet only. Foundational CZ1997 claim remains OPEN_MANUAL_STILL_UNVERIFIED; quarantined CZ283061 not cited.",
+      "id": "W14-F4",
+      "publications": [
+        {
+          "assignee_field": "Ahkeo Ventures LLC",
+          "publication": "US20240215633A1",
+          "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+        }
+      ],
+      "severity": "google_patents_xhr",
+      "title": "Caffeine-related publication continuity"
+    }
+  ],
+  "generated_at": "2026-07-23T03:15:40Z",
+  "id": "google_patents_portfolio_refresh",
+  "missing_from_refresh": [],
+  "new_beyond_wave4": [
+    "US20180191180A1",
+    "US20220104664A1",
+    "US20250054595A1"
+  ],
+  "new_beyond_wave4_count": 3,
+  "next_actions": [
+    "USPTO_API_KEY \u2192 assignment retrieval for expanded 15-pub set",
+    "Ohio / DE abstracts for UrgentRN LLC if counsel pursues cluster"
+  ],
+  "publications": [
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US11234465B2",
+      "snippet": " At least one aspect is directed to a system and method for modifying the operational settings of vaporizer devices. An application executed on a client device may render a graphical user interface on a display of the client device for inputting operational settings of a vaporizer device. Once &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Heating mechanisms for vaporizers"
+    },
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US11275070B2",
+      "snippet": " The present disclosure relates to a medical diagnostic and delivery device includes a dipstick type device. The device include cartridge containing one more substance or medicaments configured to be delivered to a user in the form a liquid, particles, or fine mist. In particular embodiments, the &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for dipstick diagnostic tools and related methods"
+    },
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 1,
+      "publication": "US20180191180A1",
+      "snippet": " A portable charging system comprises a central member including an electrical charge generating component and a plurality of communication ports and a plurality of peripheral members having a proximal end extending from the central member. Each of the plurality of peripheral members includes a &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for portable charging systems and designs thereof"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20190240429A1",
+      "snippet": " A vaporization and inhalation apparatus comprising a cartridge container configured to receive a cartridge including a liquid. The apparatus includes a heating element configured to heat the liquid to a point of vaporization to generate a vaporized form of the liquid. The apparatus also includes &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": "Brent M. Skoda",
+      "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20190378609A1",
+      "snippet": " The present disclosure relates to a system for medical dispensing, management and monitoring. According to one aspect, a remote medical management environment can include a medical management system intermediary to a plurality of patients and a plurality of medical care providers. The medical &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20200005924A1",
+      "snippet": " A dispenser for dispensing an amount of liquid inhalable composition, the dispenser comprising: an optical radiation source, an optical detection sensor, an atomizer for atomizing the liquid inhalable composition, an event tracking electronic module for determining the number of vapes passing out &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20210202056A1",
+      "snippet": " The present disclosure relates to systems and methods for managing a medical supply chain. According to one aspect, a remote medical management environment can include a medical management system intermediary to a plurality of patients and a plurality of medical care providers. The medical &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for managing a medical supply chain"
+    },
+    {
+      "assignee_field": "UrgentRN LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 1,
+      "publication": "US20220104664A1",
+      "snippet": " According to one aspect, disclosed is a dispenser. The dispenser can include a housing. The housing can include a compartment for a container containing a substance for dispensing. The dispenser can include substance dispenser configured to dispense the substance from the container, the substance &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20230112752A1",
+      "snippet": " A vaporization and inhalation apparatus comprising a cartridge container configured to receive a cartridge including a liquid. The apparatus includes a heating element configured to heat the liquid to a point of vaporization to generate a vaporized form of the liquid. The apparatus also includes &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": "Ahkeo Ventures LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent Skoda\"",
+      "mentions_caffeine": true,
+      "page": 0,
+      "publication": "US20240215633A1",
+      "snippet": " Described herein are compositions, methods and an apparatus relating to the pulmonary delivery of an inhalable composition comprising caffeine, or a salt thereof, and a solvent selected from the group consisting of propylene glycol, glycerol, ethanol and a combination thereof.",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20240242809A1",
+      "snippet": " The present disclosure relates to systems and methods for medical dispensing, management and monitoring. According to one aspect, a remote medical management environment can include a medical management system intermediary to a plurality of patients and a plurality of medical care providers. The &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20240244430A1",
+      "snippet": " At least one aspect of the present disclosure is directed to a system for verifying the identity of a user of a nicotine dispenser. The system can include a nicotine dispenser configured to remain locked until the receipt of a signal, and a personal communication device configured to communicate &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Network-enabled electronic cigarette"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 1,
+      "publication": "US20250054595A1",
+      "snippet": " An mixing device includes at least one mixing chamber, a memory, a processor coupled to the memory, and a set of instructions stored on the memory and configured to be executed by the processor. The processor is configured to determine a custom mixing recipe comprising a plurality of ingredient &hellip;",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for smart mixers"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+      "inventor_queries": [
+        "inventor=\"Brent M. Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "US20250177708A1",
+      "snippet": " What is claimed is: 1 . A medical diagnostic and delivery device comprising: a housing configured to be removably secured within a buccal cavity of a user; and a cartridge including medication configured to be delivered to the user via the housing.",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Systems and methods for medical diagnostics and medication delivery"
+    },
+    {
+      "assignee_field": "Ahkeo Ventures LLC",
+      "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+      "inventor_queries": [
+        "inventor=\"Brent Skoda\""
+      ],
+      "inventor_query": "inventor=\"Brent Skoda\"",
+      "mentions_caffeine": false,
+      "page": 0,
+      "publication": "USD795407S1",
+      "snippet": " CLAIM The ornamental design for a vaporization and inhaler apparatus, as shown and described.",
+      "source": "session_seed_w14_gp_seed",
+      "title": "Vaporization and inhaler apparatus"
+    }
+  ],
+  "query_runs": {
+    "inventor=\"Brent M. Skoda\"": {
+      "pages": [
+        {
+          "bytes": 28521,
+          "ok": true,
+          "page": 0,
+          "sha256": "2e8f1db423536a68a2a4eebd79b8fae5ec764e48ad12a3a60c00cf1a6c5f32bd",
+          "total": 13
+        },
+        {
+          "bytes": 13788,
+          "ok": true,
+          "page": 1,
+          "sha256": "c738a0223bb3d6a770e81a760c1aa44c9c56a21afdf76d4b7aa6c3172c782ac9",
+          "total": 13
+        }
+      ],
+      "publication_count": 13,
+      "total_num_results": 13
+    },
+    "inventor=\"Brent Skoda\"": {
+      "pages": [
+        {
+          "bytes": 4606,
+          "ok": true,
+          "page": 0,
+          "sha256": "68b355434a97f8b2b97ef9a8cf4c178677364dd33cfbd919c84d4606b3ca2dbf",
+          "total": 2
+        }
+      ],
+      "publication_count": 2,
+      "total_num_results": 2
+    }
+  },
+  "status": "SEALED",
+  "still_present_wave4": [
+    "US11234465B2",
+    "US11275070B2",
+    "US20190240429A1",
+    "US20190378609A1",
+    "US20200005924A1",
+    "US20210202056A1",
+    "US20230112752A1",
+    "US20240215633A1",
+    "US20240242809A1",
+    "US20240244430A1",
+    "US20250177708A1",
+    "USD795407S1"
+  ],
+  "title": "Google Patents inventor continuity refresh vs Wave-4",
+  "true_ubo_asserted": 0,
+  "union_publication_count": 15,
+  "wave4_path": "docs/investigation/wave4/AUTHENTICATED_SKODA_PORTFOLIO.json",
+  "wave4_publication_count": 12
+}

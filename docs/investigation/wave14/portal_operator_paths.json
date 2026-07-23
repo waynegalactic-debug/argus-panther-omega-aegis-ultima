@@ -1,0 +1,73 @@
+{
+  "beta_drive_target": "6685 Beta Drive, Mayfield Village, OH 44143",
+  "findings": [
+    {
+      "detail": "MyPlace / Fiscal Officer property-search HTML reachable. Structured parcel ownership for 6685 Beta Drive, Mayfield Village OH 44143 still requires operator browser session \u2014 not sealed here.",
+      "id": "W14-F6",
+      "ok": true,
+      "portals": [
+        "https://myplace.cuyahogacounty.gov/",
+        "https://fiscalofficer.cuyahogacounty.us/en-US/Search-Property.aspx"
+      ],
+      "severity": "portal_probe",
+      "title": "Cuyahoga County property portals reachable (6685 Beta Drive path)"
+    },
+    {
+      "detail": "tmsearch.uspto.gov and tsdr.uspto.gov return public HTML. Structured AHKEO trademark case JSON (TSDR API) returned 401 without credentials \u2014 operator mark search remains open.",
+      "id": "W14-F7",
+      "ok": true,
+      "severity": "portal_probe",
+      "title": "USPTO trademark search/TSDR portals reachable; case API gated"
+    }
+  ],
+  "generated_at": "2026-07-23T03:15:41Z",
+  "id": "portal_operator_paths",
+  "next_actions": [
+    "Operator: MyPlace/Fiscal Officer parcel search for 6685 Beta Drive",
+    "Operator: USPTO TMsearch for AHKEO / AHKEO LABS marks"
+  ],
+  "probes": {
+    "cuyahoga_fiscal_property_search": {
+      "bytes": 56308,
+      "error": null,
+      "ok": true,
+      "sha3_256": "bdac92f72feec2433d9a2342729d6ffae804152657e81c32d65010ed39f6cf40",
+      "status": 200,
+      "url": "https://fiscalofficer.cuyahogacounty.us/en-US/Search-Property.aspx"
+    },
+    "cuyahoga_myplace": {
+      "bytes": 108447,
+      "error": null,
+      "ok": true,
+      "sha3_256": "e791eb389dda33e7c5221755d9792ce6205197792e6e296b1433c80e1c137f7b",
+      "status": 200,
+      "url": "https://myplace.cuyahogacounty.gov/"
+    },
+    "sam_ahkeo_labs_ei": {
+      "bytes": 8901,
+      "error": null,
+      "ok": true,
+      "sha3_256": "354ba1a7a51fbc6508ac02d2b9c97dc067b662e4b439ba11114e69768b8c9882",
+      "status": 200,
+      "url": "https://sam.gov/api/prod/sgs/v1/search/?index=ei&q=Ahkeo%20Labs&page=0&size=10"
+    },
+    "uspto_tmsearch": {
+      "bytes": 110406,
+      "error": null,
+      "ok": true,
+      "sha3_256": "36033dee6349be45a7397cbfeee967011968d19941c004fb2deea0a03c1c5f13",
+      "status": 200,
+      "url": "https://tmsearch.uspto.gov/search/search-information"
+    },
+    "uspto_tsdr": {
+      "bytes": 55378,
+      "error": null,
+      "ok": true,
+      "sha3_256": "c73d8c9c77287abc76bf5dc7b5abd46dbd0b04fecc27e73979917cef3447c82d",
+      "status": 200,
+      "url": "https://tsdr.uspto.gov/"
+    }
+  },
+  "status": "PROBED",
+  "title": "Cuyahoga parcel + USPTO trademark portal probes"
+}

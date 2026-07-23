@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-07-23T03:15:41Z",
+  "id": "operator_worklist",
+  "next_actions": [
+    "Export USPTO_API_KEY and re-run assignment pull against Wave-14 union set"
+  ],
+  "priorities": [
+    {
+      "blocked_on": "env_secret",
+      "item": "USPTO_API_KEY \u2192 assignments for expanded 15-pub portfolio",
+      "rank": 1
+    },
+    {
+      "blocked_on": "operator_payment",
+      "item": "Paid DE Certificate of Status + Certified Formation (6096179)",
+      "rank": 2
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Ohio SOS foreign qualification / abstracts (Ahkeo + UrgentRN)",
+      "rank": 3
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Cuyahoga MyPlace parcel ownership \u2014 6685 Beta Drive",
+      "rank": 4
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "USPTO TMsearch \u2014 AHKEO / AHKEO LABS marks",
+      "rank": 5
+    },
+    {
+      "blocked_on": "operator_subscription",
+      "item": "Paid historical WHOIS ahkeo/ahkeolabs (Wave-13 content sealed)",
+      "rank": 6
+    },
+    {
+      "blocked_on": "operator_multi",
+      "item": "PACER Doc.38 + Czech UPV (not CZ283061) + counsel send Wave-11",
+      "rank": 7
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-14 operator priority worklist"
+}

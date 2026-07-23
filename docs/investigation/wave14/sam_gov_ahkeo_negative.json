@@ -1,0 +1,167 @@
+{
+  "adjudicated": false,
+  "exact_hits": [],
+  "findings": [
+    {
+      "detail": "SAM exclusions index search for 'Ahkeo Labs' returned other '*Labs*' entities (Mirror Labs, Massey Analytical Labs, etc.) \u2014 fuzzy token matches only. No exact Ahkeo Labs SAM registration/exclusion sealed.",
+      "exact_hit_count": 0,
+      "fuzzy_labs_returned": 10,
+      "id": "W14-F5",
+      "severity": "sam_gov",
+      "title": "SAM.gov \u2014 no exact Ahkeo Labs entity/exclusion hit"
+    }
+  ],
+  "fuzzy_labs_sample": [
+    {
+      "_rScore": 100,
+      "_type": "exclusion",
+      "address": {
+        "city": "Poway",
+        "country": "USA",
+        "state": "CA",
+        "streetAddress": "13712 Paseo Valle Alto",
+        "zip": "92064"
+      },
+      "exclusionType": "Ineligible (Proceedings Completed)",
+      "title": "Mirror Labs, Inc.",
+      "ueiSam": "ZMC3K2JYMQA7"
+    },
+    {
+      "_rScore": 99,
+      "_type": "exclusion",
+      "address": {
+        "city": "Bridgeport",
+        "country": "USA",
+        "state": "CT",
+        "streetAddress": "2214 Main St.",
+        "zip": "06606"
+      },
+      "exclusionType": "Ineligible (Proceedings Completed)",
+      "title": "Massey Analytical Labs, Inc.",
+      "ueiSam": "XEAGZDGGMGT5"
+    },
+    {
+      "_rScore": 98,
+      "_type": "exclusion",
+      "address": {
+        "city": "MIAMI",
+        "country": "USA",
+        "state": "FL",
+        "streetAddress": "P O BOX 779800, NUM 12257-021",
+        "zip": "33177"
+      },
+      "exclusionType": "Prohibition/Restriction",
+      "title": "LIFE LABS PLUS, LLC",
+      "ueiSam": "FWK8JJFAQ4W9"
+    },
+    {
+      "_rScore": 98,
+      "_type": "exclusion",
+      "address": {
+        "city": "Toledo",
+        "country": "USA",
+        "state": "OH",
+        "streetAddress": "3454 Oak Alley Ct., No. 308",
+        "zip": "43606"
+      },
+      "exclusionType": "Prohibition/Restriction",
+      "title": "Pulmonary Analytic Labs Inc.",
+      "ueiSam": "JVSAF22XR1D3"
+    },
+    {
+      "_rScore": 98,
+      "_type": "exclusion",
+      "address": {
+        "city": "Destrehan",
+        "country": "USA",
+        "state": "LA",
+        "streetAddress": "28 Rosedown Dr.",
+        "zip": "70047-2531"
+      },
+      "exclusionType": "Ineligible (Proceedings Completed)",
+      "title": "SST Labs, LLC",
+      "ueiSam": "ZBFELJ8TRJX7"
+    },
+    {
+      "_rScore": 96,
+      "_type": "exclusion",
+      "address": {
+        "country": "XUN"
+      },
+      "exclusionType": "Prohibition/Restriction",
+      "title": "KATRANJI LABS",
+      "ueiSam": "S8CUCMZ55MA1"
+    },
+    {
+      "_rScore": 93,
+      "_type": "exclusion",
+      "address": {
+        "city": "Atlanta",
+        "country": "USA",
+        "state": "GA",
+        "streetAddress": "1447 Peachtree, NE., 900",
+        "zip": "30309"
+      },
+      "exclusionType": "Ineligible (Proceedings Completed)",
+      "title": "Ecomed Labs",
+      "ueiSam": "ZY8MXJKYU3P4"
+    },
+    {
+      "_rScore": 92,
+      "_type": "exclusion",
+      "address": {
+        "city": "STATELINE",
+        "country": "USA",
+        "state": "NV",
+        "streetAddress": "P O BOX 5460",
+        "zip": "89449"
+      },
+      "exclusionType": "Prohibition/Restriction",
+      "title": "NATIONAL CARDIO LABS LLC",
+      "ueiSam": "XM48JK2UC3G4"
+    },
+    {
+      "_rScore": 92,
+      "_type": "exclusion",
+      "address": {
+        "city": "Atlanta",
+        "country": "USA",
+        "state": "GA",
+        "streetAddress": "275 Carpenter Dr., NE., No. 310",
+        "zip": "30328"
+      },
+      "exclusionType": "Ineligible (Proceedings Completed)",
+      "title": "Private Clinic Labs",
+      "ueiSam": "H7SJYYX36TF6"
+    },
+    {
+      "_rScore": 91,
+      "_type": "exclusion",
+      "address": {
+        "city": "PORT COQUITLAM",
+        "country": "CAN",
+        "streetAddress": "1130-1971 BROADWAY ST",
+        "zip": "V3C 0C9"
+      },
+      "exclusionType": "Prohibition/Restriction",
+      "title": "HOLLYWOOD VAPE LABS, INC.",
+      "ueiSam": "LTUUYLTC2ST1"
+    }
+  ],
+  "generated_at": "2026-07-23T03:15:40Z",
+  "id": "sam_gov_ahkeo_negative",
+  "next_actions": [
+    "No SAM exclusion action for Ahkeo Labs on this evidence"
+  ],
+  "probe": {
+    "bytes": 8901,
+    "error": null,
+    "ok": true,
+    "result_count": 10,
+    "sha3_256": "354ba1a7a51fbc6508ac02d2b9c97dc067b662e4b439ba11114e69768b8c9882",
+    "status": 200,
+    "url": "https://sam.gov/api/prod/sgs/v1/search/?index=ei&q=Ahkeo%20Labs&page=0&size=10"
+  },
+  "status": "SEALED",
+  "title": "SAM.gov Ahkeo Labs negative / false-positive filter"
+}
