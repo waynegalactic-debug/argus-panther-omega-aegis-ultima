@@ -1,0 +1,347 @@
+{
+  "altria_sites": {
+    "https://www.altria.com/": {
+      "excerpt": " Altria Group | Moving Beyond Smoking A Federal Court has ordered Altria, R.J. Reynolds Tobacco, Lorillard, and Philip Morris USA to make these statements . Adverse Health Effects of Smoking A Federal Court has ordered Altria, R.J. Reynolds Tobacco, Lorillard, and Philip Morris USA to make this statement about the health effects of smoking: Smoking kills, on average, 1,200 Americans. Every day. More people die every year from smoking than from murder, AIDS, suicide, drugs, car crashes, and alcohol, combined . Smoking causes heart disease, emphysema, acute myeloid leukemia, and cancer of the mouth, esophagus, larynx, lung, stomach, kidney, bladder, and pancreas. Smoking also causes reduced fertility, low birth weight in newborns, and cancer of the cervix.&#8203; Addictiveness of Smoking and Nicotine A Federal Court has ordered Altria, R.J. Reynolds Tobacco, Lorillard, and Philip Morris US",
+      "mentions": {
+        "Ahkeo": false,
+        "Authentic Brands": false,
+        "Calantzopoulos": false,
+        "DAO": false,
+        "Fyllo": false,
+        "Gifford": false,
+        "NJOY": true,
+        "Olczak": false,
+        "Philip Morris USA": true,
+        "Skoda": false,
+        "blockchain": false,
+        "patent": false,
+        "royalty": false
+      },
+      "ok": true,
+      "sha256": "5edcd686a4f34d0884c61fa7d49beca18c9650926581f889bdf014076506281e",
+      "status": 200
+    },
+    "https://www.altria.com/about-altria": {
+      "excerpt": " About Altria - Altria About Altria Moving Beyond Smoking Responsibility Investors People &amp; Careers Media About Altria Our tobacco companies – which have been the undisputed market leaders in the U.S. tobacco industry for decades – include some of the most enduring names in American business. About Altria At-A-Glance Corporate Fact Sheet Our Purpose, Vision &amp; Culture Our Heritage Our Companies Our Voice &amp; Actions Awards &amp; Recognition Corporate Governance Highlights &amp; Resources Board of Directors Committees &amp; Charters Board Skills &amp; Experience Federal Regulation of Tobacco Regulatory Filings Government Affairs Public Policy Positions Political Contributions Lobbying Disclosures Transparency &amp; Integrity Report SUBMIT YOUR IDEA Innovate With Us \"---------------------------------------------------\" Learn More Moving Beyond Smoking Adult tobacco consumers are i",
+      "mentions": {
+        "Ahkeo": false,
+        "Authentic Brands": false,
+        "Calantzopoulos": false,
+        "DAO": false,
+        "Fyllo": false,
+        "Gifford": false,
+        "NJOY": true,
+        "Olczak": false,
+        "Philip Morris USA": true,
+        "Skoda": false,
+        "blockchain": false,
+        "patent": false,
+        "royalty": false
+      },
+      "ok": true,
+      "sha256": "a9cb396215ca033ac2f630d835c495dc257a060bf33a75fe705b15d3c4944e0b",
+      "status": 200
+    }
+  },
+  "ens": {
+    "altria.eth": {
+      "address": null,
+      "ens": "altria.eth",
+      "ok": true,
+      "sha256": "5a761ed79156414abd9da412129b0f4d4c783ba9c108a1eb9c9ff0e3966ca903"
+    },
+    "njoy.eth": {
+      "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+      "ens": "njoy.eth",
+      "ok": true,
+      "sha256": "ee2a089026f300eaefda6ef7d11a6adf6b8c000870a643a353276c82ef0bc54c"
+    },
+    "philipmorrisusa.eth": {
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "ens": "philipmorrisusa.eth",
+      "ok": true,
+      "sha256": "3a34df1918036abaf7abb0ed377342a9ee8779bbca2659756591cb819f7777ae"
+    },
+    "pmusa.eth": {
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "ens": "pmusa.eth",
+      "ok": true,
+      "sha256": "3ca857a340093e099b6075d79f17e892a1c40e9ab89e3baa6e5d8da1bffdae6e"
+    }
+  },
+  "ens_identity": {
+    "altria.eth": {
+      "resolved": false
+    },
+    "njoy.eth": {
+      "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+      "blockscout_ens_domain_name": "sexomessi.eth",
+      "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+      "is_contract": false,
+      "resolved": true
+    },
+    "philipmorrisusa.eth": {
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "blockscout_ens_domain_name": null,
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    },
+    "pmusa.eth": {
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "blockscout_ens_domain_name": null,
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    }
+  },
+  "entities_and_subsidiaries": [
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Altria Group, Inc.",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Chateau Ste. Michelle",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Helix Innovations",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "John Middleton Co.",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Juul",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "NJOY",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_affiliate_or_former_affiliate_link",
+      "name": "Philip Morris International",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Philip Morris USA",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "U.S. Smokeless Tobacco Company",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_subsidiary_or_operating_unit_candidate",
+      "name": "Upton Tobaccos",
+      "source": "wikipedia_parse_api_altria"
+    }
+  ],
+  "findings": [
+    {
+      "altria_dao_licensing_adjudicated": false,
+      "altria_ens": {
+        "altria.eth": {
+          "address": null,
+          "ens": "altria.eth",
+          "ok": true,
+          "sha256": "5a761ed79156414abd9da412129b0f4d4c783ba9c108a1eb9c9ff0e3966ca903"
+        },
+        "njoy.eth": {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "ens": "njoy.eth",
+          "ok": true,
+          "sha256": "ee2a089026f300eaefda6ef7d11a6adf6b8c000870a643a353276c82ef0bc54c"
+        },
+        "philipmorrisusa.eth": {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "ens": "philipmorrisusa.eth",
+          "ok": true,
+          "sha256": "3a34df1918036abaf7abb0ed377342a9ee8779bbca2659756591cb819f7777ae"
+        },
+        "pmusa.eth": {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "ens": "pmusa.eth",
+          "ok": true,
+          "sha256": "3ca857a340093e099b6075d79f17e892a1c40e9ab89e3baa6e5d8da1bffdae6e"
+        }
+      },
+      "altria_ens_identity": {
+        "altria.eth": {
+          "resolved": false
+        },
+        "njoy.eth": {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "blockscout_ens_domain_name": "sexomessi.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "philipmorrisusa.eth": {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "pmusa.eth": {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        }
+      },
+      "altria_hidden_subsidiary_shell_census_authenticated": false,
+      "altria_stolen_ip_royalty_adjudicated": false,
+      "authenticated_skoda_publication_count": 15,
+      "calantzopoulos_on_altria_wiki": false,
+      "detail": "Wikipedia Altria parse yields 4 key-people names and 10 subsidiary/affiliate link candidates (noise-filtered). altria.eth unresolved; philipmorrisusa.eth / pmusa.eth / njoy.eth resolve but are not authenticated as Altria corporate treasuries without identity binding. No Altria.com / Wikipedia extract authenticates Skoda/Ahkeo/Fyllo DAO royalty rails. PMI appears as related/spinoff link — not proof of illicit IP monetization.",
+      "entities_and_subsidiaries_public": [
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Altria Group, Inc.",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Chateau Ste. Michelle",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Helix Innovations",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "John Middleton Co.",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Juul",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "NJOY",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_affiliate_or_former_affiliate_link",
+          "name": "Philip Morris International",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Philip Morris USA",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "U.S. Smokeless Tobacco Company",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Upton Tobaccos",
+          "source": "wikipedia_parse_api_altria"
+        }
+      ],
+      "entity_or_subsidiary_count": 10,
+      "id": "W24-F5",
+      "personnel_count": 4,
+      "personnel_public": [
+        {
+          "class": "public_personnel",
+          "name": "Billy Gifford",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Kathryn McQuade",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Martin Barrington",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "William F. Gifford",
+          "source": "wikipedia_parse_api_altria"
+        }
+      ],
+      "pmi_spinoff_relationship_noted": true,
+      "title": "Altria personnel/entities/subsidiaries expanded; no authenticated Skoda/IP/DAO royalty nexus"
+    }
+  ],
+  "id": "altria_entities_personnel_subsidiaries",
+  "next_actions": [
+    "Altria Form 10-K Exhibit 21 for exhaustive subsidiary legal names when SEC access available",
+    "Do not treat philipmorrisusa.eth/pmusa.eth/njoy.eth as authenticated Altria wallets"
+  ],
+  "personnel": [
+    {
+      "class": "public_personnel",
+      "name": "Billy Gifford",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_personnel",
+      "name": "Kathryn McQuade",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_personnel",
+      "name": "Martin Barrington",
+      "source": "wikipedia_parse_api_altria"
+    },
+    {
+      "class": "public_personnel",
+      "name": "William F. Gifford",
+      "source": "wikipedia_parse_api_altria"
+    }
+  ],
+  "status": "SEALED",
+  "title": "Altria Group personnel, entities, and subsidiaries expansion",
+  "wikipedia": {
+    "dao_mentions": 0,
+    "key_people_extracted": [
+      "Billy Gifford",
+      "Kathryn McQuade",
+      "Martin Barrington",
+      "William F. Gifford"
+    ],
+    "mentions_calantzopoulos": false,
+    "mentions_philip_morris_international": true,
+    "ok": true,
+    "sha256": "2dee5cb620d890624a0798cc26947bf1fe902a7a36696e5e7158579a7a73f0a5",
+    "skoda_mentions": 0,
+    "status": 200,
+    "subsidiary_or_affiliate_links_extracted": [
+      "Altria Group, Inc.",
+      "Chateau Ste. Michelle",
+      "Helix Innovations",
+      "John Middleton Co.",
+      "Juul",
+      "NJOY",
+      "Philip Morris International",
+      "Philip Morris USA",
+      "U.S. Smokeless Tobacco Company",
+      "Upton Tobaccos"
+    ]
+  }
+}

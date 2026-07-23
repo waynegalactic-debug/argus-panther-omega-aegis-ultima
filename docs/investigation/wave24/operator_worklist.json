@@ -1,0 +1,43 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W24-M1",
+      "item": "Authenticate figure↔wallet binding before treating vanity ENS as participant treasury",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W24-M2",
+      "item": "PMI Exhibit 21 / global subsidiary schedule if nested PMI claim expands",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W24-M2b",
+      "item": "Altria Form 10-K Exhibit 21 for exhaustive subsidiary legal names",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W24-M3",
+      "item": "Clarify 'vigo representation' entity or treat as unlocated STT label",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W24-M4",
+      "item": "OFAC/OpenSanctions credentials for Lazarus/Sinaloa/GRU address screening",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "W24-M5",
+      "item": "Juul/Pax/Ploom corporate Exhibit 21 / registry extracts if legal-entity exhaustion beyond wiki required",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W24-M6",
+      "item": "Fortune 100 Exhibit 21 batch ingest required before any IP-licensing-subsidiary census claim",
+      "priority": "HIGH"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-24 operator worklist"
+}

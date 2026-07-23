@@ -1,0 +1,164 @@
+{
+  "findings": [
+    {
+      "cross_linked_firms": [
+        "Ulmer & Berne LLP",
+        "Foley & Lardner LLP",
+        "Ferraiuoli LLC",
+        "Tucker & Ellis LLP",
+        "Zashin & Rich LLP",
+        "Anthony G. Salvador, Esq.",
+        "Benjamin L. England & Associates, LLC",
+        "BDO Global",
+        "BDO Puerto Rico, P.S.C."
+      ],
+      "detail": "Sealed enabler forms (Salvador, England, Bacó, Lauren Rich Fine, collegefitness nexus) and firm rosters (Foley, Ferraiuoli, Tucker Ellis, Zashin & Rich, Ulmer & Berne, BDO) remain victim-inventor corpus surfaces. Wave-24 did not authenticate shared hidden/'vigo' counsel linking those enablers to PMI/Calantzopoulos, ABG/Salter, or the other named participants. Live EDGAR co-mention queries blocked (403) this run.",
+      "hidden_legal_representation_adjudicated": false,
+      "id": "W24-F4",
+      "overlap_rows": [
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Ulmer & Berne LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Foley & Lardner LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Ferraiuoli LLC",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Tucker & Ellis LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Zashin & Rich LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Anthony G. Salvador, Esq.",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Benjamin L. England & Associates, LLC",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "BDO Global",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "BDO Puerto Rico, P.S.C.",
+          "sealed_in_victim_corpus": true
+        }
+      ],
+      "professional_enabler_adjudicated": false,
+      "roster_files": [
+        "data/bdo_global_people_roster.json",
+        "data/bdo_puerto_rico_people_roster.json",
+        "data/benjamin_england_associates_people_roster.json",
+        "data/foley_lardner_people_roster.json",
+        "data/tucker_ellis_people_roster.json",
+        "data/ulmer_berne_people_roster.json",
+        "data/zashin_rich_people_roster.json"
+      ],
+      "sealed_enabler_forms": [
+        {
+          "file": "data/albert_baco_political_consultant_form.json",
+          "firm": "RE Capital LLC / bacobague.com",
+          "form_type": "outside_political_consultant_bdo_coordination_declaration",
+          "ghost_docket_role": "outside_political_consultant_bdo_coordinator",
+          "name": "Alberto Bacó Bagué",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/anthony_g_salvador_victim_inventor_form.json",
+          "firm": "Salvador Law Group, PLLC",
+          "form_type": "victim_inventor_counsel_betrayal_declaration",
+          "ghost_docket_role": "victim_inventor_counsel_betrayal_coordinator",
+          "name": "Anthony G. Salvador, Esq.",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/benjamin_england_victim_inventor_form.json",
+          "firm": "Benjamin L. England & Associates, LLC",
+          "form_type": "victim_inventor_counsel_fda_ip_regulatory_declaration",
+          "ghost_docket_role": "victim_inventor_fda_ip_regulatory_counsel",
+          "name": "Benjamin L. England, Esq.",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/collegefitness_com_foundational_social_platform.json",
+          "firm": null,
+          "form_type": "foundational_social_networking_platform_declaration",
+          "ghost_docket_role": "foundational_social_networking_platform_misappropriation_nexus",
+          "name": "collegefitness.com",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/lauren_rich_fine_independent_consultant_form.json",
+          "firm": "Beatrice Advisors, LP",
+          "form_type": "independent_consultant_ulmer_rome_coordination_declaration",
+          "ghost_docket_role": "independent_consultant_ulmer_rome_coordinator",
+          "name": "Lauren Rich Fine, CFA",
+          "rico_enabler_flag_in_form": true
+        }
+      ],
+      "shared_enabler_corruption_adjudicated": false,
+      "subjects_in_scope": [
+        "Elon Musk",
+        "Jensen Huang",
+        "Mark Zuckerberg",
+        "Sam Altman",
+        "Vitalik Buterin",
+        "André Calantzopoulos",
+        "Jamie Salter",
+        "Philip Morris International Inc.",
+        "Authentic Brands Group",
+        "Fyllo / Casters Holdings",
+        "Brent Michael Škoda (victim inventor)"
+      ],
+      "title": "Professional-enabler overlap: victim-corpus firms not authenticated as hidden counsel for named non-victim participants",
+      "vigo_representation": {
+        "interpretation": "No 'VIGO' law firm / counsel label located under data/ or sealed waves. Screened as possible STT for 'legal representation' / hidden counsel. Not upgraded to an authenticated entity.",
+        "operator_phrase": "vigo representation",
+        "status": "UNLOCATED_LABEL"
+      }
+    }
+  ],
+  "id": "professional_enabler_hidden_counsel_overlap",
+  "next_actions": [
+    "If operator has a 'VIGO' entity path or retainer evidence, supply for deterministic ingest",
+    "EDGAR counsel-exhibit pulls when SEC API access restored"
+  ],
+  "status": "SEALED",
+  "title": "Professional enablers / hidden counsel overlap screen"
+}

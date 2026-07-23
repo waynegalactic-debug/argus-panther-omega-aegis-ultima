@@ -1,0 +1,141 @@
+{
+  "collegefitness_source": "data/collegefitness_com_foundational_social_platform.json",
+  "findings": [
+    {
+      "collegefitness_corpus_actors": [
+        {
+          "actor_id": "CN-PLA-APT",
+          "name": "China PLA APT units",
+          "role": "exfiltration_continuity_break",
+          "type": "state_sponsored"
+        },
+        {
+          "actor_id": "KP-LAZARUS",
+          "name": "North Korea Lazarus Group",
+          "role": "crypto_asset_laundering_facilitation",
+          "type": "state_sponsored"
+        },
+        {
+          "actor_id": "MX-SINALOA-CYBER",
+          "name": "Sinaloa Cartel Cyber Team",
+          "role": "fiat_injection_crypto_receipt",
+          "type": "cartel"
+        },
+        {
+          "actor_id": "IR-IRGC-CYBER",
+          "name": "Iran IRGC Cyber Team",
+          "role": "synthetic_inventor_replacement_religion_payloads",
+          "type": "state_sponsored"
+        }
+      ],
+      "corpus_class": "OPERATOR_OR_CORPUS_DECLARATION_NOT_PUBLICLY_AUTHENTICATED_NEXUS",
+      "cyber_dust_illicit_evasion_adjudicated": false,
+      "detail": "Collegefitness form declares PLA APT, Lazarus, Sinaloa cyber, and IRGC coordination — classified as corpus declaration, not a sealed public attribution tying those actors to fyllo.eth, vitalik.eth, PMI vanity ENS, ABG ENS, or other Wave-24 traced addresses. Russian GRU was requested by operator but is not in that corpus actor list. Dust-candidate wei filters on high-activity EOAs are not adjudicated as advanced illicit evasion.",
+      "id": "W24-F3",
+      "opensanctions_live": "BLOCKED_OR_UNAVAILABLE_IN_RUN",
+      "requested_threat_actors": [
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "CN-PLA-APT",
+          "id": "CN-PLA",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "China PLA / PLA APT units",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "KP-LAZARUS",
+          "id": "KP-LAZARUS",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "North Korea Lazarus Group",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "MX-SINALOA-CYBER",
+          "id": "MX-SINALOA",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "Sinaloa Cartel / El Chapo Guzmán nexus (operator-stated)",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": null,
+          "id": "RU-GRU",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": false,
+          "name": "Russian GRU",
+          "note": "Not present in collegefitness corpus actor list; OPEN for authenticated public attribution to this case",
+          "state_actor_nexus_adjudicated": false
+        }
+      ],
+      "state_actor_cartel_nexus_adjudicated": false,
+      "title": "PLA / Lazarus / Sinaloa / GRU cyber-dust nexus remains unauthenticated to screened addresses"
+    }
+  ],
+  "id": "state_cartel_cyber_dust_nexus",
+  "next_actions": [
+    "OFAC/OpenSanctions authenticated pulls when API credentials available",
+    "Do not upgrade corpus declarations into adjudicated state-actor payment rails"
+  ],
+  "requested_threat_actors": [
+    {
+      "authenticated_link_to_fyllo_eth": false,
+      "authenticated_link_to_participant_addresses": false,
+      "authenticated_link_to_skoda_patents": false,
+      "corpus_match": "CN-PLA-APT",
+      "id": "CN-PLA",
+      "illicit_payment_evasion_adjudicated": false,
+      "in_collegefitness_corpus_declaration": true,
+      "name": "China PLA / PLA APT units",
+      "state_actor_nexus_adjudicated": false
+    },
+    {
+      "authenticated_link_to_fyllo_eth": false,
+      "authenticated_link_to_participant_addresses": false,
+      "authenticated_link_to_skoda_patents": false,
+      "corpus_match": "KP-LAZARUS",
+      "id": "KP-LAZARUS",
+      "illicit_payment_evasion_adjudicated": false,
+      "in_collegefitness_corpus_declaration": true,
+      "name": "North Korea Lazarus Group",
+      "state_actor_nexus_adjudicated": false
+    },
+    {
+      "authenticated_link_to_fyllo_eth": false,
+      "authenticated_link_to_participant_addresses": false,
+      "authenticated_link_to_skoda_patents": false,
+      "corpus_match": "MX-SINALOA-CYBER",
+      "id": "MX-SINALOA",
+      "illicit_payment_evasion_adjudicated": false,
+      "in_collegefitness_corpus_declaration": true,
+      "name": "Sinaloa Cartel / El Chapo Guzmán nexus (operator-stated)",
+      "state_actor_nexus_adjudicated": false
+    },
+    {
+      "authenticated_link_to_fyllo_eth": false,
+      "authenticated_link_to_participant_addresses": false,
+      "authenticated_link_to_skoda_patents": false,
+      "corpus_match": null,
+      "id": "RU-GRU",
+      "illicit_payment_evasion_adjudicated": false,
+      "in_collegefitness_corpus_declaration": false,
+      "name": "Russian GRU",
+      "note": "Not present in collegefitness corpus actor list; OPEN for authenticated public attribution to this case",
+      "state_actor_nexus_adjudicated": false
+    }
+  ],
+  "status": "SEALED",
+  "title": "State / cartel / cyber-dust nexus screen"
+}

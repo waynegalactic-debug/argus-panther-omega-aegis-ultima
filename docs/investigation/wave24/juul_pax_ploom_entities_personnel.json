@@ -1,0 +1,560 @@
+{
+  "affiliates_and_related_entities": [
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Altria",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "British American Tobacco",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Golf Nippon Series JT Cup",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Imperial Brands",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Japan Tobacco International",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Juul",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Juul Labs",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Logic (electronic cigarette)",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "NJOY",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Pax Labs",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Philip Morris International",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "Ploom",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "R. J. Reynolds Tobacco Company",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "R.J. Reynolds",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    },
+    {
+      "class": "public_affiliate_or_related_entity_candidate",
+      "name": "R.J. Reynolds Tobacco Company",
+      "source": "wikipedia_juul_pax_ploom_jti"
+    }
+  ],
+  "ens": {
+    "japantobacco.eth": {
+      "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+      "ens": "japantobacco.eth",
+      "ok": true,
+      "sha256": "519ff3eabdf42754ec069f0a8f9143e45afb52a668c8fc29e5757f0784f9545f"
+    },
+    "jt.eth": {
+      "address": null,
+      "ens": "jt.eth",
+      "ok": true,
+      "sha256": "423a5b7f94478c6ec32450b9aa667c3fbc5946e6518aa656f5b1f48a5ebd6eb4"
+    },
+    "juul.eth": {
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "ens": "juul.eth",
+      "ok": true,
+      "sha256": "e8bbba331bff0df7ab9b38ca06e3c0131495f04e23cd5f3057dcf960ba2d53ca"
+    },
+    "juullabs.eth": {
+      "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+      "ens": "juullabs.eth",
+      "ok": true,
+      "sha256": "502bc7900562622924015e818df8b445d3bedfbd9cf3236f3f66228a6aba813f"
+    },
+    "pax.eth": {
+      "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+      "ens": "pax.eth",
+      "ok": true,
+      "sha256": "423cb851befefe7ebf9d0aefa5ff11cd295cd4bcf14910b76db8a7eed2b652fb"
+    },
+    "paxlabs.eth": {
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "ens": "paxlabs.eth",
+      "ok": true,
+      "sha256": "49e440ddc1c05d98d87c5db132ceb374b52ad3c2fb0ce07b6573acc9d6a133d4"
+    },
+    "ploom.eth": {
+      "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+      "ens": "ploom.eth",
+      "ok": true,
+      "sha256": "3370fd3c24faa7b3aa638fdb074bcd4ee61bc0d1c0bd086783800d6699d93fb4"
+    }
+  },
+  "ens_identity": {
+    "japantobacco.eth": {
+      "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+      "blockscout_ens_domain_name": null,
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    },
+    "jt.eth": {
+      "resolved": false
+    },
+    "juul.eth": {
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "blockscout_ens_domain_name": null,
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    },
+    "juullabs.eth": {
+      "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+      "blockscout_ens_domain_name": "megarobot.eth",
+      "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+      "is_contract": false,
+      "resolved": true
+    },
+    "pax.eth": {
+      "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+      "blockscout_ens_domain_name": "pax.eth",
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    },
+    "paxlabs.eth": {
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "blockscout_ens_domain_name": "frankmoney.eth",
+      "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+      "is_contract": false,
+      "resolved": true
+    },
+    "ploom.eth": {
+      "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+      "blockscout_ens_domain_name": null,
+      "identity_caveat": null,
+      "is_contract": false,
+      "resolved": true
+    }
+  },
+  "findings": [
+    {
+      "affiliate_count": 15,
+      "affiliates_and_related_entities": [
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Altria",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "British American Tobacco",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Golf Nippon Series JT Cup",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Imperial Brands",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Japan Tobacco International",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Juul",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Juul Labs",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Logic (electronic cigarette)",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "NJOY",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Pax Labs",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Philip Morris International",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Ploom",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R. J. Reynolds Tobacco Company",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R.J. Reynolds",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R.J. Reynolds Tobacco Company",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        }
+      ],
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Public Wikipedia extracts yield 2 personnel (incl. Adam Bowen / James Monsees founder nexus) and 15 affiliate/related-entity candidates spanning Juul, Pax Labs, Ploom, JTI, Altria, NJOY, and peer tobacco majors. Vanity ENS (juul/pax/ploom/etc.) resolve in several cases but are not authenticated corporate treasuries. No wiki extract authenticates Skoda/Ahkeo/Fyllo DAO royalty rails or an exhaustive secret-subsidiary census beyond public affiliate links.",
+      "ens": {
+        "japantobacco.eth": {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "ens": "japantobacco.eth",
+          "ok": true,
+          "sha256": "519ff3eabdf42754ec069f0a8f9143e45afb52a668c8fc29e5757f0784f9545f"
+        },
+        "jt.eth": {
+          "address": null,
+          "ens": "jt.eth",
+          "ok": true,
+          "sha256": "423a5b7f94478c6ec32450b9aa667c3fbc5946e6518aa656f5b1f48a5ebd6eb4"
+        },
+        "juul.eth": {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "ens": "juul.eth",
+          "ok": true,
+          "sha256": "e8bbba331bff0df7ab9b38ca06e3c0131495f04e23cd5f3057dcf960ba2d53ca"
+        },
+        "juullabs.eth": {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "ens": "juullabs.eth",
+          "ok": true,
+          "sha256": "502bc7900562622924015e818df8b445d3bedfbd9cf3236f3f66228a6aba813f"
+        },
+        "pax.eth": {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "ens": "pax.eth",
+          "ok": true,
+          "sha256": "423cb851befefe7ebf9d0aefa5ff11cd295cd4bcf14910b76db8a7eed2b652fb"
+        },
+        "paxlabs.eth": {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "ens": "paxlabs.eth",
+          "ok": true,
+          "sha256": "49e440ddc1c05d98d87c5db132ceb374b52ad3c2fb0ce07b6573acc9d6a133d4"
+        },
+        "ploom.eth": {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "ens": "ploom.eth",
+          "ok": true,
+          "sha256": "3370fd3c24faa7b3aa638fdb074bcd4ee61bc0d1c0bd086783800d6699d93fb4"
+        }
+      },
+      "ens_identity": {
+        "japantobacco.eth": {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "jt.eth": {
+          "resolved": false
+        },
+        "juul.eth": {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "juullabs.eth": {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "blockscout_ens_domain_name": "megarobot.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "pax.eth": {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "blockscout_ens_domain_name": "pax.eth",
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "paxlabs.eth": {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "blockscout_ens_domain_name": "frankmoney.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "ploom.eth": {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        }
+      },
+      "id": "W24-F6",
+      "juul_pax_ploom_dao_licensing_adjudicated": false,
+      "juul_pax_ploom_hidden_subsidiary_census_authenticated": false,
+      "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+      "lineage_public": {
+        "juul_to_altria": "Altria investment/affiliation historically noted on Juul wiki",
+        "pax_to_juul": "Juul originated within / spun from Pax Labs founder nexus (public wiki)",
+        "ploom_to_jti": "Ploom associated with Japan Tobacco International (public wiki)",
+        "ploom_to_pax": "Ploom product/company lineage linked to Pax Labs founders (public wiki)"
+      },
+      "personnel_count": 2,
+      "personnel_public": [
+        {
+          "class": "public_personnel",
+          "name": "Adam Bowen",
+          "source": "wikipedia_juul_pax_ploom"
+        },
+        {
+          "class": "public_personnel",
+          "name": "James Monsees",
+          "source": "wikipedia_juul_pax_ploom"
+        }
+      ],
+      "title": "Juul / Pax / Ploom personnel & affiliates exhausted at public-wiki depth; no Skoda/DAO royalty nexus authenticated",
+      "wikipedia": {
+        "japan_tobacco": {
+          "affiliates": [
+            "British American Tobacco",
+            "Golf Nippon Series JT Cup",
+            "Japan Tobacco International",
+            "Philip Morris International",
+            "R.J. Reynolds Tobacco Company"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": false,
+          "mentions_pmi": true,
+          "ok": true,
+          "page": "Japan_Tobacco",
+          "people": [],
+          "sha256": "8f573cf31fa6919439cd77dc4950e836c359f47210f670348bbc8cf63e1e6689",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "juul": {
+          "affiliates": [
+            "Altria",
+            "British American Tobacco",
+            "Imperial Brands",
+            "Japan Tobacco International",
+            "Logic (electronic cigarette)",
+            "NJOY",
+            "Pax Labs",
+            "Philip Morris International",
+            "R. J. Reynolds Tobacco Company",
+            "R.J. Reynolds"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": true,
+          "mentions_pmi": true,
+          "ok": true,
+          "page": "Juul",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "553f3ab80001e2a34aa6f1094cd36aae32a8f93b2a526aad007c2afed73a31c8",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "pax_labs": {
+          "affiliates": [
+            "Japan Tobacco International",
+            "Juul",
+            "Ploom"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": false,
+          "mentions_pmi": false,
+          "ok": true,
+          "page": "Pax_Labs",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "6de4bffba8dcdc5885ec7caf8526a8f152dd4fc4bd5f963548a8aaceaa31983b",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "ploom": {
+          "affiliates": [
+            "Japan Tobacco International",
+            "Pax Labs"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": true,
+          "mentions_pmi": false,
+          "ok": true,
+          "page": "Ploom",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "39ef2348ae76f226d58f05377e28114fdb1084ee573c9875895d621c428661fe",
+          "skoda_mentions": 0,
+          "status": 200
+        }
+      }
+    }
+  ],
+  "id": "juul_pax_ploom_entities_personnel",
+  "lineage_public": {
+    "juul_to_altria": "Altria investment/affiliation historically noted on Juul wiki",
+    "pax_to_juul": "Juul originated within / spun from Pax Labs founder nexus (public wiki)",
+    "ploom_to_jti": "Ploom associated with Japan Tobacco International (public wiki)",
+    "ploom_to_pax": "Ploom product/company lineage linked to Pax Labs founders (public wiki)"
+  },
+  "next_actions": [
+    "Corporate registries / Exhibit 21 for Juul Labs Inc. and Pax Labs Inc. if legal-entity exhaustion beyond wiki is required",
+    "Do not treat juul.eth/pax.eth/ploom.eth vanity resolutions as authenticated corporate wallets"
+  ],
+  "personnel": [
+    {
+      "class": "public_personnel",
+      "name": "Adam Bowen",
+      "source": "wikipedia_juul_pax_ploom"
+    },
+    {
+      "class": "public_personnel",
+      "name": "James Monsees",
+      "source": "wikipedia_juul_pax_ploom"
+    }
+  ],
+  "status": "SEALED",
+  "title": "Juul Labs / Pax Labs / Ploom personnel & affiliated entities",
+  "wikipedia": {
+    "japan_tobacco": {
+      "affiliates": [
+        "British American Tobacco",
+        "Golf Nippon Series JT Cup",
+        "Japan Tobacco International",
+        "Philip Morris International",
+        "R.J. Reynolds Tobacco Company"
+      ],
+      "dao_mentions": 0,
+      "mentions_altria": false,
+      "mentions_pmi": true,
+      "ok": true,
+      "page": "Japan_Tobacco",
+      "people": [],
+      "sha256": "8f573cf31fa6919439cd77dc4950e836c359f47210f670348bbc8cf63e1e6689",
+      "skoda_mentions": 0,
+      "status": 200
+    },
+    "juul": {
+      "affiliates": [
+        "Altria",
+        "British American Tobacco",
+        "Imperial Brands",
+        "Japan Tobacco International",
+        "Logic (electronic cigarette)",
+        "NJOY",
+        "Pax Labs",
+        "Philip Morris International",
+        "R. J. Reynolds Tobacco Company",
+        "R.J. Reynolds"
+      ],
+      "dao_mentions": 0,
+      "mentions_altria": true,
+      "mentions_pmi": true,
+      "ok": true,
+      "page": "Juul",
+      "people": [
+        "Adam Bowen",
+        "James Monsees"
+      ],
+      "sha256": "553f3ab80001e2a34aa6f1094cd36aae32a8f93b2a526aad007c2afed73a31c8",
+      "skoda_mentions": 0,
+      "status": 200
+    },
+    "pax_labs": {
+      "affiliates": [
+        "Japan Tobacco International",
+        "Juul",
+        "Ploom"
+      ],
+      "dao_mentions": 0,
+      "mentions_altria": false,
+      "mentions_pmi": false,
+      "ok": true,
+      "page": "Pax_Labs",
+      "people": [
+        "Adam Bowen",
+        "James Monsees"
+      ],
+      "sha256": "6de4bffba8dcdc5885ec7caf8526a8f152dd4fc4bd5f963548a8aaceaa31983b",
+      "skoda_mentions": 0,
+      "status": 200
+    },
+    "ploom": {
+      "affiliates": [
+        "Japan Tobacco International",
+        "Pax Labs"
+      ],
+      "dao_mentions": 0,
+      "mentions_altria": true,
+      "mentions_pmi": false,
+      "ok": true,
+      "page": "Ploom",
+      "people": [
+        "Adam Bowen",
+        "James Monsees"
+      ],
+      "sha256": "39ef2348ae76f226d58f05377e28114fdb1084ee573c9875895d621c428661fe",
+      "skoda_mentions": 0,
+      "status": 200
+    }
+  }
+}

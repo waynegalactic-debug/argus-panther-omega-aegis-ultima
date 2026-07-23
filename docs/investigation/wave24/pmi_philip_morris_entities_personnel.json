@@ -1,0 +1,203 @@
+{
+  "ens": {
+    "calantzopoulos.eth": {
+      "address": null,
+      "ens": "calantzopoulos.eth",
+      "ok": true,
+      "sha256": "be5d52038a26036df0363d801043e6decc048b1d17a57e883b1105de0f9558e5"
+    },
+    "philipmorris.eth": {
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "ens": "philipmorris.eth",
+      "ok": true,
+      "sha256": "1cc0b74c6d7b7b1404609122a1790c5593d6c36b00160855eaaa49bc2d4f02ba"
+    },
+    "pmi.eth": {
+      "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+      "ens": "pmi.eth",
+      "ok": true,
+      "sha256": "d76ccc39a3b57b0a0a0ae6a6698642bba0b9e4b885b4902302b0e2119156af0f"
+    }
+  },
+  "entities_and_personnel": [
+    {
+      "class": "public_operating_company",
+      "name": "Philip Morris International Inc.",
+      "personnel_public": [
+        "Andre Calantzopoulos",
+        "André Calantzopoulos",
+        "Jacek Olczak",
+        "Louis Camilleri"
+      ],
+      "source": "wikipedia_parse_api"
+    },
+    {
+      "class": "public_brand_alias",
+      "name": "PMI (brand/abbrev)",
+      "source": "pmi.com"
+    },
+    {
+      "class": "public_personnel",
+      "name": "André Calantzopoulos",
+      "role_public": "Chairman (Wikipedia key_people) / former CEO (public career)",
+      "source": "wikipedia_parse_api"
+    },
+    {
+      "class": "public_personnel",
+      "name": "Jacek Olczak",
+      "role_public": "CEO (Wikipedia key_people)",
+      "source": "wikipedia_parse_api"
+    }
+  ],
+  "findings": [
+    {
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Public PMI surfaces identify André Calantzopoulos (chairman) and Jacek Olczak (CEO) among key people. No PMI.com / Wikipedia extract authenticates DAO licensing, Skoda/Ahkeo/Fyllo co-mention, or hidden blockchain royalties tied to the sealed 15-pub Skoda set.",
+      "entities_and_personnel": [
+        {
+          "class": "public_operating_company",
+          "name": "Philip Morris International Inc.",
+          "personnel_public": [
+            "Andre Calantzopoulos",
+            "André Calantzopoulos",
+            "Jacek Olczak",
+            "Louis Camilleri"
+          ],
+          "source": "wikipedia_parse_api"
+        },
+        {
+          "class": "public_brand_alias",
+          "name": "PMI (brand/abbrev)",
+          "source": "pmi.com"
+        },
+        {
+          "class": "public_personnel",
+          "name": "André Calantzopoulos",
+          "role_public": "Chairman (Wikipedia key_people) / former CEO (public career)",
+          "source": "wikipedia_parse_api"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Jacek Olczak",
+          "role_public": "CEO (Wikipedia key_people)",
+          "source": "wikipedia_parse_api"
+        }
+      ],
+      "id": "W24-F2",
+      "pmi_dao_licensing_adjudicated": false,
+      "pmi_ens_resolution": {
+        "calantzopoulos.eth": {
+          "address": null,
+          "ens": "calantzopoulos.eth",
+          "ok": true,
+          "sha256": "be5d52038a26036df0363d801043e6decc048b1d17a57e883b1105de0f9558e5"
+        },
+        "philipmorris.eth": {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "ens": "philipmorris.eth",
+          "ok": true,
+          "sha256": "1cc0b74c6d7b7b1404609122a1790c5593d6c36b00160855eaaa49bc2d4f02ba"
+        },
+        "pmi.eth": {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "ens": "pmi.eth",
+          "ok": true,
+          "sha256": "d76ccc39a3b57b0a0a0ae6a6698642bba0b9e4b885b4902302b0e2119156af0f"
+        }
+      },
+      "pmi_eth_identity_caveat": "pmi.eth / philipmorris.eth resolve on-chain but Blockscout primary ENS values (davidsteiner.eth / bonerjams.eth) indicate vanity-name squat risk — not authenticated corporate treasuries of Philip Morris International.",
+      "pmi_stolen_ip_royalty_adjudicated": false,
+      "site_mentions_skoda_or_dao": {
+        "https://www.pmi.com/": {
+          "Ahkeo": false,
+          "Authentic Brands": false,
+          "Calantzopoulos": false,
+          "DAO": false,
+          "Fyllo": false,
+          "Olczak": false,
+          "Skoda": false,
+          "blockchain": false,
+          "patent": false,
+          "royalty": false
+        },
+        "https://www.pmi.com/who-we-are": {
+          "Ahkeo": false,
+          "Authentic Brands": false,
+          "Calantzopoulos": false,
+          "DAO": false,
+          "Fyllo": false,
+          "Olczak": true,
+          "Skoda": false,
+          "blockchain": false,
+          "patent": false,
+          "royalty": false
+        }
+      },
+      "title": "PMI / Philip Morris entities & personnel expanded; no authenticated Skoda/IP/DAO royalty nexus",
+      "wikipedia_key_people": [
+        "Andre Calantzopoulos",
+        "André Calantzopoulos",
+        "Jacek Olczak",
+        "Louis Camilleri"
+      ]
+    }
+  ],
+  "id": "pmi_philip_morris_entities_personnel",
+  "next_actions": [
+    "SEC Exhibit 21 / subsidiary list for PMI if nested-entity claim expands (live EDGAR may 403)",
+    "Do not treat pmi.eth/philipmorris.eth vanity resolutions as PMI corporate wallets"
+  ],
+  "pmi_sites": {
+    "https://www.pmi.com/": {
+      "excerpt": " Philip Morris International | Delivering a Smoke-Free Future window.dataLayer = window.dataLayer || []; dataLayer.push({ 'primaryTopic': 'noTopics', 'secondaryTopic': 'noTopics' }); (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM\\u002DNB9FK8'); { \"@context\" : \"https://schema.org\", \"@type\" : \"WebPage\", \"mainEntityOfPage\" : { \"@type\" : \"WebPage\", \"@id\" : \"https://www.pmi.com/\" }, \"headline\" : \"HOME\", \"image\" : \"https://www.pmi.com/content/dam/pmicom/global/images/media-center-resources/facilities-and-factories/lausanne-philip-morris-international-thumbnail.png\", \"datePublished\" : \"2019-07-31T00:00:00\", \"dateMod",
+      "mentions": {
+        "Ahkeo": false,
+        "Authentic Brands": false,
+        "Calantzopoulos": false,
+        "DAO": false,
+        "Fyllo": false,
+        "Olczak": false,
+        "Skoda": false,
+        "blockchain": false,
+        "patent": false,
+        "royalty": false
+      },
+      "ok": true,
+      "sha256": "7e252778d2d1ba1b23fa61d8befd0a16455a008d1fe8c37e6c53f914be0b5530",
+      "status": 200
+    },
+    "https://www.pmi.com/who-we-are": {
+      "excerpt": " About PMI - Philip Morris International window.dataLayer = window.dataLayer || []; dataLayer.push({ 'primaryTopic': 'noTopics', 'secondaryTopic': 'noTopics' }); (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM\\u002DNB9FK8'); { \"@context\" : \"https://schema.org\", \"@type\" : \"WebPage\", \"mainEntityOfPage\" : { \"@type\" : \"WebPage\", \"@id\" : \"https://www.pmi.com/who-we-are/who-we-are-overview\" }, \"headline\" : \"About us overview\", \"image\" : \"https://www.pmi.com/content/dam/pmicom/global/images/suppliers-and-procurement/lausanne-oc-thumbnail.jpg\", \"datePublished\" : \"2019-08-19T00:00:00\", \"dateModified\" : \"2019-08-19T00:0",
+      "mentions": {
+        "Ahkeo": false,
+        "Authentic Brands": false,
+        "Calantzopoulos": false,
+        "DAO": false,
+        "Fyllo": false,
+        "Olczak": true,
+        "Skoda": false,
+        "blockchain": false,
+        "patent": false,
+        "royalty": false
+      },
+      "ok": true,
+      "sha256": "c41eb076edb14f960d324f8600dcd67bf80960ec5961ae5e6464949c6d63e452",
+      "status": 200
+    }
+  },
+  "status": "SEALED",
+  "title": "Philip Morris / PMI entities and personnel expansion",
+  "wikipedia": {
+    "dao_mentions": 0,
+    "key_people_extracted": [
+      "Andre Calantzopoulos",
+      "André Calantzopoulos",
+      "Jacek Olczak",
+      "Louis Camilleri"
+    ],
+    "ok": true,
+    "sha256": "8a286a43f625631a238f101741846d7b96c93b1fcbb1e7d321bbb43ccc528119",
+    "skoda_mentions": 0,
+    "status": 200
+  }
+}

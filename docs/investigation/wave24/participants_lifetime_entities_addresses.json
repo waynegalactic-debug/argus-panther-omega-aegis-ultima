@@ -1,0 +1,3493 @@
+{
+  "address_summaries": {
+    "abg.eth": {
+      "activity_span": {
+        "earliest": "2023-12-04T19:13:11.000000Z",
+        "latest": "2025-01-24T23:57:47.000000Z"
+      },
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "blockscout_ens_domain_name": null,
+      "coin_balance": "225648381886043584",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": null,
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "abg.eth",
+      "methods_top": {
+        "commit": 1,
+        "fulfillBasicOrder_efficient_6GL6yc": 1,
+        "reclaim": 1,
+        "register": 1,
+        "renew": 1,
+        "setAddr": 1,
+        "setName": 1,
+        "unknown": 3
+      },
+      "nonzero_eth_transfers_in_scan": 6,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "c8db8a687cd138f3dd06d812852f10928e54efafdf8e44e53392627eb16ed2db"
+      ],
+      "sha256_tx_pages": [
+        "fb19da5a2d566f4103b49fa7cb313c81487b0a8a62030daf94bd01629c633188"
+      ],
+      "token_symbols_top": [
+        [
+          "ENS",
+          2
+        ],
+        [
+          "?",
+          1
+        ],
+        [
+          "MILJP",
+          1
+        ]
+      ],
+      "token_transfer_count_scanned": 4,
+      "top_counterparties": [
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "count": 3
+        },
+        {
+          "address": "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1",
+          "count": 1
+        },
+        {
+          "address": "0xcb0e74724067f4328652313a6927481b31e31ce9",
+          "count": 1
+        },
+        {
+          "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+          "count": 1
+        },
+        {
+          "address": "0xa58e81fe9b61b5c3fe2afd33cf304c454abfc7cb",
+          "count": 1
+        },
+        {
+          "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+          "count": 1
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 1
+        },
+        {
+          "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+          "count": 1
+        }
+      ],
+      "tt_exhausted": true,
+      "tx_count_scanned": 10,
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_pages": 1
+    },
+    "authenticbrands.eth": {
+      "activity_span": {
+        "earliest": "2021-06-17T13:37:34.000000Z",
+        "latest": "2021-06-17T19:26:48.000000Z"
+      },
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "blockscout_ens_domain_name": null,
+      "coin_balance": "203367025469922147",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": null,
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "authenticbrands.eth",
+      "methods_top": {
+        "commit": 7,
+        "registerWithConfig": 6,
+        "safeTransferFrom": 3,
+        "setOwner": 2,
+        "unknown": 2
+      },
+      "nonzero_eth_transfers_in_scan": 8,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "9d28e5bc04cbb865c1ded95dcc339e5aecdec19d4b1a4180453f0bcbb4e2bb1a"
+      ],
+      "sha256_tx_pages": [
+        "96cf1d2473cdc7d205278f73aa779c4484a62c629c5166bdbe7547bfcc9ba1e7"
+      ],
+      "token_symbols_top": [
+        [
+          "ENS",
+          9
+        ],
+        [
+          "PC",
+          1
+        ]
+      ],
+      "token_transfer_count_scanned": 10,
+      "top_counterparties": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 13
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 3
+        },
+        {
+          "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+          "count": 2
+        },
+        {
+          "address": "0x0885d38003d569843ff39f771cbfb5424dd9f04f",
+          "count": 2
+        }
+      ],
+      "tt_exhausted": true,
+      "tx_count_scanned": 20,
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_pages": 1
+    },
+    "elonmusk.eth": {
+      "activity_span": {
+        "earliest": "2021-09-25T23:20:22.000000Z",
+        "latest": "2026-07-20T14:50:11.000000Z"
+      },
+      "address": "0x983110309620D911731Ac0932219af06091b6744",
+      "blockscout_ens_domain_name": "brantly.eth",
+      "coin_balance": "96350101543294286",
+      "dust_candidates_lt_1e12_wei": 5,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "elonmusk.eth",
+      "methods_top": {
+        "approve": 5,
+        "bid": 77,
+        "cancel": 31,
+        "castVote": 32,
+        "castVoteWithReason": 7,
+        "commit": 99,
+        "multiCommit": 6,
+        "multicall": 57,
+        "reclaim": 34,
+        "register": 26,
+        "registerWithConfig": 68,
+        "renew": 10,
+        "safeTransferFrom": 26,
+        "setAddr": 13,
+        "setApprovalForAll": 5,
+        "setOwner": 5,
+        "setResolver": 6,
+        "setSubnodeRecord": 15,
+        "setText": 27,
+        "unknown": 123
+      },
+      "nonzero_eth_transfers_in_scan": 310,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "f9e2a38e751f4efd85363fad7eaf4a7cb4d76bf4226e11d8ad0d90f7b81c4559",
+        "c7dbbfe9c9619f5209daec301a8f0f128d0d1bb1e622c412b874a4675ca3d93d",
+        "51083294d1a1fff8758ad647945d0e20c0dfb4c6b9e9075ab22422013885abce",
+        "68bd35e8e05759ffa9fd6848aebfe8011a97b4fd3bb0f087cd3ccadd45657886",
+        "8d3212e73f08afe75915f5c83856f39d9d1b46d2d659bef140b1c9c847172d9d",
+        "47967db2904eb026539cee1362bebc3cdfba3ce664489f39d786349ec82df5db",
+        "f74f88f799403a9f60cffb62b838b47c2bdb623d22333ae3eeb9e5dd220f5d74",
+        "9564f70d6869d28e20352bd62aa2db923c9a78ac089ec81e4c7d84497e33a71d"
+      ],
+      "sha256_tx_pages": [
+        "e61792a62d85da8023a0c19c78c9b3b6f7ffc23b9d00ed2899ce078068d2da01",
+        "02408320c3e030b55f457990e84cc58ad6716be1f6fa5b6bcf5147b6fd815639",
+        "316ab60eb116bb25c5a839d2b0ee6718237f29dec12524e91386c1c555fed878",
+        "476a2b220c13ee466467435719c9c110fe3646ac62b9134428f65e87ca0ff13c",
+        "46542c6d89625f6a42a2a31e9aa6714dc83524b92716eb0fb2b49267cfd6d815",
+        "2264753397df8e407a086aee41d800bf6c696ceca2ee6378b56623f0b1d890cb",
+        "fb4e485cd9edd5b6aec652065a4209f8c4021f1b1c1978d94dae5508e6f202ef",
+        "86e4c1d6aba07ede7a47332d8bcad37ac1fec3f4317210d49f609463ec9b6e57",
+        "52423eeaddce24997150e475cb6e899d51fc14a397740445de19e689c491e0b2",
+        "fa6ea76edc15f82dcd6feb388f96d4544cc9eb2d7eb44c59f15c2f51c77a694c",
+        "61f5fdbe678b54f44bcd36797f7f5f9d4ab87c32daa6b2182201cf3c7bfc7934",
+        "08fb873e65d2366e2caa5f392dd37fcba83193217e3edfdc3254092ae1c49cc3",
+        "77d3ce2646f87078fabd192e1788f33ada9b99464360e4ee98d773568dec8a19",
+        "0fa1d8cc3afc36e1af33536da0b4050b248f6728dfc8e4bea6b11ec200b45991",
+        "8a077ff32608046d0c2628846650dbbc80440e79d558ff8241a95570a733e278"
+      ],
+      "token_symbols_top": [
+        [
+          "ENS",
+          116
+        ],
+        [
+          "LOVE",
+          55
+        ],
+        [
+          "?",
+          33
+        ],
+        [
+          "SCAPEXT",
+          27
+        ],
+        [
+          "ILL",
+          14
+        ],
+        [
+          "SCAPE",
+          9
+        ],
+        [
+          "OPENSTORE",
+          8
+        ],
+        [
+          "WETH",
+          5
+        ],
+        [
+          "MASKS",
+          3
+        ],
+        [
+          "PUNK",
+          3
+        ],
+        [
+          "METROBLOCK",
+          3
+        ],
+        [
+          "WMC",
+          2
+        ],
+        [
+          "CATE",
+          2
+        ],
+        [
+          "WVTRS",
+          2
+        ],
+        [
+          "TycoonPunks",
+          2
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 146
+        },
+        {
+          "address": "0xbdf210d103d4f8e9f4ba51a3bd1f3558bc90418d",
+          "count": 81
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 62
+        },
+        {
+          "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+          "count": 54
+        },
+        {
+          "address": "0x323a76393544d5ecca80cd6ef2a560c6a395b7e3",
+          "count": 45
+        },
+        {
+          "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+          "count": 43
+        },
+        {
+          "address": "0x0000000000000068f116a894984e2db1123eb395",
+          "count": 34
+        },
+        {
+          "address": "0x59e16fccd424cc24e280be16e11bcd56fb0ce547",
+          "count": 33
+        },
+        {
+          "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+          "count": 31
+        },
+        {
+          "address": "0x1ec4de886d40d487366cde7664767db1df6a02e7",
+          "count": 25
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "count": 24
+        },
+        {
+          "address": "0x3a5bd1e37b099ae3386d13947b6a90d97675e5e3",
+          "count": 9
+        },
+        {
+          "address": "0xdba5b60f3ece69618b4a2b409a8ee407d3514613",
+          "count": 8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 7
+        },
+        {
+          "address": "0x96184444629f3489c4de199871e6f99568229d8f",
+          "count": 6
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    },
+    "fyllo.eth": {
+      "activity_span": {
+        "earliest": "2021-12-19T02:44:24.000000Z",
+        "latest": "2023-12-20T17:02:35.000000Z"
+      },
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "blockscout_ens_domain_name": "erikshani.eth",
+      "coin_balance": "8258725060163222450",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "fyllo.eth",
+      "methods_top": {
+        "approve": 3,
+        "atomicMatch_": 1,
+        "cancelOrder_": 2,
+        "commit": 2,
+        "freeMint": 10,
+        "matchOrders": 2,
+        "mintNFTDuringPresale": 1,
+        "presaleMint": 1,
+        "registerProxy": 1,
+        "registerWithConfig": 3,
+        "run": 68,
+        "setApprovalForAll": 5,
+        "setName": 1,
+        "swap": 5,
+        "transfer": 1,
+        "unknown": 13
+      },
+      "nonzero_eth_transfers_in_scan": 89,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "7cfa23913abbe23f0eea71165c61885aa6d71e26ae619a50b24ec8d2fec5eb3a",
+        "d574220fb00e22578d597a4131706984b5ef577b1900918e0758408e18e4719c"
+      ],
+      "sha256_tx_pages": [
+        "4d02a6fb7e8c39107b5977a43db54c6be4a128d20a98be7025815f3ad6358778",
+        "e84c8d39683dcc8d4a2321deb5b6cf749d797d2f161e97c77633946a03655e3f",
+        "c8016a165be71ed640aefee6329930381559679ed9fdd66b0253b722df57233b"
+      ],
+      "token_symbols_top": [
+        [
+          "MEC",
+          8
+        ],
+        [
+          "FOLK",
+          6
+        ],
+        [
+          "APE",
+          6
+        ],
+        [
+          "PABI",
+          5
+        ],
+        [
+          "END",
+          4
+        ],
+        [
+          "POP",
+          4
+        ],
+        [
+          "MM",
+          4
+        ],
+        [
+          "LANGELS",
+          4
+        ],
+        [
+          "XOXO",
+          4
+        ],
+        [
+          "LORDNFT",
+          4
+        ],
+        [
+          "OXYA",
+          3
+        ],
+        [
+          "KCG",
+          3
+        ],
+        [
+          "BBB",
+          3
+        ],
+        [
+          "Airdrop",
+          2
+        ],
+        [
+          "DGFAM",
+          2
+        ]
+      ],
+      "token_transfer_count_scanned": 95,
+      "top_counterparties": [
+        {
+          "address": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+          "count": 68
+        },
+        {
+          "address": "0x96f98c60c04ba6fe47b3315e3689b270b3952e26",
+          "count": 10
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "count": 5
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 5
+        },
+        {
+          "address": "0x9372b371196751dd2f603729ae8d8014bbeb07f6",
+          "count": 3
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "count": 2
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "count": 2
+        },
+        {
+          "address": "0x8d738f36074c4be1443a1993c32929718ab4b461",
+          "count": 2
+        },
+        {
+          "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+          "count": 2
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "count": 2
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "count": 2
+        },
+        {
+          "address": "0x3243ac6f63f75e260346a14e1d1445f2a2708444",
+          "count": 1
+        },
+        {
+          "address": "0xe106c63e655df0e300b78336af587f300cff9e76",
+          "count": 1
+        },
+        {
+          "address": "0xf18bf4750bf060b9b9606de575304706d501737e",
+          "count": 1
+        },
+        {
+          "address": "0xdfe67f0a130297215da931e2dc6199219e172f74",
+          "count": 1
+        }
+      ],
+      "tt_exhausted": true,
+      "tx_count_scanned": 119,
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_pages": 3
+    },
+    "jamiesalter.eth": {
+      "activity_span": {
+        "earliest": "2026-01-02T19:38:47.000000Z",
+        "latest": "2026-07-18T00:16:59.000000Z"
+      },
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "blockscout_ens_domain_name": "🚀🚀🚀🚀🚀.eth",
+      "coin_balance": "134842398094157472",
+      "dust_candidates_lt_1e12_wei": 1,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": true,
+      "label": "jamiesalter.eth",
+      "methods_top": {
+        "approve": 71,
+        "batchCommit": 36,
+        "batchRegister": 29,
+        "bulkRenew": 10,
+        "cancel": 18,
+        "commit": 28,
+        "depositV3": 35,
+        "exec": 18,
+        "execute": 172,
+        "list": 20,
+        "multicall": 13,
+        "register": 27,
+        "reinstate": 11,
+        "revoke": 14,
+        "setAddr": 10,
+        "setApprovalForAll": 8,
+        "setContenthash": 34,
+        "transfer": 13,
+        "transferAndMulticall": 17,
+        "unknown": 53
+      },
+      "nonzero_eth_transfers_in_scan": 308,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "62ff92afaacb1671c3565cd97e28756c9dc70aa51d832159ec116db90c592eb7",
+        "0c5a8bc37f999bdd4dd95b3aa3e7319c178f32e4fdd092bc540d31c42bc7f650",
+        "cd33915e7ba9f473d5a4bcd5bd029d00a9d63c7c7e9932776fd53a83a12fd31a",
+        "06d31fb48c9a03dd3db97ca453e5cd1fb0bf79598b831283d9a256125c797925",
+        "ca1e4d1ec04285d12c7d12860a3b251c69789dc15c0dabe14ef229c0962bfc68",
+        "9a555a74d2db6b20a6aeb32ae26b2fdd12c408325274a6248b73a17b8a2cde1a",
+        "6c6532c4999fccb0b6f10ef23c6a5cc8abf0abed9bb63856c53b8b3abac59d1c",
+        "06ae0a6ff8d61bb38f57c2f88994d8ff1d17f12c917b594192fc8d28090e89c0"
+      ],
+      "sha256_tx_pages": [
+        "eb866a3d4c79c7a90b34f156e778311a382581d5920d0a54b7ef672f94ec4627",
+        "53f5249a6e50fffecb8e95557ac9bbdedfa5270137f420628c145eba05639205",
+        "25cddeac812f1def100d445a186ab2696b4ace82620f3647b65c703037037b8a",
+        "f2a0d5643c62daece27db724b5df597c2d2399ea7c5bbeda738ed6ea878a6968",
+        "2db671c464d5aa77eddcf151ba44724bee4e1d8a661baf350c0b7ea1ac32bf9b",
+        "99a273250036c94737147616f151d0cf17d50b8d380b3d8366a9e83ecc34e59d",
+        "fc75450062bf37af614b76337b6529f2b03d7eec9aae30877936f98039c29794",
+        "76c02c39ac5b94606760cc401d108be3eb82c4cc9129e83932a7b3aaa5e13d57",
+        "ede81cbff8f4719a8330db124eb0db0fe56be6b93ce902f4d233bfb888241b26",
+        "323c076a8ac1473e38eba73eea7ed53b485465b92e2fb33843461ea6a684158c",
+        "51f6c2e84fd470c9133f3ef7caf00dd2e5cb8e728fc0bfc5628acf86ce097414",
+        "e3af8402c3c07954e3f3bb192fe3bfecb0fa92260d957ce9cc9ae45dc731d260",
+        "d2decc6d18df15e4aad95c927f264b2f99b84b9d51c5e099a86c3aac9ef5ed64",
+        "d7785e3f9c88c9c8baec104c06bb319fad02158f00f2d8ce47ffa4aecb7ea75d",
+        "3398c0ce0e09862137659a83fb0c7e6b88f19dd7587e38acd6ed82cd698d7c6b"
+      ],
+      "token_symbols_top": [
+        [
+          "UPEG",
+          202
+        ],
+        [
+          "USDC",
+          34
+        ],
+        [
+          "UNICODED",
+          32
+        ],
+        [
+          "WAAC",
+          16
+        ],
+        [
+          "ENS",
+          15
+        ],
+        [
+          "wUNICODED",
+          10
+        ],
+        [
+          "APESTR",
+          8
+        ],
+        [
+          "CURSOR",
+          5
+        ],
+        [
+          "DOG",
+          4
+        ],
+        [
+          "USDT",
+          4
+        ],
+        [
+          "WETH",
+          4
+        ],
+        [
+          "uSATO",
+          4
+        ],
+        [
+          "SHIT",
+          3
+        ],
+        [
+          "PNKSTR",
+          3
+        ],
+        [
+          "MAYC",
+          3
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
+          "count": 126
+        },
+        {
+          "address": "0x59e16fccd424cc24e280be16e11bcd56fb0ce547",
+          "count": 55
+        },
+        {
+          "address": "0xf29100983e058b709f3d539b0c765937b804ac15",
+          "count": 47
+        },
+        {
+          "address": "0x2935e24631e8f8ed63e34f325ab967f09e9f7701",
+          "count": 45
+        },
+        {
+          "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+          "count": 36
+        },
+        {
+          "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "count": 35
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 32
+        },
+        {
+          "address": "0xa5f565650890fba1824ee0f21ebbbf660a179934",
+          "count": 26
+        },
+        {
+          "address": "0x520b2d7b9ad1b47163e7c59f22c96bb93caf3258",
+          "count": 25
+        },
+        {
+          "address": "0xb9767c1ad3afdc5018d29f7079e14fca8ba8b9f6",
+          "count": 24
+        },
+        {
+          "address": "0x0000000000000068f116a894984e2db1123eb395",
+          "count": 22
+        },
+        {
+          "address": "0x8cf37cb3eec84989b6cd56828fee7df737d144a8",
+          "count": 19
+        },
+        {
+          "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "count": 18
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 16
+        },
+        {
+          "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+          "count": 13
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    },
+    "jensenhuang.eth": {
+      "activity_span": {
+        "earliest": "2018-01-09T01:46:47.000000Z",
+        "latest": "2026-07-20T18:43:47.000000Z"
+      },
+      "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+      "blockscout_ens_domain_name": "narciso.eth",
+      "coin_balance": "130207108136056046",
+      "dust_candidates_lt_1e12_wei": 10,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "jensenhuang.eth",
+      "methods_top": {
+        "0xba20c521": 15,
+        "alt_buyCollectible": 23,
+        "approve": 32,
+        "atomicMatch_": 95,
+        "bulkTransfer": 31,
+        "commit": 33,
+        "create": 9,
+        "deposit": 25,
+        "fulfillAvailableAdvancedOrders": 9,
+        "fulfillBasicOrder_efficient_6GL6yc": 11,
+        "mint": 59,
+        "proxyAssert": 19,
+        "purchase": 29,
+        "registerWithConfig": 33,
+        "setApprovalForAll": 61,
+        "swap": 14,
+        "transfer": 27,
+        "transferFrom": 13,
+        "unknown": 68,
+        "withdraw": 16
+      },
+      "nonzero_eth_transfers_in_scan": 349,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "2256a9230dbf8569130112b07e421b6182c211362b20537aeb8a51549742bf52",
+        "19c6013f5248d04c53e1595505de1c4c68d8194d162bce86a7337716aaec9faf",
+        "7230c17811e8f8b678e1dec21e0451e9ab537df2faea4cefc0ca87aed2e9ef0c",
+        "a2c1e86130cfd6eda354f272f347ba267849d8edfb42ac013faceed4ec98a3e0",
+        "4133af3d008a9d5b082273160ba23bc8b37c134d37d1da04c37d3ee3ec0d6569",
+        "2b126327359f4c0b095ef68bb151074bb477560e0209916062b091fcfeb1572f",
+        "db7c08695951e65020190c723eb450166d643dd2b910a1022dce307bcd28699b",
+        "c1355d43cd599315c308bab87d76eabb06317541d2ef959e9dabf5b31c8f4615"
+      ],
+      "sha256_tx_pages": [
+        "b555dc44a126a06159036f52128e8f0a2c291378b4263c82169443f02bee6018",
+        "a524f28f2c4d9baab0b22e606c996607faefab4fcab726946e9f93fbd7ec1bb5",
+        "b26bf3750a4626977475d70e6858053ffa1172174512aa98503bd962762eb6c7",
+        "100fcc2926d80cc6c517bd56f4b067f433e3e9a4fce7e296fcddbfc11ec3d64c",
+        "52c6c37b68d5d2c11940e0256878fa70fbe4bb6347194b1d2b0d35436be002b7",
+        "160871aef1ab26a5011186e8698c0c6b4855082b464e6ccf235f077b85914f51",
+        "361c40702c12c4ef405cae3738b143e6a2a1742c961946a51a62d581a00d2ae0",
+        "d431b4e548a60851ca9adfb891665cd9c8af31de49b118a0af55062127775c4c",
+        "d792c22ea6170c497a2e5ffe00b0ec5520ab45f7bfc29eb687503fe2567513f3",
+        "ac9d256f5124e5b21160214cfc999be7cfd5c5d0ad1e85c8ae1b784c39877cff",
+        "df68fae7585ffe8ad7a8f8dade3c53f912693eba711fc1b9ccfb7ea94458cf2b",
+        "8a5572769bfe1ebc148e7161f832fd6442e539115f2de6d32beff2350a4dbac2",
+        "f72b7941f56e4891bf6601d6be858776e2af9d39ad3ec655c1ea5e8b6ae50b46",
+        "48885774013a07cdb6a8a4c2c75869cc025c2be2f68f1ac73d6941f80a187295",
+        "a0a2c07200ea4e2d3dd300451ff64a996110144b7138b3cc5ce98a6eb94701ea"
+      ],
+      "token_symbols_top": [
+        [
+          "BLOCKS",
+          162
+        ],
+        [
+          "WETH",
+          132
+        ],
+        [
+          "PXC256",
+          22
+        ],
+        [
+          "SVBLOOT",
+          21
+        ],
+        [
+          "STATS",
+          10
+        ],
+        [
+          "USDC",
+          9
+        ],
+        [
+          "BGIRLS",
+          7
+        ],
+        [
+          "BIOME",
+          6
+        ],
+        [
+          "IRENEDAO",
+          6
+        ],
+        [
+          "BLOOTBD",
+          5
+        ],
+        [
+          "ABSTUDIO_79",
+          4
+        ],
+        [
+          "PLOTSFLEX",
+          3
+        ],
+        [
+          "NVC",
+          3
+        ],
+        [
+          "BlootRE",
+          2
+        ],
+        [
+          "ETHPSW",
+          2
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "count": 88
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 66
+        },
+        {
+          "address": "0x2723c6e47ee18085bd0a70c565836d3a705244b3",
+          "count": 50
+        },
+        {
+          "address": "0x068696a3cf3c4676b65f1c9975dd094260109d02",
+          "count": 47
+        },
+        {
+          "address": "0xb5a4d58c047ba782f54e1febe4833a11e2b228e0",
+          "count": 41
+        },
+        {
+          "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+          "count": 31
+        },
+        {
+          "address": "0xf6034a7430af04db58be94a0e12ac244af2ff55a",
+          "count": 28
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 19
+        },
+        {
+          "address": "0x58f3b98bcdb69bf0c82153cbaa70f7bac69c5c01",
+          "count": 19
+        },
+        {
+          "address": "0xfd4dde49d56c184cb5c15e227318f5586f20d077",
+          "count": 15
+        },
+        {
+          "address": "0x0000000000000068f116a894984e2db1123eb395",
+          "count": 14
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "count": 14
+        },
+        {
+          "address": "0x0e5632feb2c2619dba9c7e2dc5a7ed3fd14969da",
+          "count": 9
+        },
+        {
+          "address": "0x9e1f3e8db4d1119894624632499eaed1e56d2b1d",
+          "count": 8
+        },
+        {
+          "address": "0x0f71b8de197a1c84d31de0f1fa7926c365f052b3",
+          "count": 8
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 722,
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_pages": 15
+    },
+    "philipmorris.eth": {
+      "activity_span": {
+        "earliest": "2021-08-16T19:06:06.000000Z",
+        "latest": "2025-11-07T23:33:35.000000Z"
+      },
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "blockscout_ens_domain_name": "bonerjams.eth",
+      "coin_balance": "2205414134578925",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "philipmorris.eth",
+      "methods_top": {
+        "0x8813034e": 16,
+        "0xe5b67c23": 16,
+        "approve": 44,
+        "atomicMatch_": 28,
+        "cancelOrder_": 36,
+        "commit": 156,
+        "exactInput": 17,
+        "exactInputSingle": 11,
+        "execute": 11,
+        "multicall": 14,
+        "register": 8,
+        "registerWithConfig": 130,
+        "setApprovalForAll": 13,
+        "setName": 8,
+        "swapExactTokensForETH": 14,
+        "swapExactTokensForTokens": 13,
+        "transfer": 31,
+        "transferFrom": 11,
+        "unknown": 91,
+        "withdraw": 10
+      },
+      "nonzero_eth_transfers_in_scan": 304,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "2588979398571f2a94106db2aa50513ceec5fd58a70ce818e1196150445e0d20",
+        "515b7f222733b712c29a915667b46eec3255c11f697c9b532805dcd32fbc8da6",
+        "03bffef7c4ba6cf60526519a78645c4704607a9884ad992bab5a5905495a0364",
+        "7d3b2df56d9b683118e1fb26b9617779acc7f505d5d03c9ea52f4cee55d21018",
+        "7569e462e365015536bf2cf03680d4e9c138d0a11b97184d8a67dce8ab6daf84",
+        "eb65e0c1eb4c5d1df7a6724d32e838ebbcfe39347c90c2d4338ae01cde2fed9d",
+        "a32ae7061540a66f6df43ec37b20a664e0de9d66570099ddfb4538de7ab3bf0d",
+        "13cf16c0c129bfb994d7956d965e71e4b194368ac9a03bc2b899e1b3e4dceaa5"
+      ],
+      "sha256_tx_pages": [
+        "d45996c6f86d70c16db3a0132b9be73080fff6a5749c7c6c2ec86cda4798dcd3",
+        "84fa8a1e0d768761b836d680df140c89e667c1beff2aa10097dd7eb012e7a445",
+        "04fb2b2ad8d813738248b3fe6304f0b72b4c44c3a79d5522c63ed5769ebbc590",
+        "35d31b5fd4f662d2d3a2043cc697bdc82cedfcd68aa5dd406e08b3af4c4590a4",
+        "11d4fbbc2ad4a6264d9af07763110be044bc1f3edd85ac942e80250069a973ad",
+        "72c2a6bedee079afea5c35917f1dba6af0da2d3b3ab7837cfbc27636a9afe3fb",
+        "fb579c6152ac7e15408e67de8eda3c568f0602fe01c6c45fc97c73010c85ec01",
+        "4c69a3b4c24e5544282b41e6e3a5951937f0db7e52d058e9b60be5caecd91dce",
+        "ac4ed6f1f3ac403b969a744d353d07715de7dba78ad021f9272659b5ec4acc34",
+        "d9a0b72bc79641650a24521e174256636f3bb262c059ba0578c7ac898747661c",
+        "fc0304413252992775c1e6a9c754954b17ab7e6265bde261ac80dda8750efa53",
+        "c82b6df9a19b779737dfdbc6332088f2f8a804639dffe906a3c97fe2abbc9f21",
+        "c9a011f4b8bec6f0ed6c7b6625bcb2dc7d5a8783b8a08aa400e3144c877517d8",
+        "4dcc1d7011255bfea9cb2a8ba153d12c68d54026f9fab5185df10643812dde34",
+        "5c7b5e5c69c2cdb8cc9a51d279d78641450437de7c77c92892be57ffbb178706"
+      ],
+      "token_symbols_top": [
+        [
+          "ENS",
+          259
+        ],
+        [
+          "USDT",
+          63
+        ],
+        [
+          "USDC",
+          22
+        ],
+        [
+          "?",
+          15
+        ],
+        [
+          "DOGE20",
+          8
+        ],
+        [
+          "ZRO",
+          5
+        ],
+        [
+          "YKPS",
+          4
+        ],
+        [
+          "WETH",
+          4
+        ],
+        [
+          "MOG",
+          4
+        ],
+        [
+          "SHIDO",
+          3
+        ],
+        [
+          "RX",
+          1
+        ],
+        [
+          "SCOTTY",
+          1
+        ],
+        [
+          "UNI-V2",
+          1
+        ],
+        [
+          "RVP",
+          1
+        ],
+        [
+          "DAEA Mint Pass Original",
+          1
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 276
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "count": 64
+        },
+        {
+          "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "count": 34
+        },
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "count": 32
+        },
+        {
+          "address": "0x000000000000509081d6fcd3ee63e791ad1db763",
+          "count": 32
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 17
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 16
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "count": 16
+        },
+        {
+          "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+          "count": 16
+        },
+        {
+          "address": "0x8746d06a2d5168460e4114e942de92b7b4e3c5e8",
+          "count": 13
+        },
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "count": 13
+        },
+        {
+          "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+          "count": 11
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 11
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "count": 9
+        },
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "count": 8
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    },
+    "pmi.eth": {
+      "activity_span": {
+        "earliest": "2020-08-30T11:19:25.000000Z",
+        "latest": "2026-05-22T08:30:23.000000Z"
+      },
+      "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+      "blockscout_ens_domain_name": "davidsteiner.eth",
+      "coin_balance": "48794365316252103",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": false,
+      "label": "pmi.eth",
+      "methods_top": {
+        "approve": 62,
+        "buyLandWithSand": 16,
+        "cancelOrder_": 2,
+        "claim": 2,
+        "commit": 263,
+        "execute": 15,
+        "multicall": 5,
+        "redeem": 3,
+        "redeemUnderlying": 2,
+        "registerWithConfig": 260,
+        "renew": 2,
+        "renewAll": 45,
+        "repayBorrow": 2,
+        "setApprovalForAll": 2,
+        "swap": 21,
+        "swapExactTokensForETH": 3,
+        "swapExactTokensForTokens": 3,
+        "unknown": 20,
+        "unoswap": 6,
+        "unoswapWithPermit": 2
+      },
+      "nonzero_eth_transfers_in_scan": 330,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "1486500db4286684f19d38bb5bd93a306bf8c37fb053f5ce91ef5fb0bf1ff80d",
+        "2c8fc7950a336d69c4e3e37412c13c4ce5d28e330de15c0e0468cf0eeab55883",
+        "4dfc8af576615f6792c2712ccf995968f59552184a3b4e8907efd3213f8e9a39",
+        "bdc8ef70895ed17f1653bf144c5b9e9504d66d73f2bf0e96c9b188bd9614bfc2",
+        "d3fbc2998f44dd173c359d739a937e2a72b2f896d7c0a012bbfbbf520dcd85f4",
+        "cad5e9a57a528b6d9b925f8e4504f5a33bc4406147705f090a477fa74d0a9d0f",
+        "725563f301e28d98d2e2de584a95c5fd9ab3b4d9ac2654031d9c07c6a2863810",
+        "9f0bb7434563da83b43f1daa9e6241f6d4aaf7da2f3893f730e39b9ee6825bdc"
+      ],
+      "sha256_tx_pages": [
+        "272f561725501e9e25d80b8989df2f691f3e29ae036cd2ce14f54ac50ba97dbe",
+        "5a92253a32d67220a0c388e9290b247e77f8c79c63f308304e9284840ac31162",
+        "f260377b52af7d0ddb9f1d63e838a869920d70fcd67903f5ca174819ef3e4a06",
+        "4bc634218a1a8d2e507401c298001060a4f08ea327b6e506f75953c104576455",
+        "0a6fe8228d19c256afb2ea358fb91b401e1cbdcbb78c3a058540b255a7fbb9c0",
+        "1e2ae49bae631779eab2666401f8142d8153afc8be199f6d38a2de5e57a7dd99",
+        "e51e531cfe0393914e1e7596c1c1244eedcea972783636a51637c766e8a70e46",
+        "9987ab4af1684714d3d6646d67eb044dce84617cfe80e1de0c5a2ba11a0b1e2e",
+        "771c38093be686904d1fe5e649d351af40aa09f0e03c9f41f9bd02de446e08da",
+        "b27045b92c4d7ca468f9b2ee16aea4518e3bb91a440ef4daacac13b8717f03cf",
+        "fa26db68c7da5b97a68f6c53c8f66cdd502feec98f295d0e507d4b7899def6cc",
+        "e596cfeb8747e20b0572e82b2c6671cd7050163a5a2182a4934e9af3686712f9",
+        "1546266800305661323cccd4a731d17d6bd06f7f6ab841c74086a249ff8c67e3",
+        "ef54ef45b036e38c106e60298a8f655ab161c31ad35792c1d9419c724e387c4c",
+        "39686de98fd1e6540f270b44d7b64bf430ea44b43f4a9903e61b73ad7745ebad"
+      ],
+      "token_symbols_top": [
+        [
+          "ENS",
+          178
+        ],
+        [
+          "LAND",
+          48
+        ],
+        [
+          "SAND",
+          36
+        ],
+        [
+          "USDC",
+          20
+        ],
+        [
+          "USDT",
+          18
+        ],
+        [
+          "PREMIA",
+          7
+        ],
+        [
+          "QNT",
+          5
+        ],
+        [
+          "ZRX",
+          5
+        ],
+        [
+          "ALEPH",
+          4
+        ],
+        [
+          "MCB",
+          4
+        ],
+        [
+          "LPT",
+          4
+        ],
+        [
+          "BOND",
+          4
+        ],
+        [
+          "Airdrop",
+          3
+        ],
+        [
+          "ZCN",
+          3
+        ],
+        [
+          "LDO",
+          3
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 523
+        },
+        {
+          "address": "0xa12159e5131b1eef6b4857eee3e1954744b5033a",
+          "count": 30
+        },
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "count": 22
+        },
+        {
+          "address": "0x55b7b8f50e1d45d34981c2f251606e484a3f97fe",
+          "count": 16
+        },
+        {
+          "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
+          "count": 15
+        },
+        {
+          "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+          "count": 14
+        },
+        {
+          "address": "0x111111125434b319222cdbf8c261674adb56f3ae",
+          "count": 12
+        },
+        {
+          "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+          "count": 8
+        },
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "count": 6
+        },
+        {
+          "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+          "count": 5
+        },
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "count": 4
+        },
+        {
+          "address": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+          "count": 4
+        },
+        {
+          "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+          "count": 4
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 3
+        },
+        {
+          "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+          "count": 3
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    },
+    "sama.eth": {
+      "activity_span": {
+        "earliest": "2022-09-17T17:10:47.000000Z",
+        "latest": "2026-07-10T19:42:59.000000Z"
+      },
+      "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+      "blockscout_ens_domain_name": "Metamask.eth",
+      "coin_balance": "8708577362275214",
+      "dust_candidates_lt_1e12_wei": 0,
+      "fyllo_direct_hits": [],
+      "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+      "ip_or_threat_keyword_token_hits": [],
+      "is_contract": true,
+      "label": "sama.eth",
+      "methods_top": {
+        "0x75090ebf": 46,
+        "approve": 21,
+        "commit": 40,
+        "deposit": 17,
+        "execute": 24,
+        "fulfillBasicOrder": 13,
+        "mint": 102,
+        "mintBatch": 13,
+        "mintFromFixedPriceSaleWithEarlyAccessAllowlist": 14,
+        "multicall": 12,
+        "purchase": 17,
+        "register": 10,
+        "registerWithConfig": 28,
+        "renew": 28,
+        "reserve": 28,
+        "reveal": 12,
+        "safeTransferFrom": 30,
+        "setApprovalForAll": 27,
+        "unknown": 35,
+        "withdraw": 18
+      },
+      "nonzero_eth_transfers_in_scan": 324,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "840f1573802de6117acffe748bd301a78705073267d6c5d6682e2676825f5b6f",
+        "91ddb39687239b8906ef75d9cea361151d50ef4332930e9d566e448e669abad5",
+        "35d50fefb91b12b8a16ffe743e4593946f695ec1e44b017bf5c6bb980b94a675",
+        "8e7f413aafbe4ab70736947e52f0319a670af63f79b9cc8113037ac67fc8e84b",
+        "d7a36403e71213818b8aad15ae273861f3d2ad3ca3cc0ead45b459136da4dcbf",
+        "a81360b4165184cede76b586783c36f65ddbd199327068fd139ebfe0730d4914",
+        "fd52f305750e399b12d99cd680eec49ccb510a5f86984b71d5c54709eec13727",
+        "04595166cae330524c32244d7660e35feb696045e5c8e30c5f20888fe3e4a796"
+      ],
+      "sha256_tx_pages": [
+        "cdccbcc276ca1a8f7e5d4e73c74cb06dbd9d1dd50eb91ef13ead197bfdec475f",
+        "fc72f346bae1bfc40e627f92979c17ca1a8793072d56e18268f60a05c6bf73c5",
+        "0a32889bc56e923d8742e52eefb26def371f6a02ede8498f62a5e94615eadc05",
+        "ed1e70be2e8af89abdd36d26c4e6b2dfed2866c8170898ce69b91ce040332e7e",
+        "2040f10fe10974f4679d27e76729458a583abf5e1f350f6186b32bb4dbc85aee",
+        "9ecd4db64b648ef0952d1852c3c8339319b18e3e6777531569211c3d0171f8e6",
+        "f40973b70f9b67a2c96ca0dab2807f3a3b8de0f5c6fd78c1b002a4b470310eb2",
+        "25af0db061171bcf27a6aa91f277b46f9824750d325b935699852f65a4a03ad8",
+        "5fc6ffea7b3ee96bb15ae735883fef129927398bb545fcd87a9ec5021e03608b",
+        "1b968cf9af9d8295d20556808977952de95329ab14e211bae76ddae8f7e6739f",
+        "15cc680cc683ca00f18b6f6a896b6a94e7481685c16c1cd9f8c917861724c8fa",
+        "c9bcb4603810ff443345051d826e8dcccd59f53388688e7b5eed3c488ead9fc0",
+        "53966deec25414176b13691ee0cc91d156b142c7035efd503db6c4e6dfd86202",
+        "af417b88a9f4f5ae7103a45a78c5268371f50a2be1ccc737bc21db9b6d34e2a1",
+        "7253d3b131a1a63a6f4b87b3456f930e2d77e284a45719b4e87f1026c755b61c"
+      ],
+      "token_symbols_top": [
+        [
+          "?",
+          49
+        ],
+        [
+          "ATS",
+          24
+        ],
+        [
+          "USDC",
+          18
+        ],
+        [
+          "WETH",
+          17
+        ],
+        [
+          "ATC",
+          12
+        ],
+        [
+          "MIL",
+          10
+        ],
+        [
+          "WMC",
+          10
+        ],
+        [
+          "ENS",
+          9
+        ],
+        [
+          "CULT",
+          7
+        ],
+        [
+          "MIZUKI",
+          7
+        ],
+        [
+          "OCARINA",
+          6
+        ],
+        [
+          "PLT",
+          6
+        ],
+        [
+          "sndbx",
+          6
+        ],
+        [
+          "JTP",
+          6
+        ],
+        [
+          "WIFE",
+          5
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 58
+        },
+        {
+          "address": "0xd588b586d61c826a0e87919b3d1a239206d58bf2",
+          "count": 46
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "count": 38
+        },
+        {
+          "address": "0x5564886ca2c518d1964e5fcea4f423b41db9f561",
+          "count": 32
+        },
+        {
+          "address": "0x53f451165ba6fdbe39a134673d13948261b2334a",
+          "count": 19
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 17
+        },
+        {
+          "address": "0x0000000000a39bb272e79075ade125fd351887ac",
+          "count": 16
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "count": 16
+        },
+        {
+          "address": "0x44e94034afce2dd3cd5eb62528f239686fc8f162",
+          "count": 15
+        },
+        {
+          "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+          "count": 13
+        },
+        {
+          "address": "0x29469395eaf6f95920e59f858042f0e28d98a20b",
+          "count": 12
+        },
+        {
+          "address": "0x0229a8d998c882ab704fdfca1068519eec5179b4",
+          "count": 12
+        },
+        {
+          "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+          "count": 11
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 10
+        },
+        {
+          "address": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+          "count": 10
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    },
+    "vitalik.eth": {
+      "activity_span": {
+        "earliest": "2026-05-01T08:07:47.000000Z",
+        "latest": "2026-07-22T17:22:59.000000Z"
+      },
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "blockscout_ens_domain_name": "vitalik.eth",
+      "coin_balance": "6631771748663559991",
+      "dust_candidates_lt_1e12_wei": 14,
+      "fyllo_direct_hits": [],
+      "identity_note": null,
+      "ip_or_threat_keyword_token_hits": [
+        {
+          "name": "Grumpy Cat",
+          "symbol": "GRUMPY",
+          "tx": "0x1534b4e9d5412117d9ebdb623b742a174aac9cb2b40383e203d16b120cb0f50e"
+        }
+      ],
+      "is_contract": true,
+      "label": "vitalik.eth",
+      "methods_top": {
+        "0x00c63044": 1,
+        "0x0bd2ec05": 2,
+        "0x2e7c10b2": 2,
+        "0x45746820": 6,
+        "0x68747470": 4,
+        "0xb61d27f6": 4,
+        "0xc0b03d13": 1,
+        "0xdf63087b": 6,
+        "approve": 281,
+        "deposit": 7,
+        "depositToAztecPublic": 11,
+        "ethsGEGzXlymji3hvTyjQnpYo": 5,
+        "execTransaction": 2,
+        "execute": 2,
+        "executeWithSig": 4,
+        "multicall": 12,
+        "setContenthash": 5,
+        "swapExactTokensForETHSupportingFeeOnTransferTokens": 253,
+        "transfer": 2,
+        "unknown": 112
+      },
+      "nonzero_eth_transfers_in_scan": 114,
+      "peer_address_cross_hits": [],
+      "sha256_tt_pages": [
+        "0eb19ff6d1a82830ab80df0a549bacfd86ee1785325a8a9fadb60ff84248bbdc",
+        "99778143b4933e3cc79c06e301b71798759170f2edfd22d6d0d4817a9b39e449",
+        "020328f7667b24118e3518f5c2186e353f05b4f630d521f096b0aadff75bb571",
+        "b17b1445fba1a74e1225bcfa6ddb7bbcde8dad55ede3253a1623a6d49453b081",
+        "a7f79909504f5430c0c17b56d49edec099c0fb574f0fb6a675783576b4563f1a",
+        "4ce02d72934af80ad518b0512181f2bb927dc878d13995ddc995448aa531c566",
+        "b91512d7f1d1b476dd055b65d7f46479bcf17e20cac462bfe1d0e9e0d37f8836",
+        "f6fc98368fc71f6e3a52bc2ca217ed27dd68f0c7307439f55a14b82e16418536"
+      ],
+      "sha256_tx_pages": [
+        "bcf52bc7b376e833aa814621c6da7dde513e2120c5c4e8bffd526aeb1b4dc29f",
+        "4bb9e31a27d295248e0c0379fcc109e370fa15780217d3c43db1f9668ef1b6f7",
+        "79de5b4dc32b7aec9eae9d25d7f3b3038ba9ab4677430f5392e1d46bc5bc0f99",
+        "426e2f410472d9b49685dcb53284528e4a69f5b83294237e4f8cff99bea4ded4",
+        "0c5c754184984cde87f4388aaffb48bf48e00594ba1d111206547d5082e6107d",
+        "28e776d678d74f6fcee34cad03ac161ac8dc9ae1cacad80aaa26509470c8f58c",
+        "9884f3625875d4e91722cbe2f011894cc739a56a73b6664c8607dbb36e9ba5b4",
+        "9db5e57d1beb89a5cc1a64bbf5f6df2ab7743a31aa26c5b360e35670c5edd0aa",
+        "69cca2e90770de737058f498b5edeec4a6526f73cedff833ba9ab332c9530251",
+        "ae052a8797cd973f0ced8e18b37adfbcbdc58eb4ea314106cacf5843855b22e1",
+        "de2430b2e4ef1ab6e880ed85acc015aefec84026d024f3cfa0431a05276a9918",
+        "9f5ee327829b956004213ca239bdf074059cece48f4266471cf91ba86836b93e",
+        "e2465d53e064c4681e6411f7b94495d3a22161833a64f8f999e1c3fd872eb6a7",
+        "cdf7dd133e6952a0134953505b7209909396d8642a643ace446ce446ce1cb741",
+        "9ed6f6fd2d78e901e6e33caf04af03a45a914d0aade74788e0b284352a2c4e70"
+      ],
+      "token_symbols_top": [
+        [
+          "VITALIK",
+          55
+        ],
+        [
+          "CMD",
+          45
+        ],
+        [
+          "?",
+          15
+        ],
+        [
+          "AZTEC",
+          14
+        ],
+        [
+          "BASTIAN",
+          11
+        ],
+        [
+          "GLOBE",
+          9
+        ],
+        [
+          "ĖTḨ",
+          7
+        ],
+        [
+          "ETH",
+          7
+        ],
+        [
+          "vitalik bull",
+          7
+        ],
+        [
+          "USDC",
+          5
+        ],
+        [
+          "FWOG",
+          4
+        ],
+        [
+          "USDT",
+          3
+        ],
+        [
+          "0xwormhole",
+          3
+        ],
+        [
+          "VB",
+          3
+        ],
+        [
+          "DOG",
+          3
+        ]
+      ],
+      "token_transfer_count_scanned": 400,
+      "top_counterparties": [
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "count": 253
+        },
+        {
+          "address": "0xdd2326a85a4b7d32c632adbc4a7239068bca802e",
+          "count": 18
+        },
+        {
+          "address": "0xe02b584b570cc1728ac82260796ceb261e705f51",
+          "count": 17
+        },
+        {
+          "address": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
+          "count": 13
+        },
+        {
+          "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "count": 13
+        },
+        {
+          "address": "0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+          "count": 12
+        },
+        {
+          "address": "0x781a7bfc2efe8e455fc1d23e0a5f7fe70a302130",
+          "count": 12
+        },
+        {
+          "address": "0xc7c75e1a36e28d3dbec2cc798d0619a986747a4a",
+          "count": 8
+        },
+        {
+          "address": "0xbf7da1f568684889a69a5bed9f1311f703985590",
+          "count": 7
+        },
+        {
+          "address": "0x226add62f960e6dbfbc92680227aeb8a5e4572f6",
+          "count": 6
+        },
+        {
+          "address": "0x2891f8b941067f8b5a3f34545a30cf71e3e23617",
+          "count": 6
+        },
+        {
+          "address": "0xdadb0d80178819f2319190d340ce9a924f783711",
+          "count": 6
+        },
+        {
+          "address": "0xaf73dd51d1eb8a079bb097f39c832cdd00ac691c",
+          "count": 5
+        },
+        {
+          "address": "0x94bf519b787fcc146a6c3abbd1a47af6475ea27c",
+          "count": 5
+        },
+        {
+          "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+          "count": 5
+        }
+      ],
+      "tt_exhausted": false,
+      "tx_count_scanned": 750,
+      "tx_exhausted": false,
+      "tx_hit_page_cap": true,
+      "tx_pages": 15
+    }
+  },
+  "findings": [
+    {
+      "addresses_traced": 10,
+      "any_participant_fyllo_direct_hit": false,
+      "cyber_dust_illicit_evasion_adjudicated": false,
+      "detail": "Traced 10 labels (pagination capped at 15 tx / 8 token-transfer pages). No direct fyllo.eth counterparty hits from other participant addresses in scanned pages. Dust-candidate counts are raw wei filters only — not adjudicated as illicit payment-evasion. No token symbols matched patent/royalty/Skoda/Ahkeo/WIPO/Lazarus/Sinaloa/GRU keywords in samples.",
+      "dust_candidates_across_scans": 30,
+      "hidden_blockchain_royalty_adjudicated": false,
+      "id": "W24-F1",
+      "identity_caveat": "Several vanity ENS names (elonmusk.eth, jensenhuang.eth, sama.eth, pmi.eth, philipmorris.eth) resolve to EOAs whose Blockscout primary ENS differs (brantly.eth / narciso.eth / Metamask.eth / davidsteiner.eth / bonerjams.eth) — not authenticated as the public figure's wallet.",
+      "illicit_participant_adjudicated": false,
+      "participants_screened": 7,
+      "peer_cross_hits_among_screened_labels": [],
+      "title": "Named-participant ENS/address screen: no authenticated fyllo↔participant royalty rail",
+      "vitalik_eth_identity": "vitalik.eth primary matches — highest-confidence public ENS among set"
+    }
+  ],
+  "id": "participants_lifetime_entities_addresses",
+  "next_actions": [
+    "High-activity wallets (vitalik/jamiesalter/elonmusk/pmi/philipmorris/sama) may hit page caps — supply archive node for full lifetime if required",
+    "Do not treat vanity ENS squats as authenticated identity of the named public figure"
+  ],
+  "participants": [
+    {
+      "address_screens": {
+        "elonmusk.eth": {
+          "activity_span": {
+            "earliest": "2021-09-25T23:20:22.000000Z",
+            "latest": "2026-07-20T14:50:11.000000Z"
+          },
+          "address": "0x983110309620D911731Ac0932219af06091b6744",
+          "blockscout_ens_domain_name": "brantly.eth",
+          "coin_balance": "96350101543294286",
+          "dust_candidates_lt_1e12_wei": 5,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "elonmusk.eth",
+          "methods_top": {
+            "approve": 5,
+            "bid": 77,
+            "cancel": 31,
+            "castVote": 32,
+            "castVoteWithReason": 7,
+            "commit": 99,
+            "multiCommit": 6,
+            "multicall": 57,
+            "reclaim": 34,
+            "register": 26,
+            "registerWithConfig": 68,
+            "renew": 10,
+            "safeTransferFrom": 26,
+            "setAddr": 13,
+            "setApprovalForAll": 5,
+            "setOwner": 5,
+            "setResolver": 6,
+            "setSubnodeRecord": 15,
+            "setText": 27,
+            "unknown": 123
+          },
+          "nonzero_eth_transfers_in_scan": 310,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "f9e2a38e751f4efd85363fad7eaf4a7cb4d76bf4226e11d8ad0d90f7b81c4559",
+            "c7dbbfe9c9619f5209daec301a8f0f128d0d1bb1e622c412b874a4675ca3d93d",
+            "51083294d1a1fff8758ad647945d0e20c0dfb4c6b9e9075ab22422013885abce",
+            "68bd35e8e05759ffa9fd6848aebfe8011a97b4fd3bb0f087cd3ccadd45657886",
+            "8d3212e73f08afe75915f5c83856f39d9d1b46d2d659bef140b1c9c847172d9d",
+            "47967db2904eb026539cee1362bebc3cdfba3ce664489f39d786349ec82df5db",
+            "f74f88f799403a9f60cffb62b838b47c2bdb623d22333ae3eeb9e5dd220f5d74",
+            "9564f70d6869d28e20352bd62aa2db923c9a78ac089ec81e4c7d84497e33a71d"
+          ],
+          "sha256_tx_pages": [
+            "e61792a62d85da8023a0c19c78c9b3b6f7ffc23b9d00ed2899ce078068d2da01",
+            "02408320c3e030b55f457990e84cc58ad6716be1f6fa5b6bcf5147b6fd815639",
+            "316ab60eb116bb25c5a839d2b0ee6718237f29dec12524e91386c1c555fed878",
+            "476a2b220c13ee466467435719c9c110fe3646ac62b9134428f65e87ca0ff13c",
+            "46542c6d89625f6a42a2a31e9aa6714dc83524b92716eb0fb2b49267cfd6d815",
+            "2264753397df8e407a086aee41d800bf6c696ceca2ee6378b56623f0b1d890cb",
+            "fb4e485cd9edd5b6aec652065a4209f8c4021f1b1c1978d94dae5508e6f202ef",
+            "86e4c1d6aba07ede7a47332d8bcad37ac1fec3f4317210d49f609463ec9b6e57",
+            "52423eeaddce24997150e475cb6e899d51fc14a397740445de19e689c491e0b2",
+            "fa6ea76edc15f82dcd6feb388f96d4544cc9eb2d7eb44c59f15c2f51c77a694c",
+            "61f5fdbe678b54f44bcd36797f7f5f9d4ab87c32daa6b2182201cf3c7bfc7934",
+            "08fb873e65d2366e2caa5f392dd37fcba83193217e3edfdc3254092ae1c49cc3",
+            "77d3ce2646f87078fabd192e1788f33ada9b99464360e4ee98d773568dec8a19",
+            "0fa1d8cc3afc36e1af33536da0b4050b248f6728dfc8e4bea6b11ec200b45991",
+            "8a077ff32608046d0c2628846650dbbc80440e79d558ff8241a95570a733e278"
+          ],
+          "token_symbols_top": [
+            [
+              "ENS",
+              116
+            ],
+            [
+              "LOVE",
+              55
+            ],
+            [
+              "?",
+              33
+            ],
+            [
+              "SCAPEXT",
+              27
+            ],
+            [
+              "ILL",
+              14
+            ],
+            [
+              "SCAPE",
+              9
+            ],
+            [
+              "OPENSTORE",
+              8
+            ],
+            [
+              "WETH",
+              5
+            ],
+            [
+              "MASKS",
+              3
+            ],
+            [
+              "PUNK",
+              3
+            ],
+            [
+              "METROBLOCK",
+              3
+            ],
+            [
+              "WMC",
+              2
+            ],
+            [
+              "CATE",
+              2
+            ],
+            [
+              "WVTRS",
+              2
+            ],
+            [
+              "TycoonPunks",
+              2
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 146
+            },
+            {
+              "address": "0xbdf210d103d4f8e9f4ba51a3bd1f3558bc90418d",
+              "count": 81
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 62
+            },
+            {
+              "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+              "count": 54
+            },
+            {
+              "address": "0x323a76393544d5ecca80cd6ef2a560c6a395b7e3",
+              "count": 45
+            },
+            {
+              "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+              "count": 43
+            },
+            {
+              "address": "0x0000000000000068f116a894984e2db1123eb395",
+              "count": 34
+            },
+            {
+              "address": "0x59e16fccd424cc24e280be16e11bcd56fb0ce547",
+              "count": 33
+            },
+            {
+              "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+              "count": 31
+            },
+            {
+              "address": "0x1ec4de886d40d487366cde7664767db1df6a02e7",
+              "count": 25
+            },
+            {
+              "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+              "count": 24
+            },
+            {
+              "address": "0x3a5bd1e37b099ae3386d13947b6a90d97675e5e3",
+              "count": 9
+            },
+            {
+              "address": "0xdba5b60f3ece69618b4a2b409a8ee407d3514613",
+              "count": 8
+            },
+            {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "count": 7
+            },
+            {
+              "address": "0x96184444629f3489c4de199871e6f99568229d8f",
+              "count": 6
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": null,
+          "ens": "tesla.eth",
+          "ok": true,
+          "sha256": "866a73ef56264f79f7027868f715c97d48c6817f1f309679353f15d1dff1033f"
+        },
+        {
+          "address": "0x983110309620D911731Ac0932219af06091b6744",
+          "ens": "elonmusk.eth",
+          "ok": true,
+          "sha256": "218a1f775cf9a3dbb5b0ae9153d65c6ebf5d8396921f506852df645c07bd2418"
+        },
+        {
+          "address": null,
+          "ens": "spacex.eth",
+          "ok": true,
+          "sha256": "3e7d56eb2c2c5d9f32e0b59b7b9d664dbd5de973c0df4c94fba2e4f636509760"
+        },
+        {
+          "address": null,
+          "ens": "elon.eth",
+          "ok": true,
+          "sha256": "d0fe820c223e6e1941d7851141607e59eb801f25bbc7da49cb58127983dbe5c4"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "elon_musk",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "Tesla, Inc.",
+        "Space Exploration Technologies Corp. (SpaceX)",
+        "xAI",
+        "Neuralink",
+        "The Boring Company",
+        "X Corp."
+      ],
+      "name": "Elon Musk"
+    },
+    {
+      "address_screens": {
+        "jensenhuang.eth": {
+          "activity_span": {
+            "earliest": "2018-01-09T01:46:47.000000Z",
+            "latest": "2026-07-20T18:43:47.000000Z"
+          },
+          "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+          "blockscout_ens_domain_name": "narciso.eth",
+          "coin_balance": "130207108136056046",
+          "dust_candidates_lt_1e12_wei": 10,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "jensenhuang.eth",
+          "methods_top": {
+            "0xba20c521": 15,
+            "alt_buyCollectible": 23,
+            "approve": 32,
+            "atomicMatch_": 95,
+            "bulkTransfer": 31,
+            "commit": 33,
+            "create": 9,
+            "deposit": 25,
+            "fulfillAvailableAdvancedOrders": 9,
+            "fulfillBasicOrder_efficient_6GL6yc": 11,
+            "mint": 59,
+            "proxyAssert": 19,
+            "purchase": 29,
+            "registerWithConfig": 33,
+            "setApprovalForAll": 61,
+            "swap": 14,
+            "transfer": 27,
+            "transferFrom": 13,
+            "unknown": 68,
+            "withdraw": 16
+          },
+          "nonzero_eth_transfers_in_scan": 349,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "2256a9230dbf8569130112b07e421b6182c211362b20537aeb8a51549742bf52",
+            "19c6013f5248d04c53e1595505de1c4c68d8194d162bce86a7337716aaec9faf",
+            "7230c17811e8f8b678e1dec21e0451e9ab537df2faea4cefc0ca87aed2e9ef0c",
+            "a2c1e86130cfd6eda354f272f347ba267849d8edfb42ac013faceed4ec98a3e0",
+            "4133af3d008a9d5b082273160ba23bc8b37c134d37d1da04c37d3ee3ec0d6569",
+            "2b126327359f4c0b095ef68bb151074bb477560e0209916062b091fcfeb1572f",
+            "db7c08695951e65020190c723eb450166d643dd2b910a1022dce307bcd28699b",
+            "c1355d43cd599315c308bab87d76eabb06317541d2ef959e9dabf5b31c8f4615"
+          ],
+          "sha256_tx_pages": [
+            "b555dc44a126a06159036f52128e8f0a2c291378b4263c82169443f02bee6018",
+            "a524f28f2c4d9baab0b22e606c996607faefab4fcab726946e9f93fbd7ec1bb5",
+            "b26bf3750a4626977475d70e6858053ffa1172174512aa98503bd962762eb6c7",
+            "100fcc2926d80cc6c517bd56f4b067f433e3e9a4fce7e296fcddbfc11ec3d64c",
+            "52c6c37b68d5d2c11940e0256878fa70fbe4bb6347194b1d2b0d35436be002b7",
+            "160871aef1ab26a5011186e8698c0c6b4855082b464e6ccf235f077b85914f51",
+            "361c40702c12c4ef405cae3738b143e6a2a1742c961946a51a62d581a00d2ae0",
+            "d431b4e548a60851ca9adfb891665cd9c8af31de49b118a0af55062127775c4c",
+            "d792c22ea6170c497a2e5ffe00b0ec5520ab45f7bfc29eb687503fe2567513f3",
+            "ac9d256f5124e5b21160214cfc999be7cfd5c5d0ad1e85c8ae1b784c39877cff",
+            "df68fae7585ffe8ad7a8f8dade3c53f912693eba711fc1b9ccfb7ea94458cf2b",
+            "8a5572769bfe1ebc148e7161f832fd6442e539115f2de6d32beff2350a4dbac2",
+            "f72b7941f56e4891bf6601d6be858776e2af9d39ad3ec655c1ea5e8b6ae50b46",
+            "48885774013a07cdb6a8a4c2c75869cc025c2be2f68f1ac73d6941f80a187295",
+            "a0a2c07200ea4e2d3dd300451ff64a996110144b7138b3cc5ce98a6eb94701ea"
+          ],
+          "token_symbols_top": [
+            [
+              "BLOCKS",
+              162
+            ],
+            [
+              "WETH",
+              132
+            ],
+            [
+              "PXC256",
+              22
+            ],
+            [
+              "SVBLOOT",
+              21
+            ],
+            [
+              "STATS",
+              10
+            ],
+            [
+              "USDC",
+              9
+            ],
+            [
+              "BGIRLS",
+              7
+            ],
+            [
+              "BIOME",
+              6
+            ],
+            [
+              "IRENEDAO",
+              6
+            ],
+            [
+              "BLOOTBD",
+              5
+            ],
+            [
+              "ABSTUDIO_79",
+              4
+            ],
+            [
+              "PLOTSFLEX",
+              3
+            ],
+            [
+              "NVC",
+              3
+            ],
+            [
+              "BlootRE",
+              2
+            ],
+            [
+              "ETHPSW",
+              2
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+              "count": 88
+            },
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 66
+            },
+            {
+              "address": "0x2723c6e47ee18085bd0a70c565836d3a705244b3",
+              "count": 50
+            },
+            {
+              "address": "0x068696a3cf3c4676b65f1c9975dd094260109d02",
+              "count": 47
+            },
+            {
+              "address": "0xb5a4d58c047ba782f54e1febe4833a11e2b228e0",
+              "count": 41
+            },
+            {
+              "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+              "count": 31
+            },
+            {
+              "address": "0xf6034a7430af04db58be94a0e12ac244af2ff55a",
+              "count": 28
+            },
+            {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "count": 19
+            },
+            {
+              "address": "0x58f3b98bcdb69bf0c82153cbaa70f7bac69c5c01",
+              "count": 19
+            },
+            {
+              "address": "0xfd4dde49d56c184cb5c15e227318f5586f20d077",
+              "count": 15
+            },
+            {
+              "address": "0x0000000000000068f116a894984e2db1123eb395",
+              "count": 14
+            },
+            {
+              "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+              "count": 14
+            },
+            {
+              "address": "0x0e5632feb2c2619dba9c7e2dc5a7ed3fd14969da",
+              "count": 9
+            },
+            {
+              "address": "0x9e1f3e8db4d1119894624632499eaed1e56d2b1d",
+              "count": 8
+            },
+            {
+              "address": "0x0f71b8de197a1c84d31de0f1fa7926c365f052b3",
+              "count": 8
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 722,
+          "tx_exhausted": true,
+          "tx_hit_page_cap": false,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+          "ens": "jensenhuang.eth",
+          "ok": true,
+          "sha256": "6328e4d42d231553f178e2b2c79d778a80a2cb8962e5f6f2c986ec70265ad152"
+        },
+        {
+          "address": null,
+          "ens": "nvidia.eth",
+          "ok": true,
+          "sha256": "d4d8423d4a52bf0b86f15ff1b06693985ffdf457ff6bacbe68e8807040751739"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "jensen_huang",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "NVIDIA Corporation"
+      ],
+      "name": "Jensen Huang"
+    },
+    {
+      "address_screens": {},
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": "data/collegefitness_com_foundational_social_platform.json",
+      "ens": [
+        {
+          "address": null,
+          "ens": "meta.eth",
+          "ok": true,
+          "sha256": "48bd3eb3e1c46091c70944d3cadb06b91fc68dbb0b26f7df1e346449af9ba149"
+        },
+        {
+          "address": null,
+          "ens": "zuck.eth",
+          "ok": true,
+          "sha256": "250f5b360f67d18151151de8d0cfa9ba9b4763354e4fb662fae0b7f38eb0b222"
+        },
+        {
+          "address": null,
+          "ens": "facebook.eth",
+          "ok": true,
+          "sha256": "57df84709354379721812918ea2aca3a74bc5589740e3442a6715c48069dc634"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "mark_zuckerberg",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "Meta Platforms, Inc.",
+        "Facebook, Inc."
+      ],
+      "name": "Mark Zuckerberg"
+    },
+    {
+      "address_screens": {
+        "sama.eth": {
+          "activity_span": {
+            "earliest": "2022-09-17T17:10:47.000000Z",
+            "latest": "2026-07-10T19:42:59.000000Z"
+          },
+          "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+          "blockscout_ens_domain_name": "Metamask.eth",
+          "coin_balance": "8708577362275214",
+          "dust_candidates_lt_1e12_wei": 0,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": true,
+          "label": "sama.eth",
+          "methods_top": {
+            "0x75090ebf": 46,
+            "approve": 21,
+            "commit": 40,
+            "deposit": 17,
+            "execute": 24,
+            "fulfillBasicOrder": 13,
+            "mint": 102,
+            "mintBatch": 13,
+            "mintFromFixedPriceSaleWithEarlyAccessAllowlist": 14,
+            "multicall": 12,
+            "purchase": 17,
+            "register": 10,
+            "registerWithConfig": 28,
+            "renew": 28,
+            "reserve": 28,
+            "reveal": 12,
+            "safeTransferFrom": 30,
+            "setApprovalForAll": 27,
+            "unknown": 35,
+            "withdraw": 18
+          },
+          "nonzero_eth_transfers_in_scan": 324,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "840f1573802de6117acffe748bd301a78705073267d6c5d6682e2676825f5b6f",
+            "91ddb39687239b8906ef75d9cea361151d50ef4332930e9d566e448e669abad5",
+            "35d50fefb91b12b8a16ffe743e4593946f695ec1e44b017bf5c6bb980b94a675",
+            "8e7f413aafbe4ab70736947e52f0319a670af63f79b9cc8113037ac67fc8e84b",
+            "d7a36403e71213818b8aad15ae273861f3d2ad3ca3cc0ead45b459136da4dcbf",
+            "a81360b4165184cede76b586783c36f65ddbd199327068fd139ebfe0730d4914",
+            "fd52f305750e399b12d99cd680eec49ccb510a5f86984b71d5c54709eec13727",
+            "04595166cae330524c32244d7660e35feb696045e5c8e30c5f20888fe3e4a796"
+          ],
+          "sha256_tx_pages": [
+            "cdccbcc276ca1a8f7e5d4e73c74cb06dbd9d1dd50eb91ef13ead197bfdec475f",
+            "fc72f346bae1bfc40e627f92979c17ca1a8793072d56e18268f60a05c6bf73c5",
+            "0a32889bc56e923d8742e52eefb26def371f6a02ede8498f62a5e94615eadc05",
+            "ed1e70be2e8af89abdd36d26c4e6b2dfed2866c8170898ce69b91ce040332e7e",
+            "2040f10fe10974f4679d27e76729458a583abf5e1f350f6186b32bb4dbc85aee",
+            "9ecd4db64b648ef0952d1852c3c8339319b18e3e6777531569211c3d0171f8e6",
+            "f40973b70f9b67a2c96ca0dab2807f3a3b8de0f5c6fd78c1b002a4b470310eb2",
+            "25af0db061171bcf27a6aa91f277b46f9824750d325b935699852f65a4a03ad8",
+            "5fc6ffea7b3ee96bb15ae735883fef129927398bb545fcd87a9ec5021e03608b",
+            "1b968cf9af9d8295d20556808977952de95329ab14e211bae76ddae8f7e6739f",
+            "15cc680cc683ca00f18b6f6a896b6a94e7481685c16c1cd9f8c917861724c8fa",
+            "c9bcb4603810ff443345051d826e8dcccd59f53388688e7b5eed3c488ead9fc0",
+            "53966deec25414176b13691ee0cc91d156b142c7035efd503db6c4e6dfd86202",
+            "af417b88a9f4f5ae7103a45a78c5268371f50a2be1ccc737bc21db9b6d34e2a1",
+            "7253d3b131a1a63a6f4b87b3456f930e2d77e284a45719b4e87f1026c755b61c"
+          ],
+          "token_symbols_top": [
+            [
+              "?",
+              49
+            ],
+            [
+              "ATS",
+              24
+            ],
+            [
+              "USDC",
+              18
+            ],
+            [
+              "WETH",
+              17
+            ],
+            [
+              "ATC",
+              12
+            ],
+            [
+              "MIL",
+              10
+            ],
+            [
+              "WMC",
+              10
+            ],
+            [
+              "ENS",
+              9
+            ],
+            [
+              "CULT",
+              7
+            ],
+            [
+              "MIZUKI",
+              7
+            ],
+            [
+              "OCARINA",
+              6
+            ],
+            [
+              "PLT",
+              6
+            ],
+            [
+              "sndbx",
+              6
+            ],
+            [
+              "JTP",
+              6
+            ],
+            [
+              "WIFE",
+              5
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 58
+            },
+            {
+              "address": "0xd588b586d61c826a0e87919b3d1a239206d58bf2",
+              "count": 46
+            },
+            {
+              "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+              "count": 38
+            },
+            {
+              "address": "0x5564886ca2c518d1964e5fcea4f423b41db9f561",
+              "count": 32
+            },
+            {
+              "address": "0x53f451165ba6fdbe39a134673d13948261b2334a",
+              "count": 19
+            },
+            {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "count": 17
+            },
+            {
+              "address": "0x0000000000a39bb272e79075ade125fd351887ac",
+              "count": 16
+            },
+            {
+              "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+              "count": 16
+            },
+            {
+              "address": "0x44e94034afce2dd3cd5eb62528f239686fc8f162",
+              "count": 15
+            },
+            {
+              "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+              "count": 13
+            },
+            {
+              "address": "0x29469395eaf6f95920e59f858042f0e28d98a20b",
+              "count": 12
+            },
+            {
+              "address": "0x0229a8d998c882ab704fdfca1068519eec5179b4",
+              "count": 12
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 11
+            },
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "count": 10
+            },
+            {
+              "address": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+              "count": 10
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+          "ens": "sama.eth",
+          "ok": true,
+          "sha256": "b1264c9afe9ebff1b3e93058e29525688893beb766b0c44bb03ca3a55017b1b3"
+        },
+        {
+          "address": null,
+          "ens": "openai.eth",
+          "ok": true,
+          "sha256": "94bae402d46e4eac5f74890ada8b09d431c9e969f85477274a596e120b40f532"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "sam_altman",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "OpenAI",
+        "Tools for Humanity / Worldcoin",
+        "Oklo Inc."
+      ],
+      "name": "Sam Altman"
+    },
+    {
+      "address_screens": {
+        "vitalik.eth": {
+          "activity_span": {
+            "earliest": "2026-05-01T08:07:47.000000Z",
+            "latest": "2026-07-22T17:22:59.000000Z"
+          },
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "blockscout_ens_domain_name": "vitalik.eth",
+          "coin_balance": "6631771748663559991",
+          "dust_candidates_lt_1e12_wei": 14,
+          "fyllo_direct_hits": [],
+          "identity_note": null,
+          "ip_or_threat_keyword_token_hits": [
+            {
+              "name": "Grumpy Cat",
+              "symbol": "GRUMPY",
+              "tx": "0x1534b4e9d5412117d9ebdb623b742a174aac9cb2b40383e203d16b120cb0f50e"
+            }
+          ],
+          "is_contract": true,
+          "label": "vitalik.eth",
+          "methods_top": {
+            "0x00c63044": 1,
+            "0x0bd2ec05": 2,
+            "0x2e7c10b2": 2,
+            "0x45746820": 6,
+            "0x68747470": 4,
+            "0xb61d27f6": 4,
+            "0xc0b03d13": 1,
+            "0xdf63087b": 6,
+            "approve": 281,
+            "deposit": 7,
+            "depositToAztecPublic": 11,
+            "ethsGEGzXlymji3hvTyjQnpYo": 5,
+            "execTransaction": 2,
+            "execute": 2,
+            "executeWithSig": 4,
+            "multicall": 12,
+            "setContenthash": 5,
+            "swapExactTokensForETHSupportingFeeOnTransferTokens": 253,
+            "transfer": 2,
+            "unknown": 112
+          },
+          "nonzero_eth_transfers_in_scan": 114,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "0eb19ff6d1a82830ab80df0a549bacfd86ee1785325a8a9fadb60ff84248bbdc",
+            "99778143b4933e3cc79c06e301b71798759170f2edfd22d6d0d4817a9b39e449",
+            "020328f7667b24118e3518f5c2186e353f05b4f630d521f096b0aadff75bb571",
+            "b17b1445fba1a74e1225bcfa6ddb7bbcde8dad55ede3253a1623a6d49453b081",
+            "a7f79909504f5430c0c17b56d49edec099c0fb574f0fb6a675783576b4563f1a",
+            "4ce02d72934af80ad518b0512181f2bb927dc878d13995ddc995448aa531c566",
+            "b91512d7f1d1b476dd055b65d7f46479bcf17e20cac462bfe1d0e9e0d37f8836",
+            "f6fc98368fc71f6e3a52bc2ca217ed27dd68f0c7307439f55a14b82e16418536"
+          ],
+          "sha256_tx_pages": [
+            "bcf52bc7b376e833aa814621c6da7dde513e2120c5c4e8bffd526aeb1b4dc29f",
+            "4bb9e31a27d295248e0c0379fcc109e370fa15780217d3c43db1f9668ef1b6f7",
+            "79de5b4dc32b7aec9eae9d25d7f3b3038ba9ab4677430f5392e1d46bc5bc0f99",
+            "426e2f410472d9b49685dcb53284528e4a69f5b83294237e4f8cff99bea4ded4",
+            "0c5c754184984cde87f4388aaffb48bf48e00594ba1d111206547d5082e6107d",
+            "28e776d678d74f6fcee34cad03ac161ac8dc9ae1cacad80aaa26509470c8f58c",
+            "9884f3625875d4e91722cbe2f011894cc739a56a73b6664c8607dbb36e9ba5b4",
+            "9db5e57d1beb89a5cc1a64bbf5f6df2ab7743a31aa26c5b360e35670c5edd0aa",
+            "69cca2e90770de737058f498b5edeec4a6526f73cedff833ba9ab332c9530251",
+            "ae052a8797cd973f0ced8e18b37adfbcbdc58eb4ea314106cacf5843855b22e1",
+            "de2430b2e4ef1ab6e880ed85acc015aefec84026d024f3cfa0431a05276a9918",
+            "9f5ee327829b956004213ca239bdf074059cece48f4266471cf91ba86836b93e",
+            "e2465d53e064c4681e6411f7b94495d3a22161833a64f8f999e1c3fd872eb6a7",
+            "cdf7dd133e6952a0134953505b7209909396d8642a643ace446ce446ce1cb741",
+            "9ed6f6fd2d78e901e6e33caf04af03a45a914d0aade74788e0b284352a2c4e70"
+          ],
+          "token_symbols_top": [
+            [
+              "VITALIK",
+              55
+            ],
+            [
+              "CMD",
+              45
+            ],
+            [
+              "?",
+              15
+            ],
+            [
+              "AZTEC",
+              14
+            ],
+            [
+              "BASTIAN",
+              11
+            ],
+            [
+              "GLOBE",
+              9
+            ],
+            [
+              "ĖTḨ",
+              7
+            ],
+            [
+              "ETH",
+              7
+            ],
+            [
+              "vitalik bull",
+              7
+            ],
+            [
+              "USDC",
+              5
+            ],
+            [
+              "FWOG",
+              4
+            ],
+            [
+              "USDT",
+              3
+            ],
+            [
+              "0xwormhole",
+              3
+            ],
+            [
+              "VB",
+              3
+            ],
+            [
+              "DOG",
+              3
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+              "count": 253
+            },
+            {
+              "address": "0xdd2326a85a4b7d32c632adbc4a7239068bca802e",
+              "count": 18
+            },
+            {
+              "address": "0xe02b584b570cc1728ac82260796ceb261e705f51",
+              "count": 17
+            },
+            {
+              "address": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
+              "count": 13
+            },
+            {
+              "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+              "count": 13
+            },
+            {
+              "address": "0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+              "count": 12
+            },
+            {
+              "address": "0x781a7bfc2efe8e455fc1d23e0a5f7fe70a302130",
+              "count": 12
+            },
+            {
+              "address": "0xc7c75e1a36e28d3dbec2cc798d0619a986747a4a",
+              "count": 8
+            },
+            {
+              "address": "0xbf7da1f568684889a69a5bed9f1311f703985590",
+              "count": 7
+            },
+            {
+              "address": "0x226add62f960e6dbfbc92680227aeb8a5e4572f6",
+              "count": 6
+            },
+            {
+              "address": "0x2891f8b941067f8b5a3f34545a30cf71e3e23617",
+              "count": 6
+            },
+            {
+              "address": "0xdadb0d80178819f2319190d340ce9a924f783711",
+              "count": 6
+            },
+            {
+              "address": "0xaf73dd51d1eb8a079bb097f39c832cdd00ac691c",
+              "count": 5
+            },
+            {
+              "address": "0x94bf519b787fcc146a6c3abbd1a47af6475ea27c",
+              "count": 5
+            },
+            {
+              "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+              "count": 5
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": null,
+          "ens": "vitalikbuterin.eth",
+          "ok": true,
+          "sha256": "f25cb9722573d21f6e008f8d1e3eccd20c286b1cdd1297339870d6d70c2704a6"
+        },
+        {
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "ens": "vitalik.eth",
+          "ok": true,
+          "sha256": "ec92b69b26322e81c4204fbd036105a1ee184309795b898cfc77c7e892a88d01"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "vitalik_buterin",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "Ethereum Foundation"
+      ],
+      "name": "Vitalik Buterin"
+    },
+    {
+      "address_screens": {
+        "philipmorris.eth": {
+          "activity_span": {
+            "earliest": "2021-08-16T19:06:06.000000Z",
+            "latest": "2025-11-07T23:33:35.000000Z"
+          },
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "blockscout_ens_domain_name": "bonerjams.eth",
+          "coin_balance": "2205414134578925",
+          "dust_candidates_lt_1e12_wei": 0,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "philipmorris.eth",
+          "methods_top": {
+            "0x8813034e": 16,
+            "0xe5b67c23": 16,
+            "approve": 44,
+            "atomicMatch_": 28,
+            "cancelOrder_": 36,
+            "commit": 156,
+            "exactInput": 17,
+            "exactInputSingle": 11,
+            "execute": 11,
+            "multicall": 14,
+            "register": 8,
+            "registerWithConfig": 130,
+            "setApprovalForAll": 13,
+            "setName": 8,
+            "swapExactTokensForETH": 14,
+            "swapExactTokensForTokens": 13,
+            "transfer": 31,
+            "transferFrom": 11,
+            "unknown": 91,
+            "withdraw": 10
+          },
+          "nonzero_eth_transfers_in_scan": 304,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "2588979398571f2a94106db2aa50513ceec5fd58a70ce818e1196150445e0d20",
+            "515b7f222733b712c29a915667b46eec3255c11f697c9b532805dcd32fbc8da6",
+            "03bffef7c4ba6cf60526519a78645c4704607a9884ad992bab5a5905495a0364",
+            "7d3b2df56d9b683118e1fb26b9617779acc7f505d5d03c9ea52f4cee55d21018",
+            "7569e462e365015536bf2cf03680d4e9c138d0a11b97184d8a67dce8ab6daf84",
+            "eb65e0c1eb4c5d1df7a6724d32e838ebbcfe39347c90c2d4338ae01cde2fed9d",
+            "a32ae7061540a66f6df43ec37b20a664e0de9d66570099ddfb4538de7ab3bf0d",
+            "13cf16c0c129bfb994d7956d965e71e4b194368ac9a03bc2b899e1b3e4dceaa5"
+          ],
+          "sha256_tx_pages": [
+            "d45996c6f86d70c16db3a0132b9be73080fff6a5749c7c6c2ec86cda4798dcd3",
+            "84fa8a1e0d768761b836d680df140c89e667c1beff2aa10097dd7eb012e7a445",
+            "04fb2b2ad8d813738248b3fe6304f0b72b4c44c3a79d5522c63ed5769ebbc590",
+            "35d31b5fd4f662d2d3a2043cc697bdc82cedfcd68aa5dd406e08b3af4c4590a4",
+            "11d4fbbc2ad4a6264d9af07763110be044bc1f3edd85ac942e80250069a973ad",
+            "72c2a6bedee079afea5c35917f1dba6af0da2d3b3ab7837cfbc27636a9afe3fb",
+            "fb579c6152ac7e15408e67de8eda3c568f0602fe01c6c45fc97c73010c85ec01",
+            "4c69a3b4c24e5544282b41e6e3a5951937f0db7e52d058e9b60be5caecd91dce",
+            "ac4ed6f1f3ac403b969a744d353d07715de7dba78ad021f9272659b5ec4acc34",
+            "d9a0b72bc79641650a24521e174256636f3bb262c059ba0578c7ac898747661c",
+            "fc0304413252992775c1e6a9c754954b17ab7e6265bde261ac80dda8750efa53",
+            "c82b6df9a19b779737dfdbc6332088f2f8a804639dffe906a3c97fe2abbc9f21",
+            "c9a011f4b8bec6f0ed6c7b6625bcb2dc7d5a8783b8a08aa400e3144c877517d8",
+            "4dcc1d7011255bfea9cb2a8ba153d12c68d54026f9fab5185df10643812dde34",
+            "5c7b5e5c69c2cdb8cc9a51d279d78641450437de7c77c92892be57ffbb178706"
+          ],
+          "token_symbols_top": [
+            [
+              "ENS",
+              259
+            ],
+            [
+              "USDT",
+              63
+            ],
+            [
+              "USDC",
+              22
+            ],
+            [
+              "?",
+              15
+            ],
+            [
+              "DOGE20",
+              8
+            ],
+            [
+              "ZRO",
+              5
+            ],
+            [
+              "YKPS",
+              4
+            ],
+            [
+              "WETH",
+              4
+            ],
+            [
+              "MOG",
+              4
+            ],
+            [
+              "SHIDO",
+              3
+            ],
+            [
+              "RX",
+              1
+            ],
+            [
+              "SCOTTY",
+              1
+            ],
+            [
+              "UNI-V2",
+              1
+            ],
+            [
+              "RVP",
+              1
+            ],
+            [
+              "DAEA Mint Pass Original",
+              1
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 276
+            },
+            {
+              "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+              "count": 64
+            },
+            {
+              "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+              "count": 34
+            },
+            {
+              "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "count": 32
+            },
+            {
+              "address": "0x000000000000509081d6fcd3ee63e791ad1db763",
+              "count": 32
+            },
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "count": 17
+            },
+            {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "count": 16
+            },
+            {
+              "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+              "count": 16
+            },
+            {
+              "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+              "count": 16
+            },
+            {
+              "address": "0x8746d06a2d5168460e4114e942de92b7b4e3c5e8",
+              "count": 13
+            },
+            {
+              "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+              "count": 13
+            },
+            {
+              "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+              "count": 11
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 11
+            },
+            {
+              "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+              "count": 9
+            },
+            {
+              "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+              "count": 8
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        },
+        "pmi.eth": {
+          "activity_span": {
+            "earliest": "2020-08-30T11:19:25.000000Z",
+            "latest": "2026-05-22T08:30:23.000000Z"
+          },
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "blockscout_ens_domain_name": "davidsteiner.eth",
+          "coin_balance": "48794365316252103",
+          "dust_candidates_lt_1e12_wei": 0,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "pmi.eth",
+          "methods_top": {
+            "approve": 62,
+            "buyLandWithSand": 16,
+            "cancelOrder_": 2,
+            "claim": 2,
+            "commit": 263,
+            "execute": 15,
+            "multicall": 5,
+            "redeem": 3,
+            "redeemUnderlying": 2,
+            "registerWithConfig": 260,
+            "renew": 2,
+            "renewAll": 45,
+            "repayBorrow": 2,
+            "setApprovalForAll": 2,
+            "swap": 21,
+            "swapExactTokensForETH": 3,
+            "swapExactTokensForTokens": 3,
+            "unknown": 20,
+            "unoswap": 6,
+            "unoswapWithPermit": 2
+          },
+          "nonzero_eth_transfers_in_scan": 330,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "1486500db4286684f19d38bb5bd93a306bf8c37fb053f5ce91ef5fb0bf1ff80d",
+            "2c8fc7950a336d69c4e3e37412c13c4ce5d28e330de15c0e0468cf0eeab55883",
+            "4dfc8af576615f6792c2712ccf995968f59552184a3b4e8907efd3213f8e9a39",
+            "bdc8ef70895ed17f1653bf144c5b9e9504d66d73f2bf0e96c9b188bd9614bfc2",
+            "d3fbc2998f44dd173c359d739a937e2a72b2f896d7c0a012bbfbbf520dcd85f4",
+            "cad5e9a57a528b6d9b925f8e4504f5a33bc4406147705f090a477fa74d0a9d0f",
+            "725563f301e28d98d2e2de584a95c5fd9ab3b4d9ac2654031d9c07c6a2863810",
+            "9f0bb7434563da83b43f1daa9e6241f6d4aaf7da2f3893f730e39b9ee6825bdc"
+          ],
+          "sha256_tx_pages": [
+            "272f561725501e9e25d80b8989df2f691f3e29ae036cd2ce14f54ac50ba97dbe",
+            "5a92253a32d67220a0c388e9290b247e77f8c79c63f308304e9284840ac31162",
+            "f260377b52af7d0ddb9f1d63e838a869920d70fcd67903f5ca174819ef3e4a06",
+            "4bc634218a1a8d2e507401c298001060a4f08ea327b6e506f75953c104576455",
+            "0a6fe8228d19c256afb2ea358fb91b401e1cbdcbb78c3a058540b255a7fbb9c0",
+            "1e2ae49bae631779eab2666401f8142d8153afc8be199f6d38a2de5e57a7dd99",
+            "e51e531cfe0393914e1e7596c1c1244eedcea972783636a51637c766e8a70e46",
+            "9987ab4af1684714d3d6646d67eb044dce84617cfe80e1de0c5a2ba11a0b1e2e",
+            "771c38093be686904d1fe5e649d351af40aa09f0e03c9f41f9bd02de446e08da",
+            "b27045b92c4d7ca468f9b2ee16aea4518e3bb91a440ef4daacac13b8717f03cf",
+            "fa26db68c7da5b97a68f6c53c8f66cdd502feec98f295d0e507d4b7899def6cc",
+            "e596cfeb8747e20b0572e82b2c6671cd7050163a5a2182a4934e9af3686712f9",
+            "1546266800305661323cccd4a731d17d6bd06f7f6ab841c74086a249ff8c67e3",
+            "ef54ef45b036e38c106e60298a8f655ab161c31ad35792c1d9419c724e387c4c",
+            "39686de98fd1e6540f270b44d7b64bf430ea44b43f4a9903e61b73ad7745ebad"
+          ],
+          "token_symbols_top": [
+            [
+              "ENS",
+              178
+            ],
+            [
+              "LAND",
+              48
+            ],
+            [
+              "SAND",
+              36
+            ],
+            [
+              "USDC",
+              20
+            ],
+            [
+              "USDT",
+              18
+            ],
+            [
+              "PREMIA",
+              7
+            ],
+            [
+              "QNT",
+              5
+            ],
+            [
+              "ZRX",
+              5
+            ],
+            [
+              "ALEPH",
+              4
+            ],
+            [
+              "MCB",
+              4
+            ],
+            [
+              "LPT",
+              4
+            ],
+            [
+              "BOND",
+              4
+            ],
+            [
+              "Airdrop",
+              3
+            ],
+            [
+              "ZCN",
+              3
+            ],
+            [
+              "LDO",
+              3
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 523
+            },
+            {
+              "address": "0xa12159e5131b1eef6b4857eee3e1954744b5033a",
+              "count": 30
+            },
+            {
+              "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "count": 22
+            },
+            {
+              "address": "0x55b7b8f50e1d45d34981c2f251606e484a3f97fe",
+              "count": 16
+            },
+            {
+              "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
+              "count": 15
+            },
+            {
+              "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+              "count": 14
+            },
+            {
+              "address": "0x111111125434b319222cdbf8c261674adb56f3ae",
+              "count": 12
+            },
+            {
+              "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+              "count": 8
+            },
+            {
+              "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+              "count": 6
+            },
+            {
+              "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+              "count": 5
+            },
+            {
+              "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+              "count": 4
+            },
+            {
+              "address": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+              "count": 4
+            },
+            {
+              "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+              "count": 4
+            },
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "count": 3
+            },
+            {
+              "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+              "count": 3
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": null,
+          "ens": "calantzopoulos.eth",
+          "ok": true,
+          "sha256": "be5d52038a26036df0363d801043e6decc048b1d17a57e883b1105de0f9558e5"
+        },
+        {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "ens": "pmi.eth",
+          "ok": true,
+          "sha256": "d76ccc39a3b57b0a0a0ae6a6698642bba0b9e4b885b4902302b0e2119156af0f"
+        },
+        {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "ens": "philipmorris.eth",
+          "ok": true,
+          "sha256": "1cc0b74c6d7b7b1404609122a1790c5593d6c36b00160855eaaa49bc2d4f02ba"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "andre_calantzopoulos",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "Philip Morris International Inc.",
+        "Philip Morris Products S.A.",
+        "PMI"
+      ],
+      "name": "André Calantzopoulos"
+    },
+    {
+      "address_screens": {
+        "abg.eth": {
+          "activity_span": {
+            "earliest": "2023-12-04T19:13:11.000000Z",
+            "latest": "2025-01-24T23:57:47.000000Z"
+          },
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "blockscout_ens_domain_name": null,
+          "coin_balance": "225648381886043584",
+          "dust_candidates_lt_1e12_wei": 0,
+          "fyllo_direct_hits": [],
+          "identity_note": null,
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "abg.eth",
+          "methods_top": {
+            "commit": 1,
+            "fulfillBasicOrder_efficient_6GL6yc": 1,
+            "reclaim": 1,
+            "register": 1,
+            "renew": 1,
+            "setAddr": 1,
+            "setName": 1,
+            "unknown": 3
+          },
+          "nonzero_eth_transfers_in_scan": 6,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "c8db8a687cd138f3dd06d812852f10928e54efafdf8e44e53392627eb16ed2db"
+          ],
+          "sha256_tx_pages": [
+            "fb19da5a2d566f4103b49fa7cb313c81487b0a8a62030daf94bd01629c633188"
+          ],
+          "token_symbols_top": [
+            [
+              "ENS",
+              2
+            ],
+            [
+              "?",
+              1
+            ],
+            [
+              "MILJP",
+              1
+            ]
+          ],
+          "token_transfer_count_scanned": 4,
+          "top_counterparties": [
+            {
+              "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+              "count": 3
+            },
+            {
+              "address": "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1",
+              "count": 1
+            },
+            {
+              "address": "0xcb0e74724067f4328652313a6927481b31e31ce9",
+              "count": 1
+            },
+            {
+              "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+              "count": 1
+            },
+            {
+              "address": "0xa58e81fe9b61b5c3fe2afd33cf304c454abfc7cb",
+              "count": 1
+            },
+            {
+              "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+              "count": 1
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 1
+            },
+            {
+              "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+              "count": 1
+            }
+          ],
+          "tt_exhausted": true,
+          "tx_count_scanned": 10,
+          "tx_exhausted": true,
+          "tx_hit_page_cap": false,
+          "tx_pages": 1
+        },
+        "authenticbrands.eth": {
+          "activity_span": {
+            "earliest": "2021-06-17T13:37:34.000000Z",
+            "latest": "2021-06-17T19:26:48.000000Z"
+          },
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "blockscout_ens_domain_name": null,
+          "coin_balance": "203367025469922147",
+          "dust_candidates_lt_1e12_wei": 0,
+          "fyllo_direct_hits": [],
+          "identity_note": null,
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": false,
+          "label": "authenticbrands.eth",
+          "methods_top": {
+            "commit": 7,
+            "registerWithConfig": 6,
+            "safeTransferFrom": 3,
+            "setOwner": 2,
+            "unknown": 2
+          },
+          "nonzero_eth_transfers_in_scan": 8,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "9d28e5bc04cbb865c1ded95dcc339e5aecdec19d4b1a4180453f0bcbb4e2bb1a"
+          ],
+          "sha256_tx_pages": [
+            "96cf1d2473cdc7d205278f73aa779c4484a62c629c5166bdbe7547bfcc9ba1e7"
+          ],
+          "token_symbols_top": [
+            [
+              "ENS",
+              9
+            ],
+            [
+              "PC",
+              1
+            ]
+          ],
+          "token_transfer_count_scanned": 10,
+          "top_counterparties": [
+            {
+              "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+              "count": 13
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 3
+            },
+            {
+              "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+              "count": 2
+            },
+            {
+              "address": "0x0885d38003d569843ff39f771cbfb5424dd9f04f",
+              "count": 2
+            }
+          ],
+          "tt_exhausted": true,
+          "tx_count_scanned": 20,
+          "tx_exhausted": true,
+          "tx_hit_page_cap": false,
+          "tx_pages": 1
+        },
+        "jamiesalter.eth": {
+          "activity_span": {
+            "earliest": "2026-01-02T19:38:47.000000Z",
+            "latest": "2026-07-18T00:16:59.000000Z"
+          },
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "blockscout_ens_domain_name": "🚀🚀🚀🚀🚀.eth",
+          "coin_balance": "134842398094157472",
+          "dust_candidates_lt_1e12_wei": 1,
+          "fyllo_direct_hits": [],
+          "identity_note": "Primary ENS on Blockscout may differ from queried label — treat as possible squat/alias unless primary matches the public figure.",
+          "ip_or_threat_keyword_token_hits": [],
+          "is_contract": true,
+          "label": "jamiesalter.eth",
+          "methods_top": {
+            "approve": 71,
+            "batchCommit": 36,
+            "batchRegister": 29,
+            "bulkRenew": 10,
+            "cancel": 18,
+            "commit": 28,
+            "depositV3": 35,
+            "exec": 18,
+            "execute": 172,
+            "list": 20,
+            "multicall": 13,
+            "register": 27,
+            "reinstate": 11,
+            "revoke": 14,
+            "setAddr": 10,
+            "setApprovalForAll": 8,
+            "setContenthash": 34,
+            "transfer": 13,
+            "transferAndMulticall": 17,
+            "unknown": 53
+          },
+          "nonzero_eth_transfers_in_scan": 308,
+          "peer_address_cross_hits": [],
+          "sha256_tt_pages": [
+            "62ff92afaacb1671c3565cd97e28756c9dc70aa51d832159ec116db90c592eb7",
+            "0c5a8bc37f999bdd4dd95b3aa3e7319c178f32e4fdd092bc540d31c42bc7f650",
+            "cd33915e7ba9f473d5a4bcd5bd029d00a9d63c7c7e9932776fd53a83a12fd31a",
+            "06d31fb48c9a03dd3db97ca453e5cd1fb0bf79598b831283d9a256125c797925",
+            "ca1e4d1ec04285d12c7d12860a3b251c69789dc15c0dabe14ef229c0962bfc68",
+            "9a555a74d2db6b20a6aeb32ae26b2fdd12c408325274a6248b73a17b8a2cde1a",
+            "6c6532c4999fccb0b6f10ef23c6a5cc8abf0abed9bb63856c53b8b3abac59d1c",
+            "06ae0a6ff8d61bb38f57c2f88994d8ff1d17f12c917b594192fc8d28090e89c0"
+          ],
+          "sha256_tx_pages": [
+            "eb866a3d4c79c7a90b34f156e778311a382581d5920d0a54b7ef672f94ec4627",
+            "53f5249a6e50fffecb8e95557ac9bbdedfa5270137f420628c145eba05639205",
+            "25cddeac812f1def100d445a186ab2696b4ace82620f3647b65c703037037b8a",
+            "f2a0d5643c62daece27db724b5df597c2d2399ea7c5bbeda738ed6ea878a6968",
+            "2db671c464d5aa77eddcf151ba44724bee4e1d8a661baf350c0b7ea1ac32bf9b",
+            "99a273250036c94737147616f151d0cf17d50b8d380b3d8366a9e83ecc34e59d",
+            "fc75450062bf37af614b76337b6529f2b03d7eec9aae30877936f98039c29794",
+            "76c02c39ac5b94606760cc401d108be3eb82c4cc9129e83932a7b3aaa5e13d57",
+            "ede81cbff8f4719a8330db124eb0db0fe56be6b93ce902f4d233bfb888241b26",
+            "323c076a8ac1473e38eba73eea7ed53b485465b92e2fb33843461ea6a684158c",
+            "51f6c2e84fd470c9133f3ef7caf00dd2e5cb8e728fc0bfc5628acf86ce097414",
+            "e3af8402c3c07954e3f3bb192fe3bfecb0fa92260d957ce9cc9ae45dc731d260",
+            "d2decc6d18df15e4aad95c927f264b2f99b84b9d51c5e099a86c3aac9ef5ed64",
+            "d7785e3f9c88c9c8baec104c06bb319fad02158f00f2d8ce47ffa4aecb7ea75d",
+            "3398c0ce0e09862137659a83fb0c7e6b88f19dd7587e38acd6ed82cd698d7c6b"
+          ],
+          "token_symbols_top": [
+            [
+              "UPEG",
+              202
+            ],
+            [
+              "USDC",
+              34
+            ],
+            [
+              "UNICODED",
+              32
+            ],
+            [
+              "WAAC",
+              16
+            ],
+            [
+              "ENS",
+              15
+            ],
+            [
+              "wUNICODED",
+              10
+            ],
+            [
+              "APESTR",
+              8
+            ],
+            [
+              "CURSOR",
+              5
+            ],
+            [
+              "DOG",
+              4
+            ],
+            [
+              "USDT",
+              4
+            ],
+            [
+              "WETH",
+              4
+            ],
+            [
+              "uSATO",
+              4
+            ],
+            [
+              "SHIT",
+              3
+            ],
+            [
+              "PNKSTR",
+              3
+            ],
+            [
+              "MAYC",
+              3
+            ]
+          ],
+          "token_transfer_count_scanned": 400,
+          "top_counterparties": [
+            {
+              "address": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
+              "count": 126
+            },
+            {
+              "address": "0x59e16fccd424cc24e280be16e11bcd56fb0ce547",
+              "count": 55
+            },
+            {
+              "address": "0xf29100983e058b709f3d539b0c765937b804ac15",
+              "count": 47
+            },
+            {
+              "address": "0x2935e24631e8f8ed63e34f325ab967f09e9f7701",
+              "count": 45
+            },
+            {
+              "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+              "count": 36
+            },
+            {
+              "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+              "count": 35
+            },
+            {
+              "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+              "count": 32
+            },
+            {
+              "address": "0xa5f565650890fba1824ee0f21ebbbf660a179934",
+              "count": 26
+            },
+            {
+              "address": "0x520b2d7b9ad1b47163e7c59f22c96bb93caf3258",
+              "count": 25
+            },
+            {
+              "address": "0xb9767c1ad3afdc5018d29f7079e14fca8ba8b9f6",
+              "count": 24
+            },
+            {
+              "address": "0x0000000000000068f116a894984e2db1123eb395",
+              "count": 22
+            },
+            {
+              "address": "0x8cf37cb3eec84989b6cd56828fee7df737d144a8",
+              "count": 19
+            },
+            {
+              "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+              "count": 18
+            },
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "count": 16
+            },
+            {
+              "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+              "count": 13
+            }
+          ],
+          "tt_exhausted": false,
+          "tx_count_scanned": 750,
+          "tx_exhausted": false,
+          "tx_hit_page_cap": true,
+          "tx_pages": 15
+        }
+      },
+      "any_fyllo_direct_hit": false,
+      "corpus_declaration": null,
+      "ens": [
+        {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "ens": "abg.eth",
+          "ok": true,
+          "sha256": "e1d256946f6f4b8998ca5bfdf6fde39f1f41fe68462a68edacb29190007c1974"
+        },
+        {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "ens": "authenticbrands.eth",
+          "ok": true,
+          "sha256": "1d5b6e6396b94e60a09818818339a5b2bf36d7334fffefa4bd4ae69a72c3aa5b"
+        },
+        {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "ens": "jamiesalter.eth",
+          "ok": true,
+          "sha256": "3e552c5ddbf39510fd0c2216475508b08654eac580759155c5eaf1b53c7481dd"
+        }
+      ],
+      "hidden_royalty_adjudicated": false,
+      "id": "jamie_salter",
+      "illicit_participant_adjudicated": false,
+      "lifetime_entities_public_roster": [
+        "Authentic Brands Group Inc.",
+        "Authentic Brands Group LLC",
+        "ABG Intermediate Holdings 1 LLC",
+        "ABG Intermediate Holdings 2 LLC"
+      ],
+      "name": "Jamie Salter"
+    }
+  ],
+  "status": "SEALED",
+  "title": "Participants + lifetime entities + exhaustive address traces"
+}

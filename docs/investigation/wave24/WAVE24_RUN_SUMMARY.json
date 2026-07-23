@@ -1,0 +1,1019 @@
+{
+  "artifacts": {
+    "altria": "docs/investigation/wave24/altria_entities_personnel_subsidiaries.json",
+    "enablers": "docs/investigation/wave24/professional_enabler_hidden_counsel_overlap.json",
+    "fortune_100": "docs/investigation/wave24/fortune_100_ip_licensing_facilitators.json",
+    "juul_pax_ploom": "docs/investigation/wave24/juul_pax_ploom_entities_personnel.json",
+    "participants": "docs/investigation/wave24/participants_lifetime_entities_addresses.json",
+    "pmi": "docs/investigation/wave24/pmi_philip_morris_entities_personnel.json",
+    "summary_md": "docs/investigation/WAVE24_PARTICIPANTS_PMI_ALTRIA_JUUL_FORTUNE100.md",
+    "threat": "docs/investigation/wave24/state_cartel_cyber_dust_nexus.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+  "counts": {
+    "addresses_traced": 10,
+    "adjudicated_total": 0,
+    "findings": 7,
+    "fortune_100_screened": 102,
+    "participants_screened": 7,
+    "tracks": 8,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "af7e036dce3158d07c2b683d565c5b1e2a936a2e74e78dcdbeea5596cdb57829",
+    "leaves": [
+      {
+        "id": "participants_lifetime_entities_addresses",
+        "sha3_256": "1fb76a44c8e8f29a4e163f1dc97a096382951a91ba3ff7475f9cfa165d86b33e",
+        "status": "SEALED"
+      },
+      {
+        "id": "pmi_philip_morris_entities_personnel",
+        "sha3_256": "3f30841e9d70015eb80e99a70465807da27dd1ab3c5bce55e73540cf0fe42679",
+        "status": "SEALED"
+      },
+      {
+        "id": "altria_entities_personnel_subsidiaries",
+        "sha3_256": "d5e2de23fd7285bf3df98518bbc5fffafe8e9a1ae6c921118600462be5380fb4",
+        "status": "SEALED"
+      },
+      {
+        "id": "juul_pax_ploom_entities_personnel",
+        "sha3_256": "136003afbfa727eeb2b4333b775ace7374bc7f208c394274381ed0632c39bdc8",
+        "status": "SEALED"
+      },
+      {
+        "id": "fortune_100_ip_licensing_facilitators",
+        "sha3_256": "e7c36d8eef12164499f1ea6227db4bd97b45cfb03642fc151de905c935a92f7b",
+        "status": "SEALED"
+      },
+      {
+        "id": "state_cartel_cyber_dust_nexus",
+        "sha3_256": "fa964db34b25ebaef2f6d0b62d3f4854b6074a98c09bb0607108e1386f070801",
+        "status": "SEALED"
+      },
+      {
+        "id": "professional_enabler_hidden_counsel_overlap",
+        "sha3_256": "e652be3cdd7cb60f847391c98ed4ae866dca7b0fecf06958897a9a254c00fc43",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "8e0a930eeed8fcbbd7b065599951cb2023f7f0704c71b25359fc8b46f0b1833d",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "e00660b0e0c51aa75ec19d1a1650e6a2e1bf75eed9330692c8abaae933c8acad2154038a48bd3bbc1070087fbce82457aade73782e4c9db2911f1b85ad14cb68"
+  },
+  "disposition": {
+    "altria_stolen_ip_royalty_adjudicated": false,
+    "cyber_dust_illicit_evasion_adjudicated": false,
+    "fortune_100_blockchain_royalty_link_authenticated": false,
+    "fortune_100_dao_licensing_authenticated": false,
+    "fortune_100_ip_licensing_census_authenticated": false,
+    "hidden_blockchain_royalty_adjudicated": false,
+    "hidden_legal_representation_adjudicated": false,
+    "illicit_licensing_facilitation_adjudicated": false,
+    "illicit_participant_adjudicated": false,
+    "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+    "pmi_dao_licensing_adjudicated": false,
+    "pmi_stolen_ip_royalty_adjudicated": false,
+    "professional_enabler_adjudicated": false,
+    "shared_enabler_corruption_adjudicated": false,
+    "state_actor_cartel_nexus_adjudicated": false,
+    "theft_adjudicated": false
+  },
+  "elapsed_ms": 56393,
+  "findings": [
+    {
+      "addresses_traced": 10,
+      "any_participant_fyllo_direct_hit": false,
+      "cyber_dust_illicit_evasion_adjudicated": false,
+      "detail": "Traced 10 labels (pagination capped at 15 tx / 8 token-transfer pages). No direct fyllo.eth counterparty hits from other participant addresses in scanned pages. Dust-candidate counts are raw wei filters only — not adjudicated as illicit payment-evasion. No token symbols matched patent/royalty/Skoda/Ahkeo/WIPO/Lazarus/Sinaloa/GRU keywords in samples.",
+      "dust_candidates_across_scans": 30,
+      "hidden_blockchain_royalty_adjudicated": false,
+      "id": "W24-F1",
+      "identity_caveat": "Several vanity ENS names (elonmusk.eth, jensenhuang.eth, sama.eth, pmi.eth, philipmorris.eth) resolve to EOAs whose Blockscout primary ENS differs (brantly.eth / narciso.eth / Metamask.eth / davidsteiner.eth / bonerjams.eth) — not authenticated as the public figure's wallet.",
+      "illicit_participant_adjudicated": false,
+      "participants_screened": 7,
+      "peer_cross_hits_among_screened_labels": [],
+      "title": "Named-participant ENS/address screen: no authenticated fyllo↔participant royalty rail",
+      "vitalik_eth_identity": "vitalik.eth primary matches — highest-confidence public ENS among set"
+    },
+    {
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Public PMI surfaces identify André Calantzopoulos (chairman) and Jacek Olczak (CEO) among key people. No PMI.com / Wikipedia extract authenticates DAO licensing, Skoda/Ahkeo/Fyllo co-mention, or hidden blockchain royalties tied to the sealed 15-pub Skoda set.",
+      "entities_and_personnel": [
+        {
+          "class": "public_operating_company",
+          "name": "Philip Morris International Inc.",
+          "personnel_public": [
+            "Andre Calantzopoulos",
+            "André Calantzopoulos",
+            "Jacek Olczak",
+            "Louis Camilleri"
+          ],
+          "source": "wikipedia_parse_api"
+        },
+        {
+          "class": "public_brand_alias",
+          "name": "PMI (brand/abbrev)",
+          "source": "pmi.com"
+        },
+        {
+          "class": "public_personnel",
+          "name": "André Calantzopoulos",
+          "role_public": "Chairman (Wikipedia key_people) / former CEO (public career)",
+          "source": "wikipedia_parse_api"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Jacek Olczak",
+          "role_public": "CEO (Wikipedia key_people)",
+          "source": "wikipedia_parse_api"
+        }
+      ],
+      "id": "W24-F2",
+      "pmi_dao_licensing_adjudicated": false,
+      "pmi_ens_resolution": {
+        "calantzopoulos.eth": {
+          "address": null,
+          "ens": "calantzopoulos.eth",
+          "ok": true,
+          "sha256": "be5d52038a26036df0363d801043e6decc048b1d17a57e883b1105de0f9558e5"
+        },
+        "philipmorris.eth": {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "ens": "philipmorris.eth",
+          "ok": true,
+          "sha256": "1cc0b74c6d7b7b1404609122a1790c5593d6c36b00160855eaaa49bc2d4f02ba"
+        },
+        "pmi.eth": {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "ens": "pmi.eth",
+          "ok": true,
+          "sha256": "d76ccc39a3b57b0a0a0ae6a6698642bba0b9e4b885b4902302b0e2119156af0f"
+        }
+      },
+      "pmi_eth_identity_caveat": "pmi.eth / philipmorris.eth resolve on-chain but Blockscout primary ENS values (davidsteiner.eth / bonerjams.eth) indicate vanity-name squat risk — not authenticated corporate treasuries of Philip Morris International.",
+      "pmi_stolen_ip_royalty_adjudicated": false,
+      "site_mentions_skoda_or_dao": {
+        "https://www.pmi.com/": {
+          "Ahkeo": false,
+          "Authentic Brands": false,
+          "Calantzopoulos": false,
+          "DAO": false,
+          "Fyllo": false,
+          "Olczak": false,
+          "Skoda": false,
+          "blockchain": false,
+          "patent": false,
+          "royalty": false
+        },
+        "https://www.pmi.com/who-we-are": {
+          "Ahkeo": false,
+          "Authentic Brands": false,
+          "Calantzopoulos": false,
+          "DAO": false,
+          "Fyllo": false,
+          "Olczak": true,
+          "Skoda": false,
+          "blockchain": false,
+          "patent": false,
+          "royalty": false
+        }
+      },
+      "title": "PMI / Philip Morris entities & personnel expanded; no authenticated Skoda/IP/DAO royalty nexus",
+      "wikipedia_key_people": [
+        "Andre Calantzopoulos",
+        "André Calantzopoulos",
+        "Jacek Olczak",
+        "Louis Camilleri"
+      ]
+    },
+    {
+      "altria_dao_licensing_adjudicated": false,
+      "altria_ens": {
+        "altria.eth": {
+          "address": null,
+          "ens": "altria.eth",
+          "ok": true,
+          "sha256": "5a761ed79156414abd9da412129b0f4d4c783ba9c108a1eb9c9ff0e3966ca903"
+        },
+        "njoy.eth": {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "ens": "njoy.eth",
+          "ok": true,
+          "sha256": "ee2a089026f300eaefda6ef7d11a6adf6b8c000870a643a353276c82ef0bc54c"
+        },
+        "philipmorrisusa.eth": {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "ens": "philipmorrisusa.eth",
+          "ok": true,
+          "sha256": "3a34df1918036abaf7abb0ed377342a9ee8779bbca2659756591cb819f7777ae"
+        },
+        "pmusa.eth": {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "ens": "pmusa.eth",
+          "ok": true,
+          "sha256": "3ca857a340093e099b6075d79f17e892a1c40e9ab89e3baa6e5d8da1bffdae6e"
+        }
+      },
+      "altria_ens_identity": {
+        "altria.eth": {
+          "resolved": false
+        },
+        "njoy.eth": {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "blockscout_ens_domain_name": "sexomessi.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "philipmorrisusa.eth": {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "pmusa.eth": {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        }
+      },
+      "altria_hidden_subsidiary_shell_census_authenticated": false,
+      "altria_stolen_ip_royalty_adjudicated": false,
+      "authenticated_skoda_publication_count": 15,
+      "calantzopoulos_on_altria_wiki": false,
+      "detail": "Wikipedia Altria parse yields 4 key-people names and 10 subsidiary/affiliate link candidates (noise-filtered). altria.eth unresolved; philipmorrisusa.eth / pmusa.eth / njoy.eth resolve but are not authenticated as Altria corporate treasuries without identity binding. No Altria.com / Wikipedia extract authenticates Skoda/Ahkeo/Fyllo DAO royalty rails. PMI appears as related/spinoff link — not proof of illicit IP monetization.",
+      "entities_and_subsidiaries_public": [
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Altria Group, Inc.",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Chateau Ste. Michelle",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Helix Innovations",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "John Middleton Co.",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Juul",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "NJOY",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_affiliate_or_former_affiliate_link",
+          "name": "Philip Morris International",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Philip Morris USA",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "U.S. Smokeless Tobacco Company",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_subsidiary_or_operating_unit_candidate",
+          "name": "Upton Tobaccos",
+          "source": "wikipedia_parse_api_altria"
+        }
+      ],
+      "entity_or_subsidiary_count": 10,
+      "id": "W24-F5",
+      "personnel_count": 4,
+      "personnel_public": [
+        {
+          "class": "public_personnel",
+          "name": "Billy Gifford",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Kathryn McQuade",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "Martin Barrington",
+          "source": "wikipedia_parse_api_altria"
+        },
+        {
+          "class": "public_personnel",
+          "name": "William F. Gifford",
+          "source": "wikipedia_parse_api_altria"
+        }
+      ],
+      "pmi_spinoff_relationship_noted": true,
+      "title": "Altria personnel/entities/subsidiaries expanded; no authenticated Skoda/IP/DAO royalty nexus"
+    },
+    {
+      "affiliate_count": 15,
+      "affiliates_and_related_entities": [
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Altria",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "British American Tobacco",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Golf Nippon Series JT Cup",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Imperial Brands",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Japan Tobacco International",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Juul",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Juul Labs",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Logic (electronic cigarette)",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "NJOY",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Pax Labs",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Philip Morris International",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "Ploom",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R. J. Reynolds Tobacco Company",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R.J. Reynolds",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        },
+        {
+          "class": "public_affiliate_or_related_entity_candidate",
+          "name": "R.J. Reynolds Tobacco Company",
+          "source": "wikipedia_juul_pax_ploom_jti"
+        }
+      ],
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Public Wikipedia extracts yield 2 personnel (incl. Adam Bowen / James Monsees founder nexus) and 15 affiliate/related-entity candidates spanning Juul, Pax Labs, Ploom, JTI, Altria, NJOY, and peer tobacco majors. Vanity ENS (juul/pax/ploom/etc.) resolve in several cases but are not authenticated corporate treasuries. No wiki extract authenticates Skoda/Ahkeo/Fyllo DAO royalty rails or an exhaustive secret-subsidiary census beyond public affiliate links.",
+      "ens": {
+        "japantobacco.eth": {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "ens": "japantobacco.eth",
+          "ok": true,
+          "sha256": "519ff3eabdf42754ec069f0a8f9143e45afb52a668c8fc29e5757f0784f9545f"
+        },
+        "jt.eth": {
+          "address": null,
+          "ens": "jt.eth",
+          "ok": true,
+          "sha256": "423a5b7f94478c6ec32450b9aa667c3fbc5946e6518aa656f5b1f48a5ebd6eb4"
+        },
+        "juul.eth": {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "ens": "juul.eth",
+          "ok": true,
+          "sha256": "e8bbba331bff0df7ab9b38ca06e3c0131495f04e23cd5f3057dcf960ba2d53ca"
+        },
+        "juullabs.eth": {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "ens": "juullabs.eth",
+          "ok": true,
+          "sha256": "502bc7900562622924015e818df8b445d3bedfbd9cf3236f3f66228a6aba813f"
+        },
+        "pax.eth": {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "ens": "pax.eth",
+          "ok": true,
+          "sha256": "423cb851befefe7ebf9d0aefa5ff11cd295cd4bcf14910b76db8a7eed2b652fb"
+        },
+        "paxlabs.eth": {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "ens": "paxlabs.eth",
+          "ok": true,
+          "sha256": "49e440ddc1c05d98d87c5db132ceb374b52ad3c2fb0ce07b6573acc9d6a133d4"
+        },
+        "ploom.eth": {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "ens": "ploom.eth",
+          "ok": true,
+          "sha256": "3370fd3c24faa7b3aa638fdb074bcd4ee61bc0d1c0bd086783800d6699d93fb4"
+        }
+      },
+      "ens_identity": {
+        "japantobacco.eth": {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "jt.eth": {
+          "resolved": false
+        },
+        "juul.eth": {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "juullabs.eth": {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "blockscout_ens_domain_name": "megarobot.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "pax.eth": {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "blockscout_ens_domain_name": "pax.eth",
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        },
+        "paxlabs.eth": {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "blockscout_ens_domain_name": "frankmoney.eth",
+          "identity_caveat": "Primary ENS differs from queried vanity label — squat/alias risk",
+          "is_contract": false,
+          "resolved": true
+        },
+        "ploom.eth": {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "blockscout_ens_domain_name": null,
+          "identity_caveat": null,
+          "is_contract": false,
+          "resolved": true
+        }
+      },
+      "id": "W24-F6",
+      "juul_pax_ploom_dao_licensing_adjudicated": false,
+      "juul_pax_ploom_hidden_subsidiary_census_authenticated": false,
+      "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+      "lineage_public": {
+        "juul_to_altria": "Altria investment/affiliation historically noted on Juul wiki",
+        "pax_to_juul": "Juul originated within / spun from Pax Labs founder nexus (public wiki)",
+        "ploom_to_jti": "Ploom associated with Japan Tobacco International (public wiki)",
+        "ploom_to_pax": "Ploom product/company lineage linked to Pax Labs founders (public wiki)"
+      },
+      "personnel_count": 2,
+      "personnel_public": [
+        {
+          "class": "public_personnel",
+          "name": "Adam Bowen",
+          "source": "wikipedia_juul_pax_ploom"
+        },
+        {
+          "class": "public_personnel",
+          "name": "James Monsees",
+          "source": "wikipedia_juul_pax_ploom"
+        }
+      ],
+      "title": "Juul / Pax / Ploom personnel & affiliates exhausted at public-wiki depth; no Skoda/DAO royalty nexus authenticated",
+      "wikipedia": {
+        "japan_tobacco": {
+          "affiliates": [
+            "British American Tobacco",
+            "Golf Nippon Series JT Cup",
+            "Japan Tobacco International",
+            "Philip Morris International",
+            "R.J. Reynolds Tobacco Company"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": false,
+          "mentions_pmi": true,
+          "ok": true,
+          "page": "Japan_Tobacco",
+          "people": [],
+          "sha256": "8f573cf31fa6919439cd77dc4950e836c359f47210f670348bbc8cf63e1e6689",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "juul": {
+          "affiliates": [
+            "Altria",
+            "British American Tobacco",
+            "Imperial Brands",
+            "Japan Tobacco International",
+            "Logic (electronic cigarette)",
+            "NJOY",
+            "Pax Labs",
+            "Philip Morris International",
+            "R. J. Reynolds Tobacco Company",
+            "R.J. Reynolds"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": true,
+          "mentions_pmi": true,
+          "ok": true,
+          "page": "Juul",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "553f3ab80001e2a34aa6f1094cd36aae32a8f93b2a526aad007c2afed73a31c8",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "pax_labs": {
+          "affiliates": [
+            "Japan Tobacco International",
+            "Juul",
+            "Ploom"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": false,
+          "mentions_pmi": false,
+          "ok": true,
+          "page": "Pax_Labs",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "6de4bffba8dcdc5885ec7caf8526a8f152dd4fc4bd5f963548a8aaceaa31983b",
+          "skoda_mentions": 0,
+          "status": 200
+        },
+        "ploom": {
+          "affiliates": [
+            "Japan Tobacco International",
+            "Pax Labs"
+          ],
+          "dao_mentions": 0,
+          "mentions_altria": true,
+          "mentions_pmi": false,
+          "ok": true,
+          "page": "Ploom",
+          "people": [
+            "Adam Bowen",
+            "James Monsees"
+          ],
+          "sha256": "39ef2348ae76f226d58f05377e28114fdb1084ee573c9875895d621c428661fe",
+          "skoda_mentions": 0,
+          "status": 200
+        }
+      }
+    },
+    {
+      "authenticated_skoda_publication_count": 15,
+      "companies_open_exhibit_21_required": 101,
+      "companies_with_partial_authenticated_ip_entities": 1,
+      "detail": "Screened 102 Fortune 100 roster names. Only Altria carries Wave-24 partial public subsidiary/IP-operating-unit candidates; all others remain OPEN pending Exhibit 21 / registry extracts — subsidiaries are NOT invented. No authenticated blockchain or traditional licensing link from Fortune 100 IP vehicles to the sealed 15-pub Skoda set, fyllo.eth payments, or stealth-DAO royalty rails. Overlap tags note Meta/NVIDIA/Tesla/Altria participant adjacency only — not illicit-licensing adjudication. Monolith synthetic 100% Fortune DAO coverage (Wave-23) remains rejected.",
+      "ens_fortune_cross": {
+        "altria.eth": {
+          "address": null,
+          "fortune_company": "Altria Group",
+          "resolved_in_wave24": false
+        },
+        "juul.eth": {
+          "fortune_company": null,
+          "note": "Juul not a Fortune 100 parent; Altria historical investment is the Fortune link",
+          "resolved": true
+        },
+        "meta.eth": {
+          "address": null,
+          "fortune_company": "Meta Platforms",
+          "resolved_in_wave24": false
+        },
+        "nvidia.eth": {
+          "address": null,
+          "fortune_company": "NVIDIA",
+          "resolved_in_wave24": false
+        },
+        "tesla.eth": {
+          "address": null,
+          "fortune_company": "Tesla",
+          "resolved_in_wave24": false
+        }
+      },
+      "fortune_100_blockchain_royalty_link_authenticated": false,
+      "fortune_100_dao_licensing_authenticated": false,
+      "fortune_100_ip_licensing_census_authenticated": false,
+      "fortune_100_roster_count": 102,
+      "id": "W24-F7",
+      "illicit_licensing_facilitation_adjudicated": false,
+      "overlap_companies": [
+        "Alphabet",
+        "Meta Platforms",
+        "NVIDIA",
+        "Tesla",
+        "Altria Group"
+      ],
+      "overlap_with_wave24_nexus_count": 5,
+      "title": "Fortune 100 IP-licensing facilitator screen: no authenticated Skoda/DAO rails; Exhibit 21 gap for 99/100"
+    },
+    {
+      "collegefitness_corpus_actors": [
+        {
+          "actor_id": "CN-PLA-APT",
+          "name": "China PLA APT units",
+          "role": "exfiltration_continuity_break",
+          "type": "state_sponsored"
+        },
+        {
+          "actor_id": "KP-LAZARUS",
+          "name": "North Korea Lazarus Group",
+          "role": "crypto_asset_laundering_facilitation",
+          "type": "state_sponsored"
+        },
+        {
+          "actor_id": "MX-SINALOA-CYBER",
+          "name": "Sinaloa Cartel Cyber Team",
+          "role": "fiat_injection_crypto_receipt",
+          "type": "cartel"
+        },
+        {
+          "actor_id": "IR-IRGC-CYBER",
+          "name": "Iran IRGC Cyber Team",
+          "role": "synthetic_inventor_replacement_religion_payloads",
+          "type": "state_sponsored"
+        }
+      ],
+      "corpus_class": "OPERATOR_OR_CORPUS_DECLARATION_NOT_PUBLICLY_AUTHENTICATED_NEXUS",
+      "cyber_dust_illicit_evasion_adjudicated": false,
+      "detail": "Collegefitness form declares PLA APT, Lazarus, Sinaloa cyber, and IRGC coordination — classified as corpus declaration, not a sealed public attribution tying those actors to fyllo.eth, vitalik.eth, PMI vanity ENS, ABG ENS, or other Wave-24 traced addresses. Russian GRU was requested by operator but is not in that corpus actor list. Dust-candidate wei filters on high-activity EOAs are not adjudicated as advanced illicit evasion.",
+      "id": "W24-F3",
+      "opensanctions_live": "BLOCKED_OR_UNAVAILABLE_IN_RUN",
+      "requested_threat_actors": [
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "CN-PLA-APT",
+          "id": "CN-PLA",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "China PLA / PLA APT units",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "KP-LAZARUS",
+          "id": "KP-LAZARUS",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "North Korea Lazarus Group",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": "MX-SINALOA-CYBER",
+          "id": "MX-SINALOA",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": true,
+          "name": "Sinaloa Cartel / El Chapo Guzmán nexus (operator-stated)",
+          "state_actor_nexus_adjudicated": false
+        },
+        {
+          "authenticated_link_to_fyllo_eth": false,
+          "authenticated_link_to_participant_addresses": false,
+          "authenticated_link_to_skoda_patents": false,
+          "corpus_match": null,
+          "id": "RU-GRU",
+          "illicit_payment_evasion_adjudicated": false,
+          "in_collegefitness_corpus_declaration": false,
+          "name": "Russian GRU",
+          "note": "Not present in collegefitness corpus actor list; OPEN for authenticated public attribution to this case",
+          "state_actor_nexus_adjudicated": false
+        }
+      ],
+      "state_actor_cartel_nexus_adjudicated": false,
+      "title": "PLA / Lazarus / Sinaloa / GRU cyber-dust nexus remains unauthenticated to screened addresses"
+    },
+    {
+      "cross_linked_firms": [
+        "Ulmer & Berne LLP",
+        "Foley & Lardner LLP",
+        "Ferraiuoli LLC",
+        "Tucker & Ellis LLP",
+        "Zashin & Rich LLP",
+        "Anthony G. Salvador, Esq.",
+        "Benjamin L. England & Associates, LLC",
+        "BDO Global",
+        "BDO Puerto Rico, P.S.C."
+      ],
+      "detail": "Sealed enabler forms (Salvador, England, Bacó, Lauren Rich Fine, collegefitness nexus) and firm rosters (Foley, Ferraiuoli, Tucker Ellis, Zashin & Rich, Ulmer & Berne, BDO) remain victim-inventor corpus surfaces. Wave-24 did not authenticate shared hidden/'vigo' counsel linking those enablers to PMI/Calantzopoulos, ABG/Salter, or the other named participants. Live EDGAR co-mention queries blocked (403) this run.",
+      "hidden_legal_representation_adjudicated": false,
+      "id": "W24-F4",
+      "overlap_rows": [
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Ulmer & Berne LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Foley & Lardner LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Ferraiuoli LLC",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Tucker & Ellis LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Zashin & Rich LLP",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Anthony G. Salvador, Esq.",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "Benjamin L. England & Associates, LLC",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "BDO Global",
+          "sealed_in_victim_corpus": true
+        },
+        {
+          "authenticated_hidden_vigo_or_shadow_counsel_for_pmi_abg_musk_et_al": false,
+          "authenticated_representation_of_named_nonvictim_participants": false,
+          "note": "Present in victim-inventor professional-enabler corpus / collegefitness cross_linked_firms. No Wave-24 public hit authenticates that this firm secretly or directly represents Musk, Huang, Zuckerberg, Altman, Buterin, Calantzopoulos/PMI, Salter/ABG, PLA, Lazarus, Sinaloa, or GRU.",
+          "professional_enabler_or_firm": "BDO Puerto Rico, P.S.C.",
+          "sealed_in_victim_corpus": true
+        }
+      ],
+      "professional_enabler_adjudicated": false,
+      "roster_files": [
+        "data/bdo_global_people_roster.json",
+        "data/bdo_puerto_rico_people_roster.json",
+        "data/benjamin_england_associates_people_roster.json",
+        "data/foley_lardner_people_roster.json",
+        "data/tucker_ellis_people_roster.json",
+        "data/ulmer_berne_people_roster.json",
+        "data/zashin_rich_people_roster.json"
+      ],
+      "sealed_enabler_forms": [
+        {
+          "file": "data/albert_baco_political_consultant_form.json",
+          "firm": "RE Capital LLC / bacobague.com",
+          "form_type": "outside_political_consultant_bdo_coordination_declaration",
+          "ghost_docket_role": "outside_political_consultant_bdo_coordinator",
+          "name": "Alberto Bacó Bagué",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/anthony_g_salvador_victim_inventor_form.json",
+          "firm": "Salvador Law Group, PLLC",
+          "form_type": "victim_inventor_counsel_betrayal_declaration",
+          "ghost_docket_role": "victim_inventor_counsel_betrayal_coordinator",
+          "name": "Anthony G. Salvador, Esq.",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/benjamin_england_victim_inventor_form.json",
+          "firm": "Benjamin L. England & Associates, LLC",
+          "form_type": "victim_inventor_counsel_fda_ip_regulatory_declaration",
+          "ghost_docket_role": "victim_inventor_fda_ip_regulatory_counsel",
+          "name": "Benjamin L. England, Esq.",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/collegefitness_com_foundational_social_platform.json",
+          "firm": null,
+          "form_type": "foundational_social_networking_platform_declaration",
+          "ghost_docket_role": "foundational_social_networking_platform_misappropriation_nexus",
+          "name": "collegefitness.com",
+          "rico_enabler_flag_in_form": true
+        },
+        {
+          "file": "data/lauren_rich_fine_independent_consultant_form.json",
+          "firm": "Beatrice Advisors, LP",
+          "form_type": "independent_consultant_ulmer_rome_coordination_declaration",
+          "ghost_docket_role": "independent_consultant_ulmer_rome_coordinator",
+          "name": "Lauren Rich Fine, CFA",
+          "rico_enabler_flag_in_form": true
+        }
+      ],
+      "shared_enabler_corruption_adjudicated": false,
+      "subjects_in_scope": [
+        "Elon Musk",
+        "Jensen Huang",
+        "Mark Zuckerberg",
+        "Sam Altman",
+        "Vitalik Buterin",
+        "André Calantzopoulos",
+        "Jamie Salter",
+        "Philip Morris International Inc.",
+        "Authentic Brands Group",
+        "Fyllo / Casters Holdings",
+        "Brent Michael Škoda (victim inventor)"
+      ],
+      "title": "Professional-enabler overlap: victim-corpus firms not authenticated as hidden counsel for named non-victim participants",
+      "vigo_representation": {
+        "interpretation": "No 'VIGO' law firm / counsel label located under data/ or sealed waves. Screened as possible STT for 'legal representation' / hidden counsel. Not upgraded to an authenticated entity.",
+        "operator_phrase": "vigo representation",
+        "status": "UNLOCATED_LABEL"
+      }
+    }
+  ],
+  "generated_at": "2026-07-23T16:41:25Z",
+  "policy": "Wave-24 screens named participants, PMI/Altria/Juul-Pax-Ploom, Fortune 100 IP-licensing facilitator status, traced ENS addresses, state/cartel cyber-dust claims, and professional-enabler overlap. Subsidiaries are not invented. No illicit-participant, royalty, state-actor, or corruption adjudication.",
+  "seal": "01e882f1336e2e41083156956ec4a2641c2756fe5f93298ed20cb12eeecee94f",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "participants_lifetime_entities_addresses",
+      "next_actions": [
+        "High-activity wallets (vitalik/jamiesalter/elonmusk/pmi/philipmorris/sama) may hit page caps — supply archive node for full lifetime if required",
+        "Do not treat vanity ENS squats as authenticated identity of the named public figure"
+      ],
+      "status": "SEALED",
+      "title": "Participants + lifetime entities + exhaustive address traces"
+    },
+    {
+      "adjudicated": false,
+      "id": "pmi_philip_morris_entities_personnel",
+      "next_actions": [
+        "SEC Exhibit 21 / subsidiary list for PMI if nested-entity claim expands (live EDGAR may 403)",
+        "Do not treat pmi.eth/philipmorris.eth vanity resolutions as PMI corporate wallets"
+      ],
+      "status": "SEALED",
+      "title": "Philip Morris / PMI entities and personnel expansion"
+    },
+    {
+      "adjudicated": false,
+      "id": "altria_entities_personnel_subsidiaries",
+      "next_actions": [
+        "Altria Form 10-K Exhibit 21 for exhaustive subsidiary legal names when SEC access available",
+        "Do not treat philipmorrisusa.eth/pmusa.eth/njoy.eth as authenticated Altria wallets"
+      ],
+      "status": "SEALED",
+      "title": "Altria Group personnel, entities, and subsidiaries expansion"
+    },
+    {
+      "adjudicated": false,
+      "id": "juul_pax_ploom_entities_personnel",
+      "next_actions": [
+        "Corporate registries / Exhibit 21 for Juul Labs Inc. and Pax Labs Inc. if legal-entity exhaustion beyond wiki is required",
+        "Do not treat juul.eth/pax.eth/ploom.eth vanity resolutions as authenticated corporate wallets"
+      ],
+      "status": "SEALED",
+      "title": "Juul Labs / Pax Labs / Ploom personnel & affiliated entities"
+    },
+    {
+      "adjudicated": false,
+      "id": "fortune_100_ip_licensing_facilitators",
+      "next_actions": [
+        "Batch SEC Exhibit 21 for each Fortune 100 registrant to authenticate IP holdcos",
+        "Do not treat absence of Exhibit 21 ingest as positive evidence of hidden licensing shells"
+      ],
+      "status": "SEALED",
+      "title": "Fortune 100 IP / licensing facilitator entity screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "state_cartel_cyber_dust_nexus",
+      "next_actions": [
+        "OFAC/OpenSanctions authenticated pulls when API credentials available",
+        "Do not upgrade corpus declarations into adjudicated state-actor payment rails"
+      ],
+      "status": "SEALED",
+      "title": "State / cartel / cyber-dust nexus screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "professional_enabler_hidden_counsel_overlap",
+      "next_actions": [
+        "If operator has a 'VIGO' entity path or retainer evidence, supply for deterministic ingest",
+        "EDGAR counsel-exhibit pulls when SEC API access restored"
+      ],
+      "status": "SEALED",
+      "title": "Professional enablers / hidden counsel overlap screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W24-M1",
+          "item": "Authenticate figure↔wallet binding before treating vanity ENS as participant treasury",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W24-M2",
+          "item": "PMI Exhibit 21 / global subsidiary schedule if nested PMI claim expands",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W24-M2b",
+          "item": "Altria Form 10-K Exhibit 21 for exhaustive subsidiary legal names",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W24-M3",
+          "item": "Clarify 'vigo representation' entity or treat as unlocated STT label",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W24-M4",
+          "item": "OFAC/OpenSanctions credentials for Lazarus/Sinaloa/GRU address screening",
+          "priority": "MEDIUM"
+        },
+        {
+          "id": "W24-M5",
+          "item": "Juul/Pax/Ploom corporate Exhibit 21 / registry extracts if legal-entity exhaustion beyond wiki required",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W24-M6",
+          "item": "Fortune 100 Exhibit 21 batch ingest required before any IP-licensing-subsidiary census claim",
+          "priority": "HIGH"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-24 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE24"
+}
