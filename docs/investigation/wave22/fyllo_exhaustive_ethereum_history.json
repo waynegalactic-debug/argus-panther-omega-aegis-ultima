@@ -1,0 +1,1161 @@
+{
+  "address_meta": {
+    "coin_balance": "8258725060163222450",
+    "ens_domain_name": "erikshani.eth",
+    "sha256": "52f4fc6d3f291e17b27c78b393c34368d2afe0746d4545efed05a97901d74472"
+  },
+  "findings": [
+    {
+      "activity_span": {
+        "earliest": "2021-12-19T02:44:24.000000Z",
+        "latest": "2023-12-20T17:02:35.000000Z",
+        "newest_hash": "0xd7c8f7fd47ed0a623e76180102613430e9ce814f7a4edc07d8d368ec8cf1ed04",
+        "oldest_hash": "0xd35af3da852b46e72e2a4398bf889692f2cba5b52c7450d12ecdbb788bfffeec"
+      },
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "balance_eth": 8.258725060163222,
+      "chain_scope": "ethereum_mainnet_only",
+      "cyber_dust_candidates_lt_1e12_wei": 0,
+      "cyber_dust_illicit_flow_adjudicated": false,
+      "detail": "Full Blockscout pagination exhausted: 119 external txs (3 pages), 5 internal, 95 token transfers. Span 2021-12-19T02:44:24.000000Z → 2023-12-20T17:02:35.000000Z. Dominant counterparties are NFT marketplace / mint contracts (X2Y2 run, OpenSea, Bored Bad Bunny freeMint, ENS registrar, MetaMask swap). Cyber-dust candidates in full scan: 0. No token name/symbol matches patent/royalty/Skoda/Ahkeo/WIPO/ABG.",
+      "dominant_activity_class": "nft_marketplace_and_collectible_mints",
+      "genesis_note": "Operator 'Web3 genesis → date' interpreted as exhaustive public history from first observed on-chain activity of the Fyllo-linked EOA through latest tx. Ethereum genesis block itself has no Fyllo activity; other L1s not in scope without additional address evidence.",
+      "id": "W22-F2",
+      "internal_tx_count": 5,
+      "ip_or_abg_keyword_token_hits": [],
+      "is_contract": false,
+      "method_counts": {
+        "approve": 3,
+        "atomicMatch_": 1,
+        "cancelOrder_": 2,
+        "commit": 2,
+        "freeMint": 10,
+        "matchOrders": 2,
+        "mintNFTDuringPresale": 1,
+        "presaleMint": 1,
+        "registerProxy": 1,
+        "registerWithConfig": 3,
+        "run": 68,
+        "setApprovalForAll": 5,
+        "setName": 1,
+        "swap": 5,
+        "transfer": 1,
+        "unknown": 13
+      },
+      "nonce": 111,
+      "royalty_payment_adjudicated": false,
+      "title": "Exhaustive Ethereum history for fyllo.eth EOA sealed (first activity → latest)",
+      "token_symbols_top": [
+        [
+          "MEC",
+          8
+        ],
+        [
+          "FOLK",
+          6
+        ],
+        [
+          "APE",
+          6
+        ],
+        [
+          "PABI",
+          5
+        ],
+        [
+          "END",
+          4
+        ],
+        [
+          "POP",
+          4
+        ],
+        [
+          "MM",
+          4
+        ],
+        [
+          "LANGELS",
+          4
+        ],
+        [
+          "XOXO",
+          4
+        ],
+        [
+          "LORDNFT",
+          4
+        ],
+        [
+          "OXYA",
+          3
+        ],
+        [
+          "KCG",
+          3
+        ],
+        [
+          "BBB",
+          3
+        ],
+        [
+          "Airdrop",
+          2
+        ],
+        [
+          "DGFAM",
+          2
+        ],
+        [
+          "SCORCH",
+          2
+        ],
+        [
+          "DSRP",
+          2
+        ],
+        [
+          "Babies",
+          2
+        ],
+        [
+          "BUNNY",
+          2
+        ],
+        [
+          "IAP",
+          2
+        ],
+        [
+          "USDC",
+          2
+        ],
+        [
+          "ENS",
+          2
+        ],
+        [
+          "DIXT",
+          1
+        ],
+        [
+          "FAM",
+          1
+        ],
+        [
+          "HEX",
+          1
+        ]
+      ],
+      "token_transfer_count": 95,
+      "token_types": {
+        "ERC-1155": 4,
+        "ERC-20": 16,
+        "ERC-721": 75
+      },
+      "top_counterparties": [
+        {
+          "address": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+          "count": 68,
+          "label": "X2Y2 / TransparentUpgradeableProxy (NFT marketplace run)"
+        },
+        {
+          "address": "0x96f98c60c04ba6fe47b3315e3689b270b3952e26",
+          "count": 10,
+          "label": "Bored Bad Bunny (freeMint)"
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "count": 5,
+          "label": "MetaMask MetaSwap"
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 5,
+          "label": "ENS ETHRegistrarController"
+        },
+        {
+          "address": "0x9372b371196751dd2f603729ae8d8014bbeb07f6",
+          "blockscout_name": "BoredBunny",
+          "count": 3,
+          "is_contract": true,
+          "label": null
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "count": 2,
+          "label": "OpenSea Seaport"
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x8d738f36074c4be1443a1993c32929718ab4b461",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+          "count": 2,
+          "label": "ApeCoin (APE) token"
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "count": 2,
+          "label": "OpenSea WyvernExchange"
+        },
+        {
+          "address": "0x3243ac6f63f75e260346a14e1d1445f2a2708444",
+          "blockscout_name": "Babies",
+          "count": 1,
+          "is_contract": true,
+          "label": null
+        },
+        {
+          "address": "0xe106c63e655df0e300b78336af587f300cff9e76",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xf18bf4750bf060b9b9606de575304706d501737e",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xdfe67f0a130297215da931e2dc6199219e172f74",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xf7d134224a66c6a4ddeb7dee714a280b99044805",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x66ac7c1d709c5707b3a2fccaa025d07dcd7c2624",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x084b1c3c81545d370f3634392de611caabff8148",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+          "count": 1,
+          "label": null
+        }
+      ],
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_items": 119,
+      "tx_pages": 3
+    }
+  ],
+  "id": "fyllo_exhaustive_ethereum_history",
+  "internal_transactions": {
+    "exhausted_pages": true,
+    "item_count": 5,
+    "ok": true,
+    "pages": 1,
+    "sample": [
+      {
+        "from": "0x74312363e45DCaBA76c59ec49a7Aa8A65a67EeD3",
+        "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "tx": "0x5b6c1297358fbf0e032514c88e5fdac6c15f502113741049483aebd29e1a267e",
+        "type": "call",
+        "value": "49750000000000000"
+      },
+      {
+        "from": "0x74312363e45DCaBA76c59ec49a7Aa8A65a67EeD3",
+        "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "tx": "0x5b6c1297358fbf0e032514c88e5fdac6c15f502113741049483aebd29e1a267e",
+        "type": "call",
+        "value": "49750000000000000"
+      },
+      {
+        "from": "0x74de5d4FCbf63E00296fd95d33236B9794016631",
+        "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "tx": "0xa1e6f40ef2e7b1c65b4b21b44546fb0b064bc2ff4f159dbbd2d3ab818aa77995",
+        "type": "call",
+        "value": "556799906449933784"
+      },
+      {
+        "from": "0x283Af0B28c62C092C9727F1Ee09c02CA627EB7F5",
+        "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "tx": "0x7725c37db281e50c03f7af286f515b5027a27ba2f28b1f28a6c5ba680ab15a0a",
+        "type": "call",
+        "value": "830319300723747"
+      },
+      {
+        "from": "0x283Af0B28c62C092C9727F1Ee09c02CA627EB7F5",
+        "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "tx": "0xdb14f9fd777a0f40f0f0c501621ff3b7f7bb6b39609abbc77202e69a273ec204",
+        "type": "call",
+        "value": "441592773756156"
+      }
+    ]
+  },
+  "next_actions": [
+    "Other chains only if operator supplies Fyllo-linked addresses beyond Ethereum",
+    "Do not treat NFT marketplace ETH as patent royalties or ABG control payments"
+  ],
+  "rpc": {
+    "balance_wei_hex": "0x729ce2af84a53bb2",
+    "nonce_hex": "0x6f",
+    "url": "https://ethereum.publicnode.com"
+  },
+  "status": "SEALED",
+  "title": "Exhaustive fyllo.eth Ethereum activity (first tx → date)",
+  "token_transfers": {
+    "exhausted_pages": true,
+    "ip_keyword_hits": [],
+    "item_count": 95,
+    "ok": true,
+    "pages": 2,
+    "sample": [
+      {
+        "name": "DIXT.FINANCE",
+        "symbol": "DIXT",
+        "timestamp": "2026-05-16T09:48:59.000000Z",
+        "token_address": "0x43e6228b5bF22Eab754486082cA91FdD8585521A",
+        "tx": "0xec723fc6000136ffd944a9d28531636a564de2aac4b42398e2180b6302368d7a",
+        "type": "ERC-20"
+      },
+      {
+        "name": "yefam.finance",
+        "symbol": "FAM",
+        "timestamp": "2026-03-30T05:45:35.000000Z",
+        "token_address": "0x9D24364b97270961b2948734aFe8d58832Efd43a",
+        "tx": "0xcc76868add15f68af88461a6ba183cf3744d0dd707302fab94c3ff4b1e3bab5a",
+        "type": "ERC-20"
+      },
+      {
+        "name": "HEX",
+        "symbol": "HEX",
+        "timestamp": "2026-03-29T04:21:23.000000Z",
+        "token_address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "tx": "0x04d1c7594dd89d56b0e6377f6cf4a79115ebd90ba6fff42a1a7f02dafcfbd1a2",
+        "type": "ERC-20"
+      },
+      {
+        "name": "QCORE.FINANCE",
+        "symbol": "QCORE",
+        "timestamp": "2026-03-09T05:20:59.000000Z",
+        "token_address": "0x82866b4A71BA9d930Fe338C386B6A45a7133eb36",
+        "tx": "0x229b393c0d004e5ac93167e0003fe671524b2e1700054dcbcc6742e967533c94",
+        "type": "ERC-20"
+      },
+      {
+        "name": "Malamute.Finance",
+        "symbol": "MALLY",
+        "timestamp": "2026-01-31T03:59:35.000000Z",
+        "token_address": "0xA3E7833775A9Cc022DB2c72EB900378F90cE89B4",
+        "tx": "0xb03d6568e908521df35c868fa4ec82ed85a204bc86770fa4eb176c8e625bc1e2",
+        "type": "ERC-20"
+      },
+      {
+        "name": "WETH",
+        "symbol": "WETH",
+        "timestamp": "2025-08-30T00:37:11.000000Z",
+        "token_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "tx": "0x850202753a0bd53b5422d2f21b745c4753d880e083f813a1d91ddadbd915f91a",
+        "type": "ERC-20"
+      },
+      {
+        "name": "LqETH.org",
+        "symbol": "Airdrop",
+        "timestamp": "2023-12-26T03:07:35.000000Z",
+        "token_address": "0x0108cAAE4d45349A7061DFC15DB076E780AF7F2d",
+        "tx": "0x4a889ad8fff127ed19daada2b9c6bad3e1c6099bf48f7fa89bd9e58d64368436",
+        "type": "ERC-1155"
+      },
+      {
+        "name": "ЕTН...",
+        "symbol": "ЕTН",
+        "timestamp": "2023-12-06T01:09:59.000000Z",
+        "token_address": "0x619ef4dfaCB9c33729c8a88132581BFB62E5050C",
+        "tx": "0x83c154415ba96b39a6ba510c036895b5314234e1961b35bd16d7c07f1111bbbe",
+        "type": "ERC-20"
+      },
+      {
+        "name": "ethapy.io",
+        "symbol": "Airdrop",
+        "timestamp": "2023-10-17T02:01:59.000000Z",
+        "token_address": "0xd5e45E5BD77a2E3a2df773Ad11cCd1a1d1Da4528",
+        "tx": "0x1ee7192391be8a7a08a95e38621459a526f65a4fbd919c0f42dbf603801c33d4",
+        "type": "ERC-1155"
+      },
+      {
+        "name": "DGFamily",
+        "symbol": "DGFAM",
+        "timestamp": "2022-12-24T14:25:11.000000Z",
+        "token_address": "0xEb6C5acCafD8515c1b9E4c794bDC41532C5543EC",
+        "tx": "0xd7651df64967649e67aa6dde8dc24fd94f4be8d84010040c915ffc066c59747e",
+        "type": "ERC-721"
+      },
+      {
+        "name": "DGFamily",
+        "symbol": "DGFAM",
+        "timestamp": "2022-12-24T14:24:59.000000Z",
+        "token_address": "0xEb6C5acCafD8515c1b9E4c794bDC41532C5543EC",
+        "tx": "0x8f6943542bf4832b3757dda6df99318c803bd39f317279d85e0dbef481d1a720",
+        "type": "ERC-721"
+      },
+      {
+        "name": "Layers",
+        "symbol": "LAYERS",
+        "timestamp": "2022-12-24T14:24:47.000000Z",
+        "token_address": "0xa9248a0935EB476cFE2f286Df813a48D06ffd2e2",
+        "tx": "0xd54da2826c0d128f1ab1823681c3d02860c871c1c44c1fb7cec07f804bf16c2f",
+        "type": "ERC-721"
+      },
+      {
+        "name": "The Internet's Team",
+        "symbol": "SCORCH",
+        "timestamp": "2022-12-24T14:24:35.000000Z",
+        "token_address": "0x7FeA34e2Dc6f63CCD8465ceF3DD616DB0762759f",
+        "tx": "0x6c2ddc00ddddba43af47242736fdaa674a8e321b01dc69a2a11f02d3f51b0d27",
+        "type": "ERC-721"
+      },
+      {
+        "name": "The Internet's Team",
+        "symbol": "SCORCH",
+        "timestamp": "2022-12-24T14:23:47.000000Z",
+        "token_address": "0x7FeA34e2Dc6f63CCD8465ceF3DD616DB0762759f",
+        "tx": "0xcd806c0f346709511ba5292ab70b1ef6981942772798428e233cfc445653e782",
+        "type": "ERC-721"
+      },
+      {
+        "name": "dissrup",
+        "symbol": "DSRP",
+        "timestamp": "2022-12-17T19:37:23.000000Z",
+        "token_address": "0xE882630c4be2B9E14c97B03cc6c54EDb2f8B3e90",
+        "tx": "0x1b8dfc05414fa915ff91f49b556ffb8bd3b97cda1b8559c3caf02cc4a989d873",
+        "type": "ERC-1155"
+      },
+      {
+        "name": "dissrup",
+        "symbol": "DSRP",
+        "timestamp": "2022-12-17T19:36:47.000000Z",
+        "token_address": "0xE882630c4be2B9E14c97B03cc6c54EDb2f8B3e90",
+        "tx": "0x7e0b9e65c15174dfff1ac524b1ab701cf98b4b96e85aadea50160b27b8129d43",
+        "type": "ERC-1155"
+      },
+      {
+        "name": "end of sartoshi",
+        "symbol": "END",
+        "timestamp": "2022-12-12T13:29:59.000000Z",
+        "token_address": "0xf7D134224A66C6A4DDeb7dEe714A280b99044805",
+        "tx": "0x5b6c1297358fbf0e032514c88e5fdac6c15f502113741049483aebd29e1a267e",
+        "type": "ERC-721"
+      },
+      {
+        "name": "end of sartoshi",
+        "symbol": "END",
+        "timestamp": "2022-12-12T13:29:59.000000Z",
+        "token_address": "0xf7D134224A66C6A4DDeb7dEe714A280b99044805",
+        "tx": "0x5b6c1297358fbf0e032514c88e5fdac6c15f502113741049483aebd29e1a267e",
+        "type": "ERC-721"
+      },
+      {
+        "name": "Probably Something",
+        "symbol": "PSGENPASS",
+        "timestamp": "2022-12-12T13:22:59.000000Z",
+        "token_address": "0x0e6c54Bdf6BFc75777c23dD2B7504D82B484582A",
+        "tx": "0xc6de0155e43ece8ab4573a737fd13897ebc5bca6e567ce286467e8b73b18a510",
+        "type": "ERC-721"
+      },
+      {
+        "name": "OxyaOriginProject",
+        "symbol": "OXYA",
+        "timestamp": "2022-12-11T21:29:47.000000Z",
+        "token_address": "0xE106C63E655dF0E300b78336af587F300Cff9e76",
+        "tx": "0x12ee105bef37e7ebf8e60a8a55c8877b9b35b4b11cb3aba086a6f29e18641812",
+        "type": "ERC-721"
+      },
+      {
+        "name": "OxyaOriginProject",
+        "symbol": "OXYA",
+        "timestamp": "2022-12-11T21:29:11.000000Z",
+        "token_address": "0xE106C63E655dF0E300b78336af587F300Cff9e76",
+        "tx": "0x46d715fd67b3957b7d87000c5c38211564353733f40e20361beb0d2f99e24f62",
+        "type": "ERC-721"
+      },
+      {
+        "name": "OxyaOriginProject",
+        "symbol": "OXYA",
+        "timestamp": "2022-12-11T21:28:35.000000Z",
+        "token_address": "0xE106C63E655dF0E300b78336af587F300Cff9e76",
+        "tx": "0x8c56b10c556002b5bbfea9877941fc558ab5f50c0b164057504591ce1fd0e82a",
+        "type": "ERC-721"
+      },
+      {
+        "name": "THE POPULARS",
+        "symbol": "POP",
+        "timestamp": "2022-12-11T21:27:11.000000Z",
+        "token_address": "0xe437fed69Ec8eC6243d767cbaeA15A105f51875A",
+        "tx": "0xaef1319bcbb9e8f42e042c381722fdea46fc93ec3b082baedab9526d613758a9",
+        "type": "ERC-721"
+      },
+      {
+        "name": "THE POPULARS",
+        "symbol": "POP",
+        "timestamp": "2022-12-11T21:26:35.000000Z",
+        "token_address": "0xe437fed69Ec8eC6243d767cbaeA15A105f51875A",
+        "tx": "0x42f8e5d19f412eb1d7478d677a0fda105df4c4b8b605f023a2bcb2b09f955a8e",
+        "type": "ERC-721"
+      },
+      {
+        "name": "THE POPULARS",
+        "symbol": "POP",
+        "timestamp": "2022-12-11T21:25:47.000000Z",
+        "token_address": "0xe437fed69Ec8eC6243d767cbaeA15A105f51875A",
+        "tx": "0xf9fc04a91d68c45e891225d915365673b1f932df056bbe37d648b4971fb14561",
+        "type": "ERC-721"
+      },
+      {
+        "name": "THE POPULARS",
+        "symbol": "POP",
+        "timestamp": "2022-12-11T21:24:47.000000Z",
+        "token_address": "0xe437fed69Ec8eC6243d767cbaeA15A105f51875A",
+        "tx": "0xb5258737d685c4c544f1534b0648933acaee2eeffedd8b211899ee81a762c5b0",
+        "type": "ERC-721"
+      },
+      {
+        "name": "Babies",
+        "symbol": "Babies",
+        "timestamp": "2022-10-19T12:36:11.000000Z",
+        "token_address": "0x3243ac6F63F75e260346a14e1D1445f2a2708444",
+        "tx": "0x98a08cb989127f9e2e0734accc5cb61be901e7c39790ef874c5b96845df66df8",
+        "type": "ERC-721"
+      },
+      {
+        "name": "PhrazeBoard",
+        "symbol": "PHRAZE",
+        "timestamp": "2022-10-19T12:35:23.000000Z",
+        "token_address": "0x6A4d7Ec91BB76252fa9C2d3aAbb19d04eF61095d",
+        "tx": "0x11f7812d1c72cad22b5dd67ad10fa9e3054a634e984f8e5f92110c59ebfebb0a",
+        "type": "ERC-721"
+      },
+      {
+        "name": "Bored Bunny",
+        "symbol": "BUNNY",
+        "timestamp": "2022-10-19T12:34:23.000000Z",
+        "token_address": "0x9372b371196751dd2F603729Ae8D8014BbeB07f6",
+        "tx": "0x4fabf07cb5448b6586205cef8f4f67b906450d22c800e52484c374396ad939e7",
+        "type": "ERC-721"
+      },
+      {
+        "name": "Culture Cubs",
+        "symbol": "CCUBS",
+        "timestamp": "2022-10-19T12:34:23.000000Z",
+        "token_address": "0x7bE3FdAc0F6DA6d4460fC2e4937D0017F8E494fA",
+        "tx": "0xab55afc052f95ee97f4f32f3d75dc38b544cdcf194e0694942d47d56e3f3e0b4",
+        "type": "ERC-721"
+      }
+    ],
+    "sha256_pages": [
+      "9653773c5175f6da0309a44b5a002ffd76b7c31546b3bcd24f52fe12489004f9",
+      "e69a0c5d7b060cbab32d8bc4978d1c55caecdaba035cdb829172afbc4020c23d"
+    ],
+    "symbols_top": [
+      [
+        "MEC",
+        8
+      ],
+      [
+        "FOLK",
+        6
+      ],
+      [
+        "APE",
+        6
+      ],
+      [
+        "PABI",
+        5
+      ],
+      [
+        "END",
+        4
+      ],
+      [
+        "POP",
+        4
+      ],
+      [
+        "MM",
+        4
+      ],
+      [
+        "LANGELS",
+        4
+      ],
+      [
+        "XOXO",
+        4
+      ],
+      [
+        "LORDNFT",
+        4
+      ],
+      [
+        "OXYA",
+        3
+      ],
+      [
+        "KCG",
+        3
+      ],
+      [
+        "BBB",
+        3
+      ],
+      [
+        "Airdrop",
+        2
+      ],
+      [
+        "DGFAM",
+        2
+      ],
+      [
+        "SCORCH",
+        2
+      ],
+      [
+        "DSRP",
+        2
+      ],
+      [
+        "Babies",
+        2
+      ],
+      [
+        "BUNNY",
+        2
+      ],
+      [
+        "IAP",
+        2
+      ],
+      [
+        "USDC",
+        2
+      ],
+      [
+        "ENS",
+        2
+      ],
+      [
+        "DIXT",
+        1
+      ],
+      [
+        "FAM",
+        1
+      ],
+      [
+        "HEX",
+        1
+      ],
+      [
+        "QCORE",
+        1
+      ],
+      [
+        "MALLY",
+        1
+      ],
+      [
+        "WETH",
+        1
+      ],
+      [
+        "ЕTН",
+        1
+      ],
+      [
+        "LAYERS",
+        1
+      ]
+    ],
+    "types": {
+      "ERC-1155": 4,
+      "ERC-20": 16,
+      "ERC-721": 75
+    }
+  },
+  "transactions": {
+    "dust_sample": [],
+    "exhausted_pages": true,
+    "item_count": 119,
+    "methods": {
+      "approve": 3,
+      "atomicMatch_": 1,
+      "cancelOrder_": 2,
+      "commit": 2,
+      "freeMint": 10,
+      "matchOrders": 2,
+      "mintNFTDuringPresale": 1,
+      "presaleMint": 1,
+      "registerProxy": 1,
+      "registerWithConfig": 3,
+      "run": 68,
+      "setApprovalForAll": 5,
+      "setName": 1,
+      "swap": 5,
+      "transfer": 1,
+      "unknown": 13
+    },
+    "nonzero_eth_sample": [
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x4e299abdf7162cfad4bc9bcbfa5708f4d1bbad554820078c1c96265dce8583d2",
+        "method": null,
+        "timestamp": "2023-12-06T01:08:23.000000Z",
+        "to": "0xf18bf4750bf060b9b9606de575304706d501737e",
+        "value_eth": 0.2,
+        "value_wei": 200000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xdfe67f0a130297215da931e2dc6199219e172f74",
+        "hash": "0xdd8a7d8338e17da23e9f020dba969e68fae967b7e5d251296718e6dde9d789d9",
+        "method": null,
+        "timestamp": "2023-12-01T19:28:11.000000Z",
+        "to": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "value_eth": 0.2,
+        "value_wei": 200000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xd7651df64967649e67aa6dde8dc24fd94f4be8d84010040c915ffc066c59747e",
+        "method": "run",
+        "timestamp": "2022-12-24T14:25:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.49,
+        "value_wei": 490000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x8f6943542bf4832b3757dda6df99318c803bd39f317279d85e0dbef481d1a720",
+        "method": "run",
+        "timestamp": "2022-12-24T14:24:59.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.2135,
+        "value_wei": 213500000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xd54da2826c0d128f1ab1823681c3d02860c871c1c44c1fb7cec07f804bf16c2f",
+        "method": "run",
+        "timestamp": "2022-12-24T14:24:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.19,
+        "value_wei": 190000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x6c2ddc00ddddba43af47242736fdaa674a8e321b01dc69a2a11f02d3f51b0d27",
+        "method": "run",
+        "timestamp": "2022-12-24T14:24:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0899,
+        "value_wei": 89900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xcd806c0f346709511ba5292ab70b1ef6981942772798428e233cfc445653e782",
+        "method": "run",
+        "timestamp": "2022-12-24T14:23:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0899,
+        "value_wei": 89900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x1b8dfc05414fa915ff91f49b556ffb8bd3b97cda1b8559c3caf02cc4a989d873",
+        "method": "matchOrders",
+        "timestamp": "2022-12-17T19:37:23.000000Z",
+        "to": "0x00000000006c3852cbef3e08e8df289169ede581",
+        "value_eth": 0.0059,
+        "value_wei": 5900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x7e0b9e65c15174dfff1ac524b1ab701cf98b4b96e85aadea50160b27b8129d43",
+        "method": "matchOrders",
+        "timestamp": "2022-12-17T19:36:47.000000Z",
+        "to": "0x00000000006c3852cbef3e08e8df289169ede581",
+        "value_eth": 0.0059,
+        "value_wei": 5900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xc6de0155e43ece8ab4573a737fd13897ebc5bca6e567ce286467e8b73b18a510",
+        "method": "run",
+        "timestamp": "2022-12-12T13:22:59.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.42,
+        "value_wei": 420000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x12ee105bef37e7ebf8e60a8a55c8877b9b35b4b11cb3aba086a6f29e18641812",
+        "method": "run",
+        "timestamp": "2022-12-11T21:29:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0969,
+        "value_wei": 96900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x46d715fd67b3957b7d87000c5c38211564353733f40e20361beb0d2f99e24f62",
+        "method": "run",
+        "timestamp": "2022-12-11T21:29:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0969,
+        "value_wei": 96900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x8c56b10c556002b5bbfea9877941fc558ab5f50c0b164057504591ce1fd0e82a",
+        "method": "run",
+        "timestamp": "2022-12-11T21:28:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0969,
+        "value_wei": 96900000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xaef1319bcbb9e8f42e042c381722fdea46fc93ec3b082baedab9526d613758a9",
+        "method": "run",
+        "timestamp": "2022-12-11T21:27:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x42f8e5d19f412eb1d7478d677a0fda105df4c4b8b605f023a2bcb2b09f955a8e",
+        "method": "run",
+        "timestamp": "2022-12-11T21:26:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xf9fc04a91d68c45e891225d915365673b1f932df056bbe37d648b4971fb14561",
+        "method": "run",
+        "timestamp": "2022-12-11T21:25:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xb5258737d685c4c544f1534b0648933acaee2eeffedd8b211899ee81a762c5b0",
+        "method": "run",
+        "timestamp": "2022-12-11T21:24:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x98a08cb989127f9e2e0734accc5cb61be901e7c39790ef874c5b96845df66df8",
+        "method": "run",
+        "timestamp": "2022-10-19T12:36:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0137,
+        "value_wei": 13700000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x11f7812d1c72cad22b5dd67ad10fa9e3054a634e984f8e5f92110c59ebfebb0a",
+        "method": "run",
+        "timestamp": "2022-10-19T12:35:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.025,
+        "value_wei": 25000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x4fabf07cb5448b6586205cef8f4f67b906450d22c800e52484c374396ad939e7",
+        "method": "run",
+        "timestamp": "2022-10-19T12:34:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.02,
+        "value_wei": 20000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xab55afc052f95ee97f4f32f3d75dc38b544cdcf194e0694942d47d56e3f3e0b4",
+        "method": "run",
+        "timestamp": "2022-10-19T12:34:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.05,
+        "value_wei": 50000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xd8588735d780844320b7e74c0cfbddbffefa64344afc187840840f3c3b44c7cd",
+        "method": "run",
+        "timestamp": "2022-10-19T12:34:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.35,
+        "value_wei": 350000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x8fce3b44622ad0836169c13f73ea25dd865b3af0e77fa3f1ff70c1bacb5590b8",
+        "method": "run",
+        "timestamp": "2022-10-19T12:32:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.21,
+        "value_wei": 210000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xc832ae0ba35ec10bbc16849e75b62a21bb509110d2a9aaea593ee986484bc331",
+        "method": "run",
+        "timestamp": "2022-10-19T12:31:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.005,
+        "value_wei": 5000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x167fb9fc06fe4e871a32893ef5663e81b50fc2847f7484525844ad620ff2c1e1",
+        "method": "run",
+        "timestamp": "2022-10-19T12:31:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.08,
+        "value_wei": 80000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x0b04d34016945882f1064b6092225d8da7365a66b36782af2b249ce80a8a941c",
+        "method": "run",
+        "timestamp": "2022-10-19T12:31:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.1,
+        "value_wei": 100000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xb83e9abacb5d2f3eb11522354a7949614e777f6d733dfa11d61d854c24719e7f",
+        "method": "run",
+        "timestamp": "2022-10-19T12:31:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.13,
+        "value_wei": 130000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x803f88a22458e0b9014e803b2359a55e5057c87ad27a9a656d362d1125c88132",
+        "method": "run",
+        "timestamp": "2022-10-19T12:30:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xbbd4fbe34b6f9a7ad3b73ca878a724dcbea1e558355a14478aa34e15abad223a",
+        "method": "run",
+        "timestamp": "2022-10-19T12:30:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0137,
+        "value_wei": 13700000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x9838e056169ec21351a4730490ac379f2e3b6bfcdabf20f44962aa770e047192",
+        "method": "run",
+        "timestamp": "2022-10-18T15:36:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0085,
+        "value_wei": 8500000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xecc3d40a2d8134d29cd2fcffcaa0b198794431292bc50a48faf32e708158c1da",
+        "method": "run",
+        "timestamp": "2022-10-18T15:36:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0085,
+        "value_wei": 8500000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x526498a4ba1658b1c67d26ef02829fcff77b03e4a64da50a88baeaa4c6aa4907",
+        "method": "run",
+        "timestamp": "2022-10-18T15:36:11.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.005,
+        "value_wei": 5000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xe57af28d413f7c16db5efb9ce3e3115eb5dc365432ff0308f5867075237508c9",
+        "method": "run",
+        "timestamp": "2022-10-18T15:35:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.005,
+        "value_wei": 5000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x50146ec388dd010ed26a69cd2a7ce27ef274ccafde644e1b078d4b1cc4fe422c",
+        "method": "run",
+        "timestamp": "2022-10-18T15:34:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x92c1aab887b0eefedffbf361a7cdfc404c06c2a66dcf0816b5092f27d7cddc58",
+        "method": "run",
+        "timestamp": "2022-10-18T15:33:59.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.005,
+        "value_wei": 5000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xfa0219d3b842d74dc6b60c5eea80439d0233498aa944b69925d49e91a559fb6d",
+        "method": "run",
+        "timestamp": "2022-10-18T15:33:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.005,
+        "value_wei": 5000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0xaf60e704cabb1a82c485b3cde24a9eacaa80480dc61d5b16cbf488d75145a7e9",
+        "method": "run",
+        "timestamp": "2022-10-18T15:32:47.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x3ff0440eadfa8a96afa24b94bf04a126c9ded7a88125b9faf064d3d973800981",
+        "method": "run",
+        "timestamp": "2022-10-18T15:31:59.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x6715eec3468fb92777dc6369049c2406bf62fada8806062c79379672391e610e",
+        "method": "run",
+        "timestamp": "2022-10-18T15:31:23.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.01,
+        "value_wei": 10000000000000000
+      },
+      {
+        "block": null,
+        "from": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hash": "0x9a595084a95936c0a3f183ea5d58ea0ba2278e3c95b60e17d1821cf867de0e8d",
+        "method": "run",
+        "timestamp": "2022-10-18T15:29:35.000000Z",
+        "to": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+        "value_eth": 0.0087,
+        "value_wei": 8700000000000000
+      }
+    ],
+    "ok": true,
+    "pages": 3,
+    "sha256_pages": [
+      "10ad895d51501bc4bd47eef0fa90a8ca86777849677ff62b4de4d94f1aaa3abf",
+      "4f4231e5bcca3032f51a86da08ae83273475199af84da72b08cb6e2f9a738727",
+      "5687adbdc6766121a716480ba77a239a3f23070afc6ec502dd5d6f1c3d039e33"
+    ]
+  }
+}

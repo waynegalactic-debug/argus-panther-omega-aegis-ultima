@@ -1,0 +1,417 @@
+{
+  "edgar": {
+    "abg_and_blockchain": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "status": 403,
+      "total": null
+    },
+    "abg_and_fyllo": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "status": 403,
+      "total": null
+    },
+    "abg_and_nft": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "status": 403,
+      "total": null
+    },
+    "jamie_and_fyllo": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "status": 403,
+      "total": null
+    }
+  },
+  "ens": {
+    "abg.eth": {
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "ok": true,
+      "sha256": "e1d256946f6f4b8998ca5bfdf6fde39f1f41fe68462a68edacb29190007c1974"
+    },
+    "authenticbrands.eth": {
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "ok": true,
+      "sha256": "1d5b6e6396b94e60a09818818339a5b2bf36d7334fffefa4bd4ae69a72c3aa5b"
+    },
+    "jamiesalter.eth": {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "ok": true,
+      "sha256": "3e552c5ddbf39510fd0c2216475508b08654eac580759155c5eaf1b53c7481dd"
+    }
+  },
+  "findings": [
+    {
+      "abg_fyllo_commandeering_adjudicated": false,
+      "abg_screens": {
+        "abg.eth": {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 10
+        },
+        "authenticbrands.eth": {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 20
+        },
+        "jamiesalter.eth": {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 400
+        }
+      },
+      "any_fyllo_onchain_hit_vs_abg_ens": false,
+      "detail": "Scanned authenticbrands.eth / abg.eth / jamiesalter.eth activity for direct tx or token-transfer overlap with fyllo.eth EOA: zero hits in scanned pages. Tip-ten probe slots filled from public CEO identification + Wave-18 SEC-named holdcos; remaining slots OPEN. No tip-ten illicit control, ABG commandeering, or fyllo↔ABG payment rail adjudicated. Live EDGAR may 403; Wave-20 sealed Casters×ABG/Jamie Salter = 0 retained.",
+      "edgar_live": {
+        "abg_and_blockchain": "BLOCKED:403",
+        "abg_and_fyllo": "BLOCKED:403",
+        "abg_and_nft": "BLOCKED:403",
+        "jamie_and_fyllo": "BLOCKED:403"
+      },
+      "ghostretail_class_retained": "commercial_platform_customer_co_mention",
+      "id": "W22-F3",
+      "tip_ten_control_candidates": [
+        {
+          "control_adjudicated": false,
+          "ens": "jamiesalter.eth",
+          "ens_address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "name": "Jamie Salter",
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 1,
+          "role_public": "Founder / CEO (public commercial identification — not UBO adjudication)"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_file": "5952305",
+          "ens": "authenticbrands.eth / abg.eth",
+          "name": "Authentic Brands Group Inc.",
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 2,
+          "role_public": "SEC registrant CIK 0001666054"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 3,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 4,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 5,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 6,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 7,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 8,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "name": null,
+          "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+          "rank_probe": 9,
+          "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+        },
+        {
+          "control_adjudicated": false,
+          "name": null,
+          "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+          "rank_probe": 10,
+          "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+        }
+      ],
+      "tip_ten_illicit_control_adjudicated": false,
+      "title": "ABG ENS tip-ten screen: no on-chain fyllo.eth linkage; tip-ten control not adjudicated",
+      "wave20_edgar_casters_abg_zero_retained": true
+    }
+  ],
+  "id": "abg_ens_tip_ten_control_nexus",
+  "next_actions": [
+    "If operator has private ABG org chart / beneficial-owner schedule, supply for counsel-only ingest",
+    "Do not upgrade GhostRetail customer co-mention or shared CSC to tip-ten control"
+  ],
+  "screens": {
+    "abg.eth": {
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "ens_domain_name": null,
+      "fyllo_token_hits": [],
+      "fyllo_tx_hits": [],
+      "is_contract": false,
+      "methods_top": [
+        [
+          "unknown",
+          3
+        ],
+        [
+          "register",
+          1
+        ],
+        [
+          "commit",
+          1
+        ],
+        [
+          "fulfillBasicOrder_efficient_6GL6yc",
+          1
+        ],
+        [
+          "setName",
+          1
+        ],
+        [
+          "setAddr",
+          1
+        ],
+        [
+          "reclaim",
+          1
+        ],
+        [
+          "renew",
+          1
+        ]
+      ],
+      "token_transfer_scanned": 4,
+      "tx_exhausted_within_cap": true,
+      "tx_scanned": 10
+    },
+    "authenticbrands.eth": {
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "ens_domain_name": null,
+      "fyllo_token_hits": [],
+      "fyllo_tx_hits": [],
+      "is_contract": false,
+      "methods_top": [
+        [
+          "commit",
+          7
+        ],
+        [
+          "registerWithConfig",
+          6
+        ],
+        [
+          "safeTransferFrom",
+          3
+        ],
+        [
+          "setOwner",
+          2
+        ],
+        [
+          "unknown",
+          2
+        ]
+      ],
+      "token_transfer_scanned": 10,
+      "tx_exhausted_within_cap": true,
+      "tx_scanned": 20
+    },
+    "jamiesalter.eth": {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "ens_domain_name": "🚀🚀🚀🚀🚀.eth",
+      "fyllo_token_hits": [],
+      "fyllo_tx_hits": [],
+      "is_contract": true,
+      "methods_top": [
+        [
+          "execute",
+          172
+        ],
+        [
+          "unknown",
+          37
+        ],
+        [
+          "depositV3",
+          35
+        ],
+        [
+          "approve",
+          34
+        ],
+        [
+          "exec",
+          18
+        ],
+        [
+          "revoke",
+          14
+        ],
+        [
+          "reinstate",
+          11
+        ],
+        [
+          "bulkRenew",
+          9
+        ],
+        [
+          "transferAndMulticall",
+          8
+        ],
+        [
+          "wrap",
+          7
+        ],
+        [
+          "cancel",
+          6
+        ],
+        [
+          "setAddr",
+          5
+        ]
+      ],
+      "token_transfer_scanned": 150,
+      "tx_exhausted_within_cap": false,
+      "tx_scanned": 400
+    }
+  },
+  "status": "SEALED",
+  "tip_ten_control_candidates": [
+    {
+      "control_adjudicated": false,
+      "ens": "jamiesalter.eth",
+      "ens_address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "name": "Jamie Salter",
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 1,
+      "role_public": "Founder / CEO (public commercial identification — not UBO adjudication)"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_file": "5952305",
+      "ens": "authenticbrands.eth / abg.eth",
+      "name": "Authentic Brands Group Inc.",
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 2,
+      "role_public": "SEC registrant CIK 0001666054"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": null,
+      "name": "ABG Intermediate Holdings 1 LLC",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 3,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": null,
+      "name": "ABG Intermediate Holdings 2 LLC",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 4,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": "4789754",
+      "name": "Authentic Brands Group LLC",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 5,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": null,
+      "name": "ABG Aggregator LLC",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 6,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": null,
+      "name": "ABG Aggregator LP",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 7,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "control_adjudicated": false,
+      "delaware_icis_file_number": null,
+      "name": "ABG Executive Equity Holdco LLC",
+      "onchain_address_authenticated": false,
+      "onchain_link_to_fyllo": false,
+      "rank_probe": 8,
+      "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "control_adjudicated": false,
+      "name": null,
+      "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+      "rank_probe": 9,
+      "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+    },
+    {
+      "control_adjudicated": false,
+      "name": null,
+      "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+      "rank_probe": 10,
+      "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+    }
+  ],
+  "title": "ABG ENS + tip-ten control nexus vs Fyllo chain",
+  "wave18_source": "docs/investigation/wave18/sec_abg_structure.json"
+}

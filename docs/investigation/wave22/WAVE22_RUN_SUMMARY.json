@@ -1,0 +1,584 @@
+{
+  "artifacts": {
+    "abg": "docs/investigation/wave22/abg_ens_tip_ten_control_nexus.json",
+    "chain": "docs/investigation/wave22/fyllo_exhaustive_ethereum_history.json",
+    "ens": "docs/investigation/wave22/fyllo_abg_ens_cluster.json",
+    "ip": "docs/investigation/wave22/ip_linkage_reaffirmation.json",
+    "summary_md": "docs/investigation/WAVE22_FYLLO_EXHAUSTIVE_ABG_TIP_TEN.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 4,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "5290627bdcb50cc72792d7aa7a4bc88ba86cfe1ed90b42520467fcfe53fbaead",
+    "leaves": [
+      {
+        "id": "fyllo_abg_ens_cluster",
+        "sha3_256": "67ff57b877ab5287463ceb527595b136ed9c9b910269641112abe1cf51e4b49f",
+        "status": "SEALED"
+      },
+      {
+        "id": "fyllo_exhaustive_ethereum_history",
+        "sha3_256": "72e4f6d7a7c48e93af32a1749a071172bf87fc6b6d4bfea8888f84bc3ecae763",
+        "status": "SEALED"
+      },
+      {
+        "id": "abg_ens_tip_ten_control_nexus",
+        "sha3_256": "8a9cd25ae4310d1b7b00c8be9dda004eb450beb95d1ff0f26075e8e8577d215b",
+        "status": "SEALED"
+      },
+      {
+        "id": "ip_linkage_reaffirmation",
+        "sha3_256": "31517ebb4945560d82ecd4ea411c2782667b81c65820da421544356a3565f531",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "2c5d1c17886f43fb79e11d0f189a16148d949ef3633c62bfa4cf5207bcdaa990",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "3540fddef02fc4988883e39883d06c0510bbe5d4e52910020b5c74703324a02cd1d32c2176422f0c38f8e51376450ab1bc0f0195700704b86eaee1be4d3b87f2"
+  },
+  "disposition": {
+    "abg_as_ip_payment_conduit_adjudicated": false,
+    "abg_fyllo_commandeering_adjudicated": false,
+    "alleged_15213_authenticated": false,
+    "cyber_dust_illicit_flow_adjudicated": false,
+    "fyllo_history_exhausted_ethereum": true,
+    "royalty_linked_to_stolen_families_adjudicated": false,
+    "royalty_payment_adjudicated": false,
+    "theft_adjudicated": false,
+    "tip_ten_illicit_control_adjudicated": false,
+    "wip_0194_artifact_located": false
+  },
+  "elapsed_ms": 31620,
+  "findings": [
+    {
+      "abg_resolved": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353"
+      },
+      "detail": "fyllo.eth and erikshani.eth both resolve to 0xE739955225Ee00EE9b6e859BcD6C82308bb5E909. hellofyllo.eth / casters.eth / ghostretail.eth / adamarviv.eth / arviv.eth do not resolve. authenticbrands.eth, abg.eth, and jamiesalter.eth resolve to distinct EOAs with zero address overlap vs the Fyllo EOA at ENS-resolution layer.",
+      "ens_address_overlap_fyllo_abg": [],
+      "fyllo_erikshani_same_eoa": true,
+      "fyllo_eth_address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "id": "W22-F1",
+      "title": "Fyllo ENS cluster collapses to one EOA; ABG ENS cluster is disjoint",
+      "unresolved_fyllo_side": [
+        "hellofyllo.eth",
+        "casters.eth",
+        "ghostretail.eth",
+        "adamarviv.eth",
+        "arviv.eth"
+      ]
+    },
+    {
+      "activity_span": {
+        "earliest": "2021-12-19T02:44:24.000000Z",
+        "latest": "2023-12-20T17:02:35.000000Z",
+        "newest_hash": "0xd7c8f7fd47ed0a623e76180102613430e9ce814f7a4edc07d8d368ec8cf1ed04",
+        "oldest_hash": "0xd35af3da852b46e72e2a4398bf889692f2cba5b52c7450d12ecdbb788bfffeec"
+      },
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "balance_eth": 8.258725060163222,
+      "chain_scope": "ethereum_mainnet_only",
+      "cyber_dust_candidates_lt_1e12_wei": 0,
+      "cyber_dust_illicit_flow_adjudicated": false,
+      "detail": "Full Blockscout pagination exhausted: 119 external txs (3 pages), 5 internal, 95 token transfers. Span 2021-12-19T02:44:24.000000Z → 2023-12-20T17:02:35.000000Z. Dominant counterparties are NFT marketplace / mint contracts (X2Y2 run, OpenSea, Bored Bad Bunny freeMint, ENS registrar, MetaMask swap). Cyber-dust candidates in full scan: 0. No token name/symbol matches patent/royalty/Skoda/Ahkeo/WIPO/ABG.",
+      "dominant_activity_class": "nft_marketplace_and_collectible_mints",
+      "genesis_note": "Operator 'Web3 genesis → date' interpreted as exhaustive public history from first observed on-chain activity of the Fyllo-linked EOA through latest tx. Ethereum genesis block itself has no Fyllo activity; other L1s not in scope without additional address evidence.",
+      "id": "W22-F2",
+      "internal_tx_count": 5,
+      "ip_or_abg_keyword_token_hits": [],
+      "is_contract": false,
+      "method_counts": {
+        "approve": 3,
+        "atomicMatch_": 1,
+        "cancelOrder_": 2,
+        "commit": 2,
+        "freeMint": 10,
+        "matchOrders": 2,
+        "mintNFTDuringPresale": 1,
+        "presaleMint": 1,
+        "registerProxy": 1,
+        "registerWithConfig": 3,
+        "run": 68,
+        "setApprovalForAll": 5,
+        "setName": 1,
+        "swap": 5,
+        "transfer": 1,
+        "unknown": 13
+      },
+      "nonce": 111,
+      "royalty_payment_adjudicated": false,
+      "title": "Exhaustive Ethereum history for fyllo.eth EOA sealed (first activity → latest)",
+      "token_symbols_top": [
+        [
+          "MEC",
+          8
+        ],
+        [
+          "FOLK",
+          6
+        ],
+        [
+          "APE",
+          6
+        ],
+        [
+          "PABI",
+          5
+        ],
+        [
+          "END",
+          4
+        ],
+        [
+          "POP",
+          4
+        ],
+        [
+          "MM",
+          4
+        ],
+        [
+          "LANGELS",
+          4
+        ],
+        [
+          "XOXO",
+          4
+        ],
+        [
+          "LORDNFT",
+          4
+        ],
+        [
+          "OXYA",
+          3
+        ],
+        [
+          "KCG",
+          3
+        ],
+        [
+          "BBB",
+          3
+        ],
+        [
+          "Airdrop",
+          2
+        ],
+        [
+          "DGFAM",
+          2
+        ],
+        [
+          "SCORCH",
+          2
+        ],
+        [
+          "DSRP",
+          2
+        ],
+        [
+          "Babies",
+          2
+        ],
+        [
+          "BUNNY",
+          2
+        ],
+        [
+          "IAP",
+          2
+        ],
+        [
+          "USDC",
+          2
+        ],
+        [
+          "ENS",
+          2
+        ],
+        [
+          "DIXT",
+          1
+        ],
+        [
+          "FAM",
+          1
+        ],
+        [
+          "HEX",
+          1
+        ]
+      ],
+      "token_transfer_count": 95,
+      "token_types": {
+        "ERC-1155": 4,
+        "ERC-20": 16,
+        "ERC-721": 75
+      },
+      "top_counterparties": [
+        {
+          "address": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+          "count": 68,
+          "label": "X2Y2 / TransparentUpgradeableProxy (NFT marketplace run)"
+        },
+        {
+          "address": "0x96f98c60c04ba6fe47b3315e3689b270b3952e26",
+          "count": 10,
+          "label": "Bored Bad Bunny (freeMint)"
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "count": 5,
+          "label": "MetaMask MetaSwap"
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "count": 5,
+          "label": "ENS ETHRegistrarController"
+        },
+        {
+          "address": "0x9372b371196751dd2f603729ae8d8014bbeb07f6",
+          "blockscout_name": "BoredBunny",
+          "count": 3,
+          "is_contract": true,
+          "label": null
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "count": 2,
+          "label": "OpenSea Seaport"
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x8d738f36074c4be1443a1993c32929718ab4b461",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+          "count": 2,
+          "label": "ApeCoin (APE) token"
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "blockscout_name": null,
+          "count": 2,
+          "is_contract": false,
+          "label": null
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "count": 2,
+          "label": "OpenSea WyvernExchange"
+        },
+        {
+          "address": "0x3243ac6f63f75e260346a14e1d1445f2a2708444",
+          "blockscout_name": "Babies",
+          "count": 1,
+          "is_contract": true,
+          "label": null
+        },
+        {
+          "address": "0xe106c63e655df0e300b78336af587f300cff9e76",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xf18bf4750bf060b9b9606de575304706d501737e",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xdfe67f0a130297215da931e2dc6199219e172f74",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xf7d134224a66c6a4ddeb7dee714a280b99044805",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x66ac7c1d709c5707b3a2fccaa025d07dcd7c2624",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x084b1c3c81545d370f3634392de611caabff8148",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "count": 1,
+          "label": null
+        },
+        {
+          "address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+          "count": 1,
+          "label": null
+        }
+      ],
+      "tx_exhausted": true,
+      "tx_hit_page_cap": false,
+      "tx_items": 119,
+      "tx_pages": 3
+    },
+    {
+      "abg_fyllo_commandeering_adjudicated": false,
+      "abg_screens": {
+        "abg.eth": {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 10
+        },
+        "authenticbrands.eth": {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 20
+        },
+        "jamiesalter.eth": {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "fyllo_token_hits": [],
+          "fyllo_tx_hits": [],
+          "tx_scanned": 400
+        }
+      },
+      "any_fyllo_onchain_hit_vs_abg_ens": false,
+      "detail": "Scanned authenticbrands.eth / abg.eth / jamiesalter.eth activity for direct tx or token-transfer overlap with fyllo.eth EOA: zero hits in scanned pages. Tip-ten probe slots filled from public CEO identification + Wave-18 SEC-named holdcos; remaining slots OPEN. No tip-ten illicit control, ABG commandeering, or fyllo↔ABG payment rail adjudicated. Live EDGAR may 403; Wave-20 sealed Casters×ABG/Jamie Salter = 0 retained.",
+      "edgar_live": {
+        "abg_and_blockchain": "BLOCKED:403",
+        "abg_and_fyllo": "BLOCKED:403",
+        "abg_and_nft": "BLOCKED:403",
+        "jamie_and_fyllo": "BLOCKED:403"
+      },
+      "ghostretail_class_retained": "commercial_platform_customer_co_mention",
+      "id": "W22-F3",
+      "tip_ten_control_candidates": [
+        {
+          "control_adjudicated": false,
+          "ens": "jamiesalter.eth",
+          "ens_address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "name": "Jamie Salter",
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 1,
+          "role_public": "Founder / CEO (public commercial identification — not UBO adjudication)"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_file": "5952305",
+          "ens": "authenticbrands.eth / abg.eth",
+          "name": "Authentic Brands Group Inc.",
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 2,
+          "role_public": "SEC registrant CIK 0001666054"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 3,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 4,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 5,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 6,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 7,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "onchain_address_authenticated": false,
+          "onchain_link_to_fyllo": false,
+          "rank_probe": 8,
+          "role_public": "SEC-named holdco / affiliate (Wave-18 seal)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "control_adjudicated": false,
+          "name": null,
+          "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+          "rank_probe": 9,
+          "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+        },
+        {
+          "control_adjudicated": false,
+          "name": null,
+          "note": "No additional authenticated public tip-ten controller sealed in Wave-18/22",
+          "rank_probe": 10,
+          "status": "OPEN_UNFILLED_TIP_TEN_SLOT"
+        }
+      ],
+      "tip_ten_illicit_control_adjudicated": false,
+      "title": "ABG ENS tip-ten screen: no on-chain fyllo.eth linkage; tip-ten control not adjudicated",
+      "wave20_edgar_casters_abg_zero_retained": true
+    },
+    {
+      "abg_as_ip_payment_conduit_adjudicated": false,
+      "alleged_15213_authenticated": false,
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Wave-22 full-history exhaustion does not add patent-family identifiers, royalty events, or ABG payment conduits tied to the sealed 15-pub Skoda set or the unauthenticated 15,213 / WIPO-190 (WIP-0194) claim. No royalty/theft adjudication.",
+      "id": "W22-F4",
+      "onchain_to_pub_id_match": false,
+      "royalty_linked_to_stolen_families_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "Exhaustive Fyllo chain still does not authenticate royalty rails to sealed/alleged Skoda families",
+      "wave21_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "cyber_dust_illicit_flow_adjudicated": false,
+        "fyllo_eth_resolved": true,
+        "royalty_linked_to_stolen_families_adjudicated": false,
+        "royalty_payment_adjudicated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wip_0194_artifact_located": false
+    }
+  ],
+  "generated_at": "2026-07-23T16:07:35Z",
+  "policy": "Wave-22 exhausts public Ethereum history for the Fyllo-linked EOA and screens ABG ENS + tip-ten holdco candidates. No royalty/theft/tip-ten-illicit-control/ABG-commandeering adjudication.",
+  "seal": "0ff458613d8ec26cfb2f43975bbf6d1940593357f4c4ce909b7445bbb2fce807",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "fyllo_abg_ens_cluster",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Fyllo + ABG ENS cluster resolution"
+    },
+    {
+      "adjudicated": false,
+      "id": "fyllo_exhaustive_ethereum_history",
+      "next_actions": [
+        "Other chains only if operator supplies Fyllo-linked addresses beyond Ethereum",
+        "Do not treat NFT marketplace ETH as patent royalties or ABG control payments"
+      ],
+      "status": "SEALED",
+      "title": "Exhaustive fyllo.eth Ethereum activity (first tx → date)"
+    },
+    {
+      "adjudicated": false,
+      "id": "abg_ens_tip_ten_control_nexus",
+      "next_actions": [
+        "If operator has private ABG org chart / beneficial-owner schedule, supply for counsel-only ingest",
+        "Do not upgrade GhostRetail customer co-mention or shared CSC to tip-ten control"
+      ],
+      "status": "SEALED",
+      "title": "ABG ENS + tip-ten control nexus vs Fyllo chain"
+    },
+    {
+      "adjudicated": false,
+      "id": "ip_linkage_reaffirmation",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "IP / alleged 15213–WIP-0194 linkage reaffirmation"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W22-M1",
+          "item": "Supply non-Ethereum Fyllo-linked addresses if claiming multi-chain genesis coverage",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W22-M2",
+          "item": "Counsel-only ABG tip-ten / beneficial-owner schedule if public S-1 holdcos insufficient",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W22-M3",
+          "item": "WIP-0194 artifact path still required before any royalty-on-stolen-families theory",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-22 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE22"
+}

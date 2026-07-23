@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "abg_as_ip_payment_conduit_adjudicated": false,
+      "alleged_15213_authenticated": false,
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Wave-22 full-history exhaustion does not add patent-family identifiers, royalty events, or ABG payment conduits tied to the sealed 15-pub Skoda set or the unauthenticated 15,213 / WIPO-190 (WIP-0194) claim. No royalty/theft adjudication.",
+      "id": "W22-F4",
+      "onchain_to_pub_id_match": false,
+      "royalty_linked_to_stolen_families_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "Exhaustive Fyllo chain still does not authenticate royalty rails to sealed/alleged Skoda families",
+      "wave21_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "cyber_dust_illicit_flow_adjudicated": false,
+        "fyllo_eth_resolved": true,
+        "royalty_linked_to_stolen_families_adjudicated": false,
+        "royalty_payment_adjudicated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wip_0194_artifact_located": false
+    }
+  ],
+  "id": "ip_linkage_reaffirmation",
+  "portfolio_source": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+  "status": "SEALED",
+  "title": "IP / alleged 15213–WIP-0194 linkage reaffirmation",
+  "wave21_source": "docs/investigation/wave21/WAVE21_RUN_SUMMARY.json"
+}

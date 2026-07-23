@@ -1,0 +1,89 @@
+{
+  "findings": [
+    {
+      "abg_resolved": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353"
+      },
+      "detail": "fyllo.eth and erikshani.eth both resolve to 0xE739955225Ee00EE9b6e859BcD6C82308bb5E909. hellofyllo.eth / casters.eth / ghostretail.eth / adamarviv.eth / arviv.eth do not resolve. authenticbrands.eth, abg.eth, and jamiesalter.eth resolve to distinct EOAs with zero address overlap vs the Fyllo EOA at ENS-resolution layer.",
+      "ens_address_overlap_fyllo_abg": [],
+      "fyllo_erikshani_same_eoa": true,
+      "fyllo_eth_address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "id": "W22-F1",
+      "title": "Fyllo ENS cluster collapses to one EOA; ABG ENS cluster is disjoint",
+      "unresolved_fyllo_side": [
+        "hellofyllo.eth",
+        "casters.eth",
+        "ghostretail.eth",
+        "adamarviv.eth",
+        "arviv.eth"
+      ]
+    }
+  ],
+  "id": "fyllo_abg_ens_cluster",
+  "resolved": {
+    "abg.eth": {
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "cluster": "abg",
+      "ok": true,
+      "sha256": "e1d256946f6f4b8998ca5bfdf6fde39f1f41fe68462a68edacb29190007c1974"
+    },
+    "adamarviv.eth": {
+      "address": null,
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "b93b628b04a0a6046f7e382b1f45e25eb3d01de94c6f81a850107fa160c81686"
+    },
+    "arviv.eth": {
+      "address": null,
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "9e65cc006ae3c5ef75d42617659bec650d2d9906c9e95991ce87650d3ca8736a"
+    },
+    "authenticbrands.eth": {
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "cluster": "abg",
+      "ok": true,
+      "sha256": "1d5b6e6396b94e60a09818818339a5b2bf36d7334fffefa4bd4ae69a72c3aa5b"
+    },
+    "casters.eth": {
+      "address": null,
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "a173b202f7e1946b688243a6e2054bbe6ead3aebb774ae9ebe8090b3bdf9e931"
+    },
+    "erikshani.eth": {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "5da667d548f10bb6a76ec41aaf55c8fd850e0c68d7ebfdf005fd99414ac5cb5c"
+    },
+    "fyllo.eth": {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "9fac70a82fc0bfe4c9e6faf5b553e6f2d996d901ff2b3f43b39f9d916bb9ede8"
+    },
+    "ghostretail.eth": {
+      "address": null,
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "e830bd26141014b269007635d374dcf70f8a3fe5c21bd1995b66b95b95cd9dd6"
+    },
+    "hellofyllo.eth": {
+      "address": null,
+      "cluster": "fyllo",
+      "ok": true,
+      "sha256": "68de59ceac84ae27c8bd7199dcd9f3d4125265fef256a84c85c7bd673bad2f88"
+    },
+    "jamiesalter.eth": {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "cluster": "abg",
+      "ok": true,
+      "sha256": "3e552c5ddbf39510fd0c2216475508b08654eac580759155c5eaf1b53c7481dd"
+    }
+  },
+  "status": "SEALED",
+  "title": "Fyllo + ABG ENS cluster resolution"
+}
