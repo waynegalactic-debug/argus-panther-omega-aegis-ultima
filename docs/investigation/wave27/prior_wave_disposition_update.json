@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "id": "W27-F3",
+      "illicit_royalty_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "Prior-wave dispositions retained after wrapped/fractional/IP token expansion",
+      "update_note": "Wave-27 expands token-class coverage but does not authenticate a tokenized royalty or fractionalized patent-NFT conveyance of sealed Skoda pubs. Wave-25 auth_links=0 and Wave-26 pairwise address flows=0 remain the controlling sealed negatives unless contradicted by contract-level evidence.",
+      "wave25_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_link_universally_authenticated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wave26_disposition_retained": {
+        "dao_royalty_rail_authenticated": false,
+        "illicit_combination_network_adjudicated": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_stealth_dao_adjudicated": false,
+        "stealth_dao_network_authenticated": false,
+        "theft_adjudicated": false,
+        "victim_ip_filter_applied": false
+      }
+    }
+  ],
+  "id": "prior_wave_disposition_update",
+  "status": "SEALED",
+  "title": "Cross-update vs Waves 25–26 dispositions"
+}

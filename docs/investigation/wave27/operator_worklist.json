@@ -1,0 +1,28 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W27-M1",
+      "item": "Supply fractional vault / IP-NFT / wrapped-RaP / royalty-splitter contract addresses if claimed",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W27-M2",
+      "item": "Do not equate WETH/wrapped transfers with patent royalty or wrapped-RaP tokenization",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W27-M3",
+      "item": "Treat RaP as wrapped (wRaP); do not invent a separate unwrapped RaP rail",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W27-M4",
+      "item": "Deeper ERC-1155/721 pagination if patent-NFT / wrapped-RaP theory persists on page-capped wallets",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-27 operator worklist"
+}

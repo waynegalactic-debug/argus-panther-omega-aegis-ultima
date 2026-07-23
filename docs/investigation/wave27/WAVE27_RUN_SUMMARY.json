@@ -1,0 +1,501 @@
+{
+  "artifacts": {
+    "matrix": "docs/investigation/wave27/cross_entity_token_class_matrix.json",
+    "prior": "docs/investigation/wave27/prior_wave_disposition_update.json",
+    "summary_md": "docs/investigation/WAVE27_WRAPPED_FRACTIONAL_IP_ROYALTY_TOKEN_FLOWS.md",
+    "tokens": "docs/investigation/wave27/wrapped_fractional_ip_royalty_token_flows.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+  "counts": {
+    "addresses_screened": 19,
+    "adjudicated_total": 0,
+    "findings": 3,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "036902a1857139de33682f8ab6cb50e748788f1e84d721573d4fa70eae9c7d3b",
+    "leaves": [
+      {
+        "id": "wrapped_fractional_ip_royalty_token_flows",
+        "sha3_256": "d38fb331051efb0d39075f909d782e4a8677fb74f70d7128e1b5573c3ea939b7",
+        "status": "SEALED"
+      },
+      {
+        "id": "cross_entity_token_class_matrix",
+        "sha3_256": "72edfe1a5040f0a0fbf512da45e56e42dcfad544b91a1718c2c38bf572fe1ab7",
+        "status": "SEALED"
+      },
+      {
+        "id": "prior_wave_disposition_update",
+        "sha3_256": "d14acaed3f000b884a150bc3dc4abc540f0b44da1ae6f15d861676be3f24dfd0",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "ba6019dca77bbd92647d51c36fefaf6d289af532a8ab7da3557298bb6814790b",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "b7efef188df054279f9508e606df877f58265b5f2ef65e7ae7ed495cc87e4894999ca0c81d13eee471f21e685fcfdccb23707fb6429ccd2722f91f245023a5d6"
+  },
+  "disposition": {
+    "cross_entity_stolen_ip_tokenization_adjudicated": false,
+    "fractionalized_patent_nft_rail_authenticated": false,
+    "fractionalized_patent_nft_to_skoda_authenticated": false,
+    "illicit_royalty_adjudicated": false,
+    "rap_classified_as_wrapped": true,
+    "theft_adjudicated": false,
+    "tokenized_ip_royalty_rail_authenticated": false,
+    "tokenized_royalty_to_skoda_authenticated": false,
+    "wrapped_fractionalized_stolen_ip_adjudicated": false,
+    "wrapped_rap_rail_authenticated": false,
+    "wrapped_rap_to_skoda_authenticated": false
+  },
+  "elapsed_ms": 82624,
+  "findings": [
+    {
+      "addresses_screened": 19,
+      "aggregate_class_counts": {
+        "fractionalized": 9,
+        "is_nft": 5026,
+        "wrapped": 746
+      },
+      "detail": "Merged token-transfer screens for 19 labels covering ERC-20/721/1155. Aggregate heuristic hits: {'is_nft': 5026, 'wrapped': 746, 'fractionalized': 9}. Sealed Wave-14 publication-number matches inside token metadata: 0. RaP is classified as wrapped (wrapped RaP / wRaP) by policy. WETH/wrapped-asset noise is expected and is NOT treated as IP royalty. No authenticated wrapped-RaP, tokenized royalty, or fractionalized patent-NFT rail to the sealed Skoda publication set.",
+      "fractionalized_patent_nft_rail_authenticated": false,
+      "id": "W27-F1",
+      "sealed_publication_id_token_metadata_hits_total": 0,
+      "title": "Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows screened across all sealed addresses",
+      "tokenized_ip_royalty_rail_authenticated": false,
+      "wrapped_fractionalized_stolen_ip_adjudicated": false,
+      "wrapped_rap_rail_authenticated": false
+    },
+    {
+      "any_sealed_pub_metadata_hit_across_set": false,
+      "cross_entity_stolen_ip_tokenization_adjudicated": false,
+      "detail": "Per-label class rollups for 19 addresses; 0 pairs showed target-class peer token flow in scanned pages (pair space 171). RaP counted under wrapped_rap (wRaP). No sealed Skoda publication-number match in token metadata across the set unless counted above. Cross-entity tokenization of stolen IP not adjudicated.",
+      "entities_label_map": {
+        "abg.eth": "ABG vanity",
+        "altria": "Altria (no ENS in book)",
+        "authenticbrands.eth": "Authentic Brands vanity",
+        "japantobacco.eth": "Japan Tobacco vanity",
+        "juul.eth": "Juul vanity",
+        "juullabs.eth": "Juul Labs vanity",
+        "njoy.eth": "NJOY vanity",
+        "pax.eth": "Pax vanity",
+        "paxlabs.eth": "Pax Labs vanity",
+        "philipmorris.eth": "Philip Morris vanity",
+        "philipmorrisusa.eth": "Philip Morris USA vanity",
+        "ploom.eth": "Ploom vanity",
+        "pmi.eth": "PMI vanity",
+        "pmusa.eth": "PM USA vanity"
+      },
+      "entity_rows": [
+        {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "fractionalized": 0,
+          "label": "abg.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 0,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "fractionalized": 0,
+          "label": "authenticbrands.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 0,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x983110309620D911731Ac0932219af06091b6744",
+          "fractionalized": 0,
+          "label": "elonmusk.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 24,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+          "fractionalized": 0,
+          "label": "fyllo.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 2,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "fractionalized": 0,
+          "label": "jamiesalter.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 44,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "fractionalized": 0,
+          "label": "japantobacco.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 38,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+          "fractionalized": 0,
+          "label": "jensenhuang.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 213,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "fractionalized": 0,
+          "label": "juul.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 47,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "fractionalized": 0,
+          "label": "juullabs.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 5,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "fractionalized": 0,
+          "label": "njoy.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 8,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "fractionalized": 0,
+          "label": "pax.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 1,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "fractionalized": 0,
+          "label": "paxlabs.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 34,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "fractionalized": 0,
+          "label": "philipmorris.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 27,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "fractionalized": 5,
+          "label": "philipmorrisusa.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 69,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "fractionalized": 0,
+          "label": "ploom.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 14,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "fractionalized": 0,
+          "label": "pmi.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 2,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "fractionalized": 0,
+          "label": "pmusa.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 68,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+          "fractionalized": 4,
+          "label": "sama.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 75,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        },
+        {
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "fractionalized": 0,
+          "label": "vitalik.eth",
+          "patent_nft": 0,
+          "peer_target_class_counts": {},
+          "rap": 0,
+          "sealed_pub_metadata_hits": 0,
+          "tokenized_fractionalized_patent_nft": 0,
+          "tokenized_ip_linked": 0,
+          "tokenized_royalty": 0,
+          "wrapped": 75,
+          "wrapped_and_fractionalized": 0,
+          "wrapped_rap": 0,
+          "wrapped_rap_and_fractionalized": 0
+        }
+      ],
+      "fractionalized_patent_nft_to_skoda_authenticated": false,
+      "id": "W27-F2",
+      "individuals_label_map": {
+        "elonmusk.eth": "Elon Musk (vanity ENS — identity unbound)",
+        "fyllo.eth": "Fyllo / erikshani.eth EOA",
+        "jamiesalter.eth": "Jamie Salter (vanity ENS — identity unbound)",
+        "jensenhuang.eth": "Jensen Huang (vanity ENS — identity unbound)",
+        "sama.eth": "Sam Altman (vanity ENS — identity unbound)",
+        "vitalik.eth": "Vitalik Buterin"
+      },
+      "pair_space": 171,
+      "pairs_with_target_class_peer_flow": [],
+      "title": "Cross-individual/entity matrix for wrapped/fractional/IP/royalty/patent-NFT token classes",
+      "tokenized_royalty_to_skoda_authenticated": false,
+      "wrapped_rap_to_skoda_authenticated": false
+    },
+    {
+      "id": "W27-F3",
+      "illicit_royalty_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "Prior-wave dispositions retained after wrapped/fractional/IP token expansion",
+      "update_note": "Wave-27 expands token-class coverage but does not authenticate a tokenized royalty or fractionalized patent-NFT conveyance of sealed Skoda pubs. Wave-25 auth_links=0 and Wave-26 pairwise address flows=0 remain the controlling sealed negatives unless contradicted by contract-level evidence.",
+      "wave25_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_link_universally_authenticated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wave26_disposition_retained": {
+        "dao_royalty_rail_authenticated": false,
+        "illicit_combination_network_adjudicated": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_stealth_dao_adjudicated": false,
+        "stealth_dao_network_authenticated": false,
+        "theft_adjudicated": false,
+        "victim_ip_filter_applied": false
+      }
+    }
+  ],
+  "generated_at": "2026-07-23T17:07:28Z",
+  "policy": "Wave-27 expands token-flow screening for wrapped, fractionalized, wrapped-RaP (RaP classified as wrapped / wRaP), IP-linked, royalty, and patent-NFT heuristics across all sealed addresses and updates the cross-entity matrix. No stolen-IP tokenization adjudication.",
+  "seal": "bdae539b54a5ef2f4b44ea096099c9d058645fc323b715fd791093823c984279",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "wrapped_fractional_ip_royalty_token_flows",
+      "next_actions": [
+        "If operator has specific fractional vault / IP-NFT / wrapped-RaP contract addresses, supply for deep trace",
+        "Do not treat WETH/wrapped gas tokens as patent royalty or wrapped-RaP instruments",
+        "Treat bare RaP labels as wrapped RaP (wRaP) — not a separate unwrapped rail"
+      ],
+      "status": "SEALED",
+      "title": "Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows"
+    },
+    {
+      "adjudicated": false,
+      "id": "cross_entity_token_class_matrix",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Cross-individual/entity token-class matrix"
+    },
+    {
+      "adjudicated": false,
+      "id": "prior_wave_disposition_update",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Cross-update vs Waves 25–26 dispositions"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W27-M1",
+          "item": "Supply fractional vault / IP-NFT / wrapped-RaP / royalty-splitter contract addresses if claimed",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W27-M2",
+          "item": "Do not equate WETH/wrapped transfers with patent royalty or wrapped-RaP tokenization",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W27-M3",
+          "item": "Treat RaP as wrapped (wRaP); do not invent a separate unwrapped RaP rail",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W27-M4",
+          "item": "Deeper ERC-1155/721 pagination if patent-NFT / wrapped-RaP theory persists on page-capped wallets",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-27 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE27"
+}
