@@ -10,30 +10,30 @@
   "counts": {
     "adjudicated_total": 0,
     "findings": 3,
-    "hyperedges_optimized": 693,
+    "hyperedges_optimized": 709,
     "tracks": 4,
     "true_ubo_asserted": 0,
-    "vertices": 581,
+    "vertices": 596,
     "waves_ingested": 27
   },
   "custody": {
     "algorithm": "SHA3-512 root + HMAC-SHA3-256",
     "hmac_present": true,
-    "hmac_sha3_256": "17908ea3f2eb780592f18c23610447ab85de4bf88d05b0d057c1894458cf89ef",
+    "hmac_sha3_256": "93407ec17760dd1796c3fe0f366417e3815a031856241fceb7bec223a14b8c36",
     "leaves": [
       {
         "id": "consolidated_findings_index",
-        "sha3_256": "948280df7b75a937ec52fdb545a9c3529d6597bd9e410b771b379b654b6556ae",
+        "sha3_256": "1c0706581eaea1aab5ff9da08cd9a627f8b73c804894bf1f6b0d515332f3dfe6",
         "status": "SEALED"
       },
       {
         "id": "nvidia_accelerated_consolidated_hypergraph",
-        "sha3_256": "06b1b9dd8032082357792de50f35c3eba4ad85453bbaa736a9fb8919242a2bf1",
+        "sha3_256": "9664b43f225608b5bd2d60d320efd5b8b792ce95ad9c9d955e4d67bd2082a574",
         "status": "SEALED"
       },
       {
         "id": "hypergraph_consolidation_seal",
-        "sha3_256": "c482483cc1090650682d21f745df2246e7bb4a2693f200897c5f70d63da5827c",
+        "sha3_256": "af2bd2db4ed0a8d4038b7b4ac4c73a26a6d6d5ddb218fa0a89fe9f684517245b",
         "status": "SEALED"
       },
       {
@@ -42,7 +42,7 @@
         "status": "OPEN"
       }
     ],
-    "root_sha3_512": "46ad50f89b8cb23f5bb4af31a4187d70b9073722b5e615d4d734b47a24245fd9b6836f14a425556ed04e68e218e7a72a302fa38b1ba74778894ed2506a9f7003"
+    "root_sha3_512": "a948b13d7ee285f12ba949380a7c96533109c6d99777c904889e0c3a1a574bec5fc39c6de29019d94b4b3f464568662c40920d1f3bf215817b4df1069e2163bc"
   },
   "disposition": {
     "consolidation_complete": true,
@@ -54,7 +54,7 @@
     "tokenized_royalty_rail_authenticated": false,
     "wrapped_rap_rail_authenticated": false
   },
-  "elapsed_ms": 64,
+  "elapsed_ms": 66,
   "findings": [
     {
       "detail": "Indexed 80 consolidated rows across 27 waves.",
@@ -96,23 +96,23 @@
       "acceleration": {
         "connected_components": 1,
         "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-        "elapsed_ms": 7,
-        "incidence_nnz": 1757,
-        "largest_component_size": 581,
+        "elapsed_ms": 8,
+        "incidence_nnz": 1819,
+        "largest_component_size": 596,
         "nvidia_accelerated": false,
         "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible"
       },
       "address_book_size": 19,
       "adjudicated_total": 0,
       "backend": "numpy_cpu_nvidia_compatible",
-      "detail": "Hypergraph vertices=581 hyperedges_optimized=693 backend=numpy_cpu_nvidia_compatible components=1.",
+      "detail": "Hypergraph vertices=596 hyperedges_optimized=709 backend=numpy_cpu_nvidia_compatible components=1.",
       "findings_index_rows": 80,
       "id": "W29-F2",
       "metrics": {
-        "avg_cardinality": 2.5353535353535355,
-        "degree_gini": 0.5843397984163665,
+        "avg_cardinality": 2.56558533145275,
+        "degree_gini": 0.5861054639506182,
         "degree_max": 85.0,
-        "degree_mean": 3.0240963855421685,
+        "degree_mean": 3.052013422818792,
         "hyperedges_merged_away": 0,
         "kind_counts": {
           "address": 19,
@@ -122,19 +122,22 @@
           "ens_label": 19,
           "finding": 69,
           "flag": 109,
+          "publication": 15,
           "track": 115,
           "wave": 27
         },
         "max_cardinality": 27,
-        "num_hyperedges_optimized": 693,
-        "num_hyperedges_raw": 693,
-        "num_vertices": 581,
+        "num_hyperedges_optimized": 709,
+        "num_hyperedges_raw": 709,
+        "num_vertices": 596,
         "relation_type_counts": {
           "address_wave_screen": 114,
           "ens_address": 19,
           "finding_flag": 108,
           "full_investigation_corpus": 1,
+          "publication_wave_corpus": 15,
           "sealed_address_set": 1,
+          "sealed_publication_set": 1,
           "shared_negative_disposition": 11,
           "wave_case": 27,
           "wave_custody_leaf": 115,
@@ -150,28 +153,28 @@
       },
       "scaling": {
         "components": 1,
-        "hyperedges_optimized": 693,
-        "largest_component_size": 581,
+        "hyperedges_optimized": 709,
+        "largest_component_size": 596,
         "streamline_merged_away": 0,
-        "vertices": 581,
+        "vertices": 596,
         "waves_ingested": 27
       },
-      "sealed_publications": 0,
+      "sealed_publications": 15,
       "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
       "topology": {
         "betti_numbers": [
           1,
-          1674,
+          1840,
           0
         ],
-        "entities_in_topo": 581,
+        "entities_in_topo": 596,
         "metrics": {
-          "avg_cardinality": 2.5353535353535355,
-          "density": 0.004113003739094308,
-          "num_hyperedges": 693,
-          "num_vertices": 581
+          "avg_cardinality": 2.56558533145275,
+          "density": 0.003998646438441149,
+          "num_hyperedges": 709,
+          "num_vertices": 596
         },
-        "relationships_in_topo": 693
+        "relationships_in_topo": 709
       },
       "true_ubo_asserted": 0
     },
@@ -186,9 +189,9 @@
       "wrapped_rap_rail_authenticated": false
     }
   ],
-  "generated_at": "2026-07-23T21:21:43Z",
+  "generated_at": "2026-07-23T21:22:10Z",
   "policy": "Wave-29 fully consolidates Waves 2–28 findings into an optimized, streamlined, scaled NVIDIA-supercharged hypergraph (RAPIDS when present; NumPy vectorized NVIDIA-compatible fallback otherwise). No stolen-IP / royalty / illicit-dust adjudication.",
-  "seal": "bf5cfcdb28d03dd48d81f29b7193ec8633d3d5e2b38f05cc431615654a511fab",
+  "seal": "08f391e068e6c7d4c438272f439a320c692375390dae5f1b2ccbd7f8d146b8fd",
   "tracks": [
     {
       "adjudicated": false,

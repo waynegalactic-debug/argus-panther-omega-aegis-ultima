@@ -3,13 +3,19 @@
     "backend": "numpy_cpu_nvidia_compatible",
     "connected_components": 1,
     "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-    "elapsed_ms": 7,
-    "hyperedge_weighted_degree_mean": 2.081240981240981,
-    "incidence_nnz": 1757,
-    "largest_component_size": 581,
+    "elapsed_ms": 8,
+    "hyperedge_weighted_degree_mean": 2.1576868829337092,
+    "incidence_nnz": 1819,
+    "largest_component_size": 596,
     "nvidia_accelerated": false,
     "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
     "top_cooccurrence": [
+      {
+        "a": "wave:25",
+        "b": "wave:14",
+        "jaccard": 0.288136,
+        "shared_hyperedges": 17
+      },
       {
         "a": "wave:23",
         "b": "finding:W23-F3",
@@ -29,15 +35,15 @@
         "shared_hyperedges": 7
       },
       {
-        "a": "wave:25",
-        "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.116279,
-        "shared_hyperedges": 5
-      },
-      {
         "a": "wave:28",
         "b": "flag:illicit_dust_evasion_adjudicated=False",
         "jaccard": 0.102041,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.084746,
         "shared_hyperedges": 5
       },
       {
@@ -50,12 +56,6 @@
         "a": "wave:17",
         "b": "flag:illicit_registration_adjudicated=False",
         "jaccard": 0.181818,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:25",
-        "b": "flag:illicit_royalty_adjudicated=False",
-        "jaccard": 0.142857,
         "shared_hyperedges": 4
       },
       {
@@ -83,6 +83,12 @@
         "shared_hyperedges": 4
       },
       {
+        "a": "wave:25",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.090909,
+        "shared_hyperedges": 4
+      },
+      {
         "a": "wave:29",
         "b": "flag:theft_adjudicated=False",
         "jaccard": 0.083333,
@@ -96,7 +102,7 @@
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.070175,
         "shared_hyperedges": 4
       },
@@ -108,14 +114,8 @@
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.070175,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:27",
-        "b": "flag:illicit_royalty_adjudicated=False",
-        "jaccard": 0.065574,
         "shared_hyperedges": 4
       },
       {
@@ -125,8 +125,14 @@
         "shared_hyperedges": 4
       },
       {
+        "a": "wave:27",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.065574,
+        "shared_hyperedges": 4
+      },
+      {
         "a": "wave:22",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.056338,
         "shared_hyperedges": 4
       },
@@ -138,14 +144,8 @@
       },
       {
         "a": "wave:22",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.056338,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:22",
-        "b": "flag:alleged_15213_authenticated=False",
-        "jaccard": 0.055556,
         "shared_hyperedges": 4
       },
       {
@@ -155,9 +155,9 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:21",
-        "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.054795,
+        "a": "wave:22",
+        "b": "flag:alleged_15213_authenticated=False",
+        "jaccard": 0.055556,
         "shared_hyperedges": 4
       }
     ],
@@ -177,6 +177,13 @@
         "weighted_degree": 50.79999999999998
       },
       {
+        "id": "wave:25",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.4
+      },
+      {
         "id": "wave:27",
         "kinds": [
           "wave"
@@ -189,6 +196,13 @@
           "wave"
         ],
         "weighted_degree": 41.39999999999998
+      },
+      {
+        "id": "wave:14",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 35.1
       },
       {
         "id": "wave:23",
@@ -233,13 +247,6 @@
         "weighted_degree": 25.800000000000008
       },
       {
-        "id": "wave:25",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 24.9
-      },
-      {
         "id": "flag:theft_adjudicated=False",
         "kinds": [
           "flag"
@@ -259,17 +266,10 @@
           "wave"
         ],
         "weighted_degree": 19.900000000000006
-      },
-      {
-        "id": "wave:14",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 17.6
       }
     ],
     "vertex_weighted_degree_max": 59.999999999999964,
-    "vertex_weighted_degree_mean": 2.482444061962134
+    "vertex_weighted_degree_mean": 2.5667785234899325
   },
   "address_book_size": 19,
   "backend": "numpy_cpu_nvidia_compatible",
@@ -9639,8 +9639,247 @@
       "weight": 2.0
     },
     {
-      "cardinality": 5,
+      "cardinality": 3,
       "id": "he_00681",
+      "members": [
+        "pub:US11234465B2",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00682",
+      "members": [
+        "pub:US11275070B2",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00683",
+      "members": [
+        "pub:US20180191180A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00684",
+      "members": [
+        "pub:US20190240429A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00685",
+      "members": [
+        "pub:US20190378609A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00686",
+      "members": [
+        "pub:US20200005924A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00687",
+      "members": [
+        "pub:US20210202056A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00688",
+      "members": [
+        "pub:US20220104664A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00689",
+      "members": [
+        "pub:US20230112752A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00690",
+      "members": [
+        "pub:US20240215633A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00691",
+      "members": [
+        "pub:US20240242809A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00692",
+      "members": [
+        "pub:US20240244430A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00693",
+      "members": [
+        "pub:US20250054595A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00694",
+      "members": [
+        "pub:US20250177708A1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 3,
+      "id": "he_00695",
+      "members": [
+        "pub:USD795407S1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "merged_count": 1
+      },
+      "relation_type": "publication_wave_corpus",
+      "weight": 1.0
+    },
+    {
+      "cardinality": 17,
+      "id": "he_00696",
+      "members": [
+        "pub:US11234465B2",
+        "pub:US11275070B2",
+        "pub:US20180191180A1",
+        "pub:US20190240429A1",
+        "pub:US20190378609A1",
+        "pub:US20200005924A1",
+        "pub:US20210202056A1",
+        "pub:US20220104664A1",
+        "pub:US20230112752A1",
+        "pub:US20240215633A1",
+        "pub:US20240242809A1",
+        "pub:US20240244430A1",
+        "pub:US20250054595A1",
+        "pub:US20250177708A1",
+        "pub:USD795407S1",
+        "wave:14",
+        "wave:25"
+      ],
+      "meta": {
+        "count": 15,
+        "merged_count": 1
+      },
+      "relation_type": "sealed_publication_set",
+      "weight": 2.5
+    },
+    {
+      "cardinality": 5,
+      "id": "he_00697",
       "members": [
         "disposition:alleged_15213_authenticated",
         "flag:alleged_15213_authenticated=False",
@@ -9662,7 +9901,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00682",
+      "id": "he_00698",
       "members": [
         "disposition:corruption_adjudicated",
         "flag:corruption_adjudicated=False",
@@ -9682,7 +9921,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00683",
+      "id": "he_00699",
       "members": [
         "disposition:cyber_dust_illicit_flow_adjudicated",
         "flag:cyber_dust_illicit_flow_adjudicated=False",
@@ -9702,7 +9941,7 @@
     },
     {
       "cardinality": 5,
-      "id": "he_00684",
+      "id": "he_00700",
       "members": [
         "disposition:illicit_dust_evasion_adjudicated",
         "flag:illicit_dust_evasion_adjudicated=False",
@@ -9724,7 +9963,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00685",
+      "id": "he_00701",
       "members": [
         "disposition:illicit_registration_adjudicated",
         "flag:illicit_registration_adjudicated=False",
@@ -9744,7 +9983,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00686",
+      "id": "he_00702",
       "members": [
         "disposition:illicit_royalty_adjudicated",
         "flag:illicit_royalty_adjudicated=False",
@@ -9764,7 +10003,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00687",
+      "id": "he_00703",
       "members": [
         "disposition:royalty_linked_to_stolen_families_adjudicated",
         "flag:royalty_linked_to_stolen_families_adjudicated=False",
@@ -9784,7 +10023,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00688",
+      "id": "he_00704",
       "members": [
         "disposition:royalty_payment_adjudicated",
         "flag:royalty_payment_adjudicated=False",
@@ -9804,7 +10043,7 @@
     },
     {
       "cardinality": 10,
-      "id": "he_00689",
+      "id": "he_00705",
       "members": [
         "disposition:theft_adjudicated",
         "flag:theft_adjudicated=False",
@@ -9836,7 +10075,7 @@
     },
     {
       "cardinality": 5,
-      "id": "he_00690",
+      "id": "he_00706",
       "members": [
         "disposition:wip_0194_artifact_located",
         "flag:wip_0194_artifact_located=False",
@@ -9858,7 +10097,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00691",
+      "id": "he_00707",
       "members": [
         "disposition:wrapped_rap_rail_authenticated",
         "flag:wrapped_rap_rail_authenticated=False",
@@ -9878,7 +10117,7 @@
     },
     {
       "cardinality": 27,
-      "id": "he_00692",
+      "id": "he_00708",
       "members": [
         "wave:10",
         "wave:11",
@@ -10082,10 +10321,10 @@
     }
   ],
   "metrics": {
-    "avg_cardinality": 2.5353535353535355,
-    "degree_gini": 0.5843397984163665,
+    "avg_cardinality": 2.56558533145275,
+    "degree_gini": 0.5861054639506182,
     "degree_max": 85.0,
-    "degree_mean": 3.0240963855421685,
+    "degree_mean": 3.052013422818792,
     "hyperedges_merged_away": 0,
     "kind_counts": {
       "address": 19,
@@ -10095,19 +10334,22 @@
       "ens_label": 19,
       "finding": 69,
       "flag": 109,
+      "publication": 15,
       "track": 115,
       "wave": 27
     },
     "max_cardinality": 27,
-    "num_hyperedges_optimized": 693,
-    "num_hyperedges_raw": 693,
-    "num_vertices": 581,
+    "num_hyperedges_optimized": 709,
+    "num_hyperedges_raw": 709,
+    "num_vertices": 596,
     "relation_type_counts": {
       "address_wave_screen": 114,
       "ens_address": 19,
       "finding_flag": 108,
       "full_investigation_corpus": 1,
+      "publication_wave_corpus": 15,
       "sealed_address_set": 1,
+      "sealed_publication_set": 1,
       "shared_negative_disposition": 11,
       "wave_case": 27,
       "wave_custody_leaf": 115,
@@ -10123,29 +10365,29 @@
   },
   "scaling": {
     "components": 1,
-    "hyperedges_optimized": 693,
-    "largest_component_size": 581,
+    "hyperedges_optimized": 709,
+    "largest_component_size": 596,
     "streamline_merged_away": 0,
-    "vertices": 581,
+    "vertices": 596,
     "waves_ingested": 27
   },
-  "sealed_publications": 0,
+  "sealed_publications": 15,
   "status": "SEALED",
   "title": "NVIDIA-supercharged consolidated investigation hypergraph",
   "topology": {
     "betti_numbers": [
       1,
-      1674,
+      1840,
       0
     ],
-    "entities_in_topo": 581,
+    "entities_in_topo": 596,
     "metrics": {
-      "avg_cardinality": 2.5353535353535355,
-      "density": 0.004113003739094308,
-      "num_hyperedges": 693,
-      "num_vertices": 581
+      "avg_cardinality": 2.56558533145275,
+      "density": 0.003998646438441149,
+      "num_hyperedges": 709,
+      "num_vertices": 596
     },
-    "relationships_in_topo": 693
+    "relationships_in_topo": 709
   },
   "vertices_top": [
     {
@@ -10233,6 +10475,30 @@
       }
     },
     {
+      "degree": 41,
+      "id": "wave:25",
+      "kinds": [
+        "wave"
+      ],
+      "meta": {
+        "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+        "seal": "00d550064566124d7dd2bcdebec33413",
+        "source": "docs/US_IPFORCE_INVESTIGATION_WAVE25_SUMMARY.json"
+      }
+    },
+    {
+      "degree": 35,
+      "id": "wave:14",
+      "kinds": [
+        "wave"
+      ],
+      "meta": {
+        "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+        "seal": "48663055a8c33570746a351476d29bca",
+        "source": "docs/US_IPFORCE_INVESTIGATION_WAVE14_SUMMARY.json"
+      }
+    },
+    {
       "degree": 31,
       "id": "wave:20",
       "kinds": [
@@ -10252,7 +10518,7 @@
       ],
       "meta": {
         "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-        "seal": "e0d867377a96b710bddf60d9e512e1cd",
+        "seal": "bf5cfcdb28d03dd48d81f29b7193ec86",
         "source": "docs/US_IPFORCE_INVESTIGATION_WAVE29_SUMMARY.json"
       }
     },
@@ -10266,18 +10532,6 @@
         "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
         "seal": "7e7d721bdd1595a2df4a649ec4a46807",
         "source": "docs/US_IPFORCE_INVESTIGATION_WAVE18_SUMMARY.json"
-      }
-    },
-    {
-      "degree": 25,
-      "id": "wave:25",
-      "kinds": [
-        "wave"
-      ],
-      "meta": {
-        "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
-        "seal": "00d550064566124d7dd2bcdebec33413",
-        "source": "docs/US_IPFORCE_INVESTIGATION_WAVE25_SUMMARY.json"
       }
     },
     {
@@ -10301,18 +10555,6 @@
         "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
         "seal": "8a4e101df70c6369d538a3c45088bd04",
         "source": "docs/US_IPFORCE_INVESTIGATION_WAVE13_SUMMARY.json"
-      }
-    },
-    {
-      "degree": 19,
-      "id": "wave:14",
-      "kinds": [
-        "wave"
-      ],
-      "meta": {
-        "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
-        "seal": "48663055a8c33570746a351476d29bca",
-        "source": "docs/US_IPFORCE_INVESTIGATION_WAVE14_SUMMARY.json"
       }
     },
     {
@@ -12335,35 +12577,41 @@
       }
     },
     {
-      "degree": 1,
-      "id": "case:IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W10",
+      "degree": 2,
+      "id": "pub:US11234465B2",
       "kinds": [
-        "case"
+        "publication"
       ],
       "meta": {
-        "wave": 10
+        "assignee": "Ahkeo Labs, Llc",
+        "publication_number": "US11234465B2",
+        "title": "Heating mechanisms for vaporizers"
       }
     },
     {
-      "degree": 1,
-      "id": "case:IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W11",
+      "degree": 2,
+      "id": "pub:US11275070B2",
       "kinds": [
-        "case"
+        "publication"
       ],
       "meta": {
-        "wave": 11
+        "assignee": "Ahkeo Labs, Llc",
+        "publication_number": "US11275070B2",
+        "title": "Systems and methods for dipstick diagnostic tools and related methods"
       }
     },
     {
-      "degree": 1,
-      "id": "case:IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W12",
+      "degree": 2,
+      "id": "pub:US20180191180A1",
       "kinds": [
-        "case"
+        "publication"
       ],
       "meta": {
-        "wave": 12
+        "assignee": "Ahkeo Labs, Llc",
+        "publication_number": "US20180191180A1",
+        "title": "Systems and methods for portable charging systems and designs thereof"
       }
     }
   ],
-  "vertices_total": 581
+  "vertices_total": 596
 }

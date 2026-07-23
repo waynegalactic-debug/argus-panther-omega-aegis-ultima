@@ -2,12 +2,18 @@
   "acceleration": {
     "connected_components": 1,
     "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-    "elapsed_ms": 7,
-    "incidence_nnz": 1757,
-    "largest_component_size": 581,
+    "elapsed_ms": 8,
+    "incidence_nnz": 1819,
+    "largest_component_size": 596,
     "nvidia_accelerated": false,
     "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
     "top_cooccurrence": [
+      {
+        "a": "wave:25",
+        "b": "wave:14",
+        "jaccard": 0.288136,
+        "shared_hyperedges": 17
+      },
       {
         "a": "wave:23",
         "b": "finding:W23-F3",
@@ -27,15 +33,15 @@
         "shared_hyperedges": 7
       },
       {
-        "a": "wave:25",
-        "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.116279,
-        "shared_hyperedges": 5
-      },
-      {
         "a": "wave:28",
         "b": "flag:illicit_dust_evasion_adjudicated=False",
         "jaccard": 0.102041,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.084746,
         "shared_hyperedges": 5
       },
       {
@@ -48,12 +54,6 @@
         "a": "wave:17",
         "b": "flag:illicit_registration_adjudicated=False",
         "jaccard": 0.181818,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:25",
-        "b": "flag:illicit_royalty_adjudicated=False",
-        "jaccard": 0.142857,
         "shared_hyperedges": 4
       },
       {
@@ -81,6 +81,12 @@
         "shared_hyperedges": 4
       },
       {
+        "a": "wave:25",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.090909,
+        "shared_hyperedges": 4
+      },
+      {
         "a": "wave:29",
         "b": "flag:theft_adjudicated=False",
         "jaccard": 0.083333,
@@ -94,7 +100,7 @@
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.070175,
         "shared_hyperedges": 4
       },
@@ -106,14 +112,8 @@
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.070175,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:27",
-        "b": "flag:illicit_royalty_adjudicated=False",
-        "jaccard": 0.065574,
         "shared_hyperedges": 4
       },
       {
@@ -123,8 +123,14 @@
         "shared_hyperedges": 4
       },
       {
+        "a": "wave:27",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.065574,
+        "shared_hyperedges": 4
+      },
+      {
         "a": "wave:22",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.056338,
         "shared_hyperedges": 4
       },
@@ -136,14 +142,8 @@
       },
       {
         "a": "wave:22",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.056338,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:22",
-        "b": "flag:alleged_15213_authenticated=False",
-        "jaccard": 0.055556,
         "shared_hyperedges": 4
       },
       {
@@ -153,9 +153,9 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:21",
-        "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.054795,
+        "a": "wave:22",
+        "b": "flag:alleged_15213_authenticated=False",
+        "jaccard": 0.055556,
         "shared_hyperedges": 4
       }
     ],
@@ -175,6 +175,13 @@
         "weighted_degree": 50.79999999999998
       },
       {
+        "id": "wave:25",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.4
+      },
+      {
         "id": "wave:27",
         "kinds": [
           "wave"
@@ -187,6 +194,13 @@
           "wave"
         ],
         "weighted_degree": 41.39999999999998
+      },
+      {
+        "id": "wave:14",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 35.1
       },
       {
         "id": "wave:23",
@@ -231,13 +245,6 @@
         "weighted_degree": 25.800000000000008
       },
       {
-        "id": "wave:25",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 24.9
-      },
-      {
         "id": "flag:theft_adjudicated=False",
         "kinds": [
           "flag"
@@ -257,13 +264,6 @@
           "wave"
         ],
         "weighted_degree": 19.900000000000006
-      },
-      {
-        "id": "wave:14",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 17.6
       }
     ]
   },
@@ -275,10 +275,10 @@
   "backend": "numpy_cpu_nvidia_compatible",
   "id": "nvidia_accelerated_consolidated_hypergraph",
   "metrics": {
-    "avg_cardinality": 2.5353535353535355,
-    "degree_gini": 0.5843397984163665,
+    "avg_cardinality": 2.56558533145275,
+    "degree_gini": 0.5861054639506182,
     "degree_max": 85.0,
-    "degree_mean": 3.0240963855421685,
+    "degree_mean": 3.052013422818792,
     "hyperedges_merged_away": 0,
     "kind_counts": {
       "address": 19,
@@ -288,19 +288,22 @@
       "ens_label": 19,
       "finding": 69,
       "flag": 109,
+      "publication": 15,
       "track": 115,
       "wave": 27
     },
     "max_cardinality": 27,
-    "num_hyperedges_optimized": 693,
-    "num_hyperedges_raw": 693,
-    "num_vertices": 581,
+    "num_hyperedges_optimized": 709,
+    "num_hyperedges_raw": 709,
+    "num_vertices": 596,
     "relation_type_counts": {
       "address_wave_screen": 114,
       "ens_address": 19,
       "finding_flag": 108,
       "full_investigation_corpus": 1,
+      "publication_wave_corpus": 15,
       "sealed_address_set": 1,
+      "sealed_publication_set": 1,
       "shared_negative_disposition": 11,
       "wave_case": 27,
       "wave_custody_leaf": 115,
@@ -316,28 +319,28 @@
   },
   "scaling": {
     "components": 1,
-    "hyperedges_optimized": 693,
-    "largest_component_size": 581,
+    "hyperedges_optimized": 709,
+    "largest_component_size": 596,
     "streamline_merged_away": 0,
-    "vertices": 581,
+    "vertices": 596,
     "waves_ingested": 27
   },
-  "sealed_publications": 0,
+  "sealed_publications": 15,
   "status": "SEALED",
   "title": "NVIDIA-supercharged consolidated investigation hypergraph",
   "topology": {
     "betti_numbers": [
       1,
-      1674,
+      1840,
       0
     ],
-    "entities_in_topo": 581,
+    "entities_in_topo": 596,
     "metrics": {
-      "avg_cardinality": 2.5353535353535355,
-      "density": 0.004113003739094308,
-      "num_hyperedges": 693,
-      "num_vertices": 581
+      "avg_cardinality": 2.56558533145275,
+      "density": 0.003998646438441149,
+      "num_hyperedges": 709,
+      "num_vertices": 596
     },
-    "relationships_in_topo": 693
+    "relationships_in_topo": 709
   }
 }

@@ -4,23 +4,23 @@
       "acceleration": {
         "connected_components": 1,
         "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-        "elapsed_ms": 7,
-        "incidence_nnz": 1757,
-        "largest_component_size": 581,
+        "elapsed_ms": 8,
+        "incidence_nnz": 1819,
+        "largest_component_size": 596,
         "nvidia_accelerated": false,
         "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible"
       },
       "address_book_size": 19,
       "adjudicated_total": 0,
       "backend": "numpy_cpu_nvidia_compatible",
-      "detail": "Hypergraph vertices=581 hyperedges_optimized=693 backend=numpy_cpu_nvidia_compatible components=1.",
+      "detail": "Hypergraph vertices=596 hyperedges_optimized=709 backend=numpy_cpu_nvidia_compatible components=1.",
       "findings_index_rows": 80,
       "id": "W29-F2",
       "metrics": {
-        "avg_cardinality": 2.5353535353535355,
-        "degree_gini": 0.5843397984163665,
+        "avg_cardinality": 2.56558533145275,
+        "degree_gini": 0.5861054639506182,
         "degree_max": 85.0,
-        "degree_mean": 3.0240963855421685,
+        "degree_mean": 3.052013422818792,
         "hyperedges_merged_away": 0,
         "kind_counts": {
           "address": 19,
@@ -30,19 +30,22 @@
           "ens_label": 19,
           "finding": 69,
           "flag": 109,
+          "publication": 15,
           "track": 115,
           "wave": 27
         },
         "max_cardinality": 27,
-        "num_hyperedges_optimized": 693,
-        "num_hyperedges_raw": 693,
-        "num_vertices": 581,
+        "num_hyperedges_optimized": 709,
+        "num_hyperedges_raw": 709,
+        "num_vertices": 596,
         "relation_type_counts": {
           "address_wave_screen": 114,
           "ens_address": 19,
           "finding_flag": 108,
           "full_investigation_corpus": 1,
+          "publication_wave_corpus": 15,
           "sealed_address_set": 1,
+          "sealed_publication_set": 1,
           "shared_negative_disposition": 11,
           "wave_case": 27,
           "wave_custody_leaf": 115,
@@ -58,28 +61,28 @@
       },
       "scaling": {
         "components": 1,
-        "hyperedges_optimized": 693,
-        "largest_component_size": 581,
+        "hyperedges_optimized": 709,
+        "largest_component_size": 596,
         "streamline_merged_away": 0,
-        "vertices": 581,
+        "vertices": 596,
         "waves_ingested": 27
       },
-      "sealed_publications": 0,
+      "sealed_publications": 15,
       "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
       "topology": {
         "betti_numbers": [
           1,
-          1674,
+          1840,
           0
         ],
-        "entities_in_topo": 581,
+        "entities_in_topo": 596,
         "metrics": {
-          "avg_cardinality": 2.5353535353535355,
-          "density": 0.004113003739094308,
-          "num_hyperedges": 693,
-          "num_vertices": 581
+          "avg_cardinality": 2.56558533145275,
+          "density": 0.003998646438441149,
+          "num_hyperedges": 709,
+          "num_vertices": 596
         },
-        "relationships_in_topo": 693
+        "relationships_in_topo": 709
       },
       "true_ubo_asserted": 0
     },

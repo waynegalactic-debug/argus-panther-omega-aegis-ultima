@@ -103,14 +103,18 @@ def _wave_num(name: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def load_all_wave_summaries() -> list[dict[str, Any]]:
+def load_all_wave_summaries(*, exclude_waves: set[int] | None = None) -> list[dict[str, Any]]:
     docs = ROOT / "docs"
+    skip = exclude_waves or set()
     paths = sorted(
         docs.glob("US_IPFORCE_INVESTIGATION_WAVE*_SUMMARY.json"),
         key=lambda p: (_wave_num(p.stem) or 0, p.name),
     )
     out: list[dict[str, Any]] = []
     for p in paths:
+        wnum = _wave_num(p.stem)
+        if wnum is not None and wnum in skip:
+            continue
         try:
             d = json.loads(p.read_text(encoding="utf-8"))
         except Exception as exc:  # noqa: BLE001
@@ -122,7 +126,7 @@ def load_all_wave_summaries() -> list[dict[str, Any]]:
             )
             continue
         d["_source_path"] = str(p.relative_to(ROOT))
-        d["_wave"] = _wave_num(p.stem)
+        d["_wave"] = wnum
         out.append(d)
     return out
 

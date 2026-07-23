@@ -650,21 +650,21 @@
     {
       "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
       "finding_id": "W29-F1",
-      "seal_prefix": "e0d867377a96b710",
+      "seal_prefix": "bf5cfcdb28d03dd4",
       "title": "All sealed-wave findings ingested into consolidated hypergraph index",
       "wave": 29
     },
     {
       "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
       "finding_id": "W29-F2",
-      "seal_prefix": "e0d867377a96b710",
+      "seal_prefix": "bf5cfcdb28d03dd4",
       "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
       "wave": 29
     },
     {
       "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
       "finding_id": "W29-F3",
-      "seal_prefix": "e0d867377a96b710",
+      "seal_prefix": "bf5cfcdb28d03dd4",
       "title": "Prior-wave negative dispositions retained inside integrated hypergraph",
       "wave": 29
     }
