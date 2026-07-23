@@ -1,0 +1,664 @@
+{
+  "controlling_dispositions": {
+    "adjudicated_total": 0,
+    "authenticated_ip_royalty_or_license_payment_rail": false,
+    "authenticated_money_flow_to_sealed_ip": false,
+    "illicit_dust_evasion_adjudicated": false,
+    "illicit_money_flow_adjudicated": false,
+    "illicit_royalty_adjudicated": false,
+    "native_btc_sub_satoshi_impossible_on_chain": true,
+    "native_eth_sub_wei_impossible_on_l1": true,
+    "stolen_ip_conveyance_authenticated": false,
+    "theft_adjudicated": false,
+    "true_ubo_asserted": 0,
+    "uspto_assignment_chain_authenticated": false,
+    "wrapped_rap_rail_authenticated": false
+  },
+  "findings": [
+    {
+      "controlling_dispositions": {
+        "adjudicated_total": 0,
+        "authenticated_ip_royalty_or_license_payment_rail": false,
+        "authenticated_money_flow_to_sealed_ip": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_money_flow_adjudicated": false,
+        "illicit_royalty_adjudicated": false,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_sub_wei_impossible_on_l1": true,
+        "stolen_ip_conveyance_authenticated": false,
+        "theft_adjudicated": false,
+        "true_ubo_asserted": 0,
+        "uspto_assignment_chain_authenticated": false,
+        "wrapped_rap_rail_authenticated": false
+      },
+      "detail": "Fully updated controlling negatives across Waves 21–32. No wave flipped theft/royalty/money-to-IP/dust adjudications to true.",
+      "id": "W33-F4",
+      "rollup": {
+        "wave21": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "alleged_15213_authenticated": false,
+            "cyber_dust_illicit_flow_adjudicated": false,
+            "fyllo_eth_resolved": true,
+            "royalty_linked_to_stolen_families_adjudicated": false,
+            "royalty_payment_adjudicated": false,
+            "theft_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "252d1b1527ce2231"
+        },
+        "wave22": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 4,
+            "tracks": 5,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "abg_as_ip_payment_conduit_adjudicated": false,
+            "abg_fyllo_commandeering_adjudicated": false,
+            "alleged_15213_authenticated": false,
+            "cyber_dust_illicit_flow_adjudicated": false,
+            "fyllo_history_exhausted_ethereum": true,
+            "royalty_linked_to_stolen_families_adjudicated": false,
+            "royalty_payment_adjudicated": false,
+            "theft_adjudicated": false,
+            "tip_ten_illicit_control_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 4,
+          "present": true,
+          "seal_prefix": "0ff458613d8ec26c"
+        },
+        "wave23": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+          "counts": {
+            "adjudicated_total": 0,
+            "authenticated_abg_sec_named": 7,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "wayback_s1_named_entities": 8
+          },
+          "disposition": {
+            "approx_100_percent_corporate_licensing_authenticated": false,
+            "dao_licensing_to_stolen_ip_adjudicated": false,
+            "fortune_5000_coverage_authenticated": false,
+            "global_2000_coverage_authenticated": false,
+            "hidden_global_shell_inventory_authenticated": false,
+            "illicit_monetization_front_adjudicated": false,
+            "illicit_monetization_via_dao_adjudicated": false,
+            "ninety_million_shells_authenticated": false,
+            "sp500_and_beyond_coverage_authenticated": false,
+            "stealth_dao_licensing_adjudicated": false,
+            "theft_adjudicated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "ce6dbba362aae640"
+        },
+        "wave24": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+          "counts": {
+            "addresses_traced": 10,
+            "adjudicated_total": 0,
+            "findings": 7,
+            "fortune_100_screened": 102,
+            "participants_screened": 7,
+            "tracks": 8,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "altria_stolen_ip_royalty_adjudicated": false,
+            "cyber_dust_illicit_evasion_adjudicated": false,
+            "fortune_100_blockchain_royalty_link_authenticated": false,
+            "fortune_100_dao_licensing_authenticated": false,
+            "fortune_100_ip_licensing_census_authenticated": false,
+            "hidden_blockchain_royalty_adjudicated": false,
+            "hidden_legal_representation_adjudicated": false,
+            "illicit_licensing_facilitation_adjudicated": false,
+            "illicit_participant_adjudicated": false,
+            "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+            "pmi_dao_licensing_adjudicated": false,
+            "pmi_stolen_ip_royalty_adjudicated": false,
+            "professional_enabler_adjudicated": false,
+            "shared_enabler_corruption_adjudicated": false,
+            "state_actor_cartel_nexus_adjudicated": false,
+            "theft_adjudicated": false
+          },
+          "findings_count": 7,
+          "present": true,
+          "seal_prefix": "01e882f1336e2e41"
+        },
+        "wave25": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+          "counts": {
+            "adjudicated_total": 0,
+            "authenticated_links_to_sealed_pubs": 0,
+            "findings": 2,
+            "matrix_rows": 27,
+            "tracks": 3,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "alleged_15213_authenticated": false,
+            "illicit_royalty_adjudicated": false,
+            "stolen_ip_link_universally_authenticated": false,
+            "theft_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 2,
+          "present": true,
+          "seal_prefix": "00d550064566124d"
+        },
+        "wave26": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "pairs_with_flows": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "dao_royalty_rail_authenticated": false,
+            "illicit_combination_network_adjudicated": false,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_stealth_dao_adjudicated": false,
+            "stealth_dao_network_authenticated": false,
+            "theft_adjudicated": false,
+            "victim_ip_filter_applied": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "efd7a67c242ea159"
+        },
+        "wave27": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "cross_entity_stolen_ip_tokenization_adjudicated": false,
+            "fractionalized_patent_nft_rail_authenticated": false,
+            "fractionalized_patent_nft_to_skoda_authenticated": false,
+            "illicit_royalty_adjudicated": false,
+            "rap_classified_as_wrapped": true,
+            "theft_adjudicated": false,
+            "tokenized_ip_royalty_rail_authenticated": false,
+            "tokenized_royalty_to_skoda_authenticated": false,
+            "wrapped_fractionalized_stolen_ip_adjudicated": false,
+            "wrapped_rap_rail_authenticated": false,
+            "wrapped_rap_to_skoda_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "bdae539b54a5ef2f"
+        },
+        "wave28": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "deepened_fine_lt_1e9_total": 16,
+            "findings": 3,
+            "pairs_with_fine_dust": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "ultra_lt_1e6_total": 12
+          },
+          "disposition": {
+            "fine_threshold_wei_lt": 1000000000,
+            "finest_band": "single_wei",
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "ultra_threshold_wei_lt": 1000000,
+            "wave26_dust_sensitivity_superseded_for_detection": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "3d7c688324d05f79"
+        },
+        "wave29": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 3,
+            "hyperedges_optimized": 683,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "vertices": 573,
+            "waves_ingested": 26
+          },
+          "disposition": {
+            "consolidation_complete": true,
+            "hypergraph_sealed": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "nvidia_gpu_active": false,
+            "nvidia_path": "numpy_vectorized_nvidia_compatible",
+            "theft_adjudicated": false,
+            "tokenized_royalty_rail_authenticated": false,
+            "wrapped_rap_rail_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "91881895b7f56faf"
+        },
+        "wave30": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W30",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "insights": 10,
+            "pairs_with_subatomic": 0,
+            "single_wei_total": 2,
+            "subatomic_lt_10_total": 8,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "adjudicated_from_insights": false,
+            "finer_illicit_flow_candidates_only": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "subatomic_threshold_wei_lt": 10,
+            "top10_insights_sealed": true,
+            "wave28_dust_sensitivity_superseded_for_detection": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "c3dfc5510a62c46b"
+        },
+        "wave31": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W31",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "floor_wei_eq_1_total": 3,
+            "pairs_with_subquantum": 0,
+            "sub_satoshi_scale_total": 18,
+            "sub_wei_scale_total": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "full_update_complete": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "native_btc_sub_satoshi_impossible_on_chain": true,
+            "native_eth_sub_wei_impossible_on_l1": true,
+            "sub_satoshi_native_btc_transfers_observed": 0,
+            "sub_wei_native_transfers_observed": 0,
+            "wave30_dust_sensitivity_superseded_for_subquantum": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "9bd47137407a002e"
+        },
+        "wave32": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W32",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "onchain_ip_token_hits": 0,
+            "sealed_money_edges": 0,
+            "sealed_publications": 15,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "authenticated_ip_royalty_or_license_payment_rail": false,
+            "authenticated_money_flow_to_sealed_ip": false,
+            "illicit_money_flow_adjudicated": false,
+            "illicit_royalty_adjudicated": false,
+            "stolen_ip_conveyance_authenticated": false,
+            "theft_adjudicated": false,
+            "uspto_assignment_chain_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "0d5649fb20afc719"
+        }
+      },
+      "title": "Full disposition rollup update across Waves 21–32",
+      "waves_in_rollup": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  ],
+  "id": "disposition_rollup_full_update",
+  "rollup": {
+    "wave21": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+      "counts": {
+        "adjudicated_total": 0,
+        "findings": 3,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "alleged_15213_authenticated": false,
+        "cyber_dust_illicit_flow_adjudicated": false,
+        "fyllo_eth_resolved": true,
+        "royalty_linked_to_stolen_families_adjudicated": false,
+        "royalty_payment_adjudicated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "252d1b1527ce2231"
+    },
+    "wave22": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+      "counts": {
+        "adjudicated_total": 0,
+        "findings": 4,
+        "tracks": 5,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "abg_as_ip_payment_conduit_adjudicated": false,
+        "abg_fyllo_commandeering_adjudicated": false,
+        "alleged_15213_authenticated": false,
+        "cyber_dust_illicit_flow_adjudicated": false,
+        "fyllo_history_exhausted_ethereum": true,
+        "royalty_linked_to_stolen_families_adjudicated": false,
+        "royalty_payment_adjudicated": false,
+        "theft_adjudicated": false,
+        "tip_ten_illicit_control_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "findings_count": 4,
+      "present": true,
+      "seal_prefix": "0ff458613d8ec26c"
+    },
+    "wave23": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+      "counts": {
+        "adjudicated_total": 0,
+        "authenticated_abg_sec_named": 7,
+        "findings": 3,
+        "tracks": 4,
+        "true_ubo_asserted": 0,
+        "wayback_s1_named_entities": 8
+      },
+      "disposition": {
+        "approx_100_percent_corporate_licensing_authenticated": false,
+        "dao_licensing_to_stolen_ip_adjudicated": false,
+        "fortune_5000_coverage_authenticated": false,
+        "global_2000_coverage_authenticated": false,
+        "hidden_global_shell_inventory_authenticated": false,
+        "illicit_monetization_front_adjudicated": false,
+        "illicit_monetization_via_dao_adjudicated": false,
+        "ninety_million_shells_authenticated": false,
+        "sp500_and_beyond_coverage_authenticated": false,
+        "stealth_dao_licensing_adjudicated": false,
+        "theft_adjudicated": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "ce6dbba362aae640"
+    },
+    "wave24": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "counts": {
+        "addresses_traced": 10,
+        "adjudicated_total": 0,
+        "findings": 7,
+        "fortune_100_screened": 102,
+        "participants_screened": 7,
+        "tracks": 8,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "altria_stolen_ip_royalty_adjudicated": false,
+        "cyber_dust_illicit_evasion_adjudicated": false,
+        "fortune_100_blockchain_royalty_link_authenticated": false,
+        "fortune_100_dao_licensing_authenticated": false,
+        "fortune_100_ip_licensing_census_authenticated": false,
+        "hidden_blockchain_royalty_adjudicated": false,
+        "hidden_legal_representation_adjudicated": false,
+        "illicit_licensing_facilitation_adjudicated": false,
+        "illicit_participant_adjudicated": false,
+        "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+        "pmi_dao_licensing_adjudicated": false,
+        "pmi_stolen_ip_royalty_adjudicated": false,
+        "professional_enabler_adjudicated": false,
+        "shared_enabler_corruption_adjudicated": false,
+        "state_actor_cartel_nexus_adjudicated": false,
+        "theft_adjudicated": false
+      },
+      "findings_count": 7,
+      "present": true,
+      "seal_prefix": "01e882f1336e2e41"
+    },
+    "wave25": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+      "counts": {
+        "adjudicated_total": 0,
+        "authenticated_links_to_sealed_pubs": 0,
+        "findings": 2,
+        "matrix_rows": 27,
+        "tracks": 3,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "alleged_15213_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_link_universally_authenticated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "findings_count": 2,
+      "present": true,
+      "seal_prefix": "00d550064566124d"
+    },
+    "wave26": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "findings": 3,
+        "pairs_with_flows": 0,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "dao_royalty_rail_authenticated": false,
+        "illicit_combination_network_adjudicated": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_stealth_dao_adjudicated": false,
+        "stealth_dao_network_authenticated": false,
+        "theft_adjudicated": false,
+        "victim_ip_filter_applied": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "efd7a67c242ea159"
+    },
+    "wave27": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "findings": 3,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "cross_entity_stolen_ip_tokenization_adjudicated": false,
+        "fractionalized_patent_nft_rail_authenticated": false,
+        "fractionalized_patent_nft_to_skoda_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "rap_classified_as_wrapped": true,
+        "theft_adjudicated": false,
+        "tokenized_ip_royalty_rail_authenticated": false,
+        "tokenized_royalty_to_skoda_authenticated": false,
+        "wrapped_fractionalized_stolen_ip_adjudicated": false,
+        "wrapped_rap_rail_authenticated": false,
+        "wrapped_rap_to_skoda_authenticated": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "bdae539b54a5ef2f"
+    },
+    "wave28": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "deepened_fine_lt_1e9_total": 16,
+        "findings": 3,
+        "pairs_with_fine_dust": 0,
+        "tracks": 4,
+        "true_ubo_asserted": 0,
+        "ultra_lt_1e6_total": 12
+      },
+      "disposition": {
+        "fine_threshold_wei_lt": 1000000000,
+        "finest_band": "single_wei",
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_dust_network_adjudicated": false,
+        "ultra_threshold_wei_lt": 1000000,
+        "wave26_dust_sensitivity_superseded_for_detection": true
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "3d7c688324d05f79"
+    },
+    "wave29": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+      "counts": {
+        "adjudicated_total": 0,
+        "findings": 3,
+        "hyperedges_optimized": 683,
+        "tracks": 4,
+        "true_ubo_asserted": 0,
+        "vertices": 573,
+        "waves_ingested": 26
+      },
+      "disposition": {
+        "consolidation_complete": true,
+        "hypergraph_sealed": true,
+        "illicit_dust_evasion_adjudicated": false,
+        "nvidia_gpu_active": false,
+        "nvidia_path": "numpy_vectorized_nvidia_compatible",
+        "theft_adjudicated": false,
+        "tokenized_royalty_rail_authenticated": false,
+        "wrapped_rap_rail_authenticated": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "91881895b7f56faf"
+    },
+    "wave30": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W30",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "findings": 3,
+        "insights": 10,
+        "pairs_with_subatomic": 0,
+        "single_wei_total": 2,
+        "subatomic_lt_10_total": 8,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "adjudicated_from_insights": false,
+        "finer_illicit_flow_candidates_only": true,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_dust_network_adjudicated": false,
+        "subatomic_threshold_wei_lt": 10,
+        "top10_insights_sealed": true,
+        "wave28_dust_sensitivity_superseded_for_detection": true
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "c3dfc5510a62c46b"
+    },
+    "wave31": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W31",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "findings": 3,
+        "floor_wei_eq_1_total": 3,
+        "pairs_with_subquantum": 0,
+        "sub_satoshi_scale_total": 18,
+        "sub_wei_scale_total": 0,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "full_update_complete": true,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_dust_network_adjudicated": false,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_sub_wei_impossible_on_l1": true,
+        "sub_satoshi_native_btc_transfers_observed": 0,
+        "sub_wei_native_transfers_observed": 0,
+        "wave30_dust_sensitivity_superseded_for_subquantum": true
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "9bd47137407a002e"
+    },
+    "wave32": {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W32",
+      "counts": {
+        "addresses_screened": 19,
+        "adjudicated_total": 0,
+        "findings": 3,
+        "onchain_ip_token_hits": 0,
+        "sealed_money_edges": 0,
+        "sealed_publications": 15,
+        "tracks": 4,
+        "true_ubo_asserted": 0
+      },
+      "disposition": {
+        "authenticated_ip_royalty_or_license_payment_rail": false,
+        "authenticated_money_flow_to_sealed_ip": false,
+        "illicit_money_flow_adjudicated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_conveyance_authenticated": false,
+        "theft_adjudicated": false,
+        "uspto_assignment_chain_authenticated": false
+      },
+      "findings_count": 3,
+      "present": true,
+      "seal_prefix": "0d5649fb20afc719"
+    }
+  },
+  "status": "SEALED",
+  "title": "Cross-wave disposition rollup (full update)"
+}

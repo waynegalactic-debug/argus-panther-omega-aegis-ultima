@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W33-M1",
+      "item": "USPTO assignments for 15 sealed pubs (still gating)",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "W33-M2",
+      "item": "Archive-node for EOAs still page-capped after Wave-33 deepen",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W33-M3",
+      "item": "Keep charging docs aligned to controlling disposition rollup (all negatives)",
+      "priority": "HIGH"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-33 operator worklist"
+}

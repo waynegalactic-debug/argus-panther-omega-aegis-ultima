@@ -1,0 +1,804 @@
+{
+  "artifacts": {
+    "hypergraph": "docs/investigation/wave33/nvidia_accelerated_consolidated_hypergraph.json",
+    "ip": "docs/investigation/wave33/deepened_ip_flows_full_update.json",
+    "money": "docs/investigation/wave33/deepened_money_flows_full_update.json",
+    "rollup": "docs/investigation/wave33/disposition_rollup_full_update.json",
+    "summary_md": "docs/investigation/WAVE33_DEEPEN_AND_FULL_UPDATE_ALL.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W33",
+  "counts": {
+    "addresses_deepened": 11,
+    "adjudicated_total": 0,
+    "findings": 4,
+    "hypergraph_edges": 792,
+    "hypergraph_vertices": 669,
+    "one_hop_sealed_bridges": 0,
+    "pubs_refreshed_ok": 15,
+    "tracks": 5,
+    "true_ubo_asserted": 0,
+    "waves_in_hypergraph": 30
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "cded04c95620849a645168dfe04029d6eea47c0f26a6ec697f99a07ae0782958",
+    "leaves": [
+      {
+        "id": "deepened_money_flows_full_update",
+        "sha3_256": "d227226177b70e9f43895b492f7f6079deb58ce92bc1b585543f2c135c01eec0",
+        "status": "SEALED"
+      },
+      {
+        "id": "deepened_ip_flows_full_update",
+        "sha3_256": "3caa926d9b55423c7c316a4d6b52b25561536d50587e6f591522db042f9c5847",
+        "status": "SEALED"
+      },
+      {
+        "id": "hypergraph_full_update",
+        "sha3_256": "c49e17fcc3469eb4f468f17d6257ef8d0fad2be9095184ac1478857af9e3da73",
+        "status": "SEALED"
+      },
+      {
+        "id": "disposition_rollup_full_update",
+        "sha3_256": "c93aae7734aae85a020adca75a4148cc3f866e7a3b99d059d5c051cbe4a3911f",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "0c642888088a6ed88fa37f57bc82b6c8b1ec25b60015def92be2078098c5a3ad",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "0cbe4d04111ca02da0d2d727dc61ca9c2e1a6ac1cc81e6cb338c3fa5b70306d5f7748d621f45af35b8d4130e187817993f66c9ae7f9c4ca623aff3aa6fda2761"
+  },
+  "disposition": {
+    "adjudicated_total": 0,
+    "analysis_deepened": true,
+    "authenticated_ip_royalty_or_license_payment_rail": false,
+    "authenticated_money_flow_to_sealed_ip": false,
+    "full_update_complete": true,
+    "hypergraph_fully_updated": true,
+    "illicit_dust_evasion_adjudicated": false,
+    "illicit_money_flow_adjudicated": false,
+    "illicit_royalty_adjudicated": false,
+    "native_btc_sub_satoshi_impossible_on_chain": true,
+    "native_eth_sub_wei_impossible_on_l1": true,
+    "stolen_ip_conveyance_authenticated": false,
+    "theft_adjudicated": false,
+    "true_ubo_asserted": 0,
+    "uspto_assignment_chain_authenticated": false,
+    "wrapped_rap_rail_authenticated": false
+  },
+  "elapsed_ms": 382421,
+  "findings": [
+    {
+      "addresses_deepened": 11,
+      "aggregate_eth_in_eth": 409.333543922831,
+      "aggregate_eth_out_eth": 1239.640133022506,
+      "detail": "Deepened 11 labels (Wave-32 caps + fyllo priority) with tx≤45/tt≤18 and 3-hop external expansion. Sealed ETH edges among deepened=0; one-hop sealed-bridge tx hits=0. Still page-capped: ['philipmorris.eth', 'jensenhuang.eth', 'philipmorrisusa.eth', 'pmusa.eth', 'jamiesalter.eth', 'sama.eth', 'vitalik.eth']. Not an illicit-money adjudication.",
+      "id": "W33-F1",
+      "illicit_money_flow_adjudicated": false,
+      "ip_linked_token_hits_total": 0,
+      "one_hop_sealed_bridge_tx_hits_total": 0,
+      "sealed_set_eth_edge_count": 0,
+      "sealed_set_eth_edges_among_deepened": [],
+      "still_hitting_page_cap_after_deepen": [
+        "philipmorris.eth",
+        "jensenhuang.eth",
+        "philipmorrisusa.eth",
+        "pmusa.eth",
+        "jamiesalter.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "targets_screened": [
+        "elonmusk.eth",
+        "fyllo.eth",
+        "jamiesalter.eth",
+        "jensenhuang.eth",
+        "juul.eth",
+        "paxlabs.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "pmusa.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "title": "Deepened money-flow follow on page-capped EOAs + one-hop external bridges (full update)",
+      "wave32_page_cap_targets": [
+        "juul.eth",
+        "elonmusk.eth",
+        "jensenhuang.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "paxlabs.eth",
+        "jamiesalter.eth",
+        "pmusa.eth",
+        "vitalik.eth",
+        "sama.eth"
+      ],
+      "wave32_retained": {
+        "counts": {
+          "addresses_screened": 19,
+          "adjudicated_total": 0,
+          "findings": 3,
+          "onchain_ip_token_hits": 0,
+          "sealed_money_edges": 0,
+          "sealed_publications": 15,
+          "tracks": 4,
+          "true_ubo_asserted": 0
+        },
+        "disposition": {
+          "authenticated_ip_royalty_or_license_payment_rail": false,
+          "authenticated_money_flow_to_sealed_ip": false,
+          "illicit_money_flow_adjudicated": false,
+          "illicit_royalty_adjudicated": false,
+          "stolen_ip_conveyance_authenticated": false,
+          "theft_adjudicated": false,
+          "uspto_assignment_chain_authenticated": false
+        }
+      }
+    },
+    {
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "detail": "Refreshed Google Patents HTML for 15/15 sealed pubs. Assignee clusters unchanged from Wave-14 seal. USPTO assignment chains still unauthenticated. Wave-25/32 IP dispositions retained.",
+      "google_patents_refresh_attempted": 15,
+      "google_patents_refresh_ok": 15,
+      "id": "W33-F2",
+      "illicit_royalty_adjudicated": false,
+      "refreshed_publications": [
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+          "http_status": 200,
+          "publication": "US11234465B2",
+          "refresh_ok": true,
+          "sha256": "fd9ecca9a0a40ee222efe4fb3abc3cb0dc26136651d4a40b78fc731ba3ccd44b",
+          "title_hint_from_html": "US11234465B2 - Heating mechanisms for vaporizers \n        - Google Patents",
+          "title_sealed": "Heating mechanisms for vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+          "http_status": 200,
+          "publication": "US11275070B2",
+          "refresh_ok": true,
+          "sha256": "0375b4210fc3feca84c09bd4d70eb59fd75e55412d6d0d31a766fd2f09358ded",
+          "title_hint_from_html": "US11275070B2 - Systems and methods for dipstick diagnostic tools and related methods \n        - Google Patents",
+          "title_sealed": "Systems and methods for dipstick diagnostic tools and related methods"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+          "http_status": 200,
+          "publication": "US20180191180A1",
+          "refresh_ok": true,
+          "sha256": "3d4751df938ded0c7189ef1b79dc6414bc9e47dc74f8e1beb249d4d20273233c",
+          "title_hint_from_html": "US20180191180A1 - Systems and methods for portable charging systems and designs thereof \n      - Google Patents",
+          "title_sealed": "Systems and methods for portable charging systems and designs thereof"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+          "http_status": 200,
+          "publication": "US20190240429A1",
+          "refresh_ok": true,
+          "sha256": "ba840e86a79a655ae7567253a330419238dc8bd8f021631116ea943bd8761b1a",
+          "title_hint_from_html": "US20190240429A1 - Systems and methods for intelligent vaporizers \n      - Google Patents",
+          "title_sealed": "Systems and methods for intelligent vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Brent M. Skoda",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+          "http_status": 200,
+          "publication": "US20190378609A1",
+          "refresh_ok": true,
+          "sha256": "2a98214009197ae8537883a3d70e1b6d961b7c726c4bba53bdb995c147dd3dab",
+          "title_hint_from_html": "US20190378609A1 - Systems and methods for medical dispensing, management and monitoring \n      - Google Patents",
+          "title_sealed": "Systems and methods for medical dispensing, management and monitoring"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+          "http_status": 200,
+          "publication": "US20200005924A1",
+          "refresh_ok": true,
+          "sha256": "9e5441df780ef983546e6fda8d48695b1d65a8100b50d8ee2c699fc103686b76",
+          "title_hint_from_html": "US20200005924A1 - System and method for managing and dispensing an inhalable composition, regulating its use, and communicating data related thereto \n      - Google Patents",
+          "title_sealed": "System and method for managing and dispensing an inhalable composition, &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+          "http_status": 200,
+          "publication": "US20210202056A1",
+          "refresh_ok": true,
+          "sha256": "8a10f12986ebd68bed72905d8da8c5bc5b2f66da7c7d4691c95e4207106a23eb",
+          "title_hint_from_html": "US20210202056A1 - Systems and methods for managing a medical supply chain \n        - Google Patents",
+          "title_sealed": "Systems and methods for managing a medical supply chain"
+        },
+        {
+          "assignee_field_sealed": "UrgentRN LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+          "http_status": 200,
+          "publication": "US20220104664A1",
+          "refresh_ok": true,
+          "sha256": "f42a9531853c43fc3c96e30e87e9032ff4e99d452801ab7a8d40f8e5f9932880",
+          "title_hint_from_html": "US20220104664A1 - Systems and methods for sanitizer dispensing devices and remote management of the same \n      - Google Patents",
+          "title_sealed": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+          "http_status": 200,
+          "publication": "US20230112752A1",
+          "refresh_ok": true,
+          "sha256": "a2a549430ee32b977d2ce322abfb908a133f42c4aa9f57e3ad6b219211e7fcf6",
+          "title_hint_from_html": "US20230112752A1 - Systems and methods for intelligent vaporizers \n        - Google Patents",
+          "title_sealed": "Systems and methods for intelligent vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Ventures LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+          "http_status": 200,
+          "publication": "US20240215633A1",
+          "refresh_ok": true,
+          "sha256": "9441388bbd1845e5180debc0a20fb52f9e5e3a800d4683ec326231c175b4e9f6",
+          "title_hint_from_html": "US20240215633A1 - Inhalable compositions comprising caffeine, methods of use and an apparatus for using the same \n      - Google Patents",
+          "title_sealed": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+          "http_status": 200,
+          "publication": "US20240242809A1",
+          "refresh_ok": true,
+          "sha256": "31b35fa5ce99ace75a98c46e75b80f27839b264b24ab36099baedd5635d5d7f2",
+          "title_hint_from_html": "US20240242809A1 - Systems and methods for medical dispensing, management and monitoring \n        - Google Patents",
+          "title_sealed": "Systems and methods for medical dispensing, management and monitoring"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+          "http_status": 200,
+          "publication": "US20240244430A1",
+          "refresh_ok": true,
+          "sha256": "d247d2ba41546bb219a7b9e5bc767d76a31e664ebedbd8c20df2dd9fc4beffd9",
+          "title_hint_from_html": "US20240244430A1 - Network-enabled electronic cigarette \n        - Google Patents",
+          "title_sealed": "Network-enabled electronic cigarette"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+          "http_status": 200,
+          "publication": "US20250054595A1",
+          "refresh_ok": true,
+          "sha256": "91b2082944f6769dbd2b0658e869c83f9c5549388308ab8c13619baa6971922a",
+          "title_hint_from_html": "US20250054595A1 - Systems and methods for smart mixers \n        - Google Patents",
+          "title_sealed": "Systems and methods for smart mixers"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+          "http_status": 200,
+          "publication": "US20250177708A1",
+          "refresh_ok": true,
+          "sha256": "982287f906e0be04426f1fe61d9c97c1ecd8eb6dc66322742ff1a26383fd9ea7",
+          "title_hint_from_html": "US20250177708A1 - Systems and methods for medical diagnostics and medication delivery \n      - Google Patents",
+          "title_sealed": "Systems and methods for medical diagnostics and medication delivery"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Ventures LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+          "http_status": 200,
+          "publication": "USD795407S1",
+          "refresh_ok": true,
+          "sha256": "1f71e5c2e2661d367d2b6f4eea5a9966152837498696e474da98fe1e13763f32",
+          "title_hint_from_html": "USD795407S1 - Vaporization and inhaler apparatus \n        - Google Patents",
+          "title_sealed": "Vaporization and inhaler apparatus"
+        }
+      ],
+      "sealed_publication_count": 15,
+      "stolen_ip_conveyance_authenticated": false,
+      "theft_adjudicated": false,
+      "title": "Deepened IP-flow follow: sealed pubs metadata refresh + full disposition update",
+      "uspto_assignment_chain_authenticated": false,
+      "wave25_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_link_universally_authenticated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wave32_disposition_retained": {
+        "authenticated_ip_royalty_or_license_payment_rail": false,
+        "authenticated_money_flow_to_sealed_ip": false,
+        "illicit_money_flow_adjudicated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_conveyance_authenticated": false,
+        "theft_adjudicated": false,
+        "uspto_assignment_chain_authenticated": false
+      }
+    },
+    {
+      "acceleration": {
+        "connected_components": 1,
+        "elapsed_ms": 9,
+        "incidence_nnz": 2057,
+        "largest_component_size": 669,
+        "nvidia_accelerated": false,
+        "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible"
+      },
+      "address_book_size": 19,
+      "adjudicated_total": 0,
+      "backend": "numpy_cpu_nvidia_compatible",
+      "components": 1,
+      "detail": "Full hypergraph update: waves=30, V=669, E=792, components=1.",
+      "findings_index_rows": 89,
+      "hyperedges_optimized": 792,
+      "id": "W33-F3",
+      "sealed_publications": 15,
+      "title": "Fully updated NVIDIA consolidated hypergraph (Waves 2–32)",
+      "vertices": 669,
+      "waves_ingested": 30
+    },
+    {
+      "controlling_dispositions": {
+        "adjudicated_total": 0,
+        "authenticated_ip_royalty_or_license_payment_rail": false,
+        "authenticated_money_flow_to_sealed_ip": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_money_flow_adjudicated": false,
+        "illicit_royalty_adjudicated": false,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_sub_wei_impossible_on_l1": true,
+        "stolen_ip_conveyance_authenticated": false,
+        "theft_adjudicated": false,
+        "true_ubo_asserted": 0,
+        "uspto_assignment_chain_authenticated": false,
+        "wrapped_rap_rail_authenticated": false
+      },
+      "detail": "Fully updated controlling negatives across Waves 21–32. No wave flipped theft/royalty/money-to-IP/dust adjudications to true.",
+      "id": "W33-F4",
+      "rollup": {
+        "wave21": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "alleged_15213_authenticated": false,
+            "cyber_dust_illicit_flow_adjudicated": false,
+            "fyllo_eth_resolved": true,
+            "royalty_linked_to_stolen_families_adjudicated": false,
+            "royalty_payment_adjudicated": false,
+            "theft_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "252d1b1527ce2231"
+        },
+        "wave22": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 4,
+            "tracks": 5,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "abg_as_ip_payment_conduit_adjudicated": false,
+            "abg_fyllo_commandeering_adjudicated": false,
+            "alleged_15213_authenticated": false,
+            "cyber_dust_illicit_flow_adjudicated": false,
+            "fyllo_history_exhausted_ethereum": true,
+            "royalty_linked_to_stolen_families_adjudicated": false,
+            "royalty_payment_adjudicated": false,
+            "theft_adjudicated": false,
+            "tip_ten_illicit_control_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 4,
+          "present": true,
+          "seal_prefix": "0ff458613d8ec26c"
+        },
+        "wave23": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+          "counts": {
+            "adjudicated_total": 0,
+            "authenticated_abg_sec_named": 7,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "wayback_s1_named_entities": 8
+          },
+          "disposition": {
+            "approx_100_percent_corporate_licensing_authenticated": false,
+            "dao_licensing_to_stolen_ip_adjudicated": false,
+            "fortune_5000_coverage_authenticated": false,
+            "global_2000_coverage_authenticated": false,
+            "hidden_global_shell_inventory_authenticated": false,
+            "illicit_monetization_front_adjudicated": false,
+            "illicit_monetization_via_dao_adjudicated": false,
+            "ninety_million_shells_authenticated": false,
+            "sp500_and_beyond_coverage_authenticated": false,
+            "stealth_dao_licensing_adjudicated": false,
+            "theft_adjudicated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "ce6dbba362aae640"
+        },
+        "wave24": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+          "counts": {
+            "addresses_traced": 10,
+            "adjudicated_total": 0,
+            "findings": 7,
+            "fortune_100_screened": 102,
+            "participants_screened": 7,
+            "tracks": 8,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "altria_stolen_ip_royalty_adjudicated": false,
+            "cyber_dust_illicit_evasion_adjudicated": false,
+            "fortune_100_blockchain_royalty_link_authenticated": false,
+            "fortune_100_dao_licensing_authenticated": false,
+            "fortune_100_ip_licensing_census_authenticated": false,
+            "hidden_blockchain_royalty_adjudicated": false,
+            "hidden_legal_representation_adjudicated": false,
+            "illicit_licensing_facilitation_adjudicated": false,
+            "illicit_participant_adjudicated": false,
+            "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+            "pmi_dao_licensing_adjudicated": false,
+            "pmi_stolen_ip_royalty_adjudicated": false,
+            "professional_enabler_adjudicated": false,
+            "shared_enabler_corruption_adjudicated": false,
+            "state_actor_cartel_nexus_adjudicated": false,
+            "theft_adjudicated": false
+          },
+          "findings_count": 7,
+          "present": true,
+          "seal_prefix": "01e882f1336e2e41"
+        },
+        "wave25": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+          "counts": {
+            "adjudicated_total": 0,
+            "authenticated_links_to_sealed_pubs": 0,
+            "findings": 2,
+            "matrix_rows": 27,
+            "tracks": 3,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "alleged_15213_authenticated": false,
+            "illicit_royalty_adjudicated": false,
+            "stolen_ip_link_universally_authenticated": false,
+            "theft_adjudicated": false,
+            "wip_0194_artifact_located": false
+          },
+          "findings_count": 2,
+          "present": true,
+          "seal_prefix": "00d550064566124d"
+        },
+        "wave26": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "pairs_with_flows": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "dao_royalty_rail_authenticated": false,
+            "illicit_combination_network_adjudicated": false,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_stealth_dao_adjudicated": false,
+            "stealth_dao_network_authenticated": false,
+            "theft_adjudicated": false,
+            "victim_ip_filter_applied": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "efd7a67c242ea159"
+        },
+        "wave27": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "cross_entity_stolen_ip_tokenization_adjudicated": false,
+            "fractionalized_patent_nft_rail_authenticated": false,
+            "fractionalized_patent_nft_to_skoda_authenticated": false,
+            "illicit_royalty_adjudicated": false,
+            "rap_classified_as_wrapped": true,
+            "theft_adjudicated": false,
+            "tokenized_ip_royalty_rail_authenticated": false,
+            "tokenized_royalty_to_skoda_authenticated": false,
+            "wrapped_fractionalized_stolen_ip_adjudicated": false,
+            "wrapped_rap_rail_authenticated": false,
+            "wrapped_rap_to_skoda_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "bdae539b54a5ef2f"
+        },
+        "wave28": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "deepened_fine_lt_1e9_total": 16,
+            "findings": 3,
+            "pairs_with_fine_dust": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "ultra_lt_1e6_total": 12
+          },
+          "disposition": {
+            "fine_threshold_wei_lt": 1000000000,
+            "finest_band": "single_wei",
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "ultra_threshold_wei_lt": 1000000,
+            "wave26_dust_sensitivity_superseded_for_detection": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "3d7c688324d05f79"
+        },
+        "wave29": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+          "counts": {
+            "adjudicated_total": 0,
+            "findings": 3,
+            "hyperedges_optimized": 683,
+            "tracks": 4,
+            "true_ubo_asserted": 0,
+            "vertices": 573,
+            "waves_ingested": 26
+          },
+          "disposition": {
+            "consolidation_complete": true,
+            "hypergraph_sealed": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "nvidia_gpu_active": false,
+            "nvidia_path": "numpy_vectorized_nvidia_compatible",
+            "theft_adjudicated": false,
+            "tokenized_royalty_rail_authenticated": false,
+            "wrapped_rap_rail_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "91881895b7f56faf"
+        },
+        "wave30": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W30",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "insights": 10,
+            "pairs_with_subatomic": 0,
+            "single_wei_total": 2,
+            "subatomic_lt_10_total": 8,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "adjudicated_from_insights": false,
+            "finer_illicit_flow_candidates_only": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "subatomic_threshold_wei_lt": 10,
+            "top10_insights_sealed": true,
+            "wave28_dust_sensitivity_superseded_for_detection": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "c3dfc5510a62c46b"
+        },
+        "wave31": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W31",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "floor_wei_eq_1_total": 3,
+            "pairs_with_subquantum": 0,
+            "sub_satoshi_scale_total": 18,
+            "sub_wei_scale_total": 0,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "full_update_complete": true,
+            "illicit_dust_evasion_adjudicated": false,
+            "illicit_dust_network_adjudicated": false,
+            "native_btc_sub_satoshi_impossible_on_chain": true,
+            "native_eth_sub_wei_impossible_on_l1": true,
+            "sub_satoshi_native_btc_transfers_observed": 0,
+            "sub_wei_native_transfers_observed": 0,
+            "wave30_dust_sensitivity_superseded_for_subquantum": true
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "9bd47137407a002e"
+        },
+        "wave32": {
+          "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W32",
+          "counts": {
+            "addresses_screened": 19,
+            "adjudicated_total": 0,
+            "findings": 3,
+            "onchain_ip_token_hits": 0,
+            "sealed_money_edges": 0,
+            "sealed_publications": 15,
+            "tracks": 4,
+            "true_ubo_asserted": 0
+          },
+          "disposition": {
+            "authenticated_ip_royalty_or_license_payment_rail": false,
+            "authenticated_money_flow_to_sealed_ip": false,
+            "illicit_money_flow_adjudicated": false,
+            "illicit_royalty_adjudicated": false,
+            "stolen_ip_conveyance_authenticated": false,
+            "theft_adjudicated": false,
+            "uspto_assignment_chain_authenticated": false
+          },
+          "findings_count": 3,
+          "present": true,
+          "seal_prefix": "0d5649fb20afc719"
+        }
+      },
+      "title": "Full disposition rollup update across Waves 21–32",
+      "waves_in_rollup": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  ],
+  "generated_at": "2026-07-23T22:30:45Z",
+  "policy": "Wave-33 systematically deepens money/IP analysis and fully updates the hypergraph and Waves 21–32 disposition rollup. No theft/royalty/illicit-money adjudication.",
+  "seal": "712dce7ff357820d1187fc846ced6eea68d2e6a760d27d7908c79663dc882ffd",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "deepened_money_flows_full_update",
+      "next_actions": [
+        "Archive-node for addresses still page-capped after deepen",
+        "Do not treat one-hop marketplace hubs as IP royalty counterparties without contracts"
+      ],
+      "status": "SEALED",
+      "title": "Deepened money flows (full update)"
+    },
+    {
+      "adjudicated": false,
+      "id": "deepened_ip_flows_full_update",
+      "next_actions": [
+        "USPTO assignment PDF extract remains the gating traditional IP-flow action"
+      ],
+      "status": "SEALED",
+      "title": "Deepened IP flows (full update)"
+    },
+    {
+      "adjudicated": false,
+      "id": "hypergraph_full_update",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "NVIDIA hypergraph full update (Waves 2–32)"
+    },
+    {
+      "adjudicated": false,
+      "id": "disposition_rollup_full_update",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Cross-wave disposition rollup (full update)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W33-M1",
+          "item": "USPTO assignments for 15 sealed pubs (still gating)",
+          "priority": "IMMEDIATE"
+        },
+        {
+          "id": "W33-M2",
+          "item": "Archive-node for EOAs still page-capped after Wave-33 deepen",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W33-M3",
+          "item": "Keep charging docs aligned to controlling disposition rollup (all negatives)",
+          "priority": "HIGH"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-33 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE33"
+}

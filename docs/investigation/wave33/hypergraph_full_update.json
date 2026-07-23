@@ -1,0 +1,368 @@
+{
+  "acceleration": {
+    "backend": "numpy_cpu_nvidia_compatible",
+    "connected_components": 1,
+    "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+    "elapsed_ms": 9,
+    "hyperedge_weighted_degree_mean": 2.1936868686868687,
+    "incidence_nnz": 2057,
+    "largest_component_size": 669,
+    "nvidia_accelerated": false,
+    "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+    "top_cooccurrence": [
+      {
+        "a": "wave:25",
+        "b": "wave:14",
+        "jaccard": 0.288136,
+        "shared_hyperedges": 17
+      },
+      {
+        "a": "flag:theft_adjudicated=False",
+        "b": "disposition:theft_adjudicated",
+        "jaccard": 0.37037,
+        "shared_hyperedges": 10
+      },
+      {
+        "a": "wave:22",
+        "b": "wave:21",
+        "jaccard": 0.06087,
+        "shared_hyperedges": 7
+      },
+      {
+        "a": "wave:31",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.136364,
+        "shared_hyperedges": 6
+      },
+      {
+        "a": "wave:32",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.128205,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:30",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.116279,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:32",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.090909,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:28",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.084746,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.079365,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:17",
+        "b": "flag:illicit_registration_adjudicated=False",
+        "jaccard": 0.181818,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:18",
+        "b": "flag:illicit_registration_adjudicated=False",
+        "jaccard": 0.133333,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:29",
+        "b": "flag:wrapped_rap_rail_authenticated=False",
+        "jaccard": 0.125,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:30",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.117647,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:31",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.111111,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:29",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.088889,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.083333,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:28",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.08,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:29",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.076923,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:21",
+        "b": "flag:royalty_payment_adjudicated=False",
+        "jaccard": 0.070175,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:21",
+        "b": "flag:cyber_dust_illicit_flow_adjudicated=False",
+        "jaccard": 0.070175,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:27",
+        "b": "flag:wrapped_rap_rail_authenticated=False",
+        "jaccard": 0.065574,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:26",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.0625,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:27",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.061538,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:22",
+        "b": "flag:royalty_payment_adjudicated=False",
+        "jaccard": 0.056338,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:22",
+        "b": "flag:cyber_dust_illicit_flow_adjudicated=False",
+        "jaccard": 0.056338,
+        "shared_hyperedges": 4
+      }
+    ],
+    "top_vertices_by_weighted_degree": [
+      {
+        "id": "wave:24",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 59.999999999999964
+      },
+      {
+        "id": "wave:22",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 50.79999999999998
+      },
+      {
+        "id": "wave:25",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.4
+      },
+      {
+        "id": "wave:27",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.399999999999984
+      },
+      {
+        "id": "wave:21",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 41.39999999999998
+      },
+      {
+        "id": "wave:14",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 35.1
+      },
+      {
+        "id": "wave:23",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 34.80000000000001
+      },
+      {
+        "id": "wave:26",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 34.39999999999998
+      },
+      {
+        "id": "wave:28",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 31.89999999999998
+      },
+      {
+        "id": "wave:32",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 28.800000000000008
+      },
+      {
+        "id": "wave:29",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 28.300000000000008
+      },
+      {
+        "id": "wave:31",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 27.800000000000008
+      },
+      {
+        "id": "wave:20",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 27.70000000000001
+      },
+      {
+        "id": "wave:30",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 26.300000000000008
+      },
+      {
+        "id": "wave:18",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 25.800000000000008
+      }
+    ],
+    "vertex_weighted_degree_max": 59.999999999999964,
+    "vertex_weighted_degree_mean": 2.5970104633781763
+  },
+  "findings": [
+    {
+      "acceleration": {
+        "connected_components": 1,
+        "elapsed_ms": 9,
+        "incidence_nnz": 2057,
+        "largest_component_size": 669,
+        "nvidia_accelerated": false,
+        "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible"
+      },
+      "address_book_size": 19,
+      "adjudicated_total": 0,
+      "backend": "numpy_cpu_nvidia_compatible",
+      "components": 1,
+      "detail": "Full hypergraph update: waves=30, V=669, E=792, components=1.",
+      "findings_index_rows": 89,
+      "hyperedges_optimized": 792,
+      "id": "W33-F3",
+      "sealed_publications": 15,
+      "title": "Fully updated NVIDIA consolidated hypergraph (Waves 2–32)",
+      "vertices": 669,
+      "waves_ingested": 30
+    }
+  ],
+  "id": "hypergraph_full_update",
+  "index_rows": 89,
+  "metrics": {
+    "avg_cardinality": 2.5972222222222223,
+    "degree_gini": 0.5879010241015947,
+    "degree_max": 85.0,
+    "degree_mean": 3.0747384155455904,
+    "hyperedges_merged_away": 0,
+    "kind_counts": {
+      "address": 19,
+      "case": 30,
+      "custody_leaf": 127,
+      "disposition_key": 97,
+      "ens_label": 19,
+      "finding": 78,
+      "flag": 127,
+      "publication": 15,
+      "track": 127,
+      "wave": 30
+    },
+    "max_cardinality": 30,
+    "num_hyperedges_optimized": 792,
+    "num_hyperedges_raw": 792,
+    "num_vertices": 669,
+    "relation_type_counts": {
+      "address_wave_screen": 114,
+      "ens_address": 19,
+      "finding_flag": 129,
+      "full_investigation_corpus": 1,
+      "publication_wave_corpus": 15,
+      "sealed_address_set": 1,
+      "sealed_publication_set": 1,
+      "shared_negative_disposition": 12,
+      "wave_case": 30,
+      "wave_custody_leaf": 127,
+      "wave_disposition": 123,
+      "wave_disposition_bundle": 15,
+      "wave_finding": 78,
+      "wave_track": 127
+    }
+  },
+  "negative_disposition_integration": {
+    "false_disposition_keys": 69,
+    "shared_negative_bundles": 12
+  },
+  "scaling": {
+    "components": 1,
+    "hyperedges_optimized": 792,
+    "largest_component_size": 669,
+    "streamline_merged_away": 0,
+    "vertices": 669,
+    "waves_ingested": 30
+  },
+  "status": "SEALED",
+  "title": "NVIDIA hypergraph full update (Waves 2–32)",
+  "topology": {
+    "betti_numbers": [
+      1,
+      2143,
+      0
+    ],
+    "entities_in_topo": 669,
+    "metrics": {
+      "avg_cardinality": 2.5972222222222223,
+      "density": 0.0035444805456351872,
+      "num_hyperedges": 792,
+      "num_vertices": 669
+    },
+    "relationships_in_topo": 792
+  }
+}

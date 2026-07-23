@@ -1,0 +1,580 @@
+{
+  "findings": [
+    {
+      "addresses_deepened": 11,
+      "aggregate_eth_in_eth": 409.333543922831,
+      "aggregate_eth_out_eth": 1239.640133022506,
+      "detail": "Deepened 11 labels (Wave-32 caps + fyllo priority) with tx≤45/tt≤18 and 3-hop external expansion. Sealed ETH edges among deepened=0; one-hop sealed-bridge tx hits=0. Still page-capped: ['philipmorris.eth', 'jensenhuang.eth', 'philipmorrisusa.eth', 'pmusa.eth', 'jamiesalter.eth', 'sama.eth', 'vitalik.eth']. Not an illicit-money adjudication.",
+      "id": "W33-F1",
+      "illicit_money_flow_adjudicated": false,
+      "ip_linked_token_hits_total": 0,
+      "one_hop_sealed_bridge_tx_hits_total": 0,
+      "sealed_set_eth_edge_count": 0,
+      "sealed_set_eth_edges_among_deepened": [],
+      "still_hitting_page_cap_after_deepen": [
+        "philipmorris.eth",
+        "jensenhuang.eth",
+        "philipmorrisusa.eth",
+        "pmusa.eth",
+        "jamiesalter.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "targets_screened": [
+        "elonmusk.eth",
+        "fyllo.eth",
+        "jamiesalter.eth",
+        "jensenhuang.eth",
+        "juul.eth",
+        "paxlabs.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "pmusa.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "title": "Deepened money-flow follow on page-capped EOAs + one-hop external bridges (full update)",
+      "wave32_page_cap_targets": [
+        "juul.eth",
+        "elonmusk.eth",
+        "jensenhuang.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "paxlabs.eth",
+        "jamiesalter.eth",
+        "pmusa.eth",
+        "vitalik.eth",
+        "sama.eth"
+      ],
+      "wave32_retained": {
+        "counts": {
+          "addresses_screened": 19,
+          "adjudicated_total": 0,
+          "findings": 3,
+          "onchain_ip_token_hits": 0,
+          "sealed_money_edges": 0,
+          "sealed_publications": 15,
+          "tracks": 4,
+          "true_ubo_asserted": 0
+        },
+        "disposition": {
+          "authenticated_ip_royalty_or_license_payment_rail": false,
+          "authenticated_money_flow_to_sealed_ip": false,
+          "illicit_money_flow_adjudicated": false,
+          "illicit_royalty_adjudicated": false,
+          "stolen_ip_conveyance_authenticated": false,
+          "theft_adjudicated": false,
+          "uspto_assignment_chain_authenticated": false
+        }
+      }
+    }
+  ],
+  "id": "deepened_money_flows_full_update",
+  "next_actions": [
+    "Archive-node for addresses still page-capped after deepen",
+    "Do not treat one-hop marketplace hubs as IP royalty counterparties without contracts"
+  ],
+  "screens": {
+    "elonmusk.eth": {
+      "address": "0x983110309620D911731Ac0932219af06091b6744",
+      "deepened": true,
+      "eth_in_count": 63,
+      "eth_in_eth": 70.61499934069876,
+      "eth_in_wei": 70614999340698764028,
+      "eth_out_count": 574,
+      "eth_out_eth": 133.74583571767164,
+      "eth_out_wei": 133745835717671649461,
+      "internal_scanned": 219,
+      "ip_linked_token_hits": 0,
+      "label": "elonmusk.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 68453655000000000000,
+          "hop_address": "0x96184444629f3489c4de199871e6f99568229d8f",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 257,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 40000000000000000000,
+          "hop_address": "0xc2e2db098852a49c2d0489100b83be9a26e98a7b",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 4,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 11000000000000000000,
+          "hop_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": false,
+      "tt_scanned": 773,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1363
+    },
+    "fyllo.eth": {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "deepened": true,
+      "eth_in_count": 8,
+      "eth_in_eth": 17.01255854,
+      "eth_in_wei": 17012558540000000000,
+      "eth_out_count": 81,
+      "eth_out_eth": 8.981478074748157,
+      "eth_out_wei": 8981478074748157746,
+      "internal_scanned": 5,
+      "ip_linked_token_hits": 0,
+      "label": "fyllo.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 9090138180000000000,
+          "hop_address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4300000000000000000,
+          "hop_address": "0x8d738f36074c4be1443a1993c32929718ab4b461",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 3495500000000000000,
+          "hop_address": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": false,
+      "tt_scanned": 95,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 119
+    },
+    "jamiesalter.eth": {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "deepened": true,
+      "eth_in_count": 209,
+      "eth_in_eth": 90.83888337246107,
+      "eth_in_wei": 90838883372461069637,
+      "eth_out_count": 848,
+      "eth_out_eth": 137.25815118702351,
+      "eth_out_wei": 137258151187023516779,
+      "internal_scanned": 50,
+      "ip_linked_token_hits": 0,
+      "label": "jamiesalter.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 51673115280000000000,
+          "hop_address": "0x96e649472f1768fc92b722cc337c9ed7400f15fc",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 51,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 22611271270000000000,
+          "hop_address": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 18004834000000000000,
+          "hop_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {
+        "jamiesalter.eth": 629290000000000000
+      },
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 2250
+    },
+    "jensenhuang.eth": {
+      "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+      "deepened": true,
+      "eth_in_count": 37,
+      "eth_in_eth": 14.504384266357762,
+      "eth_in_wei": 14504384266357761756,
+      "eth_out_count": 313,
+      "eth_out_eth": 30.004549292253802,
+      "eth_out_wei": 30004549292253803712,
+      "internal_scanned": 0,
+      "ip_linked_token_hits": 0,
+      "label": "jensenhuang.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 4766000000000000000,
+          "hop_address": "0xb4ecfb87a9245211332f70034ef461066e86f4cf",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 14,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4584000000000000000,
+          "hop_address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4290987617305370555,
+          "hop_address": "0xfd4dde49d56c184cb5c15e227318f5586f20d077",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 75,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 723
+    },
+    "juul.eth": {
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "deepened": true,
+      "eth_in_count": 47,
+      "eth_in_eth": 43.432339441050466,
+      "eth_in_wei": 43432339441050465710,
+      "eth_out_count": 146,
+      "eth_out_eth": 237.51298031683368,
+      "eth_out_wei": 237512980316833689147,
+      "internal_scanned": 103,
+      "ip_linked_token_hits": 0,
+      "label": "juul.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 39270000000000000000,
+          "hop_address": "0x21fe3e26e824783ca7e374355a8d30ae8bbf6e37",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 25364000000000000000,
+          "hop_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 21831000000000000000,
+          "hop_address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": false,
+      "tt_scanned": 718,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 740
+    },
+    "paxlabs.eth": {
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "deepened": true,
+      "eth_in_count": 50,
+      "eth_in_eth": 80.27580575124323,
+      "eth_in_wei": 80275805751243219592,
+      "eth_out_count": 195,
+      "eth_out_eth": 206.2215865119841,
+      "eth_out_wei": 206221586511984099788,
+      "internal_scanned": 0,
+      "ip_linked_token_hits": 0,
+      "label": "paxlabs.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 52512221724044949250,
+          "hop_address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 37205400000000000000,
+          "hop_address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 31606900000000000000,
+          "hop_address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": false,
+      "tt_scanned": 858,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 875
+    },
+    "philipmorris.eth": {
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "deepened": true,
+      "eth_in_count": 83,
+      "eth_in_eth": 17.6338046020962,
+      "eth_in_wei": 17633804602096196737,
+      "eth_out_count": 367,
+      "eth_out_eth": 34.36256600929792,
+      "eth_out_wei": 34362566009297923956,
+      "internal_scanned": 282,
+      "ip_linked_token_hits": 0,
+      "label": "philipmorris.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 5579000000000000000,
+          "hop_address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4377500000000000000,
+          "hop_address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4168400000000000000,
+          "hop_address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {
+        "philipmorris.eth": 656680044567080
+      },
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1234
+    },
+    "philipmorrisusa.eth": {
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "deepened": true,
+      "eth_in_count": 126,
+      "eth_in_eth": 19.029303471177833,
+      "eth_in_wei": 19029303471177832462,
+      "eth_out_count": 575,
+      "eth_out_eth": 68.37851115167466,
+      "eth_out_wei": 68378511151674653140,
+      "internal_scanned": 299,
+      "ip_linked_token_hits": 0,
+      "label": "philipmorrisusa.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 12692070000000000000,
+          "hop_address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4913681260415524123,
+          "hop_address": "0x9efee866aa4593695ce34466d5ae0ebe377f3812",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 130,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 4697915704441062491,
+          "hop_address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1384
+    },
+    "pmusa.eth": {
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "deepened": true,
+      "eth_in_count": 51,
+      "eth_in_eth": 10.621668453647438,
+      "eth_in_wei": 10621668453647437347,
+      "eth_out_count": 512,
+      "eth_out_eth": 69.76790906607248,
+      "eth_out_wei": 69767909066072479274,
+      "internal_scanned": 290,
+      "ip_linked_token_hits": 0,
+      "label": "pmusa.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 31263000000000000000,
+          "hop_address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 11345300000000000000,
+          "hop_address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 9440000000000000000,
+          "hop_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1137
+    },
+    "sama.eth": {
+      "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+      "deepened": true,
+      "eth_in_count": 44,
+      "eth_in_eth": 44.90644958452618,
+      "eth_in_wei": 44906449584526178640,
+      "eth_out_count": 457,
+      "eth_out_eth": 89.31256569494599,
+      "eth_out_wei": 89312565694945976412,
+      "internal_scanned": 0,
+      "ip_linked_token_hits": 0,
+      "label": "sama.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 24628920210000000000,
+          "hop_address": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 23464268523600000000,
+          "hop_address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 10062120511575989310,
+          "hop_address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1082
+    },
+    "vitalik.eth": {
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "deepened": true,
+      "eth_in_count": 103,
+      "eth_in_eth": 0.4633470995720775,
+      "eth_in_wei": 463347099572077499,
+      "eth_out_count": 15,
+      "eth_out_eth": 224.094,
+      "eth_out_wei": 224094000000000000000,
+      "internal_scanned": 50,
+      "ip_linked_token_hits": 0,
+      "label": "vitalik.eth",
+      "one_hop_external": [
+        {
+          "eth_volume_with_origin_wei": 160000000000000000000,
+          "hop_address": "0x3c7779d27348017415a9184acadc0d62052841ab",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 36,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 64000000000000000000,
+          "hop_address": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+          "hop_tx_hit_page_cap": false,
+          "hop_tx_scanned": 13,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        },
+        {
+          "eth_volume_with_origin_wei": 381022968638319852,
+          "hop_address": "0xdadb0d80178819f2319190d340ce9a924f783711",
+          "hop_tx_hit_page_cap": true,
+          "hop_tx_scanned": 400,
+          "sealed_set_hit_total": 0,
+          "sealed_set_hits_from_hop": {}
+        }
+      ],
+      "one_hop_sealed_bridge_total": 0,
+      "sealed_eth_peer_wei": {},
+      "tt_hit_page_cap": true,
+      "tt_scanned": 900,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 2250
+    }
+  },
+  "status": "SEALED",
+  "title": "Deepened money flows (full update)"
+}

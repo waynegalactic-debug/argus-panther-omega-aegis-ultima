@@ -1,0 +1,247 @@
+{
+  "findings": [
+    {
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "detail": "Refreshed Google Patents HTML for 15/15 sealed pubs. Assignee clusters unchanged from Wave-14 seal. USPTO assignment chains still unauthenticated. Wave-25/32 IP dispositions retained.",
+      "google_patents_refresh_attempted": 15,
+      "google_patents_refresh_ok": 15,
+      "id": "W33-F2",
+      "illicit_royalty_adjudicated": false,
+      "refreshed_publications": [
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+          "http_status": 200,
+          "publication": "US11234465B2",
+          "refresh_ok": true,
+          "sha256": "fd9ecca9a0a40ee222efe4fb3abc3cb0dc26136651d4a40b78fc731ba3ccd44b",
+          "title_hint_from_html": "US11234465B2 - Heating mechanisms for vaporizers \n        - Google Patents",
+          "title_sealed": "Heating mechanisms for vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+          "http_status": 200,
+          "publication": "US11275070B2",
+          "refresh_ok": true,
+          "sha256": "0375b4210fc3feca84c09bd4d70eb59fd75e55412d6d0d31a766fd2f09358ded",
+          "title_hint_from_html": "US11275070B2 - Systems and methods for dipstick diagnostic tools and related methods \n        - Google Patents",
+          "title_sealed": "Systems and methods for dipstick diagnostic tools and related methods"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Labs, Llc",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+          "http_status": 200,
+          "publication": "US20180191180A1",
+          "refresh_ok": true,
+          "sha256": "3d4751df938ded0c7189ef1b79dc6414bc9e47dc74f8e1beb249d4d20273233c",
+          "title_hint_from_html": "US20180191180A1 - Systems and methods for portable charging systems and designs thereof \n      - Google Patents",
+          "title_sealed": "Systems and methods for portable charging systems and designs thereof"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+          "http_status": 200,
+          "publication": "US20190240429A1",
+          "refresh_ok": true,
+          "sha256": "ba840e86a79a655ae7567253a330419238dc8bd8f021631116ea943bd8761b1a",
+          "title_hint_from_html": "US20190240429A1 - Systems and methods for intelligent vaporizers \n      - Google Patents",
+          "title_sealed": "Systems and methods for intelligent vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Brent M. Skoda",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+          "http_status": 200,
+          "publication": "US20190378609A1",
+          "refresh_ok": true,
+          "sha256": "2a98214009197ae8537883a3d70e1b6d961b7c726c4bba53bdb995c147dd3dab",
+          "title_hint_from_html": "US20190378609A1 - Systems and methods for medical dispensing, management and monitoring \n      - Google Patents",
+          "title_sealed": "Systems and methods for medical dispensing, management and monitoring"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+          "http_status": 200,
+          "publication": "US20200005924A1",
+          "refresh_ok": true,
+          "sha256": "9e5441df780ef983546e6fda8d48695b1d65a8100b50d8ee2c699fc103686b76",
+          "title_hint_from_html": "US20200005924A1 - System and method for managing and dispensing an inhalable composition, regulating its use, and communicating data related thereto \n      - Google Patents",
+          "title_sealed": "System and method for managing and dispensing an inhalable composition, &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+          "http_status": 200,
+          "publication": "US20210202056A1",
+          "refresh_ok": true,
+          "sha256": "8a10f12986ebd68bed72905d8da8c5bc5b2f66da7c7d4691c95e4207106a23eb",
+          "title_hint_from_html": "US20210202056A1 - Systems and methods for managing a medical supply chain \n        - Google Patents",
+          "title_sealed": "Systems and methods for managing a medical supply chain"
+        },
+        {
+          "assignee_field_sealed": "UrgentRN LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+          "http_status": 200,
+          "publication": "US20220104664A1",
+          "refresh_ok": true,
+          "sha256": "f42a9531853c43fc3c96e30e87e9032ff4e99d452801ab7a8d40f8e5f9932880",
+          "title_hint_from_html": "US20220104664A1 - Systems and methods for sanitizer dispensing devices and remote management of the same \n      - Google Patents",
+          "title_sealed": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+          "http_status": 200,
+          "publication": "US20230112752A1",
+          "refresh_ok": true,
+          "sha256": "a2a549430ee32b977d2ce322abfb908a133f42c4aa9f57e3ad6b219211e7fcf6",
+          "title_hint_from_html": "US20230112752A1 - Systems and methods for intelligent vaporizers \n        - Google Patents",
+          "title_sealed": "Systems and methods for intelligent vaporizers"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Ventures LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+          "http_status": 200,
+          "publication": "US20240215633A1",
+          "refresh_ok": true,
+          "sha256": "9441388bbd1845e5180debc0a20fb52f9e5e3a800d4683ec326231c175b4e9f6",
+          "title_hint_from_html": "US20240215633A1 - Inhalable compositions comprising caffeine, methods of use and an apparatus for using the same \n      - Google Patents",
+          "title_sealed": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+          "http_status": 200,
+          "publication": "US20240242809A1",
+          "refresh_ok": true,
+          "sha256": "31b35fa5ce99ace75a98c46e75b80f27839b264b24ab36099baedd5635d5d7f2",
+          "title_hint_from_html": "US20240242809A1 - Systems and methods for medical dispensing, management and monitoring \n        - Google Patents",
+          "title_sealed": "Systems and methods for medical dispensing, management and monitoring"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+          "http_status": 200,
+          "publication": "US20240244430A1",
+          "refresh_ok": true,
+          "sha256": "d247d2ba41546bb219a7b9e5bc767d76a31e664ebedbd8c20df2dd9fc4beffd9",
+          "title_hint_from_html": "US20240244430A1 - Network-enabled electronic cigarette \n        - Google Patents",
+          "title_sealed": "Network-enabled electronic cigarette"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+          "http_status": 200,
+          "publication": "US20250054595A1",
+          "refresh_ok": true,
+          "sha256": "91b2082944f6769dbd2b0658e869c83f9c5549388308ab8c13619baa6971922a",
+          "title_hint_from_html": "US20250054595A1 - Systems and methods for smart mixers \n        - Google Patents",
+          "title_sealed": "Systems and methods for smart mixers"
+        },
+        {
+          "assignee_field_sealed": "Zorday IP, LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+          "http_status": 200,
+          "publication": "US20250177708A1",
+          "refresh_ok": true,
+          "sha256": "982287f906e0be04426f1fe61d9c97c1ecd8eb6dc66322742ff1a26383fd9ea7",
+          "title_hint_from_html": "US20250177708A1 - Systems and methods for medical diagnostics and medication delivery \n      - Google Patents",
+          "title_sealed": "Systems and methods for medical diagnostics and medication delivery"
+        },
+        {
+          "assignee_field_sealed": "Ahkeo Ventures LLC",
+          "assignee_hint_from_html": null,
+          "error": null,
+          "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+          "http_status": 200,
+          "publication": "USD795407S1",
+          "refresh_ok": true,
+          "sha256": "1f71e5c2e2661d367d2b6f4eea5a9966152837498696e474da98fe1e13763f32",
+          "title_hint_from_html": "USD795407S1 - Vaporization and inhaler apparatus \n        - Google Patents",
+          "title_sealed": "Vaporization and inhaler apparatus"
+        }
+      ],
+      "sealed_publication_count": 15,
+      "stolen_ip_conveyance_authenticated": false,
+      "theft_adjudicated": false,
+      "title": "Deepened IP-flow follow: sealed pubs metadata refresh + full disposition update",
+      "uspto_assignment_chain_authenticated": false,
+      "wave25_disposition_retained": {
+        "alleged_15213_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_link_universally_authenticated": false,
+        "theft_adjudicated": false,
+        "wip_0194_artifact_located": false
+      },
+      "wave32_disposition_retained": {
+        "authenticated_ip_royalty_or_license_payment_rail": false,
+        "authenticated_money_flow_to_sealed_ip": false,
+        "illicit_money_flow_adjudicated": false,
+        "illicit_royalty_adjudicated": false,
+        "stolen_ip_conveyance_authenticated": false,
+        "theft_adjudicated": false,
+        "uspto_assignment_chain_authenticated": false
+      }
+    }
+  ],
+  "id": "deepened_ip_flows_full_update",
+  "next_actions": [
+    "USPTO assignment PDF extract remains the gating traditional IP-flow action"
+  ],
+  "status": "SEALED",
+  "title": "Deepened IP flows (full update)"
+}
