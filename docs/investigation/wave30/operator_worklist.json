@@ -1,0 +1,63 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "P30-I1",
+      "item": "USPTO assignment PDF extract + assignee timeline for all 15 pubs",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "P30-I2",
+      "item": "Archive-node full history for ['jamiesalter.eth', 'vitalik.eth']",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "P30-I3",
+      "item": "Enumerate all counterparties of wei==1 txs on ['elonmusk.eth', 'vitalik.eth'] via archive node",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "P30-I4",
+      "item": "Operator supply of claimed wrapped-RaP / royalty-splitter addresses",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "P30-I5",
+      "item": "ENS primary-name + controller + historical registrant evidence pack for fyllo/jamie/tobacco/participant labels",
+      "priority": "HIGH"
+    },
+    {
+      "id": "P30-I6",
+      "item": "Locate WIP-0194 artifact path or formally abandon that count in charging docs",
+      "priority": "HIGH"
+    },
+    {
+      "id": "P30-I7",
+      "item": "SEC Exhibit 21 extract batch for Altria + top tobacco/tech overlap names",
+      "priority": "HIGH"
+    },
+    {
+      "id": "P30-I8",
+      "item": "Build counterparty graph of raw==1 ERC-20/721/1155 transfers per sealed EOA",
+      "priority": "HIGH"
+    },
+    {
+      "id": "P30-I9",
+      "item": "Manual DE ICIS + suite occupancy confirmation package",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "P30-I10",
+      "item": "Issue prosecutor workboard that lists only authenticated seals; route speculative rails to OPEN worklist",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "W30-M-DUST",
+      "item": "Treat Wave-30 sub-atomic/pattern/zero-value signals as candidates only — not illicit-flow adjudications",
+      "priority": "HIGH"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-30 operator worklist"
+}

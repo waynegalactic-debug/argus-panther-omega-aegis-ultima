@@ -1,0 +1,52 @@
+{
+  "findings": [
+    {
+      "detail": "Pair space 171; 0 pairs with floor-wei or sub-scale token edges. Waves 28–30 dispositions retained where present.",
+      "floor_wei_eq_1_total": 3,
+      "id": "W31-F2",
+      "illicit_dust_evasion_adjudicated": false,
+      "illicit_dust_network_adjudicated": false,
+      "pair_space": 171,
+      "pairs_floor_wei": 0,
+      "pairs_sub_satoshi_scale": 0,
+      "pairs_sub_wei_scale": 0,
+      "pairs_with_any_subquantum_edge": [],
+      "prior_dispositions_retained": {
+        "wave28": {
+          "fine_threshold_wei_lt": 1000000000,
+          "finest_band": "single_wei",
+          "illicit_dust_evasion_adjudicated": false,
+          "illicit_dust_network_adjudicated": false,
+          "ultra_threshold_wei_lt": 1000000,
+          "wave26_dust_sensitivity_superseded_for_detection": true
+        },
+        "wave29": {
+          "consolidation_complete": true,
+          "hypergraph_sealed": true,
+          "illicit_dust_evasion_adjudicated": false,
+          "nvidia_gpu_active": false,
+          "nvidia_path": "numpy_vectorized_nvidia_compatible",
+          "theft_adjudicated": false,
+          "tokenized_royalty_rail_authenticated": false,
+          "wrapped_rap_rail_authenticated": false
+        },
+        "wave30": {
+          "adjudicated_from_insights": false,
+          "finer_illicit_flow_candidates_only": true,
+          "illicit_dust_evasion_adjudicated": false,
+          "illicit_dust_network_adjudicated": false,
+          "subatomic_threshold_wei_lt": 10,
+          "top10_insights_sealed": true,
+          "wave28_dust_sensitivity_superseded_for_detection": true
+        }
+      },
+      "sub_satoshi_scale_total": 18,
+      "sub_wei_scale_total": 0,
+      "title": "Pairwise floor-wei / sub-satoshi-scale / sub-wei-scale edges + prior full update"
+    }
+  ],
+  "id": "pairwise_subquantum_and_prior_update",
+  "pairs": [],
+  "status": "SEALED",
+  "title": "Pairwise subquantum dust + prior-wave update"
+}

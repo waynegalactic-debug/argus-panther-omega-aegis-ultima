@@ -1,0 +1,272 @@
+{
+  "findings": [
+    {
+      "adjudicated_from_insights": false,
+      "detail": "Ranked 10 prosecutor actions grounded in Wave-29 hypergraph hubs, shared-negative disposition bundles, and Waves 25–28 sealed gaps. None of these insights alone adjudicate illicit conduct.",
+      "hypergraph_acceleration_path": "numpy_vectorized_nvidia_compatible",
+      "hypergraph_scaling": {
+        "components": 1,
+        "hyperedges_optimized": 683,
+        "largest_component_size": 573,
+        "streamline_merged_away": 0,
+        "vertices": 573,
+        "waves_ingested": 26
+      },
+      "id": "W30-F1",
+      "insights": [
+        {
+          "action": "USPTO assignment PDF extract + assignee timeline for all 15 pubs",
+          "blocks_adjudication_until_done": [
+            "theft",
+            "tokenized_royalty",
+            "wrapped_rap_to_skoda"
+          ],
+          "hypergraph_basis": "sealed_publication_set hyperedge; wave:14↔wave:25 co-membership (shared_hyperedges≈17); auth stolen-IP links remain 0 (Wave-25 disposition retained in 10 shared-negative bundles).",
+          "id": "P30-I1",
+          "insight": "Pull USPTO assignment / chain-of-title for the sealed 15-publication Skoda set before any stolen-IP or royalty charging theory.",
+          "priority": "IMMEDIATE",
+          "rank": 1
+        },
+        {
+          "action": "Archive-node full history for ['jamiesalter.eth', 'vitalik.eth']",
+          "blocks_adjudication_until_done": [
+            "illicit_dust_network"
+          ],
+          "hypergraph_basis": "Wave-28 page-cap labels=['jamiesalter.eth', 'vitalik.eth']; wave:28 high weighted degree in hypergraph; single-component corpus cannot exhaust atomic dust on capped wallets.",
+          "id": "P30-I2",
+          "insight": "Uncap / archive-node paginate page-capped EOAs before closing finer dust or pairwise dust-network theories.",
+          "priority": "IMMEDIATE",
+          "rank": 2
+        },
+        {
+          "action": "Enumerate all counterparties of wei==1 txs on ['elonmusk.eth', 'vitalik.eth'] via archive node",
+          "blocks_adjudication_until_done": [
+            "illicit_dust_evasion"
+          ],
+          "hypergraph_basis": "Wave-28 single_wei_total=2; labels with min_positive_wei==1: ['elonmusk.eth', 'vitalik.eth'].",
+          "id": "P30-I3",
+          "insight": "Treat observed single-wei transfers as priority forensic leads — not as adjudicated illicit evasion — and expand counterparties.",
+          "priority": "IMMEDIATE",
+          "rank": 3
+        },
+        {
+          "action": "Operator supply of claimed wrapped-RaP / royalty-splitter addresses",
+          "blocks_adjudication_until_done": [
+            "tokenized_royalty_rail",
+            "wrapped_rap_rail"
+          ],
+          "hypergraph_basis": "Wave-27 wrapped≈746, wrapped_rap_rail_authenticated=false; sealed pub metadata hits=0.",
+          "id": "P30-I4",
+          "insight": "Do not charge royalty / wrapped-RaP rails from WETH or marketplace noise; require named splitter / wRaP / IP-NFT contracts.",
+          "priority": "IMMEDIATE",
+          "rank": 4
+        },
+        {
+          "action": "ENS primary-name + controller + historical registrant evidence pack for fyllo/jamie/tobacco/participant labels",
+          "blocks_adjudication_until_done": [
+            "true_ubo",
+            "named_defendant_identity"
+          ],
+          "hypergraph_basis": "sealed_address_set size=19; Wave-24 identity-unbound vanity ENS flags retained in corpus.",
+          "id": "P30-I5",
+          "insight": "Bind vanity ENS labels to natural persons / corporate treasuries before using them as defendant identifiers.",
+          "priority": "HIGH",
+          "rank": 5
+        },
+        {
+          "action": "Locate WIP-0194 artifact path or formally abandon that count in charging docs",
+          "blocks_adjudication_until_done": [
+            "alleged_15213",
+            "portfolio_quantum"
+          ],
+          "hypergraph_basis": "Shared-negative flags alleged_15213_authenticated=False and wip_0194_artifact_located=False co-occur across waves in hypergraph.",
+          "id": "P30-I6",
+          "insight": "Close the alleged 15,213-family / WIP-0194 gap: treat as corpus constants until sealed grant inventory authenticates them.",
+          "priority": "HIGH",
+          "rank": 6
+        },
+        {
+          "action": "SEC Exhibit 21 extract batch for Altria + top tobacco/tech overlap names",
+          "blocks_adjudication_until_done": [
+            "fortune_100_ip_licensing_census",
+            "subsidiary_liability"
+          ],
+          "hypergraph_basis": "wave:24 highest weighted degree in hypergraph; Fortune-100 census unauthenticated; only Altria partial entities.",
+          "id": "P30-I7",
+          "insight": "Fortune 100 / Altria Exhibit 21 batch is the gating item for any corporate IP-facilitator or subsidiary charging theory.",
+          "priority": "HIGH",
+          "rank": 7
+        },
+        {
+          "action": "Build counterparty graph of raw==1 ERC-20/721/1155 transfers per sealed EOA",
+          "blocks_adjudication_until_done": [
+            "illicit_dust_evasion"
+          ],
+          "hypergraph_basis": "Wave-28 token_dust_heuristic_total=956; wave:28↔illicit_dust_evasion=False shared negative retained.",
+          "id": "P30-I8",
+          "insight": "Prioritize token-dust raw_amount==1 counterparties as finer illicit-flow *candidates* (not adjudicated); Wave-30 deepens this screen.",
+          "priority": "HIGH",
+          "rank": 8
+        },
+        {
+          "action": "Manual DE ICIS + suite occupancy confirmation package",
+          "blocks_adjudication_until_done": [
+            "illicit_registration",
+            "corruption"
+          ],
+          "hypergraph_basis": "wave:17/18 illicit_registration_adjudicated=False and corruption_adjudicated=False shared negatives in hypergraph.",
+          "id": "P30-I9",
+          "insight": "DE ICIS / UrgentRN RA / counsel-suite items remain OPEN — resolve captcha/manual registry before registration-corruption theories.",
+          "priority": "MEDIUM",
+          "rank": 9
+        },
+        {
+          "action": "Issue prosecutor workboard that lists only authenticated seals; route speculative rails to OPEN worklist",
+          "blocks_adjudication_until_done": [
+            "premature_charging"
+          ],
+          "hypergraph_basis": "components=1, vertices=573, shared_negative_bundles=10; theft_adjudicated=False is a top co-occurrence hub.",
+          "id": "P30-I10",
+          "insight": "Keep charging documents aligned to hypergraph negatives: theft, royalty, wrapped-RaP, stealth-DAO, and illicit-dust remain unadjudicated across the single connected component.",
+          "priority": "MEDIUM",
+          "rank": 10
+        }
+      ],
+      "title": "Top-10 immediately actionable prosecutorial insights from consolidated hypergraph"
+    }
+  ],
+  "id": "top10_prosecutorial_insights",
+  "insights": [
+    {
+      "action": "USPTO assignment PDF extract + assignee timeline for all 15 pubs",
+      "blocks_adjudication_until_done": [
+        "theft",
+        "tokenized_royalty",
+        "wrapped_rap_to_skoda"
+      ],
+      "hypergraph_basis": "sealed_publication_set hyperedge; wave:14↔wave:25 co-membership (shared_hyperedges≈17); auth stolen-IP links remain 0 (Wave-25 disposition retained in 10 shared-negative bundles).",
+      "id": "P30-I1",
+      "insight": "Pull USPTO assignment / chain-of-title for the sealed 15-publication Skoda set before any stolen-IP or royalty charging theory.",
+      "priority": "IMMEDIATE",
+      "rank": 1
+    },
+    {
+      "action": "Archive-node full history for ['jamiesalter.eth', 'vitalik.eth']",
+      "blocks_adjudication_until_done": [
+        "illicit_dust_network"
+      ],
+      "hypergraph_basis": "Wave-28 page-cap labels=['jamiesalter.eth', 'vitalik.eth']; wave:28 high weighted degree in hypergraph; single-component corpus cannot exhaust atomic dust on capped wallets.",
+      "id": "P30-I2",
+      "insight": "Uncap / archive-node paginate page-capped EOAs before closing finer dust or pairwise dust-network theories.",
+      "priority": "IMMEDIATE",
+      "rank": 2
+    },
+    {
+      "action": "Enumerate all counterparties of wei==1 txs on ['elonmusk.eth', 'vitalik.eth'] via archive node",
+      "blocks_adjudication_until_done": [
+        "illicit_dust_evasion"
+      ],
+      "hypergraph_basis": "Wave-28 single_wei_total=2; labels with min_positive_wei==1: ['elonmusk.eth', 'vitalik.eth'].",
+      "id": "P30-I3",
+      "insight": "Treat observed single-wei transfers as priority forensic leads — not as adjudicated illicit evasion — and expand counterparties.",
+      "priority": "IMMEDIATE",
+      "rank": 3
+    },
+    {
+      "action": "Operator supply of claimed wrapped-RaP / royalty-splitter addresses",
+      "blocks_adjudication_until_done": [
+        "tokenized_royalty_rail",
+        "wrapped_rap_rail"
+      ],
+      "hypergraph_basis": "Wave-27 wrapped≈746, wrapped_rap_rail_authenticated=false; sealed pub metadata hits=0.",
+      "id": "P30-I4",
+      "insight": "Do not charge royalty / wrapped-RaP rails from WETH or marketplace noise; require named splitter / wRaP / IP-NFT contracts.",
+      "priority": "IMMEDIATE",
+      "rank": 4
+    },
+    {
+      "action": "ENS primary-name + controller + historical registrant evidence pack for fyllo/jamie/tobacco/participant labels",
+      "blocks_adjudication_until_done": [
+        "true_ubo",
+        "named_defendant_identity"
+      ],
+      "hypergraph_basis": "sealed_address_set size=19; Wave-24 identity-unbound vanity ENS flags retained in corpus.",
+      "id": "P30-I5",
+      "insight": "Bind vanity ENS labels to natural persons / corporate treasuries before using them as defendant identifiers.",
+      "priority": "HIGH",
+      "rank": 5
+    },
+    {
+      "action": "Locate WIP-0194 artifact path or formally abandon that count in charging docs",
+      "blocks_adjudication_until_done": [
+        "alleged_15213",
+        "portfolio_quantum"
+      ],
+      "hypergraph_basis": "Shared-negative flags alleged_15213_authenticated=False and wip_0194_artifact_located=False co-occur across waves in hypergraph.",
+      "id": "P30-I6",
+      "insight": "Close the alleged 15,213-family / WIP-0194 gap: treat as corpus constants until sealed grant inventory authenticates them.",
+      "priority": "HIGH",
+      "rank": 6
+    },
+    {
+      "action": "SEC Exhibit 21 extract batch for Altria + top tobacco/tech overlap names",
+      "blocks_adjudication_until_done": [
+        "fortune_100_ip_licensing_census",
+        "subsidiary_liability"
+      ],
+      "hypergraph_basis": "wave:24 highest weighted degree in hypergraph; Fortune-100 census unauthenticated; only Altria partial entities.",
+      "id": "P30-I7",
+      "insight": "Fortune 100 / Altria Exhibit 21 batch is the gating item for any corporate IP-facilitator or subsidiary charging theory.",
+      "priority": "HIGH",
+      "rank": 7
+    },
+    {
+      "action": "Build counterparty graph of raw==1 ERC-20/721/1155 transfers per sealed EOA",
+      "blocks_adjudication_until_done": [
+        "illicit_dust_evasion"
+      ],
+      "hypergraph_basis": "Wave-28 token_dust_heuristic_total=956; wave:28↔illicit_dust_evasion=False shared negative retained.",
+      "id": "P30-I8",
+      "insight": "Prioritize token-dust raw_amount==1 counterparties as finer illicit-flow *candidates* (not adjudicated); Wave-30 deepens this screen.",
+      "priority": "HIGH",
+      "rank": 8
+    },
+    {
+      "action": "Manual DE ICIS + suite occupancy confirmation package",
+      "blocks_adjudication_until_done": [
+        "illicit_registration",
+        "corruption"
+      ],
+      "hypergraph_basis": "wave:17/18 illicit_registration_adjudicated=False and corruption_adjudicated=False shared negatives in hypergraph.",
+      "id": "P30-I9",
+      "insight": "DE ICIS / UrgentRN RA / counsel-suite items remain OPEN — resolve captcha/manual registry before registration-corruption theories.",
+      "priority": "MEDIUM",
+      "rank": 9
+    },
+    {
+      "action": "Issue prosecutor workboard that lists only authenticated seals; route speculative rails to OPEN worklist",
+      "blocks_adjudication_until_done": [
+        "premature_charging"
+      ],
+      "hypergraph_basis": "components=1, vertices=573, shared_negative_bundles=10; theft_adjudicated=False is a top co-occurrence hub.",
+      "id": "P30-I10",
+      "insight": "Keep charging documents aligned to hypergraph negatives: theft, royalty, wrapped-RaP, stealth-DAO, and illicit-dust remain unadjudicated across the single connected component.",
+      "priority": "MEDIUM",
+      "rank": 10
+    }
+  ],
+  "next_actions": [
+    "USPTO assignment PDF extract + assignee timeline for all 15 pubs",
+    "Archive-node full history for ['jamiesalter.eth', 'vitalik.eth']",
+    "Enumerate all counterparties of wei==1 txs on ['elonmusk.eth', 'vitalik.eth'] via archive node",
+    "Operator supply of claimed wrapped-RaP / royalty-splitter addresses",
+    "ENS primary-name + controller + historical registrant evidence pack for fyllo/jamie/tobacco/participant labels",
+    "Locate WIP-0194 artifact path or formally abandon that count in charging docs",
+    "SEC Exhibit 21 extract batch for Altria + top tobacco/tech overlap names",
+    "Build counterparty graph of raw==1 ERC-20/721/1155 transfers per sealed EOA",
+    "Manual DE ICIS + suite occupancy confirmation package",
+    "Issue prosecutor workboard that lists only authenticated seals; route speculative rails to OPEN worklist"
+  ],
+  "status": "SEALED",
+  "title": "Top-10 immediately actionable prosecutorial insights"
+}

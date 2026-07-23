@@ -1,0 +1,304 @@
+{
+  "artifacts": {
+    "dust": "docs/investigation/wave31/sub_wei_sub_satoshi_cyberdust_full_update.json",
+    "pairs": "docs/investigation/wave31/pairwise_subquantum_and_prior_update.json",
+    "physics": "docs/investigation/wave31/ledger_physics_subquantum_note.json",
+    "summary_md": "docs/investigation/WAVE31_SUB_WEI_SUB_SATOSHI_CYBERDUST.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W31",
+  "counts": {
+    "addresses_screened": 19,
+    "adjudicated_total": 0,
+    "findings": 3,
+    "floor_wei_eq_1_total": 3,
+    "pairs_with_subquantum": 0,
+    "sub_satoshi_scale_total": 18,
+    "sub_wei_scale_total": 0,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "96b9fc6ae3501c050e06550893697e274d5c4b14433a1c1821ec3b106f7dc13a",
+    "leaves": [
+      {
+        "id": "sub_wei_sub_satoshi_cyberdust_full_update",
+        "sha3_256": "cb47c98d93ce34f14077922248de3e6c0aaf3b458d36039c007f9bb6e0c31499",
+        "status": "SEALED"
+      },
+      {
+        "id": "pairwise_subquantum_and_prior_update",
+        "sha3_256": "64b3b5fa09e4ae8a98aa4ee9f920ddec5b266f50a2b99ebf8822bb43ad3238b0",
+        "status": "SEALED"
+      },
+      {
+        "id": "ledger_physics_subquantum_note",
+        "sha3_256": "b71aecbd842e29482d511169691070444bc737d27be962247fbc1057cfe93338",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "da6fe7b3dfbafce69e97db8d0876b928aad6840bd337212c060d126a2534f7f4",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "1f1d747f74ced9e58a705f1f4fe65709d6e9a9798dc8345ef7ea7270ef0dba9fad928cf2635f8b7972aea908bcb0bfb5f4b6f67364c7746346beda6ed8f7acb0"
+  },
+  "disposition": {
+    "full_update_complete": true,
+    "illicit_dust_evasion_adjudicated": false,
+    "illicit_dust_network_adjudicated": false,
+    "native_btc_sub_satoshi_impossible_on_chain": true,
+    "native_eth_sub_wei_impossible_on_l1": true,
+    "sub_satoshi_native_btc_transfers_observed": 0,
+    "sub_wei_native_transfers_observed": 0,
+    "wave30_dust_sensitivity_superseded_for_subquantum": true
+  },
+  "elapsed_ms": 288885,
+  "findings": [
+    {
+      "address_book": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "elonmusk.eth": "0x983110309620D911731Ac0932219af06091b6744",
+        "fyllo.eth": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+        "japantobacco.eth": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+        "jensenhuang.eth": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+        "juul.eth": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+        "juullabs.eth": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+        "njoy.eth": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+        "pax.eth": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+        "paxlabs.eth": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+        "philipmorris.eth": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+        "philipmorrisusa.eth": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+        "ploom.eth": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+        "pmi.eth": "0x516F381d6C94110CDE63F3266B779065525096f7",
+        "pmusa.eth": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+        "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+        "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      "addresses_hitting_page_cap": [
+        "jamiesalter.eth",
+        "vitalik.eth"
+      ],
+      "addresses_screened": 19,
+      "detail": "Screened 19 sealed labels. Native sub-wei ETH and sub-satoshi BTC transfers are ledger-impossible; floor_wei==1 total=3. Token sub-satoshi-scale=18, sub-wei-scale=0, floor_raw==1=82. Not an illicit-dust adjudication.",
+      "floor_raw_eq_1_total": 82,
+      "floor_wei_eq_1_total": 3,
+      "id": "W31-F1",
+      "illicit_dust_evasion_adjudicated": false,
+      "prior_wave_tier_totals_retained": {
+        "wave28": {
+          "atomic": 9,
+          "fine": 16,
+          "legacy_w26": 69,
+          "nano": 9,
+          "single_wei": 2,
+          "ultra": 12
+        },
+        "wave30": {
+          "atomic_w28": 10,
+          "fine_w28": 20,
+          "legacy_w26": 74,
+          "nano_w28": 10,
+          "single_wei": 2,
+          "subatomic": 8,
+          "ultra_w28": 16
+        }
+      },
+      "protocol_floors": {
+        "detection_mode": "floor quanta (wei==1 / raw==1) + token fixed-point sub-wei-scale / sub-satoshi-scale bands",
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "satoshi_floor_btc_scale_total": 0,
+      "smallest_positive_wei_by_label": [
+        {
+          "label": "elonmusk.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "paxlabs.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "vitalik.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "sama.eth",
+          "min_positive_wei": 4
+        },
+        {
+          "label": "juul.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "jamiesalter.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "japantobacco.eth",
+          "min_positive_wei": 65112894
+        },
+        {
+          "label": "jensenhuang.eth",
+          "min_positive_wei": 1000000000
+        },
+        {
+          "label": "philipmorris.eth",
+          "min_positive_wei": 2558159762193
+        },
+        {
+          "label": "philipmorrisusa.eth",
+          "min_positive_wei": 39220000000000
+        },
+        {
+          "label": "njoy.eth",
+          "min_positive_wei": 49772417859153
+        },
+        {
+          "label": "pmi.eth",
+          "min_positive_wei": 68071434163086
+        },
+        {
+          "label": "pmusa.eth",
+          "min_positive_wei": 175953365258701
+        },
+        {
+          "label": "fyllo.eth",
+          "min_positive_wei": 441592773756156
+        },
+        {
+          "label": "ploom.eth",
+          "min_positive_wei": 532256468495463
+        }
+      ],
+      "sub_satoshi_native_btc_transfers_observed": 0,
+      "sub_satoshi_scale_total": 18,
+      "sub_wei_native_transfers_observed": 0,
+      "sub_wei_scale_total": 0,
+      "title": "Sub-wei / sub-satoshi scale cyberdust fully updated across all sealed addresses",
+      "token_quantum_aggregate_counts": {
+        "floor_raw_eq_1": 82,
+        "nft_raw_or_id_eq_1": 289,
+        "sub_satoshi_scale": 18,
+        "wei_floor_eth_scale_token": 5
+      },
+      "wei_floor_eth_scale_total": 5
+    },
+    {
+      "detail": "Pair space 171; 0 pairs with floor-wei or sub-scale token edges. Waves 28–30 dispositions retained where present.",
+      "floor_wei_eq_1_total": 3,
+      "id": "W31-F2",
+      "illicit_dust_evasion_adjudicated": false,
+      "illicit_dust_network_adjudicated": false,
+      "pair_space": 171,
+      "pairs_floor_wei": 0,
+      "pairs_sub_satoshi_scale": 0,
+      "pairs_sub_wei_scale": 0,
+      "pairs_with_any_subquantum_edge": [],
+      "prior_dispositions_retained": {
+        "wave28": {
+          "fine_threshold_wei_lt": 1000000000,
+          "finest_band": "single_wei",
+          "illicit_dust_evasion_adjudicated": false,
+          "illicit_dust_network_adjudicated": false,
+          "ultra_threshold_wei_lt": 1000000,
+          "wave26_dust_sensitivity_superseded_for_detection": true
+        },
+        "wave29": {
+          "consolidation_complete": true,
+          "hypergraph_sealed": true,
+          "illicit_dust_evasion_adjudicated": false,
+          "nvidia_gpu_active": false,
+          "nvidia_path": "numpy_vectorized_nvidia_compatible",
+          "theft_adjudicated": false,
+          "tokenized_royalty_rail_authenticated": false,
+          "wrapped_rap_rail_authenticated": false
+        },
+        "wave30": {
+          "adjudicated_from_insights": false,
+          "finer_illicit_flow_candidates_only": true,
+          "illicit_dust_evasion_adjudicated": false,
+          "illicit_dust_network_adjudicated": false,
+          "subatomic_threshold_wei_lt": 10,
+          "top10_insights_sealed": true,
+          "wave28_dust_sensitivity_superseded_for_detection": true
+        }
+      },
+      "sub_satoshi_scale_total": 18,
+      "sub_wei_scale_total": 0,
+      "title": "Pairwise floor-wei / sub-satoshi-scale / sub-wei-scale edges + prior full update"
+    },
+    {
+      "btc_scale_8dec_floor": "raw==1 ≡ 1 satoshi; sub-satoshi impossible for that token",
+      "detail": "Fully updates the investigation posture: claims of native sub-wei ETH or sub-satoshi BTC L1 cyberdust are ledger-impossible. Detectable finer dust is floor-quantum (wei==1 / satoshi-floor tokens) or fixed-point sub-scale token amounts on high-decimal assets.",
+      "eth_scale_18dec_floor": "raw==1 ≡ 1 wei-unit of token; sub-wei impossible for that token",
+      "id": "W31-F3",
+      "illicit_dust_evasion_adjudicated": false,
+      "native_btc_sub_satoshi_impossible_on_chain": true,
+      "native_eth_sub_wei_impossible_on_l1": true,
+      "title": "Ledger physics: native sub-wei / sub-satoshi impossible; scale bands via token decimals",
+      "token_sub_satoshi_scale_rule": "decimals>8 AND 0 < raw < 10**(decimals-8) (includes raw==1 on any decimals>8 token)",
+      "token_sub_wei_scale_rule": "decimals>18 AND 0 < raw < 10**(decimals-18) (includes raw==1 on any decimals>18 token)"
+    }
+  ],
+  "generated_at": "2026-07-23T21:40:54Z",
+  "policy": "Wave-31 fully updates cyberdust detection for sub-wei and sub-satoshi *scale* bands. Native sub-wei ETH and sub-satoshi BTC are ledger-impossible; floor quanta and high-decimal token scale bands are screened. No illicit-dust adjudication.",
+  "seal": "9bd47137407a002e5d4c7d654740999c4ce31c3881e0c077234150ebee6f3301",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "sub_wei_sub_satoshi_cyberdust_full_update",
+      "next_actions": [
+        "Archive-node uncapped history for page-capped EOAs",
+        "Do not claim native sub-wei ETH or sub-satoshi BTC L1 transfers exist",
+        "Prioritize token sub-satoshi-scale counterparties as forensic candidates only"
+      ],
+      "status": "SEALED",
+      "title": "Sub-wei / sub-satoshi scale cyberdust full update"
+    },
+    {
+      "adjudicated": false,
+      "id": "pairwise_subquantum_and_prior_update",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Pairwise subquantum dust + prior-wave update"
+    },
+    {
+      "adjudicated": false,
+      "id": "ledger_physics_subquantum_note",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Ledger physics — sub-wei / sub-satoshi"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W31-M1",
+          "item": "Do not allege native sub-wei ETH or sub-satoshi BTC L1 transfers — impossible on integer ledgers",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W31-M2",
+          "item": "Trace counterparties of floor-wei==1 and token sub-satoshi-scale transfers as candidates only",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W31-M3",
+          "item": "Uncap page-capped EOAs for exhaustive floor-quantum inventory",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-31 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE31"
+}

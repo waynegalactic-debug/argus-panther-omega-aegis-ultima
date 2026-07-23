@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "btc_scale_8dec_floor": "raw==1 ≡ 1 satoshi; sub-satoshi impossible for that token",
+      "detail": "Fully updates the investigation posture: claims of native sub-wei ETH or sub-satoshi BTC L1 cyberdust are ledger-impossible. Detectable finer dust is floor-quantum (wei==1 / satoshi-floor tokens) or fixed-point sub-scale token amounts on high-decimal assets.",
+      "eth_scale_18dec_floor": "raw==1 ≡ 1 wei-unit of token; sub-wei impossible for that token",
+      "id": "W31-F3",
+      "illicit_dust_evasion_adjudicated": false,
+      "native_btc_sub_satoshi_impossible_on_chain": true,
+      "native_eth_sub_wei_impossible_on_l1": true,
+      "title": "Ledger physics: native sub-wei / sub-satoshi impossible; scale bands via token decimals",
+      "token_sub_satoshi_scale_rule": "decimals>8 AND 0 < raw < 10**(decimals-8) (includes raw==1 on any decimals>8 token)",
+      "token_sub_wei_scale_rule": "decimals>18 AND 0 < raw < 10**(decimals-18) (includes raw==1 on any decimals>18 token)"
+    }
+  ],
+  "id": "ledger_physics_subquantum_note",
+  "status": "SEALED",
+  "title": "Ledger physics — sub-wei / sub-satoshi"
+}

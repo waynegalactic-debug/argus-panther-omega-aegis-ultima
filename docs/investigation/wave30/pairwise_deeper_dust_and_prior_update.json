@@ -1,0 +1,53 @@
+{
+  "findings": [
+    {
+      "detail": "Pair space 171; 0 pairs with sub-atomic/single-wei edges. Wave-28/29 dispositions retained; detection sensitivity deepened only.",
+      "id": "W30-F3",
+      "illicit_dust_evasion_adjudicated": false,
+      "illicit_dust_network_adjudicated": false,
+      "pair_space": 171,
+      "pairs_with_single_wei": 0,
+      "pairs_with_subatomic_lt_10": 0,
+      "pairs_with_subatomic_or_single_wei": [],
+      "threshold_deepening_vs_wave28": {
+        "added_signals": [
+          "zero_value_with_input",
+          "repeat_wei_patterns_ge3",
+          "dust_burst_hours_ge3"
+        ],
+        "new_subatomic_wei_lt": 10,
+        "pagination": {
+          "internal": 20,
+          "tt": 14,
+          "tx": 40
+        },
+        "token_dust_token_unit_lt": "1e-12 (was 1e-9 in W28)"
+      },
+      "title": "Pairwise sub-atomic/single-wei dust edges + prior-wave full update",
+      "wave28_disposition_retained": {
+        "fine_threshold_wei_lt": 1000000000,
+        "finest_band": "single_wei",
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_dust_network_adjudicated": false,
+        "ultra_threshold_wei_lt": 1000000,
+        "wave26_dust_sensitivity_superseded_for_detection": true
+      },
+      "wave29_disposition_retained": {
+        "consolidation_complete": true,
+        "hypergraph_sealed": true,
+        "illicit_dust_evasion_adjudicated": false,
+        "nvidia_gpu_active": false,
+        "nvidia_path": "numpy_vectorized_nvidia_compatible",
+        "theft_adjudicated": false,
+        "tokenized_royalty_rail_authenticated": false,
+        "wrapped_rap_rail_authenticated": false
+      },
+      "wave30_single_wei_total": 2,
+      "wave30_subatomic_total": 8
+    }
+  ],
+  "id": "pairwise_deeper_dust_and_prior_update",
+  "pairs": [],
+  "status": "SEALED",
+  "title": "Pairwise deeper dust + prior-wave update"
+}

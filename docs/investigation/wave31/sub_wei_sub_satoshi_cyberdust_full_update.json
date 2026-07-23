@@ -1,0 +1,3157 @@
+{
+  "findings": [
+    {
+      "address_book": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "elonmusk.eth": "0x983110309620D911731Ac0932219af06091b6744",
+        "fyllo.eth": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+        "japantobacco.eth": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+        "jensenhuang.eth": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+        "juul.eth": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+        "juullabs.eth": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+        "njoy.eth": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+        "pax.eth": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+        "paxlabs.eth": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+        "philipmorris.eth": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+        "philipmorrisusa.eth": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+        "ploom.eth": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+        "pmi.eth": "0x516F381d6C94110CDE63F3266B779065525096f7",
+        "pmusa.eth": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+        "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+        "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      "addresses_hitting_page_cap": [
+        "jamiesalter.eth",
+        "vitalik.eth"
+      ],
+      "addresses_screened": 19,
+      "detail": "Screened 19 sealed labels. Native sub-wei ETH and sub-satoshi BTC transfers are ledger-impossible; floor_wei==1 total=3. Token sub-satoshi-scale=18, sub-wei-scale=0, floor_raw==1=82. Not an illicit-dust adjudication.",
+      "floor_raw_eq_1_total": 82,
+      "floor_wei_eq_1_total": 3,
+      "id": "W31-F1",
+      "illicit_dust_evasion_adjudicated": false,
+      "prior_wave_tier_totals_retained": {
+        "wave28": {
+          "atomic": 9,
+          "fine": 16,
+          "legacy_w26": 69,
+          "nano": 9,
+          "single_wei": 2,
+          "ultra": 12
+        },
+        "wave30": {
+          "atomic_w28": 10,
+          "fine_w28": 20,
+          "legacy_w26": 74,
+          "nano_w28": 10,
+          "single_wei": 2,
+          "subatomic": 8,
+          "ultra_w28": 16
+        }
+      },
+      "protocol_floors": {
+        "detection_mode": "floor quanta (wei==1 / raw==1) + token fixed-point sub-wei-scale / sub-satoshi-scale bands",
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "satoshi_floor_btc_scale_total": 0,
+      "smallest_positive_wei_by_label": [
+        {
+          "label": "elonmusk.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "paxlabs.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "vitalik.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "sama.eth",
+          "min_positive_wei": 4
+        },
+        {
+          "label": "juul.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "jamiesalter.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "japantobacco.eth",
+          "min_positive_wei": 65112894
+        },
+        {
+          "label": "jensenhuang.eth",
+          "min_positive_wei": 1000000000
+        },
+        {
+          "label": "philipmorris.eth",
+          "min_positive_wei": 2558159762193
+        },
+        {
+          "label": "philipmorrisusa.eth",
+          "min_positive_wei": 39220000000000
+        },
+        {
+          "label": "njoy.eth",
+          "min_positive_wei": 49772417859153
+        },
+        {
+          "label": "pmi.eth",
+          "min_positive_wei": 68071434163086
+        },
+        {
+          "label": "pmusa.eth",
+          "min_positive_wei": 175953365258701
+        },
+        {
+          "label": "fyllo.eth",
+          "min_positive_wei": 441592773756156
+        },
+        {
+          "label": "ploom.eth",
+          "min_positive_wei": 532256468495463
+        }
+      ],
+      "sub_satoshi_native_btc_transfers_observed": 0,
+      "sub_satoshi_scale_total": 18,
+      "sub_wei_native_transfers_observed": 0,
+      "sub_wei_scale_total": 0,
+      "title": "Sub-wei / sub-satoshi scale cyberdust fully updated across all sealed addresses",
+      "token_quantum_aggregate_counts": {
+        "floor_raw_eq_1": 82,
+        "nft_raw_or_id_eq_1": 289,
+        "sub_satoshi_scale": 18,
+        "wei_floor_eth_scale_token": 5
+      },
+      "wei_floor_eth_scale_total": 5
+    }
+  ],
+  "id": "sub_wei_sub_satoshi_cyberdust_full_update",
+  "next_actions": [
+    "Archive-node uncapped history for page-capped EOAs",
+    "Do not claim native sub-wei ETH or sub-satoshi BTC L1 transfers exist",
+    "Prioritize token sub-satoshi-scale counterparties as forensic candidates only"
+  ],
+  "screens": {
+    "abg.eth": {
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 3,
+      "label": "abg.eth",
+      "min_positive_wei_observed": 3864971767746685,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "9977e4f930f374aa0a43f4eec210158912002204f9667d4fb40a72b1fb8fc575"
+        ],
+        "internal": [
+          "4f6dca126d0b96e00e9781489b754db8615870e2f9ab9d35a8c51b879059605a"
+        ],
+        "tt_all": [
+          "95d57cce707bf62819911785940d61f01ba8b018a6e48d2c8c33eb8d123d6c2d"
+        ],
+        "tx": [
+          "acff6dab68f28b64d8ad90a57e8e1ccf3efae45e5dab53a154b0f2b03bc7693a"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 1
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 4,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 0,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 10
+    },
+    "authenticbrands.eth": {
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 6,
+      "label": "authenticbrands.eth",
+      "min_positive_wei_observed": 1037770920599725,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "3dbe23ae94e8de4482e838ec15c725d708fb637d365883687e0cc383f8a7885d"
+        ],
+        "internal": [
+          "ea3b117f04c52dc43c6f32a64c6263241e120f12906f8ead11a57609b25ba348"
+        ],
+        "tt_all": [
+          "8a69fd8f48bb9d463a80405011c2fc1eb83f35fef073629522b1f210aa902870"
+        ],
+        "tx": [
+          "4e3a593352fc43546f4baa12de731fe01aa0cf3ffe03f227cb886e9757c6848b"
+        ]
+      },
+      "token_quantum_class_counts": {},
+      "token_quantum_samples": {},
+      "tt_all_scanned": 10,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 1,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 20
+    },
+    "elonmusk.eth": {
+      "address": "0x983110309620D911731Ac0932219af06091b6744",
+      "floor_wei_eq_1": {
+        "in": 1,
+        "internal": 0,
+        "out": 0,
+        "total": 1
+      },
+      "floor_wei_samples": [
+        {
+          "counterparty": "0x5550e3a92237b5a6b41228b12088b3021e8ef9f3",
+          "direction": "in",
+          "hash": "0xaca9f1bb82f6e4008cee4e103d0baf70cc867e2344715dfe3a3d73df3b13cb5c",
+          "method": null,
+          "quantum": "floor_wei_eq_1",
+          "timestamp": "2023-11-03T12:18:35.000000Z"
+        }
+      ],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 219,
+      "label": "elonmusk.eth",
+      "min_positive_wei_observed": 1,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "89755e4cc03cdbd78c4564123dda474aefd076bd539bc54cf5541b3779267142",
+          "a52bd81dbd451fef9c41daa28236159b7173cb0dbe17fb4720d5d30159e78d7c",
+          "6e3068803c52a7e702c546043e825539b05b56f83f6f305b63dd2d8862e0e989",
+          "3aff96883d6d0d364924b33ab7b4f55fb33816a91cd45671e391512d0493c28b",
+          "91d95839d0624766d5834a684f37ee5935bd0171df1966e9f9567c2166313840"
+        ],
+        "internal": [
+          "5b5cd02ae08b6f5c436e6062f8fc0c3a034138a6b0c4353478ea3debc25c7a17",
+          "413b1b2c2e50d3fdf27451179eebb8f39ca3dc101b11e6f54a3704206f824eae",
+          "2337f35e3a293535266586ef73bd4a465f3aaacc0a2a8554ff0765fb36e7aa35",
+          "b7d48a6f162cb1ca4ef545ec41d3def670ccd3473032b5b59bc3f554e261a213",
+          "0dfacd5b2c1855877ae37f4aafdb09cf6e2ebfaefa5092f3dd99229dc86812c8"
+        ],
+        "tt_all": [
+          "6a3c5fe51bfa316ca416e9e959a1393acf337fa4771d725a86989952d1b54aab",
+          "e0389c8571d2d40427be6b117d5b7b62dc5d3c9c8995168d9cf8a94888b6ed8e",
+          "27a6caa36af49592e2b3db84a1971e4ea6cffa52ff32cbbf79e9acca9ce8b544",
+          "608056d53686448610588385ae73e56582feae84d9d1452991c48e0f39c31099",
+          "4dae1697f33d4bcac9a1abcd3838f720094f9b70bdf5a1088836f2cdc3e83cbe",
+          "e7e56d6f3edf0aa7394092c33e0d125b0623000feabf26091bfc403510f70466",
+          "2c73883bbd6395e65a79ae37b240dc06f739cc39669bd060c24b45b4010e6f92",
+          "031f41758a2004a4060cc5df124a4df669f814f0dc59fc8c61551b9e0f5ba80a"
+        ],
+        "tx": [
+          "fc74b1bda65bc2806a5f872c0d98ed95834208ee8dd7a2f63042b2003c46d11e",
+          "ab9ae635f864db32257b33dce17203f09e804453ea8d380eb5dceb8841098e33",
+          "f82343b043055aac95dd3db8ae79ca07d08acd06b14382a1da51bdadc1bd0bea",
+          "8179178e5f1ce4d81478fd1cddadf27caa1243a194fd7f6a7f73e50b89076899",
+          "053a8052fd232cf3af5282d8fa358b445b6b8babebbdadcc1985fb3ad9896f9e",
+          "38f02c280db473835e555ee90ea8a2c7ea348ea88e481f41f92e5bd291087ddc",
+          "2adfe54c49cf674b7d39f2b7e612deeafd34ed1e395c409d195f352ef4cef821",
+          "4cb70b01074a6c8f4a154af010e6a529fc627702ee016465a041455a9864b25b",
+          "3a7ab37381575e3bf8f615b4791a273d1bc31245d4ba8aac3db7cf712c2c0b74",
+          "562b60d7dfc1bd7b57677f535d5daf610a90f06bca44f58051a5d8dde15ef95c",
+          "846b8de96e538c290118b071a24b7d166ba6c5c9bf464d065aaf4a97253afb19",
+          "3ee9dc4fab196b23406877c3e039637865fc8707c43a3c9e7af04f4c4261918e",
+          "8b6127be9d25c7b1a9b79963286a589fc83085b8cd27e11709f9dfa2f8c14d82",
+          "b5462d9a3b28cf4f70c6d92ee38c18a8dbd29b97f1c5d8c969b54fd8e6b3e165",
+          "9cd1b82205a8251face74e048159e5638afd4500add1ecafec9f8333448f6c19",
+          "539365f739863ff30416e7c7328dfd3da47a4c6bb093886a4a30bbc5455c62cb",
+          "6915e57fd65b4461ca0de756a610b8c0933a5e79209069d18997ebfb70c9a373",
+          "0ff61d7cbead72a75bdd9a5f19cce2292d4326f57f3a820ae600eb06245b820c",
+          "d983a2234dcaaa303ee1b086bb7badf05b47f3f48dd08e82428356c9e1980292",
+          "6e75da28bd1801a3bd09a608d0113b233a6cb47b6316a3ae42241d67bd49fd8c",
+          "68c4b23ceca86f84585462a7b38c744f4fe412586bc42a6395d9453db633920d",
+          "8ffd15549875b51e8f125990dca1b8aea7f246ca6efd0cf031a55456888bed9d",
+          "a43fd765f6a4cb57a2c07799e953894d96e3c18b9db09ef378f012de6161c4ec",
+          "91d53825c5ddaaa836ca91725a67d18f0585c3e24a2a0bc22a94f91ca400e139",
+          "0299c740b24689cc2271f54ae1ae49c1f0e9533979877b7e0bd0e18848bc660c",
+          "0b235f306612008a71c16d8e771df220b28a35b16026461398eacdc3b63adae6",
+          "b3f5a830cbb7c86438aa04b273105d5c9c125a20cc0a7a198e44b4f2aa04f08f",
+          "8dc5ec06e5bd97549f5ad533dd417e1dd78c5d3b0edd44e5b8d2f03140ab7db3"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 7,
+        "nft_raw_or_id_eq_1": 64
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2022-10-22T18:44:35.000000Z",
+            "to": "0x983110309620D911731Ac0932219af06091b6744",
+            "token_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+            "tx": "0xb7ca9fa0ddda32612073b8500e1d9861a1e17dd9b790b3137a3d74df319ee760"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x983110309620D911731Ac0932219af06091b6744",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2021-09-25T21:32:03.000000Z",
+            "to": "0xC4745E64DCA9910BB8FD3bFe1EbbE99Ca7bB3F94",
+            "token_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+            "tx": "0xe68dcaf59fcce7b5dd191a7cbbb5c03693d06a46aaf39add0d04a429f67b1a47"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2021-09-25T17:42:02.000000Z",
+            "to": "0x983110309620D911731Ac0932219af06091b6744",
+            "token_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+            "tx": "0xf89e0ebdded077fc5c3a5705aa067ed38f6afd931fe7ba4ffe77b1921d217aeb"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x983110309620D911731Ac0932219af06091b6744",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2021-09-20T23:37:08.000000Z",
+            "to": "0xC4745E64DCA9910BB8FD3bFe1EbbE99Ca7bB3F94",
+            "token_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+            "tx": "0x339e195e2535422c7959efff616c7594988a05e80355e9ae6bb3e2cf163b1522"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x809FA673fe2ab515FaA168259cB14E2BeDeBF68e",
+            "name": "Unicorns",
+            "raw": 1,
+            "symbol": "🦄",
+            "timestamp": "2021-08-19T12:05:16.000000Z",
+            "to": "0x983110309620D911731Ac0932219af06091b6744",
+            "token_address": "0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7",
+            "tx": "0xcd7ea35c1dcd02ed2af50f710d73ad4a4ad46fe5f8ce9dd9625951f5cd8a39f0"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x96184444629F3489c4dE199871E6F99568229d8f",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2021-08-11T00:21:07.000000Z",
+            "to": "0x983110309620D911731Ac0932219af06091b6744",
+            "token_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+            "tx": "0x31207f75696b5acf7f612e2be753ef6017d94147dd0bda589786aea7b7a122cd"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x000001f568875F378Bf6d170B790967FE429C81A",
+            "name": "MoonCats",
+            "raw": 1,
+            "symbol": "🐱",
+            "timestamp": "2021-03-21T02:32:28.000000Z",
+            "to": "0x983110309620D911731Ac0932219af06091b6744",
+            "token_address": "0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6",
+            "tx": "0x9f51a9fe792d36c1ccc16d04839c4665e36b16a73143cfaab3c4b8ad3058ad91"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 214,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1363
+    },
+    "fyllo.eth": {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 5,
+      "label": "fyllo.eth",
+      "min_positive_wei_observed": 441592773756156,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "668f2524e75660a28f69b206a2e1066f4676e469af2ccc7f59f4068985ba54ea"
+        ],
+        "internal": [
+          "ddc5cd7805f1cb227a01caec63bc7941ff67e35f7ee6a610d64a7dc85b6dc238"
+        ],
+        "tt_all": [
+          "ad50d27dc29447447fd885f5165b1b0891e7f71e71953f84deb79da40957556d",
+          "9e1167a99f790f4cd35224b5f685ff7c6d132ce2f7cfa8e0c7d2941955d8adc5"
+        ],
+        "tx": [
+          "0168d84a437675f577d669625a3e4c104b3fca003a9f10428c692fb8083ab9c9",
+          "e4f02b34f2a9d564be85faf3eb31d45c686dcc3ef3f6686b466f12ab446cae16",
+          "11828bec6a1506f76aed9aead668377440a76bf5c9166e9436268c9f3092521a"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 4,
+        "sub_satoshi_scale": 2
+      },
+      "token_quantum_samples": {
+        "sub_satoshi_scale": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x8e97C028fb61A3450C0b6dFAa7b990358FebCB3c",
+            "name": "DIXT.FINANCE",
+            "raw": 5000000,
+            "symbol": "DIXT",
+            "timestamp": "2026-05-16T09:48:59.000000Z",
+            "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+            "token_address": "0x43e6228b5bF22Eab754486082cA91FdD8585521A",
+            "tx": "0xec723fc6000136ffd944a9d28531636a564de2aac4b42398e2180b6302368d7a"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x325C60B95f0fFbd66caC407D1563ED456c102A61",
+            "name": "yefam.finance",
+            "raw": 3000000000,
+            "symbol": "FAM",
+            "timestamp": "2026-03-30T05:45:35.000000Z",
+            "to": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+            "token_address": "0x9D24364b97270961b2948734aFe8d58832Efd43a",
+            "tx": "0xcc76868add15f68af88461a6ba183cf3744d0dd707302fab94c3ff4b1e3bab5a"
+          }
+        ]
+      },
+      "tt_all_scanned": 95,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 16,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 119
+    },
+    "jamiesalter.eth": {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 0,
+      "label": "jamiesalter.eth",
+      "min_positive_wei_observed": 5,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "448407368d1041b38fddf24472336ad0fb927f24d4e960bfca1cc02cf9080b27",
+          "602a1cc934172a0425da1b00fcafeb4cc898e2eb8a7bacf7f234eb566c3d09ed",
+          "210168b9293355d1a614b261a453030efc814eb4d716627457f807183a070bf7",
+          "2ea02b2cdee102b3290117bf633366982ab1eaef7d437308eddd0776d03dc8d4",
+          "961d0f6bd1b05e1a1819f96d1adbf7c086b6fcd768194b1f41b1c985d2b08149",
+          "5004b29a6b451e3ed4bdd69a76cfd944481cc557b2e27cb44093b8373a6ae494",
+          "50c35f55d2bb31da46d8b708b4bafdbd09db2b8dc64e895944259283ffe7d32c",
+          "8812b6897f50aab9e03e9c90d03ede54f96e9f141a4bcb00bd866a57820b2ec3",
+          "7d43d5f7c4e04f229d1a3b3edeb23523d5d517b1fbd058559bb34830c1dffe19",
+          "e038bf241e4cbd189e395ba05c4b55f87c4e3938d493af871a6b6f2968d7103b",
+          "554691eebba91bb4fe476132662020dae548748dce7b412417913f3ffb58a163",
+          "c4aecdc5e61c01d52920df7b602635a6c0a760353a45dbc37ff2aae828d25662",
+          "8e8b293928302fad06f361f2c61cf26a5e2042108ab5611eba86291f94c95291",
+          "7b5e15befaa5388b4212216848108e0186db5e1ecbfee932ed076198c203a2fe",
+          "d50c2b51faf8f1437fccdf7df54ead182b29834fd46c0bb04da8162d5e55e947",
+          "7eeaa47d1525efdb1fe6645933a342a65c9a186aadc0d07e86c6399050bd1417"
+        ],
+        "internal": [],
+        "tt_all": [
+          "9656a88085233018a134d3fbcf41773f58b1b8df16fca2cf881571d13fec70fd",
+          "18df9e6253447f241c14ece6ad9aa73a65386a5bd20c6d9e460322106b57904f",
+          "6dacc6ee433955b556904af5b34fb2e8e3e4f262a1846832aa94058e6856fccf",
+          "150f2871a6596b8ebcd12076a59bef27bfe030e9b2fd8dcd0d9f85bdff153bb5",
+          "75dc806065c7375c5d44b6824691d9efee9361352f8c4b7b0b87e2d309d72298",
+          "8cbcf4019cf68028561ecb359f819bbcf445a39ebf8297fcc421efaf9a643549",
+          "1bbc9dd2235ed37dcda1627b8e821a196508b231806713b6e6d577f6e34e94b8",
+          "bb8aee213cbf40ab6dd29c730c6bd349d8393ffd8aece8a46b0d1a3d2f86f281"
+        ],
+        "tx": [
+          "d69fe1d260af89365dae65ce19aa763663c92b4f5b32c3634b9e8fae560af45c",
+          "83444f2cb4ee50f62147078b8db9a059213e793e327cdc748ab519dd1cfdcb29",
+          "46db06d757bee99264d6c05472b27cb77e411bf6c1f84d956ed01865100f3d0f",
+          "1ccca936e35bc54f2a7d1ba6bacb0218acddee808470ee840b6ad8350babc3ba",
+          "ef1f3c68d4488d8b4856721a27b3a0aa017d237aab714eb77b0767fbdf0fde79",
+          "f44ea4d5c66d1c812e7d09a66ad58e8468278f925991e31ddb411b41069ac6b1",
+          "f4eda20dd575cc1cbe9fad32b02d0e318f4f11786e375148119a964d14a069b8",
+          "0917c87002c3de6c5818966dcca7b45c536effe8e55ef73788a7fb9086ca47ef",
+          "cb5a5662e307625a3d45cf22f9f15d148c1e07da47a3246c66917ec25ecd43c8",
+          "7173c3db4a6f65f70f594f56cd8f1ed7875961594c26cb5f1294c4ef833fd0b9",
+          "73c893436d7a7d1f9f2b3753b0012ca54739b64ecbfb6632068383c51ea8529a",
+          "75f6c5a1f9a69036b289862f06449411a349d2e3e7eb59c5443f80cebb28cff6",
+          "1f2616f3e07b631fe20abb804c6e882c8ffd839db7a9e1f2777a8b89032afb20",
+          "265828c2a71e34e5bd7818f7c4652ccd59f60937e7e775c35b26de88524e4663",
+          "5ff5856b21aace99e497c304f7330d44ea4a0325ff21ceb30b7fa2574d17a3ca",
+          "9e8387b5198f9d1fec21f6f20ca6053e7ea44e1867d70f1b291a977c10259435",
+          "eb5508e72576df27eec12be1a69e9dc45e7a974930f65e756aa29315198b3705",
+          "facca7dc07b69690b8e2a29d04d6252ff227200a2dc31331ef5a17ab19326fb1",
+          "adacb573cd594ab6c3a46bc70bd645ddb23e487f2b51e6fad433e1b40d64e328",
+          "06dced7dcd2d57d524c3b0ed9efe77c7880b9584b3a5ab7eb22c906bd74ffe74",
+          "dd9ea8322760fddc083f40931d0e956fe1125cf950f94f9f55f5ac62a97bedf0",
+          "fd425c72881dee16e196a061c1c0564e4f2418b64c579b46ab18987c2dcba4f1",
+          "02c760b01c9ce7d520ade516bc9bfb46543f0286fa5e232a64e5c280942dcb05",
+          "538c4d55ddf392893e4bd03c9cc7fcbc3207ddd7ca82c76a2f10922eace193e2",
+          "8ff897572579d5ec4784994314c98ca7348702304da80ead831434adb2267e11",
+          "12888a407ccbff5bba4388ee32929c64b053ae41747779d2dcd1e638c9b71353",
+          "46a472478bb8dfd892594820cb0487e2d3b1217d93b103e8dd69ed2f3f8c93aa",
+          "8fd1312de1f5c52e05c482a13b0468651ee05c63d7d1c171616f45ebbd1d936d",
+          "5ae2d81655d3edeffae9f8c612566fed8031066fca6e57045b59d838c0ea2464",
+          "8b00ced70558751a8331fb6d0057e5b01cffa71d145292a5cff81ee779026a28",
+          "58e5f84b1b7e936fa7f88f2669d458e8ca48b8ab8c0859dc103b779f15df038d",
+          "38ea2e6e96b6dcbcc6ae270e54113fb16225d4669c41cb3c67d2183e81bc76c4",
+          "3d9af113be4d480510fb9cc567e5cba883aa69b4d08108a96d1f19a8ba5970e5",
+          "05b616bc17cff872e9369a7728321e14646da309c68090dc8b3976036cd7aaa5",
+          "568e4e0d64265abe502099653bb28042fcbc980adb970af795f717adf9e74987",
+          "c88ee1fed4f7be19478cbe0206a02847372927770ec776bb28b16dd4b7e208cd",
+          "35a7127b840c5e194b374763ec332e1445c777e8ef134471fb9109693198ec42",
+          "1a6daca57f2948fb88d85adb40589c22776e4cf9818d9de6b9c42c81fbd1ba99",
+          "ece779a333ee0a51c85c0dd28762c82094385aa69f009dfa0d398fc9778829cc",
+          "3792779b596a2cea9c385ea47e2893763b9c590e716d54b24115fd45267a30a0"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 2
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": true,
+      "tt_erc20_scanned": 800,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 2000
+    },
+    "japantobacco.eth": {
+      "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 24,
+      "label": "japantobacco.eth",
+      "min_positive_wei_observed": 65112894,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "f51083a3e6e3e159ede600346fa30db210d9c1a17a48b20513ffa4f34447674c",
+          "41333ed41442d72f82a7e583cb0870645bd158a6675c4cf6c44f049d061563c3",
+          "3233b8a4b5e685ec45ca7f056751d9413320f03ea4dad4452c5bc2b8d8caa3c3",
+          "065b32b100ac186172a83ab863e4fb68eb84ceb48e7cea16e529c8960739079a"
+        ],
+        "internal": [
+          "928254e3e07462eab3203b26250d094fc9cab03a7e9eb2ca9b1189000d76d9ed"
+        ],
+        "tt_all": [
+          "4615d1e475d748f7a04d9ba2d9ed36504483ab067646a9b16a67645f82312f56",
+          "e87b06a2257de44a76f79e1a0d6eba7d207c66c8d0f0e46aa4e1c727189b567a",
+          "974141df1f7387fb0521d3865273b4fbb10a390ffc827698cf70585a4ee26bbf",
+          "4a4c4d1fcab4595e950b4c2812aec52eaa3bdf1d4c37b56a37a8a9ab40fa8177"
+        ],
+        "tx": [
+          "b5ef62b0bad5ed2df27123f4c8b4688ef1e36804eac05cbab9e73ab615de55b6",
+          "634db740e0900e8525bd16afc6620536c7c74d3085ed60818531c095ae6608ed",
+          "c5f469c657d01457842a18e246503f6b98d2bf61b96a8f08ee97bb000f30b262",
+          "62fdf9f6678fd8ef9c664984255cde5d65f22b36a28182bf86ce2f3238b068af",
+          "702b5e4c01ae13188b4ab95ce353c8adfab2dac27c474b60030c52fd872b306b",
+          "5451d4c7d46d414e7ff9057f4c0c1623b08a205c442d3497fcd0c5d6b9591e67"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 2
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 173,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 162,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 279
+    },
+    "jensenhuang.eth": {
+      "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 0,
+      "label": "jensenhuang.eth",
+      "min_positive_wei_observed": 1000000000,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "13dc96afe2dcbc1420be3ec6e5589240fc6297992f0b9e64b138e92bb13bdffa",
+          "eae214cfb5e81821ea8a2c8f9370926f086785aa0672ef07b86f58050624ce90",
+          "c58702fae3ef265155b23d962c75b20a24d6df5511b1d77e7fdcded4271fea10",
+          "d9c6ded9f3911ca90f4359edfa6a08001317d38bfe687cd31c3d1ee17b6b08c7",
+          "098a24291f05060c12c3f06936690157342e55521bc5b8c9e017a9aef14bebd7",
+          "af1c952845f40ef1eddeb24f6eadbc24d4ccf80c5fb17680d227074a5e961adf",
+          "06b0611f5f86834e1e3231423ec11eecaa410fa658b640c1886f3296c1d3ba32",
+          "25f3bfe56d9839350bac5a8b130f9fd56bb17cb6f54f91e75f02ef55c429dc6f",
+          "4dcf2d695c5d13a511f18ca3fb4aeec0edbd0ac6506ab2302d30d26c8b1b5709",
+          "f3edd3a4918fb6cd1e124044ce8e19546c3351554d21ee59b1c05d83aecaace6",
+          "a7e9f954ffce4929a15a150b789a9ce4ad6a6db1fce52ad79138c9ea4aa530c7",
+          "ce8c5f7da38f8c970cabaf276ff21aaf5087769cc54d46a9703f6376dc4e4b89",
+          "6aee9ad14315cd70e967e36e5f2b41c45ffbea68e1ef5cbe22da38d9d2452437",
+          "07609c769ffe4844bf4b4caa1e4a2fd826fbd5eaa2608a4c9ca6c6366a23bda3",
+          "50c5ba2a02c5b6033c9229200e950d193189802921d6e63faf959184be42b20f",
+          "f845426adda9ce308aeb8ee1f46e91cd6892d03554665956c48c23a3686945f5"
+        ],
+        "internal": [],
+        "tt_all": [
+          "c2ab4399156777ea4c57a9802241127ddd6828dbee9b55f44bd1971e4b8fab8f",
+          "666d22ed385a1775ce067121f8f73000234ef8722feaadaed90ebe68307a811d",
+          "7eb9408c032fff8dd9388a2d9a64a8f9d1d278b91cd6d4bcbc2bf0c3bec906ac",
+          "3052b4f2b52709ff1035017e46576644213190eaaf685b6e94245ec9ab2d7f6f",
+          "5c4f2083f9d23bb3c1b78add39add21718ced5e1a76d3b4d7227f71aae2ca65e",
+          "1b5e38025cc712b4dcf447777cbae434f97a2006e0e226b658b5f3c326ceb9ec",
+          "d1e20a9b2c654b73dcbd85a4f3156c3dd97808a67d35cc7aff533c947a5b75e5",
+          "5c582d341bfaf8368a72d3808e02e50175d629747dc738ac695c86b61f739ec6"
+        ],
+        "tx": [
+          "a0ebd282cb1786fc2223f7feb212f6d3cd836dbc8d641e09d0e7d0ae2ff4a72f",
+          "9ba957f92e810b910d9c6455dc46688b0af49ac712800e936a44dd664f082246",
+          "c283e6f1c880bddeb58c8e61bd459107d3fe18495b4ee9d2386f457ea5c78d1c",
+          "632fba1a6da107ed6cb61b14d357b9f4817ab0a79aca381c117036e3e2e9804e",
+          "81bd7df8aec7fcb65a826c91c353844752c397af8506c3f948959b3a45ff5b47",
+          "d8a00e3ee38adc66dc976a24df865a4549fd31b3302ef33e662817dff1832a6e",
+          "1cb224dc7990b87a0a4bb59d3a6d051512dff57fbe2ba7351c921b02afca37ac",
+          "fb38b7e10d7f90fd0da235e33d2bcf9aabe21439ae5ee2162ea727ceab853c72",
+          "c6f8724d8ced65d28aeec32f6131215fc9b0907ca2677628afc65647a5a52e2b",
+          "7573db921bf192c50bf22c96f587474f43176517cba6adb00922d052ac83e85c",
+          "3fe683824c200a8143c2b93a5ec6542eb859456ccfe92bf84077acbccc35b972",
+          "d776c5a4ea0b48b4d4a67fdd8f151b3c484ae18619cdf221fcfe5fa5a08065f8",
+          "16ae4667105ffa0d9612175dd5f34915ad152b3d4aa854c3145de7ac0dada34b",
+          "3a16ae5b911fa333f6484bd7f75d2d682aa30cb71c50374b605f5746dd989393",
+          "ead5909da0796ad2d68432e5218b7ffde3839e5bcb323d45b776d837698419e3"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 60
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2022-01-23T16:04:23.000000Z",
+            "to": "0x282BDD42f4eb70e7A9D9F40c8fEA0825B7f68C5D",
+            "token_address": "0x6Ba6f2207e343923BA692e5Cae646Fb0F566DB8D",
+            "tx": "0x3cd9682022aa079813377e3cc88b02ec4f45d085ff0b13791f60644b4b8a3fc7"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xF4a4644E818c2843Ba0AAbEa93af6c80B5984114",
+            "name": "CRYPTOPUNKS",
+            "raw": 1,
+            "symbol": "Ͼ",
+            "timestamp": "2022-01-23T15:52:24.000000Z",
+            "to": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "token_address": "0x6Ba6f2207e343923BA692e5Cae646Fb0F566DB8D",
+            "tx": "0x413ab748446f6340c5a8e0a5ba092d7cd4ac59c1fd006e9e1c89b2598087a05b"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "NEO-RARE",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T01:45:40.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x12DB715a5E0429fDf63C93Ff2C2001d0222ecfe2",
+            "tx": "0xcabd9b8a1484a0bd2a941fa70fec11016e5c22a68f03d3fbf7d996f08f9d75e2"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "Lovely Day",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T01:38:06.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x0d2e73302e6eCf1265eAdC4A3c9e9659C37cdadD",
+            "tx": "0xfb45cbb2a21b5b1f4bbda7d0501d734b2733ace0a6e65696e3469c92405860f9"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "City Bankruptcy",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T01:38:06.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x3169Eb5B10Af34B3a88489A961BFA60186a549D5",
+            "tx": "0x53f48d6a0d54ba103c9d1f9ec052679940d684bbc9deae2f1c1e960f5eab70dc"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "1808 QV06",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T00:39:59.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x6B7fA111F1eF10fa7228B0E7618f66D82b390CA0",
+            "tx": "0x6f714a914850c6aa5ede3ec74764c38a71ec90bb4568a3d901afab7b9f7c08a5"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "1809 SE06",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T00:39:53.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x08D55464E9B5335ca2adB0ad8BA45E41f2466AD0",
+            "tx": "0xe267f85c39ca43b5ee017f6e17767d0622bf817d41bec60582ac5d2093479a9e"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "1811 EO05",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T00:35:48.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x602cF21fA12A379fa4A3d03204a776692328c4FC",
+            "tx": "0xbc7cf3ac547056a7806c9fdb89b4651d6f8a048658b5d04d74b6b0cf85d764f8"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "Big Homie Broly",
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2021-12-19T00:04:02.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0xE35Ca214aB5F5171a531Eab95e41b8Db1521d3F2",
+            "tx": "0x71af80076e57b54a775a2783a7166b86c62be0fddb830a2ce2879c72488352bb"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:51:50.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x180a56ab00b71c2d15710b7a63cea189a609d8e59992aaad38ace35dcfe236e8"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:48:46.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xa51235f3cfa9b0477bc581ad234b91c3832c550396ce35dcb7b2d18cf0c00af7"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:44:03.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x6707738967aef418e66a01b35e1566391ae996b11b01c333dd70743a0167b857"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:38:39.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x47c62e203c400a1254cb4116c8bbe2cf6a889a67141697d66584dd42f32ceb66"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:32:51.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x4734c9660b4a28bceea5be0ea665ff3e63ad35612d4b931489ea5e4cf6816d59"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T01:08:42.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x9d6e4d9d05ce9ac6585e4417fbd950db9644ebafb4864c5a8faf001e8c1451fa"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T00:45:53.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xc88367cc821d0ae0be4e6249f0bce1ff6b07e9c610fd311ff775927cf9b43d0c"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-24T00:26:41.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xa0be5533712de1707b63b30235cffc33fd4150bb8677449031d5fb5f8a44b8a8"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T20:30:38.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xe284788eed089e584fffbf70463181d1ba2adcaca9d0696435ec81f9f8749901"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T19:43:04.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x411b105ece07fcd9b2a5912828ffc1ca994d2e6502d77bfaff74e3647a7126c5"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T15:58:18.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xee09722555a48f83cb4e58c0beb811f540df43be53bb7eef2a8ddc641cda6f0c"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T14:55:31.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x15386d2ba935d88b1a20d5b11eb9e027e52a4b9f71a5015151b7fecc8e353aab"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T06:43:33.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0xd27cee4c2daec63fa63e6b1fbd27dfa13a8a4f77df962889d620d27975c07e0d"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T06:12:19.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x09b9f73f063bc20f20ed410c9065f5b8ddd5c324e69087d883d1a9b7c07b0734"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T06:07:10.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x578daec51f817aa3ac719ee3a140bc021f34b8438c31744484952f504ff4d500"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+            "name": "DADA Collectible",
+            "raw": 1,
+            "symbol": "Ɖ",
+            "timestamp": "2021-10-23T05:54:23.000000Z",
+            "to": "0x3259EBC7B7B5f6F4D5ed3066366F11a3c4452A39",
+            "token_address": "0x068696A3cf3c4676B65F1c9975dd094260109d02",
+            "tx": "0x25bf41284bab42bfce86a5d4a13bd80616206ed7d705e1aaa10dadd1b90497b6"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 766,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 723
+    },
+    "juul.eth": {
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 0,
+      "label": "juul.eth",
+      "min_positive_wei_observed": 5,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "afabb9f1b534d00ce7bb3634c37bda31772b7b1a1f5e583d59c962ba7be285a2",
+          "3f40a2de46cfbb94f119e92406ed36cc6933b977c24c37c4079970b412ba26fd",
+          "bddbbef710a9e2eb9d99b499b60b68e3d39008058958f0b67a67a6e763b03894",
+          "6d23f5dc84cdabf48daededd14e688ffbdfc7a20ae36c7893d11db961e0d8970",
+          "f2d5dabe2de19c105ae136c8e1505c3384c556ff5e7b8f0e48e0b70cab8386d1",
+          "66facffa2f6b6a084ea22bda575742a20380f44b1a7ae4974f2805455d03a293",
+          "274a68b04209a8348c4df0adfd897f534752dda631171d80d2cc5c252a5ebc27",
+          "1bc80d47921429214e900dc5101b496ca5dc0d2011f19586a9e9d69f93b506ca",
+          "61f0a87ea2dc7b0975c8fb4e866afea88801ee0cca6bfebeb7c57064561289a6",
+          "b25f22ed43164b5950cdbb9ee39e23a0886a197b007b9c48aecc618e0942ab17",
+          "f7be0c4a37ff7e37689282cbd6651f312f017fd10934742390c35cdfca44c271",
+          "1270755a7a5528d2d9772025d45ed0c825119852b372a61029df54d3d5520f09",
+          "5d7629b99880a82dd698852c9c05bbd3f53525d5d54de6be724979773b62e627",
+          "1cd43bdb813090f44cd3ee8cf915de0fca2793768c7869b56cbcd47b25be7647"
+        ],
+        "internal": [],
+        "tt_all": [
+          "65289711b7e89c751927a3e8831af9ab541286488b42515d965f5232a78af403",
+          "3f40a2de46cfbb94f119e92406ed36cc6933b977c24c37c4079970b412ba26fd",
+          "277d59c8025a175876e78586d8104837d94aa7a94a477946307b7e44cde25e16",
+          "87c6a7b681617ede6c5f15c95f7c95179f1ae3d7c04072e97e4ee99422f2380e",
+          "b6e15bdd5cfba3226613606e9e30f5ef9cc3bd39690ee7a94670019415d7be53",
+          "19ee8aa7670ed69ce2502457a00c5e42456af513d46a9738bc85e248bcf6c09c",
+          "0b7c25a1800e4f11ee3f1700d39c749f82bb22ff9c6a8b5a664d4661b1470c94",
+          "9554f9277666cde229c6772edb578c820df523465210144024831039e97562c2"
+        ],
+        "tx": [
+          "3a06f7e0b4fa6dee55bd27cdc68a7b15f826ab05c647d5c4947145b39cf507f1",
+          "69818f46dcc6130cd879a0131a7eb4312baf219f4c089b70d9f667e42c635153",
+          "db21bfe95ef6c1bffc8f283f06f7386738539bf876d183a7020d41bce303bc56",
+          "4cb7921e6a59ce2250f19c813817974ea156325345b15dc4927f13fbc61ab28f",
+          "cb93edaa4172fc9dab226e17fb788e651d74cfdab9511e75427b37d24b4f153b",
+          "1173793b12b0c7246d682a1904a6323885ab1cf750560e9335ea4fde97620758",
+          "ffe7318d6c99c00a8d8349bd30de40b4cda5d2897317792046a13adf848c71d2",
+          "092838950d3ae69f113e3a6fb510618bbc59e81ff6cbba08b785b55e516f7393",
+          "c070c10e47b70c0280c1a31ddfb424a52753b48691cf86ebc11934773584b45f",
+          "719d15eb7fb9200721ed1de52ad2d630f1505de823221ce914f28d2940b1156e",
+          "916e60e31b1da9535141225192eab367bb773d5aaf9d6e4fca0430616bc084fb",
+          "9681e5bb24fd21202b3b2c6a535d301f38044442012749fcaf7c2abe5e19823f",
+          "a35825b88b6e9570912140ffdf5e4f30fbf7e63fbaa70bb17bd27b6977db64b9",
+          "bf239f83498ef4dbfd2c39680ef0f625a8a4882db06c67d08eebbef298bacf04",
+          "8a702203002b3cb7dd52effe05e0ba153dd74d6394636d861d029aae6e137035"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 1,
+        "sub_satoshi_scale": 4,
+        "wei_floor_eth_scale_token": 1
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x9A103aB4FE2De5db16338B16FD7550D21d7b8DB6",
+            "name": "Fjord Foundry",
+            "raw": 1,
+            "symbol": "FJO",
+            "timestamp": "2024-04-25T10:52:47.000000Z",
+            "to": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "token_address": "0x69457A1C9Ec492419344DA01Daf0DF0e0369d5D0",
+            "tx": "0xa2033652abff173cde83420707de51e01302c7911d9087e67caed5cd61d44117"
+          }
+        ],
+        "sub_satoshi_scale": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x2bCcA7EA2c7eCa696AcE6D71c9719fb171a1054c",
+            "name": "Staked PEAS paired with OHM",
+            "raw": 904586073,
+            "symbol": "spPEASOHM",
+            "timestamp": "2025-06-02T13:34:47.000000Z",
+            "to": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "token_address": "0xf13FbC99Ef4A6eDd31614d8536eD7135e5ea5E4E",
+            "tx": "0x4cc3429d5c284c19a9783cce8f418ab153c5e753fc884a70e1c77ae5d886c670"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x9A103aB4FE2De5db16338B16FD7550D21d7b8DB6",
+            "name": "Fjord Foundry",
+            "raw": 1,
+            "symbol": "FJO",
+            "timestamp": "2024-04-25T10:52:47.000000Z",
+            "to": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "token_address": "0x69457A1C9Ec492419344DA01Daf0DF0e0369d5D0",
+            "tx": "0xa2033652abff173cde83420707de51e01302c7911d9087e67caed5cd61d44117"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "name": "Uniswap V2",
+            "raw": 6724256826,
+            "symbol": "UNI-V2",
+            "timestamp": "2024-01-26T11:35:47.000000Z",
+            "to": "0x88b8555CB3fdeE7077491e673a5bDdFB7144744f",
+            "token_address": "0x88b8555CB3fdeE7077491e673a5bDdFB7144744f",
+            "tx": "0x4637c717826afbfb70270debe2aa496e936ff785b51d24724f9326a47f00880b"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x0000000000000000000000000000000000000000",
+            "name": "Uniswap V2",
+            "raw": 6724256826,
+            "symbol": "UNI-V2",
+            "timestamp": "2024-01-25T18:59:59.000000Z",
+            "to": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "token_address": "0x88b8555CB3fdeE7077491e673a5bDdFB7144744f",
+            "tx": "0xfa73c9c4d4f4fcc979eaf2908882fc1360e0def316a6e1e1a9bcdfa18f192b96"
+          }
+        ],
+        "wei_floor_eth_scale_token": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x9A103aB4FE2De5db16338B16FD7550D21d7b8DB6",
+            "name": "Fjord Foundry",
+            "raw": 1,
+            "symbol": "FJO",
+            "timestamp": "2024-04-25T10:52:47.000000Z",
+            "to": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+            "token_address": "0x69457A1C9Ec492419344DA01Daf0DF0e0369d5D0",
+            "tx": "0xa2033652abff173cde83420707de51e01302c7911d9087e67caed5cd61d44117"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 667,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 740
+    },
+    "juullabs.eth": {
+      "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 9,
+      "label": "juullabs.eth",
+      "min_positive_wei_observed": 803937700571238,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "829e29a1021c3f266295f46b8cea8af42ae189fba9c6a1321d048e4971485b76"
+        ],
+        "internal": [
+          "bd4488e8251fd28a794385afdbddc20b8da6e5604633ab6d839d688cb1ffdbdc"
+        ],
+        "tt_all": [
+          "804ea0660d4bb447e417a926d47c54e91e271cf3803079174739c8ad0643452d",
+          "cab2bbd6abbc95b194e679b23e5ae4aab737f1893aa82f6777be903296836f8d",
+          "db839aeac6805a64c82156df936d0dbe49be440f0fc012082a49bb4ffe3a5b94",
+          "4597eeee3da41ccaee6aa94aa10b2a15c09aa3889ccf09c5de45818f611fb6a9",
+          "e5b99cfd9b8d35be7649401dc8cf69617a2ce3fe57d3e82636439f5dc0dc9769",
+          "285b5190a20d7d72af9c45f9ba53f0e015fe13dfc7b07e874da86eea35cd85d2",
+          "85d5e6372ba42f58798897b309eb007ada85defd99f8e35b42597bced8501a42"
+        ],
+        "tx": [
+          "0a00366017a34f040fde386b514fb39846b238c4a95061d8985f5744756341da",
+          "cb6f151442c094cbe18e5860d8a5116b41e5e0d2603a48437b0c2650046e4101",
+          "e6e297479f87a53a56dac09d34eea37c54f7b769bdd79326cb39b0ffbbecb19c",
+          "3bf3c6fa6f238c99dd9493859320cbd4c7bd69f7a9762975c9f54db54bd5642e"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 32
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 304,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 18,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 189
+    },
+    "njoy.eth": {
+      "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 42,
+      "label": "njoy.eth",
+      "min_positive_wei_observed": 49772417859153,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "3e1dabb10d2f86cdf408bd4c9ca5a73f8f80b324aec95e6f2639aa16c7c7063d"
+        ],
+        "internal": [
+          "736ccb556d7598efcf01f5abcdd631379213541ece4e24b3d18a1caec19d75d9"
+        ],
+        "tt_all": [
+          "9b9eedc5cd7a117684538705ad7223a1aa0f173f297853f7b4b46461caebfed0",
+          "bdbfbd15b74deaef0782bdd97f6484cd2671e71478f7f433396f893377bfe82e",
+          "11612f3ca14fe3f1db249b15307a6dd9d3c7d65b98d6b4d932839d6ec18d2dd5",
+          "59caee1cf0d6bc2e07dd1982a7f0c42f5651c7979b27efcf0bbabb434ee600f2"
+        ],
+        "tx": [
+          "777f1994f3bcbf1d9b272f5ff7a756676b40d4c5d5e347a8afa6406d9cce8b66",
+          "da7fc8215e03312c573e69f855a00974bf04af8d7f3a878bedd6b87c2867c68f",
+          "38ebac2f2185b566f46da63ec4d381cfdbfbdb91d0c514e6eb6f059736471f4c",
+          "b827901e834b019bae234ba25e137d97641e97a12d533747d36e43c8e98f3598",
+          "3ecd46e0564b86a62ace403810bd8e887a9d8b6565da1511130645e394904033"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 13
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 187,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 19,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 228
+    },
+    "pax.eth": {
+      "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 5,
+      "label": "pax.eth",
+      "min_positive_wei_observed": 777000000000000,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "14a19de566a78a72331b719b3140be15365d8751594b4ec5f3a1e705cd4b3a18"
+        ],
+        "internal": [
+          "4edf4e0aa2a902b254a8e7036cd9f7bb04bd93be2db4df44614280e843b5548e"
+        ],
+        "tt_all": [
+          "7e979535a1b55e2bf0609ab52ed5bdb10b4d8c316d70d78d05d2e7a778578352"
+        ],
+        "tx": [
+          "ba0799d7c5bbc3de18153dd2e4dd5af97c0558fca1adfea760a074aa7ab1b91f"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 2,
+        "sub_satoshi_scale": 1
+      },
+      "token_quantum_samples": {
+        "sub_satoshi_scale": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xDDb8AA83668734AAbFE0E90aCA4909388AF8982C",
+            "name": "DIXT.FINANCE",
+            "raw": 20000000,
+            "symbol": "DIXT",
+            "timestamp": "2026-05-18T23:44:11.000000Z",
+            "to": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+            "token_address": "0x43e6228b5bF22Eab754486082cA91FdD8585521A",
+            "tx": "0x54f70fd314252a9650a682ac502748e34cca8fd504a1bc189d914870fb899d1f"
+          }
+        ]
+      },
+      "tt_all_scanned": 11,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 2,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 22
+    },
+    "paxlabs.eth": {
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 1,
+        "out": 0,
+        "total": 1
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 91,
+      "label": "paxlabs.eth",
+      "min_positive_wei_observed": 1,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "4d3faa78fcd584094896b6ff3aa2b2295eface5023fd01af0dd7a3522e8a56bb",
+          "eeaa49c280c82a63bca55f23f6bb4d9a61b5bfbc9632b861d33e7e399436be29",
+          "bdd403ef0e229f6cc808083cc09f149f7ac2c95099c99065b35053c7aeb250c7",
+          "a79127b80372cb9344a351a0aa5edc0c31f039e03994feac14d1cc60f4396ce4",
+          "30e36bbd7688a2310fd7953917e7bc12ce5ed263b51b0a0c6e96c40f64b53eb3",
+          "de997c94cdb621663bc36952a9acf4afb76389902e257ced305bea0802b92324",
+          "4e55cd0b9f1ea4c7c874274d08ef941f42137e9a4976e85eda1b6c5cb04f067c",
+          "4fa63f1b365135e19baaa30c7fbf12bb178644ecf4bd99eae121ea7849e16473",
+          "9bedb53e7d29b5d23adc2d2a513e9c9a170a3565b6e852a455ef0dccd35ab9e2",
+          "d92c109404b23d881e67e04f4c214997b3e7dbd10c557f4cefc70ff061c9d563",
+          "f21dc7beed60dd3b45c6bb93e7031e04bba8fe9053293368d20be5563c6c9785",
+          "fed023884882351d211a9c0c07ca205fba21c83f40b660b2dc7e151303a95b02"
+        ],
+        "internal": [
+          "d1de8264cede57717abe91ec9f19f72552606832991285a9be913e9a193f12d7",
+          "caa018d49a338144f63d1f40773e90c3783ea08d754627dd07a2729c044a348e"
+        ],
+        "tt_all": [
+          "a5a972b38dac159f514b4d8228e0f971d6aa5e7b2f124c83afab1567058981d3",
+          "5bdc3afa1136b625c4d35ce6f145ee44c8444463a363326ca114bfb2de32c59e",
+          "248df44fea22708421691bc5436a06198c1f93098bd8cb54afc923b1d3f6e8bf",
+          "4e0157f673c61cec112a0fa8550a792d72ae97fabbdd0ea6bd2855cbec76d5be",
+          "7aa91a40c8dec4505f6cccf2c1048024c0f713118c3b9dfbec444df175542887",
+          "fab6f61ed7be5bcd3138307ba4a8402614b69d2b6f4e880c2a34911b0fc5bd39",
+          "5fdd356b8f51911094e256ef1d3f494b95bdb809c3f38f208f290855f7c2035b",
+          "f1374057dc27475031128e32e1ea18b2a0ca892d6be9ee395923a154af19eae6"
+        ],
+        "tx": [
+          "00575a34bec32c78c394a5ad754b1e25f50174142e2c3f817abfd9e19f92825b",
+          "bc33d16d61fd4d9b26bc6baf2e7ce651855877346833a9149e499139e1ea0e2d",
+          "344767e6e331a21f23d8a378477c9a515c371f588a6f346ef1624eca2617e1e5",
+          "3aeff30bcf0ab7ea330496d760bd58cf9968dfad144c2047513d26afbfcc1567",
+          "1c9ade54de99d8c7216b5a3726f26cabe54e49909fd1be049c7d8a84dba2ae72",
+          "463a33faa6704846fcda6855eeb9bb53c3f42f403a795c95cb0ffd7e4592d72e",
+          "71fa7b3fc2e836951f0c7cf2b450141e24f8c7dfa0fceb245703c739c9fd5e6b",
+          "e89da6f9b5faf30b610fa4c3a85b2c10dad18973f953bd510d1bd91563696bbb",
+          "942afa2900792dd4ef82139f95f5953c6db6960a1a0685db6b80fdf3197c0156",
+          "1b96785e12f1e2c90894a722a2faffb547713d7bb49cf92c9b197f7c3c4020a2",
+          "1efb20c6f24c47b93da440f5a1dc77d5ed0e2c227b08b0801362e9a2707d84b1",
+          "27803043e851e8691d8c354311c5dfc1444a608137f14e4e3c3fec3c79dd7350",
+          "5040f2fd3c4dbc13b109de6941e38ca2990c1f9e2d40135d5667e57dac93e822",
+          "4018ee3b057234634d7104d752f98453b9af7ea8faa36bcdfe5f47583804abfa",
+          "820ea00d787c1ced28db07fc1a0dc0d4e3ddb3f6da4421e72cc9d848069f3ea9",
+          "8fde22442fb10c02762c16fc9aa82fbd3d7cb0cfd92f98ce1fc3e9046f737a18",
+          "87dcd74e60d3b099f9842ad49bf7f2349a5030335e93ec853fbaf607f38be58b",
+          "418497c7f3f6a75a388d65639734e37dbb3af6d74055bb4a9f72019b8d521191"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 2,
+        "nft_raw_or_id_eq_1": 34,
+        "sub_satoshi_scale": 2,
+        "wei_floor_eth_scale_token": 1
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x74de5d4FCbf63E00296fd95d33236B9794016631",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2022-07-30T18:27:06.000000Z",
+            "to": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0xf4c666f429fbd99afcc650cf9d01d0aeabfd503b99ea2389d9ed3f0d535739d7"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x5966aD94A1BC0E193FC35389dE541aBAdf5262ea",
+            "name": "KEY (OPENSEA-ROULETTE.IO)",
+            "raw": 1,
+            "symbol": "KEY (OPENSEA-ROULETTE.IO)",
+            "timestamp": "2022-06-14T21:34:07.000000Z",
+            "to": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+            "token_address": "0x5966aD94A1BC0E193FC35389dE541aBAdf5262ea",
+            "tx": "0x73e2562e0e71de2ae21fae1d5ab72a540ed8b8e15a3e09b4eeea3cb90fe54b34"
+          }
+        ],
+        "sub_satoshi_scale": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x954E1D7B24BE3D47Ed5042cbD1FFc2cCF4086c45",
+            "name": "yefam.finance",
+            "raw": 3000000000,
+            "symbol": "FAM",
+            "timestamp": "2026-03-29T17:58:59.000000Z",
+            "to": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+            "token_address": "0x9D24364b97270961b2948734aFe8d58832Efd43a",
+            "tx": "0x031b4ff328018565aaf57cf0b0032f4b277e0debea21751b028e2518f38c6c67"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x74de5d4FCbf63E00296fd95d33236B9794016631",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2022-07-30T18:27:06.000000Z",
+            "to": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0xf4c666f429fbd99afcc650cf9d01d0aeabfd503b99ea2389d9ed3f0d535739d7"
+          }
+        ],
+        "wei_floor_eth_scale_token": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x74de5d4FCbf63E00296fd95d33236B9794016631",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2022-07-30T18:27:06.000000Z",
+            "to": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0xf4c666f429fbd99afcc650cf9d01d0aeabfd503b99ea2389d9ed3f0d535739d7"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 561,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 875
+    },
+    "philipmorris.eth": {
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 282,
+      "label": "philipmorris.eth",
+      "min_positive_wei_observed": 2558159762193,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "19726d0f344dd68624d9905cf11d926d08eab4be47edc9f335d5cb2f3dbfb43f",
+          "652ff71138210cd4c9f76828e9bd352b3ac8916a8377f7283620cfdaf4f3cf76",
+          "b3efea34091d6aafd77a2fd07ff7e95a4aa6ea0eb3b01da72ae2f1586ab6454e",
+          "19158ef22ad291343ba8362c54e9b1daa24bcec517cf5b09dd319473afd3d85b",
+          "0cfc2840225b1fae080792a15b8a4784909cc74d430a29fd03046dffabe9fa05",
+          "c7c5028a97b3680203452f6ddd0c076f5b1c7682ae03680da1bfbaabb94fc055",
+          "40214af32700f2770b80812089170499c6d32eb8b76397e03aad395ea9e99cbc",
+          "f525ed5f9a78ef2987503aa4eb56c5d87404cff690b6784d0c08c98cba1c6037",
+          "9b53f3ab02932bea479c4fdb946f8154abb17562eadf89febbb5fc1836a3f8a6",
+          "73b72a018d64149a63b83e467d8d147771337c9b7b45d6ad7f11f63441e09a91"
+        ],
+        "internal": [
+          "f0bc88e3062a65ae4b34e90c679c151062530fa703cf07f92a7dbcb0c056ed25",
+          "b8d9360f11b00105ba3f34c2d9c721ae9043d4946053d065ee80e97ca49c636d",
+          "d5fc16b50010b1bce2e7945072d7d713f32f863c840456f89dc028c11193f0ac",
+          "1684b12f4825edc42f7290b32e306b75b7a30c50d6e6ec65b47e90224415a4d3",
+          "14419b3982ec4c015485ef3152d179d098dd183322eca26a7979f930268c51b4",
+          "872d9a2b9ecd872a311ed6f39c61677afdf0b31760e87560fc7d6db61a707894"
+        ],
+        "tt_all": [
+          "79fabdc39d679488450c8f31ff4a479639ba3050a3ab70f389dafaa0f6f04d35",
+          "3c8262493c64a04314d066bebce7722724255f29c2f2a7be6ef60cd9476d57d7",
+          "8ebc80d3a27b2364ff802b4c1a2427aadd5c64d44fc170961e48edd2c27b4323",
+          "402734a131c6b0c653c38c2136cf95efb95794690531857ac2cfda0aa7966189",
+          "53f6238a5cb145f67c1d6c201b594d97645ac98fd715ac4d3a71e90da868fcbe",
+          "ca559e64694e2d01c53570d66297c25f6d0e62facb74159dc2fba045db1b248c",
+          "c1fe194cb99e899c5e62f90e37b126c0d7d951f5abc771383303250766083b74",
+          "dc1417175c37e0f956283f5b9651d1b41a0807aa12cb6ef162db7e1d86ab9452"
+        ],
+        "tx": [
+          "0a40190035f61536d5a001a20d86ad99064ff0a631074435125f067cd0dd68c7",
+          "8d81c74189dd1f026f8620ad33f23971e4457373b7c9653cbc272cd6fa8ebe15",
+          "ab1bf2c90432a3d51f66a9cdeec3375337d392c9b33405344e0ce99094989545",
+          "ab881ba05bd1323cd999dad3d51132b372b005a2ea547eb8c04d2c4da89a727c",
+          "22e065117a50f5f54aa74d0a5b95425a0bd50ac21b9dd5d4a4146c2111701307",
+          "f36ceee82f08a546163acdb8129dae3fdfd5ec7a59759448865eea120334da57",
+          "b4fb3974eb0f2eab8f76c68f9cff0b836eae1f9465e91dc2f635b02f3a598006",
+          "2c36b659257c23a846221180e77be862d6d901eb290b305c6233c88ed98a9ee5",
+          "10eaaa72213740237d283e37e82a9fe7542c46fa62008e8ca92b1e2053e1c3b3",
+          "ae2952d5a663152a408227c716ff90e1a4c0f28b96b81a5bacf1f0f996d58773",
+          "114397fe7711a3d75387b7f06fd5110f9d3fb0436a33b1d0b2ad21ac1958c7cd",
+          "293a80786951aadfc4b7e84ac4739e4f8b5c567c3f57030b3c939852a1a55306",
+          "791db3d2ee6dc4ab61f65aac4f0a3ee0853d33fe140cdee4fd6f722d4e468897",
+          "5c3759b4fc44a29629e7b87dc39de4c30683fc67fc5f02cb0c9eeab5ad8489b0",
+          "1936309f5de9143cf80191be99ed5bd825430096a0193c885c5b7c029d990269",
+          "efc5a790abe9242022c30e725f4d43e468ab36e331c881a85e47170058ea5e70",
+          "c8c8b7d02786b8f7fd81d0b3e877589c23180031e03717f31162bf73dcd2da94",
+          "db0c12b36e4e64fd74330161511a9ce947ab6b132793bda53004c364ed660ada",
+          "cb0a469a782a066d22d30c88179b92df982cad1d5c23e6a669269fa20eeff541",
+          "348687a4509881c0f95c6129e9b62056f7863979847d7c5f43e68aa562ab5253",
+          "2206eeef76602ae14d500b126bfd490c8a68193fab030bb0f1d9ad1f83b1c0f8",
+          "3d40ed24c88015e38d209cc867d427dc200ac56c0b61b508cc6c4308824a069b",
+          "3855e3bf60b4fbf7c45138f531ac07bbd8df67e53f29fd835fbc5a643618fc9e",
+          "16fc143d1cc761d38ef50a44aa282f785cb74851e5604308bc5933ae95ab5195",
+          "58ce69ede7ba5d33359a25ead80cc8bf010f075423a1a0e9cd710ab814251736"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 3,
+        "nft_raw_or_id_eq_1": 18
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 6,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+            "name": "Tether",
+            "raw": 1,
+            "symbol": "USDT",
+            "timestamp": "2024-03-17T19:15:47.000000Z",
+            "to": "0x505FeDB20789614d21ED9d454e5146A5f61845f2",
+            "token_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tx": "0xbafdb264720a11ee8d165d8e1613de8cf80c884bc803d9ad31456a18255a3c1d"
+          },
+          {
+            "decimals": 6,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+            "name": "Tether",
+            "raw": 1,
+            "symbol": "USDT",
+            "timestamp": "2024-03-16T03:28:11.000000Z",
+            "to": "0x505FeDB20789614d21ED9d454e5146A5f61845f2",
+            "token_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tx": "0x2ca2bb5c888747e1c46426f91c511eb4ef4c70a6186836679fca5d403d807241"
+          },
+          {
+            "decimals": 6,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+            "name": "Tether",
+            "raw": 1,
+            "symbol": "USDT",
+            "timestamp": "2024-03-16T02:33:11.000000Z",
+            "to": "0x505FeDB20789614d21ED9d454e5146A5f61845f2",
+            "token_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tx": "0x29366ca7795fe3df6330e3627a6e356e486b71b9835522541179d1f4d8ae9b89"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 488,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1234
+    },
+    "philipmorrisusa.eth": {
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 299,
+      "label": "philipmorrisusa.eth",
+      "min_positive_wei_observed": 39220000000000,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "bdbe29964d2504566bc1b3b359cefdad3c2f510297b6448a6d3c43296465a8a3",
+          "6d84accbc31f2d945e0b98ef6d882a6b120bbf6998204fe3cd9e00ec8be85a84",
+          "b40be250f53716f6dabdadac0004db1cf44ccd26de6e40ab89c9c46ca78350cd",
+          "0619b84af0fc69690b26530577e43a36239b24102694ad4ae57d0aede7d5d317",
+          "d3631f757d2cb48eeb96e4c05a60fd76404cfac2e1c23fee9bb5b79988f5ae34",
+          "1cc19de32022fa62efeff1919d6b2165113bf0c565382265440ffebf0f114a70",
+          "321f5396489ff2cca633c5d5de0913262f86936be988c6fd2b94ac8402d7f22c",
+          "c09906ba6b3abc644652e2831d8553a885068ead2275dd1dd8982a36087d7244",
+          "d9d0158081d2652149b8f5da2b63cc11bfdf07d15377e464e7c2e2065fb7a444",
+          "1fa82973464695ff8db3f075e76710327e497e34bc36998ae7bbbaa4e61301ee",
+          "e94339fbd8b6b85266e89cba79abc9d4288bd8cc281f77a32ad68eb31fd54954"
+        ],
+        "internal": [
+          "a82aaa2d95afea89587b2fe024303eb35b08bf24d23e5fa1056b1025f340ef5a",
+          "22e5b5faabdd50f48a25e48030ede27b5d35b0556f517547bf28bf77a136c758",
+          "9d164812241fb8e532d5ef7c9e538aa54ff6131905daa99f78ef8add08c3d851",
+          "9dd26d4d30012d1aefe0ff7d2af285359939c6c3e00c6332b5dd2de36df306a5",
+          "18c5f903039f0871c1a9f287d3550f465608b4a37e968c22dddabfdb1de9a67e",
+          "e790795c682aaa46fb1e48c4a4f2190be099ef5db9466ff43b894c9b015cc023"
+        ],
+        "tt_all": [
+          "4825aa2fa0d7a9efa1e43c41fecee68e953948a15ab36397f0835437511612bc",
+          "2b809080cad2f2582729c2cdf51f8a3a623abde707b0d4225e00c577279dbf7a",
+          "4e9cc13d01c852b111b66ef683b399259c33269f8260d279ad2b7eade414bd3f",
+          "d83b567dbd1bc89e83a1555f261906d00365ae6b50144d18621fbb99288b1d34",
+          "56e7bc0ef11206fda933f93d63b70a1236049f9b251c6e1538f47eb9f461ec2f",
+          "70697997e1511e6bbe477a92e6fa7e2c2e4bf9be13df84941d5279ec7159cde4",
+          "3b37c877874bb912e9745a8ff6c8070de6005f525ef013f0f959668de92e926d",
+          "6a009b1240f3c0a1e69470fdadf1329b3791d536695b66cb00241a9b1645ce95"
+        ],
+        "tx": [
+          "14fe7249416b3bbcf5f8a408924ed613f9f1ded9a92bd3666155e45697bafbec",
+          "42db81bc5c6ba2c82ba5dc593a316d819f78f438f9b2dadd102157c4c78e0ae3",
+          "c7b178ac9a321ca109f649f14264bf4b1f131e14193609d890a177143135367f",
+          "0e275e7bf2374d298c324640299e926ddc56a4335f15f2984bb06527f6625509",
+          "9778d02dbcbbe0576e064a02bf68256c317ce700084e94f565fd092a72dde9b3",
+          "ea2be42be57c227e4e24d4831cec73288722c2ede67ac55d14fbccf182628f5c",
+          "a7295faac47a74bfefbd99e75f3e4a947aa5a2c2c9182737dce00a6cce0cf4b2",
+          "d0ccfd6d29c99064d7f53a90767628bbeac62290cdddd894bcf548f98a94fbc4",
+          "8b9d97510bd82ad03c8654264c8f3e7e44648c8d35c0cc6a7d02bdbd9249b2a4",
+          "2719f2bba0ad9a5db17acafa9c0efdb4ff1979d00f8a8abf6a8bf9dfcaab36d2",
+          "62a5e8f5d9f961908a5e91476bfe822dee9cf3a803b217a6ef63eba08c941a9a",
+          "6daa3b999ac3f9970a611e7773eae83d1470b465841d17af21036085b4230078",
+          "550eaaa5b50e9da8c600cbd570c214ca645b23729494aebe4ff8fcb2b228a1bd",
+          "6ee1455884b29f76e7612f5171db0f3e30d99770c571acb6895164cb008e64ab",
+          "2d04460b1389a2870fb192bea54d0022f65fa777df45fc561af60324297f2ea5",
+          "abe2a6a64149f9b829e48226ec13d276c5f4ad03c4843b69fd788e586da9ac4b",
+          "8122343bbf8cf82c175796182315665ec2dbca9367dec4720f4aa9d0f4f2fc28",
+          "8ce203aeb97118fb1ef699cd4e95118c6c2f9ebac15d5f5098a69f31f70abada",
+          "9b4d00f32f819bb87ff5373147194bb806590c1959edf43b114a2e917db0277c",
+          "fae12798332e32ccc419dc0c54707a53db4f709f69eb5c48c62803db0d6129e6",
+          "6eb08f4969e052f88742afba2748f5860b0ae432882c0eb14185377b7d55a9c6",
+          "3a8c5035c9d45371ede253ef68254a684e6d332e15d95fca917dfd83cf7a8c93",
+          "146f34b73192df6f1d12163ccc9f07ec4da4def263c7c83bd1bdd3700bb03e5e",
+          "887b3ea1bc845475412136be6165f1c66e1e03373545545be81788f016a0418c",
+          "bacd3a02df48006f70e5e499fb14cd1cb00f4a68dec0c6316b2e48cef25d76a9",
+          "01d0c83d8d30bd93a6b0277ce170b6e25feac2913726971ae4b3b16c7ff375a3",
+          "f99e2703e6fcf32229eaf70639acd198de589b9d6e7b5263b846875eb428be1b",
+          "6ed8012dd76ab7e14affb5fc76af98856a8de1d0c57a424d64a8512ff57492ab"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 2,
+        "nft_raw_or_id_eq_1": 24
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+            "name": "Rare Chest",
+            "raw": 1,
+            "symbol": "GRC",
+            "timestamp": "2021-01-19T04:35:22.000000Z",
+            "to": "0x0000000000000000000000000000000000000000",
+            "token_address": "0xEE85966b4974d3C6F71A2779cC3B6F53aFbc2B68",
+            "tx": "0xb5bde7fe32bcb10dbdb6b7fc058d826fb123831b121a1acb55ed06aba407eafc"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x0000000000000000000000000000000000000000",
+            "name": "Rare Chest",
+            "raw": 1,
+            "symbol": "GRC",
+            "timestamp": "2019-10-17T21:15:25.000000Z",
+            "to": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+            "token_address": "0xEE85966b4974d3C6F71A2779cC3B6F53aFbc2B68",
+            "tx": "0x8abac8a3b04363e03a67399d487e9787b9f8a0924f4dc720a27a207cd515cecf"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 544,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1384
+    },
+    "ploom.eth": {
+      "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 0,
+      "label": "ploom.eth",
+      "min_positive_wei_observed": 532256468495463,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "067a557e74d6a1f96a717792d7a28e62997f888f1f979a4c05418b212f774e5d"
+        ],
+        "internal": [],
+        "tt_all": [
+          "c9ba80250c79043d12acd669e0f70a8cda862da4744a5fca02c0c63e3b89ae4f",
+          "ad27c5bba7210bc34d788b6d61fc1254fc5d73aed7365398d75883e9d5598d47",
+          "434ba9d090ce365f673c5324649aec5c855947025f950e6d43c852ace559f9a7"
+        ],
+        "tx": [
+          "2e9457c45b72aefdcf5d8f271636d6b80c5d2192ac0c455630c4454b54818417",
+          "707a2b15281774581784d1d781ba5e804d194593de4066bf3497473cc2056333",
+          "6d2c49ca2df25e0a04b9803e84f1f11a925846fa95fca804e1724788fe4ae5ab"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 2
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 104,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 24,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 107
+    },
+    "pmi.eth": {
+      "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 410,
+      "label": "pmi.eth",
+      "min_positive_wei_observed": 68071434163086,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "6e8e656fa1dd118fab79be629fa9eb98411203b7a43f1e4d545896c554b05f38",
+          "c376d6c9f3653f8e7c3a852d8190676e912e4f00db64b9674b674d8ee4d6eabf",
+          "32b47c2ec6a55f1af490f08e6ae193d483301416c204fa108f9a135a4be8788f",
+          "aa963704d9b1a5cfe02578cf2651e442456e7d6f09dc2aebd2c758c21ac53c7d",
+          "fb5e339b46f7d6b17e01ed40e5b9809354a06a875bd4df4406e6c116e62eefa7"
+        ],
+        "internal": [
+          "f61ce071d5fb8aafc0e7462ae385de0a4ac2336608c868b2efccb897d8b2b605",
+          "1ae57799d086357d4ba5636eb2eea48316db2ed32d4f68beb51d76786efb5203",
+          "2f369ae8c82d28849cdbbed2987824ecafdcb903b1c199b8e0b2080ffb3ab19e",
+          "1db9cf4fa92f570326a4360d73da49967e99a26549d5a0f61c3ad627db07c2a3",
+          "57ed048dc1b9bad16b5bc4d4c06b9fe9067cf0d14615484222ca9a95af59b57c",
+          "4e7bc07695339827a939a49488ea496282a124666ce1af3b940e13233c754996",
+          "c21b0fda33f5afc037f694c6bd6a33633ef137656f09a20abddc91f5296a3879",
+          "b39fe59a941b70ce05af22f237481b58bbd6a93357792fcb4e8631ed5fbcb27a",
+          "b80ac173c657f39983826a46013b689e490ac6c4d6e95e0cf9693c82422d543b"
+        ],
+        "tt_all": [
+          "b623d6e134b8598066bf99bb9bb2690cbdd4c2ec31539799563d87135ea99d28",
+          "aeaa6a386312a43b534e0489c1b3dce945b3384de4d08c777cab4f0fe5b128ba",
+          "fd0cf03b81dac62ec46b8b02d0de5b3e74320cde881176da1ed3acc2c54df1c9",
+          "3838c1b254e272d52f48f56e8904ba53ad3b85a78994fa0a2e150c11b8589a51",
+          "6ba698d94b7c6ff409aac6aaa87077788cd86f5f9ef68850634ba3df395fb7b3",
+          "d6a735b0224c21b6d44e7a5b773165030303a736150a837a8f02685faadfe922",
+          "7397f5af192848632a9e0ff67c46aee488547037badc3996153cca637973ec67",
+          "3011491a5644891b5bec40833697824e99996a236d7829b888f852d3c4a98d26"
+        ],
+        "tx": [
+          "d81696ae88236a9ea85b5d41287462ab5b680de242d2e64669174594a69ba747",
+          "b71f08cb2884eac18b172dabd9ca4297ac6214f757c7ef94bba26d40b64f60eb",
+          "3fdd8bcf140f9a5d3329bfdfb5fbbe802e4351fc32f78256d7cbe20920958dde",
+          "3b16e9fe7aff392a8220c7c57f6df1bdabbc1c94309758518bfc78656dcc4ef2",
+          "9004bf0ce0bd9dec7bc2dfd52851839693207246aaa4fdd6a021998aa24d528a",
+          "ce5ab475adcd6041d31460e7dfeaed59b1ec1575853c11aa9f51cc8df11b07c2",
+          "a7dce36f34db44c212fcc2ab3b3347cef2af7403988813b960bcf107f2be9ce9",
+          "0fc9bec1d5ed2433b975e0f2d783a68858f1f79b8f8668f1c767c67e5ba0d643",
+          "e0746b4b811bcb7d2ed9928b484d1b4be38484cb6e7762c5e860cd3d7ba02bde",
+          "4879e6030804c20169a9a186d16f1f00e9de0e89b818be74d2eaebc71c633f0b",
+          "59e6ae786d63d60d2ae8c969e76ba3424456f9e3402deee235b80b3e95471361",
+          "324a02d93885b4379e460a18213fa594dfc1dd666da7a31edcd5e54908e2196a",
+          "a70dc6a3da4d224499623dce7ed614e351724e3e7a5a0314648dabdea67d479f",
+          "e2f55ded80fea9183c9a49b7ebedd82462dee43a95115a65a754551f09f62eff",
+          "f316f6aeb535c21b8cc7527f41933556d35e706533f1fb3244f5342a6a3b5ba6",
+          "06b18615ef896e9ef25bae307ffd6062665af469306eb4f2093655c2acd629df",
+          "629eeb8623b46a7652bc903b87b22b5a059ba0007c592a0c4bbecc993f9d33e3",
+          "98d9b2784749b9d4f751b4fbddc5192950cadf34cb62641533bd324ee96c76bc",
+          "667c2cc2ec29763aed77ab982b5b9a9f7e277b9bc817a7fe558c7e07eece000a",
+          "79ee8674449876d9408214d29e3f326e875a56e3658988f214307ca5b7ea0396"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "nft_raw_or_id_eq_1": 14
+      },
+      "token_quantum_samples": {},
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 205,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 965
+    },
+    "pmusa.eth": {
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 290,
+      "label": "pmusa.eth",
+      "min_positive_wei_observed": 175953365258701,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "34b0bf2ccd8cfe612f21d0bf6f31efde7d2b04c8a2a8557e90f10ec70cc2a7e9",
+          "d423931d983c06d4b27e099566e4f300c647ec9ff69319b0dd38ea680e642fc3",
+          "8c914f1ca857f1810674ef76fe621084a8586cc852729cd5045f64acac26b498",
+          "293735268322e05ba5ddd80dafbc10321ceec8417bce47961113133172e3cfce",
+          "8204fd1acad1d8740a849d371a45285dfea6c99268015112012461501f54360a",
+          "d8f92de2144f5bd79716878ecb2c9d38d05a420631d817d947b3d9d2fdc8056d"
+        ],
+        "internal": [
+          "224ac1aa85119d18f251a8007b7ffaec9d390d158aa677b8a678a942eb2cab13",
+          "2b0a2335921b7917f56e2a12b5eb9ac9f4bcb4a533ed6098e5b9a90c2b6e0e01",
+          "b57c021da9d494c7e076ab985c5892d356d1ccdf0941014c9cffb9d801f6492f",
+          "8d25c35acb6a2e16c5b1ede85d7d2d701af968a8492b4b8d90a8a17706b35413",
+          "39140a7dc289297dda3fadc0816c38e18516d8eed25a2624d56e317e3f4e8cb4",
+          "6a5b895ace26eb147a2eafc5174da223bebdf8d06935fb8c889078dcb3affc3c"
+        ],
+        "tt_all": [
+          "0eef1c556c43fce92f645f70ec195b71f1eecb2989ba92c54698b2901385b1b8",
+          "f5754ad5a08d34896e174c5e4179ac68522dfe884a652f2f1ef51ab0ff024d4b",
+          "25a5632d06610ff28020eaa80a0e690d72a29313b93ed80bafdd328aa6ed7f88",
+          "03221881c6cf159c06ca55fdba99c84dc4f61c39b72450e81992322874191e72",
+          "96306d654a4d273ffd5b8666cb651958b5e3ac2bb1704e5ebf20071f07072338",
+          "0d9e62c5cea418ba29ecc6d300c402d6ecd4ce280c6dc36ab201e38df21fb90d",
+          "8361c14e67f93c79c7d32638a3ad73eabbff08d4e814d87006f25ecca6a73231",
+          "8c97e3a46aeebceddcbe87ed40af9ce61bc966cdaebbef79c0ca2b65194af144"
+        ],
+        "tx": [
+          "45dc05293bd1818d56a8c2ec42f0a0c17393cc3ee1949083c6a0d3a1c09c0e99",
+          "e500e4d2c4176917b0797b93f31f27d3801a9fb1e52b6021c26aaa14df0fc863",
+          "56db5acbde1de063887d7c84b932b2513a168ac9356a0e675e684c9e9067f7fe",
+          "10886caf0d6a51b8b3bbefc53eec595aa7622022c913388c843ec18e16f0075d",
+          "687194231d356ea9f60b889bad9699cd72de7af80cfb38dde38d763d1784c90e",
+          "cd06af5afa0fc2c67d9c17f8fff66372b132eb47122366067310b3cafc8cf969",
+          "d2d938a21f49fa6ccb8b1a1bf968be5b5f1c012a904443e53e870b60f0187f18",
+          "10ebe9a80b55452dd4fe6cfd8f26aff41f0d126ec9aa95755a2c07b83c7fe391",
+          "0a2f7216c493c0410cbdd61243a37ba6f14e435b3ec03ffc65eaef0b2648abd8",
+          "eb8aca57629f4feb6bda9378b4b93fc2094ddfa770f0bbfe3839f87982500fe1",
+          "e9ab4b8fa5cca192ce2a76ed1c9bb0d41ff1c56b8f65580b6a70ea2d4c01fac7",
+          "640dba23c4ba35dafe96cda8878ee1f3d94877bfdb33f93cb9b6a1fd74781f36",
+          "740b15f94776d0c62f356bc2ff1da87fe196688e505325cf87abfe0f1257a47f",
+          "a6f603cc27c5714fa59ab78e78464dfc41a5afd649394a4c7a8ee7b242b27713",
+          "01e5f74e9e0cbdef740b71a95c796fc3fdc9276102198416002ca36f0063eed2",
+          "bbc962bf3ca5ef3230fed8a32f5252d4dc17ac3bfe6c1a45751ad94098bdafa3",
+          "21c5ed01bd8f138dd75b12a1b01e8982e9db22e8909a427edceb8f5445c5d927",
+          "937c7dae7adaf471683a16a0b6562c7bed640535cd10a9d3b634ce4ba8f435bd",
+          "f12a26486756f3ab443a5440254aae0b107b97e24fd68df51c4ce5548934d825",
+          "8a573f70589b88a988a3bea15fc1e4b35de6740cd03bf90c46105a932733db38",
+          "c2f5a08acad5eda0bdb1e6dfc814cd02d5b8bf05058140b7bdf9ebe3ef058fec",
+          "876ec7be588bf769e29ece70004732691c5ffb6dc34a51467a3920a6b4f5ac7e",
+          "e4e9d025a04e37ef0dab2165e5185274f51a38f4e8aa835800c46a8247d97015"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 2,
+        "nft_raw_or_id_eq_1": 16
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": null,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": false,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x0000000000000000000000000000000000000000",
+            "name": null,
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2022-04-24T11:46:42.000000Z",
+            "to": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+            "token_address": "0x18e6f93315d6E819772723d9F777910235b6DB7a",
+            "tx": "0x7c9230d1e54d5a8c6955d2d47ba4bbdb85101ca8ec1b49565244a65e93ee0f7d"
+          },
+          {
+            "decimals": null,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": false,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x0000000000000000000000000000000000000000",
+            "name": null,
+            "raw": 1,
+            "symbol": null,
+            "timestamp": "2022-04-09T09:06:36.000000Z",
+            "to": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+            "token_address": "0x18e6f93315d6E819772723d9F777910235b6DB7a",
+            "tx": "0xeb4c8a309f07783a20b3e2d59814a458b3b63f7828f09e5898a95ff41aedd8ec"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 278,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1137
+    },
+    "sama.eth": {
+      "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+      "floor_wei_eq_1": {
+        "in": 0,
+        "internal": 0,
+        "out": 0,
+        "total": 0
+      },
+      "floor_wei_samples": [],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 192,
+      "label": "sama.eth",
+      "min_positive_wei_observed": 4,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "bb7b20ab94f08a255fee39638f4cf58aa91689e88c41e919e6b4e0c026b72c7b",
+          "e80abedf6377c82dda7c31464572814484aa99dce340cbe4c7327f72cd758ca2",
+          "45af308df1a3aa611cc2652be9eb80ade5c1d164655ac0a58ba60911c99c404d",
+          "3a015df841ae4685454e8f59f66edc550cde15318e00cf5fd73177cd12da884b",
+          "e2ed4eae546ddaa94e61fb475e901c408f38906b696bd757e8a448c4aaa93aca"
+        ],
+        "internal": [
+          "8b36c61b9c01f053c7e53ccd0a915fe7d9d5e02872a8cca3e9b9da8e9760936b",
+          "6bf17ba5ded2baad1126b7f27de129dbe8b1c93978e3fa0a369182d0601d38de",
+          "b3987919dbd8e86190d1de42e1cd882ea6e2f2b3882a38879ca277cfd0a5df35",
+          "72692f84fe9b69564a4a55eba45ee570b606a4188444aad04deb8c0d03e40c77"
+        ],
+        "tt_all": [
+          "cbd125a39e9718baec8747f1fe3b587fe52ded83256598e5f0ebfc3d8b87b523",
+          "1ea05b7d9e756fdcd0cfb17e61bc605e840027e4c195a517d38e86b162ef5b11",
+          "7ec485eb2b37d2686969572c07b319d6dedbeb0bfcf997c63aad40a592077860",
+          "06481ac5a80ba95dd53a7d1b59b14902b5645cd51195d8adaee3fe080104457a",
+          "60f8df19b901a5c8fa07ced3d6193667ba25836822ed1094008c33c515ee4693",
+          "c4648d59e8dc3dde637e705cef70ca40cac2ecab026cf6f79f529c96e7753c6c",
+          "adebcbc7e8ae93cf81126331352e1ff581fdfcfb39df46de636670976ba8b936",
+          "f42bbea1abe5234f7569b3aba68fefa7fd853d5fd470e14e07f8e1cac8011e53"
+        ],
+        "tx": [
+          "e9fc8d8967571665b045019bb38b37df9573be30d6a208b4a5b582913442b2ad",
+          "cfb4bccb76d9a8d42e42c00c715f143469e7bcf3d2597b9545026ed6b98751db",
+          "948b55868012f424fe79fad3cc0da15193861b841f1eb0285698f861b6394390",
+          "42716bb6b3eb8798da87f4ac613cb681d3212dc0711f9b8bac26503c720922b5",
+          "161e884a969a2880d217a15076c0388135d1f05d974ec6c204047859b30a36f6",
+          "881db315dd8c178499f153e8fe2b2f153ef1330488f0442ea7deedf479fcaa54",
+          "309783a9ef5a9896e101ac26457ac8544934c239db907214c6809972c767dabb",
+          "468c8c2918d7133a4561a49f484396b9721c732640e10f4571274f7adb61e82d",
+          "a78d79725401f7a2d01e0283a61014e412e1ab32766ce21900e1bc4ff19f1edc",
+          "1b83ed763f00738ce557080467f8d2c9728dbba5646313b7094b97cfd94fe649",
+          "845424e437005c3c7d19c0a2865ff1ee877162a508304cc64f00b6fba2ae1ea5",
+          "8a99bf03436358a9a9ab75d984ada200fd9b89c290c9958cf4ae46d6020c0dae",
+          "eb4b807ea873d95c1dc336a058f0eb609564be1b2c4e5d637f70e614f01baa2e",
+          "fe0ab32dbc865e89da4dc66a008dd232b79ce555810314f32a42c5ab64c9a108",
+          "0abd647c39236a4e4265e6b7eeb94a563fedaa1409e4dc96d7e45f48f82b9fe4",
+          "6d5fb1976fa2c59cb1b41aa0d0c808bfdcc8c5feb2931ab510fd9657856aa868",
+          "4bee12329f9fc0e964e7ad451eb009261e8055a7fea3d941d165735998d4fddd",
+          "0e07184cade7fba515519b1424c96db05f6a533d7e06a4d7e6e7b2c208cd0387",
+          "8ae1bfedd19c102ca49bded2618292362de5a314b1eff790d1c89c962205de91",
+          "f3af17f46da329c23af4313164435881b1dae62fea230963fe3047ad39899121",
+          "01a579a69a24f37d235f8b59ab0a47b54b13d00127c6282dcb03b833aec84791",
+          "0bb6b4a3a120462c257288661bc77e8940f77f1915fea62571d9a1abf2c7ad44"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 2,
+        "nft_raw_or_id_eq_1": 44
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x09350F89e2D7B6e96bA730783c2d76137B045FEF",
+            "name": "​",
+            "raw": 1,
+            "symbol": "​",
+            "timestamp": "2024-01-01T00:31:59.000000Z",
+            "to": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+            "token_address": "0x8C8f37Fa63cE536CADFb4a17D01c9747ADEEED2D",
+            "tx": "0x89e012c03e7a0285adfe377bc2398c09bdbd8afcd2643fa0eb1cedf82f04d8a4"
+          },
+          {
+            "decimals": 0,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": true,
+              "sub_satoshi_scale": false,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x09350F89e2D7B6e96bA730783c2d76137B045FEF",
+            "name": "𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪𒐪",
+            "raw": 1,
+            "symbol": "𒐪𒐪𒐪𒐪𒐪",
+            "timestamp": "2024-01-01T00:29:23.000000Z",
+            "to": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+            "token_address": "0x3dDdaea6405ab064ef208913a1766a299fec388e",
+            "tx": "0x55604bd4e2139b0413e32aee2b56440656e2619b84db4a9dda2d841f8b6762d2"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": false,
+      "tt_erc20_scanned": 234,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1082
+    },
+    "vitalik.eth": {
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "floor_wei_eq_1": {
+        "in": 1,
+        "internal": 0,
+        "out": 0,
+        "total": 1
+      },
+      "floor_wei_samples": [
+        {
+          "counterparty": "0xa9801117912b5849867378dabe8e12c725f7bf28",
+          "direction": "in",
+          "hash": "0xbdd72d2536c5aa04cf68c64b10a22098327edeefc8c457286cf588c7d7d3e484",
+          "method": null,
+          "quantum": "floor_wei_eq_1",
+          "timestamp": "2026-06-22T16:34:11.000000Z"
+        }
+      ],
+      "internal_hit_page_cap": false,
+      "internal_scanned": 50,
+      "label": "vitalik.eth",
+      "min_positive_wei_observed": 1,
+      "ok": true,
+      "peer_floor_wei": {},
+      "peer_sub_satoshi_scale": {},
+      "peer_sub_wei_scale": {},
+      "protocol_floors": {
+        "native_btc_floor_quantum_satoshi": 1,
+        "native_btc_sub_satoshi_impossible_on_chain": true,
+        "native_eth_floor_quantum_wei": 1,
+        "native_eth_sub_wei_impossible_on_l1": true
+      },
+      "sha256_pages": {
+        "erc20": [
+          "81b9a20304f99744b61bb2d96ab4a5642b7951e905d8d4e527f33b4d59dc89fd",
+          "de531fd6fd4246f3a891338628c354d9e086cc051776136e5a42920030e024e3",
+          "ae558c531ea1e141d958de57925354645ba7ebf24dc0f4b851dfbeced8163c16",
+          "ef48e89a862cc2b11a0cc7c4005c03a83eabea24c29c3f4d884e5896bc423e4b",
+          "57fd916357956d984cd5f56d4edd79507c0987c25046d7a98de678ef9f6a8151",
+          "96bbd3ff968504dadeeb33cc9b4834b2230e156cbf16add1d550ccec42b97390",
+          "43ec21c0d4a7eac68925bb95787d9bd957e9402f47d102940feb7ccaaa909980",
+          "5cc302ee9ddaf1c9bf1dedf6c5b621953811d804b2a8a621edef7e0a39acb400",
+          "f7a01649a65047dc0b0b0faabe0efaeae6be1a9fbd2e3c003fdadb788268eb05",
+          "ade7c8e5209664335fc0c094efce459ad46d4bb3d6f96e68a02dd0c2e5415541",
+          "59a177fd83bfbdb5efb86102821047becb0a39ef597f27032f4ed6ccaec712c2",
+          "af8eb1526d7682ed3f30c3ba8966166c17b2d766ab54d3c651dec1689cbb6c9a",
+          "7573aa1b6a1275ada6abf6f93afb2034317813d9529c11e4c5c52e33a9425c75",
+          "ae1463d7ce9fe0a788c8df615a2433a483feaa5c84e6c60bc1689d5a61cda9c3",
+          "e63809b98601e078929e4e3e61e19e58f799d363ea8461814463b20b9a691a23",
+          "32fb0fc70dadd1ffff8fd94302dd64fd9a3510d7dd3b13f59116173798785ddc"
+        ],
+        "internal": [
+          "9b5c9f4910b522edf4fe1d38336d9f5140a598759b4bd3134b8bca06b112a28a"
+        ],
+        "tt_all": [
+          "5a2b2a4da3c8357e2b09b561ffb539e93021d3f09dc97346d680667141388c04",
+          "e23bafb86cfb8c09fc18fccf8788bf3886c82ee61868fcc8a1a8626aad1f8315",
+          "f31fe8ee35d0149db539a5ffd79f4e2d51e7d490e3cbfebd2eb7b961edf63f83",
+          "c5a796e61f5f5e26b115540ff136e93b47baeecf9f0e31c778218cc7b8ffa426",
+          "42738877f7696af054f19857f9494a739b0b985771630b2e2986b8986b02961c",
+          "80e90fbd31494a35ab4e73867380f574879a81bdc96be110a42003a2bb290ca5",
+          "65eb480980687806b0acd3b3cb1eb4e5a19b89daaaf442b9d4a816149d65b555",
+          "964ac8202b0ae204220ab0b78c78d3d555bdf4a95c973a86959a343b5e452ec7"
+        ],
+        "tx": [
+          "cbabed00d64e53d152403b1ce0e8bcbb8c5482bedc9eb0c2bf1ba96e4551814c",
+          "dbef70314dec0d9f6e3088c812cd9b8b520a01274afc4be7fee7b46522fb5cd0",
+          "7125e68da4881e386bfc3bde179c35f55e33ab0ce56367df34fc2bd6e3d9c28d",
+          "901d7a6065b91dc3eb8e16260de695b0bcc5ee7ee6cdf90e5f498ddad5da5f57",
+          "ddba2005cdc4379609ba50f728f93728d69d48279be2d071514e8406040159ff",
+          "b422db4a587934e7c4c6b332de2813e56d54dbddc634d3b4d150521d51d62c0b",
+          "b6f2d82e3ac5f6bf465ee016ae339beb84c48d82e712d0cdcbab6a57b2bc0350",
+          "a60a38100a7c9249e87a2df64a77b89009fe36ecaf6732f96050704e6a0d1ead",
+          "1e3db41362cf4e53a69ee72934d438c366fb6a118d8d1b55c6f9f3c4bb317921",
+          "b421144be9ec1cde11f54faa10eaf042e31222af8c9c7473ff620f05de32bec0",
+          "6edb5d522c5b71d9769dacc623e3c970748aecedb4d8bdfd97e2cb2a472199b0",
+          "cab6c9d7bbe2402091510e87051fce54cab7487c89517d5ff9f6dd8ac3d7fe0b",
+          "64b20bfcdbda36ec70a70e1c8a5e180b03c7218372e1565d9e6ef3a407d1b587",
+          "2bbb7e7abb1c221ad770ae14e0e8d11968bdc69c43647ab6b8a70f8537c20a7c",
+          "08122f7dc683067942e039eb77417596e56c7abb00d60f78d6a372f2b130c709",
+          "3a1da6053beae704c29019d8301ba4aed96c490a88937a3b3a87d047a2ebb46e",
+          "f3f0e2988134a16799a1e227937a3f2897a6bb7c07312bea180d39630a072fea",
+          "9c8cb42adb6cf86852b258d002c2049d1f0262150efdea3bfcb6e6dab0420d15",
+          "291112a868b519a95b9598aef59eeec35a58a24b4a2b0a59915cb3005d14bfe8",
+          "00762fec6499ab6b2f122f58dbec9f5ff9646a1b94b86840d6c6b9410ac40950",
+          "4fff33bba90862919acaf13153bdd5b88d9113e88dd14cba8ef204ede10cf00a",
+          "80e53866159851b7d7b8ce9d3d39c2b39b47a9ae68d60346c58ff2d00f3a6e1d",
+          "885ab4c34f2a879a552ffb45439d957eb43453e830f4f7ecb11512a8ed3af484",
+          "3cc6f559eb0b1ddf240971aaa5e454e48a1c18fea7619c1d37f2e0adb9254dab",
+          "aade285d99a679359ccfedaa01a6f748cbc5b563789a9b18c6d035c52d658160",
+          "cb85bc8bcb9bdd6417ca29ca1af3b55ad84d7976f6f3f6029e556e9e0ef29829",
+          "4869e550df5b5b87649a92b67f6aba922b0407d39ce9810bcd3286dbe59e819f",
+          "eb654232e1df70614e4f4a18ec3d57ff887e71692f518b8e5f08cf5c2c9c3084",
+          "90c9570105c9f79bd8bcbdb81d9e50ecdef279cf15be5696cded55e1c7bdabaa",
+          "48162f9215017e0ea352e05eddef90b0c78e7f68ad07d736f1ba1ce86714c21d",
+          "d318673334d2af828e80a4e838e1e0114ffe583633c3d3b568cb01eb37effacd",
+          "6da5273df9b9f942fb12d092986defd18747d3a3ccd6d3c280f4c5ed37ba3a40",
+          "519fa21e41394bf6ea9ebf3ffd7e61cea4ab99681869db014c9e663f1386423f",
+          "4351a88ae8d51303777064b75433be44cd5f8e232d43b26724cd055d3fd76370",
+          "b9011f5ba6795ac13a5c5fc85f7c29679d59876111e2663339ec654d622e737c",
+          "a0662569f087c357962993f105f09a4e9c9542d9e62b0d36c6e719fc8b662ec6",
+          "b59cf72c4b512b2e9f19f4a57bb7ca0d674e1cce499d4b0e443a5f68ebd1074b",
+          "22705ff780f3317e5d61228561f56369e30c4da7c385f08bfeb3e684af55cbea",
+          "d0f77993a4fb5a62adbb5a7ea1c7a16bfcb48307ef3b75536865ae60b52ad4e2",
+          "ac96f6017f5ebe2ed3bd4d3a74c185e435164404ad80f5885f698a598a202d3b"
+        ]
+      },
+      "token_quantum_class_counts": {
+        "floor_raw_eq_1": 3,
+        "nft_raw_or_id_eq_1": 17,
+        "sub_satoshi_scale": 9,
+        "wei_floor_eth_scale_token": 3
+      },
+      "token_quantum_samples": {
+        "floor_raw_eq_1": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "SLOP",
+            "raw": 1,
+            "symbol": "SLOP",
+            "timestamp": "2026-06-27T02:55:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x999B49c0d1612E619A4A4f6280733184da025108",
+            "tx": "0x85f037dc6795474a6b0f8614608d4cb8a2afd2f917e9962bf35ea858f661d9b1"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "Milo Token",
+            "raw": 1,
+            "symbol": "MILO",
+            "timestamp": "2026-06-27T02:48:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x8b8f9419ED9Fd8C168128bf05C5d5FE7B17fE11D",
+            "tx": "0x5c31574d0f633237bdcf011268f8a6c3f5dc289fad347dacd5eaf981fca60acb"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x5a0faf75057E07184cB821242D28B2B730218CCB",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2026-05-30T17:28:59.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0x4ff0c7cdaac3e7d30d8b6d4be59e59cbe5e966f4684707485e0050fb8d6f3634"
+          }
+        ],
+        "sub_satoshi_scale": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf",
+            "name": "HUB",
+            "raw": 138,
+            "symbol": "HUB",
+            "timestamp": "2026-07-22T19:34:11.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x4790f605CBDBa5fCe4F209868B5A05B3bFf7272c",
+            "tx": "0x3e0ca84ed1388f16b5a37c66d0ac72a9142e224fef3fca76968cb778a67b1a30"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x7b0d132c6BF845d5a072B6CC9201546F0aF8a044",
+            "name": "Ten Commandments",
+            "raw": 7617264637,
+            "symbol": "CMD",
+            "timestamp": "2026-07-11T03:56:59.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0xAe42F183554d369eE98B7B1980BEa3761f47ABc3",
+            "tx": "0xfcb382c5e11393a43279b82c174e272f7a7cb6b4394b1e3c39f9ef2a02a5590e"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "SLOP",
+            "raw": 1,
+            "symbol": "SLOP",
+            "timestamp": "2026-06-27T02:55:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x999B49c0d1612E619A4A4f6280733184da025108",
+            "tx": "0x85f037dc6795474a6b0f8614608d4cb8a2afd2f917e9962bf35ea858f661d9b1"
+          },
+          {
+            "decimals": 9,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "Neiro",
+            "raw": 3,
+            "symbol": "NEIRO",
+            "timestamp": "2026-06-27T02:54:47.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
+            "tx": "0xfdab55478d351f813f59fd5a26ef27dfc79f48ff9e9f3c75ea7c01075b9e91e6"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "FWOG",
+            "raw": 1250,
+            "symbol": "FWOG",
+            "timestamp": "2026-06-27T02:53:59.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x239a149410AA8d583013246C0Adeb9FCa81e86C0",
+            "tx": "0x59af497a7abb0cbd19c3aad42bec9f7504129f02f01e32a3014c27bc44b9bff7"
+          },
+          {
+            "decimals": 9,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "ITO",
+            "raw": 2,
+            "symbol": "$ITO",
+            "timestamp": "2026-06-27T02:49:23.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x465dbC39F46f9D43C581a5d90A43e4a0F2A6fF2d",
+            "tx": "0x8ae1b8dc536e4edff4c4e546a67db9ee8584d5d558e63f0948e7cbe723b9e347"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "Milo Token",
+            "raw": 1,
+            "symbol": "MILO",
+            "timestamp": "2026-06-27T02:48:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x8b8f9419ED9Fd8C168128bf05C5d5FE7B17fE11D",
+            "tx": "0x5c31574d0f633237bdcf011268f8a6c3f5dc289fad347dacd5eaf981fca60acb"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x5a0faf75057E07184cB821242D28B2B730218CCB",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2026-05-30T17:28:59.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0x4ff0c7cdaac3e7d30d8b6d4be59e59cbe5e966f4684707485e0050fb8d6f3634"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": false,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": false
+            },
+            "from": "0x3Df9d9929D209707DaFF9D4154AF3a084D574e00",
+            "name": "vitalik0",
+            "raw": 5509179444,
+            "symbol": "vitalik0",
+            "timestamp": "2026-05-22T21:06:23.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x3798c465eFa3b2b8EfF582d2d20EcE040E897aa7",
+            "tx": "0x1a694d2f0ac2fc78d75f6819cd55e050bc537b4b21d5efda52430287ef67486d"
+          }
+        ],
+        "wei_floor_eth_scale_token": [
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "SLOP",
+            "raw": 1,
+            "symbol": "SLOP",
+            "timestamp": "2026-06-27T02:55:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x999B49c0d1612E619A4A4f6280733184da025108",
+            "tx": "0x85f037dc6795474a6b0f8614608d4cb8a2afd2f917e9962bf35ea858f661d9b1"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x725cfe92537f364Ed687559C74b458adDbFA5528",
+            "name": "Milo Token",
+            "raw": 1,
+            "symbol": "MILO",
+            "timestamp": "2026-06-27T02:48:35.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0x8b8f9419ED9Fd8C168128bf05C5d5FE7B17fE11D",
+            "tx": "0x5c31574d0f633237bdcf011268f8a6c3f5dc289fad347dacd5eaf981fca60acb"
+          },
+          {
+            "decimals": 18,
+            "flags": {
+              "btc_scale_hint": null,
+              "floor_raw_eq_1": true,
+              "is_weth": false,
+              "satoshi_floor_btc_scale_token": false,
+              "sub_satoshi_impossible_for_token": false,
+              "sub_satoshi_scale": true,
+              "sub_wei_impossible_for_token": true,
+              "sub_wei_scale": false,
+              "wei_floor_eth_scale_token": true
+            },
+            "from": "0x5a0faf75057E07184cB821242D28B2B730218CCB",
+            "name": "Lido Staked Ether",
+            "raw": 1,
+            "symbol": "STETH",
+            "timestamp": "2026-05-30T17:28:59.000000Z",
+            "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "tx": "0x4ff0c7cdaac3e7d30d8b6d4be59e59cbe5e966f4684707485e0050fb8d6f3634"
+          }
+        ]
+      },
+      "tt_all_scanned": 400,
+      "tt_erc20_hit_page_cap": true,
+      "tt_erc20_scanned": 800,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 2000
+    }
+  },
+  "status": "SEALED",
+  "title": "Sub-wei / sub-satoshi scale cyberdust full update"
+}

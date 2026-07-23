@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W31-M1",
+      "item": "Do not allege native sub-wei ETH or sub-satoshi BTC L1 transfers — impossible on integer ledgers",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W31-M2",
+      "item": "Trace counterparties of floor-wei==1 and token sub-satoshi-scale transfers as candidates only",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W31-M3",
+      "item": "Uncap page-capped EOAs for exhaustive floor-quantum inventory",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-31 operator worklist"
+}
