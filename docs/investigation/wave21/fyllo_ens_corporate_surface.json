@@ -1,0 +1,50 @@
+{
+  "ensdata": {
+    "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+    "avatar": null,
+    "contentHash": null,
+    "ens": "fyllo.eth",
+    "ens_primary": "erikshani.eth"
+  },
+  "ensdata_ok": true,
+  "ensdata_sha256": "932d89e333894ea249c0073f5747193402619d64b09d93b7ea7a44d485fc41e8",
+  "ensideas_ok": true,
+  "ensideas_sha256": "9fac70a82fc0bfe4c9e6faf5b553e6f2d996d901ff2b3f43b39f9d916bb9ede8",
+  "findings": [
+    {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "address_match_constant": true,
+      "detail": "Public ENS resolvers agree fyllo.eth → 0xE739955225Ee00EE9b6e859BcD6C82308bb5E909. ensdata reports ens_primary=erikshani.eth (Erik Shani nexus — Fyllo co-founder in secondary directories). fyllo.eth.limo content hash site 404; hellofyllo.com is a conventional marketing site without patent/NFT/ethereum keywords in HTML extract.",
+      "ens": "fyllo.eth",
+      "ensdata_primary": "erikshani.eth",
+      "ensideas": {
+        "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "avatar": "https://metadata.ens.domains/mainnet/avatar/fyllo.eth",
+        "displayName": "fyllo.eth",
+        "name": "fyllo.eth"
+      },
+      "id": "W21-F1",
+      "title": "fyllo.eth resolves to EOA 0xE739…E909 (primary ENS erikshani.eth)"
+    }
+  ],
+  "hellofyllo": {
+    "excerpt": " Fyllo™ | Home WebFont.load({ google: { families: [\"Geist:300,regular,500,600,700\"] }}); !function(o,c){var n=c.documentElement,t=\" w-mod-\";n.className+=t+\"js\",(\"ontouchstart\"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+\"touch\")}(window,document); window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('js', new Date());gtag('config', 'G-N69YKFNFJH'); Fyllo Home Page Services Audience Targeting Pre-built and custom audiences tailored for a perfect fit Contextual Targeting Effective, privacy-safe targeting without cookies Contextual Audience Extension Predict where your audience is most likely to be Media Strategy &amp; Planning Align your brand with contexts and avoid conflicts Resources Company Contact us Power to outperform Built for speed, focused on outcomes—expert execution without the fluff, just results. .uui-logo-loop_inner{ position: absolute; white-space: nowrap; will-change: transform; animation: marquee 90s linear infinite; } @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } } Learn more Book a demo Where audiences meet context and",
+    "mentions": {
+      "Casters": false,
+      "NFT": false,
+      "Skoda": false,
+      "blockchain": false,
+      "compliance": false,
+      "ethereum": false,
+      "patent": false,
+      "royalty": false
+    },
+    "ok": true,
+    "sha256": "2c66b6428cec9c40f0668322e064aec5f70b71cc598694a18b3e26168b1c59ca",
+    "url": "https://hellofyllo.com/"
+  },
+  "id": "fyllo_ens_corporate_surface",
+  "resolved_address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+  "status": "SEALED",
+  "title": "fyllo.eth ENS + Fyllo corporate web surface"
+}

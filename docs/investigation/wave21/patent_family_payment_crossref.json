@@ -1,0 +1,148 @@
+{
+  "findings": [
+    {
+      "alleged_15213_patent_families": {
+        "note": "15,213 appears as an alleged stolen-family constant in monolith/ww1997 scripts — not as a sealed, grant-verified family inventory in docs/investigation.",
+        "sealed_authenticated_pubs": 15,
+        "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+        "value_claimed": 15213
+      },
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "authenticated_pub_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Sealed Wave-14 portfolio remains 15 Google Patents publications (Ahkeo/Zorday/UrgentRN/Skoda assignees). Live EDGAR EFTS this run: HTTP 403 blocked — not treated as positive royalty evidence. fyllo.eth token/NFT samples contain no patent-family identifiers. Therefore payments cannot be deterministically classified as royalties on the alleged 15,213 / WIPO-190 (WIP-0194) stolen set from public evidence in this wave.",
+      "edgar_classification": {
+        "fyllo_and_casters": "corporate_identity — Meridian NPORT holdings in 'Casters Holdings Inc dba Fyllo Compliance Cloud' preferred equity",
+        "fyllo_and_nft": "zero_hits_when_last_live_ok_or_OPEN_blocked",
+        "fyllo_and_patent": "false_positive_class — Curaleaf related-party 'Fyllo platform fees' / board overlap with Mitchell Kahn; 'patent' appears in unrelated financial language",
+        "fyllo_and_royalty": "false_positive_class — Jones Soda proxy bios naming Bronstein/Sirkin/Fyllo; not IP royalty schedules to Skoda patents",
+        "fyllo_and_skoda": "zero_hits_when_last_live_ok_or_OPEN_blocked"
+      },
+      "edgar_live_ok": false,
+      "edgar_prior_note": {
+        "live_block_class": "HTTP_403_FORBIDDEN",
+        "live_efts_ok": false,
+        "prior_operator_classification_retained": {
+          "fyllo_and_casters": "corporate_identity — Meridian NPORT holdings in 'Casters Holdings Inc dba Fyllo Compliance Cloud' preferred equity",
+          "fyllo_and_nft": "zero_hits_when_last_live_ok_or_OPEN_blocked",
+          "fyllo_and_patent": "false_positive_class — Curaleaf related-party 'Fyllo platform fees' / board overlap with Mitchell Kahn; 'patent' appears in unrelated financial language",
+          "fyllo_and_royalty": "false_positive_class — Jones Soda proxy bios naming Bronstein/Sirkin/Fyllo; not IP royalty schedules to Skoda patents",
+          "fyllo_and_skoda": "zero_hits_when_last_live_ok_or_OPEN_blocked"
+        },
+        "wave20_sealed_corporate_identity": "Casters Holdings Inc dba Fyllo Compliance Cloud (Meridian NPORT preferred equity); EDGAR Casters×Authentic Brands/ABG acquisition hits false-positive / zero for CIK deal"
+      },
+      "edgar_totals": {
+        "casters_dba_fyllo": null,
+        "fyllo_and_blockchain": null,
+        "fyllo_and_casters": null,
+        "fyllo_and_nft": null,
+        "fyllo_and_patent": null,
+        "fyllo_and_royalty": null,
+        "fyllo_and_skoda": null
+      },
+      "id": "W21-F3",
+      "onchain_to_pub_id_match": false,
+      "royalty_linked_to_stolen_families_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "No authenticated link from fyllo.eth payments to sealed Skoda pubs or alleged 15213/WIPO-190 set",
+      "wipo_190_or_wip_0194": {
+        "interpretation": "Operator phrase 'w i p 01 ninety four' mapped to WIPO-190 monolith claim and/or WIP-0194 label. No WIP-0194 sealed artifact located under docs/investigation/. WIPO-190 PCT set not authenticated in Wave-14 portfolio.",
+        "status": "ALLEGED_OR_UNLOCATED_LABEL"
+      }
+    }
+  ],
+  "id": "patent_family_payment_crossref",
+  "next_actions": [
+    "If operator has a private WIP-0194 index, supply path for deterministic ingest",
+    "USPTO assignment API (key) still required for broader family expansion beyond Wave-14"
+  ],
+  "portfolio_source": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+  "sec": {
+    "casters_dba_fyllo": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_blockchain": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_casters": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_nft": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_patent": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_royalty": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    },
+    "fyllo_and_skoda": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "samples": [],
+      "total": null
+    }
+  },
+  "status": "SEALED",
+  "title": "Patent-family / alleged 15213–WIPO cross-ref vs Fyllo payments"
+}

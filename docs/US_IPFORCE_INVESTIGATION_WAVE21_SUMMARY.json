@@ -1,0 +1,359 @@
+{
+  "artifacts": {
+    "ens": "docs/investigation/wave21/fyllo_ens_corporate_surface.json",
+    "onchain": "docs/investigation/wave21/fyllo_eth_onchain_payments_nfts.json",
+    "patents": "docs/investigation/wave21/patent_family_payment_crossref.json",
+    "summary_md": "docs/investigation/WAVE21_FYLLO_ETH_PATENT_PAYMENT_SCREEN.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 3,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "2bb840623a17bf7bd11aa936ba9c0ecfb3a2a8290e0da8bdb592c1fedadd15a8",
+    "leaves": [
+      {
+        "id": "fyllo_ens_corporate_surface",
+        "sha3_256": "a0741735e82ed9db4f78600545cd3fa62ac33caf0af94f43adb5d16623922d90",
+        "status": "SEALED"
+      },
+      {
+        "id": "fyllo_eth_onchain_payments_nfts",
+        "sha3_256": "4ddd3ef00cefef93e724c72fd4f3246f4c346af433ff972d7af6089e6e4edbbc",
+        "status": "SEALED"
+      },
+      {
+        "id": "patent_family_payment_crossref",
+        "sha3_256": "fd8ef9f12750f1cc336df4aaf717880f33b9899561c4cbabc6c8f63ffb4dfd33",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "cdb430cdc8a4a25caa18c5318d502231baf6bb8c8e80e5bacffd34a461e3c820",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "8fa25cd6229530fbc5585800996b58261a06b05a7a257ea4ddb8e9457b1cb0d30a2cac28f7071a525d106bcf116a4e3143e929f0c8c1723adb19719a1d22c711"
+  },
+  "disposition": {
+    "alleged_15213_authenticated": false,
+    "cyber_dust_illicit_flow_adjudicated": false,
+    "fyllo_eth_resolved": true,
+    "royalty_linked_to_stolen_families_adjudicated": false,
+    "royalty_payment_adjudicated": false,
+    "theft_adjudicated": false,
+    "wip_0194_artifact_located": false
+  },
+  "elapsed_ms": 9472,
+  "findings": [
+    {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "address_match_constant": true,
+      "detail": "Public ENS resolvers agree fyllo.eth → 0xE739955225Ee00EE9b6e859BcD6C82308bb5E909. ensdata reports ens_primary=erikshani.eth (Erik Shani nexus — Fyllo co-founder in secondary directories). fyllo.eth.limo content hash site 404; hellofyllo.com is a conventional marketing site without patent/NFT/ethereum keywords in HTML extract.",
+      "ens": "fyllo.eth",
+      "ensdata_primary": "erikshani.eth",
+      "ensideas": {
+        "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "avatar": "https://metadata.ens.domains/mainnet/avatar/fyllo.eth",
+        "displayName": "fyllo.eth",
+        "name": "fyllo.eth"
+      },
+      "id": "W21-F1",
+      "title": "fyllo.eth resolves to EOA 0xE739…E909 (primary ENS erikshani.eth)"
+    },
+    {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "balance_eth": 8.258725060163222,
+      "blockscout_ens": "erikshani.eth",
+      "cyber_dust_candidates_lt_1e12_wei": 0,
+      "cyber_dust_illicit_flow_adjudicated": false,
+      "detail": "Blockscout multipage scan: dominant methods are NFT marketplace patterns (run / matchOrders / setApprovalForAll). Nonzero ETH transfers in-scan look like NFT purchase/bid amounts, not labeled royalty streams. Cyber-dust candidates (0 < value < 1000000000000 wei) in scanned pages: 0. No token name/symbol in sampled transfers matches patent/royalty/Skoda/Ahkeo/WIPO. Cannot authenticate these payments as royalties on stolen patent families.",
+      "erc20_top": [
+        [
+          "APE",
+          6
+        ],
+        [
+          "USDC",
+          2
+        ],
+        [
+          "DIXT",
+          1
+        ],
+        [
+          "FAM",
+          1
+        ],
+        [
+          "HEX",
+          1
+        ],
+        [
+          "QCORE",
+          1
+        ],
+        [
+          "MALLY",
+          1
+        ],
+        [
+          "WETH",
+          1
+        ],
+        [
+          "ЕTН",
+          1
+        ],
+        [
+          "Wrapped ApeCoin (ape.claims)",
+          1
+        ]
+      ],
+      "erc721_top": [
+        [
+          "END",
+          4
+        ],
+        [
+          "POP",
+          4
+        ],
+        [
+          "MM",
+          4
+        ],
+        [
+          "LANGELS",
+          4
+        ],
+        [
+          "LORDNFT",
+          4
+        ],
+        [
+          "OXYA",
+          3
+        ],
+        [
+          "XOXO",
+          3
+        ],
+        [
+          "KCG",
+          3
+        ],
+        [
+          "BBB",
+          3
+        ],
+        [
+          "DGFAM",
+          2
+        ],
+        [
+          "SCORCH",
+          2
+        ],
+        [
+          "Babies",
+          2
+        ],
+        [
+          "IAP",
+          2
+        ],
+        [
+          "LAYERS",
+          1
+        ],
+        [
+          "PSGENPASS",
+          1
+        ]
+      ],
+      "id": "W21-F2",
+      "ip_keyword_token_hits": [],
+      "is_contract": false,
+      "method_counts": {
+        "approve": 3,
+        "atomicMatch_": 1,
+        "cancelOrder_": 2,
+        "commit": 2,
+        "freeMint": 10,
+        "matchOrders": 2,
+        "mintNFTDuringPresale": 1,
+        "presaleMint": 1,
+        "registerProxy": 1,
+        "registerWithConfig": 3,
+        "run": 68,
+        "setApprovalForAll": 5,
+        "setName": 1,
+        "swap": 5,
+        "transfer": 1,
+        "unknown": 13
+      },
+      "nft_marketplace_method_count": 75,
+      "nonce": 111,
+      "nonzero_eth_transfers_in_scan": 89,
+      "royalty_payment_adjudicated": false,
+      "title": "fyllo.eth EOA shows NFT-marketplace activity; no patent-royalty payment rail authenticated",
+      "tx_items_scanned": 119,
+      "tx_pages_scanned": 3
+    },
+    {
+      "alleged_15213_patent_families": {
+        "note": "15,213 appears as an alleged stolen-family constant in monolith/ww1997 scripts — not as a sealed, grant-verified family inventory in docs/investigation.",
+        "sealed_authenticated_pubs": 15,
+        "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+        "value_claimed": 15213
+      },
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "authenticated_pub_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "authenticated_skoda_publication_count": 15,
+      "detail": "Sealed Wave-14 portfolio remains 15 Google Patents publications (Ahkeo/Zorday/UrgentRN/Skoda assignees). Live EDGAR EFTS this run: HTTP 403 blocked — not treated as positive royalty evidence. fyllo.eth token/NFT samples contain no patent-family identifiers. Therefore payments cannot be deterministically classified as royalties on the alleged 15,213 / WIPO-190 (WIP-0194) stolen set from public evidence in this wave.",
+      "edgar_classification": {
+        "fyllo_and_casters": "corporate_identity — Meridian NPORT holdings in 'Casters Holdings Inc dba Fyllo Compliance Cloud' preferred equity",
+        "fyllo_and_nft": "zero_hits_when_last_live_ok_or_OPEN_blocked",
+        "fyllo_and_patent": "false_positive_class — Curaleaf related-party 'Fyllo platform fees' / board overlap with Mitchell Kahn; 'patent' appears in unrelated financial language",
+        "fyllo_and_royalty": "false_positive_class — Jones Soda proxy bios naming Bronstein/Sirkin/Fyllo; not IP royalty schedules to Skoda patents",
+        "fyllo_and_skoda": "zero_hits_when_last_live_ok_or_OPEN_blocked"
+      },
+      "edgar_live_ok": false,
+      "edgar_prior_note": {
+        "live_block_class": "HTTP_403_FORBIDDEN",
+        "live_efts_ok": false,
+        "prior_operator_classification_retained": {
+          "fyllo_and_casters": "corporate_identity — Meridian NPORT holdings in 'Casters Holdings Inc dba Fyllo Compliance Cloud' preferred equity",
+          "fyllo_and_nft": "zero_hits_when_last_live_ok_or_OPEN_blocked",
+          "fyllo_and_patent": "false_positive_class — Curaleaf related-party 'Fyllo platform fees' / board overlap with Mitchell Kahn; 'patent' appears in unrelated financial language",
+          "fyllo_and_royalty": "false_positive_class — Jones Soda proxy bios naming Bronstein/Sirkin/Fyllo; not IP royalty schedules to Skoda patents",
+          "fyllo_and_skoda": "zero_hits_when_last_live_ok_or_OPEN_blocked"
+        },
+        "wave20_sealed_corporate_identity": "Casters Holdings Inc dba Fyllo Compliance Cloud (Meridian NPORT preferred equity); EDGAR Casters×Authentic Brands/ABG acquisition hits false-positive / zero for CIK deal"
+      },
+      "edgar_totals": {
+        "casters_dba_fyllo": null,
+        "fyllo_and_blockchain": null,
+        "fyllo_and_casters": null,
+        "fyllo_and_nft": null,
+        "fyllo_and_patent": null,
+        "fyllo_and_royalty": null,
+        "fyllo_and_skoda": null
+      },
+      "id": "W21-F3",
+      "onchain_to_pub_id_match": false,
+      "royalty_linked_to_stolen_families_adjudicated": false,
+      "theft_adjudicated": false,
+      "title": "No authenticated link from fyllo.eth payments to sealed Skoda pubs or alleged 15213/WIPO-190 set",
+      "wipo_190_or_wip_0194": {
+        "interpretation": "Operator phrase 'w i p 01 ninety four' mapped to WIPO-190 monolith claim and/or WIP-0194 label. No WIP-0194 sealed artifact located under docs/investigation/. WIPO-190 PCT set not authenticated in Wave-14 portfolio.",
+        "status": "ALLEGED_OR_UNLOCATED_LABEL"
+      }
+    }
+  ],
+  "generated_at": "2026-07-23T16:04:17Z",
+  "policy": "Wave-21 seals fyllo.eth resolution and NFT/payment activity screens against the sealed Skoda publication set. Alleged 15,213 / WIPO-190 (WIP-0194) families remain unauthenticated. No royalty/theft adjudication.",
+  "seal": "252d1b1527ce22318e0c064d610b1da16fa58cabc8dd1cf8e3aa979a2ac8d27a",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "fyllo_ens_corporate_surface",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "fyllo.eth ENS + Fyllo corporate web surface"
+    },
+    {
+      "adjudicated": false,
+      "id": "fyllo_eth_onchain_payments_nfts",
+      "next_actions": [
+        "Optional deeper pagination beyond 3 tx/NFT pages if operator supplies archive node",
+        "Do not treat NFT marketplace ETH as patent royalties without contract/event proof"
+      ],
+      "status": "SEALED",
+      "title": "fyllo.eth on-chain payments / NFT / dust screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "patent_family_payment_crossref",
+      "next_actions": [
+        "If operator has a private WIP-0194 index, supply path for deterministic ingest",
+        "USPTO assignment API (key) still required for broader family expansion beyond Wave-14"
+      ],
+      "status": "SEALED",
+      "title": "Patent-family / alleged 15213–WIPO cross-ref vs Fyllo payments"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W21-M1",
+          "item": "Provide WIP-0194 artifact path if it exists outside sealed docs",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W21-M2",
+          "item": "USPTO_API_KEY assignments for Wave-14 15-pub set before any royalty theory",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W21-M3",
+          "item": "Optional: deeper Blockscout pagination / archive node for full fyllo.eth history",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-21 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE21"
+}

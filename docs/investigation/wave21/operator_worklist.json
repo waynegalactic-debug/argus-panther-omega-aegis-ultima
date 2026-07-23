@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W21-M1",
+      "item": "Provide WIP-0194 artifact path if it exists outside sealed docs",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W21-M2",
+      "item": "USPTO_API_KEY assignments for Wave-14 15-pub set before any royalty theory",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W21-M3",
+      "item": "Optional: deeper Blockscout pagination / archive node for full fyllo.eth history",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-21 operator worklist"
+}
