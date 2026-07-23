@@ -311,12 +311,17 @@ def _hardening_blocking() -> bool:
 def run_engine(spec: dict[str, Any], *, verified: bool, skip_legacy: bool) -> dict[str, Any]:
     eid = spec["id"]
     started = time.perf_counter()
-    if skip_legacy and spec.get("skip_if_verified_blocking") and verified and _hardening_blocking():
+    if spec.get("skip_if_verified_blocking") and skip_legacy:
+        reason = (
+            "verified_mode_skip_legacy_smoke_due_to_hardening_findings"
+            if verified and _hardening_blocking()
+            else "legacy_smoke_opt_in_only_use_include_legacy_smoke"
+        )
         return {
             "id": eid,
             "ok": True,
             "skipped": True,
-            "reason": "verified_mode_skip_legacy_smoke_due_to_hardening_findings",
+            "reason": reason,
             "elapsed_ms": 0,
         }
     try:

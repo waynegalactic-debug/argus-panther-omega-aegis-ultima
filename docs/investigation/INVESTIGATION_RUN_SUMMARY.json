@@ -9,11 +9,10 @@
   "counts": {
     "adjudicated_total": 0,
     "by_status": {
-      "action_required": 1,
       "done": 1,
       "draft_ready": 2,
-      "open_manual": 3,
-      "partial": 4
+      "open_manual": 1,
+      "partial": 7
     },
     "tracks": 11,
     "true_ubo_asserted": 0
@@ -25,47 +24,47 @@
     "leaves": [
       {
         "id": "custody_sanitize",
-        "sha3_256": "5645ee6d55a0bc1618f453ee2eba239e7fd27083ec9dec95fee16d1f1be60295",
-        "status": "action_required"
+        "sha3_256": "d6722f2225b284d33bf51ec918da25e19debd03c4b3e6d1c145a1586cd2e3d90",
+        "status": "partial"
       },
       {
         "id": "czech_upv_chain_of_title",
-        "sha3_256": "54311b81e102b11ed23aa3f6df5c5809b85beb21dab5dd4058ab3b9ce8276de4",
-        "status": "open_manual"
+        "sha3_256": "e9b2aadc3e99a0b5c06d6b5bddce568930aa1ac0ea1b0a71142cfce08e6fb74e",
+        "status": "partial"
       },
       {
         "id": "uspto_pair_and_wo_integrity",
-        "sha3_256": "36d2fbef13fe74d06da25b6a35ede8bcda1b70ba8ea3f9cc6ccaa8aec95f1b34",
+        "sha3_256": "035f62da2e41f91c83974b6835c15e103e6429f52f80a80db912cc06e30ddb91",
         "status": "partial"
       },
       {
         "id": "ohio_sos_roster_gap",
-        "sha3_256": "a68864735b88bb11069e0160b4f4c701f6ed69685b139cba20de720d15035ae7",
-        "status": "open_manual"
+        "sha3_256": "1efe158b2e8131b464a14ebac97d87f66811f9efbc1e82eda96da434ed7278ed",
+        "status": "partial"
       },
       {
         "id": "illicit_mirror_priority",
-        "sha3_256": "121c924e8d537c93ed90276275446aae47fe2ef1a6b21e1f808e9d05c9f46a6d",
+        "sha3_256": "ae5c0ba4c0e13d0b72b50a4b78a3c8b824f096a9d36ce70667dc70b34096feda",
         "status": "partial"
       },
       {
         "id": "collegefitness_domain_archive",
-        "sha3_256": "e481d03eb413dcd965276c3b4779c78f98d793c6e738d8ca0ef71f7870b7e63b",
+        "sha3_256": "3b13b6f8bd3b2f1100e40391828a8cb1118f1f4f01b49f0242f4e7e4879ae36e",
         "status": "partial"
       },
       {
         "id": "counsel_preservation",
-        "sha3_256": "fc24d625738fc71d7acb5fe91e8c37ed77394c995602741cd6adbc9460d8035e",
+        "sha3_256": "fd5c4a213189c165f9138904c7b5f98e0e3551821c6b704b646bd4425b74c406",
         "status": "draft_ready"
       },
       {
         "id": "salvador_foley_screen",
-        "sha3_256": "b836cb3bde6a86e8e34db0286f695a5cf5c3cbba2092f168723fa24f7489b6ec",
+        "sha3_256": "7c5632276ab3678cde03bc16c6456a463a225255d6d7200e7df9266bfaae4a2b",
         "status": "open_manual"
       },
       {
         "id": "non_ohio_asset_cluster",
-        "sha3_256": "f03898b70a5b0a8eb4df26a54909098a077336641c59402ab8e7d11fc8b6b246",
+        "sha3_256": "e7464e6ba0bfcfd4b211d3ea0b3b11746067e0f91319b7b94dbbed6c72a4b078",
         "status": "partial"
       },
       {
@@ -75,46 +74,44 @@
       },
       {
         "id": "radar_refresh",
-        "sha3_256": "a7fdd9789be8d03648087ba1b515cb669e789a837eec9f9a329c06b9f188130e",
+        "sha3_256": "67d4ed53d9d1e977f06e1783fe728cbdc317d834444d80068237c9b7dc16f576",
         "status": "done"
       }
     ],
-    "root_sha3_512": "27afd2b0fa9f9b262a8dd1281ed6455e3a2a9dd91cef3bb191ca98392283306cc9dbc6133e61aafaf27aecacd811bbda4288571dfd70ac6380153ed618aba1ae"
+    "root_sha3_512": "e76faae49e50623e14aea042b8c57bff436ade89aa7de55e49bad5c73c397931a3b8077f9ea85f615a7320e0280c02d231025ec6011d37f8b1705842ad74801d"
   },
-  "elapsed_ms": 43736,
-  "generated_at": "2026-07-23T00:20:48Z",
+  "elapsed_ms": 40800,
+  "generated_at": "2026-07-23T00:26:58Z",
   "policy": "Systematic investigation execution. Screening \u2260 adjudication. true_ubo_asserted remains 0. Placeholder WO serial not citable. Ohio gap retained without inventing entities.",
-  "seal": "75d831d285a37155cd52abb0219294fef8afa981518b0cdb089c26d00f1feb09",
+  "seal": "9f9451382644eb4b589cadb02eb1aad838d60122896623b3b2bc3320cfaba946",
   "tracks": [
     {
       "adjudicated": false,
-      "elapsed_ms": 0,
+      "elapsed_ms": 140,
       "id": "custody_sanitize",
       "next_actions": [
-        "Strip community-* / getenv secret defaults from hot legacy modules (env-only)",
-        "Export EVIDENCE_HMAC_KEY to a real operator secret (not default-key)",
-        "Re-run consolidator to refresh SHA3-512 custody root + optional HMAC"
+        "Export EVIDENCE_HMAC_KEY for optional HMAC over custody root"
       ],
-      "status": "action_required",
+      "status": "partial",
       "title": "Sanitize evidence custody before referral packaging",
       "track": 0
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 1036,
+      "elapsed_ms": 5301,
       "id": "czech_upv_chain_of_title",
       "next_actions": [
-        "Request certified file history / grant extract from \u00da\u0159ad pr\u016fmyslov\u00e9ho vlastnictv\u00ed",
-        "Hash certified PDF into custody ledger (SHA3-512 leaf)",
-        "Do not assert chain-of-title completeness until certified extract lands"
+        "Request certified Czech grant extract for CZ 283061 (1997-03-15)",
+        "Download full PCT dossier for WO1997033272A1 after probe review",
+        "Hash certified PDFs into custody ledger (SHA3-512 leaf)"
       ],
-      "status": "open_manual",
+      "status": "partial",
       "title": "Authenticate CZ1997 foundational grant at Czech UPV",
       "track": 1
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 3812,
+      "elapsed_ms": 1070,
       "id": "uspto_pair_and_wo_integrity",
       "next_actions": [
         "Operator: download USPTO PDF/XML + assignment reel for each probe_ok pub",
@@ -127,20 +124,20 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 0,
+      "elapsed_ms": 2046,
       "id": "ohio_sos_roster_gap",
       "next_actions": [
-        "Ohio SOS business search for each of the 41 names (articles/agent/status)",
+        "Ohio SOS certified abstracts for all 41 + 2 illicit-mirror tags",
         "Produce unlocated-name residual vs any external claimed-69 list",
         "Never fabricate LLCs to force count=69"
       ],
-      "status": "open_manual",
+      "status": "partial",
       "title": "Ohio SOS bulk pull for 41 LLCs; retain gap 28",
       "track": 3
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 775,
+      "elapsed_ms": 772,
       "id": "illicit_mirror_priority",
       "next_actions": [
         "Obtain Ohio SOS certified abstracts for both entities",
@@ -153,7 +150,7 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 35064,
+      "elapsed_ms": 28562,
       "id": "collegefitness_domain_archive",
       "next_actions": [
         "Export full CDX history + WARC captures for key timestamps",
@@ -166,7 +163,7 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 328,
+      "elapsed_ms": 271,
       "id": "counsel_preservation",
       "next_actions": [
         "Counsel review + send preservation letters",
@@ -179,7 +176,7 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 358,
+      "elapsed_ms": 278,
       "id": "salvador_foley_screen",
       "next_actions": [
         "Certified AZ discipline order first",
@@ -192,7 +189,7 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 2349,
+      "elapsed_ms": 2353,
       "id": "non_ohio_asset_cluster",
       "next_actions": [
         "Order certified abstracts (PR Dept. of State for Ahkeo; trust instruments for BMS series)",
@@ -218,7 +215,7 @@
     },
     {
       "adjudicated": false,
-      "elapsed_ms": 7,
+      "elapsed_ms": 0,
       "id": "radar_refresh",
       "next_actions": null,
       "status": "done",

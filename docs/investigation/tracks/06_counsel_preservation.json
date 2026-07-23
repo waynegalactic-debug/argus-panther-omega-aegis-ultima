@@ -2,14 +2,14 @@
   "adjudicated": false,
   "az_bar_portal_probe": {
     "body_sha3_256": null,
-    "elapsed_ms": 326,
+    "elapsed_ms": 270,
     "error": "HTTPError:404",
     "ok": false,
     "status_code": 404,
     "url": "https://www.azbar.org/for-the-public/lawyer-regulation/"
   },
   "draft_path": "output_artifacts/investigation/PRESERVATION_LETTERS_DRAFT.md",
-  "elapsed_ms": 328,
+  "elapsed_ms": 271,
   "id": "counsel_preservation",
   "matched_ulmer_names": [
     {

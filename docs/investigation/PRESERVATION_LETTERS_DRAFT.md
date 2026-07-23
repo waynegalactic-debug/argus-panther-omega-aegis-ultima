@@ -1,7 +1,7 @@
 # Preservation Letter Drafts (NOT sent)
 
 **Case:** `IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION`  
-**Generated:** `2026-07-23T00:20:45Z`  
+**Generated:** `2026-07-23T00:26:55Z`  
 **Status:** Draft for operator/counsel review — do not auto-send.
 
 ## 1. UB Greensfelder LLP (successor to Ulmer & Berne LLP)

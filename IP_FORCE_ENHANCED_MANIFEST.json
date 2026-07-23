@@ -25,16 +25,16 @@
       "sha256": "7b3a0efe3df123e5cd7cf3b3e035debfae1ca25cc39dc2e40266e8b96f4c0a56"
     },
     "data/public_source_registry.json": {
-      "bytes": 22983,
-      "lines": 663,
+      "bytes": 22997,
+      "lines": 662,
       "path": "data/public_source_registry.json",
-      "sha256": "1ab37180a6b71d074573871d4d29fd30754e400a260e1d2e1aac8f3bbd9fef1f"
+      "sha256": "2a906970813b374d8d1968576cfc583d0251fe8f354de8854f80657bb13735d0"
     },
     "scripts/sync_public_source_registry.py": {
-      "bytes": 13979,
-      "lines": 351,
+      "bytes": 14235,
+      "lines": 362,
       "path": "scripts/sync_public_source_registry.py",
-      "sha256": "3ce856defc58faf1b5a6c8b0bd5c46f48aa3dac4dfb378cdfd4742f0f54088ef"
+      "sha256": "a20fef3dafd14929608e73e11a57ac4b26aa1db07c484cc51d7206fbe72f9014"
     },
     "us_ipforce.py": {
       "bytes": 818,
@@ -49,10 +49,10 @@
       "sha256": "aaee6aa62d46b5444ceb2cbc53e0b8d3d5fc93dac93bbf7f663048273bb6295e"
     },
     "us_ipforce_consolidated_orchestrator.py": {
-      "bytes": 23572,
-      "lines": 682,
+      "bytes": 24055,
+      "lines": 698,
       "path": "us_ipforce_consolidated_orchestrator.py",
-      "sha256": "70489912f8d2f7c5737413cb2c93b62e9bf10b469b7755ac09d087d7d4079d8d"
+      "sha256": "5d8d675d289a4aa882dd6eb5e9300ed0edfb678f5bfa2cf85e3ec7aae30b3c90"
     },
     "us_ipforce_deterministic_all.py": {
       "bytes": 33164,
@@ -112,11 +112,11 @@
   "brand": "IP FORCE",
   "case_id": "IP-FORCE-20260722-CONSOLIDATED-SCALE",
   "consolidation": {
-    "custody_root": "545a14dfb7688f2571c1fcfe9475a6f59d687efbc3342b8afdc4464ba0fa0dc9ab95ae7cbd20936d5b77fa7f6410155f92ec4c72a5797adff469ae750d275127",
+    "custody_root": "dbadb301175b4b5ed48bc2aeab0d564d8a4c7d0452c62a487b3db93b74e0bc896dd44d94f7036c5d09dfea094d4012e0906fb7fa855d6f390389509ed0ec2ab0",
     "orchestrator": "us_ipforce_consolidated_orchestrator.py",
-    "seal": "e79a3961050ee04d00f1b1f09809d0b49d7ba597d6736ac1fb3cc36bfad44018"
+    "seal": "4099c7c065ba306d816c9f48b7e36ad5534da23a3617f6f2683935a7497c1df7"
   },
-  "generated_at": "2026-07-22T23:48:47Z",
+  "generated_at": "2026-07-23T00:26:58Z",
   "generated_utc": "2026-07-15T17:17:48.726502+00:00",
   "manifest_sha256": "2e6e891b6992f00e1fd77edb689b4b55d3d01410611bb7dfafe1e3d636f056bc",
   "package_counts": {

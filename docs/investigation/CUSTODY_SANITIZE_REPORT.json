@@ -1,0 +1,68 @@
+{
+  "dry_run": false,
+  "files": [
+    {
+      "changed": false,
+      "counts": {
+        "community_replaced": 0,
+        "default_key_cleared": 0,
+        "getenv_cleared": 0,
+        "nested_getenv_cleared": 2
+      },
+      "path": "us_ipforce_deterministic_all.py",
+      "sha256_after": null,
+      "sha256_before": "6a4ca6fef3ffbbd32ddac85beb480ce88bc172e5f3b89810035a1aa71e90257a"
+    },
+    {
+      "changed": false,
+      "counts": {
+        "community_replaced": 0,
+        "default_key_cleared": 0,
+        "getenv_cleared": 0,
+        "nested_getenv_cleared": 2
+      },
+      "path": "court_ready_forensic_blueprint.py",
+      "sha256_after": null,
+      "sha256_before": "7b1e4c8e1a994f87b844e85b11f34dae17222cf35d4d71489e38e2dec4516ae1"
+    },
+    {
+      "changed": false,
+      "counts": {
+        "community_replaced": 0,
+        "default_key_cleared": 0,
+        "getenv_cleared": 0,
+        "nested_getenv_cleared": 0
+      },
+      "path": "us_ipforce_abd_maximize.py",
+      "sha256_after": null,
+      "sha256_before": "36e17f2b17e785c704c753512f35e464aeeee0cfb75142d0813217de592ead33"
+    },
+    {
+      "changed": false,
+      "counts": {
+        "community_replaced": 0,
+        "default_key_cleared": 0,
+        "getenv_cleared": 0,
+        "nested_getenv_cleared": 0
+      },
+      "path": "us_ipforce_monolith.py",
+      "sha256_after": null,
+      "sha256_before": "f6725d1950a0f09d790ce24d48218ec8d9867e7c0c483704fae3ac6616686ed5"
+    },
+    {
+      "changed": false,
+      "counts": {
+        "community_replaced": 0,
+        "default_key_cleared": 0,
+        "getenv_cleared": 0,
+        "nested_getenv_cleared": 0
+      },
+      "path": "us_ipforce_monolith_live.py",
+      "sha256_after": null,
+      "sha256_before": "e1d7621e00eef7379e0b3c32cdc5c5f6fa0eda8cc8b1826230e833442b850e33"
+    }
+  ],
+  "files_changed": 0,
+  "generated_at": "2026-07-23T00:26:17Z",
+  "policy": "Credentials from environment only after sanitize. No secrets committed."
+}

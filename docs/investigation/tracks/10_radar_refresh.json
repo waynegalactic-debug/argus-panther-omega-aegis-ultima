@@ -1,8 +1,8 @@
 {
   "adjudicated": false,
-  "elapsed_ms": 7,
+  "elapsed_ms": 0,
   "id": "radar_refresh",
-  "radar_seal": "628857122f4ff131ecfefbdab4c90249f123ad75f990a1ed6044b88b565ca678",
+  "radar_seal": "48b042aa2cc1a6d0412cd86718bd124767cb4287f34c7edfeef7a89398355f99",
   "status": "done",
   "title": "Refresh radar investigation vectors",
   "track": 10

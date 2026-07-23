@@ -1,6 +1,6 @@
 {
   "adjudicated": false,
-  "elapsed_ms": 3812,
+  "elapsed_ms": 1070,
   "id": "uspto_pair_and_wo_integrity",
   "next_actions": [
     "Operator: download USPTO PDF/XML + assignment reel for each probe_ok pub",
@@ -16,7 +16,7 @@
     "wipo_probe": {
       "body_sha3_256": null,
       "bytes": 0,
-      "elapsed_ms": 3104,
+      "elapsed_ms": 419,
       "error": "HTTPError:403",
       "ok": false,
       "status_code": 403,
@@ -29,16 +29,16 @@
         {
           "body_sha3_256": null,
           "bytes": 0,
-          "elapsed_ms": 57,
+          "elapsed_ms": 54,
           "error": "HTTPError:404",
           "ok": false,
           "status_code": 404,
           "url": "https://ppubs.uspto.gov/dirsearch-public/searches/searchWithBeFamily?queryText=20220083955"
         },
         {
-          "body_sha3_256": "cfc008fdb3ce12e70984ec94a06d2d3d5905c86302946f37cc08469b987fbfb6",
+          "body_sha3_256": "ba97f279f4397afba7838105de380255c5050db31b65656749085e16a6232a6f",
           "bytes": 262144,
-          "elapsed_ms": 232,
+          "elapsed_ms": 186,
           "error": null,
           "ok": true,
           "status_code": 200,
@@ -57,7 +57,7 @@
         {
           "body_sha3_256": null,
           "bytes": 0,
-          "elapsed_ms": 57,
+          "elapsed_ms": 54,
           "error": "HTTPError:404",
           "ok": false,
           "status_code": 404,
@@ -66,7 +66,7 @@
         {
           "body_sha3_256": "389e205a417557e873fa20eb252fa3c85342490a4d5df3e8c17aa96bc960a0c5",
           "bytes": 236292,
-          "elapsed_ms": 247,
+          "elapsed_ms": 189,
           "error": null,
           "ok": true,
           "status_code": 200,
@@ -85,7 +85,7 @@
         {
           "body_sha3_256": null,
           "bytes": 0,
-          "elapsed_ms": 57,
+          "elapsed_ms": 59,
           "error": "HTTPError:404",
           "ok": false,
           "status_code": 404,
@@ -94,7 +94,7 @@
         {
           "body_sha3_256": "da170ba8a59364c7b08652ea93c2422e56e5894f4e26c8843468dcbe7169c0cb",
           "bytes": 262144,
-          "elapsed_ms": 221,
+          "elapsed_ms": 187,
           "error": null,
           "ok": true,
           "status_code": 200,

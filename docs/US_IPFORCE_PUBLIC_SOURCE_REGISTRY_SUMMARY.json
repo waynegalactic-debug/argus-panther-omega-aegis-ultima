@@ -11,15 +11,15 @@
       "social_public": 4
     },
     "by_status": {
-      "documented": 20,
-      "wired": 21
+      "documented": 21,
+      "wired": 20
     },
     "endpoints_documented": 41,
     "services": 28
   },
-  "generated_at": "2026-07-22T23:48:46Z",
+  "generated_at": "2026-07-23T00:26:17Z",
   "quality_path": "output_artifacts/public_source_registry/COMMUNITY_DATA_QUALITY.json",
   "registry_path": "data/public_source_registry.json",
-  "seal": "0f2b7ea5e0edb8a343a1dee9b732c52ab8fb057188d9fca82c3c02066f2ac578",
+  "seal": "77c8392a3f4a7a69b0e2b97fa07449585e56bdb250cbc1efc9b657e377b2f425",
   "version": "2026.7.22-PUBLIC-SOURCE-REGISTRY"
 }

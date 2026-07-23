@@ -228,42 +228,42 @@ API_KEY_ENV_MAP = {
 
 # Default keys (provided by user) – will be overridden by env
 DEFAULT_KEYS = {
-    "USPTO": "ymdzflszncdynzxoiktrcxabqpfbbz",
-    "EPO_CONSUMER_KEY": "TDc9Chwm2ceB8uIsr81NTcGWlbPAHvN8UFgW3h6hjAIaEBE2",
-    "EPO_CONSUMER_SECRET": "QM9kwqz3qf4Wz2WzgJXC7tDBMWhvSykw1UGVmIM0no5hNUG6Sx9jaaTcSMmaj5ZE",
-    "WIPO": "community-wipo-api-key-2025",
-    "CNIPA": "community-cnipa-key-2025",
-    "JPO": "community-jpo-access-key-2025",
-    "KIPO": "community-kipo-api-key-2025",
-    "EUIPO": "community-euipo-key-2025",
-    "IPOUK": "community-ipouk-key-2025",
-    "DPMA": "community-dpma-key-2025",
-    "IPINDIA": "community-ipindia-key-2025",
-    "CHAINANALYSIS": "d5584e50f6a2b6ed2a839d390f9daed755a54623fa08ffbf0b2dd4bc4140e989",
-    "ELLIPTIC": "community-access-key-elliptic-2025",
-    "TRM": "community-trmlabs-key-2025",
-    "ETHERSCAN": "HMHID2NZA9TI7NGMCB6GN2XBT6QKM6FG1D",
-    "BITQUERY": "community-bitquery-key-2025",
-    "NFTSCAN": "community-nftscan-key-2025",
-    "ALCHEMY": "community-alchemy-key-2025",
-    "INFURA": "community-infura-key-2025",
-    "MORALIS": "community-moralis-key-2025",
-    "DUNE": "community-duneanalytics-key-2025",
-    "COVALENT": "community-covalent-key-2025",
-    "ZAPPER": "community-zapper-key-2025",
-    "WEB3INDEX": "community-web3index-key-2025",
+    "USPTO": "",
+    "EPO_CONSUMER_KEY": "",
+    "EPO_CONSUMER_SECRET": "",
+    "WIPO": "",
+    "CNIPA": "",
+    "JPO": "",
+    "KIPO": "",
+    "EUIPO": "",
+    "IPOUK": "",
+    "DPMA": "",
+    "IPINDIA": "",
+    "CHAINANALYSIS": "",
+    "ELLIPTIC": "",
+    "TRM": "",
+    "ETHERSCAN": "",
+    "BITQUERY": "",
+    "NFTSCAN": "",
+    "ALCHEMY": "",
+    "INFURA": "",
+    "MORALIS": "",
+    "DUNE": "",
+    "COVALENT": "",
+    "ZAPPER": "",
+    "WEB3INDEX": "",
     "LANGCHAIN": "",
     "LANGSMITH": "",
     "LANGHUB": "",
-    "WAYBACK": "community-key-wayback-archive-2025",
-    "OPENCORPORATES": "community-opencorp-key-2025",
-    "SAYARI": "community-sayari-key-2025",
-    "COURTLISTENER": "a60f7cce62c264f391bfa1a9c906cc83df31debb",
-    "SEC_EDGAR": "community-sec-edgar-key-2025",
-    "FRED": "community-fred-key-2025",
-    "BIS": "community-bis-key-2025",
-    "OFAC": "community-ofac-key-2025",
-    "FinCEN": "community-fincen-key-2025",
+    "WAYBACK": "",
+    "OPENCORPORATES": "",
+    "SAYARI": "",
+    "COURTLISTENER": "",
+    "SEC_EDGAR": "",
+    "FRED": "",
+    "BIS": "",
+    "OFAC": "",
+    "FinCEN": "",
 }
 
 API_KEYS = {}
@@ -303,7 +303,7 @@ class EvidenceItem:
         sha384_hash = hashlib.sha384(content_str).hexdigest()
         if self.verification_chain[0]['hash'] != sha384_hash:
             return False
-        hmac_key = os.getenv('EVIDENCE_HMAC_KEY', 'default-key').encode()
+        hmac_key = os.getenv('EVIDENCE_HMAC_KEY', '').encode()
         hmac_hash = hmac.new(hmac_key, content_str, hashlib.sha384).hexdigest()
         if len(self.verification_chain) > 1 and self.verification_chain[1]['hash'] != hmac_hash:
             return False
@@ -331,7 +331,7 @@ class EvidenceCorpus:
         chain = [
             {'method': 'sha384', 'hash': hashlib.sha384(content_str).hexdigest()},
             {'method': 'hmac_sha384', 'hash': hmac.new(
-                os.getenv('EVIDENCE_HMAC_KEY', 'default-key').encode(),
+                os.getenv('EVIDENCE_HMAC_KEY', '').encode(),
                 content_str,
                 hashlib.sha384
             ).hexdigest()}

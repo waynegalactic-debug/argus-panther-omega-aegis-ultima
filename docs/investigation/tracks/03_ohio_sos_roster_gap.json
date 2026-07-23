@@ -8,7 +8,7 @@
     "non_ohio": 7,
     "ohio_llc_count": 41
   },
-  "elapsed_ms": 0,
+  "elapsed_ms": 2046,
   "gap_memo": "output_artifacts/investigation/OHIO_ROSTER_GAP_MEMO.md",
   "id": "ohio_sos_roster_gap",
   "illicit_mirrors": [
@@ -24,7 +24,7 @@
     }
   ],
   "next_actions": [
-    "Ohio SOS business search for each of the 41 names (articles/agent/status)",
+    "Ohio SOS certified abstracts for all 41 + 2 illicit-mirror tags",
     "Produce unlocated-name residual vs any external claimed-69 list",
     "Never fabricate LLCs to force count=69"
   ],
@@ -71,7 +71,115 @@
     "TESLA ENERGY LLC",
     "SKODA TECHNOLOGIES LLC"
   ],
-  "status": "open_manual",
+  "ohio_portal_probe": {
+    "body_sha3_256": null,
+    "elapsed_ms": 36,
+    "error": "HTTPError:403",
+    "ok": false,
+    "status_code": 403,
+    "url": "https://businesssearch.ohiosos.gov/"
+  },
+  "sample_name_probes": [
+    {
+      "entity_id": "VI-001",
+      "illicit_mirror": false,
+      "name": "\u0160KODA WORKS LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 39,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=%C5%A0KODA%20WORKS%20LLC&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-002",
+      "illicit_mirror": false,
+      "name": "\u0160KODA INNOVATIONS LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 37,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=%C5%A0KODA%20INNOVATIONS%20LLC&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-003",
+      "illicit_mirror": false,
+      "name": "\u0160KODA AEROSPACE LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=%C5%A0KODA%20AEROSPACE%20LLC&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-004",
+      "illicit_mirror": false,
+      "name": "\u0160KODA INTERNATIONAL HOLDINGS GROUP LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 36,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=%C5%A0KODA%20INTERNATIONAL%20HOLDINGS%20GROUP%20LLC&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-005",
+      "illicit_mirror": false,
+      "name": "GENESIS TECHNOLOGIES GROUP",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 34,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=GENESIS%20TECHNOLOGIES%20GROUP&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-046",
+      "illicit_mirror": true,
+      "name": "TESLA MOTORS LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 35,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=TESLA%20MOTORS%20LLC&jurisdiction_code=us_oh"
+      }
+    },
+    {
+      "entity_id": "VI-047",
+      "illicit_mirror": true,
+      "name": "TESLA ENERGY LLC",
+      "opencorporates_oh": {
+        "body_sha3_256": null,
+        "bytes": 0,
+        "elapsed_ms": 38,
+        "error": "HTTPError:403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://opencorporates.com/companies?q=TESLA%20ENERGY%20LLC&jurisdiction_code=us_oh"
+      }
+    }
+  ],
+  "status": "partial",
   "title": "Ohio SOS bulk pull for 41 LLCs; retain gap 28",
   "track": 3
 }

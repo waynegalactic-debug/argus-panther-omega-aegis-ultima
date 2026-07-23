@@ -2,7 +2,7 @@
 
 **Version:** `2026.7.22-CONSOLIDATED-ORCHESTRATOR`  
 **Case ID:** `IP-FORCE-20260722-CONSOLIDATED-SCALE`  
-**Generated (UTC):** `2026-07-22T23:48:47Z`  
+**Generated (UTC):** `2026-07-23T00:26:58Z`  
 **Repository:** `waynegalactic-debug/argus-panther-omega-aegis-ultima`
 
 ## Verdict
@@ -15,14 +15,14 @@ Successor development continues in the Cursor US IPFORCE monorepo.
 
 | Metric | Value |
 |--------|------:|
-| Engines in DAG | 8 |
-| Engines OK | 8 |
+| Engines in DAG | 9 |
+| Engines OK | 9 |
 | Tier-0 endpoints | 41 |
 | Tier-0 probe_ok | 20 |
 | Ohio LLC evidence | 41 |
 | Claimed scope gap | 28 |
-| Max workers | 8 |
-| Custody root | `545a14dfb7688f2571c1fcfe9475a6f5…` |
+| Max workers | 4 |
+| Custody root | `dbadb301175b4b5ed48bc2aeab0d564d…` |
 
 ## Hard constraints
 

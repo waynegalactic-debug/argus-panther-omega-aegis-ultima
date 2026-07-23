@@ -2,11 +2,10 @@
   "brand": "IP FORCE",
   "case_id": "IP-FORCE-20260722-CONSOLIDATED-SCALE",
   "evidence_policy": "Radar tracks are investigation vectors, not adjudications. True-UBO / theft / RICO remain 0 without primary-source corroboration.",
-  "generated_at": "2026-07-23T00:20:48Z",
-  "investigation_case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION",
-  "seal": "628857122f4ff131ecfefbdab4c90249f123ad75f990a1ed6044b88b565ca678",
+  "generated_at": "2026-07-23T00:26:58Z",
+  "seal": "683c32a430732adc331ff11498815a1e1438d6cd74e3183784373b5f32d2abf0",
   "tier0_probe_engine": {
-    "elapsed_ms": 0,
+    "elapsed_ms": 1139,
     "ok": true
   },
   "vectors": [
@@ -26,21 +25,14 @@
       "label": "Tier-0 public source probes",
       "probe_ok": 20,
       "screened": 41,
-      "wired": 1
+      "wired": 0
     },
     {
       "adjudicated": 0,
       "id": "engine_dag",
       "label": "Consolidated engine DAG",
-      "ok": 2,
-      "screened": 2
-    },
-    {
-      "adjudicated": 0,
-      "id": "systematic_investigation",
-      "label": "Systematic investigation tracks",
-      "screened": 10,
-      "status": "in_progress"
+      "ok": 9,
+      "screened": 9
     }
   ],
   "version": "2026.7.22-CONSOLIDATED-ORCHESTRATOR"

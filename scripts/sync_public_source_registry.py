@@ -145,24 +145,35 @@ def build_registry() -> dict[str, Any]:
         )
 
     bc = "https://api.blockchair.com"
-    for eid, path, desc in [
-        ("PUB-CRYPTO-051", "/stats", "Chain stats"),
-        ("PUB-CRYPTO-052", "/tools/halving", "Halving countdown"),
-    ]:
-        endpoints.append(
-            _ep(
-                eid,
-                "Blockchair",
-                "GET",
-                path,
-                desc,
-                auth="none",
-                rate_limit="30/min",
-                category="crypto_public",
-                base_url=bc,
-                status="wired",
-            )
+    endpoints.append(
+        _ep(
+            "PUB-CRYPTO-051",
+            "Blockchair",
+            "GET",
+            "/stats",
+            "Chain stats",
+            auth="none",
+            rate_limit="30/min",
+            category="crypto_public",
+            base_url=bc,
+            status="wired",
         )
+    )
+    # /tools/halving returns 404 on public API — keep documented-only
+    endpoints.append(
+        _ep(
+            "PUB-CRYPTO-052",
+            "Blockchair",
+            "GET",
+            "/tools/halving",
+            "Halving countdown (path stale on public API)",
+            auth="none",
+            rate_limit="30/min",
+            category="crypto_public",
+            base_url=bc,
+            status="documented",
+        )
+    )
 
     # Documented-only families (auth / scraping / paid)
     for eid, service, path, desc, auth, cat in [

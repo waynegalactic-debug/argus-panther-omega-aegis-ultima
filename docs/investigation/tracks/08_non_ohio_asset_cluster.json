@@ -1,6 +1,6 @@
 {
   "adjudicated": false,
-  "elapsed_ms": 2349,
+  "elapsed_ms": 2353,
   "entities": [
     {
       "entity_id": "VI-006",
@@ -60,7 +60,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 35,
+        "elapsed_ms": 36,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,
@@ -75,7 +75,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 36,
+        "elapsed_ms": 35,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,
@@ -90,7 +90,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 35,
+        "elapsed_ms": 34,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,
@@ -105,7 +105,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 37,
+        "elapsed_ms": 34,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,
@@ -135,7 +135,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 32,
+        "elapsed_ms": 37,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,
@@ -150,7 +150,7 @@
       "opencorporates_search": {
         "body_sha3_256": null,
         "bytes": 0,
-        "elapsed_ms": 35,
+        "elapsed_ms": 37,
         "error": "HTTPError:403",
         "ok": false,
         "status_code": 403,

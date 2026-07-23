@@ -1,8 +1,139 @@
 {
   "adjudicated": false,
-  "cdx_snapshots_sample": [],
+  "cdx_expanded": {
+    "body_sha3_256": "3250a2e674e74e8517e7cb4d7b5a8f0193192e0c888aef060a25b1b77a650487",
+    "bytes": 4823,
+    "error": null,
+    "ok": true,
+    "rows": 50,
+    "status_code": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=collegefitness.com&output=json&limit=50&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest&filter=statuscode%3A200&collapse=timestamp%3A6"
+  },
+  "cdx_snapshot_count": 50,
+  "cdx_snapshots_sample": [
+    {
+      "digest": "FCU6JV44WINSJR4GOJKDXG6KO42JF7YA",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20010719153304"
+    },
+    {
+      "digest": "O4JHPSPOEQBYCZXCY7XW5JGT2ZI3TDBW",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20010928224848"
+    },
+    {
+      "digest": "5BASVSWOA75T763KYW3DYOIBGHKPJYTM",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20030920100456"
+    },
+    {
+      "digest": "OJNAETDJNVNP57UQE37NKNTQHBCTPJGU",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20031213115412"
+    },
+    {
+      "digest": "FOIY4W2BQILVR6JUZMZK2GDIFIABMTFL",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20040210044552"
+    },
+    {
+      "digest": "ZTRHL3XLQ34QKJBXAWLIAMJ5JXWMU6KB",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20040331155734"
+    },
+    {
+      "digest": "IHHCSQFGGKQRV4YIU4L5DOKSWENV7ESF",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20040604071634"
+    },
+    {
+      "digest": "BPMTXKX6BFKHMUHX6PSZ7NCAELTBKS7O",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20071126115522"
+    },
+    {
+      "digest": "YMPHJ6NZH4MX7WJNBNL2AJLEIKHOQB23",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20071222205832"
+    },
+    {
+      "digest": "UD2GCALG2MDDBTV5DXD76KWUQ3SPNZ4N",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080212123846"
+    },
+    {
+      "digest": "OKGXX7JCLL2OMEAMSRHW2GG7Y3CPZJYZ",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080314054010"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080416185449"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080616053500"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://www.collegefitness.com/",
+      "status": "200",
+      "timestamp": "20080704053939"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080808062704"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20080910023511"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20081005210400"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20081110233201"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20081220085242"
+    },
+    {
+      "digest": "ISMUNORPV6SVDABV2IF3NBGBIHXCMNU4",
+      "original": "http://collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20090126133912"
+    }
+  ],
   "domain": "collegefitness.com",
-  "elapsed_ms": 35064,
+  "elapsed_ms": 28562,
   "id": "collegefitness_domain_archive",
   "next_actions": [
     "Export full CDX history + WARC captures for key timestamps",
@@ -11,18 +142,18 @@
   ],
   "probes": {
     "rdap": {
-      "body_sha3_256": null,
-      "bytes": 0,
-      "elapsed_ms": 15028,
-      "error": "TimeoutError",
-      "ok": false,
-      "status_code": null,
+      "body_sha3_256": "2bcb0e3d031322b9582f02ff45f5bd819fd31069380cb2b060b464149222b8fc",
+      "bytes": 2585,
+      "elapsed_ms": 59,
+      "error": null,
+      "ok": true,
+      "status_code": 200,
       "url": "https://rdap.org/domain/collegefitness.com"
     },
     "wayback_available": {
       "body_sha3_256": "b544c4d4a5c8bc740a471bd35679bac72e8221b88237bdebddbd71fb93b36921",
       "bytes": 216,
-      "elapsed_ms": 4671,
+      "elapsed_ms": 214,
       "error": null,
       "ok": true,
       "status_code": 200,
@@ -31,7 +162,7 @@
     "wayback_cdx": {
       "body_sha3_256": null,
       "bytes": 0,
-      "elapsed_ms": 15150,
+      "elapsed_ms": 15149,
       "error": "TimeoutError",
       "ok": false,
       "status_code": null,

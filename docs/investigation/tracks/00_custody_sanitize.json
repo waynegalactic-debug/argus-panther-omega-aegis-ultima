@@ -1,19 +1,18 @@
 {
   "adjudicated": false,
-  "elapsed_ms": 0,
+  "elapsed_ms": 140,
   "findings": {
-    "hardening_blocking": 137,
-    "hardening_findings": 145,
+    "hardening_blocking": 0,
+    "hardening_findings": 0,
     "hmac_key_configured": false,
-    "legacy_smoke_policy": "skip_under_verified_mode_when_blocking"
+    "legacy_smoke_policy": "allowed_when_blocking_zero",
+    "sanitize_report": "docs/investigation/CUSTODY_SANITIZE_REPORT.json"
   },
   "id": "custody_sanitize",
   "next_actions": [
-    "Strip community-* / getenv secret defaults from hot legacy modules (env-only)",
-    "Export EVIDENCE_HMAC_KEY to a real operator secret (not default-key)",
-    "Re-run consolidator to refresh SHA3-512 custody root + optional HMAC"
+    "Export EVIDENCE_HMAC_KEY for optional HMAC over custody root"
   ],
-  "status": "action_required",
+  "status": "partial",
   "title": "Sanitize evidence custody before referral packaging",
   "track": 0
 }

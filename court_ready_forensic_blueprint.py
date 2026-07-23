@@ -65,17 +65,17 @@ SEED_SALT = b"COURT_READY_FORENSIC_BLUEPRINT_2026"
 HMAC_KEY = b"COURT_READY_HMAC_KEY_2026"
 
 API_KEYS = {
-    "USPTO": os.getenv("USPTO_ODP_API_KEY", os.getenv("USPTO_KEY", "ymdzflszncdynzxoiktrcxabqpfbbz")),
-    "EPO_CONSUMER_KEY": os.getenv("EPO_CONSUMER_KEY", "TDc9Chwm2ceB8uIsr81NTcGWlbPAHvN8UFgW3h6hjAIaEBE2"),
-    "EPO_CONSUMER_SECRET": os.getenv("EPO_CONSUMER_SECRET", "QM9kwqz3qf4Wz2WzgJXC7tDBMWhvSykw1UGVmIM0no5hNUG6Sx9jaaTcSMmaj5ZE"),
-    "WIPO": os.getenv("WIPO_API_KEY", "community-wipo-api-key-2025"),
-    "CHAINANALYSIS": os.getenv("CHAINANALYSIS_KEY", "d5584e50f6a2b6ed2a839d390f9daed755a54623fa08ffbf0b2dd4bc4140e989"),
-    "TRM": os.getenv("TRMLABS_KEY", os.getenv("TRM_API_KEY", "community-trmlabs-key-2025")),
-    "ETHERSCAN": os.getenv("ETHERSCAN_API_KEY", "HMHID2NZA9TI7NGMCB6GN2XBT6QKM6FG1D"),
-    "OPENCORPORATES": os.getenv("OPENCORPORATES_KEY", "community-opencorp-key-2025"),
-    "SAYARI": os.getenv("SAYARI_API_KEY", "community-sayari-key-2025"),
-    "COURTLISTENER": os.getenv("COURTLISTENER_API_KEY", "a60f7cce62c264f391bfa1a9c906cc83df31debb"),
-    "WAYBACK": os.getenv("WAYBACK_API_KEY", "community-key-wayback-archive-2025"),
+    "USPTO": os.getenv("USPTO_ODP_API_KEY", os.getenv("USPTO_KEY", "")),
+    "EPO_CONSUMER_KEY": os.getenv("EPO_CONSUMER_KEY", ""),
+    "EPO_CONSUMER_SECRET": os.getenv("EPO_CONSUMER_SECRET", ""),
+    "WIPO": os.getenv("WIPO_API_KEY", ""),
+    "CHAINANALYSIS": os.getenv("CHAINANALYSIS_KEY", ""),
+    "TRM": os.getenv("TRMLABS_KEY", os.getenv("TRM_API_KEY", "")),
+    "ETHERSCAN": os.getenv("ETHERSCAN_API_KEY", ""),
+    "OPENCORPORATES": os.getenv("OPENCORPORATES_KEY", ""),
+    "SAYARI": os.getenv("SAYARI_API_KEY", ""),
+    "COURTLISTENER": os.getenv("COURTLISTENER_API_KEY", ""),
+    "WAYBACK": os.getenv("WAYBACK_API_KEY", ""),
 }
 
 SEC_HEADERS = {
@@ -155,7 +155,7 @@ class EvidenceRecord:
         return (
             hashlib.sha384(content_str).hexdigest() == self.sha384
             and hmac.new(
-                os.getenv("EVIDENCE_HMAC_KEY", "default-key").encode(),
+                os.getenv("EVIDENCE_HMAC_KEY", "").encode(),
                 content_str,
                 hashlib.sha384,
             ).hexdigest()
@@ -184,7 +184,7 @@ class CourtReadyEvidenceArchive:
         content_str = json.dumps(content, sort_keys=True).encode()
         sha384 = hashlib.sha384(content_str).hexdigest()
         hmac_sha384 = hmac.new(
-            os.getenv("EVIDENCE_HMAC_KEY", "default-key").encode(),
+            os.getenv("EVIDENCE_HMAC_KEY", "").encode(),
             content_str,
             hashlib.sha384,
         ).hexdigest()

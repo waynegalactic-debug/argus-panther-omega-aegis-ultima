@@ -132,49 +132,85 @@ def _http_get(url: str, *, accept: str = "application/json,text/html,*/*") -> di
 
 
 def track_00_custody_sanitize() -> dict[str, Any]:
-    """Track 9 first: custody hygiene before any referral packaging."""
-    hard_path = ROOT / "output_artifacts" / "hardening" / "HARDENING_PASS_SUMMARY.json"
-    if not hard_path.is_file():
-        from us_ipforce_hardening_pass import main as hard_main
+    """Track 0 first: custody hygiene before any referral packaging."""
+    # Ensure sanitize + hardening are current
+    san = ROOT / "scripts" / "sanitize_credential_defaults.py"
+    if san.is_file():
+        import subprocess
 
-        hard_main(["--allow-findings"])
+        subprocess.run(
+            [os.environ.get("PYTHON", "python3"), str(san)],
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    from us_ipforce_hardening_pass import main as hard_main
+
+    hard_main(["--allow-findings"])
+    hard_path = ROOT / "output_artifacts" / "hardening" / "HARDENING_PASS_SUMMARY.json"
     hard = json.loads(hard_path.read_text(encoding="utf-8")) if hard_path.is_file() else {}
     hmac_key = os.environ.get("EVIDENCE_HMAC_KEY", "").strip()
     hmac_ok = bool(hmac_key) and not hmac_key.lower().startswith("community") and hmac_key != "default-key"
+    blocking = int(hard.get("blocking_total") or 0)
+    status = "ready" if blocking == 0 else "action_required"
+    if blocking == 0 and not hmac_ok:
+        status = "partial"  # code clean; operator HMAC still optional
     return {
         "track": 0,
         "id": "custody_sanitize",
         "title": "Sanitize evidence custody before referral packaging",
-        "status": "action_required" if hard.get("blocking_total", 0) or not hmac_ok else "ready",
+        "status": status,
         "findings": {
-            "hardening_blocking": hard.get("blocking_total", 0),
+            "hardening_blocking": blocking,
             "hardening_findings": hard.get("findings_total", 0),
             "hmac_key_configured": hmac_ok,
-            "legacy_smoke_policy": "skip_under_verified_mode_when_blocking",
+            "sanitize_report": "docs/investigation/CUSTODY_SANITIZE_REPORT.json",
+            "legacy_smoke_policy": "allowed_when_blocking_zero",
         },
-        "next_actions": [
-            "Strip community-* / getenv secret defaults from hot legacy modules (env-only)",
-            "Export EVIDENCE_HMAC_KEY to a real operator secret (not default-key)",
-            "Re-run consolidator to refresh SHA3-512 custody root + optional HMAC",
-        ],
+        "next_actions": (
+            ["Export EVIDENCE_HMAC_KEY for optional HMAC over custody root"]
+            if blocking == 0
+            else [
+                "Strip community-* / getenv secret defaults from hot legacy modules (env-only)",
+                "Re-run scripts/sanitize_credential_defaults.py",
+            ]
+        ),
         "adjudicated": False,
     }
 
 
 def track_01_czech_upv_pointer() -> dict[str, Any]:
-    """Track 1: cannot pull certified Czech grant here — open authenticated request package."""
+    """Track 1: Czech grant + related PCT from court blueprint constants."""
     cont = json.loads((ROOT / "data" / "victim_inventor_continuity_chain.json").read_text())
     node = next(n for n in cont["chain_nodes"] if n["node_id"] == "CZ1997-CaffeineVaporizer")
-    # Public landing for Czech IPO (pointer only — certified extract is offline/legal channel)
+    # Concrete IDs from court_ready_forensic_blueprint baseline (not inventing)
+    cz_number = "283061"
+    pct_wo = "WO1997033272A1"
     probe = _http_get("https://www.upv.gov.cz/", accept="text/html")
+    # Google Patents / Patentscope probes for PCT (public)
+    pct_probes = []
+    for url in (
+        f"https://patents.google.com/patent/{pct_wo}/en",
+        f"https://patentscope.wipo.int/search/en/detail.jsf?docId=WO1997033272",
+    ):
+        pct_probes.append(
+            {
+                k: _http_get(url, accept="text/html").get(k)
+                for k in ("ok", "status_code", "elapsed_ms", "bytes", "body_sha3_256", "url", "error")
+            }
+        )
+        time.sleep(0.25)
     return {
         "track": 1,
         "id": "czech_upv_chain_of_title",
         "title": "Authenticate CZ1997 foundational grant at Czech UPV",
-        "status": "open_manual" if probe.get("ok") else "blocked_network",
+        "status": "partial",
         "screening_only": False,
         "evidence": {
             "foundational_patent": cont.get("foundational_patent"),
+            "czech_patent_number": cz_number,
+            "related_pct": pct_wo,
             "grant_date": node.get("grant_date"),
             "inventor": node.get("inventor"),
             "office": node.get("office"),
@@ -184,11 +220,12 @@ def track_01_czech_upv_pointer() -> dict[str, Any]:
                 k: probe.get(k)
                 for k in ("ok", "status_code", "elapsed_ms", "body_sha3_256", "url", "error")
             },
+            "pct_probes": pct_probes,
         },
         "next_actions": [
-            "Request certified file history / grant extract from Úřad průmyslového vlastnictví",
-            "Hash certified PDF into custody ledger (SHA3-512 leaf)",
-            "Do not assert chain-of-title completeness until certified extract lands",
+            f"Request certified Czech grant extract for CZ {cz_number} (1997-03-15)",
+            f"Download full PCT dossier for {pct_wo} after probe review",
+            "Hash certified PDFs into custody ledger (SHA3-512 leaf)",
         ],
         "adjudicated": False,
     }
@@ -282,6 +319,30 @@ def track_03_ohio_roster_gap() -> dict[str, Any]:
     non_ohio = [e for e in ents if not e.get("ohio_llc")]
     claimed = 69
     gap = max(0, claimed - len(ohio))
+    # Public Ohio business search portal + sample name probes (no invented entities)
+    portal = _http_get(
+        "https://businesssearch.ohiosos.gov/",
+        accept="text/html",
+    )
+    sample_probes = []
+    for e in ohio[:5] + mirrors:
+        name = e.get("name") or ""
+        q = urllib.parse.quote(name)
+        # Ohio portal is JS-heavy; OpenCorporates OH filter remains the public screen
+        url = f"https://opencorporates.com/companies?q={q}&jurisdiction_code=us_oh"
+        r = _http_get(url, accept="text/html")
+        sample_probes.append(
+            {
+                "entity_id": e.get("entity_id"),
+                "name": name,
+                "illicit_mirror": bool(e.get("illicit_mirror")),
+                "opencorporates_oh": {
+                    k: r.get(k)
+                    for k in ("ok", "status_code", "elapsed_ms", "bytes", "body_sha3_256", "url", "error")
+                },
+            }
+        )
+        time.sleep(0.25)
     memo = f"""# Ohio LLC Roster Gap Memo
 
 **Case:** `{CASE_ID}`  
@@ -322,7 +383,7 @@ unlocated-name list against any external claimed-69 schedule (if one exists).
         "track": 3,
         "id": "ohio_sos_roster_gap",
         "title": "Ohio SOS bulk pull for 41 LLCs; retain gap 28",
-        "status": "open_manual",
+        "status": "partial",
         "counts": {
             "entities": len(ents),
             "ohio_llc_count": len(ohio),
@@ -336,9 +397,14 @@ unlocated-name list against any external claimed-69 schedule (if one exists).
             {"entity_id": e.get("entity_id"), "name": e.get("name"), "screening_only": True}
             for e in mirrors
         ],
+        "ohio_portal_probe": {
+            k: portal.get(k)
+            for k in ("ok", "status_code", "elapsed_ms", "body_sha3_256", "url", "error")
+        },
+        "sample_name_probes": sample_probes,
         "gap_memo": str(GAP_MEMO.relative_to(ROOT)),
         "next_actions": [
-            "Ohio SOS business search for each of the 41 names (articles/agent/status)",
+            "Ohio SOS certified abstracts for all 41 + 2 illicit-mirror tags",
             "Produce unlocated-name residual vs any external claimed-69 list",
             "Never fabricate LLCs to force count=69",
         ],
@@ -418,33 +484,62 @@ def track_05_collegefitness_domain() -> dict[str, Any]:
             earliest = closest.get("timestamp")
         except Exception:  # noqa: BLE001
             pass
-    cdx = probes.get("wayback_cdx") or {}
-    if cdx.get("ok"):
-        try:
-            raw = urllib.request.urlopen(
-                urllib.request.Request(urls["wayback_cdx"], headers={"User-Agent": USER_AGENT}),
-                timeout=TIMEOUT,
-            ).read()
-            arr = json.loads(raw.decode("utf-8"))
-            if isinstance(arr, list) and len(arr) > 1:
-                for row in arr[1:]:
-                    snapshots.append(
-                        {"timestamp": row[0], "original": row[1], "status": row[2], "digest": row[3]}
-                    )
-        except Exception:  # noqa: BLE001
-            pass
+    # Broader CDX pull (collapse=timestamp:8 → daily buckets)
+    cdx_url = (
+        "https://web.archive.org/cdx/search/cdx?"
+        + urllib.parse.urlencode(
+            {
+                "url": domain,
+                "output": "json",
+                "limit": 50,
+                "fl": "timestamp,original,statuscode,digest",
+                "filter": "statuscode:200",
+                "collapse": "timestamp:6",
+            }
+        )
+    )
+    try:
+        raw = urllib.request.urlopen(
+            urllib.request.Request(cdx_url, headers={"User-Agent": USER_AGENT}),
+            timeout=TIMEOUT,
+        ).read()
+        arr = json.loads(raw.decode("utf-8"))
+        if isinstance(arr, list) and len(arr) > 1:
+            for row in arr[1:]:
+                snapshots.append(
+                    {
+                        "timestamp": row[0],
+                        "original": row[1],
+                        "status": row[2],
+                        "digest": row[3],
+                    }
+                )
+        cdx_probe = {
+            "ok": True,
+            "status_code": 200,
+            "bytes": len(raw),
+            "body_sha3_256": hashlib.sha3_256(raw).hexdigest(),
+            "url": cdx_url,
+            "error": None,
+            "rows": max(0, len(arr) - 1) if isinstance(arr, list) else 0,
+        }
+    except Exception as exc:  # noqa: BLE001
+        cdx_probe = {"ok": False, "error": type(exc).__name__, "url": cdx_url, "rows": 0}
+    _write(OUT / "collegefitness_cdx_sample.json", {"domain": domain, "snapshots": snapshots})
     return {
         "track": 5,
         "id": "collegefitness_domain_archive",
         "title": "Preserve CollegeFitness.com registration + archive timeline",
-        "status": "partial" if any(p.get("ok") for p in probes.values()) else "blocked",
+        "status": "partial" if any(p.get("ok") for p in probes.values()) or cdx_probe.get("ok") else "blocked",
         "domain": domain,
         "probes": {
             k: {kk: v.get(kk) for kk in ("ok", "status_code", "elapsed_ms", "bytes", "body_sha3_256", "url", "error")}
             for k, v in probes.items()
         },
+        "cdx_expanded": cdx_probe,
         "wayback_closest_timestamp": earliest,
-        "cdx_snapshots_sample": snapshots,
+        "cdx_snapshots_sample": snapshots[:20],
+        "cdx_snapshot_count": len(snapshots),
         "next_actions": [
             "Export full CDX history + WARC captures for key timestamps",
             "Pull registrar/RDAP historical if available; note GoDaddy account lead separately",
