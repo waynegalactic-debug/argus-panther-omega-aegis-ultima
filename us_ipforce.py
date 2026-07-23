@@ -165,6 +165,14 @@ def main(argv: list[str] | None = None) -> int:
             "IP / royalty / patent-NFT token flows"
         ),
     )
+    parser.add_argument(
+        "--investigate-wave28",
+        action="store_true",
+        help=(
+            "Run investigation wave-28 finer multi-tier cyber-dust full update "
+            "across all sealed addresses"
+        ),
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -204,6 +212,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave25,
             args.investigate_wave26,
             args.investigate_wave27,
+            args.investigate_wave28,
         )
     )
     if wave_flags > 1:
@@ -216,7 +225,8 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave15 / --investigate-wave16 / --investigate-wave17 / "
             "--investigate-wave18 / --investigate-wave20 / --investigate-wave21 / "
             "--investigate-wave22 / --investigate-wave23 / --investigate-wave24 / "
-            "--investigate-wave25 / --investigate-wave26 / --investigate-wave27.",
+            "--investigate-wave25 / --investigate-wave26 / --investigate-wave27 / "
+            "--investigate-wave28.",
             file=sys.stderr,
         )
         return 2
@@ -350,6 +360,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave27 import main as wave27_main
 
         return int(wave27_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave28:
+        from us_ipforce_investigation_wave28 import main as wave28_main
+
+        return int(wave28_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main
