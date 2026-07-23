@@ -362,7 +362,11 @@ def ingest_publications(
     for p in pubs:
         if not isinstance(p, dict):
             continue
-        pid = p.get("publication_number") or p.get("id")
+        pid = (
+            p.get("publication_number")
+            or p.get("publication")
+            or p.get("id")
+        )
         if not pid:
             continue
         pvid = f"pub:{pid}"
@@ -372,7 +376,10 @@ def ingest_publications(
             pvid,
             kind="publication",
             publication_number=pid,
-            assignee=p.get("assignee") or p.get("assignees"),
+            assignee=p.get("assignee_field")
+            or p.get("assignee")
+            or p.get("assignees"),
+            title=p.get("title"),
         )
         _add_hyperedge(
             hyperedges,

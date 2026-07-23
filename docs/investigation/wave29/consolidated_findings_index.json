@@ -1,0 +1,674 @@
+{
+  "findings": [
+    {
+      "detail": "Indexed 80 consolidated rows across 27 waves.",
+      "finding_rows": 64,
+      "id": "W29-F1",
+      "index_rows": 80,
+      "title": "All sealed-wave findings ingested into consolidated hypergraph index",
+      "waves_present": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
+  ],
+  "id": "consolidated_findings_index",
+  "rows": [
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W2",
+      "finding_id": null,
+      "seal_prefix": "53e83970eff1ece8",
+      "title": "tracks_only:4",
+      "tracks": [
+        "patent_deep_screen",
+        "ohio_opencorporates_full_screen",
+        "salvador_az_bar_screen",
+        "collegefitness_cdx_span"
+      ],
+      "wave": 2
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W3",
+      "finding_id": null,
+      "seal_prefix": "12cd7e350a96deaa",
+      "title": "tracks_only:3",
+      "tracks": [
+        "patent_primary_quarantine",
+        "court_ready_constant_audit",
+        "continuity_rebuild_candidate"
+      ],
+      "wave": 3
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W4",
+      "finding_id": null,
+      "seal_prefix": "1a6f4ade1d9a2d8d",
+      "title": "tracks_only:2",
+      "tracks": [
+        "google_patents_inventor_title_search",
+        "continuity_candidate_wave4_update"
+      ],
+      "wave": 4
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W5",
+      "finding_id": null,
+      "seal_prefix": "fa8a8a1c46523151",
+      "title": "tracks_only:6",
+      "tracks": [
+        "ahkeo_ohio_cluster_extract",
+        "wave4_assignee_ohio_crosswalk",
+        "uspto_assignment_worklist",
+        "public_surface_probes",
+        "sec_edgar_casters_form_d",
+        "operator_worklist"
+      ],
+      "wave": 5
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W6",
+      "finding_id": null,
+      "seal_prefix": "86efa7a792de6c4e",
+      "title": "tracks_only:5",
+      "tracks": [
+        "mayfield_beta_drive_address_nexus",
+        "bronstein_casters_raw_continuity",
+        "ahkeo_zorday_domain_archives",
+        "salvador_az_bar_refresh",
+        "operator_worklist"
+      ],
+      "wave": 6
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W7",
+      "finding_id": null,
+      "seal_prefix": "b4f06f9bf82febda",
+      "title": "tracks_only:5",
+      "tracks": [
+        "rdap_dns_domain_custody",
+        "upv_epo_patent_surface_blockers",
+        "quarantine_reinforce_and_track01_supersession",
+        "domain_preservation_addendum",
+        "operator_worklist"
+      ],
+      "wave": 7
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W8",
+      "finding_id": null,
+      "seal_prefix": "9267ec32c93513c5",
+      "title": "tracks_only:4",
+      "tracks": [
+        "courtlistener_ahkeo_plurimi_search",
+        "ahkeo_plurimi_recap_exhibits",
+        "counsel_firm_public_presence",
+        "operator_worklist"
+      ],
+      "wave": 8
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W9",
+      "finding_id": null,
+      "seal_prefix": "ad9199e5c0e1e3e3",
+      "title": "tracks_only:4",
+      "tracks": [
+        "delaware_icis_ahkeo_labs",
+        "whois_html_corroboration",
+        "crosswave_delaware_bridge",
+        "operator_worklist"
+      ],
+      "wave": 9
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W10",
+      "finding_id": null,
+      "seal_prefix": "0f5a2239510e4065",
+      "title": "tracks_only:5",
+      "tracks": [
+        "genesis_paste_custody_rejection",
+        "uspto_odp_env_only_attempt",
+        "ohio_foreign_qualification_surfaces",
+        "authenticated_evidence_pack_v1",
+        "operator_worklist"
+      ],
+      "wave": 10
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W11",
+      "finding_id": null,
+      "seal_prefix": "7468d606f4f229ad",
+      "title": "tracks_only:4",
+      "tracks": [
+        "public_surface_refresh",
+        "counsel_preservation_package_v2",
+        "situational_synthesis_top10",
+        "operator_worklist"
+      ],
+      "wave": 11
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W12",
+      "finding_id": null,
+      "seal_prefix": "9b7159bf359f0ef6",
+      "title": "tracks_only:5",
+      "tracks": [
+        "chain_of_custody_ledger",
+        "delaware_certificate_order_path",
+        "ohio_foreign_qualification_worklist",
+        "public_surface_probes",
+        "operator_worklist"
+      ],
+      "wave": 12
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F1",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "ahkeolabs.com May 2017 live brand page — AHKEO LABS, LLC copyright",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F2",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "ahkeolabs.com June 2023 — domain listed for sale",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F3",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "ahkeo.com Jan 2016 titled Ahkeo Holdings (mission site)",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F4",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "collegefitness.com historical social-network branding (2010)",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F5",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "SEC EDGAR: no company match for Ahkeo Labs / Ahkeo",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F6",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "Casters Holdings Inc CIK 0001792675 filings refresh",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+      "finding_id": "W13-F7",
+      "seal_prefix": "8a4e101df70c6369",
+      "title": "Doc.38 Skoda declaration still not in public RECAP storage",
+      "wave": 13
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F1",
+      "seal_prefix": "48663055a8c33570",
+      "title": "Google Patents inventor refresh — Wave-4 portfolio still present",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F2",
+      "seal_prefix": "48663055a8c33570",
+      "title": "Expanded portfolio — 3 publication(s) beyond Wave-4",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F3",
+      "seal_prefix": "48663055a8c33570",
+      "title": "New assignee cluster observed — UrgentRN LLC",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F4",
+      "seal_prefix": "48663055a8c33570",
+      "title": "Caffeine-related publication continuity",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F5",
+      "seal_prefix": "48663055a8c33570",
+      "title": "SAM.gov — no exact Ahkeo Labs entity/exclusion hit",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F6",
+      "seal_prefix": "48663055a8c33570",
+      "title": "Cuyahoga County property portals reachable (6685 Beta Drive path)",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W14",
+      "finding_id": "W14-F7",
+      "seal_prefix": "48663055a8c33570",
+      "title": "USPTO trademark search/TSDR portals reachable; case API gated",
+      "wave": 14
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F1",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "urgentrn.com registered 2020-03-30 (GoDaddy); now Afternic NS",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F2",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "urgentrn.com May 2020 — Urgent Response Network led by Brent Skoda",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F3",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "urgentrn.com Wayback span 2020-05 → 2024-04 (digest-collapsed)",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F4",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "US20220104664A1 — inventor Brent M. Skoda; assignee Urgentrn LLC; priority 2020-05-19",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F5",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "US20180191180A1 — Ahkeo Labs portable charging (filed 2017-01-03)",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+      "finding_id": "W15-F6",
+      "seal_prefix": "56dcf49ef9187d46",
+      "title": "US20250054595A1 — Zorday IP smart mixers (priority 2015-02-19)",
+      "wave": 15
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W16",
+      "finding_id": "W16-F1",
+      "seal_prefix": "a2ae24ff4b08047b",
+      "title": "urgentrn.com contact — 165 Ponce de Leon Ave., STE 201, San Juan PR 00917",
+      "wave": 16
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W16",
+      "finding_id": "W16-F2",
+      "seal_prefix": "a2ae24ff4b08047b",
+      "title": "urgentrn.com media — 2020 PPE partnership press surface",
+      "wave": 16
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W16",
+      "finding_id": "W16-F3",
+      "seal_prefix": "a2ae24ff4b08047b",
+      "title": "urgentrn.com buy — hand sanitizer SKUs (55-gallon drum etc.)",
+      "wave": 16
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W16",
+      "finding_id": "W16-F4",
+      "seal_prefix": "a2ae24ff4b08047b",
+      "title": "US20220104664A1 PDF — Applicant UrgentRN LLC (San Juan, PR); Inventor Brent Skoda (Mayfield Village, OH)",
+      "wave": 16
+    },
+    {
+      "case_id": null,
+      "finding_id": null,
+      "seal_prefix": "",
+      "title": "HLB Puerto Rico LLC publicly lists exact UrgentRN contact suite",
+      "wave": 17
+    },
+    {
+      "case_id": null,
+      "finding_id": null,
+      "seal_prefix": "",
+      "title": "BDO San Juan is same ZIP/avenue corridor, different building number",
+      "wave": 17
+    },
+    {
+      "case_id": null,
+      "finding_id": null,
+      "seal_prefix": "",
+      "title": "Ferraiuoli and Foley do not publicly match 165 STE 201",
+      "wave": 17
+    },
+    {
+      "case_id": null,
+      "finding_id": null,
+      "seal_prefix": "",
+      "title": "Suite 201 is a multi-tenant professional address surface",
+      "wave": 17
+    },
+    {
+      "case_id": null,
+      "finding_id": null,
+      "seal_prefix": "",
+      "title": "No illicit-registration or corruption adjudication from public suite screen",
+      "wave": 17
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
+      "finding_id": "W18-F1",
+      "seal_prefix": "7e7d721bdd1595a2",
+      "title": "Delaware ICIS — Authentic Brands Group primary entities authenticated",
+      "wave": 18
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
+      "finding_id": "W18-F2",
+      "seal_prefix": "7e7d721bdd1595a2",
+      "title": "SEC — Authentic Brands Group Inc. CIK 0001666054 + S-1 holding names",
+      "wave": 18
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
+      "finding_id": "W18-F3",
+      "seal_prefix": "7e7d721bdd1595a2",
+      "title": "No authenticated ABG↔Puerto Rico registered-agent synergy with UrgentRN suite",
+      "wave": 18
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
+      "finding_id": "W18-F4",
+      "seal_prefix": "7e7d721bdd1595a2",
+      "title": "Policy gate — no illicit-registration / corruption adjudication",
+      "wave": 18
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+      "finding_id": "W20-F1",
+      "seal_prefix": "14a537e682d2ae6a",
+      "title": "Casters Holdings Inc. Form D continuum (2019–2023) authenticated",
+      "wave": 20
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+      "finding_id": "W20-F2",
+      "seal_prefix": "14a537e682d2ae6a",
+      "title": "No EDGAR evidence ABG acquired Casters via disclosed or OBS transaction",
+      "wave": 20
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+      "finding_id": "W20-F3",
+      "seal_prefix": "14a537e682d2ae6a",
+      "title": "Adam Arviv authenticated as Casters Holdings Director (Form D 2022–2023)",
+      "wave": 20
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+      "finding_id": "W20-F4",
+      "seal_prefix": "14a537e682d2ae6a",
+      "title": "Arviv↔ABG: GhostRetail commercial co-mention; EDGAR person×ABG = 0",
+      "wave": 20
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+      "finding_id": "W20-F5",
+      "seal_prefix": "14a537e682d2ae6a",
+      "title": "Shared CSC @ 251 Little Falls is mass-market RA coincidence, not commandeering",
+      "wave": 20
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+      "finding_id": "W21-F1",
+      "seal_prefix": "252d1b1527ce2231",
+      "title": "fyllo.eth resolves to EOA 0xE739…E909 (primary ENS erikshani.eth)",
+      "wave": 21
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+      "finding_id": "W21-F2",
+      "seal_prefix": "252d1b1527ce2231",
+      "title": "fyllo.eth EOA shows NFT-marketplace activity; no patent-royalty payment rail authenticated",
+      "wave": 21
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W21",
+      "finding_id": "W21-F3",
+      "seal_prefix": "252d1b1527ce2231",
+      "title": "No authenticated link from fyllo.eth payments to sealed Skoda pubs or alleged 15213/WIPO-190 set",
+      "wave": 21
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+      "finding_id": "W22-F1",
+      "seal_prefix": "0ff458613d8ec26c",
+      "title": "Fyllo ENS cluster collapses to one EOA; ABG ENS cluster is disjoint",
+      "wave": 22
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+      "finding_id": "W22-F2",
+      "seal_prefix": "0ff458613d8ec26c",
+      "title": "Exhaustive Ethereum history for fyllo.eth EOA sealed (first activity → latest)",
+      "wave": 22
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+      "finding_id": "W22-F3",
+      "seal_prefix": "0ff458613d8ec26c",
+      "title": "ABG ENS tip-ten screen: no on-chain fyllo.eth linkage; tip-ten control not adjudicated",
+      "wave": 22
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W22",
+      "finding_id": "W22-F4",
+      "seal_prefix": "0ff458613d8ec26c",
+      "title": "Exhaustive Fyllo chain still does not authenticate royalty rails to sealed/alleged Skoda families",
+      "wave": 22
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+      "finding_id": "W23-F1",
+      "seal_prefix": "ce6dbba362aae640",
+      "title": "90M shells / 90M stealth DAOs / 100% Fortune-universe DAO licensing are corpus constants, not authenticated inventories",
+      "wave": 23
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+      "finding_id": "W23-F2",
+      "seal_prefix": "ce6dbba362aae640",
+      "title": "Authenticated ABG nested entities are order-of-tens, not ninety million shells",
+      "wave": 23
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+      "finding_id": "W23-F3",
+      "seal_prefix": "ce6dbba362aae640",
+      "title": "No authenticated DAO/stealth-DAO licensing rail from ABG to sealed Skoda pubs or Fortune-universe 100% coverage",
+      "wave": 23
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F1",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "Named-participant ENS/address screen: no authenticated fyllo↔participant royalty rail",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F2",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "PMI / Philip Morris entities & personnel expanded; no authenticated Skoda/IP/DAO royalty nexus",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F5",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "Altria personnel/entities/subsidiaries expanded; no authenticated Skoda/IP/DAO royalty nexus",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F6",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "Juul / Pax / Ploom personnel & affiliates exhausted at public-wiki depth; no Skoda/DAO royalty nexus authenticated",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F7",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "Fortune 100 IP-licensing facilitator screen: no authenticated Skoda/DAO rails; Exhibit 21 gap for 99/100",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F3",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "PLA / Lazarus / Sinaloa / GRU cyber-dust nexus remains unauthenticated to screened addresses",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W24",
+      "finding_id": "W24-F4",
+      "seal_prefix": "01e882f1336e2e41",
+      "title": "Professional-enabler overlap: victim-corpus firms not authenticated as hidden counsel for named non-victim participants",
+      "wave": 24
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+      "finding_id": "W25-F1",
+      "seal_prefix": "00d550064566124d",
+      "title": "Victim-inventor IP surfaces for linkage baseline",
+      "wave": 25
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+      "finding_id": "W25-F2",
+      "seal_prefix": "00d550064566124d",
+      "title": "Universal linkage matrix: no authenticated stolen-IP conveyance from screened subjects to sealed Skoda pubs",
+      "wave": 25
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+      "finding_id": "W26-F1",
+      "seal_prefix": "efd7a67c242ea159",
+      "title": "Blockchain transaction flows screened for all sealed addresses (independent of victim-IP corpus)",
+      "wave": 26
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+      "finding_id": "W26-F2",
+      "seal_prefix": "efd7a67c242ea159",
+      "title": "Pairwise combination flows among screened addresses (all values + dust)",
+      "wave": 26
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W26",
+      "finding_id": "W26-F3",
+      "seal_prefix": "efd7a67c242ea159",
+      "title": "DAO / stealth-DAO linkage screen across sealed address flows",
+      "wave": 26
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+      "finding_id": "W27-F1",
+      "seal_prefix": "bdae539b54a5ef2f",
+      "title": "Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows screened across all sealed addresses",
+      "wave": 27
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+      "finding_id": "W27-F2",
+      "seal_prefix": "bdae539b54a5ef2f",
+      "title": "Cross-individual/entity matrix for wrapped/fractional/IP/royalty/patent-NFT token classes",
+      "wave": 27
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W27",
+      "finding_id": "W27-F3",
+      "seal_prefix": "bdae539b54a5ef2f",
+      "title": "Prior-wave dispositions retained after wrapped/fractional/IP token expansion",
+      "wave": 27
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+      "finding_id": "W28-F1",
+      "seal_prefix": "3d7c688324d05f79",
+      "title": "Finer multi-tier cyber-dust screen across all sealed addresses (full update)",
+      "wave": 28
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+      "finding_id": "W28-F2",
+      "seal_prefix": "3d7c688324d05f79",
+      "title": "Pairwise finer cyber-dust edges across all sealed individuals/entities",
+      "wave": 28
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+      "finding_id": "W28-F3",
+      "seal_prefix": "3d7c688324d05f79",
+      "title": "Full update of prior-wave dust dispositions under finer thresholds",
+      "wave": 28
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+      "finding_id": "W29-F1",
+      "seal_prefix": "e0d867377a96b710",
+      "title": "All sealed-wave findings ingested into consolidated hypergraph index",
+      "wave": 29
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+      "finding_id": "W29-F2",
+      "seal_prefix": "e0d867377a96b710",
+      "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
+      "wave": 29
+    },
+    {
+      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
+      "finding_id": "W29-F3",
+      "seal_prefix": "e0d867377a96b710",
+      "title": "Prior-wave negative dispositions retained inside integrated hypergraph",
+      "wave": 29
+    }
+  ],
+  "status": "SEALED",
+  "title": "Consolidated findings index (all waves)"
+}

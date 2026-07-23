@@ -1,0 +1,18 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W29-M1",
+      "item": "Install NVIDIA RAPIDS (cugraph/cupy) in runtime for GPU path; CPU NumPy fallback already sealed",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W29-M2",
+      "item": "Export hypergraph to GraphML/Parquet if downstream GNN tooling required",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-29 operator worklist"
+}
