@@ -44,6 +44,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave30  # top-10 
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave31  # sub-wei / sub-satoshi scale dust
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave32  # all money flows × all IP flows
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave33  # deepen + full update all
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave34  # NFT inventory + all linked images
 US_IPFORCE_VERIFIED_MODE=1 python3 aegis_hyperion.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
@@ -77,6 +78,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave30.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave31.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave32.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave33.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave34.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith
