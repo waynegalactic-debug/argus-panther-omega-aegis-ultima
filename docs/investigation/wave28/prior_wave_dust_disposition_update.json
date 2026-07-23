@@ -1,0 +1,51 @@
+{
+  "findings": [
+    {
+      "id": "W28-F3",
+      "illicit_dust_evasion_adjudicated": false,
+      "threshold_deepening": {
+        "sensitivity_vs_wave26": "fine=1000× ; ultra=1_000_000× ; nano/atomic/single-wei nested",
+        "wave26_wei_lt": 1000000000000,
+        "wave28_fine_wei_lt": 1000000000,
+        "wave28_finest_band": "single_wei (wei==1)",
+        "wave28_ultra_wei_lt": 1000000
+      },
+      "title": "Full update of prior-wave dust dispositions under finer thresholds",
+      "update_note": "Wave-28 supersedes Wave-26 dust sensitivity for detection purposes. Wave-26 legacy aggregate remains recorded for comparison. Wave-27 token-class dispositions unchanged; dust detection deepened only.",
+      "wave26_disposition_retained": {
+        "dao_royalty_rail_authenticated": false,
+        "illicit_combination_network_adjudicated": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_stealth_dao_adjudicated": false,
+        "stealth_dao_network_authenticated": false,
+        "theft_adjudicated": false,
+        "victim_ip_filter_applied": false
+      },
+      "wave26_legacy_dust_total": 62,
+      "wave27_disposition_retained": {
+        "cross_entity_stolen_ip_tokenization_adjudicated": false,
+        "fractionalized_patent_nft_rail_authenticated": false,
+        "fractionalized_patent_nft_to_skoda_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "rap_classified_as_wrapped": true,
+        "theft_adjudicated": false,
+        "tokenized_ip_royalty_rail_authenticated": false,
+        "tokenized_royalty_to_skoda_authenticated": false,
+        "wrapped_fractionalized_stolen_ip_adjudicated": false,
+        "wrapped_rap_rail_authenticated": false,
+        "wrapped_rap_to_skoda_authenticated": false
+      },
+      "wave28_aggregate_tier_totals": {
+        "atomic": 9,
+        "fine": 16,
+        "legacy_w26": 69,
+        "nano": 9,
+        "single_wei": 2,
+        "ultra": 12
+      }
+    }
+  ],
+  "id": "prior_wave_dust_disposition_update",
+  "status": "SEALED",
+  "title": "Prior-wave dust disposition full update"
+}

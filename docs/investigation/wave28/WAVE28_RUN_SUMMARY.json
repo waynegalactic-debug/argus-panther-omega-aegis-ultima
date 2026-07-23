@@ -1,0 +1,307 @@
+{
+  "artifacts": {
+    "dust": "docs/investigation/wave28/fine_cyber_dust_all_addresses.json",
+    "pairs": "docs/investigation/wave28/pairwise_fine_dust_combinations.json",
+    "prior": "docs/investigation/wave28/prior_wave_dust_disposition_update.json",
+    "summary_md": "docs/investigation/WAVE28_FINE_CYBER_DUST_FULL_UPDATE.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W28",
+  "counts": {
+    "addresses_screened": 19,
+    "adjudicated_total": 0,
+    "deepened_fine_lt_1e9_total": 16,
+    "findings": 3,
+    "pairs_with_fine_dust": 0,
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "ultra_lt_1e6_total": 12
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "a89e9c4a07bdcc5f581738c0cbe2f0c9563d5d31ea906002a4188844809c897e",
+    "leaves": [
+      {
+        "id": "fine_cyber_dust_all_addresses",
+        "sha3_256": "4543b8c49d7ac826cad38267470bfeb2ac4feba42afe05eb3ace0335ca973a02",
+        "status": "SEALED"
+      },
+      {
+        "id": "pairwise_fine_dust_combinations",
+        "sha3_256": "a04664310a6ab496154c5fc4b4343e6a7af306d339d232358c7f80579933d61e",
+        "status": "SEALED"
+      },
+      {
+        "id": "prior_wave_dust_disposition_update",
+        "sha3_256": "2ce4852c4dbc901be99dfb0652fc9518a2666f5a46070ed66f89ef4de434d13d",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "d6e3507a1b5e935d72746f5be1773b4f04e48211cf44540fb6229d5e23b1edeb",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "de61bc9fec83c2ebbd13b492d098343aa840abaa776df1979eff666c8310f13e7310bdb7d8e3e0cb908f9fad5b66968993772e16a6664eb1306d2040cd36b6ae"
+  },
+  "disposition": {
+    "fine_threshold_wei_lt": 1000000000,
+    "finest_band": "single_wei",
+    "illicit_dust_evasion_adjudicated": false,
+    "illicit_dust_network_adjudicated": false,
+    "ultra_threshold_wei_lt": 1000000,
+    "wave26_dust_sensitivity_superseded_for_detection": true
+  },
+  "elapsed_ms": 236827,
+  "findings": [
+    {
+      "address_book": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "elonmusk.eth": "0x983110309620D911731Ac0932219af06091b6744",
+        "fyllo.eth": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+        "japantobacco.eth": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+        "jensenhuang.eth": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+        "juul.eth": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+        "juullabs.eth": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+        "njoy.eth": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+        "pax.eth": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+        "paxlabs.eth": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+        "philipmorris.eth": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+        "philipmorrisusa.eth": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+        "ploom.eth": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+        "pmi.eth": "0x516F381d6C94110CDE63F3266B779065525096f7",
+        "pmusa.eth": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+        "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+        "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      "addresses_hitting_page_cap": [
+        "jamiesalter.eth",
+        "vitalik.eth"
+      ],
+      "addresses_screened": 19,
+      "aggregate_tier_totals": {
+        "atomic": 9,
+        "fine": 16,
+        "legacy_w26": 69,
+        "nano": 9,
+        "single_wei": 2,
+        "ultra": 12
+      },
+      "atomic_lt_100_total": 9,
+      "deepened_fine_lt_1e9_total": 16,
+      "detail": "Re-screened 19 sealed labels with deeper pagination (tx≤30, internal≤12) and nested dust tiers from legacy 1e12 down to single-wei. Aggregate tier totals: {'legacy_w26': 69, 'fine': 16, 'ultra': 12, 'nano': 9, 'atomic': 9, 'single_wei': 2}. Wave-26 legacy dust total was 62. Token-dust heuristic hits: 956. Finer detection does NOT adjudicate illicit dust evasion.",
+      "id": "W28-F1",
+      "illicit_dust_evasion_adjudicated": false,
+      "nano_lt_1e3_total": 9,
+      "single_wei_total": 2,
+      "smallest_positive_wei_by_label": [
+        {
+          "label": "elonmusk.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "vitalik.eth",
+          "min_positive_wei": 1
+        },
+        {
+          "label": "juul.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "jensenhuang.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "jamiesalter.eth",
+          "min_positive_wei": 5
+        },
+        {
+          "label": "paxlabs.eth",
+          "min_positive_wei": 20
+        },
+        {
+          "label": "japantobacco.eth",
+          "min_positive_wei": 65112894
+        },
+        {
+          "label": "philipmorris.eth",
+          "min_positive_wei": 2558159762193
+        },
+        {
+          "label": "ploom.eth",
+          "min_positive_wei": 9750000000000
+        },
+        {
+          "label": "philipmorrisusa.eth",
+          "min_positive_wei": 39220000000000
+        },
+        {
+          "label": "njoy.eth",
+          "min_positive_wei": 49772417859153
+        },
+        {
+          "label": "pmi.eth",
+          "min_positive_wei": 68071434163086
+        },
+        {
+          "label": "sama.eth",
+          "min_positive_wei": 100000000000000
+        },
+        {
+          "label": "pmusa.eth",
+          "min_positive_wei": 175953365258701
+        },
+        {
+          "label": "fyllo.eth",
+          "min_positive_wei": 441592773756156
+        }
+      ],
+      "thresholds": [
+        {
+          "description": "0 < wei < 1e12 (~1e-6 ETH) — Wave-26 baseline",
+          "tier": "legacy_w26",
+          "wei_lt": 1000000000000
+        },
+        {
+          "description": "0 < wei < 1e9 (~1e-9 ETH)",
+          "tier": "fine",
+          "wei_lt": 1000000000
+        },
+        {
+          "description": "0 < wei < 1e6 (~1e-12 ETH)",
+          "tier": "ultra",
+          "wei_lt": 1000000
+        },
+        {
+          "description": "0 < wei < 1e3 (~1e-15 ETH)",
+          "tier": "nano",
+          "wei_lt": 1000
+        },
+        {
+          "description": "0 < wei < 100 (sub-100 wei)",
+          "tier": "atomic",
+          "wei_lt": 100
+        },
+        {
+          "description": "wei == 1 (single-wei atomic dust)",
+          "tier": "single_wei",
+          "wei_lt": 2
+        }
+      ],
+      "title": "Finer multi-tier cyber-dust screen across all sealed addresses (full update)",
+      "token_dust_heuristic_total": 956,
+      "ultra_lt_1e6_total": 12,
+      "wave26_legacy_dust_total_retained": 62
+    },
+    {
+      "detail": "Pair space 171; 0 pairs showed any fine/tier dust edge in scanned pages. No illicit dust-network adjudication.",
+      "id": "W28-F2",
+      "illicit_dust_network_adjudicated": false,
+      "pair_space": 171,
+      "pairs_with_any_fine_or_tier_dust": [],
+      "pairs_with_fine_lt_1e9": 0,
+      "pairs_with_ultra_lt_1e6": 0,
+      "title": "Pairwise finer cyber-dust edges across all sealed individuals/entities"
+    },
+    {
+      "id": "W28-F3",
+      "illicit_dust_evasion_adjudicated": false,
+      "threshold_deepening": {
+        "sensitivity_vs_wave26": "fine=1000× ; ultra=1_000_000× ; nano/atomic/single-wei nested",
+        "wave26_wei_lt": 1000000000000,
+        "wave28_fine_wei_lt": 1000000000,
+        "wave28_finest_band": "single_wei (wei==1)",
+        "wave28_ultra_wei_lt": 1000000
+      },
+      "title": "Full update of prior-wave dust dispositions under finer thresholds",
+      "update_note": "Wave-28 supersedes Wave-26 dust sensitivity for detection purposes. Wave-26 legacy aggregate remains recorded for comparison. Wave-27 token-class dispositions unchanged; dust detection deepened only.",
+      "wave26_disposition_retained": {
+        "dao_royalty_rail_authenticated": false,
+        "illicit_combination_network_adjudicated": false,
+        "illicit_dust_evasion_adjudicated": false,
+        "illicit_stealth_dao_adjudicated": false,
+        "stealth_dao_network_authenticated": false,
+        "theft_adjudicated": false,
+        "victim_ip_filter_applied": false
+      },
+      "wave26_legacy_dust_total": 62,
+      "wave27_disposition_retained": {
+        "cross_entity_stolen_ip_tokenization_adjudicated": false,
+        "fractionalized_patent_nft_rail_authenticated": false,
+        "fractionalized_patent_nft_to_skoda_authenticated": false,
+        "illicit_royalty_adjudicated": false,
+        "rap_classified_as_wrapped": true,
+        "theft_adjudicated": false,
+        "tokenized_ip_royalty_rail_authenticated": false,
+        "tokenized_royalty_to_skoda_authenticated": false,
+        "wrapped_fractionalized_stolen_ip_adjudicated": false,
+        "wrapped_rap_rail_authenticated": false,
+        "wrapped_rap_to_skoda_authenticated": false
+      },
+      "wave28_aggregate_tier_totals": {
+        "atomic": 9,
+        "fine": 16,
+        "legacy_w26": 69,
+        "nano": 9,
+        "single_wei": 2,
+        "ultra": 12
+      }
+    }
+  ],
+  "generated_at": "2026-07-23T21:16:33Z",
+  "policy": "Wave-28 substantially deepens cyber-dust detection with nested wei tiers down to single-wei, re-screens all sealed addresses (tx + internal + token heuristics), and fully updates pairwise/prior-wave dust dispositions. No illicit-dust adjudication.",
+  "seal": "3d7c688324d05f79aa3a886700af4559c562a3992faa2afd30145e56dc2276ec",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "fine_cyber_dust_all_addresses",
+      "next_actions": [
+        "Archive-node pagination for page-capped EOAs to exhaust atomic/single-wei dust",
+        "Named dusting contracts if operator asserts intentional dust campaigns"
+      ],
+      "status": "SEALED",
+      "title": "Multi-tier finer cyber-dust screen (all sealed addresses)"
+    },
+    {
+      "adjudicated": false,
+      "id": "pairwise_fine_dust_combinations",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Pairwise finer cyber-dust combinations"
+    },
+    {
+      "adjudicated": false,
+      "id": "prior_wave_dust_disposition_update",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Prior-wave dust disposition full update"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W28-M1",
+          "item": "Archive-node / uncapped pagination for page-capped EOAs to exhaust atomic dust",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W28-M2",
+          "item": "Do not equate finer dust detection with illicit payment-evasion adjudication",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W28-M3",
+          "item": "Supply claimed dusting-contract addresses if intentional campaign theory persists",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-28 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE28"
+}

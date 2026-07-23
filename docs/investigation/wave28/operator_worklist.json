@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W28-M1",
+      "item": "Archive-node / uncapped pagination for page-capped EOAs to exhaust atomic dust",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W28-M2",
+      "item": "Do not equate finer dust detection with illicit payment-evasion adjudication",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W28-M3",
+      "item": "Supply claimed dusting-contract addresses if intentional campaign theory persists",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-28 operator worklist"
+}

@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "detail": "Pair space 171; 0 pairs showed any fine/tier dust edge in scanned pages. No illicit dust-network adjudication.",
+      "id": "W28-F2",
+      "illicit_dust_network_adjudicated": false,
+      "pair_space": 171,
+      "pairs_with_any_fine_or_tier_dust": [],
+      "pairs_with_fine_lt_1e9": 0,
+      "pairs_with_ultra_lt_1e6": 0,
+      "title": "Pairwise finer cyber-dust edges across all sealed individuals/entities"
+    }
+  ],
+  "id": "pairwise_fine_dust_combinations",
+  "pairs": [],
+  "status": "SEALED",
+  "title": "Pairwise finer cyber-dust combinations"
+}
