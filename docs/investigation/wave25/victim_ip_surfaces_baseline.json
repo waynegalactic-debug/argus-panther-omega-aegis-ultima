@@ -1,0 +1,71 @@
+{
+  "findings": [
+    {
+      "alleged_15213_patent_families": {
+        "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+        "value_claimed": 15213
+      },
+      "collegefitness_class": "OPERATOR_OR_CORPUS_DECLARATION — Wave-8/13 corroborate domain history / complaint narrative only; not IP-title adjudication",
+      "collegefitness_corpus_declaration_present": true,
+      "detail": "Linkage baseline remains the sealed Wave-14 set of 15 Google Patents publications under assignees ['Ahkeo Labs, Llc', 'Ahkeo Ventures LLC', 'Brent M. Skoda', 'UrgentRN LLC', 'Zorday IP, LLC']. Alleged 15,213 families / WIP-0194 remain unauthenticated. No theft adjudication in this wave.",
+      "foundational_cz1997_status": "OPEN_MANUAL_STILL_UNVERIFIED",
+      "id": "W25-F1",
+      "sealed_assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "sealed_authenticated_publication_count": 15,
+      "sealed_publication_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "theft_adjudicated": false,
+      "title": "Victim-inventor IP surfaces for linkage baseline",
+      "victim_inventor": "Brent Michael Škoda",
+      "wip_0194_or_wipo_190": {
+        "artifact_located_under_docs_investigation": false,
+        "status": "ALLEGED_OR_UNLOCATED_LABEL"
+      }
+    }
+  ],
+  "id": "victim_ip_surfaces_baseline",
+  "portfolio_source": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+  "status": "SEALED",
+  "title": "Victim-inventor sealed IP surfaces (linkage baseline)"
+}

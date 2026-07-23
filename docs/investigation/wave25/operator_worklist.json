@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W25-M1",
+      "item": "USPTO_API_KEY assignments for Wave-14 15-pub set",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W25-M2",
+      "item": "Supply WIP-0194 artifact if alleging linkage beyond sealed 15 pubs",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W25-M3",
+      "item": "Counsel-only review of collegefitness misappropriation declaration vs Meta",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-25 operator worklist"
+}

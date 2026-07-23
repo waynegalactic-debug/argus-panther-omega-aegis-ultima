@@ -1,0 +1,234 @@
+{
+  "artifacts": {
+    "baseline": "docs/investigation/wave25/victim_ip_surfaces_baseline.json",
+    "matrix": "docs/investigation/wave25/universal_victim_ip_linkage_matrix.json",
+    "summary_md": "docs/investigation/WAVE25_UNIVERSAL_VICTIM_IP_LINKAGE.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W25",
+  "counts": {
+    "adjudicated_total": 0,
+    "authenticated_links_to_sealed_pubs": 0,
+    "findings": 2,
+    "matrix_rows": 27,
+    "tracks": 3,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "46870efc5a4cd0541e1612b67c5552f126b474067f50115c8550ac0d97dd3991",
+    "leaves": [
+      {
+        "id": "victim_ip_surfaces_baseline",
+        "sha3_256": "06a0289cf540eaf744a6bc04dcc61299bbf769d3b79160a5aabb91a310e8010e",
+        "status": "SEALED"
+      },
+      {
+        "id": "universal_victim_ip_linkage_matrix",
+        "sha3_256": "d3d4fd9f0fa86f0ba0395d27b2452f0f1be531e4529baa9cb8eea5d61ba341d5",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "a7ac9017421b2ba9378f0a153ca539f46200b551511cdf1ee87a4561503c9718",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "f376421f6867b04af740fa5308336c4141cb20ca92e2363059efe6b38b79225281f938273b724adda8a149255d99fe92b148cf1d59af331d0ddfc4d34cfc5417"
+  },
+  "disposition": {
+    "alleged_15213_authenticated": false,
+    "illicit_royalty_adjudicated": false,
+    "stolen_ip_link_universally_authenticated": false,
+    "theft_adjudicated": false,
+    "wip_0194_artifact_located": false
+  },
+  "elapsed_ms": 4,
+  "findings": [
+    {
+      "alleged_15213_patent_families": {
+        "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+        "value_claimed": 15213
+      },
+      "collegefitness_class": "OPERATOR_OR_CORPUS_DECLARATION — Wave-8/13 corroborate domain history / complaint narrative only; not IP-title adjudication",
+      "collegefitness_corpus_declaration_present": true,
+      "detail": "Linkage baseline remains the sealed Wave-14 set of 15 Google Patents publications under assignees ['Ahkeo Labs, Llc', 'Ahkeo Ventures LLC', 'Brent M. Skoda', 'UrgentRN LLC', 'Zorday IP, LLC']. Alleged 15,213 families / WIP-0194 remain unauthenticated. No theft adjudication in this wave.",
+      "foundational_cz1997_status": "OPEN_MANUAL_STILL_UNVERIFIED",
+      "id": "W25-F1",
+      "sealed_assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "sealed_authenticated_publication_count": 15,
+      "sealed_publication_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "theft_adjudicated": false,
+      "title": "Victim-inventor IP surfaces for linkage baseline",
+      "victim_inventor": "Brent Michael Škoda",
+      "wip_0194_or_wipo_190": {
+        "artifact_located_under_docs_investigation": false,
+        "status": "ALLEGED_OR_UNLOCATED_LABEL"
+      }
+    },
+    {
+      "authenticated_onchain_or_traditional_links_to_sealed_pubs": 0,
+      "detail": "Cross-referenced 27 subjects spanning participants, Fyllo/ABG, PMI/Altria/Juul-Pax-Ploom, Fortune 100, monolith constants, threat-actor claims, and victim-corpus enabler firms against the sealed 15-pub Skoda portfolio. Authenticated on-chain or traditional license links to those pubs: 0. Zuckerberg/collegefitness and state-actor/enabler rows remain corpus declarations only. Alleged 15,213 / WIP-0194 links remain unauthenticated. No theft adjudication.",
+      "id": "W25-F2",
+      "illicit_royalty_adjudicated": false,
+      "linkage_class_counts": {
+        "COMMERCIAL_CO_MENTION_OR_NEGATIVE_EDGAR": 1,
+        "CORPORATE_HISTORY_NEXUS_NOT_IP_LICENSE": 1,
+        "CORPUS_CONSTANT_NOT_EVIDENCE": 1,
+        "CORPUS_DECLARATION_ONLY": 1,
+        "CORPUS_DECLARATION_OR_UNLOCATED_NO_ADDRESS_TIE": 4,
+        "NONE_AUTHENTICATED_TO_SEALED_SKODA_PUBS": 9,
+        "OPEN_EXHIBIT_21_GAP_NO_AUTHENTICATED_SKODA_LICENSE": 1,
+        "VICTIM_CORPUS_ENABLER_NOT_PROVEN_IP_THIEF": 9
+      },
+      "matrix_row_count": 27,
+      "prior_wave_dispositions": {
+        "wave21": {
+          "alleged_15213_authenticated": false,
+          "cyber_dust_illicit_flow_adjudicated": false,
+          "fyllo_eth_resolved": true,
+          "royalty_linked_to_stolen_families_adjudicated": false,
+          "royalty_payment_adjudicated": false,
+          "theft_adjudicated": false,
+          "wip_0194_artifact_located": false
+        },
+        "wave22": {
+          "abg_as_ip_payment_conduit_adjudicated": false,
+          "abg_fyllo_commandeering_adjudicated": false,
+          "alleged_15213_authenticated": false,
+          "cyber_dust_illicit_flow_adjudicated": false,
+          "fyllo_history_exhausted_ethereum": true,
+          "royalty_linked_to_stolen_families_adjudicated": false,
+          "royalty_payment_adjudicated": false,
+          "theft_adjudicated": false,
+          "tip_ten_illicit_control_adjudicated": false,
+          "wip_0194_artifact_located": false
+        },
+        "wave23": {
+          "approx_100_percent_corporate_licensing_authenticated": false,
+          "dao_licensing_to_stolen_ip_adjudicated": false,
+          "fortune_5000_coverage_authenticated": false,
+          "global_2000_coverage_authenticated": false,
+          "hidden_global_shell_inventory_authenticated": false,
+          "illicit_monetization_front_adjudicated": false,
+          "illicit_monetization_via_dao_adjudicated": false,
+          "ninety_million_shells_authenticated": false,
+          "sp500_and_beyond_coverage_authenticated": false,
+          "stealth_dao_licensing_adjudicated": false,
+          "theft_adjudicated": false
+        },
+        "wave24": {
+          "altria_stolen_ip_royalty_adjudicated": false,
+          "cyber_dust_illicit_evasion_adjudicated": false,
+          "fortune_100_blockchain_royalty_link_authenticated": false,
+          "fortune_100_dao_licensing_authenticated": false,
+          "fortune_100_ip_licensing_census_authenticated": false,
+          "hidden_blockchain_royalty_adjudicated": false,
+          "hidden_legal_representation_adjudicated": false,
+          "illicit_licensing_facilitation_adjudicated": false,
+          "illicit_participant_adjudicated": false,
+          "juul_pax_ploom_stolen_ip_royalty_adjudicated": false,
+          "pmi_dao_licensing_adjudicated": false,
+          "pmi_stolen_ip_royalty_adjudicated": false,
+          "professional_enabler_adjudicated": false,
+          "shared_enabler_corruption_adjudicated": false,
+          "state_actor_cartel_nexus_adjudicated": false,
+          "theft_adjudicated": false
+        }
+      },
+      "stolen_ip_link_universally_authenticated": false,
+      "theft_adjudicated": false,
+      "title": "Universal linkage matrix: no authenticated stolen-IP conveyance from screened subjects to sealed Skoda pubs"
+    }
+  ],
+  "generated_at": "2026-07-23T16:44:31Z",
+  "policy": "Wave-25 universally cross-references Wave 21–24 subjects against the sealed Skoda publication set and alleged stolen-family claims. No theft or illicit-royalty adjudication.",
+  "seal": "00d550064566124d7dd2bcdebec33413d0f53d960c8925056f0646fea3549814",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "victim_ip_surfaces_baseline",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Victim-inventor sealed IP surfaces (linkage baseline)"
+    },
+    {
+      "adjudicated": false,
+      "id": "universal_victim_ip_linkage_matrix",
+      "next_actions": [
+        "USPTO assignment API for sealed 15 pubs before any conveyance theory",
+        "Exhibit 21 batch for Fortune 100 / Altria / PMI if IP-holdco census required",
+        "Do not upgrade corpus declarations into theft adjudications"
+      ],
+      "status": "SEALED",
+      "title": "Universal linkage matrix vs victim-inventor IP"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W25-M1",
+          "item": "USPTO_API_KEY assignments for Wave-14 15-pub set",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W25-M2",
+          "item": "Supply WIP-0194 artifact if alleging linkage beyond sealed 15 pubs",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W25-M3",
+          "item": "Counsel-only review of collegefitness misappropriation declaration vs Meta",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-25 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE25"
+}
