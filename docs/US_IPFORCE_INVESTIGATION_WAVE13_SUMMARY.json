@@ -1,0 +1,202 @@
+{
+  "artifacts": {
+    "cdx": "docs/investigation/wave13/wayback_cdx_index.json",
+    "sec": "docs/investigation/wave13/sec_edgar_surfaces.json",
+    "snapshots": "docs/investigation/wave13/wayback_snapshot_extracts.json",
+    "summary_md": "docs/investigation/WAVE13_WAYBACK_SEC_CUSTODY.md",
+    "timeline": "docs/investigation/wave13/authenticated_timeline_synthesis.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 7,
+    "snapshots_ok": 7,
+    "timeline_events": 10,
+    "tracks": 6,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "21f34287c041fc7044dec58dbb0db93cd8372b7f9b6f4e7c61316e56b5f3e0af",
+    "leaves": [
+      {
+        "id": "wayback_cdx_index",
+        "sha3_256": "4c028172f6c24369cfe2003a6004ffcab08f3a6f9ea8d9f4fed37774dc23c6ac",
+        "status": "SEALED"
+      },
+      {
+        "id": "wayback_snapshot_extracts",
+        "sha3_256": "023039650743a11bd5cd9c1ed679539fd68a33857c8805954ef4a025dde27b81",
+        "status": "SEALED"
+      },
+      {
+        "id": "sec_edgar_surfaces",
+        "sha3_256": "f18bd469eda1d8e127c192811845a050ca412c62b5950a31425a5185a1c5bfd8",
+        "status": "SEALED"
+      },
+      {
+        "id": "doc38_and_api_blockers",
+        "sha3_256": "1498d8fef5bed338d850d006390df33b9d3356cf30e0b31eea3f9ea0520c2c9a",
+        "status": "BLOCKED_PUBLIC"
+      },
+      {
+        "id": "authenticated_timeline_synthesis",
+        "sha3_256": "5f80f7ff61204deb4e855754b37ad6f23d2421c452118848786258474522da00",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "eb5bbd2dee49ac26ac893a917641e75b49225985be43e2e725b171625e04901f",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "63aba4e965bfd28c91c9c2d76ac2a7e9dee8872ce7753bdba94db8195e716cb180897276d94573aff5b6266e41e7772697b4fdbbf29719ff89bab9f14cdbc096"
+  },
+  "elapsed_ms": 16519,
+  "findings": [
+    {
+      "copyright_lines": [
+        "COPYRIGHT \u00a9 2017 AHKEO LABS, LLC"
+      ],
+      "detail": "Contemporaneous with Ahkeo Labs LLC v. Plurimi (complaint filed 2017-06-14) and after DE formation 2016-07-14 (file 6096179).",
+      "id": "W13-F1",
+      "page_title": "Ahkeo Labs",
+      "severity": "wayback_snapshot",
+      "sha3_256": "e4489ec98ea13e09f4340fef4fbe4af06eb23a854ed4130a0fcf231acbe835bc",
+      "timestamp": "20170502091214",
+      "title": "ahkeolabs.com May 2017 live brand page \u2014 AHKEO LABS, LLC copyright",
+      "wayback_url": "https://web.archive.org/web/20170502091214id_/http://ahkeolabs.com:80/"
+    },
+    {
+      "detail": "Pre-dates Wave-7 RDAP finding that ahkeolabs.com is a 2026 DropCatch / NameBright capture. Historical brand content ended before DropCatch.",
+      "id": "W13-F2",
+      "page_title": "The domain name ahkeolabs.com is for sale",
+      "severity": "wayback_snapshot",
+      "sha3_256": "4ad294ab2f78c06a3d427541258a41f3c550120b2c0db96f6161434814159905",
+      "timestamp": "20230611132051",
+      "title": "ahkeolabs.com June 2023 \u2014 domain listed for sale",
+      "wayback_url": "https://web.archive.org/web/20230611132051id_/https://ahkeolabs.com/"
+    },
+    {
+      "detail": "Public marketing copy describes Ahkeo Holdings as a finance / development / growth engine focused on breakthrough technologies. Not an SEC issuer match (see SEC track). Not a patent grant.",
+      "id": "W13-F3",
+      "keyword_hits": {
+        "ahkeo": true,
+        "beta drive": false,
+        "caffeine": false,
+        "cannabis": false,
+        "college": false,
+        "copyright": true,
+        "holdings": true,
+        "labs": true,
+        "mayfield": false,
+        "plurimi": false,
+        "skoda": false,
+        "vapor": true
+      },
+      "page_title": "Ahkeo Holdings",
+      "severity": "wayback_snapshot",
+      "sha3_256": "ac6d7b2e41c28984d5a54c441b7341b308f779ee118ef54a4959fbf34360ac6d",
+      "timestamp": "20160109121513",
+      "title": "ahkeo.com Jan 2016 titled Ahkeo Holdings (mission site)",
+      "wayback_url": "https://web.archive.org/web/20160109121513id_/http://ahkeo.com/"
+    },
+    {
+      "detail": "Corroborates Wave-8 opinion narrative that Skoda previously pitched collegefitness.com \u2014 domain history exists; does not prove ownership chain without WHOIS/registrar records.",
+      "id": "W13-F4",
+      "page_title": "The World's Fittest Social Network - College Fitness",
+      "severity": "wayback_snapshot",
+      "sha3_256": "515b2bbfd223a433d62ac682c01b495132635864e510e482724dffb4eb84632b",
+      "timestamp": "20100410043616",
+      "title": "collegefitness.com historical social-network branding (2010)",
+      "wayback_url": "https://web.archive.org/web/20100410043616id_/http://www.collegefitness.com:80/"
+    },
+    {
+      "ahkeo_labs_no_match": null,
+      "ahkeo_no_match": null,
+      "detail": "browse-edgar company search returned 'No matching companies' for 'Ahkeo Labs' and 'Ahkeo'. Consistent with Wave-12 SEC probe. Ahkeo Labs LLC does not appear as an SEC registrant under those names.",
+      "id": "W13-F5",
+      "severity": "sec_edgar",
+      "title": "SEC EDGAR: no company match for Ahkeo Labs / Ahkeo"
+    },
+    {
+      "detail": "data.sec.gov submissions JSON reachable; corroborates Wave-5 Form D issuer continuity. Brent Skoda role remains as previously sealed in accession 0000897069-19-000500 \u2014 not re-adjudicated here.",
+      "filing_count_recent": null,
+      "id": "W13-F6",
+      "name": null,
+      "ok": false,
+      "severity": "sec_data",
+      "sha3_256": null,
+      "title": "Casters Holdings Inc CIK 0001792675 filings refresh"
+    },
+    {
+      "detail": "storage.courtlistener.com paths for gov.uscourts.ohnd.234561.38.* returned not-found / forbidden. PACER pull remains operator path. CourtListener REST API requires token (unset).",
+      "id": "W13-F7",
+      "title": "Doc.38 Skoda declaration still not in public RECAP storage"
+    }
+  ],
+  "generated_at": "2026-07-23T01:40:10Z",
+  "policy": "Wave-13 seals Wayback historical web custody and SEC negative/Casters refresh. No paid WHOIS. No theft/RICO/UBO adjudication.",
+  "seal": "8a4e101df70c6369d538a3c45088bd0433db2014842eeb7dc58a0d8f527fb0ff",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "wayback_cdx_index",
+      "next_actions": [
+        "Paid DomainTools/WhoisXML for registrant history pre-2026 DropCatch"
+      ],
+      "status": "SEALED",
+      "title": "Wayback CDX digest-collapsed index (ahkeo / ahkeolabs / collegefitness)"
+    },
+    {
+      "adjudicated": false,
+      "id": "wayback_snapshot_extracts",
+      "next_actions": [
+        "Counsel may attach W13-F1 copyright snapshot to preservation package",
+        "Paid historical WHOIS still required for registrant chain"
+      ],
+      "status": "SEALED",
+      "title": "Wayback raw snapshot extracts (titles, copyright, excerpts)"
+    },
+    {
+      "adjudicated": false,
+      "id": "sec_edgar_surfaces",
+      "next_actions": [
+        "No Ahkeo Labs Form D expected under that name; keep Casters as SEC nexus"
+      ],
+      "status": "SEALED",
+      "title": "SEC EDGAR Ahkeo negative search + Casters Holdings refresh"
+    },
+    {
+      "adjudicated": false,
+      "id": "doc38_and_api_blockers",
+      "next_actions": [
+        "PACER: download Doc.38 if counsel needs Skoda declaration",
+        "Optional: set COURTLISTENER_API_TOKEN for docket-entry enumeration"
+      ],
+      "status": "BLOCKED_PUBLIC",
+      "title": "Ahkeo Doc.38 RECAP availability + API gate status"
+    },
+    {
+      "adjudicated": false,
+      "id": "authenticated_timeline_synthesis",
+      "next_actions": [
+        "Insert DE Certificate of Status date when operator orders 6096179"
+      ],
+      "status": "SEALED",
+      "title": "Authenticated cross-wave timeline (web + DE + litigation + SEC)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        "Operator paid DE certs remain highest authentication gap"
+      ],
+      "status": "OPEN",
+      "title": "Wave-13 operator priority worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE13"
+}

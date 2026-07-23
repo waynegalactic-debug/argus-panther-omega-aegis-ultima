@@ -1,0 +1,66 @@
+{
+  "adjudicated": false,
+  "events": [
+    {
+      "date": "2001-07",
+      "event": "collegefitness.com Wayback capture (under construction \u2192 later social network)",
+      "source": "W13 wayback collegefitness"
+    },
+    {
+      "date": "2011-03",
+      "event": "ahkeo.com early Wayback title 'Ahkeo'",
+      "source": "W13-F3 precursor snapshot ahkeo_2011_early"
+    },
+    {
+      "date": "2016-01",
+      "event": "ahkeo.com titled 'Ahkeo Holdings' mission site",
+      "source": "W13-F3"
+    },
+    {
+      "date": "2016-07-14",
+      "event": "AHKEO LABS, LLC formed Delaware file 6096179",
+      "source": "Wave-9 DE ICIS"
+    },
+    {
+      "date": "2017-05-02",
+      "event": "ahkeolabs.com live \u2014 copyright \u00a9 2017 AHKEO LABS, LLC",
+      "source": "W13-F1"
+    },
+    {
+      "date": "2017-06-14",
+      "event": "Ahkeo Labs LLC v. Plurimi complaint filed (N.D. Ohio)",
+      "source": "Wave-8 RECAP Doc.1"
+    },
+    {
+      "date": "2018-02-27",
+      "event": "Dismissed for lack of personal jurisdiction (293 F. Supp. 3d 741)",
+      "source": "Wave-8 opinion"
+    },
+    {
+      "date": "2019",
+      "event": "Casters Holdings Form D \u2014 Brent Skoda EO at 6685 Beta Drive",
+      "source": "Wave-5 SEC"
+    },
+    {
+      "date": "2023-06",
+      "event": "ahkeolabs.com Wayback \u2014 domain for sale page",
+      "source": "W13-F2"
+    },
+    {
+      "date": "2026",
+      "event": "ahkeo.com / ahkeolabs.com RDAP \u2014 DropCatch / NameBright",
+      "source": "Wave-7 RDAP"
+    }
+  ],
+  "generated_at": "2026-07-23T01:40:10Z",
+  "id": "authenticated_timeline_synthesis",
+  "next_actions": [
+    "Insert DE Certificate of Status date when operator orders 6096179"
+  ],
+  "policy": "Timeline is evidence sequencing only \u2014 not a finding of theft, RICO, or beneficial ownership.",
+  "sec_findings": 2,
+  "snapshot_findings": 4,
+  "status": "SEALED",
+  "title": "Authenticated cross-wave timeline (web + DE + litigation + SEC)",
+  "true_ubo_asserted": 0
+}

@@ -1,0 +1,43 @@
+{
+  "env_gates": {
+    "COURTLISTENER_API_TOKEN": false,
+    "OPENCORPORATES_API_KEY": false,
+    "USPTO_API_KEY": false
+  },
+  "finding": {
+    "detail": "storage.courtlistener.com paths for gov.uscourts.ohnd.234561.38.* returned not-found / forbidden. PACER pull remains operator path. CourtListener REST API requires token (unset).",
+    "id": "W13-F7",
+    "title": "Doc.38 Skoda declaration still not in public RECAP storage"
+  },
+  "generated_at": "2026-07-23T01:40:10Z",
+  "id": "doc38_and_api_blockers",
+  "next_actions": [
+    "PACER: download Doc.38 if counsel needs Skoda declaration",
+    "Optional: set COURTLISTENER_API_TOKEN for docket-entry enumeration"
+  ],
+  "probes": {
+    "cl_html_38": {
+      "bytes": 8000,
+      "error": null,
+      "ok": true,
+      "status": 200,
+      "url": "https://www.courtlistener.com/docket/6112063/38/ahkeo-labs-llc-v-plurimi-investment-managers-llp/"
+    },
+    "recap_storage_38_0": {
+      "bytes": null,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "ok": false,
+      "status": null,
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.38.0.pdf"
+    },
+    "recap_storage_38_1": {
+      "bytes": null,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "ok": false,
+      "status": null,
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.38.1.pdf"
+    }
+  },
+  "status": "BLOCKED_PUBLIC",
+  "title": "Ahkeo Doc.38 RECAP availability + API gate status"
+}

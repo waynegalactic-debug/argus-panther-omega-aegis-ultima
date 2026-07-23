@@ -92,6 +92,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-12 chain-of-custody ledger + DE cert paths",
     )
+    parser.add_argument(
+        "--investigate-wave13",
+        action="store_true",
+        help="Run investigation wave-13 Wayback custody + SEC surfaces",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -117,6 +122,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave10,
             args.investigate_wave11,
             args.investigate_wave12,
+            args.investigate_wave13,
         )
     )
     if wave_flags > 1:
@@ -125,7 +131,7 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave3 / --investigate-wave4 / --investigate-wave5 / "
             "--investigate-wave6 / --investigate-wave7 / --investigate-wave8 / "
             "--investigate-wave9 / --investigate-wave10 / --investigate-wave11 / "
-            "--investigate-wave12.",
+            "--investigate-wave12 / --investigate-wave13.",
             file=sys.stderr,
         )
         return 2
@@ -189,6 +195,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave12 import main as wave12_main
 
         return int(wave12_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave13:
+        from us_ipforce_investigation_wave13 import main as wave13_main
+
+        return int(wave13_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

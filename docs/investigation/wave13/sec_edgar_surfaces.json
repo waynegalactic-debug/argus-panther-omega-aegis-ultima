@@ -1,0 +1,57 @@
+{
+  "adjudicated": false,
+  "findings": [
+    {
+      "ahkeo_labs_no_match": null,
+      "ahkeo_no_match": null,
+      "detail": "browse-edgar company search returned 'No matching companies' for 'Ahkeo Labs' and 'Ahkeo'. Consistent with Wave-12 SEC probe. Ahkeo Labs LLC does not appear as an SEC registrant under those names.",
+      "id": "W13-F5",
+      "severity": "sec_edgar",
+      "title": "SEC EDGAR: no company match for Ahkeo Labs / Ahkeo"
+    },
+    {
+      "detail": "data.sec.gov submissions JSON reachable; corroborates Wave-5 Form D issuer continuity. Brent Skoda role remains as previously sealed in accession 0000897069-19-000500 \u2014 not re-adjudicated here.",
+      "filing_count_recent": null,
+      "id": "W13-F6",
+      "name": null,
+      "ok": false,
+      "severity": "sec_data",
+      "sha3_256": null,
+      "title": "Casters Holdings Inc CIK 0001792675 filings refresh"
+    }
+  ],
+  "generated_at": "2026-07-23T01:40:10Z",
+  "id": "sec_edgar_surfaces",
+  "next_actions": [
+    "No Ahkeo Labs Form D expected under that name; keep Casters as SEC nexus"
+  ],
+  "probes": {
+    "casters_submissions": {
+      "bytes": null,
+      "cik": "0001792675",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "sha3_256": null,
+      "status": null,
+      "url": "https://data.sec.gov/submissions/CIK0001792675.json"
+    },
+    "edgar_company_ahkeo": {
+      "bytes": null,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "sha3_256": null,
+      "status": null,
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=Ahkeo&owner=exclude&action=getcompany&count=40"
+    },
+    "edgar_company_ahkeo_labs": {
+      "bytes": null,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "sha3_256": null,
+      "status": null,
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=Ahkeo+Labs&owner=exclude&action=getcompany"
+    }
+  },
+  "status": "SEALED",
+  "title": "SEC EDGAR Ahkeo negative search + Casters Holdings refresh"
+}

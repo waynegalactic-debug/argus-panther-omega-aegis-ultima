@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-07-23T01:40:10Z",
+  "id": "operator_worklist",
+  "next_actions": [
+    "Operator paid DE certs remain highest authentication gap"
+  ],
+  "priorities": [
+    {
+      "blocked_on": "operator_payment",
+      "item": "Paid DE Certificate of Status + Certified Formation (6096179)",
+      "rank": 1
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Ohio SOS foreign qualification / abstracts (Ahkeo + cluster)",
+      "rank": 2
+    },
+    {
+      "blocked_on": "operator_subscription",
+      "item": "Paid historical WHOIS (DomainTools/WhoisXML) ahkeo/ahkeolabs",
+      "note": "Wave-13 sealed Wayback content; WHOIS registrant chain still open",
+      "rank": 3
+    },
+    {
+      "blocked_on": "env_secret",
+      "item": "USPTO_API_KEY \u2192 Wave-4 assignment pulls",
+      "rank": 4
+    },
+    {
+      "blocked_on": "pacer",
+      "item": "PACER Doc.38 Skoda declaration (RECAP absent)",
+      "rank": 5
+    },
+    {
+      "blocked_on": "operator_upv",
+      "item": "Czech UPV certified inventorship (not CZ283061)",
+      "rank": 6
+    },
+    {
+      "blocked_on": "counsel_review",
+      "item": "Counsel send Wave-11 package; optionally attach W13-F1 snapshot",
+      "rank": 7
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-13 operator priority worklist"
+}
