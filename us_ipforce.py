@@ -77,6 +77,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-9 Delaware ICIS Ahkeo Labs authentication",
     )
+    parser.add_argument(
+        "--investigate-wave10",
+        action="store_true",
+        help="Run investigation wave-10 genesis-paste rejection + evidence pack",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -99,6 +104,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave7,
             args.investigate_wave8,
             args.investigate_wave9,
+            args.investigate_wave10,
         )
     )
     if wave_flags > 1:
@@ -106,7 +112,7 @@ def main(argv: list[str] | None = None) -> int:
             "Run only one of --investigate / --investigate-wave2 / "
             "--investigate-wave3 / --investigate-wave4 / --investigate-wave5 / "
             "--investigate-wave6 / --investigate-wave7 / --investigate-wave8 / "
-            "--investigate-wave9.",
+            "--investigate-wave9 / --investigate-wave10.",
             file=sys.stderr,
         )
         return 2
@@ -155,6 +161,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave9 import main as wave9_main
 
         return int(wave9_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave10:
+        from us_ipforce_investigation_wave10 import main as wave10_main
+
+        return int(wave10_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

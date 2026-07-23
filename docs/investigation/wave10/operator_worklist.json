@@ -1,0 +1,46 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "item_count": 7,
+  "items": [
+    {
+      "action": "Set USPTO_API_KEY in env; re-run wave10 for assignment pulls",
+      "priority": 1,
+      "status": "BLOCKED_NEEDS_API_KEY"
+    },
+    {
+      "action": "Ohio SOS abstracts + foreign qualification for Ahkeo Labs (DE 6096179)",
+      "priority": 2,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Paid Delaware Certificate of Status \u2014 file 6096179",
+      "priority": 3,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Certified Czech UPV search (no quarantined CZ283061)",
+      "priority": 4,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Historical WHOIS pre-2026 \u2014 ahkeo.com / ahkeolabs.com",
+      "priority": 5,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Counsel send preservation pack (E-W4\u2026E-W9) \u2014 no genesis press release",
+      "priority": 6,
+      "status": "OPEN_COUNSEL"
+    },
+    {
+      "action": "AZ bar certified discipline order \u2014 Anthony G. Salvador",
+      "priority": 7,
+      "status": "OPEN_MANUAL"
+    }
+  ],
+  "status": "done",
+  "title": "Wave-10 operator / counsel worklist",
+  "true_ubo_asserted": 0,
+  "wave": 10
+}

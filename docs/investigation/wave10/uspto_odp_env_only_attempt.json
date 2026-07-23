@@ -1,0 +1,46 @@
+{
+  "adjudicated": false,
+  "id": "uspto_odp_env_only_attempt",
+  "next_actions": [
+    "Export USPTO_API_KEY and re-run --investigate-wave10",
+    "Pull assignment + continuity for each Wave-4 publication"
+  ],
+  "policy": "Never use chat-pasted USPTO keys. Assignment reel for 12 pubs remains OPEN until a real USPTO_API_KEY is supplied in the environment.",
+  "probes": [
+    {
+      "body_sha3_256": null,
+      "error": "SKIPPED_NO_ENV_KEY",
+      "name": "patent_applications_search",
+      "ok": false,
+      "status_code": null,
+      "url": "https://api.uspto.gov/api/v1/patent/applications/search"
+    },
+    {
+      "body_sha3_256": null,
+      "error": "SKIPPED_NO_ENV_KEY",
+      "name": "datasets_products_search",
+      "ok": false,
+      "status_code": null,
+      "url": "https://api.uspto.gov/api/v1/datasets/products/search"
+    }
+  ],
+  "status": "blocked_needs_api_key",
+  "title": "USPTO ODP \u2014 env-only key gate for assignment/application worklist",
+  "uspto_api_key_status": "unset",
+  "wave": 10,
+  "wave4_publication_count": 12,
+  "wave4_publications": [
+    "US11234465B2",
+    "US11275070B2",
+    "US20190240429A1",
+    "US20190378609A1",
+    "US20200005924A1",
+    "US20210202056A1",
+    "US20230112752A1",
+    "US20240215633A1",
+    "US20240242809A1",
+    "US20240244430A1",
+    "US20250177708A1",
+    "USD795407S1"
+  ]
+}

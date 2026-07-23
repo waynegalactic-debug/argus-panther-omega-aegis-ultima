@@ -1,0 +1,125 @@
+{
+  "adjudicated": false,
+  "exhibits": [
+    {
+      "caffeine_related_count": 1,
+      "id": "E-W4-PORTFOLIO",
+      "label": "Google Patents authenticated Skoda publications",
+      "path": "docs/investigation/wave4/AUTHENTICATED_SKODA_PORTFOLIO.json",
+      "publication_count": 12
+    },
+    {
+      "filings_with_brent_skoda": 1,
+      "id": "E-W5-FORM-D",
+      "label": "SEC Form D Casters Holdings / Brent Skoda related person",
+      "path": "docs/investigation/wave5/sec_edgar_casters_form_d.json",
+      "primary": {
+        "accession": "0000897069-19-000500",
+        "address": {
+          "city": "Mayfield Village",
+          "state": "OH",
+          "street1": "6685 Beta Drive",
+          "zip": "44143"
+        },
+        "body_sha3_256": "6fe480d42bd2cb1014ccfe665da36915042f2f29963b0b6da63c6b0c0c135845",
+        "file_label": "2019-11-04",
+        "relationships": [
+          "Executive Officer",
+          "Director",
+          "Promoter"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1792675/000089706919000500/primary_doc.xml"
+      }
+    },
+    {
+      "facts": [
+        "Casters Holdings Inc. 2019 Form D issuer street1 = 6685 BETA DRIVE, Mayfield Village OH 44143",
+        "Brent Skoda related-person address on that Form D matches issuer address",
+        "Gregory J. Skoda CIK mailing address = 6685 BETA DRIVE, Mayfield Village OH 44143",
+        "Patricia A. Skoda CIK mailing address = 6685 BETA DRIVE, Mayfield Village OH 44143",
+        "Casters issuer address relocates to Chicago IL on later Form D filings"
+      ],
+      "id": "E-W6-BETA-DRIVE",
+      "label": "6685 Beta Drive Mayfield Village SEC address nexus",
+      "path": "docs/investigation/wave6/mayfield_beta_drive_address_nexus.json"
+    },
+    {
+      "dropcatch_2026_domains": [
+        "ahkeo.com",
+        "ahkeolabs.com"
+      ],
+      "id": "E-W7-RDAP",
+      "label": "RDAP DropCatch 2026 domain custody posture",
+      "path": "docs/investigation/wave7/rdap_dns_domain_custody.json"
+    },
+    {
+      "case": {
+        "caption": "Ahkeo Labs LLC v. Plurimi Investment Managers, LLP",
+        "court": "N.D. Ohio",
+        "courtlistener_docket_id": "6112063",
+        "docket_number": "1:17-cv-01248",
+        "judge": "James S. Gwin"
+      },
+      "facts_complaint": [
+        "Plaintiff Ahkeo Labs, LLC captioned with address 6685 Beta Drive, Mayfield Village, OH",
+        "Ahkeo Labs LLC alleged Delaware LLC with principal place of business at 6685 Beta Drive, Mayfield Village, OH 44143",
+        "Brent Skoda identified as Plaintiff's Chairman and CEO",
+        "Feb 7, 2017 meeting in London between Dupee and Skoda regarding loans / Credit Revolver Agreement",
+        "Plaintiff counsel: Tucker Ellis LLP (John Q. Lewis; Seth J. Linnick), Cleveland, OH",
+        "Claims: injunctive relief, breach of contract, promissory estoppel re revolver loans"
+      ],
+      "id": "E-W8-LITIGATION",
+      "label": "Ahkeo Labs v. Plurimi N.D. Ohio RECAP complaint/opinion",
+      "path": "docs/investigation/wave8/ahkeo_plurimi_recap_exhibits.json"
+    },
+    {
+      "capture_mode": "session_html_capture_captcha_blocked_live",
+      "entity": {
+        "agent_address1": "251 LITTLE FALLS DRIVE",
+        "agent_city": "WILMINGTON",
+        "agent_county": "New Castle",
+        "agent_name": "CORPORATION SERVICE COMPANY",
+        "agent_phone": "302-636-5401",
+        "agent_postal": "19808",
+        "agent_state": "DE",
+        "capture_mode": "session_html_capture_captcha_blocked_live",
+        "detail_bytes": 46459,
+        "detail_sha3_256": "d2e71348eaea721df43852409eae011e8d8bbda84b51c6d2e834fc8b46c6a7b8",
+        "entity_kind": "Limited Liability Company",
+        "entity_name": "AHKEO LABS, LLC",
+        "entity_type": "General",
+        "file_number": "6096179",
+        "formation_date": "7/14/2016",
+        "note": "Free ICIS entity information page. Not a paid Certificate of Status or certified copy.",
+        "residency": "Domestic",
+        "source": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+        "state": "DELAWARE"
+      },
+      "id": "E-W9-DELAWARE",
+      "label": "Delaware ICIS AHKEO LABS, LLC file 6096179",
+      "path": "docs/investigation/wave9/delaware_icis_ahkeo_labs.json"
+    },
+    {
+      "id": "E-W3-QUARANTINE",
+      "label": "Wave-3 patent quarantine (do not cite false IDs)",
+      "path": "docs/investigation/INTEGRITY_ALERT_WAVE3_QUARANTINE.md",
+      "quarantine_present": true
+    }
+  ],
+  "explicit_non_findings": [
+    "No adjudication that Meta's patent portfolio belongs to Skoda",
+    "No $520 trillion damages figure",
+    "No automatic RICO predicate-act findings",
+    "No True-UBO determination among Brent/Gregory/Patricia Skoda",
+    "CZ1997 caffeine vaporizer grant remains OPEN_MANUAL_STILL_UNVERIFIED"
+  ],
+  "id": "authenticated_evidence_pack_v1",
+  "next_actions": [
+    "Counsel assemble outbound preservation package from exhibits E-W4\u2026E-W9"
+  ],
+  "seal": "7c2c14efe95aa788b395ac0b054031b6c742d9d04f1dfbda58f8905f5ac8d517",
+  "status": "done",
+  "title": "Authenticated evidence pack (Waves 3\u20139) \u2014 no adjudication",
+  "true_ubo_asserted": 0,
+  "wave": 10
+}

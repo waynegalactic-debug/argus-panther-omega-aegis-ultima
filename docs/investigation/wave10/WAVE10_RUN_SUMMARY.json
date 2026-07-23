@@ -1,0 +1,106 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE10_GENESIS_REJECT_EVIDENCE_PACK.md",
+    "evidence_pack": "docs/investigation/wave10/authenticated_evidence_pack_v1.json",
+    "genesis_rejection": "docs/investigation/wave10/genesis_paste_custody_rejection.json",
+    "ohio": "docs/investigation/wave10/ohio_foreign_qualification_surfaces.json",
+    "shim": "aegis_hyperion.py",
+    "uspto": "docs/investigation/wave10/uspto_odp_env_only_attempt.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W10",
+  "counts": {
+    "adjudicated_total": 0,
+    "evidence_exhibits": 7,
+    "hardening_blocking": 0,
+    "tracks": 5,
+    "true_ubo_asserted": 0,
+    "uspto_key_status": "unset"
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "0702761976f6ff8c19453a2ec5ac1129bd38a0b2616780c6e153cdd7396363eb",
+    "leaves": [
+      {
+        "id": "genesis_paste_custody_rejection",
+        "sha3_256": "6381edd45719a6f7acc9b32b866258cf0f64ca83501c434b417ec7d486ac2304",
+        "status": "done"
+      },
+      {
+        "id": "uspto_odp_env_only_attempt",
+        "sha3_256": "7ff3956cabfbae5ff73f557df05ee25a747bcdcaa2a1c1c87abb9668d9bdefd3",
+        "status": "blocked_needs_api_key"
+      },
+      {
+        "id": "ohio_foreign_qualification_surfaces",
+        "sha3_256": "60d1709e62647a4c782c9b4e4a32e79299cab825baac13f089a40d70ee2deb13",
+        "status": "blocked_public_html"
+      },
+      {
+        "id": "authenticated_evidence_pack_v1",
+        "sha3_256": "c52c858a48900747b1c23375301cc733ba07709eaa550b29a06d659325292432",
+        "status": "done"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "28f511f5ec58563b0d4119608dfac9ff9d51806c291891a9d869a427f9399c0e",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "c216a8d470d5e85f6f2a639947644f25408fd0666b24ec8763b7d265aadf7dd2ee1866aac4b30d11f7958ffee63307d1e29b4ff643b11fb14299f9037822b886"
+  },
+  "elapsed_ms": 1222,
+  "generated_at": "2026-07-23T01:28:02Z",
+  "policy": "Wave-10 rejects credentialed genesis paste and fantasy adjudications; seals authenticated evidence pack from Waves 3\u20139; USPTO ODP gated on env key.",
+  "seal": "0f5a2239510e4065ab22fa6a08210992715d628565248e0d8f5652202d5980ae",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "genesis_paste_custody_rejection",
+      "next_actions": [
+        "Operators may set USPTO_API_KEY / EPO_* in env (never commit)",
+        "Continue Ohio SOS / UPV / WHOIS history as manual tracks"
+      ],
+      "status": "done",
+      "title": "Reject credentialed ULTIMA-GENESIS chat paste; keep fail-closed custody"
+    },
+    {
+      "adjudicated": false,
+      "id": "uspto_odp_env_only_attempt",
+      "next_actions": [
+        "Export USPTO_API_KEY and re-run --investigate-wave10",
+        "Pull assignment + continuity for each Wave-4 publication"
+      ],
+      "status": "blocked_needs_api_key",
+      "title": "USPTO ODP \u2014 env-only key gate for assignment/application worklist"
+    },
+    {
+      "adjudicated": false,
+      "id": "ohio_foreign_qualification_surfaces",
+      "next_actions": [
+        "Browser Ohio SOS: search Ahkeo Labs + Ahkeo cluster",
+        "Order certified abstracts for counsel pack"
+      ],
+      "status": "blocked_public_html",
+      "title": "Ohio SOS / foreign-qualification surface probes (Ahkeo Labs bridge)"
+    },
+    {
+      "adjudicated": false,
+      "id": "authenticated_evidence_pack_v1",
+      "next_actions": [
+        "Counsel assemble outbound preservation package from exhibits E-W4\u2026E-W9"
+      ],
+      "status": "done",
+      "title": "Authenticated evidence pack (Waves 3\u20139) \u2014 no adjudication"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-10 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE10"
+}

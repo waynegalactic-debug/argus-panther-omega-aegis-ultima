@@ -1,0 +1,59 @@
+{
+  "adjudicated": false,
+  "id": "ohio_foreign_qualification_surfaces",
+  "next_actions": [
+    "Browser Ohio SOS: search Ahkeo Labs + Ahkeo cluster",
+    "Order certified abstracts for counsel pack"
+  ],
+  "policy": "Wave-9 authenticated Delaware formation; Ohio foreign qualification still requires operator SOS session / certified abstract.",
+  "probes": [
+    {
+      "body_prefix": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta name=\"viewport\" content=\"",
+      "body_sha3_256": "10c7841a1b465ab6a22c802ee45c7f90467df2e2461233492162c161be67c673",
+      "bytes": 4000,
+      "error": "HTTPError:403",
+      "name": "ohio_sos_business_search",
+      "ok": false,
+      "status_code": 403,
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    {
+      "body_prefix": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta name=\"viewport\" content=\"",
+      "body_sha3_256": "10c7841a1b465ab6a22c802ee45c7f90467df2e2461233492162c161be67c673",
+      "bytes": 4000,
+      "error": "HTTPError:403",
+      "name": "ohio_sos_business_search_false",
+      "ok": false,
+      "status_code": 403,
+      "url": "https://businesssearch.ohiosos.gov/?e=false"
+    },
+    {
+      "body_prefix": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta name=\"viewport\" content=\"",
+      "body_sha3_256": "10c7841a1b465ab6a22c802ee45c7f90467df2e2461233492162c161be67c673",
+      "bytes": 4000,
+      "error": "HTTPError:403",
+      "name": "ohio_sos_www6",
+      "ok": false,
+      "status_code": 403,
+      "url": "https://www6.ohiosos.gov/"
+    },
+    {
+      "body_prefix": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta name=\"viewport\" content=\"",
+      "body_sha3_256": "10c7841a1b465ab6a22c802ee45c7f90467df2e2461233492162c161be67c673",
+      "bytes": 4000,
+      "error": "HTTPError:403",
+      "name": "ohio_foreign_info_page",
+      "ok": false,
+      "status_code": 403,
+      "url": "https://www.ohiosos.gov/businesses/"
+    }
+  ],
+  "status": "blocked_public_html",
+  "targets": [
+    "AHKEO LABS, LLC (DE 6096179) \u2014 foreign qualification in Ohio?",
+    "AHKEO LLC / VENTURES / ELECTRIC / MANAGEMENT \u2014 Ohio abstracts",
+    "Principal office cross-check vs 6685 Beta Drive"
+  ],
+  "title": "Ohio SOS / foreign-qualification surface probes (Ahkeo Labs bridge)",
+  "wave": 10
+}

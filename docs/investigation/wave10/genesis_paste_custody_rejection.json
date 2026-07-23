@@ -1,0 +1,38 @@
+{
+  "actions_taken": [
+    "Did NOT write pasted monolith with getenv secret defaults into the repo",
+    "Added aegis_hyperion.py secure shim \u2192 consolidator / wave10",
+    "No press release asserting Meta theft / $520T / automatic RICO",
+    "No Chainalysis/Elliptic calls with chat-pasted keys"
+  ],
+  "adjudicated": false,
+  "hardening_summary": {
+    "blocking_total": 0,
+    "error": null,
+    "findings_total": 0,
+    "ok": true
+  },
+  "id": "genesis_paste_custody_rejection",
+  "next_actions": [
+    "Operators may set USPTO_API_KEY / EPO_* in env (never commit)",
+    "Continue Ohio SOS / UPV / WHOIS history as manual tracks"
+  ],
+  "policy": "Credentials: environment only. Investigation waves remain evidence-bound. Quarantined patents stay quarantined. adjudicated_total must remain 0.",
+  "rejected_markers_detected_in_user_paste_description": [
+    "USPTO_API_KEY",
+    "EPO_CONSUMER_KEY",
+    "WIPO placeholder key pattern (community plus hyphen)",
+    "OpenCorporates placeholder key pattern (community plus hyphen)",
+    "CHAINALYSIS_KEY",
+    "lsv2_pt_",
+    "aegis_hyperion.py",
+    "520 trillion",
+    "predicate_acts",
+    "OMEGA AEGIS HYPERION"
+  ],
+  "shim_path": "aegis_hyperion.py",
+  "status": "done",
+  "title": "Reject credentialed ULTIMA-GENESIS chat paste; keep fail-closed custody",
+  "true_ubo_asserted": 0,
+  "wave": 10
+}
