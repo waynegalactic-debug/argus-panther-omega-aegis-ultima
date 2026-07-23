@@ -189,6 +189,14 @@ def main(argv: list[str] | None = None) -> int:
             "deeper-than-W28 cyber-dust full update"
         ),
     )
+    parser.add_argument(
+        "--investigate-wave31",
+        action="store_true",
+        help=(
+            "Run investigation wave-31 sub-wei / sub-satoshi scale cyberdust "
+            "full update across all sealed addresses"
+        ),
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
