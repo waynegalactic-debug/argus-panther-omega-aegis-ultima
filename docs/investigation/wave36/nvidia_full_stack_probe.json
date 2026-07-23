@@ -1,0 +1,66 @@
+{
+  "findings": [
+    {
+      "backend": "numpy_scipy_numba_nvidia_compatible",
+      "detail": "Backend=numpy_scipy_numba_nvidia_compatible; gpu_active=False; modules=['numba', 'scipy', 'numpy']. No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+      "fallback_note": "No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+      "id": "W36-F1",
+      "modules_engaged": [
+        "numba",
+        "scipy",
+        "numpy"
+      ],
+      "nvidia_gpu_active": false,
+      "stack": {
+        "cuda_runtime": false,
+        "cudf": false,
+        "cugraph": false,
+        "cuml": false,
+        "cupy": false,
+        "numba": true,
+        "numba_cuda": false,
+        "numba_version": "0.66.0",
+        "numpy": true,
+        "numpy_version": "2.4.4",
+        "nvidia_smi": false,
+        "scipy": true,
+        "tensorrt": false,
+        "torch": false,
+        "torch_cuda": false
+      },
+      "title": "NVIDIA full acceleration stack probe + backend selection"
+    }
+  ],
+  "id": "nvidia_full_stack_probe",
+  "probe": {
+    "backend": "numpy_scipy_numba_nvidia_compatible",
+    "fallback_note": "No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+    "modules_engaged": [
+      "numba",
+      "scipy",
+      "numpy"
+    ],
+    "nvidia_accelerated": false,
+    "nvidia_gpu_active": false,
+    "nvidia_supercharged_path": "numpy_scipy_numba_nvidia_compatible",
+    "stack": {
+      "cuda_runtime": false,
+      "cudf": false,
+      "cugraph": false,
+      "cuml": false,
+      "cupy": false,
+      "numba": true,
+      "numba_cuda": false,
+      "numba_version": "0.66.0",
+      "numpy": true,
+      "numpy_version": "2.4.4",
+      "nvidia_smi": false,
+      "scipy": true,
+      "tensorrt": false,
+      "torch": false,
+      "torch_cuda": false
+    }
+  },
+  "status": "SEALED",
+  "title": "NVIDIA full acceleration stack probe"
+}

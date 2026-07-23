@@ -1,0 +1,1107 @@
+{
+  "acceleration": {
+    "backend": "numpy_cpu_nvidia_compatible",
+    "connected_components": 1,
+    "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+    "elapsed_ms": 9,
+    "hyperedge_weighted_degree_mean": 2.2349397590361444,
+    "incidence_nnz": 2173,
+    "largest_component_size": 691,
+    "nvidia_accelerated": false,
+    "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+    "top_cooccurrence": [
+      {
+        "a": "wave:25",
+        "b": "wave:14",
+        "jaccard": 0.288136,
+        "shared_hyperedges": 17
+      },
+      {
+        "a": "flag:theft_adjudicated=False",
+        "b": "disposition:theft_adjudicated",
+        "jaccard": 0.37037,
+        "shared_hyperedges": 10
+      },
+      {
+        "a": "wave:33",
+        "b": "wave:32",
+        "jaccard": 0.103896,
+        "shared_hyperedges": 8
+      },
+      {
+        "a": "wave:22",
+        "b": "wave:21",
+        "jaccard": 0.06087,
+        "shared_hyperedges": 7
+      },
+      {
+        "a": "wave:31",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.139535,
+        "shared_hyperedges": 6
+      },
+      {
+        "a": "wave:30",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.119048,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:32",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.106383,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:28",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.086207,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:32",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.083333,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.079365,
+        "shared_hyperedges": 5
+      },
+      {
+        "a": "wave:17",
+        "b": "flag:illicit_registration_adjudicated=False",
+        "jaccard": 0.181818,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:18",
+        "b": "flag:illicit_registration_adjudicated=False",
+        "jaccard": 0.133333,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:30",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.117647,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:31",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.111111,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "flag:theft_adjudicated=False",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.108108,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:28",
+        "b": "flag:illicit_dust_network_adjudicated=False",
+        "jaccard": 0.08,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:25",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.078431,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:33",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.070175,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:21",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "jaccard": 0.070175,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:21",
+        "b": "flag:royalty_payment_adjudicated=False",
+        "jaccard": 0.070175,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:26",
+        "b": "flag:illicit_dust_evasion_adjudicated=False",
+        "jaccard": 0.063492,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:27",
+        "b": "flag:illicit_royalty_adjudicated=False",
+        "jaccard": 0.058824,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:33",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.057143,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:22",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "jaccard": 0.056338,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:22",
+        "b": "flag:royalty_payment_adjudicated=False",
+        "jaccard": 0.056338,
+        "shared_hyperedges": 4
+      }
+    ],
+    "top_vertices_by_weighted_degree": [
+      {
+        "id": "wave:24",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 59.999999999999964
+      },
+      {
+        "id": "wave:22",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 50.79999999999998
+      },
+      {
+        "id": "wave:33",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 48.20000000000001
+      },
+      {
+        "id": "wave:25",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.4
+      },
+      {
+        "id": "wave:27",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 42.399999999999984
+      },
+      {
+        "id": "wave:21",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 41.39999999999998
+      },
+      {
+        "id": "wave:32",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 36.30000000000001
+      },
+      {
+        "id": "wave:14",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 35.1
+      },
+      {
+        "id": "wave:23",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 34.80000000000001
+      },
+      {
+        "id": "wave:26",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 34.39999999999998
+      },
+      {
+        "id": "wave:28",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 31.89999999999998
+      },
+      {
+        "id": "wave:31",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 27.800000000000008
+      },
+      {
+        "id": "wave:20",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 27.70000000000001
+      },
+      {
+        "id": "wave:30",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 26.300000000000008
+      },
+      {
+        "id": "wave:18",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 25.800000000000008
+      }
+    ],
+    "vertex_weighted_degree_max": 59.999999999999964,
+    "vertex_weighted_degree_mean": 2.6845151953690305,
+    "wave29_embedded_acceleration": {
+      "backend": "numpy_cpu_nvidia_compatible",
+      "connected_components": 1,
+      "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+      "elapsed_ms": 9,
+      "hyperedge_weighted_degree_mean": 2.2349397590361444,
+      "incidence_nnz": 2173,
+      "largest_component_size": 691,
+      "nvidia_accelerated": false,
+      "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+      "top_cooccurrence": [
+        {
+          "a": "wave:25",
+          "b": "wave:14",
+          "jaccard": 0.288136,
+          "shared_hyperedges": 17
+        },
+        {
+          "a": "flag:theft_adjudicated=False",
+          "b": "disposition:theft_adjudicated",
+          "jaccard": 0.37037,
+          "shared_hyperedges": 10
+        },
+        {
+          "a": "wave:33",
+          "b": "wave:32",
+          "jaccard": 0.103896,
+          "shared_hyperedges": 8
+        },
+        {
+          "a": "wave:22",
+          "b": "wave:21",
+          "jaccard": 0.06087,
+          "shared_hyperedges": 7
+        },
+        {
+          "a": "wave:31",
+          "b": "flag:illicit_dust_evasion_adjudicated=False",
+          "jaccard": 0.139535,
+          "shared_hyperedges": 6
+        },
+        {
+          "a": "wave:30",
+          "b": "flag:illicit_dust_evasion_adjudicated=False",
+          "jaccard": 0.119048,
+          "shared_hyperedges": 5
+        },
+        {
+          "a": "wave:32",
+          "b": "flag:illicit_royalty_adjudicated=False",
+          "jaccard": 0.106383,
+          "shared_hyperedges": 5
+        },
+        {
+          "a": "wave:28",
+          "b": "flag:illicit_dust_evasion_adjudicated=False",
+          "jaccard": 0.086207,
+          "shared_hyperedges": 5
+        },
+        {
+          "a": "wave:32",
+          "b": "flag:theft_adjudicated=False",
+          "jaccard": 0.083333,
+          "shared_hyperedges": 5
+        },
+        {
+          "a": "wave:25",
+          "b": "flag:theft_adjudicated=False",
+          "jaccard": 0.079365,
+          "shared_hyperedges": 5
+        },
+        {
+          "a": "wave:17",
+          "b": "flag:illicit_registration_adjudicated=False",
+          "jaccard": 0.181818,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:18",
+          "b": "flag:illicit_registration_adjudicated=False",
+          "jaccard": 0.133333,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:30",
+          "b": "flag:illicit_dust_network_adjudicated=False",
+          "jaccard": 0.117647,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:31",
+          "b": "flag:illicit_dust_network_adjudicated=False",
+          "jaccard": 0.111111,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "flag:theft_adjudicated=False",
+          "b": "flag:illicit_royalty_adjudicated=False",
+          "jaccard": 0.108108,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:28",
+          "b": "flag:illicit_dust_network_adjudicated=False",
+          "jaccard": 0.08,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:25",
+          "b": "flag:illicit_royalty_adjudicated=False",
+          "jaccard": 0.078431,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:33",
+          "b": "flag:illicit_royalty_adjudicated=False",
+          "jaccard": 0.070175,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:21",
+          "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+          "jaccard": 0.070175,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:21",
+          "b": "flag:royalty_payment_adjudicated=False",
+          "jaccard": 0.070175,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:26",
+          "b": "flag:illicit_dust_evasion_adjudicated=False",
+          "jaccard": 0.063492,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:27",
+          "b": "flag:illicit_royalty_adjudicated=False",
+          "jaccard": 0.058824,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:33",
+          "b": "flag:theft_adjudicated=False",
+          "jaccard": 0.057143,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:22",
+          "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+          "jaccard": 0.056338,
+          "shared_hyperedges": 4
+        },
+        {
+          "a": "wave:22",
+          "b": "flag:royalty_payment_adjudicated=False",
+          "jaccard": 0.056338,
+          "shared_hyperedges": 4
+        }
+      ],
+      "top_vertices_by_weighted_degree": [
+        {
+          "id": "wave:24",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 59.999999999999964
+        },
+        {
+          "id": "wave:22",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 50.79999999999998
+        },
+        {
+          "id": "wave:33",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 48.20000000000001
+        },
+        {
+          "id": "wave:25",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 42.4
+        },
+        {
+          "id": "wave:27",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 42.399999999999984
+        },
+        {
+          "id": "wave:21",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 41.39999999999998
+        },
+        {
+          "id": "wave:32",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 36.30000000000001
+        },
+        {
+          "id": "wave:14",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 35.1
+        },
+        {
+          "id": "wave:23",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 34.80000000000001
+        },
+        {
+          "id": "wave:26",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 34.39999999999998
+        },
+        {
+          "id": "wave:28",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 31.89999999999998
+        },
+        {
+          "id": "wave:31",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 27.800000000000008
+        },
+        {
+          "id": "wave:20",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 27.70000000000001
+        },
+        {
+          "id": "wave:30",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 26.300000000000008
+        },
+        {
+          "id": "wave:18",
+          "kinds": [
+            "wave"
+          ],
+          "weighted_degree": 25.800000000000008
+        }
+      ],
+      "vertex_weighted_degree_max": 59.999999999999964,
+      "vertex_weighted_degree_mean": 2.6845151953690305
+    },
+    "wave36_backend": "numpy_scipy_numba_nvidia_compatible",
+    "wave36_nvidia_gpu_active": false
+  },
+  "findings": [
+    {
+      "acceleration": {
+        "backend": "numpy_cpu_nvidia_compatible",
+        "connected_components": 1,
+        "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+        "elapsed_ms": 9,
+        "hyperedge_weighted_degree_mean": 2.2349397590361444,
+        "incidence_nnz": 2173,
+        "largest_component_size": 691,
+        "nvidia_accelerated": false,
+        "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+        "top_cooccurrence": [
+          {
+            "a": "wave:25",
+            "b": "wave:14",
+            "jaccard": 0.288136,
+            "shared_hyperedges": 17
+          },
+          {
+            "a": "flag:theft_adjudicated=False",
+            "b": "disposition:theft_adjudicated",
+            "jaccard": 0.37037,
+            "shared_hyperedges": 10
+          },
+          {
+            "a": "wave:33",
+            "b": "wave:32",
+            "jaccard": 0.103896,
+            "shared_hyperedges": 8
+          },
+          {
+            "a": "wave:22",
+            "b": "wave:21",
+            "jaccard": 0.06087,
+            "shared_hyperedges": 7
+          },
+          {
+            "a": "wave:31",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.139535,
+            "shared_hyperedges": 6
+          },
+          {
+            "a": "wave:30",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.119048,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:32",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.106383,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:28",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.086207,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:32",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.083333,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:25",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.079365,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:17",
+            "b": "flag:illicit_registration_adjudicated=False",
+            "jaccard": 0.181818,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:18",
+            "b": "flag:illicit_registration_adjudicated=False",
+            "jaccard": 0.133333,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:30",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.117647,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:31",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.111111,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "flag:theft_adjudicated=False",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.108108,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:28",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.08,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:25",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.078431,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:33",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:21",
+            "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:21",
+            "b": "flag:royalty_payment_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:26",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.063492,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:27",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.058824,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:33",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.057143,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:22",
+            "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+            "jaccard": 0.056338,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:22",
+            "b": "flag:royalty_payment_adjudicated=False",
+            "jaccard": 0.056338,
+            "shared_hyperedges": 4
+          }
+        ],
+        "top_vertices_by_weighted_degree": [
+          {
+            "id": "wave:24",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 59.999999999999964
+          },
+          {
+            "id": "wave:22",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 50.79999999999998
+          },
+          {
+            "id": "wave:33",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 48.20000000000001
+          },
+          {
+            "id": "wave:25",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 42.4
+          },
+          {
+            "id": "wave:27",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 42.399999999999984
+          },
+          {
+            "id": "wave:21",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 41.39999999999998
+          },
+          {
+            "id": "wave:32",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 36.30000000000001
+          },
+          {
+            "id": "wave:14",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 35.1
+          },
+          {
+            "id": "wave:23",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 34.80000000000001
+          },
+          {
+            "id": "wave:26",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 34.39999999999998
+          },
+          {
+            "id": "wave:28",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 31.89999999999998
+          },
+          {
+            "id": "wave:31",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 27.800000000000008
+          },
+          {
+            "id": "wave:20",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 27.70000000000001
+          },
+          {
+            "id": "wave:30",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 26.300000000000008
+          },
+          {
+            "id": "wave:18",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 25.800000000000008
+          }
+        ],
+        "vertex_weighted_degree_max": 59.999999999999964,
+        "vertex_weighted_degree_mean": 2.6845151953690305,
+        "wave29_embedded_acceleration": {
+          "backend": "numpy_cpu_nvidia_compatible",
+          "connected_components": 1,
+          "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+          "elapsed_ms": 9,
+          "hyperedge_weighted_degree_mean": 2.2349397590361444,
+          "incidence_nnz": 2173,
+          "largest_component_size": 691,
+          "nvidia_accelerated": false,
+          "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+          "top_cooccurrence": [
+            {
+              "a": "wave:25",
+              "b": "wave:14",
+              "jaccard": 0.288136,
+              "shared_hyperedges": 17
+            },
+            {
+              "a": "flag:theft_adjudicated=False",
+              "b": "disposition:theft_adjudicated",
+              "jaccard": 0.37037,
+              "shared_hyperedges": 10
+            },
+            {
+              "a": "wave:33",
+              "b": "wave:32",
+              "jaccard": 0.103896,
+              "shared_hyperedges": 8
+            },
+            {
+              "a": "wave:22",
+              "b": "wave:21",
+              "jaccard": 0.06087,
+              "shared_hyperedges": 7
+            },
+            {
+              "a": "wave:31",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.139535,
+              "shared_hyperedges": 6
+            },
+            {
+              "a": "wave:30",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.119048,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:32",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.106383,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:28",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.086207,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:32",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.083333,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:25",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.079365,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:17",
+              "b": "flag:illicit_registration_adjudicated=False",
+              "jaccard": 0.181818,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:18",
+              "b": "flag:illicit_registration_adjudicated=False",
+              "jaccard": 0.133333,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:30",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.117647,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:31",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.111111,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "flag:theft_adjudicated=False",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.108108,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:28",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.08,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:25",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.078431,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:33",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:21",
+              "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:21",
+              "b": "flag:royalty_payment_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:26",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.063492,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:27",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.058824,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:33",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.057143,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:22",
+              "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+              "jaccard": 0.056338,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:22",
+              "b": "flag:royalty_payment_adjudicated=False",
+              "jaccard": 0.056338,
+              "shared_hyperedges": 4
+            }
+          ],
+          "top_vertices_by_weighted_degree": [
+            {
+              "id": "wave:24",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 59.999999999999964
+            },
+            {
+              "id": "wave:22",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 50.79999999999998
+            },
+            {
+              "id": "wave:33",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 48.20000000000001
+            },
+            {
+              "id": "wave:25",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 42.4
+            },
+            {
+              "id": "wave:27",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 42.399999999999984
+            },
+            {
+              "id": "wave:21",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 41.39999999999998
+            },
+            {
+              "id": "wave:32",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 36.30000000000001
+            },
+            {
+              "id": "wave:14",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 35.1
+            },
+            {
+              "id": "wave:23",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 34.80000000000001
+            },
+            {
+              "id": "wave:26",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 34.39999999999998
+            },
+            {
+              "id": "wave:28",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 31.89999999999998
+            },
+            {
+              "id": "wave:31",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 27.800000000000008
+            },
+            {
+              "id": "wave:20",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 27.70000000000001
+            },
+            {
+              "id": "wave:30",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 26.300000000000008
+            },
+            {
+              "id": "wave:18",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 25.800000000000008
+            }
+          ],
+          "vertex_weighted_degree_max": 59.999999999999964,
+          "vertex_weighted_degree_mean": 2.6845151953690305
+        },
+        "wave36_backend": "numpy_scipy_numba_nvidia_compatible",
+        "wave36_nvidia_gpu_active": false
+      },
+      "detail": "Hypergraph refresh vertices=691 edges=830 backend=numpy_cpu_nvidia_compatible components=1 wave36_stack=numpy_scipy_numba_nvidia_compatible.",
+      "elapsed_ms": 97,
+      "hyperedge_count": 830,
+      "id": "W36-F3",
+      "title": "NVIDIA-accelerated consolidated hypergraph refresh",
+      "vertex_count": 691
+    }
+  ],
+  "id": "nvidia_accelerated_hypergraph_refresh",
+  "status": "SEALED",
+  "title": "NVIDIA-accelerated hypergraph refresh"
+}

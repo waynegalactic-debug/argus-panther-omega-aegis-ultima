@@ -1,0 +1,33 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W36-M0",
+      "item": "CUDA GPU not visible — NVIDIA-compatible CPU path sealed; GPU path armed",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "W36-M1",
+      "item": "Provision CUDA + RAPIDS (cuDF/cuGraph/CuPy/cuML) host to flip backend from numpy_scipy_numba_nvidia_compatible → rapids_full_cugraph_cudf_cupy",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W36-M2",
+      "item": "Re-run Wave-36 when Wave-35 linked_wallets hits 1_000_000",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W36-M3",
+      "item": "Do not treat accelerated PageRank hubs as True-UBO adjudications",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "W36-M4",
+      "item": "Wallet graph vertices=45315 < 1e6 — continue Wave-35 enumeration",
+      "priority": "HIGH"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-36 operator worklist"
+}

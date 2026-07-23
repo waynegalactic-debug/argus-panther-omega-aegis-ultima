@@ -1,0 +1,10 @@
+{
+  "brand": "IP FORCE",
+  "generated_at": "2026-07-23T23:41:42Z",
+  "nvidia_backend": "numpy_scipy_numba_nvidia_compatible",
+  "nvidia_gpu_active": false,
+  "seal": "f5c5d963d7c1991f4f44ba4a5cec126a3dd41426f458c01575a17f2ebb3da2fb",
+  "summary_md": "docs/investigation/WAVE36_NVIDIA_FULL_STACK_ACCELERATION.md",
+  "summary_path": "docs/investigation/wave36/WAVE36_RUN_SUMMARY.json",
+  "wave36_case": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W36"
+}

@@ -1,0 +1,1247 @@
+{
+  "artifacts": {
+    "graph": "docs/investigation/wave36/nvidia_accelerated_wallet_graph_analysis.json",
+    "hypergraph": "docs/investigation/wave36/nvidia_accelerated_hypergraph_refresh.json",
+    "probe": "docs/investigation/wave36/nvidia_full_stack_probe.json",
+    "summary_md": "docs/investigation/WAVE36_NVIDIA_FULL_STACK_ACCELERATION.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W36",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 3,
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "wallet_edges": 45296,
+    "wallet_vertices": 45315
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "c4759a8c1fd179262aa6b763e5420af4e1eeeb39f9657ee42f2ba7738dadf32b",
+    "leaves": [
+      {
+        "id": "nvidia_full_stack_probe",
+        "sha3_256": "96d6055ee680329bef2c6c2baea42a072f869ff3da808335595fa517cf61392a",
+        "status": "SEALED"
+      },
+      {
+        "id": "nvidia_accelerated_wallet_graph_analysis",
+        "sha3_256": "36785d81e9453350a2a50106f0a139b7a4c103655e0078d2abe470209fac676a",
+        "status": "SEALED"
+      },
+      {
+        "id": "nvidia_accelerated_hypergraph_refresh",
+        "sha3_256": "85bd7034b5bd34fac31d3720fdc96822b068bd56e3f73a12cd3db2727ec332f4",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "1e2023a2711bbb23f360a278f0550782b0cf02559a6de085e70e6a79aae8487c",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "63a189451c500097207996d07dd08a532cd547bc192d06376bc59fc8a0e47154ffd519a139666be22758c50aae50e26e5fc1c195c76fdb6331c2163d7d1cc1f1"
+  },
+  "disposition": {
+    "accelerated_analysis_complete": true,
+    "nvidia_backend": "numpy_scipy_numba_nvidia_compatible",
+    "nvidia_full_stack_wired": true,
+    "nvidia_gpu_active": false,
+    "theft_adjudicated": false,
+    "true_ubo_asserted": false
+  },
+  "elapsed_ms": 420,
+  "findings": [
+    {
+      "backend": "numpy_scipy_numba_nvidia_compatible",
+      "detail": "Backend=numpy_scipy_numba_nvidia_compatible; gpu_active=False; modules=['numba', 'scipy', 'numpy']. No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+      "fallback_note": "No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+      "id": "W36-F1",
+      "modules_engaged": [
+        "numba",
+        "scipy",
+        "numpy"
+      ],
+      "nvidia_gpu_active": false,
+      "stack": {
+        "cuda_runtime": false,
+        "cudf": false,
+        "cugraph": false,
+        "cuml": false,
+        "cupy": false,
+        "numba": true,
+        "numba_cuda": false,
+        "numba_version": "0.66.0",
+        "numpy": true,
+        "numpy_version": "2.4.4",
+        "nvidia_smi": false,
+        "scipy": true,
+        "tensorrt": false,
+        "torch": false,
+        "torch_cuda": false
+      },
+      "title": "NVIDIA full acceleration stack probe + backend selection"
+    },
+    {
+      "backend": "numpy_scipy_numba_nvidia_compatible",
+      "degree_hop": {
+        "backend": "numpy_scipy_numba_nvidia_compatible",
+        "edge_count_directed": 45296,
+        "elapsed_ms": 0,
+        "hop_histogram": {
+          "0": 19,
+          "1": 5204,
+          "2": 40092
+        },
+        "max_degree": 1137,
+        "mean_degree": 1.99916142557652,
+        "n": 45315,
+        "top_degree": [
+          {
+            "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+            "degree": 1137,
+            "hop": 0,
+            "seed_label": "vitalik.eth"
+          },
+          {
+            "address": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+            "degree": 616,
+            "hop": 0,
+            "seed_label": "philipmorrisusa.eth"
+          },
+          {
+            "address": "0x983110309620d911731ac0932219af06091b6744",
+            "degree": 464,
+            "hop": 0,
+            "seed_label": "elonmusk.eth"
+          },
+          {
+            "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+            "degree": 453,
+            "hop": 0,
+            "seed_label": "pmusa.eth"
+          },
+          {
+            "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+            "degree": 406,
+            "hop": 0,
+            "seed_label": "sama.eth"
+          },
+          {
+            "address": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+            "degree": 341,
+            "hop": 0,
+            "seed_label": "juul.eth"
+          },
+          {
+            "address": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+            "degree": 337,
+            "hop": 0,
+            "seed_label": "paxlabs.eth"
+          },
+          {
+            "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+            "degree": 288,
+            "hop": 0,
+            "seed_label": "philipmorris.eth"
+          },
+          {
+            "address": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+            "degree": 261,
+            "hop": 0,
+            "seed_label": "jamiesalter.eth"
+          },
+          {
+            "address": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+            "degree": 260,
+            "hop": 0,
+            "seed_label": "jensenhuang.eth"
+          },
+          {
+            "address": "0xd4307e0acd12cf46fd6cf93bc264f5d5d1598792",
+            "degree": 238,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1",
+            "degree": 231,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+            "degree": 231,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+            "degree": 231,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x79f7cf7651b3df58759f046e6087e493ec827a23",
+            "degree": 222,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x71660c4005ba85c37ccec55d0c4493e66fe775d3",
+            "degree": 221,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0xe96888e4ecbc20924bc41d6ec8f5d2097e22180d",
+            "degree": 215,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x990f341946a3fdb507ae7e52d17851b87168017c",
+            "degree": 210,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+            "degree": 204,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x077d360f11d220e4d5d831430c81c26c9be7c4a4",
+            "degree": 200,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+            "degree": 199,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+            "degree": 198,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x912fd21d7a69678227fe6d08c64222db41477ba0",
+            "degree": 191,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0xb739d0895772dbb71a89a3754a160269068f0d45",
+            "degree": 191,
+            "hop": 1,
+            "seed_label": null
+          },
+          {
+            "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+            "degree": 190,
+            "hop": 1,
+            "seed_label": null
+          }
+        ]
+      },
+      "detail": "Analyzed 45315 linked wallets / 45296 parent edges via numpy_scipy_numba_nvidia_compatible (gpu_active=False). WCC components=19 largest=10760; max_degree=1137; PR backend=scipy_csr_power_iteration. Linkage analytics only.",
+      "graph": {
+        "build_ms": 37,
+        "directed_edges": 45296,
+        "vertices": 45315
+      },
+      "id": "W36-F2",
+      "nvidia_gpu_active": false,
+      "seed_contribution": {
+        "backend": "numpy_scipy_numba_nvidia_compatible",
+        "by_label": [
+          {
+            "label": "japantobacco.eth",
+            "linked_descendants": 10760
+          },
+          {
+            "label": "juullabs.eth",
+            "linked_descendants": 10488
+          },
+          {
+            "label": "elonmusk.eth",
+            "linked_descendants": 6903
+          },
+          {
+            "label": "njoy.eth",
+            "linked_descendants": 6394
+          },
+          {
+            "label": "fyllo.eth",
+            "linked_descendants": 3939
+          },
+          {
+            "label": "abg.eth",
+            "linked_descendants": 1211
+          },
+          {
+            "label": "vitalik.eth",
+            "linked_descendants": 1138
+          },
+          {
+            "label": "pax.eth",
+            "linked_descendants": 1058
+          },
+          {
+            "label": "philipmorrisusa.eth",
+            "linked_descendants": 617
+          },
+          {
+            "label": "pmusa.eth",
+            "linked_descendants": 454
+          },
+          {
+            "label": "sama.eth",
+            "linked_descendants": 407
+          },
+          {
+            "label": "juul.eth",
+            "linked_descendants": 342
+          },
+          {
+            "label": "paxlabs.eth",
+            "linked_descendants": 338
+          },
+          {
+            "label": "authenticbrands.eth",
+            "linked_descendants": 297
+          },
+          {
+            "label": "philipmorris.eth",
+            "linked_descendants": 289
+          },
+          {
+            "label": "jamiesalter.eth",
+            "linked_descendants": 262
+          },
+          {
+            "label": "jensenhuang.eth",
+            "linked_descendants": 261
+          },
+          {
+            "label": "pmi.eth",
+            "linked_descendants": 121
+          },
+          {
+            "label": "ploom.eth",
+            "linked_descendants": 36
+          }
+        ],
+        "by_root_seed": [
+          {
+            "linked_descendants": 10760,
+            "root_seed": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+            "seed_label": "japantobacco.eth"
+          },
+          {
+            "linked_descendants": 10488,
+            "root_seed": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+            "seed_label": "juullabs.eth"
+          },
+          {
+            "linked_descendants": 6903,
+            "root_seed": "0x983110309620d911731ac0932219af06091b6744",
+            "seed_label": "elonmusk.eth"
+          },
+          {
+            "linked_descendants": 6394,
+            "root_seed": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+            "seed_label": "njoy.eth"
+          },
+          {
+            "linked_descendants": 3939,
+            "root_seed": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+            "seed_label": "fyllo.eth"
+          },
+          {
+            "linked_descendants": 1211,
+            "root_seed": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+            "seed_label": "abg.eth"
+          },
+          {
+            "linked_descendants": 1138,
+            "root_seed": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+            "seed_label": "vitalik.eth"
+          },
+          {
+            "linked_descendants": 1058,
+            "root_seed": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+            "seed_label": "pax.eth"
+          },
+          {
+            "linked_descendants": 617,
+            "root_seed": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+            "seed_label": "philipmorrisusa.eth"
+          },
+          {
+            "linked_descendants": 454,
+            "root_seed": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+            "seed_label": "pmusa.eth"
+          },
+          {
+            "linked_descendants": 407,
+            "root_seed": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+            "seed_label": "sama.eth"
+          },
+          {
+            "linked_descendants": 342,
+            "root_seed": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+            "seed_label": "juul.eth"
+          },
+          {
+            "linked_descendants": 338,
+            "root_seed": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+            "seed_label": "paxlabs.eth"
+          },
+          {
+            "linked_descendants": 297,
+            "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+            "seed_label": "authenticbrands.eth"
+          },
+          {
+            "linked_descendants": 289,
+            "root_seed": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+            "seed_label": "philipmorris.eth"
+          },
+          {
+            "linked_descendants": 262,
+            "root_seed": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+            "seed_label": "jamiesalter.eth"
+          },
+          {
+            "linked_descendants": 261,
+            "root_seed": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+            "seed_label": "jensenhuang.eth"
+          },
+          {
+            "linked_descendants": 121,
+            "root_seed": "0x516f381d6c94110cde63f3266b779065525096f7",
+            "seed_label": "pmi.eth"
+          },
+          {
+            "linked_descendants": 36,
+            "root_seed": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+            "seed_label": "ploom.eth"
+          }
+        ],
+        "elapsed_ms": 13
+      },
+      "seed_pagerank": {
+        "alpha": 0.85,
+        "backend": "scipy_csr_power_iteration",
+        "cugraph_pagerank": null,
+        "elapsed_ms": 11,
+        "iterations": 20,
+        "score_max": 0.029386788091660034,
+        "score_mean": 2.2067747986317992e-05,
+        "top": [
+          {
+            "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+            "hop": 0,
+            "root_seed": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+            "score": 0.029386788091660034,
+            "seed_label": "vitalik.eth"
+          },
+          {
+            "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+            "hop": 0,
+            "root_seed": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+            "score": 0.029386788091659868,
+            "seed_label": "pmusa.eth"
+          },
+          {
+            "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+            "hop": 0,
+            "root_seed": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+            "score": 0.029386788091659857,
+            "seed_label": "sama.eth"
+          },
+          {
+            "address": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+            "hop": 0,
+            "root_seed": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+            "score": 0.029386788091659826,
+            "seed_label": "jensenhuang.eth"
+          },
+          {
+            "address": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+            "hop": 0,
+            "root_seed": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+            "score": 0.029386788091659753,
+            "seed_label": "paxlabs.eth"
+          },
+          {
+            "address": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+            "hop": 0,
+            "root_seed": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+            "score": 0.02938678809165972,
+            "seed_label": "jamiesalter.eth"
+          },
+          {
+            "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+            "hop": 0,
+            "root_seed": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+            "score": 0.029386788091659666,
+            "seed_label": "philipmorris.eth"
+          },
+          {
+            "address": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+            "hop": 0,
+            "root_seed": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+            "score": 0.02938678809165964,
+            "seed_label": "juul.eth"
+          },
+          {
+            "address": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+            "hop": 0,
+            "root_seed": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+            "score": 0.029386788091659583,
+            "seed_label": "ploom.eth"
+          },
+          {
+            "address": "0x516f381d6c94110cde63f3266b779065525096f7",
+            "hop": 0,
+            "root_seed": "0x516f381d6c94110cde63f3266b779065525096f7",
+            "score": 0.02938678809165951,
+            "seed_label": "pmi.eth"
+          },
+          {
+            "address": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+            "hop": 0,
+            "root_seed": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+            "score": 0.0293867880916595,
+            "seed_label": "philipmorrisusa.eth"
+          },
+          {
+            "address": "0x983110309620d911731ac0932219af06091b6744",
+            "hop": 0,
+            "root_seed": "0x983110309620d911731ac0932219af06091b6744",
+            "score": 0.018101247715280502,
+            "seed_label": "elonmusk.eth"
+          },
+          {
+            "address": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+            "hop": 0,
+            "root_seed": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+            "score": 0.009782449031361226,
+            "seed_label": "japantobacco.eth"
+          },
+          {
+            "address": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+            "hop": 0,
+            "root_seed": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+            "score": 0.00882099495441001,
+            "seed_label": "abg.eth"
+          },
+          {
+            "address": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+            "hop": 0,
+            "root_seed": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+            "score": 0.008589433845061906,
+            "seed_label": "pax.eth"
+          },
+          {
+            "address": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+            "hop": 0,
+            "root_seed": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+            "score": 0.008589361007638718,
+            "seed_label": "juullabs.eth"
+          },
+          {
+            "address": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+            "hop": 0,
+            "root_seed": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+            "score": 0.00854037951487857,
+            "seed_label": "fyllo.eth"
+          },
+          {
+            "address": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+            "hop": 0,
+            "root_seed": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+            "score": 0.008478172419847755,
+            "seed_label": "njoy.eth"
+          },
+          {
+            "address": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+            "hop": 0,
+            "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+            "score": 0.008272122931086886,
+            "seed_label": "authenticbrands.eth"
+          },
+          {
+            "address": "0xd152f549545093347a162dce210e7293f1452150",
+            "hop": 1,
+            "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+            "score": 0.005942296020843874,
+            "seed_label": null
+          }
+        ]
+      },
+      "theft_adjudicated": false,
+      "title": "NVIDIA-accelerated linked-wallet graph analysis (Wave-35 corpus)",
+      "true_ubo_asserted": false,
+      "wave35_meta": {
+        "checkpoint": {
+          "elapsed_sec": 545,
+          "expanded": 640,
+          "generated_at": "2026-07-23T23:41:38Z",
+          "hop_histogram": {
+            "0": 19,
+            "1": 5204,
+            "2": 39777
+          },
+          "linked_wallets": 45000,
+          "pages_fetched": 3064,
+          "queue_len": 44360,
+          "stop": false,
+          "target": 1000000,
+          "via_histogram": {
+            "internal": 14,
+            "seed": 19,
+            "tt": 16854,
+            "tx": 28113
+          }
+        },
+        "loaded_rows": 45315,
+        "partial": false,
+        "source": "output_artifacts/investigation/wave35/linked_wallets.jsonl",
+        "summary_present": false
+      },
+      "wcc": {
+        "backend": "numba_unionfind",
+        "components": 19,
+        "cugraph_error": null,
+        "elapsed_ms": 147,
+        "largest": 10760
+      }
+    },
+    {
+      "acceleration": {
+        "backend": "numpy_cpu_nvidia_compatible",
+        "connected_components": 1,
+        "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+        "elapsed_ms": 9,
+        "hyperedge_weighted_degree_mean": 2.2349397590361444,
+        "incidence_nnz": 2173,
+        "largest_component_size": 691,
+        "nvidia_accelerated": false,
+        "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+        "top_cooccurrence": [
+          {
+            "a": "wave:25",
+            "b": "wave:14",
+            "jaccard": 0.288136,
+            "shared_hyperedges": 17
+          },
+          {
+            "a": "flag:theft_adjudicated=False",
+            "b": "disposition:theft_adjudicated",
+            "jaccard": 0.37037,
+            "shared_hyperedges": 10
+          },
+          {
+            "a": "wave:33",
+            "b": "wave:32",
+            "jaccard": 0.103896,
+            "shared_hyperedges": 8
+          },
+          {
+            "a": "wave:22",
+            "b": "wave:21",
+            "jaccard": 0.06087,
+            "shared_hyperedges": 7
+          },
+          {
+            "a": "wave:31",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.139535,
+            "shared_hyperedges": 6
+          },
+          {
+            "a": "wave:30",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.119048,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:32",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.106383,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:28",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.086207,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:32",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.083333,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:25",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.079365,
+            "shared_hyperedges": 5
+          },
+          {
+            "a": "wave:17",
+            "b": "flag:illicit_registration_adjudicated=False",
+            "jaccard": 0.181818,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:18",
+            "b": "flag:illicit_registration_adjudicated=False",
+            "jaccard": 0.133333,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:30",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.117647,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:31",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.111111,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "flag:theft_adjudicated=False",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.108108,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:28",
+            "b": "flag:illicit_dust_network_adjudicated=False",
+            "jaccard": 0.08,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:25",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.078431,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:33",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:21",
+            "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:21",
+            "b": "flag:royalty_payment_adjudicated=False",
+            "jaccard": 0.070175,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:26",
+            "b": "flag:illicit_dust_evasion_adjudicated=False",
+            "jaccard": 0.063492,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:27",
+            "b": "flag:illicit_royalty_adjudicated=False",
+            "jaccard": 0.058824,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:33",
+            "b": "flag:theft_adjudicated=False",
+            "jaccard": 0.057143,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:22",
+            "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+            "jaccard": 0.056338,
+            "shared_hyperedges": 4
+          },
+          {
+            "a": "wave:22",
+            "b": "flag:royalty_payment_adjudicated=False",
+            "jaccard": 0.056338,
+            "shared_hyperedges": 4
+          }
+        ],
+        "top_vertices_by_weighted_degree": [
+          {
+            "id": "wave:24",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 59.999999999999964
+          },
+          {
+            "id": "wave:22",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 50.79999999999998
+          },
+          {
+            "id": "wave:33",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 48.20000000000001
+          },
+          {
+            "id": "wave:25",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 42.4
+          },
+          {
+            "id": "wave:27",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 42.399999999999984
+          },
+          {
+            "id": "wave:21",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 41.39999999999998
+          },
+          {
+            "id": "wave:32",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 36.30000000000001
+          },
+          {
+            "id": "wave:14",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 35.1
+          },
+          {
+            "id": "wave:23",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 34.80000000000001
+          },
+          {
+            "id": "wave:26",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 34.39999999999998
+          },
+          {
+            "id": "wave:28",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 31.89999999999998
+          },
+          {
+            "id": "wave:31",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 27.800000000000008
+          },
+          {
+            "id": "wave:20",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 27.70000000000001
+          },
+          {
+            "id": "wave:30",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 26.300000000000008
+          },
+          {
+            "id": "wave:18",
+            "kinds": [
+              "wave"
+            ],
+            "weighted_degree": 25.800000000000008
+          }
+        ],
+        "vertex_weighted_degree_max": 59.999999999999964,
+        "vertex_weighted_degree_mean": 2.6845151953690305,
+        "wave29_embedded_acceleration": {
+          "backend": "numpy_cpu_nvidia_compatible",
+          "connected_components": 1,
+          "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
+          "elapsed_ms": 9,
+          "hyperedge_weighted_degree_mean": 2.2349397590361444,
+          "incidence_nnz": 2173,
+          "largest_component_size": 691,
+          "nvidia_accelerated": false,
+          "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
+          "top_cooccurrence": [
+            {
+              "a": "wave:25",
+              "b": "wave:14",
+              "jaccard": 0.288136,
+              "shared_hyperedges": 17
+            },
+            {
+              "a": "flag:theft_adjudicated=False",
+              "b": "disposition:theft_adjudicated",
+              "jaccard": 0.37037,
+              "shared_hyperedges": 10
+            },
+            {
+              "a": "wave:33",
+              "b": "wave:32",
+              "jaccard": 0.103896,
+              "shared_hyperedges": 8
+            },
+            {
+              "a": "wave:22",
+              "b": "wave:21",
+              "jaccard": 0.06087,
+              "shared_hyperedges": 7
+            },
+            {
+              "a": "wave:31",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.139535,
+              "shared_hyperedges": 6
+            },
+            {
+              "a": "wave:30",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.119048,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:32",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.106383,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:28",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.086207,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:32",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.083333,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:25",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.079365,
+              "shared_hyperedges": 5
+            },
+            {
+              "a": "wave:17",
+              "b": "flag:illicit_registration_adjudicated=False",
+              "jaccard": 0.181818,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:18",
+              "b": "flag:illicit_registration_adjudicated=False",
+              "jaccard": 0.133333,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:30",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.117647,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:31",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.111111,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "flag:theft_adjudicated=False",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.108108,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:28",
+              "b": "flag:illicit_dust_network_adjudicated=False",
+              "jaccard": 0.08,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:25",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.078431,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:33",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:21",
+              "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:21",
+              "b": "flag:royalty_payment_adjudicated=False",
+              "jaccard": 0.070175,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:26",
+              "b": "flag:illicit_dust_evasion_adjudicated=False",
+              "jaccard": 0.063492,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:27",
+              "b": "flag:illicit_royalty_adjudicated=False",
+              "jaccard": 0.058824,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:33",
+              "b": "flag:theft_adjudicated=False",
+              "jaccard": 0.057143,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:22",
+              "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+              "jaccard": 0.056338,
+              "shared_hyperedges": 4
+            },
+            {
+              "a": "wave:22",
+              "b": "flag:royalty_payment_adjudicated=False",
+              "jaccard": 0.056338,
+              "shared_hyperedges": 4
+            }
+          ],
+          "top_vertices_by_weighted_degree": [
+            {
+              "id": "wave:24",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 59.999999999999964
+            },
+            {
+              "id": "wave:22",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 50.79999999999998
+            },
+            {
+              "id": "wave:33",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 48.20000000000001
+            },
+            {
+              "id": "wave:25",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 42.4
+            },
+            {
+              "id": "wave:27",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 42.399999999999984
+            },
+            {
+              "id": "wave:21",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 41.39999999999998
+            },
+            {
+              "id": "wave:32",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 36.30000000000001
+            },
+            {
+              "id": "wave:14",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 35.1
+            },
+            {
+              "id": "wave:23",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 34.80000000000001
+            },
+            {
+              "id": "wave:26",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 34.39999999999998
+            },
+            {
+              "id": "wave:28",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 31.89999999999998
+            },
+            {
+              "id": "wave:31",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 27.800000000000008
+            },
+            {
+              "id": "wave:20",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 27.70000000000001
+            },
+            {
+              "id": "wave:30",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 26.300000000000008
+            },
+            {
+              "id": "wave:18",
+              "kinds": [
+                "wave"
+              ],
+              "weighted_degree": 25.800000000000008
+            }
+          ],
+          "vertex_weighted_degree_max": 59.999999999999964,
+          "vertex_weighted_degree_mean": 2.6845151953690305
+        },
+        "wave36_backend": "numpy_scipy_numba_nvidia_compatible",
+        "wave36_nvidia_gpu_active": false
+      },
+      "detail": "Hypergraph refresh vertices=691 edges=830 backend=numpy_cpu_nvidia_compatible components=1 wave36_stack=numpy_scipy_numba_nvidia_compatible.",
+      "elapsed_ms": 97,
+      "hyperedge_count": 830,
+      "id": "W36-F3",
+      "title": "NVIDIA-accelerated consolidated hypergraph refresh",
+      "vertex_count": 691
+    }
+  ],
+  "generated_at": "2026-07-23T23:41:42Z",
+  "policy": "Wave-36 fully wires NVIDIA's acceleration stack (CUDA/RAPIDS cuDF+cuGraph+cuML/CuPy/Numba CUDA/PyTorch CUDA/TensorRT detect; NumPy+SciPy+Numba CPU fallback) to accelerate linked-wallet and hypergraph analysis. No True-UBO or theft adjudication.",
+  "seal": "f5c5d963d7c1991f4f44ba4a5cec126a3dd41426f458c01575a17f2ebb3da2fb",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "nvidia_full_stack_probe",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "NVIDIA full acceleration stack probe"
+    },
+    {
+      "adjudicated": false,
+      "id": "nvidia_accelerated_wallet_graph_analysis",
+      "next_actions": [
+        "Re-run Wave-36 after Wave-35 reaches 1_000_000 for full-scale GPU pass",
+        "Install RAPIDS (cugraph/cudf/cupy) on CUDA host to engage rapids_full path"
+      ],
+      "status": "SEALED",
+      "title": "NVIDIA-accelerated linked-wallet graph analysis"
+    },
+    {
+      "adjudicated": false,
+      "id": "nvidia_accelerated_hypergraph_refresh",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "NVIDIA-accelerated hypergraph refresh"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W36-M0",
+          "item": "CUDA GPU not visible — NVIDIA-compatible CPU path sealed; GPU path armed",
+          "priority": "CRITICAL"
+        },
+        {
+          "id": "W36-M1",
+          "item": "Provision CUDA + RAPIDS (cuDF/cuGraph/CuPy/cuML) host to flip backend from numpy_scipy_numba_nvidia_compatible → rapids_full_cugraph_cudf_cupy",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W36-M2",
+          "item": "Re-run Wave-36 when Wave-35 linked_wallets hits 1_000_000",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W36-M3",
+          "item": "Do not treat accelerated PageRank hubs as True-UBO adjudications",
+          "priority": "MEDIUM"
+        },
+        {
+          "id": "W36-M4",
+          "item": "Wallet graph vertices=45315 < 1e6 — continue Wave-35 enumeration",
+          "priority": "HIGH"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-36 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE36"
+}
