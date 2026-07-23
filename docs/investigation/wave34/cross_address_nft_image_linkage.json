@@ -1,0 +1,3156 @@
+{
+  "findings": [
+    {
+      "detail": "Global unique image keys=5755; shared across ≥2 labels=82; pairs with shared images=33 / 171. Shared CID/URL is not proof of stolen patent imagery.",
+      "id": "W34-F2",
+      "image_keys_shared_across_ge2_labels": 82,
+      "pair_space": 171,
+      "pairs_with_shared_images": [
+        {
+          "a": "elonmusk.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 14,
+          "shared_image_keys_sample": [
+            "https://artgobblers.com/drawing/9they31",
+            "https://imagedelivery.net/lpzpxhgenljpgshovdr4cg/23f69d97-728e-4349-614c-15eff3770800/public",
+            "https://imaginary-ones-nft.xyz",
+            "https://internetspirits.xyz",
+            "https://scan.poap.xyz/events/images/devcon3_512.png",
+            "https://scan.poap.xyz/events/images/edcon2019_512.png",
+            "https://www.noox.fund",
+            "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png",
+            "https://zhongbencong.eth.limo",
+            "ipfs:QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs",
+            "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+            "ipfs:bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq",
+            "ipfs:bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti",
+            "ipfs:bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+          ]
+        },
+        {
+          "a": "juullabs.eth",
+          "b": "paxlabs.eth",
+          "shared_image_key_count": 8,
+          "shared_image_keys_sample": [
+            "https://apelist.tech",
+            "https://spinalfoxes.link",
+            "https://www.adidas.com/metaverse",
+            "ipfs:QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn",
+            "ipfs:QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE",
+            "ipfs:QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx",
+            "ipfs:Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1",
+            "ipfs:QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP"
+          ]
+        },
+        {
+          "a": "philipmorrisusa.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 7,
+          "shared_image_keys_sample": [
+            "https://nft-generator.art",
+            "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif",
+            "https://www.bzuki.io",
+            "https://www.nycfeb192020.com",
+            "ipfs:QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66",
+            "ipfs:Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m",
+            "ipfs:QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+          ]
+        },
+        {
+          "a": "sama.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 7,
+          "shared_image_keys_sample": [
+            "https://ethereum.org",
+            "https://linageenameregistrar.com",
+            "https://miladymaker.net",
+            "https://nft-generator.art",
+            "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+            "ipfs:QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7",
+            "ipfs:QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf"
+          ]
+        },
+        {
+          "a": "juullabs.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 6,
+          "shared_image_keys_sample": [
+            "http://api.supducks.top/ipfs/dolcegabbananft/7.gif",
+            "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif",
+            "https://api.guccinfts.top/ipfs/gucci/1.gif",
+            "https://gucci-nfts.xyz",
+            "https://mercedes-benz-nft.top",
+            "https://nikentfs.xyz"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "njoy.eth",
+          "shared_image_key_count": 5,
+          "shared_image_keys_sample": [
+            "https://oncyber.io/destinations/infrared",
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+            "ipfs:QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ",
+            "ipfs:QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu",
+            "ipfs:QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+          ]
+        },
+        {
+          "a": "juullabs.eth",
+          "b": "pmusa.eth",
+          "shared_image_key_count": 5,
+          "shared_image_keys_sample": [
+            "https://diamondpaw.site",
+            "https://dlart.site",
+            "https://thedogepoundapi.com/1.mp4",
+            "ipfs:QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm",
+            "ipfs:QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1"
+          ]
+        },
+        {
+          "a": "pmusa.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 5,
+          "shared_image_keys_sample": [
+            "https://arweave.net/3yayct9al9zyuffwhr45qavvhh7ulqkoupgv-dyx2jo",
+            "https://arweave.net/dm4ohglzqmuyz8-nfq85yaf7tshrn0rdwo1kc58zv48",
+            "https://arweave.net/rqse3s0q14ao_uc78jojdr9zkwejnt0yxt6tcdlsrgo",
+            "https://nft-generator.art",
+            "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse"
+          ]
+        },
+        {
+          "a": "elonmusk.eth",
+          "b": "jamiesalter.eth",
+          "shared_image_key_count": 4,
+          "shared_image_keys_sample": [
+            "https://ethereum.org/10years",
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+            "ipfs:bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq",
+            "ipfs:bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 4,
+          "shared_image_keys_sample": [
+            "3gate.io.",
+            "https://consensys.net/merge",
+            "ipfs:QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY",
+            "ipfs:Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+          ]
+        },
+        {
+          "a": "elonmusk.eth",
+          "b": "pmi.eth",
+          "shared_image_key_count": 3,
+          "shared_image_keys_sample": [
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+            "ipfs:QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16",
+            "ipfs:QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+          ]
+        },
+        {
+          "a": "elonmusk.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 3,
+          "shared_image_keys_sample": [
+            "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+            "ipfs:QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW",
+            "ipfs:bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "juullabs.eth",
+          "shared_image_key_count": 3,
+          "shared_image_keys_sample": [
+            "https://deadfellaz.io",
+            "https://www.lazylionsnft.com",
+            "ipfs:QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+          ]
+        },
+        {
+          "a": "jensenhuang.eth",
+          "b": "philipmorris.eth",
+          "shared_image_key_count": 2,
+          "shared_image_keys_sample": [
+            "https://dourdarcels.link",
+            "ipfs:QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+          ]
+        },
+        {
+          "a": "juullabs.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 2,
+          "shared_image_keys_sample": [
+            "ipfs:QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc",
+            "ipfs:QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+          ]
+        },
+        {
+          "a": "njoy.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 2,
+          "shared_image_keys_sample": [
+            "https://arweave.net/mte96y21me8kjsaiw51znexvkc_yv7bcqxoitphnvmm",
+            "https://seize.io/meme-lab/15"
+          ]
+        },
+        {
+          "a": "paxlabs.eth",
+          "b": "pmusa.eth",
+          "shared_image_key_count": 2,
+          "shared_image_keys_sample": [
+            "https://emmanft.xyz/?source=iel",
+            "https://emmanft.xyz/emma.gif"
+          ]
+        },
+        {
+          "a": "elonmusk.eth",
+          "b": "njoy.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+          ]
+        },
+        {
+          "a": "fyllo.eth",
+          "b": "juul.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+          ]
+        },
+        {
+          "a": "fyllo.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "philipmorris.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://www.lazylionsnft.com"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "pmi.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+          ]
+        },
+        {
+          "a": "jamiesalter.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+          ]
+        },
+        {
+          "a": "jensenhuang.eth",
+          "b": "philipmorrisusa.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://mcp3d.com/api/image/deprecated"
+          ]
+        },
+        {
+          "a": "juul.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+          ]
+        },
+        {
+          "a": "juullabs.eth",
+          "b": "philipmorris.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://www.lazylionsnft.com"
+          ]
+        },
+        {
+          "a": "njoy.eth",
+          "b": "paxlabs.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ"
+          ]
+        },
+        {
+          "a": "njoy.eth",
+          "b": "pmi.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+          ]
+        },
+        {
+          "a": "paxlabs.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "ipfs:QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+          ]
+        },
+        {
+          "a": "philipmorris.eth",
+          "b": "pmi.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+          ]
+        },
+        {
+          "a": "philipmorrisusa.eth",
+          "b": "pmusa.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://nft-generator.art"
+          ]
+        },
+        {
+          "a": "philipmorrisusa.eth",
+          "b": "sama.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://nft-generator.art"
+          ]
+        },
+        {
+          "a": "pmusa.eth",
+          "b": "vitalik.eth",
+          "shared_image_key_count": 1,
+          "shared_image_keys_sample": [
+            "https://nft-generator.art"
+          ]
+        }
+      ],
+      "shared_image_keys": [
+        {
+          "example": {
+            "collection": "Hammies",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "HG",
+            "url": "https://nft-generator.art"
+          },
+          "label_count": 4,
+          "labels": [
+            "philipmorrisusa.eth",
+            "pmusa.eth",
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://nft-generator.art"
+        },
+        {
+          "example": {
+            "collection": ".crypto",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "UD",
+            "url": "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+          },
+          "label_count": 4,
+          "labels": [
+            "elonmusk.eth",
+            "jamiesalter.eth",
+            "njoy.eth",
+            "pmi.eth"
+          ],
+          "normalized_key": "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+        },
+        {
+          "example": {
+            "collection": "Lazy Lions Bungalows",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "BUNGALOW",
+            "url": "https://www.lazylionsnft.com/"
+          },
+          "label_count": 3,
+          "labels": [
+            "jamiesalter.eth",
+            "juullabs.eth",
+            "philipmorris.eth"
+          ],
+          "normalized_key": "https://www.lazylionsnft.com"
+        },
+        {
+          "example": {
+            "collection": "LqETH.org",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "Airdrop",
+            "url": "https://ipfs.io/ipfs/QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+          },
+          "label_count": 3,
+          "labels": [
+            "fyllo.eth",
+            "juul.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+        },
+        {
+          "example": {
+            "collection": "Unisocks NFT",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "Unisocks",
+            "url": "https://dweb.link/ipfs/QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG"
+          },
+          "label_count": 3,
+          "labels": [
+            "elonmusk.eth",
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG"
+        },
+        {
+          "example": {
+            "collection": "3GATE Subdomains",
+            "scheme": "other",
+            "source": "nft_inventory",
+            "symbol": "3GATEID",
+            "url": "3gate.io."
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "3gate.io."
+        },
+        {
+          "example": {
+            "collection": "D&G",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "D&G",
+            "url": "http://api.supducks.top/ipfs/dolcegabbananft/7.gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "http://api.supducks.top/ipfs/dolcegabbananft/7.gif"
+        },
+        {
+          "example": {
+            "collection": "Bored Ape Nike Club",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "BANC",
+            "url": "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif"
+        },
+        {
+          "example": {
+            "collection": "Top APE Keys Cards",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "Top APE Keys Cards",
+            "url": "https://apelist.tech"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "https://apelist.tech"
+        },
+        {
+          "example": {
+            "collection": "Gucci",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "GUCCI",
+            "url": "https://api.guccinfts.top/ipfs/gucci/1.gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://api.guccinfts.top/ipfs/gucci/1.gif"
+        },
+        {
+          "example": {
+            "collection": "OpenSea Shared Storefront",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "OPENSTORE",
+            "url": "https://artgobblers.com/drawing/9THEY31"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://artgobblers.com/drawing/9they31"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "arweave",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://arweave.net/3yAYCt9Al9zyuFfwHr45qAvvHh7ULQkOuPgV-DYx2Jo"
+          },
+          "label_count": 2,
+          "labels": [
+            "pmusa.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://arweave.net/3yayct9al9zyuffwhr45qavvhh7ulqkoupgv-dyx2jo"
+        },
+        {
+          "example": {
+            "collection": "UNIC Access",
+            "scheme": "arweave",
+            "source": "nft_inventory",
+            "symbol": "UNIC",
+            "url": "https://arweave.net/dm4ohGlzQmUYZ8-NfQ85YAf7TshRn0rDWo1KC58zV48"
+          },
+          "label_count": 2,
+          "labels": [
+            "pmusa.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://arweave.net/dm4ohglzqmuyz8-nfq85yaf7tshrn0rdwo1kc58zv48"
+        },
+        {
+          "example": {
+            "collection": "Meme Lab",
+            "scheme": "arweave",
+            "source": "nft_inventory",
+            "symbol": "MemeLab",
+            "url": "https://arweave.net/mte96y21Me8kJsaiW51znexVKC_yv7bcQxoItPhNvMM"
+          },
+          "label_count": 2,
+          "labels": [
+            "njoy.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://arweave.net/mte96y21me8kjsaiw51znexvkc_yv7bcqxoitphnvmm"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "arweave",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://arweave.net/RQSe3S0q14ao_UC78JOJDr9ZkwejnT0yXT6TCdlsRgo"
+          },
+          "label_count": 2,
+          "labels": [
+            "pmusa.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://arweave.net/rqse3s0q14ao_uc78jojdr9zkwejnt0yxt6tcdlsrgo"
+        },
+        {
+          "example": {
+            "collection": "TheMerge",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "MERGE",
+            "url": "https://consensys.net/merge"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://consensys.net/merge"
+        },
+        {
+          "example": {
+            "collection": "DeadFellaz",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "DEADFELLAZ",
+            "url": "https://deadfellaz.io"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "juullabs.eth"
+          ],
+          "normalized_key": "https://deadfellaz.io"
+        },
+        {
+          "example": {
+            "collection": "The Paw Community",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Paw Community",
+            "url": "https://diamondpaw.site"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "https://diamondpaw.site"
+        },
+        {
+          "example": {
+            "collection": "The DlArt NFT",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The DlArt NFT",
+            "url": "https://dlart.site"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "https://dlart.site"
+        },
+        {
+          "example": {
+            "collection": "The Dour Darcel Original",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Dour Darcel Original",
+            "url": "https://dourdarcels.link"
+          },
+          "label_count": 2,
+          "labels": [
+            "jensenhuang.eth",
+            "philipmorris.eth"
+          ],
+          "normalized_key": "https://dourdarcels.link"
+        },
+        {
+          "example": {
+            "collection": "Cute Emma Origin",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Cute Emma Origin",
+            "url": "https://emmanft.xyz/?source=iel"
+          },
+          "label_count": 2,
+          "labels": [
+            "paxlabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "https://emmanft.xyz/?source=iel"
+        },
+        {
+          "example": {
+            "collection": "Cute Emma Origin",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Cute Emma Origin",
+            "url": "https://emmanft.xyz/emma.gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "paxlabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "https://emmanft.xyz/emma.gif"
+        },
+        {
+          "example": {
+            "collection": "Unisocks NFT",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Unisocks",
+            "url": "https://ethereum.org"
+          },
+          "label_count": 2,
+          "labels": [
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://ethereum.org"
+        },
+        {
+          "example": {
+            "collection": "Ten Years Of Ethereum",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "10YETH",
+            "url": "https://ethereum.org/10years/"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "jamiesalter.eth"
+          ],
+          "normalized_key": "https://ethereum.org/10years"
+        },
+        {
+          "example": {
+            "collection": "Gucci",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "GUCCI",
+            "url": "https://gucci-nfts.xyz"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://gucci-nfts.xyz"
+        },
+        {
+          "example": {
+            "collection": "frENS",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "FRNS",
+            "url": "https://imagedelivery.net/LpzPXHgENljpGshoVdr4cg/23f69d97-728e-4349-614c-15eff3770800/public"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://imagedelivery.net/lpzpxhgenljpgshovdr4cg/23f69d97-728e-4349-614c-15eff3770800/public"
+        },
+        {
+          "example": {
+            "collection": "Imaginary Ones",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "IMAGINARY",
+            "url": "https://imaginary-ones-nft.xyz"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://imaginary-ones-nft.xyz"
+        },
+        {
+          "example": {
+            "collection": "Internet Spirits",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "IS",
+            "url": "https://InternetSpirits.xyz"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://internetspirits.xyz"
+        },
+        {
+          "example": {
+            "collection": "ETHRegistrarLinageeWrapper",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "ERLW",
+            "url": "https://linageenameregistrar.com/"
+          },
+          "label_count": 2,
+          "labels": [
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://linageenameregistrar.com"
+        },
+        {
+          "example": {
+            "collection": "MCP Welcome Pack",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "MCPWP",
+            "url": "https://mcp3d.com/api/image/deprecated"
+          },
+          "label_count": 2,
+          "labels": [
+            "jensenhuang.eth",
+            "philipmorrisusa.eth"
+          ],
+          "normalized_key": "https://mcp3d.com/api/image/deprecated"
+        },
+        {
+          "example": {
+            "collection": "Benz",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "Mercedes Benz",
+            "url": "https://mercedes-benz-nft.top"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://mercedes-benz-nft.top"
+        },
+        {
+          "example": {
+            "collection": "Milady",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "MIL",
+            "url": "https://miladymaker.net"
+          },
+          "label_count": 2,
+          "labels": [
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://miladymaker.net"
+        },
+        {
+          "example": {
+            "collection": "Bored Ape Nike Club",
+            "scheme": "http",
+            "source": "token_transfer_instance",
+            "symbol": "BANC",
+            "url": "https://nikentfs.xyz"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://nikentfs.xyz"
+        },
+        {
+          "example": {
+            "collection": "NYC February 19th 2020",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "NYCFEB192020",
+            "url": "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://oncyber.io/destinations/infrared"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "njoy.eth"
+          ],
+          "normalized_key": "https://oncyber.io/destinations/infrared"
+        },
+        {
+          "example": {
+            "collection": "Modern Crown Community",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Modern Crown Community",
+            "url": "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorris.eth",
+            "pmi.eth"
+          ],
+          "normalized_key": "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+        },
+        {
+          "example": {
+            "collection": "POAP",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Proof of Attendance Protocol",
+            "url": "https://scan.poap.xyz/events/images/devcon3_512.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://scan.poap.xyz/events/images/devcon3_512.png"
+        },
+        {
+          "example": {
+            "collection": "POAP",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Proof of Attendance Protocol",
+            "url": "https://scan.poap.xyz/events/images/edcon2019_512.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://scan.poap.xyz/events/images/edcon2019_512.png"
+        },
+        {
+          "example": {
+            "collection": "Meme Lab",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "MemeLab",
+            "url": "https://seize.io/meme-lab/15"
+          },
+          "label_count": 2,
+          "labels": [
+            "njoy.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://seize.io/meme-lab/15"
+        },
+        {
+          "example": {
+            "collection": "Spinal Foxes",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Spinal Foxes",
+            "url": "https://spinalfoxes.link"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "https://spinalfoxes.link"
+        },
+        {
+          "example": {
+            "collection": "The Paw Community",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Paw Community",
+            "url": "https://thedogepoundapi.com/1.mp4"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "https://thedogepoundapi.com/1.mp4"
+        },
+        {
+          "example": {
+            "collection": "adidas Virtual Gear",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "AVG",
+            "url": "https://www.adidas.com/metaverse"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "https://www.adidas.com/metaverse"
+        },
+        {
+          "example": {
+            "collection": "Bzuki",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "BZUKI",
+            "url": "https://www.bzuki.io/"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://www.bzuki.io"
+        },
+        {
+          "example": {
+            "collection": "Uniswap Airdrop Recipient",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "Noox Distribution Protocol",
+            "url": "https://www.noox.fund"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://www.noox.fund"
+        },
+        {
+          "example": {
+            "collection": "NYC February 19th 2020",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "NYCFEB192020",
+            "url": "https://www.nycfeb192020.com/"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://www.nycfeb192020.com"
+        },
+        {
+          "example": {
+            "collection": "POAP",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "The Proof of Attendance Protocol",
+            "url": "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png"
+        },
+        {
+          "example": {
+            "collection": "UNIC Access",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "UNIC",
+            "url": "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse/"
+          },
+          "label_count": 2,
+          "labels": [
+            "pmusa.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse"
+        },
+        {
+          "example": {
+            "collection": "OpenSea Shared Storefront",
+            "scheme": "http",
+            "source": "nft_inventory",
+            "symbol": "OPENSTORE",
+            "url": "https://zhongbencong.eth.limo"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "https://zhongbencong.eth.limo"
+        },
+        {
+          "example": {
+            "collection": "Gutter Punks - ENS",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "GPENS",
+            "url": "https://dweb.link/ipfs/QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://dweb.link/ipfs/QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "njoy.eth"
+          ],
+          "normalized_key": "ipfs:QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ"
+        },
+        {
+          "example": {
+            "collection": "DeadFrenz Pass",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "DEADFRENZPASS",
+            "url": "https://dweb.link/ipfs/QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "juullabs.eth"
+          ],
+          "normalized_key": "ipfs:QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+        },
+        {
+          "example": {
+            "collection": "Internet Spirits",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "IS",
+            "url": "https://dweb.link/ipfs/QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs/166.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://dweb.link/ipfs/QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "njoy.eth"
+          ],
+          "normalized_key": "ipfs:QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "https://gateway.pinata.cloud/ipfs/QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+          },
+          "label_count": 2,
+          "labels": [
+            "paxlabs.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+        },
+        {
+          "example": {
+            "collection": "Spinal Foxes",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "Spinal Foxes",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn"
+        },
+        {
+          "example": {
+            "collection": "The Great Benzi Bananas AI Pass",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "The Great Benzi Bananas AI Pass",
+            "url": "https://ipfs.io/ipfs/QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE/pass.gif"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE"
+        },
+        {
+          "example": {
+            "collection": "Gutter Punks - ENS",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "GPENS",
+            "url": "https://dweb.link/ipfs/QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+        },
+        {
+          "example": {
+            "collection": "TheMerge",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "MERGE",
+            "url": "https://dweb.link/ipfs/QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY"
+        },
+        {
+          "example": {
+            "collection": "The Diverse Ticket",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "The Diverse Ticket",
+            "url": "https://dweb.link/ipfs/QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16/661.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "pmi.eth"
+          ],
+          "normalized_key": "ipfs:QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16"
+        },
+        {
+          "example": {
+            "collection": "Baby Burn: OpenSea Redeemable Example",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "B-BRN",
+            "url": "https://dweb.link/ipfs/QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7"
+          },
+          "label_count": 2,
+          "labels": [
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7"
+        },
+        {
+          "example": {
+            "collection": "The Dour Darcel Original",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "The Dour Darcel Original",
+            "url": "https://dweb.link/ipfs/QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+          },
+          "label_count": 2,
+          "labels": [
+            "jensenhuang.eth",
+            "philipmorris.eth"
+          ],
+          "normalized_key": "ipfs:QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+        },
+        {
+          "example": {
+            "collection": "The DlArt NFT",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "The DlArt NFT",
+            "url": "ipfs://QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm/2.mp4"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "ipfs:QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm"
+        },
+        {
+          "example": {
+            "collection": "sketchy mfers",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "SMFER",
+            "url": "https://dweb.link/ipfs/QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ/1039.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "njoy.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ"
+        },
+        {
+          "example": {
+            "collection": "Top APE Keys Cards",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "Top APE Keys Cards",
+            "url": "https://ipfs.io/ipfs/QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx"
+        },
+        {
+          "example": {
+            "collection": "TheMerge",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "MERGE",
+            "url": "https://dweb.link/ipfs/Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+        },
+        {
+          "example": {
+            "collection": "MiladyRave",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "MIR",
+            "url": "https://dweb.link/ipfs/QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf/555.jpg"
+          },
+          "label_count": 2,
+          "labels": [
+            "sama.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf"
+        },
+        {
+          "example": {
+            "collection": "adidas Originals: Into the Metaverse",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "ADI",
+            "url": "https://dweb.link/ipfs/Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1/"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1"
+        },
+        {
+          "example": {
+            "collection": "Bzuki",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "BZUKI",
+            "url": "https://dweb.link/ipfs/QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66/782.jpg"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66"
+        },
+        {
+          "example": {
+            "collection": "Bzuki",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "BZUKI",
+            "url": "https://dweb.link/ipfs/Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m"
+        },
+        {
+          "example": {
+            "collection": null,
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": null,
+            "url": "ipfs://QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "njoy.eth"
+          ],
+          "normalized_key": "ipfs:QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+        },
+        {
+          "example": {
+            "collection": "Akuma",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "Akuma",
+            "url": "https://dweb.link/ipfs/QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1/5398.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "pmusa.eth"
+          ],
+          "normalized_key": "ipfs:QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1"
+        },
+        {
+          "example": {
+            "collection": "earn-eth.net",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "Airdrop",
+            "url": "https://ipfs.io/ipfs/QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "pmi.eth"
+          ],
+          "normalized_key": "ipfs:QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+        },
+        {
+          "example": {
+            "collection": "Bzuki",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "BZUKI",
+            "url": "https://dweb.link/ipfs/QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+          },
+          "label_count": 2,
+          "labels": [
+            "philipmorrisusa.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+        },
+        {
+          "example": {
+            "collection": "Shaq Gives Back",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "SHAQS",
+            "url": "https://dweb.link/ipfs/QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW/4161.png"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW"
+        },
+        {
+          "example": {
+            "collection": "Top APE Keys Cards",
+            "scheme": "ipfs",
+            "source": "token_transfer_instance",
+            "symbol": "Top APE Keys Cards",
+            "url": "https://dweb.link/ipfs/QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP/"
+          },
+          "label_count": 2,
+          "labels": [
+            "juullabs.eth",
+            "paxlabs.eth"
+          ],
+          "normalized_key": "ipfs:QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP"
+        },
+        {
+          "example": {
+            "collection": "Base, Introduced",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "BASEINTRODUCED",
+            "url": "https://dweb.link/ipfs/bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "sama.eth"
+          ],
+          "normalized_key": "ipfs:bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+        },
+        {
+          "example": {
+            "collection": "OpenSea Shared Storefront",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "OPENSTORE",
+            "url": "https://dweb.link/ipfs/bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq/image"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq"
+        },
+        {
+          "example": {
+            "collection": "OpenSea Shared Storefront",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "OPENSTORE",
+            "url": "https://dweb.link/ipfs/bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti/image"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti"
+        },
+        {
+          "example": {
+            "collection": "Ten Years Of Ethereum",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "10YETH",
+            "url": "https://dweb.link/ipfs/bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "jamiesalter.eth"
+          ],
+          "normalized_key": "ipfs:bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq"
+        },
+        {
+          "example": {
+            "collection": "Uniswap Airdrop Recipient",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "Noox Distribution Protocol",
+            "url": "https://dweb.link/ipfs/bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+        },
+        {
+          "example": {
+            "collection": "Ten Years Of Ethereum",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "10YETH",
+            "url": "https://dweb.link/ipfs/bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+          },
+          "label_count": 2,
+          "labels": [
+            "elonmusk.eth",
+            "jamiesalter.eth"
+          ],
+          "normalized_key": "ipfs:bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+        },
+        {
+          "example": {
+            "collection": "Digital Slop",
+            "scheme": "ipfs",
+            "source": "nft_inventory",
+            "symbol": "SLOP",
+            "url": "https://dweb.link/ipfs/bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+          },
+          "label_count": 2,
+          "labels": [
+            "jamiesalter.eth",
+            "vitalik.eth"
+          ],
+          "normalized_key": "ipfs:bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+        }
+      ],
+      "stolen_ip_shared_imagery_adjudicated": false,
+      "title": "Cross-address NFT image linkage graph (shared media keys)",
+      "unique_image_keys_global": 5755
+    }
+  ],
+  "id": "cross_address_nft_image_linkage",
+  "pairs_with_shared_images": [
+    {
+      "a": "elonmusk.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 14,
+      "shared_image_keys_sample": [
+        "https://artgobblers.com/drawing/9they31",
+        "https://imagedelivery.net/lpzpxhgenljpgshovdr4cg/23f69d97-728e-4349-614c-15eff3770800/public",
+        "https://imaginary-ones-nft.xyz",
+        "https://internetspirits.xyz",
+        "https://scan.poap.xyz/events/images/devcon3_512.png",
+        "https://scan.poap.xyz/events/images/edcon2019_512.png",
+        "https://www.noox.fund",
+        "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png",
+        "https://zhongbencong.eth.limo",
+        "ipfs:QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs",
+        "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+        "ipfs:bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq",
+        "ipfs:bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti",
+        "ipfs:bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+      ]
+    },
+    {
+      "a": "juullabs.eth",
+      "b": "paxlabs.eth",
+      "shared_image_key_count": 8,
+      "shared_image_keys_sample": [
+        "https://apelist.tech",
+        "https://spinalfoxes.link",
+        "https://www.adidas.com/metaverse",
+        "ipfs:QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn",
+        "ipfs:QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE",
+        "ipfs:QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx",
+        "ipfs:Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1",
+        "ipfs:QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP"
+      ]
+    },
+    {
+      "a": "philipmorrisusa.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 7,
+      "shared_image_keys_sample": [
+        "https://nft-generator.art",
+        "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif",
+        "https://www.bzuki.io",
+        "https://www.nycfeb192020.com",
+        "ipfs:QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66",
+        "ipfs:Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m",
+        "ipfs:QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+      ]
+    },
+    {
+      "a": "sama.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 7,
+      "shared_image_keys_sample": [
+        "https://ethereum.org",
+        "https://linageenameregistrar.com",
+        "https://miladymaker.net",
+        "https://nft-generator.art",
+        "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+        "ipfs:QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7",
+        "ipfs:QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf"
+      ]
+    },
+    {
+      "a": "juullabs.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 6,
+      "shared_image_keys_sample": [
+        "http://api.supducks.top/ipfs/dolcegabbananft/7.gif",
+        "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif",
+        "https://api.guccinfts.top/ipfs/gucci/1.gif",
+        "https://gucci-nfts.xyz",
+        "https://mercedes-benz-nft.top",
+        "https://nikentfs.xyz"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "njoy.eth",
+      "shared_image_key_count": 5,
+      "shared_image_keys_sample": [
+        "https://oncyber.io/destinations/infrared",
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+        "ipfs:QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ",
+        "ipfs:QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu",
+        "ipfs:QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+      ]
+    },
+    {
+      "a": "juullabs.eth",
+      "b": "pmusa.eth",
+      "shared_image_key_count": 5,
+      "shared_image_keys_sample": [
+        "https://diamondpaw.site",
+        "https://dlart.site",
+        "https://thedogepoundapi.com/1.mp4",
+        "ipfs:QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm",
+        "ipfs:QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1"
+      ]
+    },
+    {
+      "a": "pmusa.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 5,
+      "shared_image_keys_sample": [
+        "https://arweave.net/3yayct9al9zyuffwhr45qavvhh7ulqkoupgv-dyx2jo",
+        "https://arweave.net/dm4ohglzqmuyz8-nfq85yaf7tshrn0rdwo1kc58zv48",
+        "https://arweave.net/rqse3s0q14ao_uc78jojdr9zkwejnt0yxt6tcdlsrgo",
+        "https://nft-generator.art",
+        "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse"
+      ]
+    },
+    {
+      "a": "elonmusk.eth",
+      "b": "jamiesalter.eth",
+      "shared_image_key_count": 4,
+      "shared_image_keys_sample": [
+        "https://ethereum.org/10years",
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+        "ipfs:bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq",
+        "ipfs:bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 4,
+      "shared_image_keys_sample": [
+        "3gate.io.",
+        "https://consensys.net/merge",
+        "ipfs:QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY",
+        "ipfs:Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+      ]
+    },
+    {
+      "a": "elonmusk.eth",
+      "b": "pmi.eth",
+      "shared_image_key_count": 3,
+      "shared_image_keys_sample": [
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg",
+        "ipfs:QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16",
+        "ipfs:QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+      ]
+    },
+    {
+      "a": "elonmusk.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 3,
+      "shared_image_keys_sample": [
+        "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+        "ipfs:QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW",
+        "ipfs:bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "juullabs.eth",
+      "shared_image_key_count": 3,
+      "shared_image_keys_sample": [
+        "https://deadfellaz.io",
+        "https://www.lazylionsnft.com",
+        "ipfs:QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+      ]
+    },
+    {
+      "a": "jensenhuang.eth",
+      "b": "philipmorris.eth",
+      "shared_image_key_count": 2,
+      "shared_image_keys_sample": [
+        "https://dourdarcels.link",
+        "ipfs:QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+      ]
+    },
+    {
+      "a": "juullabs.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 2,
+      "shared_image_keys_sample": [
+        "ipfs:QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc",
+        "ipfs:QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+      ]
+    },
+    {
+      "a": "njoy.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 2,
+      "shared_image_keys_sample": [
+        "https://arweave.net/mte96y21me8kjsaiw51znexvkc_yv7bcqxoitphnvmm",
+        "https://seize.io/meme-lab/15"
+      ]
+    },
+    {
+      "a": "paxlabs.eth",
+      "b": "pmusa.eth",
+      "shared_image_key_count": 2,
+      "shared_image_keys_sample": [
+        "https://emmanft.xyz/?source=iel",
+        "https://emmanft.xyz/emma.gif"
+      ]
+    },
+    {
+      "a": "elonmusk.eth",
+      "b": "njoy.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+      ]
+    },
+    {
+      "a": "fyllo.eth",
+      "b": "juul.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+      ]
+    },
+    {
+      "a": "fyllo.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "philipmorris.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://www.lazylionsnft.com"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "pmi.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+      ]
+    },
+    {
+      "a": "jamiesalter.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+      ]
+    },
+    {
+      "a": "jensenhuang.eth",
+      "b": "philipmorrisusa.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://mcp3d.com/api/image/deprecated"
+      ]
+    },
+    {
+      "a": "juul.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+      ]
+    },
+    {
+      "a": "juullabs.eth",
+      "b": "philipmorris.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://www.lazylionsnft.com"
+      ]
+    },
+    {
+      "a": "njoy.eth",
+      "b": "paxlabs.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ"
+      ]
+    },
+    {
+      "a": "njoy.eth",
+      "b": "pmi.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+      ]
+    },
+    {
+      "a": "paxlabs.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "ipfs:QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+      ]
+    },
+    {
+      "a": "philipmorris.eth",
+      "b": "pmi.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+      ]
+    },
+    {
+      "a": "philipmorrisusa.eth",
+      "b": "pmusa.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://nft-generator.art"
+      ]
+    },
+    {
+      "a": "philipmorrisusa.eth",
+      "b": "sama.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://nft-generator.art"
+      ]
+    },
+    {
+      "a": "pmusa.eth",
+      "b": "vitalik.eth",
+      "shared_image_key_count": 1,
+      "shared_image_keys_sample": [
+        "https://nft-generator.art"
+      ]
+    }
+  ],
+  "shared_image_keys": [
+    {
+      "example": {
+        "collection": "Hammies",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "HG",
+        "url": "https://nft-generator.art"
+      },
+      "label_count": 4,
+      "labels": [
+        "philipmorrisusa.eth",
+        "pmusa.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://nft-generator.art"
+    },
+    {
+      "example": {
+        "collection": ".crypto",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "UD",
+        "url": "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+      },
+      "label_count": 4,
+      "labels": [
+        "elonmusk.eth",
+        "jamiesalter.eth",
+        "njoy.eth",
+        "pmi.eth"
+      ],
+      "normalized_key": "https://storage.googleapis.com/dot-crypto-metadata-api/images/unstoppabledomains.svg"
+    },
+    {
+      "example": {
+        "collection": "Lazy Lions Bungalows",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "BUNGALOW",
+        "url": "https://www.lazylionsnft.com/"
+      },
+      "label_count": 3,
+      "labels": [
+        "jamiesalter.eth",
+        "juullabs.eth",
+        "philipmorris.eth"
+      ],
+      "normalized_key": "https://www.lazylionsnft.com"
+    },
+    {
+      "example": {
+        "collection": "LqETH.org",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "Airdrop",
+        "url": "https://ipfs.io/ipfs/QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+      },
+      "label_count": 3,
+      "labels": [
+        "fyllo.eth",
+        "juul.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP"
+    },
+    {
+      "example": {
+        "collection": "Unisocks NFT",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "Unisocks",
+        "url": "https://dweb.link/ipfs/QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG"
+      },
+      "label_count": 3,
+      "labels": [
+        "elonmusk.eth",
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG"
+    },
+    {
+      "example": {
+        "collection": "3GATE Subdomains",
+        "scheme": "other",
+        "source": "nft_inventory",
+        "symbol": "3GATEID",
+        "url": "3gate.io."
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "3gate.io."
+    },
+    {
+      "example": {
+        "collection": "D&G",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "D&G",
+        "url": "http://api.supducks.top/ipfs/dolcegabbananft/7.gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "http://api.supducks.top/ipfs/dolcegabbananft/7.gif"
+    },
+    {
+      "example": {
+        "collection": "Bored Ape Nike Club",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "BANC",
+        "url": "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "http://gateway.pinatas.cloud/ipfs/nikebanc/(12).gif"
+    },
+    {
+      "example": {
+        "collection": "Top APE Keys Cards",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "Top APE Keys Cards",
+        "url": "https://apelist.tech"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "https://apelist.tech"
+    },
+    {
+      "example": {
+        "collection": "Gucci",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "GUCCI",
+        "url": "https://api.guccinfts.top/ipfs/gucci/1.gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://api.guccinfts.top/ipfs/gucci/1.gif"
+    },
+    {
+      "example": {
+        "collection": "OpenSea Shared Storefront",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "OPENSTORE",
+        "url": "https://artgobblers.com/drawing/9THEY31"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://artgobblers.com/drawing/9they31"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "arweave",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://arweave.net/3yAYCt9Al9zyuFfwHr45qAvvHh7ULQkOuPgV-DYx2Jo"
+      },
+      "label_count": 2,
+      "labels": [
+        "pmusa.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://arweave.net/3yayct9al9zyuffwhr45qavvhh7ulqkoupgv-dyx2jo"
+    },
+    {
+      "example": {
+        "collection": "UNIC Access",
+        "scheme": "arweave",
+        "source": "nft_inventory",
+        "symbol": "UNIC",
+        "url": "https://arweave.net/dm4ohGlzQmUYZ8-NfQ85YAf7TshRn0rDWo1KC58zV48"
+      },
+      "label_count": 2,
+      "labels": [
+        "pmusa.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://arweave.net/dm4ohglzqmuyz8-nfq85yaf7tshrn0rdwo1kc58zv48"
+    },
+    {
+      "example": {
+        "collection": "Meme Lab",
+        "scheme": "arweave",
+        "source": "nft_inventory",
+        "symbol": "MemeLab",
+        "url": "https://arweave.net/mte96y21Me8kJsaiW51znexVKC_yv7bcQxoItPhNvMM"
+      },
+      "label_count": 2,
+      "labels": [
+        "njoy.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://arweave.net/mte96y21me8kjsaiw51znexvkc_yv7bcqxoitphnvmm"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "arweave",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://arweave.net/RQSe3S0q14ao_UC78JOJDr9ZkwejnT0yXT6TCdlsRgo"
+      },
+      "label_count": 2,
+      "labels": [
+        "pmusa.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://arweave.net/rqse3s0q14ao_uc78jojdr9zkwejnt0yxt6tcdlsrgo"
+    },
+    {
+      "example": {
+        "collection": "TheMerge",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "MERGE",
+        "url": "https://consensys.net/merge"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://consensys.net/merge"
+    },
+    {
+      "example": {
+        "collection": "DeadFellaz",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "DEADFELLAZ",
+        "url": "https://deadfellaz.io"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "juullabs.eth"
+      ],
+      "normalized_key": "https://deadfellaz.io"
+    },
+    {
+      "example": {
+        "collection": "The Paw Community",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Paw Community",
+        "url": "https://diamondpaw.site"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "https://diamondpaw.site"
+    },
+    {
+      "example": {
+        "collection": "The DlArt NFT",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The DlArt NFT",
+        "url": "https://dlart.site"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "https://dlart.site"
+    },
+    {
+      "example": {
+        "collection": "The Dour Darcel Original",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Dour Darcel Original",
+        "url": "https://dourdarcels.link"
+      },
+      "label_count": 2,
+      "labels": [
+        "jensenhuang.eth",
+        "philipmorris.eth"
+      ],
+      "normalized_key": "https://dourdarcels.link"
+    },
+    {
+      "example": {
+        "collection": "Cute Emma Origin",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Cute Emma Origin",
+        "url": "https://emmanft.xyz/?source=iel"
+      },
+      "label_count": 2,
+      "labels": [
+        "paxlabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "https://emmanft.xyz/?source=iel"
+    },
+    {
+      "example": {
+        "collection": "Cute Emma Origin",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Cute Emma Origin",
+        "url": "https://emmanft.xyz/emma.gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "paxlabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "https://emmanft.xyz/emma.gif"
+    },
+    {
+      "example": {
+        "collection": "Unisocks NFT",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Unisocks",
+        "url": "https://ethereum.org"
+      },
+      "label_count": 2,
+      "labels": [
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://ethereum.org"
+    },
+    {
+      "example": {
+        "collection": "Ten Years Of Ethereum",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "10YETH",
+        "url": "https://ethereum.org/10years/"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "jamiesalter.eth"
+      ],
+      "normalized_key": "https://ethereum.org/10years"
+    },
+    {
+      "example": {
+        "collection": "Gucci",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "GUCCI",
+        "url": "https://gucci-nfts.xyz"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://gucci-nfts.xyz"
+    },
+    {
+      "example": {
+        "collection": "frENS",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "FRNS",
+        "url": "https://imagedelivery.net/LpzPXHgENljpGshoVdr4cg/23f69d97-728e-4349-614c-15eff3770800/public"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://imagedelivery.net/lpzpxhgenljpgshovdr4cg/23f69d97-728e-4349-614c-15eff3770800/public"
+    },
+    {
+      "example": {
+        "collection": "Imaginary Ones",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "IMAGINARY",
+        "url": "https://imaginary-ones-nft.xyz"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://imaginary-ones-nft.xyz"
+    },
+    {
+      "example": {
+        "collection": "Internet Spirits",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "IS",
+        "url": "https://InternetSpirits.xyz"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://internetspirits.xyz"
+    },
+    {
+      "example": {
+        "collection": "ETHRegistrarLinageeWrapper",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "ERLW",
+        "url": "https://linageenameregistrar.com/"
+      },
+      "label_count": 2,
+      "labels": [
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://linageenameregistrar.com"
+    },
+    {
+      "example": {
+        "collection": "MCP Welcome Pack",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "MCPWP",
+        "url": "https://mcp3d.com/api/image/deprecated"
+      },
+      "label_count": 2,
+      "labels": [
+        "jensenhuang.eth",
+        "philipmorrisusa.eth"
+      ],
+      "normalized_key": "https://mcp3d.com/api/image/deprecated"
+    },
+    {
+      "example": {
+        "collection": "Benz",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "Mercedes Benz",
+        "url": "https://mercedes-benz-nft.top"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://mercedes-benz-nft.top"
+    },
+    {
+      "example": {
+        "collection": "Milady",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "MIL",
+        "url": "https://miladymaker.net"
+      },
+      "label_count": 2,
+      "labels": [
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://miladymaker.net"
+    },
+    {
+      "example": {
+        "collection": "Bored Ape Nike Club",
+        "scheme": "http",
+        "source": "token_transfer_instance",
+        "symbol": "BANC",
+        "url": "https://nikentfs.xyz"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://nikentfs.xyz"
+    },
+    {
+      "example": {
+        "collection": "NYC February 19th 2020",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "NYCFEB192020",
+        "url": "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://nyc-feb-19-2020.s3.amazonaws.com/skin-slip-animation.gif"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://oncyber.io/destinations/infrared"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "njoy.eth"
+      ],
+      "normalized_key": "https://oncyber.io/destinations/infrared"
+    },
+    {
+      "example": {
+        "collection": "Modern Crown Community",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Modern Crown Community",
+        "url": "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorris.eth",
+        "pmi.eth"
+      ],
+      "normalized_key": "https://openseauserdata.com/files/bb39c1a012c7ad679d1c5c602ba14837.mp4"
+    },
+    {
+      "example": {
+        "collection": "POAP",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Proof of Attendance Protocol",
+        "url": "https://scan.poap.xyz/events/images/devcon3_512.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://scan.poap.xyz/events/images/devcon3_512.png"
+    },
+    {
+      "example": {
+        "collection": "POAP",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Proof of Attendance Protocol",
+        "url": "https://scan.poap.xyz/events/images/edcon2019_512.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://scan.poap.xyz/events/images/edcon2019_512.png"
+    },
+    {
+      "example": {
+        "collection": "Meme Lab",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "MemeLab",
+        "url": "https://seize.io/meme-lab/15"
+      },
+      "label_count": 2,
+      "labels": [
+        "njoy.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://seize.io/meme-lab/15"
+    },
+    {
+      "example": {
+        "collection": "Spinal Foxes",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Spinal Foxes",
+        "url": "https://spinalfoxes.link"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "https://spinalfoxes.link"
+    },
+    {
+      "example": {
+        "collection": "The Paw Community",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Paw Community",
+        "url": "https://thedogepoundapi.com/1.mp4"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "https://thedogepoundapi.com/1.mp4"
+    },
+    {
+      "example": {
+        "collection": "adidas Virtual Gear",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "AVG",
+        "url": "https://www.adidas.com/metaverse"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "https://www.adidas.com/metaverse"
+    },
+    {
+      "example": {
+        "collection": "Bzuki",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "BZUKI",
+        "url": "https://www.bzuki.io/"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://www.bzuki.io"
+    },
+    {
+      "example": {
+        "collection": "Uniswap Airdrop Recipient",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "Noox Distribution Protocol",
+        "url": "https://www.noox.fund"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://www.noox.fund"
+    },
+    {
+      "example": {
+        "collection": "NYC February 19th 2020",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "NYCFEB192020",
+        "url": "https://www.nycfeb192020.com/"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://www.nycfeb192020.com"
+    },
+    {
+      "example": {
+        "collection": "POAP",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "The Proof of Attendance Protocol",
+        "url": "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://www.poap.xyz/events/badges/waterloo-qr-2019.png.png"
+    },
+    {
+      "example": {
+        "collection": "UNIC Access",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "UNIC",
+        "url": "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse/"
+      },
+      "label_count": 2,
+      "labels": [
+        "pmusa.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse"
+    },
+    {
+      "example": {
+        "collection": "OpenSea Shared Storefront",
+        "scheme": "http",
+        "source": "nft_inventory",
+        "symbol": "OPENSTORE",
+        "url": "https://zhongbencong.eth.limo"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "https://zhongbencong.eth.limo"
+    },
+    {
+      "example": {
+        "collection": "Gutter Punks - ENS",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "GPENS",
+        "url": "https://dweb.link/ipfs/QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:QmNmCoEsx4RBhTxDB6zbvYkoQXgVxer82n8fS65dV6GLSc"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://dweb.link/ipfs/QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "njoy.eth"
+      ],
+      "normalized_key": "ipfs:QmNsE34x2wpNgehgvPSCjiqg3kvv8pXCqjw4jFCtSoPgEQ"
+    },
+    {
+      "example": {
+        "collection": "DeadFrenz Pass",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "DEADFRENZPASS",
+        "url": "https://dweb.link/ipfs/QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "juullabs.eth"
+      ],
+      "normalized_key": "ipfs:QmPrEMTsZWst1YzALnKzC3MeA9Qcc8uS1n8zUbNRg41NQA"
+    },
+    {
+      "example": {
+        "collection": "Internet Spirits",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "IS",
+        "url": "https://dweb.link/ipfs/QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs/166.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmPsd7S9xfnDgEoL6hUDBB35pGgKupBcwFetHFKk5r3dXs"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://dweb.link/ipfs/QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "njoy.eth"
+      ],
+      "normalized_key": "ipfs:QmQRfMDmnaNhKRFs7UaRFPqRZ6mLxWSnH1QMShnUZ6maFu"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "https://gateway.pinata.cloud/ipfs/QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+      },
+      "label_count": 2,
+      "labels": [
+        "paxlabs.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmRRnuHVwhoYEHsTxzMcGdrCfthKTS65gnfUqDZkv6kbza"
+    },
+    {
+      "example": {
+        "collection": "Spinal Foxes",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "Spinal Foxes",
+        "url": "https://cloudflare-ipfs.com/ipfs/QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:QmRjSZhR6rAiUn6cp2yM8AjLnzvFyhnJhss1ueyqo31vSn"
+    },
+    {
+      "example": {
+        "collection": "The Great Benzi Bananas AI Pass",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "The Great Benzi Bananas AI Pass",
+        "url": "https://ipfs.io/ipfs/QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE/pass.gif"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:QmT9kprLTqXrL9Lrw3YHpX4iFP1xWihjmkEJHxv6d4xXeE"
+    },
+    {
+      "example": {
+        "collection": "Gutter Punks - ENS",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "GPENS",
+        "url": "https://dweb.link/ipfs/QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:QmUV32gsHkSW2G2zFnmRge1dhXwsZdLZTma98EYF8XzCDc"
+    },
+    {
+      "example": {
+        "collection": "TheMerge",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "MERGE",
+        "url": "https://dweb.link/ipfs/QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:QmUdSUpN1vg6SYRLG6ko9aDN7ckntyhQU656jKsmwfe3BY"
+    },
+    {
+      "example": {
+        "collection": "The Diverse Ticket",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "The Diverse Ticket",
+        "url": "https://dweb.link/ipfs/QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16/661.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "pmi.eth"
+      ],
+      "normalized_key": "ipfs:QmVGnEA1hF9TBMA5m8p7T7UHbTX3fRWshofdc29rp1He16"
+    },
+    {
+      "example": {
+        "collection": "Baby Burn: OpenSea Redeemable Example",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "B-BRN",
+        "url": "https://dweb.link/ipfs/QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7"
+      },
+      "label_count": 2,
+      "labels": [
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmVJ7Jut1SDDTbQ8eiTQMZQzL3Fk768op79V5zMjBkvUw7"
+    },
+    {
+      "example": {
+        "collection": "The Dour Darcel Original",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "The Dour Darcel Original",
+        "url": "https://dweb.link/ipfs/QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+      },
+      "label_count": 2,
+      "labels": [
+        "jensenhuang.eth",
+        "philipmorris.eth"
+      ],
+      "normalized_key": "ipfs:QmVriMGDs3iXcAUATGypunY8rhjUaj1ZNHqW8vhdVFVnV7"
+    },
+    {
+      "example": {
+        "collection": "The DlArt NFT",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "The DlArt NFT",
+        "url": "ipfs://QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm/2.mp4"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "ipfs:QmVuHUZirYix8Uh5xTmyzSt7YDoHeA5rtHdzQrRst9VxNm"
+    },
+    {
+      "example": {
+        "collection": "sketchy mfers",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "SMFER",
+        "url": "https://dweb.link/ipfs/QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ/1039.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "njoy.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:QmX8ERT5LQaZZR4cCdM1k9ownHsib5Kh1v5fBGaNMFdNtQ"
+    },
+    {
+      "example": {
+        "collection": "Top APE Keys Cards",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "Top APE Keys Cards",
+        "url": "https://ipfs.io/ipfs/QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:QmYWpngU7UNobDmAVQYUYjoZP6xLoc8hqRvzBKjYEwQUrx"
+    },
+    {
+      "example": {
+        "collection": "TheMerge",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "MERGE",
+        "url": "https://dweb.link/ipfs/Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:Qma3dgNvmqabeVchAfG95KyESXCDojo4b1Fc8U5xiZ89hf"
+    },
+    {
+      "example": {
+        "collection": "MiladyRave",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "MIR",
+        "url": "https://dweb.link/ipfs/QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf/555.jpg"
+      },
+      "label_count": 2,
+      "labels": [
+        "sama.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmaFhtZSE2GQinTMDLTT9tUgGvTqXn67sKF9UJNHRgYeNf"
+    },
+    {
+      "example": {
+        "collection": "adidas Originals: Into the Metaverse",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "ADI",
+        "url": "https://dweb.link/ipfs/Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1/"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:Qmb4VB12RsXW6DaKranEdgnMUTzfyVBEb5eZ1v7JCEUxL1"
+    },
+    {
+      "example": {
+        "collection": "Bzuki",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "BZUKI",
+        "url": "https://dweb.link/ipfs/QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66/782.jpg"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmbBGqSmNx6a14ePS5xQ5rrTLA7Aw3ujyjK5h1cds6Ut66"
+    },
+    {
+      "example": {
+        "collection": "Bzuki",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "BZUKI",
+        "url": "https://dweb.link/ipfs/Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:Qmbqmc91yBTTvkjjfVNs182p4CQKEerjrg38ZLYxDH9o2m"
+    },
+    {
+      "example": {
+        "collection": null,
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": null,
+        "url": "ipfs://QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "njoy.eth"
+      ],
+      "normalized_key": "ipfs:QmcDLKayh5dnYtvYeAiAdgrFpu7HYz5eFJwu74FFpt24MP"
+    },
+    {
+      "example": {
+        "collection": "Akuma",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "Akuma",
+        "url": "https://dweb.link/ipfs/QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1/5398.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "pmusa.eth"
+      ],
+      "normalized_key": "ipfs:QmcUHZDCfwZcAj6V7Yymb4eKoibNVf4UZHKFkhfGCX9pM1"
+    },
+    {
+      "example": {
+        "collection": "earn-eth.net",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "Airdrop",
+        "url": "https://ipfs.io/ipfs/QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "pmi.eth"
+      ],
+      "normalized_key": "ipfs:QmccQCZ228HgkUn2tJ3pykUbY2B2sAaQFrppXfNwW8oXA7"
+    },
+    {
+      "example": {
+        "collection": "Bzuki",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "BZUKI",
+        "url": "https://dweb.link/ipfs/QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+      },
+      "label_count": 2,
+      "labels": [
+        "philipmorrisusa.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:QmdViitn1wyjK7aZLk2b8zHmphXEJaTDFXXgyJzWdpB413"
+    },
+    {
+      "example": {
+        "collection": "Shaq Gives Back",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "SHAQS",
+        "url": "https://dweb.link/ipfs/QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW/4161.png"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:QmeSVtzsBAp9s2diMNoEiQxB6XJGNvwCzzwizmN484p8vW"
+    },
+    {
+      "example": {
+        "collection": "Top APE Keys Cards",
+        "scheme": "ipfs",
+        "source": "token_transfer_instance",
+        "symbol": "Top APE Keys Cards",
+        "url": "https://dweb.link/ipfs/QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP/"
+      },
+      "label_count": 2,
+      "labels": [
+        "juullabs.eth",
+        "paxlabs.eth"
+      ],
+      "normalized_key": "ipfs:QmewN5YoHbtxdWCyH26eVvhtDp5YhNZsSDga3D6A97A6fP"
+    },
+    {
+      "example": {
+        "collection": "Base, Introduced",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "BASEINTRODUCED",
+        "url": "https://dweb.link/ipfs/bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "sama.eth"
+      ],
+      "normalized_key": "ipfs:bafybeibhtk23h6sas4yuahtyy7v2kzvwoww7he44rhix7kq44rf2af3fcq"
+    },
+    {
+      "example": {
+        "collection": "OpenSea Shared Storefront",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "OPENSTORE",
+        "url": "https://dweb.link/ipfs/bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq/image"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:bafybeic2banjpjai5qtwpxeuxw5r5mnzv73saklqcl2shyymmwx7t572dq"
+    },
+    {
+      "example": {
+        "collection": "OpenSea Shared Storefront",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "OPENSTORE",
+        "url": "https://dweb.link/ipfs/bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti/image"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:bafybeid6qxhdvr34xyvzp54faubkcwf2ev4xalvvohdddpfv65wdzvmlti"
+    },
+    {
+      "example": {
+        "collection": "Ten Years Of Ethereum",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "10YETH",
+        "url": "https://dweb.link/ipfs/bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "jamiesalter.eth"
+      ],
+      "normalized_key": "ipfs:bafybeie2cic6a4zu3bdsppjg6cwx6xhz55rtidhkeq5nkh3tjrdsyad3wq"
+    },
+    {
+      "example": {
+        "collection": "Uniswap Airdrop Recipient",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "Noox Distribution Protocol",
+        "url": "https://dweb.link/ipfs/bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:bafybeifftr7cbh6rkssevgvprvwea32b6asw7m4tthxirkouj5fn6fvsce"
+    },
+    {
+      "example": {
+        "collection": "Ten Years Of Ethereum",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "10YETH",
+        "url": "https://dweb.link/ipfs/bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+      },
+      "label_count": 2,
+      "labels": [
+        "elonmusk.eth",
+        "jamiesalter.eth"
+      ],
+      "normalized_key": "ipfs:bafybeig2kklj66cwvwxkcfb3m3ffpmczlbeovafmdsdl7y4id5wttvcdju"
+    },
+    {
+      "example": {
+        "collection": "Digital Slop",
+        "scheme": "ipfs",
+        "source": "nft_inventory",
+        "symbol": "SLOP",
+        "url": "https://dweb.link/ipfs/bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+      },
+      "label_count": 2,
+      "labels": [
+        "jamiesalter.eth",
+        "vitalik.eth"
+      ],
+      "normalized_key": "ipfs:bafybeihmy75umdavih7j4sqtktydtyzfh5ds5o4al7htldnm4ot2muudny"
+    }
+  ],
+  "status": "SEALED",
+  "title": "Cross-address NFT image linkage"
+}

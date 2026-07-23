@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W34-M1",
+      "item": "Content-hash / perceptual compare of shared IPFS CIDs only if operator asserts patent-drawing theft theory",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W34-M2",
+      "item": "Uncap NFT inventory pagination for page-capped wallets",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W34-M3",
+      "item": "Do not treat marketplace profile NFTs as IP-NFT royalty instruments",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-34 operator worklist"
+}

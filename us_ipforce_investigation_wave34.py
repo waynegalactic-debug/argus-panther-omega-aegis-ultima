@@ -44,8 +44,8 @@ USER_AGENT = (
 )
 CTX = ssl.create_default_context()
 
-MAX_NFT_PAGES = 20
-MAX_TT_NFT_PAGES = 12
+MAX_NFT_PAGES = 30
+MAX_TT_NFT_PAGES = 18
 
 RE_IP = re.compile(
     r"\bpatent\b|\bwipo\b|\buspto\b|intellectual.?property|\bIP[-_ ]?NFT\b|"
@@ -230,9 +230,57 @@ def _classify_media_url(url: str) -> str:
     return "other"
 
 
+def _clean_url(url: str) -> str:
+    u = (url or "").strip().strip("\"'`")
+    # Strip common markdown / trailing punctuation glued onto URLs
+    u = re.sub(r"[)\\],.;]+$", "", u)
+    u = u.rstrip("\\")
+    return u
+
+
+def _is_noise_media_url(url: str, *, source_field: str) -> bool:
+    """Drop xmlns/schema/boilerplate URLs that are not NFT media."""
+    low = (url or "").lower()
+    if not low:
+        return True
+    if "w3.org/" in low or "schemas.microsoft.com" in low or "xmlns" in low:
+        return True
+    if low.startswith("data:") and not low.startswith("data:image"):
+        return True
+    # Regex sweeps of prose pick up project marketing sites; keep explicit media fields
+    if source_field == "metadata_regex":
+        if low.endswith((".html", ".htm", ".php", ".asp")):
+            return True
+        media_hint = (
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".webp",
+            ".svg",
+            ".mp4",
+            ".webm",
+            ".mov",
+            "ipfs",
+            "arweave",
+            "/image",
+            "/media",
+            "/nft",
+            "imagedelivery",
+            "cloudinary",
+            "pinata",
+            "nftstorage",
+            "storage.googleapis",
+        )
+        if not any(h in low for h in media_hint):
+            # Keep short path-less roots only when they look like image CDNs
+            return True
+    return False
+
+
 def _normalize_image_key(url: str) -> str:
     """Normalize IPFS/HTTP gateway variants to a stable key for linkage."""
-    u = (url or "").strip()
+    u = _clean_url(url)
     m = re.search(r"(?:ipfs://|ipfs/)(Qm[1-9A-HJ-NP-Za-km-z]{44}|bafy[a-z0-9]+)", u, re.I)
     if m:
         return f"ipfs:{m.group(1)}"
@@ -249,40 +297,42 @@ def extract_images_from_nft_item(item: dict[str, Any]) -> list[dict[str, Any]]:
     for field in ("image_url", "media_url", "animation_url", "external_app_url"):
         v = item.get(field)
         if isinstance(v, str) and v.strip():
-            urls.append((v.strip(), field))
+            urls.append((_clean_url(v), field))
     meta = item.get("metadata")
     if isinstance(meta, dict):
         for field in ("image", "image_url", "animation_url", "animation", "media"):
             v = meta.get(field)
             if isinstance(v, str) and v.strip():
-                urls.append((v.strip(), f"metadata.{field}"))
+                urls.append((_clean_url(v), f"metadata.{field}"))
         # Nested media objects
         for field in ("image", "animation"):
             v = meta.get(field)
             if isinstance(v, dict):
                 for k in ("uri", "url", "href"):
                     if isinstance(v.get(k), str) and v[k].strip():
-                        urls.append((v[k].strip(), f"metadata.{field}.{k}"))
+                        urls.append((_clean_url(v[k]), f"metadata.{field}.{k}"))
         # Sweep strings in metadata for embedded URLs
         blob = json.dumps(meta, default=str)
         for m in RE_URL.finditer(blob):
-            urls.append((m.group(1), "metadata_regex"))
+            urls.append((_clean_url(m.group(1)), "metadata_regex"))
     thumbs = item.get("thumbnails")
     if isinstance(thumbs, dict):
         for k, v in thumbs.items():
             if isinstance(v, str) and v.strip():
-                urls.append((v.strip(), f"thumbnails.{k}"))
+                urls.append((_clean_url(v), f"thumbnails.{k}"))
     elif isinstance(thumbs, list):
         for i, v in enumerate(thumbs):
             if isinstance(v, str) and v.strip():
-                urls.append((v.strip(), f"thumbnails[{i}]"))
+                urls.append((_clean_url(v), f"thumbnails[{i}]"))
 
     # Dedupe by normalized key
     seen: set[str] = set()
     out: list[dict[str, Any]] = []
     for url, src in urls:
+        if _is_noise_media_url(url, source_field=src):
+            continue
         key = _normalize_image_key(url)
-        if key in seen:
+        if not key or key in seen:
             continue
         seen.add(key)
         out.append(
@@ -846,17 +896,45 @@ def run_wave34() -> dict[str, Any]:
     work = track_operator_worklist()
     summary_md = write_summary_md(nft, link, rollup)
 
+    def _slim_img(img: dict[str, Any]) -> dict[str, Any]:
+        out = dict(img)
+        url = str(out.get("url") or "")
+        if url.startswith("data:image") and len(url) > 120:
+            out["url"] = url[:64] + f"…sha256:{hashlib.sha256(url.encode()).hexdigest()[:16]}"
+            out["url_truncated"] = True
+        return out
+
     # Slim docs copy of nft screens (drop sha256 page lists + huge catalogs)
     nft_docs = json.loads(json.dumps(nft, default=str))
     for s in (nft_docs.get("screens") or {}).values():
         s.pop("sha256_pages", None)
-        # keep samples but cap; full catalog retained in OUT only
-        s["image_sample"] = (s.get("image_sample") or [])[:50]
-        s["transfer_image_sample"] = (s.get("transfer_image_sample") or [])[:30]
-        s["inventory_sample"] = (s.get("inventory_sample") or [])[:40]
+        # keep samples but cap; full catalog + full key lists retained in OUT only
+        s["image_sample"] = [_slim_img(x) for x in (s.get("image_sample") or [])[:40]]
+        s["transfer_image_sample"] = [
+            _slim_img(x) for x in (s.get("transfer_image_sample") or [])[:25]
+        ]
+        inv = []
+        for row in (s.get("inventory_sample") or [])[:30]:
+            r = dict(row)
+            for fld in ("image_url", "media_url"):
+                v = r.get(fld)
+                if isinstance(v, str) and v.startswith("data:image") and len(v) > 120:
+                    r[fld] = (
+                        v[:64]
+                        + f"…sha256:{hashlib.sha256(v.encode()).hexdigest()[:16]}"
+                    )
+            inv.append(r)
+        s["inventory_sample"] = inv
         catalog = s.pop("image_catalog", None) or []
         s["image_catalog_count"] = len(catalog)
-        s["image_catalog_sample"] = catalog[:25]
+        s["image_catalog_sample"] = [_slim_img(x) for x in catalog[:20]]
+        keys = s.get("all_image_keys") or []
+        s["all_image_keys_count"] = len(keys)
+        s["all_image_keys"] = keys[:120]
+        s["ip_heuristic_metadata_hits"] = (s.get("ip_heuristic_metadata_hits") or [])[
+            :20
+        ]
+        s["sealed_pub_metadata_hits"] = (s.get("sealed_pub_metadata_hits") or [])[:20]
 
     _write(OUT / "nft_inventory_and_image_trace.json", json.loads(json.dumps(nft, default=str)))
     _write(DOCS / "nft_inventory_and_image_trace.json", nft_docs)
