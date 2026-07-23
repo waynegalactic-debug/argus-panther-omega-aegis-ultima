@@ -1,0 +1,11 @@
+{
+  "adjudicated": false,
+  "authenticated_nodes": 12,
+  "foundational_status": "OPEN_MANUAL_STILL_UNVERIFIED",
+  "id": "continuity_candidate_wave4_update",
+  "path": "data/victim_inventor_continuity_chain_REBUILT_CANDIDATE.json",
+  "seal": "c599242aa1e1044772efce9322151cfe1b25d6eef79d28133b9bfcf76a4fc2ed",
+  "status": "done",
+  "title": "Attach authenticated USPTO inventor hits to continuity candidate",
+  "wave": 4
+}

@@ -1,0 +1,60 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE4_AUTHENTICATED_PORTFOLIO.md",
+    "continuity_candidate": "data/victim_inventor_continuity_chain_REBUILT_CANDIDATE.json",
+    "portfolio": "docs/investigation/wave4/AUTHENTICATED_SKODA_PORTFOLIO.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W4",
+  "counts": {
+    "adjudicated_total": 0,
+    "authenticated_publications": 12,
+    "brent_m_skoda_before_2000_hits": 0,
+    "caffeine_related": 1,
+    "exact_phrase_caffeine_vaporizer_hits": 0,
+    "tracks": 2,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "27dafe34c146fea2f0b2f887a5ae4c52b094bfbb3284a9732d437f94a2c36d93",
+    "leaves": [
+      {
+        "id": "google_patents_inventor_title_search",
+        "sha3_256": "7c6b806e2b96e840da75f0f4350a31e10f87a8ffc272d6c7d13652961cb5a757",
+        "status": "done"
+      },
+      {
+        "id": "continuity_candidate_wave4_update",
+        "sha3_256": "1f3c94f4f299a7d312ff7f45062e5c37d67104155e287d3924bcbbd13f2c36de",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "38206f68bce4b1ec1454c16f91a0183555e9ba236eeee82c4f7a8ffdaa0f17100210db67c0ee089b3103ec13aade9a7b91dccbdcabb0db2ef8bf8269636990a0"
+  },
+  "elapsed_ms": 11330,
+  "generated_at": "2026-07-23T00:38:56Z",
+  "policy": "Wave-4 authenticates modern inventor hits on Google Patents. 1997 CZ caffeine vaporizer grant remains OPEN_MANUAL. No theft adjudication.",
+  "seal": "1a6f4ade1d9a2d8dc62e35ded447e426407e2bb2fe9740894deeaab8ee64d8ed",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "google_patents_inventor_title_search",
+      "next_actions": [
+        "Download PDFs/assignments for authenticated pubs with USPTO ODP key",
+        "Certified UPV search still required for 1997 CZ claim"
+      ],
+      "status": "done",
+      "title": "Google Patents xhr inventor/title primary search"
+    },
+    {
+      "adjudicated": false,
+      "id": "continuity_candidate_wave4_update",
+      "next_actions": null,
+      "status": "done",
+      "title": "Attach authenticated USPTO inventor hits to continuity candidate"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE4"
+}

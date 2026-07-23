@@ -15,9 +15,11 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_tier0_probe_pool.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave2
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave3
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave4
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave3.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave4.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith

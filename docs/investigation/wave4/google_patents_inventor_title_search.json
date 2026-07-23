@@ -1,0 +1,337 @@
+{
+  "adjudicated": false,
+  "details": [
+    {
+      "assignees": [],
+      "body_sha3_256": null,
+      "elapsed_ms": 525,
+      "error": "HTTPError",
+      "inventors": [],
+      "mentions_caffeine": false,
+      "ok": false,
+      "publication": "US20240215633A1",
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/patent/US20240215633A1/en"
+    },
+    {
+      "assignees": [
+        "Ahkeo Ventures LLC"
+      ],
+      "body_sha3_256": "d78744dd20d34d6bb3d1679ec5acdc18a43e5136f2657974b67d8de6604f958b",
+      "elapsed_ms": 157,
+      "error": null,
+      "inventors": [
+        "Brent Skoda",
+        "Maxwell Lloyd"
+      ],
+      "mentions_caffeine": false,
+      "ok": true,
+      "publication": "USD795407S1",
+      "status_code": 200,
+      "title": null,
+      "url": "https://patents.google.com/patent/USD795407S1/en"
+    },
+    {
+      "assignees": [],
+      "body_sha3_256": null,
+      "elapsed_ms": 465,
+      "error": "HTTPError",
+      "inventors": [],
+      "mentions_caffeine": false,
+      "ok": false,
+      "publication": "US11234465B2",
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/patent/US11234465B2/en"
+    },
+    {
+      "assignees": [],
+      "body_sha3_256": null,
+      "elapsed_ms": 401,
+      "error": "HTTPError",
+      "inventors": [],
+      "mentions_caffeine": false,
+      "ok": false,
+      "publication": "US20190240429A1",
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/patent/US20190240429A1/en"
+    },
+    {
+      "assignees": [],
+      "body_sha3_256": null,
+      "elapsed_ms": 488,
+      "error": "HTTPError",
+      "inventors": [],
+      "mentions_caffeine": false,
+      "ok": false,
+      "publication": "US11275070B2",
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/patent/US11275070B2/en"
+    },
+    {
+      "assignees": [],
+      "body_sha3_256": null,
+      "elapsed_ms": 312,
+      "error": "HTTPError",
+      "inventors": [],
+      "mentions_caffeine": false,
+      "ok": false,
+      "publication": "US20240244430A1",
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/patent/US20240244430A1/en"
+    }
+  ],
+  "id": "google_patents_inventor_title_search",
+  "next_actions": [
+    "Download PDFs/assignments for authenticated pubs with USPTO ODP key",
+    "Certified UPV search still required for 1997 CZ claim"
+  ],
+  "portfolio": {
+    "assignee_clusters": [
+      "Ahkeo Labs, Llc",
+      "Ahkeo Ventures LLC",
+      "Brent M. Skoda",
+      "Zorday IP, LLC",
+      "unknown"
+    ],
+    "caffeine_related_count": 1,
+    "inventor_strings_matched": [
+      "Brent M. Skoda",
+      "Brent Skoda"
+    ],
+    "ohio_roster_crossref_note": "Ahkeo / Ahkeo Labs / Ventures names align with ahkeo_cluster in victim_inventor_ohio_llc_roster.json \u2014 corporate abstract still required",
+    "publication_count": 12,
+    "publications": [
+      {
+        "assignee_field": "Ahkeo Labs, Llc",
+        "assignees": [],
+        "body_sha3_256": null,
+        "detail_probe_ok": false,
+        "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+        "inventor_field": "Brent M. Skoda",
+        "inventors": [],
+        "mentions_caffeine": false,
+        "publication": "US11234465B2",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Heating mechanisms for vaporizers"
+      },
+      {
+        "assignee_field": "Ahkeo Labs, Llc",
+        "assignees": [],
+        "body_sha3_256": null,
+        "detail_probe_ok": false,
+        "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+        "inventor_field": "Brent M. Skoda",
+        "inventors": [],
+        "mentions_caffeine": false,
+        "publication": "US11275070B2",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for dipstick diagnostic tools and related methods"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "assignees": [],
+        "body_sha3_256": null,
+        "detail_probe_ok": false,
+        "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "inventors": [],
+        "mentions_caffeine": false,
+        "publication": "US20190240429A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for intelligent vaporizers"
+      },
+      {
+        "assignee_field": "Brent M. Skoda",
+        "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20190378609A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for medical dispensing, management and monitoring"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20200005924A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20210202056A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for managing a medical supply chain"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20230112752A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for intelligent vaporizers"
+      },
+      {
+        "assignees": [],
+        "body_sha3_256": null,
+        "detail_probe_ok": false,
+        "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+        "inventors": [],
+        "mentions_caffeine": false,
+        "publication": "US20240215633A1",
+        "queries": [],
+        "relevance": "Authenticated Google Patents hit with Brent Skoda inventorship + caffeine in body \u2014 NOT proof of 1997 Czech grant",
+        "theme": "inhalable_caffeine_composition",
+        "title": null
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20240242809A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for medical dispensing, management and monitoring"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "assignees": [],
+        "body_sha3_256": null,
+        "detail_probe_ok": false,
+        "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "inventors": [],
+        "mentions_caffeine": false,
+        "publication": "US20240244430A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Network-enabled electronic cigarette"
+      },
+      {
+        "assignee_field": "Zorday IP, LLC",
+        "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+        "inventor_field": "Brent M. Skoda",
+        "publication": "US20250177708A1",
+        "queries": [
+          "inventor=\"Brent M. Skoda\""
+        ],
+        "title": "Systems and methods for medical diagnostics and medication delivery"
+      },
+      {
+        "assignees": [
+          "Ahkeo Ventures LLC"
+        ],
+        "body_sha3_256": "d78744dd20d34d6bb3d1679ec5acdc18a43e5136f2657974b67d8de6604f958b",
+        "detail_probe_ok": true,
+        "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+        "inventors": [
+          "Brent Skoda",
+          "Maxwell Lloyd"
+        ],
+        "mentions_caffeine": false,
+        "publication": "USD795407S1",
+        "queries": [],
+        "title": null
+      }
+    ]
+  },
+  "queries": [
+    {
+      "body_sha3_256": "3bdb65fb9ad34576dc26249c0f3fd61886dfa1de0cf0b97d9763c632705f0b17",
+      "error": null,
+      "hit_count": 10,
+      "ok": true,
+      "query": "inventor=\"Brent M. Skoda\"",
+      "total_num_results": 13
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "inventor=\"Brent Skoda\"",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "inventor=\"Brent Michael Skoda\"",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "q=\"caffeine vaporizer\"",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "q=caffeine vaporizer inventor:Skoda",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "q=caffeine vaporizer country:CZ",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "inventor=\"Brent M. Skoda\" before:2000",
+      "total_num_results": null
+    },
+    {
+      "body_sha3_256": "d4179a404b4ac423c5ef787e6db543f3b4953326e67139b3f62d764796a4f201",
+      "error": null,
+      "hit_count": 0,
+      "ok": true,
+      "query": "inventor=\"Brent Skoda\" before:2000",
+      "total_num_results": 0
+    },
+    {
+      "body_sha3_256": null,
+      "error": "HTTPError",
+      "hit_count": 0,
+      "ok": false,
+      "query": "inventor=Skoda country:CZ",
+      "total_num_results": null
+    }
+  ],
+  "status": "done",
+  "title": "Google Patents xhr inventor/title primary search",
+  "wave": 4
+}

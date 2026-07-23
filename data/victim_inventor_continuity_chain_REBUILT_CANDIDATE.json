@@ -1,20 +1,234 @@
 {
   "adjudicated": false,
+  "authenticated_uspto_portfolio_nodes": [
+    {
+      "assignees": "Ahkeo Labs, Llc",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": false,
+      "node_id": "US11234465B2",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Heating mechanisms for vaporizers",
+      "url": "https://patents.google.com/patent/US11234465B2/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Ahkeo Labs, Llc",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": false,
+      "node_id": "US11275070B2",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for dipstick diagnostic tools and related methods",
+      "url": "https://patents.google.com/patent/US11275070B2/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": false,
+      "node_id": "US20190240429A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for intelligent vaporizers",
+      "url": "https://patents.google.com/patent/US20190240429A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Brent M. Skoda",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20190378609A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for medical dispensing, management and monitoring",
+      "url": "https://patents.google.com/patent/US20190378609A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20200005924A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "System and method for managing and dispensing an inhalable composition, &hellip;",
+      "url": "https://patents.google.com/patent/US20200005924A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20210202056A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for managing a medical supply chain",
+      "url": "https://patents.google.com/patent/US20210202056A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20230112752A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for intelligent vaporizers",
+      "url": "https://patents.google.com/patent/US20230112752A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": null,
+      "inventors": null,
+      "mentions_caffeine": false,
+      "node_id": "US20240215633A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": null,
+      "url": "https://patents.google.com/patent/US20240215633A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20240242809A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for medical dispensing, management and monitoring",
+      "url": "https://patents.google.com/patent/US20240242809A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": false,
+      "node_id": "US20240244430A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Network-enabled electronic cigarette",
+      "url": "https://patents.google.com/patent/US20240244430A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": "Zorday IP, LLC",
+      "inventors": "Brent M. Skoda",
+      "mentions_caffeine": null,
+      "node_id": "US20250177708A1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": "Systems and methods for medical diagnostics and medication delivery",
+      "url": "https://patents.google.com/patent/US20250177708A1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    },
+    {
+      "assignees": [
+        "Ahkeo Ventures LLC"
+      ],
+      "inventors": [
+        "Brent Skoda",
+        "Maxwell Lloyd"
+      ],
+      "mentions_caffeine": false,
+      "node_id": "USD795407S1",
+      "node_type": "authenticated_google_patents_inventor_hit",
+      "not_proof_of": [
+        "CZ1997_caffeine_vaporizer_grant",
+        "theft",
+        "RICO"
+      ],
+      "source": "Google Patents xhr (Wave 4)",
+      "title": null,
+      "url": "https://patents.google.com/patent/USD795407S1/en",
+      "verification_status": "AUTHENTICATED_PUBLIC_HIT"
+    }
+  ],
   "brand": "IP FORCE",
-  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W3",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W4",
   "foundational_claim": {
-    "claimed_date": "1997-03-15",
-    "claimed_office": "Czech Patent Office",
     "do_not_cite_number": "CZ283061",
     "label": "CZ1997-CaffeineVaporizer",
-    "status": "OPEN_MANUAL_UNVERIFIED_NUMBER"
+    "next": "Certified UPV search remains mandatory",
+    "public_search_result": {
+      "brent_m_skoda_before_2000_hits": null,
+      "exact_phrase_caffeine_vaporizer_hits": null,
+      "note": "No Google Patents corroboration of a 1997 Czech caffeine vaporizer grant under inventor Brent Skoda strings tested in Wave 4"
+    },
+    "status": "OPEN_MANUAL_STILL_UNVERIFIED"
   },
-  "generated_at": "2026-07-23T00:35:07Z",
+  "generated_at": "2026-07-23T00:38:56Z",
   "open_gaps": [
     "Certified Czech grant number/title/inventor for caffeine vaporizer claim",
     "USPTO inventor-name hit list for Brent Michael \u0160koda",
     "Any PCT/national-phase links must be re-derived from authenticated parents"
   ],
+  "portfolio_summary": {
+    "assignee_clusters": [
+      "Ahkeo Labs, Llc",
+      "Ahkeo Ventures LLC",
+      "Brent M. Skoda",
+      "Zorday IP, LLC",
+      "unknown"
+    ],
+    "caffeine_related_count": 1,
+    "publication_count": 12
+  },
   "quarantined_links": [
     {
       "child_node_id": "US20220083955A1",
@@ -145,9 +359,10 @@
       "verification_status": "OSINT_RETAINED"
     }
   ],
-  "seal": "a2e00d68794245bd2216e7458da78432a77bc5bc529dcfc32f4eebbf6c2b02ff",
+  "seal": "c599242aa1e1044772efce9322151cfe1b25d6eef79d28133b9bfcf76a4fc2ed",
   "source_original": "data/victim_inventor_continuity_chain.json",
   "true_ubo_asserted": 0,
-  "version": "2026.7.23-INVESTIGATION-WAVE3",
-  "victim_inventor": "Brent Michael \u0160koda"
+  "version": "2026.7.23-INVESTIGATION-WAVE4",
+  "victim_inventor": "Brent Michael \u0160koda",
+  "wave4_update": true
 }
