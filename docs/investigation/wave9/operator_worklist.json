@@ -1,0 +1,53 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "item_count": 8,
+  "items": [
+    {
+      "action": "Paid Delaware Certificate of Status \u2014 Ahkeo Labs LLC",
+      "file_number": "6096179",
+      "priority": 1,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Ohio SOS \u2014 foreign qualification + Ahkeo cluster abstracts + Beta Drive",
+      "priority": 2,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Delaware ICIS browser search \u2014 Casters Holdings Inc. / Zorday IP, LLC",
+      "detail": "Automated name screen inconclusive under captcha markup",
+      "priority": 3,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Certified Czech UPV search (no quarantined CZ283061)",
+      "priority": 4,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Historical WHOIS pre-2026 \u2014 ahkeo.com / ahkeolabs.com",
+      "priority": 5,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "USPTO ODP assignments \u2014 Wave-4 12 pubs",
+      "priority": 6,
+      "status": "BLOCKED_NEEDS_API_KEY"
+    },
+    {
+      "action": "Counsel preservation send \u2014 include DE file 6096179 + Wave-8 RECAP",
+      "priority": 7,
+      "status": "OPEN_COUNSEL"
+    },
+    {
+      "action": "AZ bar certified discipline order \u2014 Anthony G. Salvador",
+      "priority": 8,
+      "status": "OPEN_MANUAL"
+    }
+  ],
+  "status": "done",
+  "title": "Wave-9 operator / counsel worklist",
+  "true_ubo_asserted": 0,
+  "wave": 9
+}

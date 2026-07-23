@@ -1,0 +1,88 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE9_DELAWARE_AHKEO_LABS.md",
+    "bridge": "docs/investigation/wave9/crosswave_delaware_bridge.json",
+    "delaware": "docs/investigation/wave9/delaware_icis_ahkeo_labs.json",
+    "operator_worklist": "docs/investigation/wave9/operator_worklist.json",
+    "whois": "docs/investigation/wave9/whois_html_corroboration.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W9",
+  "counts": {
+    "adjudicated_total": 0,
+    "delaware_file_number": "6096179",
+    "delaware_formation_date": "7/14/2016",
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "whois_domains": 4
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "ac1eeaf06f2044ce38bfe0eae93ca817e2deb4285606d611b54eb86e5405562e",
+    "leaves": [
+      {
+        "id": "delaware_icis_ahkeo_labs",
+        "sha3_256": "e91b59bb6c0948e6651d3f935e413148e6244288c3d52c7d49eaf0a04e17f888",
+        "status": "done"
+      },
+      {
+        "id": "whois_html_corroboration",
+        "sha3_256": "fd6f917c0c4565f1b30a3945a5cf5d434e8c4fbe424fc44f271e49168d2d7e68",
+        "status": "done"
+      },
+      {
+        "id": "crosswave_delaware_bridge",
+        "sha3_256": "b5e32505c3ac2e8da60b9f8dbb86d35ce6d963e269f195dd9b10d6b52db72a0c",
+        "status": "done"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "a05ec572ff8125b561bfdf671ec24ee04a1fc337561f025e0e8e89d8459396e1",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "83424fcd1aeccf5005374f5d08d0eb09c38ab12c3bef525f71e2c6582e7ab16f5c58efcae3a526be88595c44e85206b7b9d48876afd38d2ad6e02def5e2df6ca"
+  },
+  "elapsed_ms": 10118,
+  "generated_at": "2026-07-23T01:24:15Z",
+  "policy": "Wave-9 seals Delaware ICIS free extract for AHKEO LABS, LLC (file 6096179, formed 7/14/2016). No theft/RICO/UBO adjudication. Quarantined patents remain quarantined.",
+  "seal": "ad9199e5c0e1e3e3f8f23c1338fcd6276959b18794f5b95ffbf0ba20605fc8c8",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "delaware_icis_ahkeo_labs",
+      "next_actions": [
+        "Order paid Delaware Certificate of Status / certified formation docs",
+        "Ohio foreign qualification search for Ahkeo Labs LLC",
+        "Delaware search Casters Holdings Inc. (SEC Form D claims DE) when portal allows"
+      ],
+      "status": "done",
+      "title": "Delaware ICIS \u2014 AHKEO LABS, LLC authentication"
+    },
+    {
+      "adjudicated": false,
+      "id": "whois_html_corroboration",
+      "next_actions": [
+        "Purchase/archive historical WHOIS for ahkeo.com / ahkeolabs.com pre-2026"
+      ],
+      "status": "done",
+      "title": "who.is HTML corroboration of current registrar posture"
+    },
+    {
+      "adjudicated": false,
+      "id": "crosswave_delaware_bridge",
+      "next_actions": null,
+      "status": "done",
+      "title": "Bridge Delaware ICIS \u2194 Wave-8 litigation \u2194 Wave-4 assignees"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-9 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE9"
+}

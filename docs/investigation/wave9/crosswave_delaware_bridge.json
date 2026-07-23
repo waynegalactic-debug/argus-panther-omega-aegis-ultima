@@ -1,0 +1,33 @@
+{
+  "adjudicated": false,
+  "bridges": [
+    {
+      "fact": "Complaint pled Delaware LLC; ICIS shows AHKEO LABS, LLC file 6096179 formed 7/14/2016",
+      "from": "wave8_complaint",
+      "strength": "corroborated",
+      "to": "delaware_icis"
+    },
+    {
+      "fact": "Wave-4 Google Patents assignee 'Ahkeo Labs, Llc' name-aligns to ICIS AHKEO LABS, LLC",
+      "from": "wave4_assignee",
+      "strength": "name_match_not_assignment_reel",
+      "to": "delaware_icis"
+    },
+    {
+      "fact": "Beta Drive Mayfield Village remains PPB in complaint; Delaware registered agent is CSC Wilmington (expected for DE domestic LLC)",
+      "from": "wave5_6_beta_drive",
+      "strength": "consistent",
+      "to": "wave8_complaint_ppb"
+    }
+  ],
+  "id": "crosswave_delaware_bridge",
+  "status": "done",
+  "still_open": [
+    "Ohio foreign entity / SOS abstract for Ahkeo Labs and Ahkeo cluster",
+    "USPTO assignment reel linking patents to Ahkeo Labs LLC",
+    "CZ1997 foundational grant still OPEN_MANUAL (quarantine intact)"
+  ],
+  "title": "Bridge Delaware ICIS \u2194 Wave-8 litigation \u2194 Wave-4 assignees",
+  "true_ubo_asserted": 0,
+  "wave": 9
+}

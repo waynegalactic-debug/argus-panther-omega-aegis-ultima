@@ -1,0 +1,113 @@
+{
+  "adjudicated": false,
+  "authenticated_facts": [
+    "AHKEO LABS, LLC exists in Delaware ICIS under file number 6096179",
+    "Formation date 7/14/2016 (lblIncDate)",
+    "Domestic Delaware Limited Liability Company (General)",
+    "Registered agent CORPORATION SERVICE COMPANY, 251 Little Falls Drive, Wilmington DE 19808",
+    "Corroborates Wave-8 federal complaint Delaware-LLC allegation",
+    "Capture mode: session_html_capture_captcha_blocked_live"
+  ],
+  "capture_mode": "session_html_capture_captcha_blocked_live",
+  "detail_html_artifact": "output_artifacts/investigation/wave9/delaware_ahkeo_labs_detail.html",
+  "entity": {
+    "agent_address1": "251 LITTLE FALLS DRIVE",
+    "agent_city": "WILMINGTON",
+    "agent_county": "New Castle",
+    "agent_name": "CORPORATION SERVICE COMPANY",
+    "agent_phone": "302-636-5401",
+    "agent_postal": "19808",
+    "agent_state": "DE",
+    "capture_mode": "session_html_capture_captcha_blocked_live",
+    "detail_bytes": 46459,
+    "detail_sha3_256": "d2e71348eaea721df43852409eae011e8d8bbda84b51c6d2e834fc8b46c6a7b8",
+    "entity_kind": "Limited Liability Company",
+    "entity_name": "AHKEO LABS, LLC",
+    "entity_type": "General",
+    "file_number": "6096179",
+    "formation_date": "7/14/2016",
+    "note": "Free ICIS entity information page. Not a paid Certificate of Status or certified copy.",
+    "residency": "Domestic",
+    "source": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+    "state": "DELAWARE"
+  },
+  "id": "delaware_icis_ahkeo_labs",
+  "live_error": null,
+  "name_screens": [
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Ahkeo Labs",
+      "query_file_number": null,
+      "search_page_bytes": 48375,
+      "search_page_sha3_256": "d7d88a22e5ead247d47dcc0d8eddc51a942010e0e006f29258c10a480aacf3d0"
+    },
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Ahkeo Ventures",
+      "query_file_number": null,
+      "search_page_bytes": 48346,
+      "search_page_sha3_256": "f81371d072b517ab2a89fb34cb14f2d0f6917e83c1862fe89ac06a8c9640ac1c"
+    },
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Ahkeo LLC",
+      "query_file_number": null,
+      "search_page_bytes": 48362,
+      "search_page_sha3_256": "7d6efb04eed0b133d16a8a65fa28976847384014f87596d462c92aacc5290e95"
+    },
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Zorday IP",
+      "query_file_number": null,
+      "search_page_bytes": 48362,
+      "search_page_sha3_256": "2a9709eb7f5343e9464c0bbd6b33a9ab38d6c5efcf4e9d285ca8584bbf64712f"
+    },
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Zorday",
+      "query_file_number": null,
+      "search_page_bytes": 48371,
+      "search_page_sha3_256": "c8d2c93311ef75afa6dd4698ffa8c994fc8d13c63440e9d172c89861ca0104c1"
+    },
+    {
+      "captcha_markup_present": true,
+      "hit_count": 0,
+      "hits": [],
+      "query_entity_name": "Casters Holdings",
+      "query_file_number": null,
+      "search_page_bytes": 48381,
+      "search_page_sha3_256": "a9f1cd99168f3b84202c37421ec05085afb280579bb80507d422debff270db44"
+    }
+  ],
+  "next_actions": [
+    "Order paid Delaware Certificate of Status / certified formation docs",
+    "Ohio foreign qualification search for Ahkeo Labs LLC",
+    "Delaware search Casters Holdings Inc. (SEC Form D claims DE) when portal allows"
+  ],
+  "policy": "ICIS free extract authenticates Delaware formation metadata. Does not prove Ohio foreign qualification, ownership/UBO, or patent chain-of-title. If capture_mode notes captcha-blocked live, operator should re-pull Certificate of Status.",
+  "portal": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+  "primary_file_number_query": "6096179",
+  "primary_search": {
+    "captcha_markup_present": true,
+    "hit_count": 0,
+    "hits": [],
+    "query_entity_name": null,
+    "query_file_number": "6096179",
+    "search_page_bytes": 48372,
+    "search_page_sha3_256": "d602dc8a9e1cf9581aee4048abd9d8e2569f0b691470cbc9c3c20aabdea9191e"
+  },
+  "status": "done",
+  "title": "Delaware ICIS \u2014 AHKEO LABS, LLC authentication",
+  "true_ubo_asserted": 0,
+  "wave": 9
+}
