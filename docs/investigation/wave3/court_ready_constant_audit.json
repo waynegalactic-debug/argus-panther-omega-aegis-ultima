@@ -1,0 +1,62 @@
+{
+  "adjudicated": false,
+  "constants": [
+    {
+      "claimed": {
+        "number": "283061",
+        "title": "Caffeine Vaporizer"
+      },
+      "name": "SKODA_CZ_PATENT",
+      "observed_google": {
+        "inventors": [
+          "Luciano Corain",
+          "Giulio Bortoli"
+        ],
+        "title": "Weft insertion motion for a loom"
+      },
+      "verdict": "QUARANTINE_NUMBER"
+    },
+    {
+      "claimed": {
+        "inventors": [
+          "Slobodan \u0160koda",
+          "Brent M. Skoda"
+        ],
+        "publication": "WO1997033272A1"
+      },
+      "name": "SKODA_PCT",
+      "observed_google": {
+        "inventors": [
+          "Ivan Mladek"
+        ],
+        "title": "Stringless twitch fret instrument"
+      },
+      "verdict": "QUARANTINE_INVENTOR_LINK"
+    },
+    {
+      "claimed": {
+        "patent_number": "5618592",
+        "title": "Caffeine Vaporizer (Robert J. Cima\u2026)"
+      },
+      "name": "CONFLICTING_US_PATENT",
+      "observed_google": {
+        "assignee": "Sharp Corp",
+        "inventors": [
+          "Nobukazu Nagae",
+          "Motohiro Yamahara",
+          "Nobuaki Yamada"
+        ],
+        "title": "Liquid crystal display device"
+      },
+      "verdict": "QUARANTINE_NUMBER"
+    }
+  ],
+  "id": "court_ready_constant_audit",
+  "next_actions": [
+    "Patch court_ready constants to empty/open_manual after operator confirms",
+    "Keep allegation narrative only with primary-source exhibits attached"
+  ],
+  "status": "integrity_alert",
+  "title": "Audit court_ready patent baseline constants vs primary probes",
+  "wave": 3
+}

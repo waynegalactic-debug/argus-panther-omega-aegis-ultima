@@ -1,0 +1,241 @@
+{
+  "adjudicated": false,
+  "citation_hold": [
+    "QUARANTINE all listed publication numbers from referral packages",
+    "Do not assert CZ283061 / US5618592 / WO1997033272 as Skoda caffeine-vaporizer chain",
+    "Do not assert US20220083955/56/57 as Skoda blockchain-IP filings",
+    "Foundational caffeine CZ grant status = OPEN_MANUAL (certified UPV search required)"
+  ],
+  "id": "patent_primary_quarantine",
+  "next_actions": [
+    "UPV certified search: inventor Brent Michael \u0160koda + caffeine vaporizer + 1997 gazette",
+    "USPTO inventor-name search (ODP key) \u2014 rebuild downstream nodes from hits only",
+    "Amend court_ready SKODA_CZ_PATENT / CONFLICTING_US_PATENT / SKODA_PCT constants after primaries"
+  ],
+  "probe_ok_count": 7,
+  "quarantine_count": 7,
+  "quarantined_ids": [
+    "CZ283061B6",
+    "WO1997033272A1",
+    "US5618592A",
+    "US20220083955A1",
+    "US20220083956A1",
+    "US20220083957A1",
+    "WO2023123456A1"
+  ],
+  "results": [
+    {
+      "body_sha3_256": "733e098e15735121222d9f1e1757d4f4956ba8971d2b673870d83b1ee364265b",
+      "corpus_claim": {
+        "inventor": "Brent Michael \u0160koda",
+        "source": "court_ready_forensic_blueprint.SKODA_CZ_PATENT / continuity CZ1997",
+        "title": "Caffeine Vaporizer"
+      },
+      "elapsed_ms": 243,
+      "error": null,
+      "id": "CZ283061B6",
+      "inventor_mismatch": true,
+      "observed": {
+        "assignees": [],
+        "inventors": [
+          "Luciano Corain",
+          "Giulio Bortoli"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/CZ283061B6/en"
+    },
+    {
+      "body_sha3_256": "6e1ea43b3d4ee0f78ca4a02757f4df5c743cdd321506af23ee944e5538c9ad8e",
+      "corpus_claim": {
+        "inventors": [
+          "Slobodan \u0160koda",
+          "Brent M. Skoda"
+        ],
+        "source": "court_ready_forensic_blueprint.SKODA_PCT",
+        "title": "Stringless twitch fret instrument"
+      },
+      "elapsed_ms": 184,
+      "error": null,
+      "id": "WO1997033272A1",
+      "inventor_mismatch": true,
+      "observed": {
+        "assignees": [
+          "Individual"
+        ],
+        "inventors": [
+          "Ivan Mladek"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "WO1997033272A1 - Stringless twitch fret instrument - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": false,
+      "url": "https://patents.google.com/patent/WO1997033272A1/en"
+    },
+    {
+      "body_sha3_256": "1eeafd73857f70735fd17c9dbb6aab0b7bcf5a55f7607c9ce08d713ed4003cf9",
+      "corpus_claim": {
+        "inventors": [
+          "Robert J. Cima"
+        ],
+        "source": "court_ready_forensic_blueprint.CONFLICTING_US_PATENT",
+        "title": "Caffeine Vaporizer (Robert J. Cima assignee conflict)"
+      },
+      "elapsed_ms": 640,
+      "error": null,
+      "id": "US5618592A",
+      "inventor_mismatch": true,
+      "observed": {
+        "assignees": [
+          "Sharp Corp"
+        ],
+        "inventors": [
+          "Nobukazu Nagae",
+          "Motohiro Yamahara",
+          "Nobuaki Yamada"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "US5618592A - Liquid crystal display device - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/US5618592A/en"
+    },
+    {
+      "body_sha3_256": "95b4d62fd67cd1b834dec2be0225a07be9c6039d4d424ca7cdb806a34617f652",
+      "corpus_claim": {
+        "source": "victim_inventor_continuity_chain.json",
+        "title": "Blockchain Patent Portfolio Management and Tokenized Royalty System"
+      },
+      "elapsed_ms": 319,
+      "error": null,
+      "id": "US20220083955A1",
+      "inventor_mismatch": false,
+      "observed": {
+        "assignees": [
+          "International Business Machines Corp"
+        ],
+        "inventors": [
+          "Lisa Seacat Deluca",
+          "Jeremy R. Fox",
+          "Zachary A. Silverstein"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "US20220083955A1 - Dynamic inventory estimation - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/US20220083955A1/en"
+    },
+    {
+      "body_sha3_256": "389e205a417557e873fa20eb252fa3c85342490a4d5df3e8c17aa96bc960a0c5",
+      "corpus_claim": {
+        "source": "victim_inventor_continuity_chain.json",
+        "title": "Distributed Ledger Identity Verification for Intellectual Property"
+      },
+      "elapsed_ms": 184,
+      "error": null,
+      "id": "US20220083956A1",
+      "inventor_mismatch": false,
+      "observed": {
+        "assignees": [
+          "Toshiba Tec Corp"
+        ],
+        "inventors": [
+          "Yasuhiro Nakajima"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "US20220083956A1 - Stock management system - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/US20220083956A1/en"
+    },
+    {
+      "body_sha3_256": "3bf74ee9c46e5cf165d59b64c88a1e7259b580118ab0c5eedf085b4c4d8e7028",
+      "corpus_claim": {
+        "source": "victim_inventor_continuity_chain.json",
+        "title": "verified_downstream_filing"
+      },
+      "elapsed_ms": 252,
+      "error": null,
+      "id": "US20220083957A1",
+      "inventor_mismatch": false,
+      "observed": {
+        "assignees": [
+          "Hewlett Packard Development Co LP"
+        ],
+        "inventors": [
+          "Gerold Keith Shelton",
+          "Kyle James Nottingham",
+          "Matthew Frederickson"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "US20220083957A1 - Kiosk device having storage bins - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/US20220083957A1/en"
+    },
+    {
+      "body_sha3_256": "f1360ec791da475d9b52b5e03535b67aad8b468503b95f11bce5fdf867eab476",
+      "corpus_claim": {
+        "source": "victim_inventor_continuity_chain.json",
+        "title": "placeholder_pct"
+      },
+      "elapsed_ms": 197,
+      "error": null,
+      "id": "WO2023123456A1",
+      "inventor_mismatch": false,
+      "observed": {
+        "assignees": [
+          "SZ DJI Technology Co Ltd"
+        ],
+        "inventors": [
+          "\u5434\u6613\u9716",
+          "\u7f57\u5143\u798f"
+        ],
+        "mentions_caffeine": false,
+        "mentions_skoda": false,
+        "title": "WO2023123456A1 - Vehicle location prediction method and apparatus, and vehicle and storage medium - Google Patents"
+      },
+      "probe_ok": true,
+      "quarantine": true,
+      "severity": "CRITICAL",
+      "status_code": 200,
+      "title_mismatch": true,
+      "url": "https://patents.google.com/patent/WO2023123456A1/en"
+    }
+  ],
+  "status": "integrity_alert",
+  "title": "Primary-source quarantine of cited patent numbers",
+  "wave": 3
+}

@@ -1,0 +1,88 @@
+{
+  "brand": "IP FORCE",
+  "citation_policy": "DO_NOT_CITE",
+  "generated_at": "2026-07-23T00:35:07Z",
+  "quarantined_links": [
+    {
+      "child_node_id": "US20220083955A1",
+      "link_type": "platform_misappropriation_downstream",
+      "parent_node_id": "COLLEGEFITNESS-COM",
+      "quarantine": true
+    },
+    {
+      "child_node_id": "US20220083955A1",
+      "link_type": "us_national_phase",
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "quarantine": true
+    },
+    {
+      "child_node_id": "US20220083956A1",
+      "link_type": "us_national_phase",
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "quarantine": true
+    },
+    {
+      "child_node_id": "US20220083957A1",
+      "link_type": "us_national_phase",
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "quarantine": true
+    },
+    {
+      "child_node_id": "WO2023123456A1",
+      "link_type": "pct_filing",
+      "parent_node_id": "CZ1997-CaffeineVaporizer",
+      "quarantine": true
+    }
+  ],
+  "quarantined_nodes": [
+    {
+      "citation_policy": "DO_NOT_CITE",
+      "display_id": "US 2022/0083955 A1",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "node_id": "US20220083955A1",
+      "node_type": "verified_downstream_filing",
+      "parent_foundational": "CZ1997-CaffeineVaporizer",
+      "quarantine": true,
+      "quarantine_reason": "publication_number_failed_primary_title_inventor_match",
+      "title": "Blockchain Patent Portfolio Management and Tokenized Royalty System"
+    },
+    {
+      "citation_policy": "DO_NOT_CITE",
+      "display_id": "US 2022/0083956 A1",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "node_id": "US20220083956A1",
+      "node_type": "verified_downstream_filing",
+      "parent_foundational": "CZ1997-CaffeineVaporizer",
+      "quarantine": true,
+      "quarantine_reason": "publication_number_failed_primary_title_inventor_match",
+      "title": "Distributed Ledger Identity Verification for Intellectual Property"
+    },
+    {
+      "citation_policy": "DO_NOT_CITE",
+      "display_id": "US 2022/0083957 A1",
+      "filing_date": "2022-03-17",
+      "jurisdiction": "USPTO",
+      "node_id": "US20220083957A1",
+      "node_type": "verified_downstream_filing",
+      "parent_foundational": "CZ1997-CaffeineVaporizer",
+      "quarantine": true,
+      "quarantine_reason": "publication_number_failed_primary_title_inventor_match",
+      "title": "Smart Contract Framework for Cross-Border IP Licensing"
+    },
+    {
+      "citation_policy": "DO_NOT_CITE",
+      "display_id": "WO 2023/123456 A1",
+      "filing_date": "2023-01-10",
+      "jurisdiction": "WIPO",
+      "node_id": "WO2023123456A1",
+      "node_type": "verified_downstream_filing",
+      "parent_foundational": "CZ1997-CaffeineVaporizer",
+      "quarantine": true,
+      "quarantine_reason": "publication_number_failed_primary_title_inventor_match",
+      "title": "PCT System for Blockchain-Anchored Patent Provenance"
+    }
+  ],
+  "seal": "828841ad801b593eeca53819794a694df268252a3b8f6e307871d8e0d9dc2eaa"
+}

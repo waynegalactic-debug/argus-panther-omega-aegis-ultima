@@ -42,6 +42,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-2 deep public screens",
     )
+    parser.add_argument(
+        "--investigate-wave3",
+        action="store_true",
+        help="Run investigation wave-3 patent quarantine + continuity rebuild",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -52,8 +57,11 @@ def main(argv: list[str] | None = None) -> int:
         print("Choose only one of --legacy-monolith / --legacy-live", file=sys.stderr)
         return 2
 
-    if args.investigate and args.investigate_wave2:
-        print("Run --investigate and --investigate-wave2 separately (or wave2 alone).", file=sys.stderr)
+    wave_flags = sum(
+        bool(x) for x in (args.investigate, args.investigate_wave2, args.investigate_wave3)
+    )
+    if wave_flags > 1:
+        print("Run only one of --investigate / --investigate-wave2 / --investigate-wave3.", file=sys.stderr)
         return 2
 
     if args.investigate:
@@ -65,6 +73,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave2 import main as wave2_main
 
         return int(wave2_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave3:
+        from us_ipforce_investigation_wave3 import main as wave3_main
+
+        return int(wave3_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

@@ -1,0 +1,20 @@
+{
+  "adjudicated": false,
+  "counts": {
+    "quarantined_links": 5,
+    "quarantined_nodes": 4,
+    "retained_links": 1,
+    "retained_nodes": 2
+  },
+  "id": "continuity_rebuild_candidate",
+  "next_actions": [
+    "Replace referral packaging to use REBUILT_CANDIDATE + quarantine files",
+    "Do not delete original continuity file \u2014 keep as contaminated corpus evidence of prior claim set"
+  ],
+  "quarantine_path": "data/victim_inventor_continuity_chain_QUARANTINE.json",
+  "rebuilt_path": "data/victim_inventor_continuity_chain_REBUILT_CANDIDATE.json",
+  "rebuilt_seal": "a2e00d68794245bd2216e7458da78432a77bc5bc529dcfc32f4eebbf6c2b02ff",
+  "status": "done",
+  "title": "Quarantine bad pub nodes; emit honest continuity candidate",
+  "wave": 3
+}

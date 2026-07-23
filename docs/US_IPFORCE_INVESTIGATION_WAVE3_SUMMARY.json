@@ -1,0 +1,86 @@
+{
+  "artifacts": {
+    "integrity_alert": "docs/investigation/INTEGRITY_ALERT_WAVE3_QUARANTINE.md",
+    "quarantine_continuity": "data/victim_inventor_continuity_chain_QUARANTINE.json",
+    "rebuilt_continuity": "data/victim_inventor_continuity_chain_REBUILT_CANDIDATE.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W3",
+  "counts": {
+    "adjudicated_total": 0,
+    "continuity_quarantined_nodes": 4,
+    "continuity_retained_nodes": 2,
+    "quarantined_patent_ids": 7,
+    "tracks": 3,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "e365f07f500c63504e891db52f1a43763e21770560930f5213595d197e7ca0fb",
+    "leaves": [
+      {
+        "id": "patent_primary_quarantine",
+        "sha3_256": "0679d1fdf3ace13d78b13dfca8eb994360c012a72c01b6b64a5a7037d9c9d9b8",
+        "status": "integrity_alert"
+      },
+      {
+        "id": "court_ready_constant_audit",
+        "sha3_256": "dd02196cf4332fbcac6c05d863f57ce09d4e0bf1c04455084bd36677e989d03c",
+        "status": "integrity_alert"
+      },
+      {
+        "id": "continuity_rebuild_candidate",
+        "sha3_256": "d9adcda43beca6cc2b402befb3563467a6d668e2e202bd3185afc92aba7a67ff",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "9f2507a89577f576fb548524a181276caf34424e91d5bbada40fc7822c1b3e1b3cc13cb99e0f6d71f96d520fcabb5e7c4c7a882871b64da62a3051794251edca"
+  },
+  "elapsed_ms": 4509,
+  "generated_at": "2026-07-23T00:35:07Z",
+  "policy": "Wave-3 quarantines false patent linkages. Foundational caffeine CZ grant remains open/manual. No theft adjudication.",
+  "seal": "12cd7e350a96deaa6c7f0e4cd12bf048a7a10c3a9f5092f74d8f29595d158c91",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "citation_hold": [
+        "QUARANTINE all listed publication numbers from referral packages",
+        "Do not assert CZ283061 / US5618592 / WO1997033272 as Skoda caffeine-vaporizer chain",
+        "Do not assert US20220083955/56/57 as Skoda blockchain-IP filings",
+        "Foundational caffeine CZ grant status = OPEN_MANUAL (certified UPV search required)"
+      ],
+      "id": "patent_primary_quarantine",
+      "next_actions": [
+        "UPV certified search: inventor Brent Michael \u0160koda + caffeine vaporizer + 1997 gazette",
+        "USPTO inventor-name search (ODP key) \u2014 rebuild downstream nodes from hits only",
+        "Amend court_ready SKODA_CZ_PATENT / CONFLICTING_US_PATENT / SKODA_PCT constants after primaries"
+      ],
+      "status": "integrity_alert",
+      "title": "Primary-source quarantine of cited patent numbers"
+    },
+    {
+      "adjudicated": false,
+      "citation_hold": null,
+      "id": "court_ready_constant_audit",
+      "next_actions": [
+        "Patch court_ready constants to empty/open_manual after operator confirms",
+        "Keep allegation narrative only with primary-source exhibits attached"
+      ],
+      "status": "integrity_alert",
+      "title": "Audit court_ready patent baseline constants vs primary probes"
+    },
+    {
+      "adjudicated": false,
+      "citation_hold": null,
+      "id": "continuity_rebuild_candidate",
+      "next_actions": [
+        "Replace referral packaging to use REBUILT_CANDIDATE + quarantine files",
+        "Do not delete original continuity file \u2014 keep as contaminated corpus evidence of prior claim set"
+      ],
+      "status": "done",
+      "title": "Quarantine bad pub nodes; emit honest continuity candidate"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE3"
+}
