@@ -471,6 +471,17 @@ ENGINE_REGISTRY: list[dict[str, Any]] = [
         "args": [],
         "verified_mode_required": False,
     },
+    {
+        "id": "investigation_wave33",
+        "tier": "investigation",
+        "weight": 74,
+        "depends_on": ["investigation_wave32"],
+        "parallel_group": "B",
+        "kind": "python_main",
+        "module": "us_ipforce_investigation_wave33",
+        "args": [],
+        "verified_mode_required": False,
+    },
 ]
 
 

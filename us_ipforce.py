@@ -205,6 +205,14 @@ def main(argv: list[str] | None = None) -> int:
             "intellectual-property flows"
         ),
     )
+    parser.add_argument(
+        "--investigate-wave33",
+        action="store_true",
+        help=(
+            "Run investigation wave-33 deepen money/IP analysis and fully "
+            "update hypergraph + all dispositions"
+        ),
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
