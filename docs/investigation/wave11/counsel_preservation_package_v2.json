@@ -1,0 +1,109 @@
+{
+  "adjudicated": false,
+  "exhibit_ids": [
+    "E-W4-PORTFOLIO",
+    "E-W5-FORM-D",
+    "E-W6-BETA-DRIVE",
+    "E-W7-RDAP",
+    "E-W8-LITIGATION",
+    "E-W9-DELAWARE",
+    "E-W3-QUARANTINE"
+  ],
+  "id": "counsel_preservation_package_v2",
+  "letters": [
+    {
+      "addressee": "UB Greensfelder LLP (successor to Ulmer & Berne LLP)",
+      "attach_exhibits": [
+        "E-W4-PORTFOLIO",
+        "E-W8-LITIGATION",
+        "E-W3-QUARANTINE"
+      ],
+      "id": "L-UBG",
+      "preserve": [
+        "Engagement files for Brent Michael \u0160koda / \u0160koda entities (1997\u2013present)",
+        "Work of Peter A. Rome, Wayne M. Serra, Suzann R. Moskowitz",
+        "CollegeFitness.com advisory meetings with Lauren Rich Fine / Beatrice Advisors",
+        "Any files referencing Czech caffeine-vaporizer work (search without assuming quarantined numbers)"
+      ],
+      "status": "DRAFT_NOT_SENT"
+    },
+    {
+      "addressee": "Lauren Rich Fine / Beatrice Advisors, LP",
+      "attach_exhibits": [
+        "E-W8-LITIGATION"
+      ],
+      "id": "L-FINE",
+      "preserve": [
+        "Calendars, emails, notes, engagement letters for CollegeFitness.com",
+        "Communications arranged by Rome/Serra"
+      ],
+      "status": "DRAFT_NOT_SENT"
+    },
+    {
+      "addressee": "Meta Platforms, Inc.",
+      "attach_exhibits": [
+        "E-W8-LITIGATION"
+      ],
+      "id": "L-META",
+      "preserve": [
+        "ESI relating to CollegeFitness.com / collegefitness social-networking chronology only"
+      ],
+      "scope_limit": "Do not expand to uncorroborated state-actor narratives",
+      "status": "DRAFT_NOT_SENT"
+    },
+    {
+      "addressee": "Anthony G. Salvador / Salvador Law Group + Foley & Lardner LLP",
+      "attach_exhibits": [],
+      "id": "L-SALVADOR",
+      "parallel_manual": "Obtain AZ State Bar / Supreme Court discipline order (primary)",
+      "preserve": [
+        "Engagement/conflict files involving victim inventor"
+      ],
+      "status": "DRAFT_NOT_SENT"
+    },
+    {
+      "addressee": "DropCatch / NameBright + GoDaddy / Afternic",
+      "attach_exhibits": [
+        "E-W7-RDAP"
+      ],
+      "id": "L-DOMAIN",
+      "parent": "docs/investigation/wave7/domain_preservation_addendum.json",
+      "preserve": [
+        "ahkeo.com and ahkeolabs.com registration, auction/drop-catch, DNS logs",
+        "collegefitness.com registration/DNS/aftermarket history (2002\u2013present)"
+      ],
+      "status": "DRAFT_NOT_SENT"
+    },
+    {
+      "addressee": "Tucker Ellis LLP (Ahkeo Labs plaintiff counsel, N.D. Ohio 1:17-cv-01248)",
+      "attach_exhibits": [
+        "E-W8-LITIGATION",
+        "E-W9-DELAWARE",
+        "E-W6-BETA-DRIVE"
+      ],
+      "id": "L-TUCKER",
+      "preserve": [
+        "Client file Ahkeo Labs LLC v. Plurimi \u2014 pleadings, notes, loan docs, Skoda communications"
+      ],
+      "status": "DRAFT_NOT_SENT"
+    }
+  ],
+  "next_actions": [
+    "Counsel review + edit before any outbound send",
+    "Attach PDF hashes for E-W8 RECAP complaint/opinion from local output_artifacts"
+  ],
+  "package_md": "docs/investigation/WAVE11_COUNSEL_PRESERVATION_PACKAGE.md",
+  "pointer": {
+    "exhibit_count": 7,
+    "legacy_draft": "docs/investigation/PRESERVATION_LETTERS_DRAFT.md",
+    "letter_count": 6,
+    "package_md": "docs/investigation/WAVE11_COUNSEL_PRESERVATION_PACKAGE.md",
+    "status": "DRAFT_NOT_SENT",
+    "wave": 11
+  },
+  "policy": "Drafts only. No auto-send. No liability findings. Genesis-paste press release remains rejected (Wave-10).",
+  "status": "draft_counsel",
+  "title": "Counsel preservation package v2 (exhibit-cited drafts)",
+  "true_ubo_asserted": 0,
+  "wave": 11
+}

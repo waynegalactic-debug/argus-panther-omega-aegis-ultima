@@ -1,0 +1,88 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE11_COUNSEL_PACK_ALERT.md",
+    "counsel_json": "docs/investigation/wave11/counsel_preservation_package_v2.json",
+    "package_md": "docs/investigation/WAVE11_COUNSEL_PRESERVATION_PACKAGE.md",
+    "surfaces": "docs/investigation/wave11/public_surface_refresh.json",
+    "synthesis": "docs/investigation/wave11/situational_synthesis_top10.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W11",
+  "counts": {
+    "adjudicated_total": 0,
+    "exhibits_indexed": 7,
+    "insights": 10,
+    "preservation_letters": 6,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "741d0587e733a380f583e02eef4985404190c15f5f420be4774789f3d9122536",
+    "leaves": [
+      {
+        "id": "public_surface_refresh",
+        "sha3_256": "df32d4044c77d16ccb438f6e61466c426bc713d37373ce165814d5ef40f83b67",
+        "status": "done"
+      },
+      {
+        "id": "counsel_preservation_package_v2",
+        "sha3_256": "8cdcc3b76969213d8b93697f1f13beb815844242bdb08d6413873bb1ab17d93d",
+        "status": "draft_counsel"
+      },
+      {
+        "id": "situational_synthesis_top10",
+        "sha3_256": "2f39988e8d5962c0fdb05da387bc7cd7c743cc6a366aa3c6d4ca546991a6fdfd",
+        "status": "done"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "8914f18e7e9c333a9dd1bf58ce7effe6204d384dcbfad6c8fb5380ca72227aef",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "d10726ad2c35c68dc9e536c47b0d1435da207f988def64312ab1a5c7d2c644c883fbfaba4f15b4e7a3e78ce6d5efdb1476cbf7cbfb25fd564ff6198d795830f3"
+  },
+  "elapsed_ms": 2975,
+  "generated_at": "2026-07-23T01:30:58Z",
+  "policy": "Wave-11 seals counsel preservation package v2 with exhibit citations and top-10 authenticated insights. Drafts not sent. No theft/RICO/UBO.",
+  "seal": "7468d606f4f229ad55a102f292c187467664be6635f558d48458306398cff345",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "public_surface_refresh",
+      "next_actions": [
+        "Order DE Certificate of Status for file 6096179 via corp.delaware.gov services",
+        "PACER pull Doc.38 opposition + Skoda declaration if needed"
+      ],
+      "status": "done",
+      "title": "Public surface refresh (GP / DE services / Ohio SOS / CL Doc.38)"
+    },
+    {
+      "adjudicated": false,
+      "id": "counsel_preservation_package_v2",
+      "next_actions": [
+        "Counsel review + edit before any outbound send",
+        "Attach PDF hashes for E-W8 RECAP complaint/opinion from local output_artifacts"
+      ],
+      "status": "draft_counsel",
+      "title": "Counsel preservation package v2 (exhibit-cited drafts)"
+    },
+    {
+      "adjudicated": false,
+      "id": "situational_synthesis_top10",
+      "next_actions": null,
+      "status": "done",
+      "title": "Top 10 counsel-facing insights (authenticated facts only)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-11 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE11"
+}

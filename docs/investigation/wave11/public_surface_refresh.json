@@ -1,0 +1,98 @@
+{
+  "adjudicated": false,
+  "id": "public_surface_refresh",
+  "next_actions": [
+    "Order DE Certificate of Status for file 6096179 via corp.delaware.gov services",
+    "PACER pull Doc.38 opposition + Skoda declaration if needed"
+  ],
+  "notes": [
+    "Google Patents xhr still unavailable (5xx) \u2014 Wave-4 portfolio retained",
+    "CourtListener Doc.38 page reachable; RECAP PDF for that entry not exposed",
+    "Delaware corp services / corpfiles portals reachable for manual Certificate of Status order"
+  ],
+  "probes": [
+    {
+      "body_sha3_256": "e3dce8d6d810866a8a8add704a9dab4a3bcf657e125828d5c49e2d710518e4b7",
+      "bytes": 1103,
+      "elapsed_ms": 462,
+      "error": "HTTPError:503",
+      "name": "google_patents_inventor",
+      "ok": false,
+      "status_code": 503,
+      "title": null,
+      "url": "https://patents.google.com/xhr/query?url=inventor%3D%22Brent%20M.%20Skoda%22"
+    },
+    {
+      "body_sha3_256": "ddcea16ff4a8370270746961d26534e4332ac594b9d04d154ba346e90a1e33f2",
+      "bytes": 49093,
+      "elapsed_ms": 156,
+      "error": null,
+      "name": "delaware_corp_services",
+      "ok": true,
+      "status_code": 200,
+      "title": "Online Services - Division of Corporations - State of Delaware",
+      "url": "https://corp.delaware.gov/services/"
+    },
+    {
+      "body_sha3_256": "b93b8f5e65d97a4c145ded7399818538ccdf4d59bf7b45c017674463d26eea15",
+      "bytes": 2965,
+      "elapsed_ms": 101,
+      "error": null,
+      "name": "delaware_corpfiles",
+      "ok": true,
+      "status_code": 200,
+      "title": "State of Delaware",
+      "url": "https://corpfiles.delaware.gov/"
+    },
+    {
+      "body_sha3_256": "a81fa0e933d595cb5c66e412f006aea7914ac263a9a1abc111a8ba7fc7c741fc",
+      "bytes": 48338,
+      "elapsed_ms": 112,
+      "error": null,
+      "name": "delaware_icis_search",
+      "ok": true,
+      "status_code": 200,
+      "title": "Division of Corporations - Filing",
+      "url": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx"
+    },
+    {
+      "body_sha3_256": "10c7841a1b465ab6a22c802ee45c7f90467df2e2461233492162c161be67c673",
+      "bytes": 4000,
+      "elapsed_ms": 35,
+      "error": "HTTPError:403",
+      "name": "ohio_sos_business_search",
+      "ok": false,
+      "status_code": 403,
+      "title": null,
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    {
+      "body_sha3_256": "d6fc034a505394bd917977b5c9b3041c27727d5edbdbdc34a1d0b081776211dc",
+      "bytes": 45511,
+      "elapsed_ms": 304,
+      "error": null,
+      "name": "courtlistener_ahkeo_doc38",
+      "ok": true,
+      "status_code": 200,
+      "title": "#38 in Ahkeo Labs LLC v. Plurimi Investment Managers LLP (N.D. Ohio, 1:17-cv-01248) \u2013 CourtListener.com",
+      "url": "https://www.courtlistener.com/docket/6112063/38/ahkeo-labs-llc-v-plurimi-investment-managers-llp/"
+    }
+  ],
+  "status": "done",
+  "summary": {
+    "http_200": [
+      "delaware_corp_services",
+      "delaware_corpfiles",
+      "delaware_icis_search",
+      "courtlistener_ahkeo_doc38"
+    ],
+    "http_403": [
+      "ohio_sos_business_search"
+    ],
+    "http_503_or_500": [
+      "google_patents_inventor"
+    ]
+  },
+  "title": "Public surface refresh (GP / DE services / Ohio SOS / CL Doc.38)",
+  "wave": 11
+}

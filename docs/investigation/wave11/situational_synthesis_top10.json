@@ -1,0 +1,90 @@
+{
+  "adjudicated": false,
+  "evidence_pack_seal": "7c2c14efe95aa788b395ac0b054031b6c742d9d04f1dfbda58f8905f5ac8d517",
+  "id": "situational_synthesis_top10",
+  "insights": [
+    {
+      "action": "Order DE Certificate of Status + Ohio foreign-qual/SOS abstracts",
+      "exhibits": [
+        "E-W9-DELAWARE",
+        "E-W8-LITIGATION"
+      ],
+      "insight": "Ahkeo Labs LLC is Delaware-formed (file 6096179, 2016-07-14) and pled PPB at 6685 Beta Drive with Brent Skoda as Chairman/CEO (N.D. Ohio complaint).",
+      "rank": 1
+    },
+    {
+      "action": "Counsel decide citation scope; no UBO inference",
+      "exhibits": [
+        "E-W5-FORM-D",
+        "E-W6-BETA-DRIVE"
+      ],
+      "insight": "Same Beta Drive address appears on Casters Holdings 2019 Form D (issuer + Brent Skoda related person) and Gregory/Patricia Skoda SEC mailings.",
+      "rank": 2
+    },
+    {
+      "action": "USPTO ODP assignments when API key available; certified UPV search",
+      "exhibits": [
+        "E-W4-PORTFOLIO",
+        "E-W3-QUARANTINE"
+      ],
+      "insight": "Modern USPTO inventor portfolio for Brent M. Skoda (12 pubs; Ahkeo/Zorday assignees) is authenticated on Google Patents; 1997 CZ grant still open/manual.",
+      "rank": 3
+    },
+    {
+      "action": "Send domain preservation addendum; pull historical WHOIS",
+      "exhibits": [
+        "E-W7-RDAP"
+      ],
+      "insight": "ahkeo.com / ahkeolabs.com currently show 2026 DropCatch re-registration \u2014 Wayback brand history predates current RDAP registrant.",
+      "rank": 4
+    },
+    {
+      "action": "Optional PACER Doc.38 declaration pull",
+      "exhibits": [
+        "E-W8-LITIGATION"
+      ],
+      "insight": "Ahkeo v. Plurimi was dismissed for lack of personal jurisdiction \u2014 useful corporate/role facts, not an IP-title judgment.",
+      "rank": 5
+    },
+    {
+      "action": "Keep quarantine binding in all outbound materials",
+      "exhibits": [
+        "E-W3-QUARANTINE"
+      ],
+      "insight": "Quarantined patent IDs (incl. CZ283061/B6 inventorship/title mismatches) must not be cited as foundational grants.",
+      "rank": 6
+    },
+    {
+      "action": "Use aegis_hyperion.py / us_ipforce.py verified entrypoints only",
+      "exhibits": [],
+      "insight": "Credentialed ULTIMA-GENESIS paste and fantasy Meta/$520T press release were rejected; use evidence pack only.",
+      "rank": 7
+    },
+    {
+      "action": "Operator browser session for Ahkeo cluster + Beta Drive",
+      "exhibits": [],
+      "insight": "Ohio SOS automated abstracts remain blocked (403) in this environment.",
+      "rank": 8
+    },
+    {
+      "action": "Certified AZ bar / supreme court pull",
+      "exhibits": [],
+      "insight": "Anthony G. Salvador AZ discipline order still OPEN_MANUAL.",
+      "rank": 9
+    },
+    {
+      "action": "Keep Meta letter narrowly scoped to platform chronology",
+      "exhibits": [
+        "E-W8-LITIGATION",
+        "E-W7-RDAP"
+      ],
+      "insight": "CollegeFitness.com narrative appears in Gwin opinion (prior Dupee pitch) and aligns with long-running domain OSINT \u2014 still not CZ1997 proof.",
+      "rank": 10
+    }
+  ],
+  "policy": "Insights are investigative priorities, not legal conclusions.",
+  "status": "done",
+  "title": "Top 10 counsel-facing insights (authenticated facts only)",
+  "true_ubo_asserted": 0,
+  "wave": 11
+}
