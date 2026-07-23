@@ -9,6 +9,7 @@ individuals/entities for:
   • wrapped tokens
   • fractionalized / fractional tokens
   • wrapped + fractionalized combinations
+  • RaP (Royalty / Rights Asset Protocol) — treated as **wrapped** (wrapped RaP / wRaP)
   • tokenized IP-linked flows
   • tokenized royalty flows
   • tokenized / fractionalized patent NFT flows
@@ -53,7 +54,7 @@ MAX_TT_PAGES = 12
 # Classification heuristics (name/symbol/method — not adjudication)
 RE_WRAPPED = re.compile(
     r"\bwrap(?:ped)?\b|\bweth\b|\bwbtc\b|\bsteth\b|\bcbeth\b|\breth\b|"
-    r"\bwrapped\b|wsteth|wmatic|wavax",
+    r"\bwrapped\b|wsteth|wmatic|wavax|\bwRaP\b|\bwrap(?:ped)?[-_ ]?RaP\b",
     re.I,
 )
 RE_FRACTIONAL = re.compile(
@@ -63,6 +64,14 @@ RE_FRACTIONAL = re.compile(
 )
 RE_ROYALTY = re.compile(
     r"royalt|eip-?2981|creator.?fee|license.?fee|revenue.?share",
+    re.I,
+)
+# RaP = Royalty/Rights Asset Protocol family — canonical class is *wrapped* RaP
+RE_RAP = re.compile(
+    r"\bRaP\b|\bwRaP\b|\bwrap(?:ped)?[-_ ]?RaP\b|"
+    r"royalty[-_ ]?asset[-_ ]?protocol|rights[-_ ]?asset[-_ ]?protocol|"
+    r"royalty[-_ ]?advance[-_ ]?purchase|revenue[-_ ]?attribution[-_ ]?protocol|"
+    r"rights[-_ ]?assignment[-_ ]?protocol",
     re.I,
 )
 RE_PATENT_IP = re.compile(
@@ -242,14 +251,20 @@ def classify_token(token: dict[str, Any], tx_type: str | None = None) -> dict[st
         RE_NFT.search(blob)
         or (token.get("type") or "") in ("ERC-721", "ERC-1155")
     )
-    wrapped = bool(RE_WRAPPED.search(blob))
+    rap = bool(RE_RAP.search(blob))
+    # Policy: RaP is a wrapped instrument class (wrapped RaP / wRaP)
+    wrapped = bool(RE_WRAPPED.search(blob)) or rap
     fractional = bool(RE_FRACTIONAL.search(blob))
-    royalty = bool(RE_ROYALTY.search(blob))
+    royalty = bool(RE_ROYALTY.search(blob)) or rap
     patent_ip = bool(RE_PATENT_IP.search(blob))
+    wrapped_rap = rap  # RaP ⇒ wrapped by definition
     return {
         "wrapped": wrapped,
         "fractionalized": fractional,
         "wrapped_and_fractionalized": wrapped and fractional,
+        "rap": rap,
+        "wrapped_rap": wrapped_rap,
+        "wrapped_rap_and_fractionalized": wrapped_rap and fractional,
         "tokenized_ip_linked": patent_ip,
         "tokenized_royalty": royalty,
         "tokenized_fractionalized_patent_nft": patent_ip and is_nft and fractional,
@@ -258,6 +273,7 @@ def classify_token(token: dict[str, Any], tx_type: str | None = None) -> dict[st
         "any_target_class": wrapped
         or fractional
         or royalty
+        or rap
         or patent_ip
         or (patent_ip and is_nft),
     }
@@ -404,33 +420,36 @@ def track_token_flow_expansion() -> dict[str, Any]:
     findings = [
         {
             "id": "W27-F1",
-            "title": "Wrapped / fractionalized / IP / royalty / patent-NFT token flows screened across all sealed addresses",
+            "title": "Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows screened across all sealed addresses",
             "addresses_screened": len(screens),
             "aggregate_class_counts": dict(totals),
             "sealed_publication_id_token_metadata_hits_total": pub_hit_total,
             "tokenized_ip_royalty_rail_authenticated": False,
             "fractionalized_patent_nft_rail_authenticated": False,
+            "wrapped_rap_rail_authenticated": False,
             "wrapped_fractionalized_stolen_ip_adjudicated": False,
             "detail": (
                 f"Merged token-transfer screens for {len(screens)} labels covering ERC-20/"
                 f"721/1155. Aggregate heuristic hits: {dict(totals)}. Sealed Wave-14 "
                 f"publication-number matches inside token metadata: {pub_hit_total}. "
+                "RaP is classified as wrapped (wrapped RaP / wRaP) by policy. "
                 "WETH/wrapped-asset noise is expected and is NOT treated as IP royalty. "
-                "No authenticated tokenized royalty or fractionalized patent-NFT rail to "
-                "the sealed Skoda publication set."
+                "No authenticated wrapped-RaP, tokenized royalty, or fractionalized "
+                "patent-NFT rail to the sealed Skoda publication set."
             ),
         }
     ]
     return {
         "id": "wrapped_fractional_ip_royalty_token_flows",
-        "title": "Wrapped / fractionalized / IP / royalty / patent-NFT token flows",
+        "title": "Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows",
         "status": "SEALED",
         "address_book": book,
         "screens": screens,
         "findings": findings,
         "next_actions": [
-            "If operator has specific fractional vault / IP-NFT contract addresses, supply for deep trace",
-            "Do not treat WETH/wrapped gas tokens as patent royalty instruments",
+            "If operator has specific fractional vault / IP-NFT / wrapped-RaP contract addresses, supply for deep trace",
+            "Do not treat WETH/wrapped gas tokens as patent royalty or wrapped-RaP instruments",
+            "Treat bare RaP labels as wrapped RaP (wRaP) — not a separate unwrapped rail",
         ],
     }
 
@@ -451,6 +470,11 @@ def track_cross_entity_matrix(token_track: dict[str, Any]) -> dict[str, Any]:
                 "wrapped": int(cc.get("wrapped") or 0),
                 "fractionalized": int(cc.get("fractionalized") or 0),
                 "wrapped_and_fractionalized": int(cc.get("wrapped_and_fractionalized") or 0),
+                "rap": int(cc.get("rap") or 0),
+                "wrapped_rap": int(cc.get("wrapped_rap") or 0),
+                "wrapped_rap_and_fractionalized": int(
+                    cc.get("wrapped_rap_and_fractionalized") or 0
+                ),
                 "tokenized_ip_linked": int(cc.get("tokenized_ip_linked") or 0),
                 "tokenized_royalty": int(cc.get("tokenized_royalty") or 0),
                 "patent_nft": int(cc.get("patent_nft") or 0),
@@ -514,12 +538,14 @@ def track_cross_entity_matrix(token_track: dict[str, Any]) -> dict[str, Any]:
                 r["sealed_pub_metadata_hits"] > 0 for r in entity_rows
             ),
             "tokenized_royalty_to_skoda_authenticated": False,
+            "wrapped_rap_to_skoda_authenticated": False,
             "fractionalized_patent_nft_to_skoda_authenticated": False,
             "cross_entity_stolen_ip_tokenization_adjudicated": False,
             "detail": (
                 f"Per-label class rollups for {len(entity_rows)} addresses; "
                 f"{len(pairs)} pairs showed target-class peer token flow in scanned pages "
                 f"(pair space {len(labels)*(len(labels)-1)//2}). "
+                "RaP counted under wrapped_rap (wRaP). "
                 "No sealed Skoda publication-number match in token metadata across the set "
                 "unless counted above. Cross-entity tokenization of stolen IP not adjudicated."
             ),
@@ -579,17 +605,22 @@ def track_operator_worklist() -> dict[str, Any]:
             {
                 "id": "W27-M1",
                 "priority": "HIGH",
-                "item": "Supply fractional vault / IP-NFT / royalty-splitter contract addresses if claimed",
+                "item": "Supply fractional vault / IP-NFT / wrapped-RaP / royalty-splitter contract addresses if claimed",
             },
             {
                 "id": "W27-M2",
                 "priority": "HIGH",
-                "item": "Do not equate WETH/wrapped transfers with patent royalty tokenization",
+                "item": "Do not equate WETH/wrapped transfers with patent royalty or wrapped-RaP tokenization",
             },
             {
                 "id": "W27-M3",
+                "priority": "HIGH",
+                "item": "Treat RaP as wrapped (wRaP); do not invent a separate unwrapped RaP rail",
+            },
+            {
+                "id": "W27-M4",
                 "priority": "MEDIUM",
-                "item": "Deeper ERC-1155/721 pagination if patent-NFT theory persists on page-capped wallets",
+                "item": "Deeper ERC-1155/721 pagination if patent-NFT / wrapped-RaP theory persists on page-capped wallets",
             },
         ],
         "adjudicated": False,
@@ -608,18 +639,25 @@ def write_summary_md(
     f1 = (tokens.get("findings") or [{}])[0]
     f2 = (matrix.get("findings") or [{}])[0]
     lines = [
-        "# Wave 27 — Wrapped / fractionalized / IP / royalty / patent-NFT token flows",
+        "# Wave 27 — Wrapped / fractionalized / wrapped-RaP / IP / royalty / patent-NFT token flows",
         "",
         f"Generated: `{_utc()}`",
         "",
         "## Disposition (policy-gated)",
         "",
         "- `tokenized_ip_royalty_rail_authenticated`: **false**",
+        "- `wrapped_rap_rail_authenticated`: **false**",
         "- `fractionalized_patent_nft_rail_authenticated`: **false**",
         "- `wrapped_fractionalized_stolen_ip_adjudicated`: **false**",
         "- `tokenized_royalty_to_skoda_authenticated`: **false**",
+        "- `wrapped_rap_to_skoda_authenticated`: **false**",
         "- `cross_entity_stolen_ip_tokenization_adjudicated`: **false**",
         "- `theft_adjudicated`: **false**",
+        "",
+        "## Policy note — RaP is wrapped",
+        "",
+        "RaP (Royalty/Rights Asset Protocol family) is classified as **wrapped RaP / wRaP**. "
+        "Bare RaP labels are not treated as a separate unwrapped rail.",
         "",
         "## Aggregate class counts (heuristic)",
         "",
@@ -635,8 +673,8 @@ def write_summary_md(
         "",
         "## Manual next",
         "",
-        "1. Named fractional/IP-NFT/royalty contracts if theory is contract-specific.",
-        "2. Do not treat WETH as patent royalty.",
+        "1. Named fractional/IP-NFT/wrapped-RaP contracts if theory is contract-specific.",
+        "2. Do not treat WETH as patent royalty or wrapped RaP.",
         "3. USPTO assignments still required before conveyance claims.",
         "",
     ]
@@ -707,13 +745,16 @@ def run_wave27() -> dict[str, Any]:
         ],
         "disposition": {
             "tokenized_ip_royalty_rail_authenticated": False,
+            "wrapped_rap_rail_authenticated": False,
             "fractionalized_patent_nft_rail_authenticated": False,
             "wrapped_fractionalized_stolen_ip_adjudicated": False,
             "tokenized_royalty_to_skoda_authenticated": False,
+            "wrapped_rap_to_skoda_authenticated": False,
             "fractionalized_patent_nft_to_skoda_authenticated": False,
             "cross_entity_stolen_ip_tokenization_adjudicated": False,
             "theft_adjudicated": False,
             "illicit_royalty_adjudicated": False,
+            "rap_classified_as_wrapped": True,
         },
         "artifacts": {
             "summary_md": summary_md,
@@ -729,9 +770,10 @@ def run_wave27() -> dict[str, Any]:
             "leaves": leaves,
         },
         "policy": (
-            "Wave-27 expands token-flow screening for wrapped, fractionalized, IP-linked, "
-            "royalty, and patent-NFT heuristics across all sealed addresses and updates "
-            "the cross-entity matrix. No stolen-IP tokenization adjudication."
+            "Wave-27 expands token-flow screening for wrapped, fractionalized, wrapped-RaP "
+            "(RaP classified as wrapped / wRaP), IP-linked, royalty, and patent-NFT "
+            "heuristics across all sealed addresses and updates the cross-entity matrix. "
+            "No stolen-IP tokenization adjudication."
         ),
     }
     report["seal"] = _sha3_256({k: v for k, v in report.items() if k != "seal"})
@@ -765,6 +807,7 @@ def main(argv: list[str] | None = None) -> int:
             f"{BRAND} wave27: findings={report['counts']['findings']} "
             f"addrs={report['counts'].get('addresses_screened')} "
             f"royalty_rail={d['tokenized_ip_royalty_rail_authenticated']} "
+            f"wrapped_rap={d['wrapped_rap_rail_authenticated']} "
             f"patent_nft={d['fractionalized_patent_nft_rail_authenticated']} "
             f"seal={report['seal'][:16]}…"
         )

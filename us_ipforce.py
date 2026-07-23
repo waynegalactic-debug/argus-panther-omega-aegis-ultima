@@ -161,8 +161,8 @@ def main(argv: list[str] | None = None) -> int:
         "--investigate-wave27",
         action="store_true",
         help=(
-            "Run investigation wave-27 wrapped / fractionalized / IP / royalty / "
-            "patent-NFT token flows"
+            "Run investigation wave-27 wrapped / fractionalized / wrapped-RaP / "
+            "IP / royalty / patent-NFT token flows"
         ),
     )
     args, unknown = parser.parse_known_args(argv)
