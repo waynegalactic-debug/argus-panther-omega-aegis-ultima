@@ -86,31 +86,48 @@ SEC_HEADERS = {
 # =============================================================================
 # Škoda Patent Family – Evidentiary Baseline Constants
 # =============================================================================
+# WAVE-3 INTEGRITY QUARANTINE (2026-07-23): prior numbers failed Google Patents
+# title/inventor match. Do not cite until certified UPV/USPTO exhibits land.
 SKODA_CZ_PATENT = {
     "country": "CZ",
-    "number": "283061",
+    "number": "",  # quarantined: 283061 is unrelated loom patent on Google Patents
+    "number_quarantined": "283061",
     "grant_date": "1997-03-15",
     "title": "Caffeine Vaporizer",
     "inventor": "Brent Michael Škoda",
     "office": "ÚPV (Czech Industrial Property Office)",
     "source_refs": ["UPV Official Gazette 1997-03-15"],
+    "verification_status": "OPEN_MANUAL_UNVERIFIED_NUMBER",
+    "citation_policy": "DO_NOT_CITE_NUMBER_UNTIL_CERTIFIED_UPV",
 }
 
 SKODA_PCT = {
     "publication": "WO1997033272A1",
     "title": "Stringless twitch fret instrument",
     "filing_date": "1996-03-05",
-    "inventors": ["Slobodan Škoda", "Brent M. Skoda"],
-    "national_phase_us": True,
+    "inventors_claimed_in_corpus": ["Slobodan Škoda", "Brent M. Skoda"],
+    "inventors_observed_google_patents": ["Ivan Mladek"],
+    "national_phase_us": False,  # unlink until primary confirms
+    "verification_status": "QUARANTINE_INVENTOR_LINK",
+    "citation_policy": "DO_NOT_CITE_AS_SKODA_PCT",
 }
 
 CONFLICTING_US_PATENT = {
-    "patent_number": "5618592",
-    "display": "US 5,618,592",
-    "title": "Caffeine Vaporizer (Robert J. Cima assignee conflict)",
+    "patent_number": "",  # quarantined: 5618592 is Sharp LCD on Google Patents
+    "patent_number_quarantined": "5618592",
+    "display": "US 5,618,592 (QUARANTINED)",
+    "title_claimed_in_corpus": "Caffeine Vaporizer (Robert J. Cima assignee conflict)",
+    "title_observed_google_patents": "Liquid crystal display device",
     "grant_date": "1997-03-25",
-    "inventors": ["Robert J. Cima"],
-    "allegation": "Divergent filing – potential misappropriation of Škoda CZ-283061 priority",
+    "inventors_claimed_in_corpus": ["Robert J. Cima"],
+    "inventors_observed_google_patents": [
+        "Nobukazu Nagae",
+        "Motohiro Yamahara",
+        "Nobuaki Yamada",
+    ],
+    "allegation": "Prior corpus allegation retained as screening-only; number fails primary match",
+    "verification_status": "QUARANTINE_NUMBER",
+    "citation_policy": "DO_NOT_CITE",
 }
 
 VICTIM_INVENTOR = "Brent Michael Škoda"
