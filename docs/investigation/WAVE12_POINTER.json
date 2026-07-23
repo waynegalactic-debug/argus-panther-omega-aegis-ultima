@@ -1,0 +1,9 @@
+{
+  "brand": "IP FORCE",
+  "custody_root_sha3_256": "b725f827e7a4305235c44fc7e5ff3b218414f10c19e6b937727b618359b96758",
+  "generated_at": "2026-07-23T01:33:38Z",
+  "seal": "9b7159bf359f0ef63ca8fef7364793067669961f7508daa6b7ef2a9575104987",
+  "summary_md": "docs/investigation/WAVE12_CHAIN_OF_CUSTODY.md",
+  "summary_path": "docs/investigation/wave12/WAVE12_RUN_SUMMARY.json",
+  "wave12_case": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W12"
+}

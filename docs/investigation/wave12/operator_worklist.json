@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-23T01:33:38Z",
+  "id": "operator_worklist",
+  "next_actions": [
+    "Execute paid DE certificate products; re-seal custody ledger"
+  ],
+  "priorities": [
+    {
+      "blocked_on": "operator_payment",
+      "item": "Order DE Certificate of Status for Ahkeo Labs LLC file 6096179",
+      "paid": true,
+      "rank": 1
+    },
+    {
+      "blocked_on": "operator_payment",
+      "item": "Order DE Certified Copy of Certificate of Formation for 6096179",
+      "paid": true,
+      "rank": 2
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Ohio SOS foreign qualification search + abstract (Ahkeo + cluster)",
+      "paid": false,
+      "rank": 3
+    },
+    {
+      "blocked_on": "operator_subscription",
+      "item": "Historical WHOIS (DomainTools/WhoisXML) ahkeo.com / ahkeolabs.com pre-2026",
+      "paid": true,
+      "rank": 4
+    },
+    {
+      "blocked_on": "env_secret",
+      "item": "USPTO_API_KEY env \u2192 assignments for Wave-4 12 pubs",
+      "paid": false,
+      "rank": 5
+    },
+    {
+      "blocked_on": "operator_upv",
+      "item": "Czech UPV certified inventorship (caffeine vaporizer 1997 \u2014 not CZ283061)",
+      "paid": true,
+      "rank": 6
+    },
+    {
+      "blocked_on": "counsel_review",
+      "item": "Counsel send of Wave-11 preservation package after review",
+      "paid": false,
+      "rank": 7
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-12 operator priority worklist"
+}

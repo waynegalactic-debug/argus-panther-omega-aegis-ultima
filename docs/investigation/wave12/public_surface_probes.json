@@ -1,0 +1,97 @@
+{
+  "findings": [
+    {
+      "detail": "corp.delaware.gov/services/ reachable; Certificate of Status / certified copy remain operator-paid.",
+      "id": "W12-F1",
+      "ok": true,
+      "title": "Delaware Division of Corporations services portal",
+      "url": "https://corp.delaware.gov/services/"
+    },
+    {
+      "detail": "Portal probe for foreign-qualification search of Ahkeo Labs DE 6096179; live entity match not sealed this wave (operator search required; 403 common for automated clients).",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "W12-F2",
+      "ok": false,
+      "title": "Ohio SOS business search probe",
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    {
+      "detail": "Automated run documents order path and file number 6096179 only; payment_executed=false.",
+      "file_number": "6096179",
+      "id": "W12-F3",
+      "ok": true,
+      "title": "DE Certificate of Status / Certified Formation NOT ordered"
+    },
+    {
+      "detail": "Public HTML probe only; structured assignment JSON still requires USPTO_API_KEY (Wave-10 gate).",
+      "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+      "id": "W12-F4",
+      "ok": false,
+      "title": "USPTO assignment search portal probe"
+    }
+  ],
+  "generated_at": "2026-07-23T01:33:38Z",
+  "id": "public_surface_probes",
+  "next_actions": [
+    "Operator: Ohio SOS browser search if automated 403 persists",
+    "Set USPTO_API_KEY for assignment JSON retrieval"
+  ],
+  "probes": {
+    "courtlistener_ahkeo_docket": {
+      "bytes": 120000,
+      "elapsed_ms": 539,
+      "ok": true,
+      "sha256": "9d6d3dae7682a10ecf20c97d694ce844ba451c7bb971baa362041de095814910",
+      "snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\"/>\n  <meta http-equiv=\"Content-Language\" content=\"en\"/>\n  <meta name=\"language\" content=\"en_us\"/>\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n\n  \n  <meta name=\"description\" content=\"Docket for Ahkeo Labs LLC v. Plurimi Investment Managers LLP, 1:17-cv-01248 \u2014 Brought",
+      "status": 200,
+      "url": "https://www.courtlistener.com/docket/6112063/ahkeo-labs-llc-v-plurimi-investment-managers-llp/"
+    },
+    "delaware_corp_pay": {
+      "bytes": 53604,
+      "elapsed_ms": 571,
+      "ok": true,
+      "sha256": "01eeb52d9cfaa0cae326bff19fe6a6dc0bddf3bd9a96bf2318612436a61dd4c6",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<!-- Google tag (gtag.js) -->\n\t\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9CKDGGFKGV\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\tgtag('j",
+      "status": 200,
+      "url": "https://corp.delaware.gov/pay/"
+    },
+    "delaware_corp_services": {
+      "bytes": 49093,
+      "elapsed_ms": 419,
+      "ok": true,
+      "sha256": "4f6c5a97cf268a5d02731b0911421ba07311dac21b3fbcecc617d09fbe831b71",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<!-- Google tag (gtag.js) -->\n\t\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9CKDGGFKGV\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\tgtag('j",
+      "status": 200,
+      "url": "https://corp.delaware.gov/services/"
+    },
+    "delaware_icis_search": {
+      "bytes": 48034,
+      "elapsed_ms": 163,
+      "ok": true,
+      "sha256": "89a9c059d8fa31eb007707455bef783519832d20519a7f909ca9b2058f5ce931",
+      "snippet": "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n <!--<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">-->\r\n<html>\r\n<head id=\"ctl00_Head1\"><title>\r\n\tDivision of Corporations - Filing\r\n</title>\r\n    <!-- CLF v2.2 - 12/15/2004 -->\r\n     <m",
+      "status": 200,
+      "url": "https://icis.corp.delaware.gov/ecorp/EntitySearch/NameSearch.aspx"
+    },
+    "ohio_sos_business_filings": {
+      "elapsed_ms": 182,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.ohiosos.gov/businesses/business-filings/"
+    },
+    "ohio_sos_business_search": {
+      "elapsed_ms": 184,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    "uspto_assignment_search": {
+      "elapsed_ms": 123,
+      "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+      "ok": false,
+      "url": "https://assignment.uspto.gov/patent/index.html#/patent/search"
+    }
+  },
+  "status": "PROBED",
+  "title": "Public portal probes (DE / Ohio / USPTO / CourtListener)"
+}

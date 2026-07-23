@@ -1,0 +1,391 @@
+{
+  "canonical_exhibit_ids": [
+    "E-W3-QUARANTINE",
+    "E-W4-PORTFOLIO",
+    "E-W5-CASTERS-FORM-D",
+    "E-W5-AHKEO-CLUSTER",
+    "E-W5-OHIO-GAP",
+    "E-W6-BETA-DRIVE",
+    "E-W7-RDAP",
+    "E-W8-AHKEO-PLURIMI",
+    "E-W8-COURTLISTENER",
+    "E-W9-DE-ICIS",
+    "E-W10-PACK",
+    "E-W11-COUNSEL",
+    "E-W11-SYNTHESIS",
+    "E-W11-COUNSEL-JSON"
+  ],
+  "custody_root_sha3_256": "b725f827e7a4305235c44fc7e5ff3b218414f10c19e6b937727b618359b96758",
+  "delaware_certificate_order_path": {
+    "entity": "AHKEO LABS, LLC",
+    "file_number": "6096179",
+    "formation_date_claimed": "2016-07-14",
+    "jurisdiction": "Delaware",
+    "note": "Wave 12 documents the order path only; no paid Delaware filing was executed in this automated run.",
+    "payment_executed": false,
+    "products_to_order": [
+      {
+        "alt": "https://corp.delaware.gov/pay/",
+        "operator_steps": [
+          "Open Delaware Division of Corporations online services / pay portal",
+          "Select Certificate of Status (Good Standing) for LLC",
+          "Enter file number 6096179 or exact name AHKEO LABS, LLC",
+          "Pay fee with corporate card; retain receipt PDF",
+          "Seal PDF under docs/investigation/wave12/exhibits/ with SHA-256"
+        ],
+        "portal": "https://corp.delaware.gov/services/",
+        "product": "Certificate of Status / Good Standing",
+        "purpose": "Contemporaneous proof Ahkeo Labs LLC exists and is in good standing (or not) as of order date",
+        "status": "NOT_ORDERED_THIS_WAVE"
+      },
+      {
+        "operator_steps": [
+          "Request certified copy of Certificate of Formation for file 6096179",
+          "Pay certification fee; retain certified PDF / mail copy",
+          "Seal under docs/investigation/wave12/exhibits/"
+        ],
+        "portal": "https://corp.delaware.gov/services/",
+        "product": "Certified Copy of Certificate of Formation",
+        "purpose": "Authenticated formation instrument + filing date for DE 6096179",
+        "status": "NOT_ORDERED_THIS_WAVE"
+      },
+      {
+        "portal": "https://icis.corp.delaware.gov/ecorp/EntitySearch/NameSearch.aspx",
+        "product": "Entity Details / Status print (ICIS)",
+        "purpose": "Refresh live status screenshot if captcha clears",
+        "status": "LIVE_CAPTCHA_BLOCKED_WAVE9"
+      }
+    ]
+  },
+  "exhibit_count_missing": 0,
+  "exhibit_count_present": 22,
+  "findings": [
+    {
+      "detail": "corp.delaware.gov/services/ reachable; Certificate of Status / certified copy remain operator-paid.",
+      "id": "W12-F1",
+      "ok": true,
+      "title": "Delaware Division of Corporations services portal",
+      "url": "https://corp.delaware.gov/services/"
+    },
+    {
+      "detail": "Portal probe for foreign-qualification search of Ahkeo Labs DE 6096179; live entity match not sealed this wave (operator search required; 403 common for automated clients).",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "W12-F2",
+      "ok": false,
+      "title": "Ohio SOS business search probe",
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    {
+      "detail": "Automated run documents order path and file number 6096179 only; payment_executed=false.",
+      "file_number": "6096179",
+      "id": "W12-F3",
+      "ok": true,
+      "title": "DE Certificate of Status / Certified Formation NOT ordered"
+    },
+    {
+      "detail": "Public HTML probe only; structured assignment JSON still requires USPTO_API_KEY (Wave-10 gate).",
+      "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+      "id": "W12-F4",
+      "ok": false,
+      "title": "USPTO assignment search portal probe"
+    }
+  ],
+  "generated_at": "2026-07-23T01:33:37Z",
+  "id": "chain_of_custody_ledger",
+  "ledger": [
+    {
+      "bytes": 1328,
+      "exhibit_id": "E-W3-QUARANTINE",
+      "path": "docs/investigation/INTEGRITY_ALERT_WAVE3_QUARANTINE.md",
+      "present": true,
+      "sha256": "ec7cdf0b34f88cd5fc29ac42698055be4d4386f51c777c88a9420d58b62f9c74",
+      "sha3_256": "6b255f969944294a8cc1ce7f4b15e18798fdfaec721d6cf47943e6e5035b34bb",
+      "wave": "wave3"
+    },
+    {
+      "bytes": 5620,
+      "exhibit_id": "E-W4-PORTFOLIO",
+      "path": "docs/investigation/wave4/AUTHENTICATED_SKODA_PORTFOLIO.json",
+      "present": true,
+      "sha256": "857b5b381758d3d5b37b476811958a95cec8d86f16f6ef709c4f4939caad2220",
+      "sha3_256": "10f415dfc1b9b997763d68a79427d1288755cc8f8b74e61056c56061567232d7",
+      "wave": "wave4"
+    },
+    {
+      "bytes": 8101,
+      "exhibit_id": "E-W5-CASTERS-FORM-D",
+      "path": "docs/investigation/wave5/sec_edgar_casters_form_d.json",
+      "present": true,
+      "sha256": "54f9598eb31daf73abbb81608c58df5f564e2a1216eb394b72a5e82d5c464097",
+      "sha3_256": "2b039a01d7e9b24676b8eb7c888d13939426609d042d36bdd613026376a55fe9",
+      "wave": "wave5"
+    },
+    {
+      "bytes": 2757,
+      "exhibit_id": "E-W5-AHKEO-CLUSTER",
+      "path": "docs/investigation/wave5/ahkeo_ohio_cluster_extract.json",
+      "present": true,
+      "sha256": "cda30b492e74bf04c965125ce14f94df8dee3dd1744025e76b4f5df8351c7a48",
+      "sha3_256": "cfe601330a4d2308a601f5315005b02e5013f3d6757598cf25253c15f757fbed",
+      "wave": "wave5"
+    },
+    {
+      "bytes": 5206,
+      "exhibit_id": "E-W5-OHIO-GAP",
+      "path": "docs/investigation/tracks/03_ohio_sos_roster_gap.json",
+      "present": true,
+      "sha256": "7c0ab13e930057ce0df8b8c04f63cc85dbd0b83105431eabda4f57e148b1b2ba",
+      "sha3_256": "c9116d04cb99e467706655435f77904eba96aee946779af2701680b9e84d389b",
+      "wave": "wave2"
+    },
+    {
+      "bytes": 6417,
+      "exhibit_id": "E-W6-BETA-DRIVE",
+      "path": "docs/investigation/wave6/mayfield_beta_drive_address_nexus.json",
+      "present": true,
+      "sha256": "f821f3c8fe6c007a21303382fda5bbf2664a525229a8797671034baeca534457",
+      "sha3_256": "99dfb9a4fad7dfc5ee24d606d8b66a2b50c170ea5e150bd3e7a33e0b9ddbb560",
+      "wave": "wave6"
+    },
+    {
+      "bytes": 7316,
+      "exhibit_id": "E-W7-RDAP",
+      "path": "docs/investigation/wave7/rdap_dns_domain_custody.json",
+      "present": true,
+      "sha256": "98e1e1682586d0e67b6fb136c122bd4aa4d78f93deb6ec46cea72770cdb99e04",
+      "sha3_256": "1270202da0daefd8af6bd518bda4eb79b7022e5b733640d8e5f2e66a76450eb3",
+      "wave": "wave7"
+    },
+    {
+      "bytes": 4880,
+      "exhibit_id": "E-W8-AHKEO-PLURIMI",
+      "path": "docs/investigation/wave8/ahkeo_plurimi_recap_exhibits.json",
+      "present": true,
+      "sha256": "024e736221e1f1134c89e5839036a924c6977df3acf57fd64f3dcb060644ff78",
+      "sha3_256": "9d7e2ac60853c1ad8380cb4e46b94aa84eb868144581f2b713a6da0c17b0bed2",
+      "wave": "wave8"
+    },
+    {
+      "bytes": 8499,
+      "exhibit_id": "E-W8-COURTLISTENER",
+      "path": "docs/investigation/wave8/courtlistener_ahkeo_plurimi_search.json",
+      "present": true,
+      "sha256": "e6adb0e580b6d0ab089b14a2f40b04b89ed8d195921cfade2ce1afd74925595e",
+      "sha3_256": "7604cdfa9207a4512705fb982184d3b5163befc3228bac4132663322b17792a4",
+      "wave": "wave8"
+    },
+    {
+      "bytes": 4401,
+      "exhibit_id": "E-W9-DE-ICIS",
+      "path": "docs/investigation/wave9/delaware_icis_ahkeo_labs.json",
+      "present": true,
+      "sha256": "373536782b2989b467883226f35a115540f77051cd6f83b2eebddc55293e4e8d",
+      "sha3_256": "8a15d8bc0d0f348929ce16342cf355a351f291568cf44ef7773fcec352ec85ee",
+      "wave": "wave9"
+    },
+    {
+      "bytes": 5212,
+      "exhibit_id": "E-W10-PACK",
+      "path": "docs/investigation/wave10/authenticated_evidence_pack_v1.json",
+      "present": true,
+      "sha256": "9fda38e8dc70314b286e7b21b3bfa35b96e4788f4f07afd9d273e84ec2bfa42c",
+      "sha3_256": "7596ebb93db7e918f200a8f66b7ccb1b3e1434cceb1dbcb731b6fa615f3f8f7a",
+      "wave": "wave10"
+    },
+    {
+      "bytes": 3662,
+      "exhibit_id": "E-W11-COUNSEL",
+      "path": "docs/investigation/WAVE11_COUNSEL_PRESERVATION_PACKAGE.md",
+      "present": true,
+      "sha256": "53a7ad79eee4bdfa361e4e2f7740de800ccc13ce45de25f12706e458131b8f06",
+      "sha3_256": "a810f5ef2da441aa54a428137746a3bbd4fbbec9ce58d338635f900189d3c3f0",
+      "wave": "wave11"
+    },
+    {
+      "bytes": 3357,
+      "exhibit_id": "E-W11-SYNTHESIS",
+      "path": "docs/investigation/wave11/situational_synthesis_top10.json",
+      "present": true,
+      "sha256": "392e34d4774395130382bd23bac535c76aa8120d8b62bba873343f635b4c3bb3",
+      "sha3_256": "64386d0b6b37085ac4ed6a2ad428b47d0b14ec44caad125f27dcf6491aafe19b",
+      "wave": "wave11"
+    },
+    {
+      "bytes": 3652,
+      "exhibit_id": "E-W11-COUNSEL-JSON",
+      "path": "docs/investigation/wave11/counsel_preservation_package_v2.json",
+      "present": true,
+      "sha256": "61e9b330c462f844f247f67dbb561a5bc3841de65149a6078bf64681ce1d9cc1",
+      "sha3_256": "4a574eff734c819ba866276c05fb7ca5dbded241bae7a5321689df7b3d5fcd8a",
+      "wave": "wave11"
+    },
+    {
+      "bytes": 1778,
+      "exhibit_id": "SUM-WAVE10_GENESIS_REJECT_EVIDENCE_PACK",
+      "path": "docs/investigation/WAVE10_GENESIS_REJECT_EVIDENCE_PACK.md",
+      "present": true,
+      "sha256": "2965b55dd3306f055194fe39cd48453f50c1baf88241eaf8d8e044053f3af12a",
+      "sha3_256": "21186f410fc394da22130131ad54b97f0534cd484b41cbf1a8ed650f45207245",
+      "wave": "summary"
+    },
+    {
+      "bytes": 791,
+      "exhibit_id": "SUM-WAVE11_COUNSEL_PACK_ALERT",
+      "path": "docs/investigation/WAVE11_COUNSEL_PACK_ALERT.md",
+      "present": true,
+      "sha256": "2aa20a50defcd89c90d5ddb597baefa24e9c39fc4c177b45df5b30f85b22f703",
+      "sha3_256": "31eec679893edf0a1e58b8b2154a93008976f8948badcef0272cc79c99ab795e",
+      "wave": "summary"
+    },
+    {
+      "bytes": 2305,
+      "exhibit_id": "SUM-WAVE4_AUTHENTICATED_PORTFOLIO",
+      "path": "docs/investigation/WAVE4_AUTHENTICATED_PORTFOLIO.md",
+      "present": true,
+      "sha256": "d4216ef6e40090e38ac21532a1e000ec97ae446568a5f806111931618def6802",
+      "sha3_256": "ad512cf9cfcb1f98767a41756c8938bd2dd08eed695e328eb478ce108237142a",
+      "wave": "summary"
+    },
+    {
+      "bytes": 1787,
+      "exhibit_id": "SUM-WAVE5_AHKEO_SEC_ASSIGNMENT",
+      "path": "docs/investigation/WAVE5_AHKEO_SEC_ASSIGNMENT.md",
+      "present": true,
+      "sha256": "307c26197eb051b0aa23fa12794c9c44865489101a8792ccd4aad3b84015b538",
+      "sha3_256": "31c810371f6183298d4d8c9eb322711bdf76d4082cbb7fe521ed35d5d39e3cf7",
+      "wave": "summary"
+    },
+    {
+      "bytes": 1972,
+      "exhibit_id": "SUM-WAVE6_ADDRESS_DOMAIN_NEXUS",
+      "path": "docs/investigation/WAVE6_ADDRESS_DOMAIN_NEXUS.md",
+      "present": true,
+      "sha256": "13e9a9e79587996ed8c201403821bb5088c0a467b28f6999ec08413ba4e147aa",
+      "sha3_256": "439a51452a821be59381318f68614e4b30ade701cf5338f80cbff033437d0f7f",
+      "wave": "summary"
+    },
+    {
+      "bytes": 1212,
+      "exhibit_id": "SUM-WAVE7_DOMAIN_CUSTODY_RDAP",
+      "path": "docs/investigation/WAVE7_DOMAIN_CUSTODY_RDAP.md",
+      "present": true,
+      "sha256": "6f2c34671e5ad01464d47e5d0df00db022a01180ea1881be89e38a5d33867c89",
+      "sha3_256": "d24b8a67d698042a79cefcd2704acb1a06edc4f5db686bc7473aca8ac95251ed",
+      "wave": "summary"
+    },
+    {
+      "bytes": 2588,
+      "exhibit_id": "SUM-WAVE8_AHKEO_PLURIMI_LITIGATION",
+      "path": "docs/investigation/WAVE8_AHKEO_PLURIMI_LITIGATION.md",
+      "present": true,
+      "sha256": "d2b7025d304b1c2c4dde3942bb1e655fbd440f501494e5845a32eeaa6e1366e2",
+      "sha3_256": "50c228695d5478cac065d559eba2fe515851cbb389b5c57dc09e2ce125cd50c0",
+      "wave": "summary"
+    },
+    {
+      "bytes": 1200,
+      "exhibit_id": "SUM-WAVE9_DELAWARE_AHKEO_LABS",
+      "path": "docs/investigation/WAVE9_DELAWARE_AHKEO_LABS.md",
+      "present": true,
+      "sha256": "f79f432f26d6a7308c5c018cd3a4bec3270d4d838c2ee5e18d587efb173e3363",
+      "sha3_256": "12eddaea2f53ecbe1260316d4bea06acbebd51ab033a8996eb1356043c935ee5",
+      "wave": "summary"
+    }
+  ],
+  "next_actions": [
+    "Re-run after any sealed exhibit mutation; custody_root must change",
+    "Attach DE Certificate of Status PDF digests when operator orders 6096179"
+  ],
+  "ohio_foreign_qualification_worklist": {
+    "operator_steps": [
+      "Search Ohio SOS business search for AHKEO LABS / exact variants",
+      "If foreign LLC found, download entity details + good standing if available",
+      "Cross-link to DE file 6096179 and Beta Drive address",
+      "Seal under docs/investigation/wave12/exhibits/ohio_foreign_qual/"
+    ],
+    "portal": "https://businesssearch.ohiosos.gov/",
+    "search_terms": [
+      "AHKEO LABS",
+      "AHKEO LABS LLC",
+      "Ahkeo Labs"
+    ],
+    "status": "OPERATOR_SEARCH_REQUIRED",
+    "target": "Ahkeo Labs LLC (DE 6096179) \u2014 foreign qualification in Ohio",
+    "why": "Wave-8 complaint alleges principal place of business at 6685 Beta Drive, Mayfield Village, OH; DE entity may have foreign-qualified in Ohio."
+  },
+  "operator_priority": [
+    "Order DE Certificate of Status for Ahkeo Labs LLC file 6096179",
+    "Order DE Certified Copy of Certificate of Formation for 6096179",
+    "Ohio SOS foreign qualification search + abstract (Ahkeo + cluster)",
+    "Historical WHOIS (DomainTools/WhoisXML) ahkeo.com / ahkeolabs.com pre-2026",
+    "USPTO_API_KEY env \u2192 assignments for Wave-4 12 pubs",
+    "Czech UPV certified inventorship (caffeine vaporizer 1997 \u2014 not CZ283061)",
+    "Counsel send of Wave-11 preservation package after review"
+  ],
+  "policy": {
+    "adjudicated_total": 0,
+    "no_true_ubo_adjudication": true,
+    "ohio_roster_evidence_only": true,
+    "secrets_in_repo": false,
+    "true_ubo_asserted": 0
+  },
+  "public_probes": {
+    "courtlistener_ahkeo_docket": {
+      "bytes": 120000,
+      "elapsed_ms": 539,
+      "ok": true,
+      "sha256": "9d6d3dae7682a10ecf20c97d694ce844ba451c7bb971baa362041de095814910",
+      "snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\"/>\n  <meta http-equiv=\"Content-Language\" content=\"en\"/>\n  <meta name=\"language\" content=\"en_us\"/>\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n\n  \n  <meta name=\"description\" content=\"Docket for Ahkeo Labs LLC v. Plurimi Investment Managers LLP, 1:17-cv-01248 \u2014 Brought",
+      "status": 200,
+      "url": "https://www.courtlistener.com/docket/6112063/ahkeo-labs-llc-v-plurimi-investment-managers-llp/"
+    },
+    "delaware_corp_pay": {
+      "bytes": 53604,
+      "elapsed_ms": 571,
+      "ok": true,
+      "sha256": "01eeb52d9cfaa0cae326bff19fe6a6dc0bddf3bd9a96bf2318612436a61dd4c6",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<!-- Google tag (gtag.js) -->\n\t\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9CKDGGFKGV\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\tgtag('j",
+      "status": 200,
+      "url": "https://corp.delaware.gov/pay/"
+    },
+    "delaware_corp_services": {
+      "bytes": 49093,
+      "elapsed_ms": 419,
+      "ok": true,
+      "sha256": "4f6c5a97cf268a5d02731b0911421ba07311dac21b3fbcecc617d09fbe831b71",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<!-- Google tag (gtag.js) -->\n\t\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9CKDGGFKGV\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\tgtag('j",
+      "status": 200,
+      "url": "https://corp.delaware.gov/services/"
+    },
+    "delaware_icis_search": {
+      "bytes": 48034,
+      "elapsed_ms": 163,
+      "ok": true,
+      "sha256": "89a9c059d8fa31eb007707455bef783519832d20519a7f909ca9b2058f5ce931",
+      "snippet": "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n <!--<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">-->\r\n<html>\r\n<head id=\"ctl00_Head1\"><title>\r\n\tDivision of Corporations - Filing\r\n</title>\r\n    <!-- CLF v2.2 - 12/15/2004 -->\r\n     <m",
+      "status": 200,
+      "url": "https://icis.corp.delaware.gov/ecorp/EntitySearch/NameSearch.aspx"
+    },
+    "ohio_sos_business_filings": {
+      "elapsed_ms": 182,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.ohiosos.gov/businesses/business-filings/"
+    },
+    "ohio_sos_business_search": {
+      "elapsed_ms": 184,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    "uspto_assignment_search": {
+      "elapsed_ms": 123,
+      "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+      "ok": false,
+      "url": "https://assignment.uspto.gov/patent/index.html#/patent/search"
+    }
+  },
+  "schema": "us_ipforce.wave12.chain_of_custody_v1",
+  "status": "SEALED",
+  "title": "Chain-of-custody ledger over sealed prior-wave exhibits"
+}

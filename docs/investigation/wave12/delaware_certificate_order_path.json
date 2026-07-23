@@ -1,0 +1,51 @@
+{
+  "entity": "AHKEO LABS, LLC",
+  "file_number": "6096179",
+  "formation_date_claimed": "2016-07-14",
+  "generated_at": "2026-07-23T01:33:37Z",
+  "id": "delaware_certificate_order_path",
+  "jurisdiction": "Delaware",
+  "next_actions": [
+    "Operator: order Certificate of Status for 6096179",
+    "Operator: order Certified Copy of Certificate of Formation",
+    "Seal PDFs + update custody ledger"
+  ],
+  "note": "Wave 12 documents the order path only; no paid Delaware filing was executed in this automated run.",
+  "payment_executed": false,
+  "products_to_order": [
+    {
+      "alt": "https://corp.delaware.gov/pay/",
+      "operator_steps": [
+        "Open Delaware Division of Corporations online services / pay portal",
+        "Select Certificate of Status (Good Standing) for LLC",
+        "Enter file number 6096179 or exact name AHKEO LABS, LLC",
+        "Pay fee with corporate card; retain receipt PDF",
+        "Seal PDF under docs/investigation/wave12/exhibits/ with SHA-256"
+      ],
+      "portal": "https://corp.delaware.gov/services/",
+      "product": "Certificate of Status / Good Standing",
+      "purpose": "Contemporaneous proof Ahkeo Labs LLC exists and is in good standing (or not) as of order date",
+      "status": "NOT_ORDERED_THIS_WAVE"
+    },
+    {
+      "operator_steps": [
+        "Request certified copy of Certificate of Formation for file 6096179",
+        "Pay certification fee; retain certified PDF / mail copy",
+        "Seal under docs/investigation/wave12/exhibits/"
+      ],
+      "portal": "https://corp.delaware.gov/services/",
+      "product": "Certified Copy of Certificate of Formation",
+      "purpose": "Authenticated formation instrument + filing date for DE 6096179",
+      "status": "NOT_ORDERED_THIS_WAVE"
+    },
+    {
+      "portal": "https://icis.corp.delaware.gov/ecorp/EntitySearch/NameSearch.aspx",
+      "product": "Entity Details / Status print (ICIS)",
+      "purpose": "Refresh live status screenshot if captcha clears",
+      "status": "LIVE_CAPTCHA_BLOCKED_WAVE9"
+    }
+  ],
+  "source_exhibit": "docs/investigation/wave9/delaware_icis_ahkeo_labs.json",
+  "status": "OPERATOR_PATH_DOCUMENTED",
+  "title": "Delaware certificate order path for Ahkeo Labs LLC 6096179"
+}

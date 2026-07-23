@@ -23,6 +23,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave8
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave9
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave10
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave11
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave12
 US_IPFORCE_VERIFIED_MODE=1 python3 aegis_hyperion.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
@@ -35,6 +36,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave8.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave9.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave10.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave11.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave12.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith

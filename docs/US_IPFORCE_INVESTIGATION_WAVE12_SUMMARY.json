@@ -1,0 +1,112 @@
+{
+  "artifacts": {
+    "de_path": "docs/investigation/wave12/delaware_certificate_order_path.json",
+    "ledger": "docs/investigation/wave12/chain_of_custody_ledger.json",
+    "ohio": "docs/investigation/wave12/ohio_foreign_qualification_worklist.json",
+    "probes": "docs/investigation/wave12/public_surface_probes.json",
+    "summary_md": "docs/investigation/WAVE12_CHAIN_OF_CUSTODY.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W12",
+  "counts": {
+    "adjudicated_total": 0,
+    "de_products_documented": 3,
+    "exhibits_missing": 0,
+    "exhibits_present": 22,
+    "findings": 4,
+    "payment_executed": false,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "exhibit_custody_root_sha3_256": "b725f827e7a4305235c44fc7e5ff3b218414f10c19e6b937727b618359b96758",
+    "hmac_present": true,
+    "hmac_sha3_256": "8633cc752a25126c107552c2db59fcc0f56b30a0ad95aa6dd61dcf35c8ea5d0f",
+    "leaves": [
+      {
+        "id": "chain_of_custody_ledger",
+        "sha3_256": "b5f393f1fe3d7c077f1f99d9dbcc3d901a8a0b5255484de414d472a94a114b5a",
+        "status": "SEALED"
+      },
+      {
+        "id": "delaware_certificate_order_path",
+        "sha3_256": "4b04cda021f591087570a3563e79fdda5d3f304a946639b736871ebcf9a70c47",
+        "status": "OPERATOR_PATH_DOCUMENTED"
+      },
+      {
+        "id": "ohio_foreign_qualification_worklist",
+        "sha3_256": "54999c4b652873bd2013e1fe0cdb728a3c473d03a5d9d9379c1db37b3a9c2992",
+        "status": "OPERATOR_SEARCH_REQUIRED"
+      },
+      {
+        "id": "public_surface_probes",
+        "sha3_256": "be3edea12f98e4844e2b9d41d65f1e8f1f19aa1615d81d1fc337159c11ed20d4",
+        "status": "PROBED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "35d4a0233110c12baeded979ae62347575227e8557432914bca53dff48f0bfce",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "82188a5642e9da90bc28b489352045c4816013e8e1ecfd75f2641cd5fb251636071f79f7be950f8ad402d2c7718f9c3fb877dc445b84b23562ecbee42bc6962b"
+  },
+  "custody_root_sha3_256": "b725f827e7a4305235c44fc7e5ff3b218414f10c19e6b937727b618359b96758",
+  "elapsed_ms": 682,
+  "generated_at": "2026-07-23T01:33:38Z",
+  "policy": "Wave-12 seals chain-of-custody ledger over prior exhibits and documents DE certificate order path for Ahkeo Labs LLC 6096179. No payment. No theft/RICO/UBO adjudication.",
+  "seal": "9b7159bf359f0ef63ca8fef7364793067669961f7508daa6b7ef2a9575104987",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "chain_of_custody_ledger",
+      "next_actions": [
+        "Re-run after any sealed exhibit mutation; custody_root must change",
+        "Attach DE Certificate of Status PDF digests when operator orders 6096179"
+      ],
+      "status": "SEALED",
+      "title": "Chain-of-custody ledger over sealed prior-wave exhibits"
+    },
+    {
+      "adjudicated": false,
+      "id": "delaware_certificate_order_path",
+      "next_actions": [
+        "Operator: order Certificate of Status for 6096179",
+        "Operator: order Certified Copy of Certificate of Formation",
+        "Seal PDFs + update custody ledger"
+      ],
+      "status": "OPERATOR_PATH_DOCUMENTED",
+      "title": "Delaware certificate order path for Ahkeo Labs LLC 6096179"
+    },
+    {
+      "adjudicated": false,
+      "id": "ohio_foreign_qualification_worklist",
+      "next_actions": [
+        "Operator Ohio SOS search + abstract for Ahkeo Labs + roster cluster"
+      ],
+      "status": "OPERATOR_SEARCH_REQUIRED",
+      "title": "Ohio SOS foreign qualification worklist (Ahkeo Labs DE 6096179)"
+    },
+    {
+      "adjudicated": false,
+      "id": "public_surface_probes",
+      "next_actions": [
+        "Operator: Ohio SOS browser search if automated 403 persists",
+        "Set USPTO_API_KEY for assignment JSON retrieval"
+      ],
+      "status": "PROBED",
+      "title": "Public portal probes (DE / Ohio / USPTO / CourtListener)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        "Execute paid DE certificate products; re-seal custody ledger"
+      ],
+      "status": "OPEN",
+      "title": "Wave-12 operator priority worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE12"
+}

@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-23T01:33:37Z",
+  "id": "ohio_foreign_qualification_worklist",
+  "next_actions": [
+    "Operator Ohio SOS search + abstract for Ahkeo Labs + roster cluster"
+  ],
+  "ohio_roster_policy": "evidence_only_no_invented_entities",
+  "operator_steps": [
+    "Search Ohio SOS business search for AHKEO LABS / exact variants",
+    "If foreign LLC found, download entity details + good standing if available",
+    "Cross-link to DE file 6096179 and Beta Drive address",
+    "Seal under docs/investigation/wave12/exhibits/ohio_foreign_qual/"
+  ],
+  "portal": "https://businesssearch.ohiosos.gov/",
+  "related_sealed": [
+    "docs/investigation/wave5/ahkeo_ohio_cluster_extract.json",
+    "docs/investigation/wave10/ohio_foreign_qualification_surfaces.json",
+    "docs/investigation/tracks/03_ohio_sos_roster_gap.json"
+  ],
+  "search_terms": [
+    "AHKEO LABS",
+    "AHKEO LABS LLC",
+    "Ahkeo Labs"
+  ],
+  "status": "OPERATOR_SEARCH_REQUIRED",
+  "target": "Ahkeo Labs LLC (DE 6096179) \u2014 foreign qualification in Ohio",
+  "title": "Ohio SOS foreign qualification worklist (Ahkeo Labs DE 6096179)",
+  "why": "Wave-8 complaint alleges principal place of business at 6685 Beta Drive, Mayfield Village, OH; DE entity may have foreign-qualified in Ohio."
+}
