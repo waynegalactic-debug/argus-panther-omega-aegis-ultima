@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "agent_address1": "251 LITTLE FALLS DRIVE",
+      "agent_city": "WILMINGTON",
+      "agent_name": "CORPORATION SERVICE COMPANY",
+      "agent_postal": "19808",
+      "agent_state": "DE",
+      "detail_authenticated": true,
+      "detail_sha3_256": "43b111b6b86a525df250dfdda95ba618958ea0d2ce457503e3e38ab662037c75",
+      "entity_kind": "Corporation",
+      "entity_name": "AUTHENTIC BRANDS GROUP INC.",
+      "entity_type": "General",
+      "file_number": "5952305",
+      "formation_date": "2/1/2016",
+      "residency": "Domestic",
+      "role_hypothesis": "primary_ipo_vehicle",
+      "state": "DELAWARE"
+    },
+    {
+      "agent_name": null,
+      "detail_authenticated": false,
+      "detail_note": "Name+file hit on ICIS; detail page captcha/empty on retry",
+      "entity_kind": null,
+      "entity_name": "AUTHENTIC BRANDS GROUP LLC",
+      "file_number": "4789754",
+      "formation_date": null,
+      "role_hypothesis": "operating_holdco_named_in_S-1"
+    },
+    {
+      "agent_name": null,
+      "detail_authenticated": false,
+      "detail_note": "Name+file hit on ICIS; detail not captured",
+      "entity_name": "AUTHENTIC BRANDS, INC.",
+      "file_number": "3152333",
+      "formation_date": null,
+      "role_hypothesis": "legacy_or_affiliate_name_collision_screen"
+    },
+    {
+      "agent_name": null,
+      "detail_authenticated": false,
+      "detail_note": "Name+file hit on ICIS; detail not captured",
+      "entity_name": "AUTHENTIC BRANDS LLC",
+      "file_number": "6896342",
+      "formation_date": null,
+      "role_hypothesis": "affiliate_or_name_collision_screen"
+    },
+    {
+      "agent_address1": "251 LITTLE FALLS DRIVE",
+      "agent_city": "WILMINGTON",
+      "agent_name": "CORPORATION SERVICE COMPANY",
+      "agent_postal": "19808",
+      "agent_state": "DE",
+      "detail_authenticated": true,
+      "detail_sha3_256": "19f16ce64a1002c8a1027da4b1a9690f96d39a61a7fa7b457fe06ad0bb1798a6",
+      "entity_kind": "Limited Partnership",
+      "entity_name": "AUTHENTIC BRANDS, LLLP",
+      "entity_type": "Dual Entity",
+      "file_number": "4646833",
+      "formation_date": "1/20/2009",
+      "residency": "Domestic",
+      "role_hypothesis": "early_platform_vehicle_2009",
+      "state": "DELAWARE"
+    }
+  ],
+  "findings": [
+    {
+      "detail": "Live Delaware ICIS name search returned five Authentic Brands* hits. Detail pages authenticated for AUTHENTIC BRANDS GROUP INC. (5952305, formed 2016-02-01) and AUTHENTIC BRANDS, LLLP (4646833, formed 2009-01-20); both list CORPORATION SERVICE COMPANY, 251 Little Falls Drive, Wilmington DE. Subsequent ICIS detail retries captcha-blocked.",
+      "entities_file_hit_detail_open": [
+        {
+          "entity_name": "AUTHENTIC BRANDS GROUP LLC",
+          "file_number": "4789754"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS, INC.",
+          "file_number": "3152333"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS LLC",
+          "file_number": "6896342"
+        }
+      ],
+      "entities_with_detail": [
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS GROUP INC.",
+          "file_number": "5952305",
+          "formation_date": "2/1/2016"
+        },
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS, LLLP",
+          "file_number": "4646833",
+          "formation_date": "1/20/2009"
+        }
+      ],
+      "id": "W18-F1",
+      "registered_agents_observed": [
+        "CORPORATION SERVICE COMPANY"
+      ],
+      "title": "Delaware ICIS — Authentic Brands Group primary entities authenticated"
+    }
+  ],
+  "id": "delaware_abg_entity_roster",
+  "negative_hits": {
+    "ABG DELAWARE": 0,
+    "URGENT RESPONSE NETWORK": 0,
+    "URGENT RESPONSE PRODUCTS": 0,
+    "URGENTRN": 0
+  },
+  "negative_name_queries": [
+    "URGENTRN",
+    "URGENT RESPONSE NETWORK",
+    "URGENT RESPONSE PRODUCTS",
+    "ABG DELAWARE"
+  ],
+  "next_actions": [
+    "Re-pull ICIS details for 4789754 / 3152333 / 6896342 when captcha clears",
+    "ICIS exact-name search ABG Intermediate Holdings 1 LLC and 2 LLC for file numbers",
+    "Optional paid DE Certificate of Status for 5952305 and 4789754"
+  ],
+  "portal": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+  "status": "SEALED",
+  "title": "Delaware ICIS — Authentic Brands / ABG Delaware roster"
+}

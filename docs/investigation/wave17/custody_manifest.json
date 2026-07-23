@@ -1,0 +1,7 @@
+{
+  "wave": 17,
+  "algorithm": "HMAC-SHA256",
+  "signature_hex": "ab90263ffe52ba2752ffc356aad68e08185f62f151063f5477c86153ac4f2297",
+  "signed": true,
+  "payload_sha256": "b6fa3ddc96bf7147a3bb62a6ad43504b6649535d256035aeb70f78dc6ae5ac1e"
+}

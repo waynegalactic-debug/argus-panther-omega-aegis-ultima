@@ -1,0 +1,102 @@
+{
+  "adjudicated": false,
+  "findings": [
+    {
+      "applicant": {
+        "city": "San Juan",
+        "country": "US",
+        "organization": "UrgentRN LLC",
+        "raw_tokens": [
+          "Applicant",
+          "UrgentRN",
+          "LLC",
+          "San",
+          "Juan",
+          "PR",
+          "US",
+          "Inventor"
+        ],
+        "region": "PR"
+      },
+      "detail": "PDF text tokens (USPTO publication face) list applicant geography San Juan, PR and inventor geography Mayfield Village, OH \u2014 the same Ohio suburb as Wave-5/6 Beta Drive / Casters nexus. ZIP 00917 appears in the PDF binary (matches Wave-16 contact page). Not an assignment chain; USPTO assignment API still required.",
+      "id": "W16-F4",
+      "inventor": {
+        "city": "Mayfield Village",
+        "country": "US",
+        "name": "Brent Skoda",
+        "raw_tokens": [
+          "Inventor",
+          "Brent",
+          "Skoda",
+          "Mayfield",
+          "Village",
+          "OH",
+          "US",
+          "ABSTRACT"
+        ],
+        "region": "OH"
+      },
+      "pdf_url": "https://patentimages.storage.googleapis.com/ac/45/be/8aed63549bfd20/US20220104664A1.pdf",
+      "provenance": "google_patents_pdf_tokens",
+      "publication": "US20220104664A1",
+      "sha3_256": "986d8ab9f4336604e8806746c8977f8bb1ce01e9a5c83e7718005013ba3895f8",
+      "title": "US20220104664A1 PDF \u2014 Applicant UrgentRN LLC (San Juan, PR); Inventor Brent Skoda (Mayfield Village, OH)"
+    }
+  ],
+  "generated_at": "2026-07-23T15:24:23Z",
+  "geography": {
+    "applicant": {
+      "city": "San Juan",
+      "country": "US",
+      "organization": "UrgentRN LLC",
+      "raw_tokens": [
+        "Applicant",
+        "UrgentRN",
+        "LLC",
+        "San",
+        "Juan",
+        "PR",
+        "US",
+        "Inventor"
+      ],
+      "region": "PR"
+    },
+    "inventor": {
+      "city": "Mayfield Village",
+      "country": "US",
+      "name": "Brent Skoda",
+      "raw_tokens": [
+        "Inventor",
+        "Brent",
+        "Skoda",
+        "Mayfield",
+        "Village",
+        "OH",
+        "US",
+        "ABSTRACT"
+      ],
+      "region": "OH"
+    },
+    "pdf_markers": {
+      "has_mayfield": true,
+      "has_urgentrn": true,
+      "has_zip_00917": true
+    }
+  },
+  "id": "us20220104664a1_pdf_geography",
+  "next_actions": [
+    "USPTO_API_KEY assignment pull for US20220104664A1",
+    "PR / DE / OH entity search keyed to UrgentRN LLC + San Juan address"
+  ],
+  "pdf_url": "https://patentimages.storage.googleapis.com/ac/45/be/8aed63549bfd20/US20220104664A1.pdf",
+  "probe": {
+    "bytes": 3828511,
+    "error": null,
+    "ok": true,
+    "sha256": "097cee6e267a72c337a82c59a36d94faa03c2d1a34da78025ac3c88ce1ac965e",
+    "sha3_256": "986d8ab9f4336604e8806746c8977f8bb1ce01e9a5c83e7718005013ba3895f8",
+    "status": 200
+  },
+  "status": "SEALED",
+  "title": "US20220104664A1 PDF \u2014 applicant/inventor geography"
+}

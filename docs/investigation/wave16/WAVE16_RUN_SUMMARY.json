@@ -1,0 +1,175 @@
+{
+  "artifacts": {
+    "bridge": "docs/investigation/wave16/pr_ohio_geo_bridge.json",
+    "pdf": "docs/investigation/wave16/us20220104664a1_pdf_geography.json",
+    "summary_md": "docs/investigation/WAVE16_URGENTRN_GEO_CONTACT.md",
+    "wayback": "docs/investigation/wave16/urgentrn_contact_media_wayback.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W16",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 4,
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "wayback_pages_ok": 4
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "2093f8f68180c08d99997a5b670d6a3bda5b3e456bf2f381c90970aa291f2fab",
+    "leaves": [
+      {
+        "id": "urgentrn_contact_media_wayback",
+        "sha3_256": "9a81c92ad7f7109d70a698bb65083775261c7f1b2a53be4fa8c029cbcc1f81b8",
+        "status": "SEALED"
+      },
+      {
+        "id": "us20220104664a1_pdf_geography",
+        "sha3_256": "21f925f86859112ab7186287f36d2e393f980ca980cae7d0c901b43dec765709",
+        "status": "SEALED"
+      },
+      {
+        "id": "pr_ohio_geo_bridge",
+        "sha3_256": "dcb9e0a62514ff881c4de9607c6fb17d9ee5ec21538ea5b03565a55bedadf1a6",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "24bbbad4529748b599cb8edea56d43ff717834dd723b651e3a5b68f3836062e4",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "3045b45a32e4c8b9acde01657db54673962ae254f5100af9fc7c907e273cccc1276d82ad72e648cb9d56c985731fb245ee11e4d08f89b56076e0e7c9ad2e645d"
+  },
+  "elapsed_ms": 27262,
+  "findings": [
+    {
+      "address_block": "165 Ponce de Leon Ave., STE 201 San Juan PR, 00917",
+      "copyrights": [
+        "Copyright \u00a9 2020 Urgent Response Products"
+      ],
+      "detail": "Public contact page (Wayback 2020-06-20) lists San Juan, Puerto Rico mailing address and toll-free (855) 852-0440. Copyright line reads 'Urgent Response Products'. Not an SOS charter; operator must still pull UrgentRN LLC formation abstracts.",
+      "id": "W16-F1",
+      "phones": [
+        "(855) 852-0440"
+      ],
+      "provenance": "wayback_snapshot",
+      "sha3_256": "935558b5b8a9807bba88dfdd7cc1b64e398d0120b3056a9504b6b5346fccb60f",
+      "timestamp": "20200620024249",
+      "title": "urgentrn.com contact \u2014 165 Ponce de Leon Ave., STE 201, San Juan PR 00917",
+      "wayback_url": "https://web.archive.org/web/20200620024249id_/https://urgentrn.com/contact/"
+    },
+    {
+      "detail": "Media page headlines claim Amazon PPE supply deal, 5WPR AOR, eShipping logistics, Pat Perez strategic advisor, and other COVID-era partnerships. Press claims are not independently verified here \u2014 sealed as public self-statements only.",
+      "id": "W16-F2",
+      "press_headlines": [
+        "May 4, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with u.s. air force veteran owned ppe retailer Urgent Response Network is Partnering with U.S. Veteran Owned Busin",
+        "April 29, 2020 Pat Perez named strategic advisor for Urgent Response Network, leading supplier of personal protective equipment As PGA Tour Veteran Joins Forces With Urgent Response Network, The PPE Giant Works To",
+        "April 27, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with mexico-based company for expansion Urgent Response Network Announces Newest Partnership with Co-Founder of Ec",
+        "April 21, 2020 Urgent Response Network, names eShipping their ppe distribution chain partner amid covid-19 Urgent Response Network and eShipping Are Working Together to Better Serve Americans Amid COVID-19 Read Mor",
+        "April 14, 2020 Urgent Response Network, Names 5WPR Agency of Record amid Efforts to Supply America with Personal Protection Equipment 5W Public Relations, one of the largest independently-owned PR firms in the U.S.",
+        "April 12, 2020 Urgent Response Network signs deal to supply Amazon with Personal Protective Equipment Read More Recent Publications News May 4, 2020 Leading supplier of personal protective equipment, Urgent Respons"
+      ],
+      "provenance": "wayback_snapshot",
+      "sha3_256": "8c589dd17c0ed87ee6e2d3c98660c739815a705e90a9c2bd4164a3eee3a122bd",
+      "timestamp": "20200619214519",
+      "title": "urgentrn.com media \u2014 2020 PPE partnership press surface",
+      "wayback_url": "https://web.archive.org/web/20200619214519id_/https://urgentrn.com/media/"
+    },
+    {
+      "detail": "Buy/quote page lists PPE and hand-sanitizer products, aligning with sanitizer-dispenser patent US20220104664A1 theme.",
+      "id": "W16-F3",
+      "provenance": "wayback_snapshot",
+      "sha3_256": "073d615881d56393c49ebd571e512ef084f49f8e2d801ba2ce69f6cae8886548",
+      "timestamp": "20200619110348",
+      "title": "urgentrn.com buy \u2014 hand sanitizer SKUs (55-gallon drum etc.)",
+      "wayback_url": "https://web.archive.org/web/20200619110348id_/https://urgentrn.com/buy/"
+    },
+    {
+      "applicant": {
+        "city": "San Juan",
+        "country": "US",
+        "organization": "UrgentRN LLC",
+        "raw_tokens": [
+          "Applicant",
+          "UrgentRN",
+          "LLC",
+          "San",
+          "Juan",
+          "PR",
+          "US",
+          "Inventor"
+        ],
+        "region": "PR"
+      },
+      "detail": "PDF text tokens (USPTO publication face) list applicant geography San Juan, PR and inventor geography Mayfield Village, OH \u2014 the same Ohio suburb as Wave-5/6 Beta Drive / Casters nexus. ZIP 00917 appears in the PDF binary (matches Wave-16 contact page). Not an assignment chain; USPTO assignment API still required.",
+      "id": "W16-F4",
+      "inventor": {
+        "city": "Mayfield Village",
+        "country": "US",
+        "name": "Brent Skoda",
+        "raw_tokens": [
+          "Inventor",
+          "Brent",
+          "Skoda",
+          "Mayfield",
+          "Village",
+          "OH",
+          "US",
+          "ABSTRACT"
+        ],
+        "region": "OH"
+      },
+      "pdf_url": "https://patentimages.storage.googleapis.com/ac/45/be/8aed63549bfd20/US20220104664A1.pdf",
+      "provenance": "google_patents_pdf_tokens",
+      "publication": "US20220104664A1",
+      "sha3_256": "986d8ab9f4336604e8806746c8977f8bb1ce01e9a5c83e7718005013ba3895f8",
+      "title": "US20220104664A1 PDF \u2014 Applicant UrgentRN LLC (San Juan, PR); Inventor Brent Skoda (Mayfield Village, OH)"
+    }
+  ],
+  "generated_at": "2026-07-23T15:24:23Z",
+  "policy": "Wave-16 seals UrgentRN San Juan contact + publication-face geography bridging to Mayfield Village OH inventor city. No theft/RICO/UBO.",
+  "seal": "a2ae24ff4b08047b7a36f6277c488ec7af12c884580411648fdbb0ac617c26ca",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "urgentrn_contact_media_wayback",
+      "next_actions": [
+        "Counsel may attach W16-F1 contact address + W15-F2 Skoda corporate page",
+        "Puerto Rico / DE / OH SOS search for UrgentRN LLC / Urgent Response Products"
+      ],
+      "status": "SEALED",
+      "title": "Wayback \u2014 urgentrn.com contact / media / buy surfaces"
+    },
+    {
+      "adjudicated": false,
+      "id": "us20220104664a1_pdf_geography",
+      "next_actions": [
+        "USPTO_API_KEY assignment pull for US20220104664A1",
+        "PR / DE / OH entity search keyed to UrgentRN LLC + San Juan address"
+      ],
+      "status": "SEALED",
+      "title": "US20220104664A1 PDF \u2014 applicant/inventor geography"
+    },
+    {
+      "adjudicated": false,
+      "id": "pr_ohio_geo_bridge",
+      "next_actions": [
+        "PR Department of State / DE / OH search for UrgentRN LLC"
+      ],
+      "status": "SEALED",
+      "title": "Puerto Rico contact \u2194 Mayfield Village inventor geo-bridge"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        "PR/DE/OH UrgentRN LLC abstract is the top corporate gap after W16-F1/F4"
+      ],
+      "status": "OPEN",
+      "title": "Wave-16 operator priority worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE16"
+}

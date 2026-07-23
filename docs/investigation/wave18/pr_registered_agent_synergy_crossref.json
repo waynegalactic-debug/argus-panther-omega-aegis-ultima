@@ -1,0 +1,76 @@
+{
+  "findings": [
+    {
+      "detail": "ABG Delaware agents observed: Corporation Service Company (current ICIS) and The Corporation Trust Company (formation EX-3.1). UrgentRN suite occupant publicly matching STE 201 is HLB Puerto Rico LLC (Wave 17 / reconfirmed). BDO San Juan is 269 Ponce de León (same ZIP, different building). No public evidence that ABG Delaware entities, CSC, or CT Corp are the Puerto Rico registered agent for UrgentRN LLC. PR RCE agent field remains gating.",
+      "id": "W18-F3",
+      "synergy_matrix": {
+        "abg_agent_equals_bdo": false,
+        "abg_agent_equals_ferraiuoli": false,
+        "abg_agent_equals_foley": false,
+        "abg_agent_equals_hlb": false,
+        "abg_delaware_registered_agents": [
+          "CORPORATION SERVICE COMPANY",
+          "The Corporation Trust Company"
+        ],
+        "bdo_san_juan_different_building_269": true,
+        "f21_puerto_rico_licensee_note": "Public reporting: F21 Puerto Rico among Forever 21 U.S. licensee Chapter 11 filers (2025). ABG owns Forever 21 IP — brand-licensing nexus only. Does not establish ABG (or CSC/CT) as UrgentRN registered agent in Puerto Rico.",
+        "hlb_suite_match_reconfirmed": true,
+        "sec_pr_cooccurrence_note": "EDGAR co-hits for 'Authentic Brands Group' + 'Puerto Rico'/'San Juan' are dominated by unrelated third-party filings (e.g., mall operator store lists); not ABG Puerto Rico entity/RA proof.",
+        "shared_delaware_ra_with_urgentrn": "UNKNOWN_URGENTRN_RA_NOT_IN_DE",
+        "urgentrn_on_delaware_icis": false,
+        "urgentrn_suite": "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+        "wave17_closest_suite_occupant": "HLB Puerto Rico LLC"
+      },
+      "title": "No authenticated ABG↔Puerto Rico registered-agent synergy with UrgentRN suite"
+    },
+    {
+      "abg_urgentrn_ra_synergy_adjudicated": false,
+      "corruption_adjudicated": false,
+      "detail": "Entity screens and address/agent non-matches are evidence only. Shared brand-licensing geography (e.g., Forever 21 / F21 Puerto Rico) is not registered-agent identity. Do not treat ABG, BDO, Ferraiuoli, Foley, or HLB as adjudicated corrupted enablers from this wave.",
+      "id": "W18-F4",
+      "illicit_registration_adjudicated": false,
+      "professional_enabler_adjudicated": false,
+      "title": "Policy gate — no illicit-registration / corruption adjudication"
+    }
+  ],
+  "id": "pr_registered_agent_synergy_crossref",
+  "next_actions": [
+    "PR RCE: UrgentRN LLC registered agent / incorporators (CRITICAL)",
+    "If PR agent is HLB/BDO/Ferraiuoli/Foley/other — certified abstract; still no auto-corruption",
+    "Optional: search PR RCE for Authentic Brands / ABG / F21 Puerto Rico entity names"
+  ],
+  "probes": {
+    "bdo_san_juan": {
+      "building_269": true,
+      "ok": true,
+      "sha256": "615c3d8a757f47e82e3afdfb59324bbb09e438af2e19203be595709292f4cd17",
+      "status": 200
+    },
+    "hlbpr_contact": {
+      "ok": true,
+      "sha256": "2faa7e2c4c91efdeca229fc893f28ecae260911d50f27ef9a7305ff1661608ed",
+      "status": 200,
+      "suite_match": true
+    }
+  },
+  "status": "SEALED",
+  "synergy": {
+    "abg_agent_equals_bdo": false,
+    "abg_agent_equals_ferraiuoli": false,
+    "abg_agent_equals_foley": false,
+    "abg_agent_equals_hlb": false,
+    "abg_delaware_registered_agents": [
+      "CORPORATION SERVICE COMPANY",
+      "The Corporation Trust Company"
+    ],
+    "bdo_san_juan_different_building_269": true,
+    "f21_puerto_rico_licensee_note": "Public reporting: F21 Puerto Rico among Forever 21 U.S. licensee Chapter 11 filers (2025). ABG owns Forever 21 IP — brand-licensing nexus only. Does not establish ABG (or CSC/CT) as UrgentRN registered agent in Puerto Rico.",
+    "hlb_suite_match_reconfirmed": true,
+    "sec_pr_cooccurrence_note": "EDGAR co-hits for 'Authentic Brands Group' + 'Puerto Rico'/'San Juan' are dominated by unrelated third-party filings (e.g., mall operator store lists); not ABG Puerto Rico entity/RA proof.",
+    "shared_delaware_ra_with_urgentrn": "UNKNOWN_URGENTRN_RA_NOT_IN_DE",
+    "urgentrn_on_delaware_icis": false,
+    "urgentrn_suite": "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+    "wave17_closest_suite_occupant": "HLB Puerto Rico LLC"
+  },
+  "title": "PR suite / professional RA synergy cross-ref (ABG × UrgentRN)"
+}

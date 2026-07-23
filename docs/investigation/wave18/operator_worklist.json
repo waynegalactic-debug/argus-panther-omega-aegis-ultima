@@ -1,0 +1,30 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W18-M1",
+      "item": "Puerto Rico RCE — UrgentRN LLC registered agent (gates RA synergy)",
+      "portal": "https://rcp.estado.pr.gov/en/search/",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "W18-M2",
+      "item": "Delaware ICIS detail refresh for 4789754 (ABG LLC), 3152333, 6896342 + ABG Intermediate Holdings 1/2 LLC file numbers",
+      "portal": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W18-M3",
+      "item": "PR RCE name screen: Authentic Brands*, ABG*, F21 Puerto Rico",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W18-M4",
+      "item": "Counsel preserve W18 roster + W16-F1 suite + W17 HLB matrix",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-18 operator worklist"
+}

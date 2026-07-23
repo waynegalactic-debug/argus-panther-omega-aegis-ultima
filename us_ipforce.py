@@ -107,6 +107,21 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-15 UrgentRN / Urgent Response Network cluster",
     )
+    parser.add_argument(
+        "--investigate-wave16",
+        action="store_true",
+        help="Run investigation wave-16 UrgentRN geo/contact + PDF geography",
+    )
+    parser.add_argument(
+        "--investigate-wave17",
+        action="store_true",
+        help="Run investigation wave-17 San Juan suite professional-presence screen",
+    )
+    parser.add_argument(
+        "--investigate-wave18",
+        action="store_true",
+        help="Run investigation wave-18 ABG Delaware × Puerto Rico RA cross-ref",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -135,6 +150,9 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave13,
             args.investigate_wave14,
             args.investigate_wave15,
+            args.investigate_wave16,
+            args.investigate_wave17,
+            args.investigate_wave18,
         )
     )
     if wave_flags > 1:
@@ -144,7 +162,8 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave6 / --investigate-wave7 / --investigate-wave8 / "
             "--investigate-wave9 / --investigate-wave10 / --investigate-wave11 / "
             "--investigate-wave12 / --investigate-wave13 / --investigate-wave14 / "
-            "--investigate-wave15.",
+            "--investigate-wave15 / --investigate-wave16 / --investigate-wave17 / "
+            "--investigate-wave18.",
             file=sys.stderr,
         )
         return 2
@@ -223,6 +242,21 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave15 import main as wave15_main
 
         return int(wave15_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave16:
+        from us_ipforce_investigation_wave16 import main as wave16_main
+
+        return int(wave16_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave17:
+        from us_ipforce_investigation_wave17 import main as wave17_main
+
+        return int(wave17_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave18:
+        from us_ipforce_investigation_wave18 import main as wave18_main
+
+        return int(wave18_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

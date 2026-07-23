@@ -1,0 +1,15 @@
+{
+  "brand": "IP FORCE",
+  "disposition": {
+    "bdo_exact_suite_match": false,
+    "closest_public_suite_match": "HLB_PUERTO_RICO",
+    "corruption_adjudicated": false,
+    "ferraiuoli_exact_suite_match": false,
+    "foley_exact_suite_match": false,
+    "illicit_registration_adjudicated": false
+  },
+  "generated_at": "2026-07-23T15:35:45Z",
+  "summary_md": "docs/investigation/wave17/WAVE17_SUMMARY.md",
+  "summary_path": "docs/investigation/wave17/WAVE17_SUMMARY.json",
+  "wave17_case": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W17"
+}

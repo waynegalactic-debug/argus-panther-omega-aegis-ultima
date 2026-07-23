@@ -1,0 +1,188 @@
+{
+  "adjudicated": false,
+  "findings": [
+    {
+      "address_block": "165 Ponce de Leon Ave., STE 201 San Juan PR, 00917",
+      "copyrights": [
+        "Copyright \u00a9 2020 Urgent Response Products"
+      ],
+      "detail": "Public contact page (Wayback 2020-06-20) lists San Juan, Puerto Rico mailing address and toll-free (855) 852-0440. Copyright line reads 'Urgent Response Products'. Not an SOS charter; operator must still pull UrgentRN LLC formation abstracts.",
+      "id": "W16-F1",
+      "phones": [
+        "(855) 852-0440"
+      ],
+      "provenance": "wayback_snapshot",
+      "sha3_256": "935558b5b8a9807bba88dfdd7cc1b64e398d0120b3056a9504b6b5346fccb60f",
+      "timestamp": "20200620024249",
+      "title": "urgentrn.com contact \u2014 165 Ponce de Leon Ave., STE 201, San Juan PR 00917",
+      "wayback_url": "https://web.archive.org/web/20200620024249id_/https://urgentrn.com/contact/"
+    },
+    {
+      "detail": "Media page headlines claim Amazon PPE supply deal, 5WPR AOR, eShipping logistics, Pat Perez strategic advisor, and other COVID-era partnerships. Press claims are not independently verified here \u2014 sealed as public self-statements only.",
+      "id": "W16-F2",
+      "press_headlines": [
+        "May 4, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with u.s. air force veteran owned ppe retailer Urgent Response Network is Partnering with U.S. Veteran Owned Busin",
+        "April 29, 2020 Pat Perez named strategic advisor for Urgent Response Network, leading supplier of personal protective equipment As PGA Tour Veteran Joins Forces With Urgent Response Network, The PPE Giant Works To",
+        "April 27, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with mexico-based company for expansion Urgent Response Network Announces Newest Partnership with Co-Founder of Ec",
+        "April 21, 2020 Urgent Response Network, names eShipping their ppe distribution chain partner amid covid-19 Urgent Response Network and eShipping Are Working Together to Better Serve Americans Amid COVID-19 Read Mor",
+        "April 14, 2020 Urgent Response Network, Names 5WPR Agency of Record amid Efforts to Supply America with Personal Protection Equipment 5W Public Relations, one of the largest independently-owned PR firms in the U.S.",
+        "April 12, 2020 Urgent Response Network signs deal to supply Amazon with Personal Protective Equipment Read More Recent Publications News May 4, 2020 Leading supplier of personal protective equipment, Urgent Respons"
+      ],
+      "provenance": "wayback_snapshot",
+      "sha3_256": "8c589dd17c0ed87ee6e2d3c98660c739815a705e90a9c2bd4164a3eee3a122bd",
+      "timestamp": "20200619214519",
+      "title": "urgentrn.com media \u2014 2020 PPE partnership press surface",
+      "wayback_url": "https://web.archive.org/web/20200619214519id_/https://urgentrn.com/media/"
+    },
+    {
+      "detail": "Buy/quote page lists PPE and hand-sanitizer products, aligning with sanitizer-dispenser patent US20220104664A1 theme.",
+      "id": "W16-F3",
+      "provenance": "wayback_snapshot",
+      "sha3_256": "073d615881d56393c49ebd571e512ef084f49f8e2d801ba2ce69f6cae8886548",
+      "timestamp": "20200619110348",
+      "title": "urgentrn.com buy \u2014 hand sanitizer SKUs (55-gallon drum etc.)",
+      "wayback_url": "https://web.archive.org/web/20200619110348id_/https://urgentrn.com/buy/"
+    }
+  ],
+  "generated_at": "2026-07-23T15:24:23Z",
+  "id": "urgentrn_contact_media_wayback",
+  "next_actions": [
+    "Counsel may attach W16-F1 contact address + W15-F2 Skoda corporate page",
+    "Puerto Rico / DE / OH SOS search for UrgentRN LLC / Urgent Response Products"
+  ],
+  "pages": {
+    "buy": {
+      "address_block": null,
+      "bytes": 86481,
+      "copyrights": [
+        "Copyright \u00a9 2020 Urgent Response Products"
+      ],
+      "excerpt": "Buy - Urgent Response Network Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Want A Quote? Select the products and quantities below Face Masks , Personal Protection , Supplies KN95 (CE) Add to Quote You have already added this product to your quote. Add Quantities Face Masks , Personal Protection , Supplies N95 (NIOSH/FDA/CE) Add to Quote You have already added this product to your quote. Add Quantities Face Masks , Personal Protection , Supplies Surgical Masks 3-Ply (CE Certified) (FDA Optional) Add to Quote You have already added this product to your quote. Add Quantities Hand Sanitizer , Infection Control , Liquid Gel , Supplies 55 Gallon Drum Hand Sanitizer Add to Quote You have already added this product to your quote. Add Quantities Diagnostics , Supplies , Thermometers Digital Clinical Thermometer Forehead Add to Quote You have already added this product to your quote. Add Quantities Diagnostics , Supplies , Thermometers FD V4/V9 Thermometer Add to Quote You have already added this product to your quote. Add Quantities Hand Sanitizer , Infection Control , Liquid Gel , Supplies Hand Sanitizer (250ml) Add to Quote You have already added this product to your quote. Add Quantities Hand Sanitizer , Infection Control , Liquid Gel , Supplies Hand Sanitizer (500ml) Add to Quote You have already added this product to your quote. Add Quantities Hand Sanitizer , Infection Control , Liquid Gel , Supplies Hand Sanitizer (50ml) Add to Quote You have already added this product to your quote. Add Quantities Full Body Suits , Personal Protection , Supplies Isolation Gown Add to Quote You have alr",
+      "keyword_hits": {
+        "5wpr": false,
+        "amazon": false,
+        "mayfield": false,
+        "ponce": false,
+        "ppe": true,
+        "san juan": false,
+        "sanitizer": true,
+        "skoda": false
+      },
+      "label": "buy",
+      "ok": true,
+      "original": "https://urgentrn.com/buy/",
+      "phones": [
+        "(855) 852-0440"
+      ],
+      "press_headlines": [],
+      "sha256": "c56c5f99c6092138efb469ec66713ef038011bbd15afbf7421bde434ce544a5f",
+      "sha3_256": "073d615881d56393c49ebd571e512ef084f49f8e2d801ba2ce69f6cae8886548",
+      "text_chars": 3086,
+      "timestamp": "20200619110348",
+      "title": "Buy - Urgent Response Network",
+      "wayback_url": "https://web.archive.org/web/20200619110348id_/https://urgentrn.com/buy/"
+    },
+    "contact": {
+      "address_block": "165 Ponce de Leon Ave., STE 201 San Juan PR, 00917",
+      "bytes": 54503,
+      "copyrights": [
+        "Copyright \u00a9 2020 Urgent Response Products"
+      ],
+      "excerpt": "Contact - Urgent Response Network Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Contact V R 2020-06-13T23:47:24+00:00 Contact Us ADDRESS 165 Ponce de Leon Ave., STE 201 San Juan PR, 00917 TOLL FREE PHONE AND TEXT (855) 852-0440 Your Name (required) Your Email (required) Subject Your Message Copyright \u00a9 2020 Urgent Response Products. All Rights Reserved. Privacy Policy | Terms | Have inventory to sell us?",
+      "keyword_hits": {
+        "5wpr": false,
+        "amazon": false,
+        "mayfield": false,
+        "ponce": true,
+        "ppe": true,
+        "san juan": true,
+        "sanitizer": false,
+        "skoda": false
+      },
+      "label": "contact",
+      "ok": true,
+      "original": "https://urgentrn.com/contact/",
+      "phones": [
+        "(855) 852-0440"
+      ],
+      "press_headlines": [],
+      "sha256": "d0cad43ea8164d4f128bbe74a56a72d1bbc98a2d0b25bc188c27def180c72e1b",
+      "sha3_256": "935558b5b8a9807bba88dfdd7cc1b64e398d0120b3056a9504b6b5346fccb60f",
+      "text_chars": 595,
+      "timestamp": "20200620024249",
+      "title": "Contact - Urgent Response Network",
+      "wayback_url": "https://web.archive.org/web/20200620024249id_/https://urgentrn.com/contact/"
+    },
+    "home": {
+      "address_block": null,
+      "bytes": 91370,
+      "copyrights": [],
+      "excerpt": "Home - Urgent Response Network Buy Sell Corporate Media Contact Cart Login Buy Sell Corporate Media Contact Cart Login Home V R 2020-05-14T15:15:57+00:00 Gel hand sanitizer now available. Click here or visit store.UrgentRN.com to order now. Amazon partners with Urgent Response Network. Supplying Amazon COVID-19 Supplies. Keeping our front lines safe. We are available 24 hours a day to get supplies to those who need them most. Call or Text: 1-855-842-0440 anytime BUY NOW Whatever your needs ... We have you covered. All types of Personal Protective Equipment (PPE) available. BUY NOW Certified face masks Large quantities available now. BUY NOW BUY PPE Certified masks, gloves, gowns, sanitizer available now. BUY NOW SELL PPE Please register if you have products to sell us. SELL NOW TALK TO US Call or text us at 855-852-0440 anytime. We are here 24 hours a day. TALK TO US Buy Personal Protective Equipment PPE available to to order now. Goggles , Personal Protection , Supplies Nitrile Exam (Non-sterile) Gloves (M or L size), Pair Add to Quote You have already added this product to your quote. Add Quantities Face Masks , Personal Protection , Supplies KN95 (CE) Add to Quote You have already added this product to your quote. Add Quantities Diagnostics , Supplies , Thermometers Non-contact Infrared Medical Thermometer with LED Indicator Add to Quote You have already added this product to your quote. Add Quantities Gloves , Personal Protection , Supplies Latex Exam (Non-sterile) Gloves (M or L size), Pair Add to Quote You have already added this product to your quote. Add Quantities Sell Personal Protective Equipment Sell us any additional PPE products you have in inventory. Sell Personal Equipment To meet the unprecedented global demand for Personal Protective Equipment (PPE), U",
+      "keyword_hits": {
+        "5wpr": false,
+        "amazon": true,
+        "mayfield": false,
+        "ponce": false,
+        "ppe": true,
+        "san juan": false,
+        "sanitizer": true,
+        "skoda": true
+      },
+      "label": "home",
+      "ok": true,
+      "original": "https://urgentrn.com/",
+      "phones": [
+        "855-842-0440",
+        "855-852-0440"
+      ],
+      "press_headlines": [],
+      "sha256": "e1eefaad45d0f77f28cd09a1cc94c31cf06942c670686764cef86211470ac46a",
+      "sha3_256": "aeaa40ddc23ad0f5a777c09610951567b751848f265b0f7062ed4592caef0bc9",
+      "text_chars": 3399,
+      "timestamp": "20200517115813",
+      "title": "Home - Urgent Response Network",
+      "wayback_url": "https://web.archive.org/web/20200517115813id_/https://urgentrn.com/"
+    },
+    "media": {
+      "address_block": null,
+      "bytes": 71874,
+      "copyrights": [
+        "Copyright \u00a9 2020 Urgent Response Products"
+      ],
+      "excerpt": "Media - Urgent Response Network Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Home Chemical Delivery Platform Private Labeling PVBLIC Products Press Contact (855) 852-0440 Talk To PPE Specialist Media V R 2020-05-20T20:40:18+00:00 News News May 4, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with u.s. air force veteran owned ppe retailer Urgent Response Network is Partnering with U.S. Veteran Owned Businesses, Wynn Innovations and Wynn Creations, To Expand PPE Reach Amid COVID-19 Read More News April 29, 2020 Pat Perez named strategic advisor for Urgent Response Network, leading supplier of personal protective equipment As PGA Tour Veteran Joins Forces With Urgent Response Network, The PPE Giant Works To Extend Reach To Help Countries During Global COVID-19 Pandemic Read More News April 27, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with mexico-based company for expansion Urgent Response Network Announces Newest Partnership with Co-Founder of Ecoshell to Launch Mexico Expansion, Naming Carlos Camacho as Managing Director Read More News April 21, 2020 Urgent Response Network, names eShipping their ppe distribution chain partner amid covid-19 Urgent Response Network and eShipping Are Working Together to Better Serve Americans Amid COVID-19 Read More News April 14, 2020 Urgent Response Network, Names 5WPR Agency of Record amid Efforts to Supply America with Personal Protection Equipment 5W Public Relations, one of the largest independently-owned PR firms in the U.S., has been named agency of record by&nbsp;Urgent Response Network, founded by YPO member,&nbsp;Brent Skoda. Brent organized a small number of YPO memb",
+      "keyword_hits": {
+        "5wpr": true,
+        "amazon": true,
+        "mayfield": false,
+        "ponce": false,
+        "ppe": true,
+        "san juan": false,
+        "sanitizer": false,
+        "skoda": true
+      },
+      "label": "media",
+      "ok": true,
+      "original": "https://urgentrn.com/media/",
+      "phones": [
+        "(855) 852-0440"
+      ],
+      "press_headlines": [
+        "May 4, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with u.s. air force veteran owned ppe retailer Urgent Response Network is Partnering with U.S. Veteran Owned Busin",
+        "April 29, 2020 Pat Perez named strategic advisor for Urgent Response Network, leading supplier of personal protective equipment As PGA Tour Veteran Joins Forces With Urgent Response Network, The PPE Giant Works To",
+        "April 27, 2020 Leading supplier of personal protective equipment, Urgent Response Network, partners with mexico-based company for expansion Urgent Response Network Announces Newest Partnership with Co-Founder of Ec",
+        "April 21, 2020 Urgent Response Network, names eShipping their ppe distribution chain partner amid covid-19 Urgent Response Network and eShipping Are Working Together to Better Serve Americans Amid COVID-19 Read Mor",
+        "April 14, 2020 Urgent Response Network, Names 5WPR Agency of Record amid Efforts to Supply America with Personal Protection Equipment 5W Public Relations, one of the largest independently-owned PR firms in the U.S.",
+        "April 12, 2020 Urgent Response Network signs deal to supply Amazon with Personal Protective Equipment Read More Recent Publications News May 4, 2020 Leading supplier of personal protective equipment, Urgent Respons"
+      ],
+      "sha256": "905961da62d57b9f505b9ca2ebd941baa37a23ec2201f57e803ba9a28bbb8fe4",
+      "sha3_256": "8c589dd17c0ed87ee6e2d3c98660c739815a705e90a9c2bd4164a3eee3a122bd",
+      "text_chars": 5115,
+      "timestamp": "20200619214519",
+      "title": "Media - Urgent Response Network",
+      "wayback_url": "https://web.archive.org/web/20200619214519id_/https://urgentrn.com/media/"
+    }
+  },
+  "status": "SEALED",
+  "title": "Wayback \u2014 urgentrn.com contact / media / buy surfaces",
+  "true_ubo_asserted": 0
+}

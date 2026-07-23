@@ -1,0 +1,350 @@
+{
+  "wave": 17,
+  "title": "San Juan suite professional-presence screen (BDO / Ferraiuoli / Foley / HLB)",
+  "generated_at_utc": "2026-07-23T15:35:45Z",
+  "target_address": "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+  "findings": [
+    {
+      "finding_id": "W17-F1",
+      "title": "HLB Puerto Rico LLC publicly lists exact UrgentRN contact suite",
+      "severity": {
+        "party_id": "HLB_PUERTO_RICO",
+        "label": "HLB Puerto Rico LLC",
+        "match_class": "exact_suite_match",
+        "signals": {
+          "has_165_ponce": true,
+          "has_suite_201": true,
+          "has_00917": true,
+          "has_expected_other_street": false
+        },
+        "notes": "HLB Puerto Rico contact page publicly lists 165 Ponce de Leon Ave Suite 201, San Juan PR 00917 — exact suite match.",
+        "urls_probed": [
+          "https://www.hlbpr.com/contact-us/",
+          "https://www.hlbpr.com/"
+        ],
+        "http_statuses": [
+          200,
+          200
+        ],
+        "content_sha256": [
+          "2faa7e2c4c91efdeca229fc893f28ecae260911d50f27ef9a7305ff1661608ed",
+          "eaa45cebee0e25e527271c6d69d99128d359eca7b57488a109b3b2914537ddba"
+        ]
+      },
+      "evidence": "hlbpr.com/contact-us/ lists 165 Ponce de Leon Ave Suite 201, San Juan, Puerto Rico, 00917",
+      "status": "AUTHENTICATED_PUBLIC_ADDRESS_MATCH"
+    },
+    {
+      "finding_id": "W17-F2",
+      "title": "BDO San Juan is same ZIP/avenue corridor, different building number",
+      "parties": [
+        {
+          "party_id": "BDO_SAN_JUAN",
+          "label": "BDO San Juan office (BDO Puerto Rico)",
+          "match_class": "same_zip_avenue_different_building",
+          "signals": {
+            "has_165_ponce": false,
+            "has_suite_201": false,
+            "has_00917": true,
+            "has_expected_other_street": true
+          },
+          "notes": "BDO public San Juan page lists 269 Avenida Juan Ponce de León (same ZIP 00917, different building).",
+          "urls_probed": [
+            "https://www.bdo.com/locations/bdo-san-juan-office",
+            "https://www.bdo.com.pr/"
+          ],
+          "http_statuses": [
+            200,
+            null
+          ],
+          "content_sha256": [
+            "9a76a163f1eae752947ccd80a101897faf5f5484bdaead8f17854ccf02adbcb4",
+            null
+          ]
+        }
+      ],
+      "evidence": "bdo.com/locations/bdo-san-juan-office lists 269 Avenida Juan Ponce de León, San Juan PR 00917 (not 165 STE 201)",
+      "status": "AUTHENTICATED_PUBLIC_ADDRESS_NON_MATCH"
+    },
+    {
+      "finding_id": "W17-F3",
+      "title": "Ferraiuoli and Foley do not publicly match 165 STE 201",
+      "ferraiuoli": {
+        "party_id": "FERRAIUOLI",
+        "label": "Ferraiuoli LLC",
+        "match_class": "public_presence_no_target_suite_match",
+        "signals": {
+          "has_165_ponce": false,
+          "has_suite_201": false,
+          "has_00917": false,
+          "has_expected_other_street": true
+        },
+        "notes": "Ferraiuoli public contact lists 250 Av. Luis Muñoz Rivera, 6th Floor, San Juan 00918.",
+        "urls_probed": [
+          "https://ferraiuoli.com/contact/",
+          "https://ferraiuoli.com/"
+        ],
+        "http_statuses": [
+          200,
+          200
+        ],
+        "content_sha256": [
+          "2a5e9c7d525c37321576b210e99001dc412bcbd06eceaf3df2234b55b63b0395",
+          "efd75379530d746d8806255c6480c935ca50310d481bd5c642bdffb8f06483dc"
+        ]
+      },
+      "foley": {
+        "party_id": "FOLEY",
+        "label": "Foley & Lardner LLP",
+        "match_class": "fetch_failed_or_inconclusive",
+        "signals": {
+          "has_165_ponce": false,
+          "has_suite_201": false,
+          "has_00917": false,
+          "has_expected_other_street": false
+        },
+        "notes": "Foley offices index does not list a San Juan / Puerto Rico office; /offices/san-juan/ returns 404.",
+        "urls_probed": [
+          "https://www.foley.com/offices/",
+          "https://www.foley.com/offices/san-juan/"
+        ],
+        "http_statuses": [
+          403,
+          403
+        ],
+        "content_sha256": [
+          "0f44c6ac00909c38f79b0c2ff00b30d4cd4bcaf257f161a4d89e189abb1cfc85",
+          "d498e81c7ab32e5d5a031d260333bc9a009c0e111c5dc59324305cbcab21b952"
+        ]
+      },
+      "evidence": "Ferraiuoli=250 Muñoz Rivera 00918; Foley San Juan office URL 404 / not on offices index",
+      "status": "AUTHENTICATED_PUBLIC_ADDRESS_NON_MATCH"
+    },
+    {
+      "finding_id": "W17-F4",
+      "title": "Suite 201 is a multi-tenant professional address surface",
+      "evidence": "Exact suite is publicly occupied by HLB Puerto Rico LLC; third-party directories also associate other entities with 165 Ponce de Leon suite 201. Shared professional suite ≠ proof of registered-agent role for UrgentRN LLC.",
+      "status": "AUTHENTICATED_CONTEXT"
+    },
+    {
+      "finding_id": "W17-F5",
+      "title": "No illicit-registration or corruption adjudication from public suite screen",
+      "illicit_registration_adjudicated": false,
+      "corruption_adjudicated": false,
+      "professional_enabler_adjudicated": false,
+      "reason": "Public address coincidence and professional-suite occupancy are not sufficient to adjudicate illicit LLC registration or corrupted professional enabling. Puerto Rico RCE registered-agent / incorporator fields remain the gating primary source.",
+      "status": "POLICY_GATE"
+    }
+  ],
+  "party_matrix": {
+    "target_address_canonical": "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+    "target_street": "165",
+    "target_suite": "201",
+    "target_zip": "00917",
+    "parties": [
+      {
+        "party_id": "BDO_SAN_JUAN",
+        "label": "BDO San Juan office (BDO Puerto Rico)",
+        "match_class": "same_zip_avenue_different_building",
+        "signals": {
+          "has_165_ponce": false,
+          "has_suite_201": false,
+          "has_00917": true,
+          "has_expected_other_street": true
+        },
+        "notes": "BDO public San Juan page lists 269 Avenida Juan Ponce de León (same ZIP 00917, different building).",
+        "urls_probed": [
+          "https://www.bdo.com/locations/bdo-san-juan-office",
+          "https://www.bdo.com.pr/"
+        ],
+        "http_statuses": [
+          200,
+          null
+        ],
+        "content_sha256": [
+          "9a76a163f1eae752947ccd80a101897faf5f5484bdaead8f17854ccf02adbcb4",
+          null
+        ]
+      },
+      {
+        "party_id": "FERRAIUOLI",
+        "label": "Ferraiuoli LLC",
+        "match_class": "public_presence_no_target_suite_match",
+        "signals": {
+          "has_165_ponce": false,
+          "has_suite_201": false,
+          "has_00917": false,
+          "has_expected_other_street": true
+        },
+        "notes": "Ferraiuoli public contact lists 250 Av. Luis Muñoz Rivera, 6th Floor, San Juan 00918.",
+        "urls_probed": [
+          "https://ferraiuoli.com/contact/",
+          "https://ferraiuoli.com/"
+        ],
+        "http_statuses": [
+          200,
+          200
+        ],
+        "content_sha256": [
+          "2a5e9c7d525c37321576b210e99001dc412bcbd06eceaf3df2234b55b63b0395",
+          "efd75379530d746d8806255c6480c935ca50310d481bd5c642bdffb8f06483dc"
+        ]
+      },
+      {
+        "party_id": "FOLEY",
+        "label": "Foley & Lardner LLP",
+        "match_class": "fetch_failed_or_inconclusive",
+        "signals": {
+          "has_165_ponce": false,
+          "has_suite_201": false,
+          "has_00917": false,
+          "has_expected_other_street": false
+        },
+        "notes": "Foley offices index does not list a San Juan / Puerto Rico office; /offices/san-juan/ returns 404.",
+        "urls_probed": [
+          "https://www.foley.com/offices/",
+          "https://www.foley.com/offices/san-juan/"
+        ],
+        "http_statuses": [
+          403,
+          403
+        ],
+        "content_sha256": [
+          "0f44c6ac00909c38f79b0c2ff00b30d4cd4bcaf257f161a4d89e189abb1cfc85",
+          "d498e81c7ab32e5d5a031d260333bc9a009c0e111c5dc59324305cbcab21b952"
+        ]
+      },
+      {
+        "party_id": "HLB_PUERTO_RICO",
+        "label": "HLB Puerto Rico LLC",
+        "match_class": "exact_suite_match",
+        "signals": {
+          "has_165_ponce": true,
+          "has_suite_201": true,
+          "has_00917": true,
+          "has_expected_other_street": false
+        },
+        "notes": "HLB Puerto Rico contact page publicly lists 165 Ponce de Leon Ave Suite 201, San Juan PR 00917 — exact suite match.",
+        "urls_probed": [
+          "https://www.hlbpr.com/contact-us/",
+          "https://www.hlbpr.com/"
+        ],
+        "http_statuses": [
+          200,
+          200
+        ],
+        "content_sha256": [
+          "2faa7e2c4c91efdeca229fc893f28ecae260911d50f27ef9a7305ff1661608ed",
+          "eaa45cebee0e25e527271c6d69d99128d359eca7b57488a109b3b2914537ddba"
+        ]
+      }
+    ],
+    "closest_public_suite_match": "HLB_PUERTO_RICO",
+    "named_prompt_parties_exact_match": [],
+    "policy": {
+      "illicit_registration_adjudicated": false,
+      "corruption_adjudicated": false,
+      "auto_adjudication_forbidden": true
+    }
+  },
+  "raw_fetch_meta": {
+    "BDO_SAN_JUAN": [
+      {
+        "ok": true,
+        "url": "https://www.bdo.com/locations/bdo-san-juan-office",
+        "final_url": "https://www.bdo.com/locations/bdo-san-juan-office",
+        "status": 200,
+        "sha256": "9a76a163f1eae752947ccd80a101897faf5f5484bdaead8f17854ccf02adbcb4",
+        "error": null
+      },
+      {
+        "ok": false,
+        "url": "https://www.bdo.com.pr/",
+        "final_url": "https://www.bdo.com.pr/",
+        "status": null,
+        "sha256": null,
+        "error": "URLError:<urlopen error [Errno -2] Name or service not known>"
+      }
+    ],
+    "FERRAIUOLI": [
+      {
+        "ok": true,
+        "url": "https://www.ferraiuoli.com/contact/",
+        "final_url": "https://ferraiuoli.com/contact/",
+        "status": 200,
+        "sha256": "2a5e9c7d525c37321576b210e99001dc412bcbd06eceaf3df2234b55b63b0395",
+        "error": null
+      },
+      {
+        "ok": true,
+        "url": "https://www.ferraiuoli.com/",
+        "final_url": "https://ferraiuoli.com/",
+        "status": 200,
+        "sha256": "efd75379530d746d8806255c6480c935ca50310d481bd5c642bdffb8f06483dc",
+        "error": null
+      }
+    ],
+    "FOLEY": [
+      {
+        "ok": false,
+        "url": "https://www.foley.com/offices/",
+        "final_url": "https://www.foley.com/offices/",
+        "status": 403,
+        "sha256": "0f44c6ac00909c38f79b0c2ff00b30d4cd4bcaf257f161a4d89e189abb1cfc85",
+        "error": "HTTPError:403"
+      },
+      {
+        "ok": false,
+        "url": "https://www.foley.com/offices/san-juan/",
+        "final_url": "https://www.foley.com/offices/san-juan/",
+        "status": 403,
+        "sha256": "d498e81c7ab32e5d5a031d260333bc9a009c0e111c5dc59324305cbcab21b952",
+        "error": "HTTPError:403"
+      }
+    ],
+    "HLB_PUERTO_RICO": [
+      {
+        "ok": true,
+        "url": "https://hlbpr.com/contact-us/",
+        "final_url": "https://www.hlbpr.com/contact-us/",
+        "status": 200,
+        "sha256": "2faa7e2c4c91efdeca229fc893f28ecae260911d50f27ef9a7305ff1661608ed",
+        "error": null
+      },
+      {
+        "ok": true,
+        "url": "https://hlbpr.com/",
+        "final_url": "https://www.hlbpr.com/",
+        "status": 200,
+        "sha256": "eaa45cebee0e25e527271c6d69d99128d359eca7b57488a109b3b2914537ddba",
+        "error": null
+      }
+    ]
+  },
+  "manual_next_actions": [
+    {
+      "action_id": "W17-M1",
+      "priority": "CRITICAL",
+      "action": "Puerto Rico RCE browser search for UrgentRN LLC / Urgent Response Network / Urgent Response Products — capture registered agent, incorporators, status, formation date",
+      "portal": "https://rcp.estado.pr.gov/en/search/"
+    },
+    {
+      "action_id": "W17-M2",
+      "priority": "HIGH",
+      "action": "If registered agent is HLB Puerto Rico LLC (or any screened firm), obtain certified entity abstract — still does not auto-adjudicate illicit registration"
+    },
+    {
+      "action_id": "W17-M3",
+      "priority": "HIGH",
+      "action": "Preserve HLB/BDO/Ferraiuoli/Foley contact pages + this matrix for counsel"
+    }
+  ],
+  "disposition": {
+    "closest_public_suite_match": "HLB_PUERTO_RICO",
+    "bdo_exact_suite_match": false,
+    "ferraiuoli_exact_suite_match": false,
+    "foley_exact_suite_match": false,
+    "illicit_registration_adjudicated": false,
+    "corruption_adjudicated": false
+  }
+}

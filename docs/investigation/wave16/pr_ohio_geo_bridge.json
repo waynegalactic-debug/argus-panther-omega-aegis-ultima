@@ -1,0 +1,85 @@
+{
+  "adjudicated": false,
+  "bridge": {
+    "ohio_suburb_alignment": "Inventor city Mayfield Village OH aligns with prior Ahkeo/Casters Beta Drive Mayfield Village evidence \u2014 geography consistency only, not UBO adjudication.",
+    "pdf_applicant": {
+      "city": "San Juan",
+      "country": "US",
+      "organization": "UrgentRN LLC",
+      "raw_tokens": [
+        "Applicant",
+        "UrgentRN",
+        "LLC",
+        "San",
+        "Juan",
+        "PR",
+        "US",
+        "Inventor"
+      ],
+      "region": "PR"
+    },
+    "pdf_inventor": {
+      "city": "Mayfield Village",
+      "country": "US",
+      "name": "Brent Skoda",
+      "raw_tokens": [
+        "Inventor",
+        "Brent",
+        "Skoda",
+        "Mayfield",
+        "Village",
+        "OH",
+        "US",
+        "ABSTRACT"
+      ],
+      "region": "OH"
+    },
+    "website_contact_pr": "165 Ponce de Leon Ave., STE 201 San Juan PR, 00917"
+  },
+  "events": [
+    {
+      "date": "2020-03-30",
+      "event": "urgentrn.com registered",
+      "source": "Wave-15 RDAP"
+    },
+    {
+      "date": "2020-04/05",
+      "event": "Media page press claims (Amazon, 5WPR, eShipping, Pat Perez)",
+      "source": "W16-F2"
+    },
+    {
+      "date": "2020-05-12/17",
+      "event": "Home page \u2014 Urgent Response Network; Brent Skoda named",
+      "source": "Wave-15 W15-F2"
+    },
+    {
+      "date": "2020-05-19",
+      "event": "US20220104664A1 priority date",
+      "source": "Wave-15 biblio"
+    },
+    {
+      "date": "2020-06-20",
+      "event": "Contact page \u2014 165 Ponce de Leon Ave STE 201, San Juan PR 00917",
+      "source": "W16-F1"
+    },
+    {
+      "date": "pub face",
+      "event": "PDF applicant UrgentRN LLC San Juan PR; inventor Brent Skoda Mayfield Village OH",
+      "source": "W16-F4"
+    },
+    {
+      "date": "2019 / ongoing",
+      "event": "Casters / Ahkeo Beta Drive Mayfield Village OH nexus (prior waves)",
+      "source": "Wave-5/6/8"
+    }
+  ],
+  "generated_at": "2026-07-23T15:24:23Z",
+  "id": "pr_ohio_geo_bridge",
+  "next_actions": [
+    "PR Department of State / DE / OH search for UrgentRN LLC"
+  ],
+  "policy": "PR mailing address + OH inventor city are authenticated public statements/publication face data. Corporate formation still open.",
+  "status": "SEALED",
+  "title": "Puerto Rico contact \u2194 Mayfield Village inventor geo-bridge",
+  "true_ubo_asserted": 0
+}

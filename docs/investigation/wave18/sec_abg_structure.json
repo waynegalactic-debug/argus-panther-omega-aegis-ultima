@@ -1,0 +1,127 @@
+{
+  "certificate_ex3_1": {
+    "agents": [],
+    "excerpt": "",
+    "ok": false,
+    "sha256": "0a6793a34a6fa1a434d8571f1781980d6f6d1989270fa9e54d10e64b5ffe5f58",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666054/000110465921089494/tm2114913d6_ex3-1.htm"
+  },
+  "findings": [
+    {
+      "certificate_registered_agent_at_formation": [],
+      "cik": "0001666054",
+      "detail": "SEC submissions API confirms Authentic Brands Group Inc., mailing/business 1411 Broadway 4th Floor, New York NY 10018. EX-3.1 Certificate of Incorporation (2016-02-01) lists The Corporation Trust Company at 1209 Orange Street as initial Delaware registered agent — distinct from current ICIS agent CSC. S-1 names ABG Intermediate Holdings 1/2 LLC and related holdcos; ICIS file numbers for Intermediate Holdings remain OPEN (captcha).",
+      "hq": null,
+      "id": "W18-F2",
+      "s1_named_entities_confirmed_in_fetch": [],
+      "subsidiary_table": [
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "source": "ABG S-1 / S-1/A (CIK 0001666054)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "corroboration": "Tilray EX-10.21 describes ABG Intermediate Holdings 2, LLC as a Delaware limited liability company",
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "source": "ABG S-1 / S-1/A; Tilray EX-10.21 counterparty",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "delaware_icis_file_number": "5952305",
+          "name": "Authentic Brands Group Inc.",
+          "source": "ABG S-1; Certificate of Incorporation EX-3.1",
+          "status": "SEC_NAMED_PLUS_ICIS_DETAIL"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        }
+      ],
+      "title": "SEC — Authentic Brands Group Inc. CIK 0001666054 + S-1 holding names"
+    }
+  ],
+  "id": "sec_abg_structure",
+  "next_actions": [
+    "Map full Exhibit 21 / org chart if/when ABG refiles public registration statement",
+    "Corroborate ABG Intermediate Holdings 2 LLC DE file via ICIS when available"
+  ],
+  "s1": {
+    "bytes": 4819,
+    "named_entities_confirmed": [],
+    "ok": false,
+    "sha256": "8d497a43c55beaabd448f374d604f10cdf1a505c2297567ee45a2fe3108e5bb1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666054/000110465921089494/tm2114913-5_s1.htm"
+  },
+  "status": "PARTIAL",
+  "submissions": {
+    "ok": false
+  },
+  "subsidiaries": [
+    {
+      "delaware_icis_file_number": null,
+      "name": "ABG Intermediate Holdings 1 LLC",
+      "source": "ABG S-1 / S-1/A (CIK 0001666054)",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "corroboration": "Tilray EX-10.21 describes ABG Intermediate Holdings 2, LLC as a Delaware limited liability company",
+      "delaware_icis_file_number": null,
+      "name": "ABG Intermediate Holdings 2 LLC",
+      "source": "ABG S-1 / S-1/A; Tilray EX-10.21 counterparty",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "delaware_icis_file_number": "4789754",
+      "name": "Authentic Brands Group LLC",
+      "source": "ABG S-1/A",
+      "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+    },
+    {
+      "delaware_icis_file_number": "5952305",
+      "name": "Authentic Brands Group Inc.",
+      "source": "ABG S-1; Certificate of Incorporation EX-3.1",
+      "status": "SEC_NAMED_PLUS_ICIS_DETAIL"
+    },
+    {
+      "delaware_icis_file_number": null,
+      "name": "ABG Aggregator LLC",
+      "source": "ABG S-1",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "delaware_icis_file_number": null,
+      "name": "ABG Aggregator LP",
+      "source": "ABG S-1",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    },
+    {
+      "delaware_icis_file_number": null,
+      "name": "ABG Executive Equity Holdco LLC",
+      "source": "ABG S-1/A",
+      "status": "SEC_NAMED_ICIS_FILE_OPEN"
+    }
+  ],
+  "title": "SEC EDGAR — ABG Inc. structure / subsidiaries"
+}

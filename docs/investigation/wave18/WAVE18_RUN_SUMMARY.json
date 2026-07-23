@@ -1,0 +1,251 @@
+{
+  "artifacts": {
+    "delaware": "docs/investigation/wave18/delaware_abg_entity_roster.json",
+    "pr_crossref": "docs/investigation/wave18/pr_registered_agent_synergy_crossref.json",
+    "sec": "docs/investigation/wave18/sec_abg_structure.json",
+    "summary_md": "docs/investigation/WAVE18_ABG_DELAWARE_PR_RA_CROSSREF.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W18",
+  "counts": {
+    "adjudicated_total": 0,
+    "delaware_details_authenticated": 2,
+    "delaware_entities_screened": 5,
+    "findings": 4,
+    "sec_named_subsidiaries": 7,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "0deeab22617f3274e59a6018d2ee45aa7953cc8bc96cf2fd9ead3d1ee8190000",
+    "leaves": [
+      {
+        "id": "delaware_abg_entity_roster",
+        "sha3_256": "0e9f70e8e7b5cd5c45448debb52ff60d2c19feb9384c7eec1fbdfdf72e033db8",
+        "status": "SEALED"
+      },
+      {
+        "id": "sec_abg_structure",
+        "sha3_256": "88be6e21564631da713034834a20ec951ffa52bfd37ebcfcd968a98895e99e90",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "pr_registered_agent_synergy_crossref",
+        "sha3_256": "05c82e57d96136233e51ab0d59af9a8722f3b2a63c3c9d810fd574245f61bc03",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "2e7e1cbc5abad0dd371cb42a3cc857f3eb829d64562e212388204fc6b789745d",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "c7ba41ab3eb758b47214cd083dc353c8f32743ee63edcecf89e932ce4f0a2bb75f529c9b964dff63baed7372069a053f992883dc2c7a1dace19a3a6218cfb843"
+  },
+  "disposition": {
+    "abg_delaware_agents": [
+      "CORPORATION SERVICE COMPANY",
+      "The Corporation Trust Company"
+    ],
+    "abg_urgentrn_ra_synergy_adjudicated": false,
+    "closest_urgentrn_suite_occupant": "HLB_PUERTO_RICO",
+    "corruption_adjudicated": false,
+    "illicit_registration_adjudicated": false,
+    "urgentrn_delaware_hits": 0
+  },
+  "elapsed_ms": 1188,
+  "findings": [
+    {
+      "detail": "Live Delaware ICIS name search returned five Authentic Brands* hits. Detail pages authenticated for AUTHENTIC BRANDS GROUP INC. (5952305, formed 2016-02-01) and AUTHENTIC BRANDS, LLLP (4646833, formed 2009-01-20); both list CORPORATION SERVICE COMPANY, 251 Little Falls Drive, Wilmington DE. Subsequent ICIS detail retries captcha-blocked.",
+      "entities_file_hit_detail_open": [
+        {
+          "entity_name": "AUTHENTIC BRANDS GROUP LLC",
+          "file_number": "4789754"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS, INC.",
+          "file_number": "3152333"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS LLC",
+          "file_number": "6896342"
+        }
+      ],
+      "entities_with_detail": [
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS GROUP INC.",
+          "file_number": "5952305",
+          "formation_date": "2/1/2016"
+        },
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS, LLLP",
+          "file_number": "4646833",
+          "formation_date": "1/20/2009"
+        }
+      ],
+      "id": "W18-F1",
+      "registered_agents_observed": [
+        "CORPORATION SERVICE COMPANY"
+      ],
+      "title": "Delaware ICIS — Authentic Brands Group primary entities authenticated"
+    },
+    {
+      "certificate_registered_agent_at_formation": [],
+      "cik": "0001666054",
+      "detail": "SEC submissions API confirms Authentic Brands Group Inc., mailing/business 1411 Broadway 4th Floor, New York NY 10018. EX-3.1 Certificate of Incorporation (2016-02-01) lists The Corporation Trust Company at 1209 Orange Street as initial Delaware registered agent — distinct from current ICIS agent CSC. S-1 names ABG Intermediate Holdings 1/2 LLC and related holdcos; ICIS file numbers for Intermediate Holdings remain OPEN (captcha).",
+      "hq": null,
+      "id": "W18-F2",
+      "s1_named_entities_confirmed_in_fetch": [],
+      "subsidiary_table": [
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "source": "ABG S-1 / S-1/A (CIK 0001666054)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "corroboration": "Tilray EX-10.21 describes ABG Intermediate Holdings 2, LLC as a Delaware limited liability company",
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "source": "ABG S-1 / S-1/A; Tilray EX-10.21 counterparty",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "delaware_icis_file_number": "5952305",
+          "name": "Authentic Brands Group Inc.",
+          "source": "ABG S-1; Certificate of Incorporation EX-3.1",
+          "status": "SEC_NAMED_PLUS_ICIS_DETAIL"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        }
+      ],
+      "title": "SEC — Authentic Brands Group Inc. CIK 0001666054 + S-1 holding names"
+    },
+    {
+      "detail": "ABG Delaware agents observed: Corporation Service Company (current ICIS) and The Corporation Trust Company (formation EX-3.1). UrgentRN suite occupant publicly matching STE 201 is HLB Puerto Rico LLC (Wave 17 / reconfirmed). BDO San Juan is 269 Ponce de León (same ZIP, different building). No public evidence that ABG Delaware entities, CSC, or CT Corp are the Puerto Rico registered agent for UrgentRN LLC. PR RCE agent field remains gating.",
+      "id": "W18-F3",
+      "synergy_matrix": {
+        "abg_agent_equals_bdo": false,
+        "abg_agent_equals_ferraiuoli": false,
+        "abg_agent_equals_foley": false,
+        "abg_agent_equals_hlb": false,
+        "abg_delaware_registered_agents": [
+          "CORPORATION SERVICE COMPANY",
+          "The Corporation Trust Company"
+        ],
+        "bdo_san_juan_different_building_269": true,
+        "f21_puerto_rico_licensee_note": "Public reporting: F21 Puerto Rico among Forever 21 U.S. licensee Chapter 11 filers (2025). ABG owns Forever 21 IP — brand-licensing nexus only. Does not establish ABG (or CSC/CT) as UrgentRN registered agent in Puerto Rico.",
+        "hlb_suite_match_reconfirmed": true,
+        "sec_pr_cooccurrence_note": "EDGAR co-hits for 'Authentic Brands Group' + 'Puerto Rico'/'San Juan' are dominated by unrelated third-party filings (e.g., mall operator store lists); not ABG Puerto Rico entity/RA proof.",
+        "shared_delaware_ra_with_urgentrn": "UNKNOWN_URGENTRN_RA_NOT_IN_DE",
+        "urgentrn_on_delaware_icis": false,
+        "urgentrn_suite": "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+        "wave17_closest_suite_occupant": "HLB Puerto Rico LLC"
+      },
+      "title": "No authenticated ABG↔Puerto Rico registered-agent synergy with UrgentRN suite"
+    },
+    {
+      "abg_urgentrn_ra_synergy_adjudicated": false,
+      "corruption_adjudicated": false,
+      "detail": "Entity screens and address/agent non-matches are evidence only. Shared brand-licensing geography (e.g., Forever 21 / F21 Puerto Rico) is not registered-agent identity. Do not treat ABG, BDO, Ferraiuoli, Foley, or HLB as adjudicated corrupted enablers from this wave.",
+      "id": "W18-F4",
+      "illicit_registration_adjudicated": false,
+      "professional_enabler_adjudicated": false,
+      "title": "Policy gate — no illicit-registration / corruption adjudication"
+    }
+  ],
+  "generated_at": "2026-07-23T15:35:46Z",
+  "policy": "Wave-18 seals ABG Delaware entity/subsidiary screens and a negative public-evidence finding for ABG↔UrgentRN Puerto Rico registered-agent synergy. No theft/RICO/UBO/corruption adjudication.",
+  "seal": "7e7d721bdd1595a2df4a649ec4a46807ce3c9dc3290d4bb856415c2aa8bb9b8e",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "delaware_abg_entity_roster",
+      "next_actions": [
+        "Re-pull ICIS details for 4789754 / 3152333 / 6896342 when captcha clears",
+        "ICIS exact-name search ABG Intermediate Holdings 1 LLC and 2 LLC for file numbers",
+        "Optional paid DE Certificate of Status for 5952305 and 4789754"
+      ],
+      "status": "SEALED",
+      "title": "Delaware ICIS — Authentic Brands / ABG Delaware roster"
+    },
+    {
+      "adjudicated": false,
+      "id": "sec_abg_structure",
+      "next_actions": [
+        "Map full Exhibit 21 / org chart if/when ABG refiles public registration statement",
+        "Corroborate ABG Intermediate Holdings 2 LLC DE file via ICIS when available"
+      ],
+      "status": "PARTIAL",
+      "title": "SEC EDGAR — ABG Inc. structure / subsidiaries"
+    },
+    {
+      "adjudicated": false,
+      "id": "pr_registered_agent_synergy_crossref",
+      "next_actions": [
+        "PR RCE: UrgentRN LLC registered agent / incorporators (CRITICAL)",
+        "If PR agent is HLB/BDO/Ferraiuoli/Foley/other — certified abstract; still no auto-corruption",
+        "Optional: search PR RCE for Authentic Brands / ABG / F21 Puerto Rico entity names"
+      ],
+      "status": "SEALED",
+      "title": "PR suite / professional RA synergy cross-ref (ABG × UrgentRN)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W18-M1",
+          "item": "Puerto Rico RCE — UrgentRN LLC registered agent (gates RA synergy)",
+          "portal": "https://rcp.estado.pr.gov/en/search/",
+          "priority": "CRITICAL"
+        },
+        {
+          "id": "W18-M2",
+          "item": "Delaware ICIS detail refresh for 4789754 (ABG LLC), 3152333, 6896342 + ABG Intermediate Holdings 1/2 LLC file numbers",
+          "portal": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W18-M3",
+          "item": "PR RCE name screen: Authentic Brands*, ABG*, F21 Puerto Rico",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W18-M4",
+          "item": "Counsel preserve W18 roster + W16-F1 suite + W17 HLB matrix",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-18 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE18"
+}

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-23T15:24:23Z",
+  "id": "operator_worklist",
+  "next_actions": [
+    "PR/DE/OH UrgentRN LLC abstract is the top corporate gap after W16-F1/F4"
+  ],
+  "priorities": [
+    {
+      "blocked_on": "operator_browser",
+      "item": "Entity abstract \u2014 UrgentRN LLC / Urgent Response Network / Urgent Response Products (PR, DE, OH)",
+      "rank": 1,
+      "seeds": [
+        "165 Ponce de Leon Ave., STE 201, San Juan, PR 00917",
+        "(855) 852-0440"
+      ]
+    },
+    {
+      "blocked_on": "env_secret",
+      "item": "USPTO_API_KEY \u2192 assignments for 15-pub set (esp. US20220104664A1)",
+      "rank": 2
+    },
+    {
+      "blocked_on": "operator_payment",
+      "item": "Paid DE Certificate of Status \u2014 Ahkeo Labs 6096179",
+      "rank": 3
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Ohio SOS foreign qualification \u2014 Ahkeo Labs DE 6096179",
+      "rank": 4
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Cuyahoga parcel \u2014 6685 Beta Drive, Mayfield Village OH",
+      "rank": 5
+    },
+    {
+      "blocked_on": "operator_subscription",
+      "item": "Paid WHOIS \u2014 urgentrn.com + ahkeo/ahkeolabs",
+      "rank": 6
+    },
+    {
+      "blocked_on": "counsel_review",
+      "item": "Counsel send Wave-11; attach W15-F2 + W16-F1 + W16-F4",
+      "rank": 7
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-16 operator priority worklist"
+}
