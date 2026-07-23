@@ -245,53 +245,6 @@ def track_google_patents_refresh() -> dict[str, Any]:
         query_runs[q] = _gp_query_all_pages(q)
         time.sleep(1.0)
 
-    # If live xhr is fully 503'd, refuse with authenticated seed captured earlier
-    # in the same operator session (same query shape) so the seal is not empty.
-    live_count = sum(
-        len(r.get("publications") or []) for r in query_runs.values()
-    )
-    seed_path = Path("/tmp/w14_gp_seed.json")
-    if live_count == 0 and seed_path.is_file():
-        try:
-            seed = json.loads(seed_path.read_text(encoding="utf-8"))
-            for key, q in (
-                ("brent_m", 'inventor="Brent M. Skoda"'),
-                ("brent", 'inventor="Brent Skoda"'),
-            ):
-                block = seed.get(key) or {}
-                pubs = []
-                for p in block.get("pubs") or []:
-                    pubs.append(
-                        {
-                            "publication": _norm_pub(p["publication"]),
-                            "title": (p.get("title") or "").strip(),
-                            "snippet": (p.get("snippet") or "")[:400],
-                            "assignee_field": p.get("assignee_field") or "",
-                            "inventor_query": q,
-                            "page": p.get("page", 0),
-                            "google_patents_url": (
-                                f"https://patents.google.com/patent/"
-                                f"{_norm_pub(p['publication'])}/en"
-                            ),
-                            "mentions_caffeine": (
-                                "caffeine"
-                                in f"{p.get('title','')} {p.get('snippet','')}".lower()
-                            ),
-                            "source": "session_seed_w14_gp_seed",
-                        }
-                    )
-                query_runs[q] = {
-                    "query": q,
-                    "total_num_results": (block.get("meta") or [{}])[0].get("total")
-                    if block.get("meta")
-                    else len(pubs),
-                    "publications": pubs,
-                    "pages": block.get("meta") or [],
-                    "fallback_seed": str(seed_path),
-                }
-        except Exception:  # noqa: BLE001
-            pass
-
     by_pub: dict[str, dict[str, Any]] = {}
     for q, run in query_runs.items():
         for p in run.get("publications") or []:
