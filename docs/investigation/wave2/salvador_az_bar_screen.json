@@ -1,0 +1,53 @@
+{
+  "adjudicated": false,
+  "id": "salvador_az_bar_screen",
+  "next_actions": [
+    "Obtain certified Arizona State Bar discipline order (primary)",
+    "Do not charge from betrayal_allegation JSON flag alone"
+  ],
+  "probes": [
+    {
+      "body_sha3_256": "aea60354509ce96c73c4ec9d69a5b0b38b9d0077c64f749f2a0c6426194ffebb",
+      "bytes": 236947,
+      "elapsed_ms": 917,
+      "error": null,
+      "label": "azb_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "azb.org is for sale \u2014 Get a price in 24 hours | Afternic",
+      "url": "https://www.azb.org/"
+    },
+    {
+      "body_sha3_256": "8e55119edef0da968bbed9cf97c06d9c798adca9213f03eaa40be53d28c45f25",
+      "bytes": 14311,
+      "elapsed_ms": 122,
+      "error": null,
+      "label": "duckduckgo_az_discipline",
+      "ok": true,
+      "status_code": 202,
+      "title": "DuckDuckGo",
+      "url": "https://html.duckduckgo.com/html/?q=Anthony+G.+Salvador%2C+Esq.+Arizona+State+Bar+discipline"
+    },
+    {
+      "body_sha3_256": "76a9fe92b1648e984227c8febf5dba5f62d54aebfeb3e3be6744e7431583b1f9",
+      "bytes": 14313,
+      "elapsed_ms": 131,
+      "error": null,
+      "label": "duckduckgo_salvador_disbarred",
+      "ok": true,
+      "status_code": 202,
+      "title": "DuckDuckGo",
+      "url": "https://html.duckduckgo.com/html/?q=%22Anthony+G.+Salvador%2C+Esq.%22+disbarred+Arizona"
+    }
+  ],
+  "screening_only": true,
+  "status": "open_manual",
+  "subject": {
+    "firm": "Salvador Law Group, PLLC",
+    "name": "Anthony G. Salvador, Esq.",
+    "office": "Phoenix, AZ",
+    "title": "Attorney (Disbarred)"
+  },
+  "title": "Anthony G. Salvador AZ bar discipline screen",
+  "wave": 2
+}

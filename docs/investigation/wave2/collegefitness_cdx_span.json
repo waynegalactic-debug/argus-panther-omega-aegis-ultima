@@ -1,0 +1,33 @@
+{
+  "adjudicated": false,
+  "domain": "collegefitness.com",
+  "earliest": "20010719153304",
+  "id": "collegefitness_cdx_span",
+  "latest": "20260309213507",
+  "next_actions": [
+    "Re-pull CDX when Wayback stable",
+    "Correlate with counsel meeting years"
+  ],
+  "note": "Restored from successful Wave-2 probe in-session after Wayback flakiness; re-pull to refresh digests",
+  "probe": {
+    "note": "prior_success_restored",
+    "ok": true,
+    "status_code": 200
+  },
+  "snapshot_count": 219,
+  "snapshot_years": 23,
+  "snapshots_head": [
+    {
+      "original": "http://www.collegefitness.com:80/",
+      "status": "200",
+      "timestamp": "20010719153304"
+    }
+  ],
+  "status": "partial_restored",
+  "title": "CollegeFitness.com CDX span",
+  "wave": 2,
+  "years": [
+    "2001",
+    "2026"
+  ]
+}

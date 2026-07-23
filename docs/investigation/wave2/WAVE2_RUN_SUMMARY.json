@@ -1,0 +1,151 @@
+{
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W2",
+  "counts": {
+    "adjudicated_total": 0,
+    "by_status": {
+      "blocked_egress": 1,
+      "integrity_alert": 1,
+      "open_manual": 1,
+      "partial_restored": 1
+    },
+    "cdx_earliest": "20010719153304",
+    "cdx_latest": "20260309213507",
+    "cdx_snapshots": 219,
+    "cdx_years": 23,
+    "ohio_http_ok": 0,
+    "ohio_targets": 41,
+    "patent_probe_ok": 7,
+    "patent_title_mismatches": 6,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_key_path": "output_artifacts/investigation/.run_hmac_key",
+    "hmac_present": true,
+    "hmac_sha3_256": "44a3e4ccbc1f4b33eb5f60f83c5a40c3f9528690d867fe85e2e918d64edae538",
+    "leaves": [
+      {
+        "id": "patent_deep_screen",
+        "sha3_256": "822b12da7d8ab41b6b0725d66460c027fc731b752176407c6ae110029eed6c86",
+        "status": "integrity_alert"
+      },
+      {
+        "id": "ohio_opencorporates_full_screen",
+        "sha3_256": "d75e93e40a5de1b750a91e9c2c5408d7ce757c7349723e68116efa413422ddcb",
+        "status": "blocked_egress"
+      },
+      {
+        "id": "salvador_az_bar_screen",
+        "sha3_256": "d0acd62b19266c4f4570fefb3369d00b89391dd19e01bc0ca37f907a0b69cf3f",
+        "status": "open_manual"
+      },
+      {
+        "id": "collegefitness_cdx_span",
+        "sha3_256": "648304aae03a3c69118fb60cfab6f1477166f6ed6b1c3bee818209e4c6e817c2",
+        "status": "partial_restored"
+      }
+    ],
+    "root_sha3_512": "8b03b074b4662a9757a1daefb9538f91ec1dba0d72688aab158305fbde0ddf0083c43f5bd526f87d519e9ec0a226122ceb87d4b592ad858a1e59e8261e4e8500"
+  },
+  "generated_at": "2026-07-23T00:31:40Z",
+  "integrity_alert": "docs/investigation/INTEGRITY_ALERT_PATENT_MISMATCH.md",
+  "policy": "Wave-2 public screens. Patent title mismatches quarantine continuity pub numbers.",
+  "seal": "53e83970eff1ece8a9a3b18fe0da3dc556c6a21d9ff66d0606c622c0dd3318bb",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "citation_hold": [
+        "Do not cite CZ283061 as Caffeine Vaporizer until certified UPV extract confirms title/inventor",
+        "Do not cite US20220083955/56/57A1 as blockchain/IP Skoda filings \u2014 observed Google titles differ",
+        "WO2023123456A1 remains non-citable placeholder policy"
+      ],
+      "id": "patent_deep_screen",
+      "next_actions": [
+        "PRIORITY: Obtain certified Czech file for true caffeine vaporizer grant number (may not be 283061)",
+        "Rebuild continuity_chain node IDs from primary USPTO/WIPO records only",
+        "Quarantine mismatched publication numbers from any referral package"
+      ],
+      "status": "integrity_alert",
+      "title": "Czech/PCT/USPTO Google Patents deep screen",
+      "title_mismatches": [
+        {
+          "claimed_theme": "Caffeine Vaporizer",
+          "id": "CZ283061",
+          "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+          "severity": "CRITICAL"
+        },
+        {
+          "claimed_theme": "Caffeine Vaporizer",
+          "id": "CZ283061B6",
+          "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+          "severity": "CRITICAL"
+        },
+        {
+          "claimed_theme": "Linked in package as Skoda PCT; not caffeine vaporizer",
+          "id": "WO1997033272A1",
+          "note": "Aligns with court_ready SKODA_PCT title; does not authenticate CZ caffeine grant",
+          "observed_title": "WO1997033272A1 - Stringless twitch fret instrument - Google Patents",
+          "severity": "HIGH"
+        },
+        {
+          "claimed_theme": "Blockchain Patent Portfolio Management and Tokenized Royalty System",
+          "id": "US20220083955A1",
+          "observed_title": "US20220083955A1 - Dynamic inventory estimation - Google Patents",
+          "severity": "CRITICAL"
+        },
+        {
+          "claimed_theme": "Distributed Ledger Identity Verification for Intellectual Property",
+          "id": "US20220083956A1",
+          "observed_title": "US20220083956A1 - Stock management system - Google Patents",
+          "severity": "CRITICAL"
+        },
+        {
+          "claimed_theme": "continuity_chain_downstream_filing",
+          "id": "US20220083957A1",
+          "observed_title": "US20220083957A1 - Kiosk device having storage bins - Google Patents",
+          "severity": "CRITICAL"
+        }
+      ]
+    },
+    {
+      "adjudicated": false,
+      "citation_hold": null,
+      "id": "ohio_opencorporates_full_screen",
+      "next_actions": [
+        "Operator workstation: Ohio SOS business search abstracts for all 41 + 2 mirrors",
+        "Retry OpenCorporates with registered API key (OPENCORPORATES_KEY) if available",
+        "Never invent entities to close gap 28"
+      ],
+      "status": "blocked_egress",
+      "title": "Full Ohio LLC OpenCorporates screen (41+mirrors)",
+      "title_mismatches": null
+    },
+    {
+      "adjudicated": false,
+      "citation_hold": null,
+      "id": "salvador_az_bar_screen",
+      "next_actions": [
+        "Obtain certified Arizona State Bar discipline order (primary)",
+        "Do not charge from betrayal_allegation JSON flag alone"
+      ],
+      "status": "open_manual",
+      "title": "Anthony G. Salvador AZ bar discipline screen",
+      "title_mismatches": null
+    },
+    {
+      "adjudicated": false,
+      "citation_hold": null,
+      "id": "collegefitness_cdx_span",
+      "next_actions": [
+        "Re-pull CDX when Wayback stable",
+        "Correlate with counsel meeting years"
+      ],
+      "status": "partial_restored",
+      "title": "CollegeFitness.com CDX span",
+      "title_mismatches": null
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE2"
+}

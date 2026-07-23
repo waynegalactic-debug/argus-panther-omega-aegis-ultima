@@ -1,0 +1,184 @@
+{
+  "adjudicated": false,
+  "citation_hold": [
+    "Do not cite CZ283061 as Caffeine Vaporizer until certified UPV extract confirms title/inventor",
+    "Do not cite US20220083955/56/57A1 as blockchain/IP Skoda filings \u2014 observed Google titles differ",
+    "WO2023123456A1 remains non-citable placeholder policy"
+  ],
+  "id": "patent_deep_screen",
+  "next_actions": [
+    "PRIORITY: Obtain certified Czech file for true caffeine vaporizer grant number (may not be 283061)",
+    "Rebuild continuity_chain node IDs from primary USPTO/WIPO records only",
+    "Quarantine mismatched publication numbers from any referral package"
+  ],
+  "probe_ok_count": 7,
+  "results": [
+    {
+      "body_sha3_256": "733e098e15735121222d9f1e1757d4f4956ba8971d2b673870d83b1ee364265b",
+      "bytes": 103621,
+      "claimed_theme": "Caffeine Vaporizer",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 226,
+      "error": null,
+      "id": "CZ283061",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "Caffeine Vaporizer",
+        "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+        "severity": "CRITICAL"
+      },
+      "url": "https://patents.google.com/patent/CZ283061/en"
+    },
+    {
+      "body_sha3_256": "733e098e15735121222d9f1e1757d4f4956ba8971d2b673870d83b1ee364265b",
+      "bytes": 103621,
+      "claimed_theme": "Caffeine Vaporizer",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 151,
+      "error": null,
+      "id": "CZ283061B6",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "Caffeine Vaporizer",
+        "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+        "severity": "CRITICAL"
+      },
+      "url": "https://patents.google.com/patent/CZ283061B6/en"
+    },
+    {
+      "body_sha3_256": "6e1ea43b3d4ee0f78ca4a02757f4df5c743cdd321506af23ee944e5538c9ad8e",
+      "bytes": 137326,
+      "claimed_theme": "Stringless twitch fret instrument",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 193,
+      "error": null,
+      "id": "WO1997033272A1",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "WO1997033272A1 - Stringless twitch fret instrument - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "Linked in package as Skoda PCT; not caffeine vaporizer",
+        "note": "Aligns with court_ready SKODA_PCT title; does not authenticate CZ caffeine grant",
+        "observed_title": "WO1997033272A1 - Stringless twitch fret instrument - Google Patents",
+        "severity": "HIGH"
+      },
+      "url": "https://patents.google.com/patent/WO1997033272A1/en"
+    },
+    {
+      "body_sha3_256": "4d4d86dcb51c8ef518a8c08410eb81c5bd907f925fd3ef28cb6dd507221d6189",
+      "bytes": 300000,
+      "claimed_theme": "Blockchain Patent Portfolio Management and Tokenized Royalty System",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 211,
+      "error": null,
+      "id": "US20220083955A1",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "US20220083955A1 - Dynamic inventory estimation - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "Blockchain Patent Portfolio Management and Tokenized Royalty System",
+        "observed_title": "US20220083955A1 - Dynamic inventory estimation - Google Patents",
+        "severity": "CRITICAL"
+      },
+      "url": "https://patents.google.com/patent/US20220083955A1/en"
+    },
+    {
+      "body_sha3_256": "389e205a417557e873fa20eb252fa3c85342490a4d5df3e8c17aa96bc960a0c5",
+      "bytes": 236292,
+      "claimed_theme": "Distributed Ledger Identity Verification for Intellectual Property",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 193,
+      "error": null,
+      "id": "US20220083956A1",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "US20220083956A1 - Stock management system - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "Distributed Ledger Identity Verification for Intellectual Property",
+        "observed_title": "US20220083956A1 - Stock management system - Google Patents",
+        "severity": "CRITICAL"
+      },
+      "url": "https://patents.google.com/patent/US20220083956A1/en"
+    },
+    {
+      "body_sha3_256": "83c41cab306003be26b012e47fe45950714885e4a8e64d780360942444cbdcf0",
+      "bytes": 300000,
+      "claimed_theme": "continuity_chain_downstream_filing",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 191,
+      "error": null,
+      "id": "US20220083957A1",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "US20220083957A1 - Kiosk device having storage bins - Google Patents",
+      "title_mismatch": {
+        "claimed_theme": "continuity_chain_downstream_filing",
+        "observed_title": "US20220083957A1 - Kiosk device having storage bins - Google Patents",
+        "severity": "CRITICAL"
+      },
+      "url": "https://patents.google.com/patent/US20220083957A1/en"
+    },
+    {
+      "body_sha3_256": "f1360ec791da475d9b52b5e03535b67aad8b468503b95f11bce5fdf867eab476",
+      "bytes": 260976,
+      "citation_policy": "DO_NOT_CITE_UNTIL_VERIFIED_OR_STRICKEN",
+      "claimed_theme": "continuity_chain_pct_placeholder",
+      "content_hit_heuristic": true,
+      "elapsed_ms": 198,
+      "error": null,
+      "id": "WO2023123456A1",
+      "probe_ok": true,
+      "status_code": 200,
+      "title": "WO2023123456A1 - Vehicle location prediction method and apparatus, and vehicle and storage medium - Google Patents",
+      "title_mismatch": null,
+      "url": "https://patents.google.com/patent/WO2023123456A1/en"
+    }
+  ],
+  "status": "integrity_alert",
+  "title": "Czech/PCT/USPTO Google Patents deep screen",
+  "title_mismatch_count": 6,
+  "title_mismatches": [
+    {
+      "claimed_theme": "Caffeine Vaporizer",
+      "id": "CZ283061",
+      "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+      "severity": "CRITICAL"
+    },
+    {
+      "claimed_theme": "Caffeine Vaporizer",
+      "id": "CZ283061B6",
+      "observed_title": "CZ283061B6 - Weft insertion motion for a loom - Google Patents",
+      "severity": "CRITICAL"
+    },
+    {
+      "claimed_theme": "Linked in package as Skoda PCT; not caffeine vaporizer",
+      "id": "WO1997033272A1",
+      "note": "Aligns with court_ready SKODA_PCT title; does not authenticate CZ caffeine grant",
+      "observed_title": "WO1997033272A1 - Stringless twitch fret instrument - Google Patents",
+      "severity": "HIGH"
+    },
+    {
+      "claimed_theme": "Blockchain Patent Portfolio Management and Tokenized Royalty System",
+      "id": "US20220083955A1",
+      "observed_title": "US20220083955A1 - Dynamic inventory estimation - Google Patents",
+      "severity": "CRITICAL"
+    },
+    {
+      "claimed_theme": "Distributed Ledger Identity Verification for Intellectual Property",
+      "id": "US20220083956A1",
+      "observed_title": "US20220083956A1 - Stock management system - Google Patents",
+      "severity": "CRITICAL"
+    },
+    {
+      "claimed_theme": "continuity_chain_downstream_filing",
+      "id": "US20220083957A1",
+      "observed_title": "US20220083957A1 - Kiosk device having storage bins - Google Patents",
+      "severity": "CRITICAL"
+    }
+  ],
+  "wave": 2
+}
