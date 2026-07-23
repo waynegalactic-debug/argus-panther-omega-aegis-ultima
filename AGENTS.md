@@ -40,6 +40,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave26
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave27  # includes wrapped RaP (wRaP)
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave28  # finer multi-tier cyber-dust
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave29  # NVIDIA consolidated hypergraph
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave30  # top-10 insights + deeper dust
 US_IPFORCE_VERIFIED_MODE=1 python3 aegis_hyperion.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
