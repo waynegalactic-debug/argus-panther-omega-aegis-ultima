@@ -47,6 +47,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave33  # deepen 
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave34  # NFT inventory + all linked images
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave35  # first million linked wallets (BFS)
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave36  # NVIDIA full stack accelerated analysis
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave37  # first 10M linked wallets + NVIDIA accel
 US_IPFORCE_VERIFIED_MODE=1 python3 aegis_hyperion.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
@@ -83,6 +84,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave33.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave34.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave35.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave36.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave37.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith

@@ -237,6 +237,14 @@ def main(argv: list[str] | None = None) -> int:
             "(RAPIDS/CuPy/Numba) on linked-wallet + hypergraph analysis"
         ),
     )
+    parser.add_argument(
+        "--investigate-wave37",
+        action="store_true",
+        help=(
+            "Run investigation wave-37 BFS to first ten million linked "
+            "wallets with NVIDIA full-stack accelerated analysis"
+        ),
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -285,6 +293,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave34,
             args.investigate_wave35,
             args.investigate_wave36,
+            args.investigate_wave37,
         )
     )
     if wave_flags > 1:
@@ -300,7 +309,8 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave25 / --investigate-wave26 / --investigate-wave27 / "
             "--investigate-wave28 / --investigate-wave29 / --investigate-wave30 / "
             "--investigate-wave31 / --investigate-wave32 / --investigate-wave33 / "
-            "--investigate-wave34 / --investigate-wave35 / --investigate-wave36.",
+            "--investigate-wave34 / --investigate-wave35 / --investigate-wave36 / "
+            "--investigate-wave37.",
             file=sys.stderr,
         )
         return 2
@@ -479,6 +489,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave36 import main as wave36_main
 
         return int(wave36_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave37:
+        from us_ipforce_investigation_wave37 import main as wave37_main
+
+        return int(wave37_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main
