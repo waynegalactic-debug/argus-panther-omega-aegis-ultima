@@ -1,0 +1,28 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W32-M1",
+      "item": "USPTO assignments for all 15 sealed pubs (gates IP-flow charging theories)",
+      "priority": "IMMEDIATE"
+    },
+    {
+      "id": "W32-M2",
+      "item": "Archive-node uncapped money-flow pagination for page-capped EOAs",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W32-M3",
+      "item": "Do not equate marketplace/WETH flows with IP royalty or stolen-IP monetization",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W32-M4",
+      "item": "Supply non-ETH chain addresses if multi-chain money/IP theories persist",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-32 operator worklist"
+}

@@ -1,0 +1,557 @@
+{
+  "findings": [
+    {
+      "alleged_corpus_constants": {
+        "patent_families_15213": {
+          "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+          "value_claimed": 15213
+        },
+        "wip_0194": {
+          "located": false,
+          "status": "UNLOCATED_OR_UNAUTHENTICATED"
+        }
+      },
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "detail": "IP flow baseline = 15 sealed pubs across 5 assignee clusters. On-chain IP-heuristic token hits across money screens=0; sealed pub-number matches in token metadata=0. USPTO assignment chains remain unauthenticated. No theft adjudication.",
+      "id": "W32-F2",
+      "illicit_royalty_adjudicated": false,
+      "ip_flow_graph": {
+        "edge_meaning": "Metadata assignee→publication edges only — NOT authenticated USPTO assignment conveyances",
+        "edges": [
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US11234465B2"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US11275070B2"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20180191180A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20190240429A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Brent M. Skoda",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20190378609A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20200005924A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20210202056A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:UrgentRN LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20220104664A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20230112752A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Ventures LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240215633A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240242809A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240244430A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20250054595A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20250177708A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Ventures LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:USD795407S1"
+          }
+        ],
+        "nodes": [
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+            "id": "pub:US11234465B2",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US11234465B2",
+            "title": "Heating mechanisms for vaporizers"
+          },
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+            "id": "pub:US11275070B2",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US11275070B2",
+            "title": "Systems and methods for dipstick diagnostic tools and related methods"
+          },
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+            "id": "pub:US20180191180A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20180191180A1",
+            "title": "Systems and methods for portable charging systems and designs thereof"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+            "id": "pub:US20190240429A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20190240429A1",
+            "title": "Systems and methods for intelligent vaporizers"
+          },
+          {
+            "assignee_field": "Brent M. Skoda",
+            "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+            "id": "pub:US20190378609A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20190378609A1",
+            "title": "Systems and methods for medical dispensing, management and monitoring"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+            "id": "pub:US20200005924A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20200005924A1",
+            "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+            "id": "pub:US20210202056A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20210202056A1",
+            "title": "Systems and methods for managing a medical supply chain"
+          },
+          {
+            "assignee_field": "UrgentRN LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+            "id": "pub:US20220104664A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20220104664A1",
+            "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+            "id": "pub:US20230112752A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20230112752A1",
+            "title": "Systems and methods for intelligent vaporizers"
+          },
+          {
+            "assignee_field": "Ahkeo Ventures LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+            "id": "pub:US20240215633A1",
+            "inventor_query": "inventor=\"Brent Skoda\"",
+            "kind": "publication",
+            "publication": "US20240215633A1",
+            "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+            "id": "pub:US20240242809A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20240242809A1",
+            "title": "Systems and methods for medical dispensing, management and monitoring"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+            "id": "pub:US20240244430A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20240244430A1",
+            "title": "Network-enabled electronic cigarette"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+            "id": "pub:US20250054595A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20250054595A1",
+            "title": "Systems and methods for smart mixers"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+            "id": "pub:US20250177708A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20250177708A1",
+            "title": "Systems and methods for medical diagnostics and medication delivery"
+          },
+          {
+            "assignee_field": "Ahkeo Ventures LLC",
+            "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+            "id": "pub:USD795407S1",
+            "inventor_query": "inventor=\"Brent Skoda\"",
+            "kind": "publication",
+            "publication": "USD795407S1",
+            "title": "Vaporization and inhaler apparatus"
+          },
+          {
+            "count": 3,
+            "id": "assignee:Ahkeo Labs, Llc",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US11234465B2",
+              "US11275070B2",
+              "US20180191180A1"
+            ]
+          },
+          {
+            "count": 8,
+            "id": "assignee:Zorday IP, LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20190240429A1",
+              "US20200005924A1",
+              "US20210202056A1",
+              "US20230112752A1",
+              "US20240242809A1",
+              "US20240244430A1",
+              "US20250054595A1",
+              "US20250177708A1"
+            ]
+          },
+          {
+            "count": 1,
+            "id": "assignee:Brent M. Skoda",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20190378609A1"
+            ]
+          },
+          {
+            "count": 1,
+            "id": "assignee:UrgentRN LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20220104664A1"
+            ]
+          },
+          {
+            "count": 2,
+            "id": "assignee:Ahkeo Ventures LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20240215633A1",
+              "USD795407S1"
+            ]
+          }
+        ]
+      },
+      "onchain_ip_by_label": {
+        "abg.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "authenticbrands.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "elonmusk.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "fyllo.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "jamiesalter.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "japantobacco.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "jensenhuang.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "juul.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "juullabs.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "njoy.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pax.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "paxlabs.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "philipmorris.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "philipmorrisusa.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "ploom.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pmi.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pmusa.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "sama.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "vitalik.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        }
+      },
+      "onchain_ip_linked_token_hits_total": 0,
+      "sealed_pub_id_token_metadata_hits_total": 0,
+      "sealed_publication_count": 15,
+      "stolen_ip_conveyance_authenticated": false,
+      "theft_adjudicated": false,
+      "title": "All intellectual-property flows followed (sealed pubs + on-chain IP heuristics)",
+      "traditional_ip_flow_status": {
+        "licensing_to_screened_subjects_authenticated": false,
+        "uspto_assignment_chain_authenticated": false,
+        "wave14_note": "Google Patents inventor-search fields only. Assignment ownership requires USPTO assignment records.",
+        "wave25_disposition_retained": {
+          "alleged_15213_authenticated": false,
+          "illicit_royalty_adjudicated": false,
+          "stolen_ip_link_universally_authenticated": false,
+          "theft_adjudicated": false,
+          "wip_0194_artifact_located": false
+        }
+      }
+    }
+  ],
+  "id": "all_intellectual_property_flows",
+  "next_actions": [
+    "USPTO assignment extract for all 15 sealed pubs",
+    "Do not treat WETH/marketplace token noise as IP royalty rails"
+  ],
+  "publications": [
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US11234465B2",
+      "title": "Heating mechanisms for vaporizers"
+    },
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US11275070B2",
+      "title": "Systems and methods for dipstick diagnostic tools and related methods"
+    },
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20180191180A1",
+      "title": "Systems and methods for portable charging systems and designs thereof"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20190240429A1",
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": "Brent M. Skoda",
+      "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20190378609A1",
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20200005924A1",
+      "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20210202056A1",
+      "title": "Systems and methods for managing a medical supply chain"
+    },
+    {
+      "assignee_field": "UrgentRN LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20220104664A1",
+      "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20230112752A1",
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": "Ahkeo Ventures LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+      "inventor_query": "inventor=\"Brent Skoda\"",
+      "publication": "US20240215633A1",
+      "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20240242809A1",
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20240244430A1",
+      "title": "Network-enabled electronic cigarette"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20250054595A1",
+      "title": "Systems and methods for smart mixers"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+      "inventor_query": "inventor=\"Brent M. Skoda\"",
+      "publication": "US20250177708A1",
+      "title": "Systems and methods for medical diagnostics and medication delivery"
+    },
+    {
+      "assignee_field": "Ahkeo Ventures LLC",
+      "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+      "inventor_query": "inventor=\"Brent Skoda\"",
+      "publication": "USD795407S1",
+      "title": "Vaporization and inhaler apparatus"
+    }
+  ],
+  "status": "SEALED",
+  "title": "All intellectual-property flows"
+}

@@ -1,0 +1,491 @@
+{
+  "findings": [
+    {
+      "any_ip_heuristic_token_hit": false,
+      "any_sealed_pub_metadata_match_on_money_screens": false,
+      "authenticated_ip_royalty_or_license_payment_rail": false,
+      "authenticated_money_flow_to_sealed_ip": false,
+      "detail": "Cross-matrix for 19 labels. Sealed-set money edges=0. Sealed-pub metadata matches on money screens=False; IP-heuristic token hits present=False. No authenticated money→sealed-IP royalty/license rail.",
+      "id": "W32-F3",
+      "illicit_royalty_adjudicated": false,
+      "nexus_rows": [
+        {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "eth_in_eth": 0.74569354,
+          "eth_out_eth": 1.0256677786479125,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "abg.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 4
+        },
+        {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "eth_in_eth": 0.6,
+          "eth_out_eth": 0.37446765211809285,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "authenticbrands.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 10
+        },
+        {
+          "address": "0x983110309620D911731Ac0932219af06091b6744",
+          "eth_in_eth": 68.61293819080582,
+          "eth_out_eth": 132.53777739399214,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "elonmusk.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+          "eth_in_eth": 17.01255854,
+          "eth_out_eth": 8.981478074748157,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "fyllo.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 95
+        },
+        {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "eth_in_eth": 11.134314023577383,
+          "eth_out_eth": 50.869657029561715,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "jamiesalter.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "jamiesalter.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "eth_in_eth": 5.0248271529420565,
+          "eth_out_eth": 3.4737017133612835,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "japantobacco.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 173
+        },
+        {
+          "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+          "eth_in_eth": 14.504384266357762,
+          "eth_out_eth": 30.004549292253802,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "jensenhuang.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "eth_in_eth": 43.432339441050466,
+          "eth_out_eth": 237.51298031683368,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "juul.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "eth_in_eth": 68.31823386454937,
+          "eth_out_eth": 140.08460192670123,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "juullabs.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "juullabs.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 304
+        },
+        {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "eth_in_eth": 19.07275072668008,
+          "eth_out_eth": 19.294081509479152,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "njoy.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 187
+        },
+        {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "eth_in_eth": 4.13066612648921,
+          "eth_out_eth": 6.992407368156391,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pax.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 11
+        },
+        {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "eth_in_eth": 80.27580575124323,
+          "eth_out_eth": 206.2215865119841,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "paxlabs.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "eth_in_eth": 17.6338046020962,
+          "eth_out_eth": 34.36256600929792,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "philipmorris.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "philipmorris.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "eth_in_eth": 12.463406543936959,
+          "eth_out_eth": 60.16384091513331,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "philipmorrisusa.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "eth_in_eth": 3.8303206381002997,
+          "eth_out_eth": 6.501564968096229,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "ploom.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 104
+        },
+        {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "eth_in_eth": 67.65480249,
+          "eth_out_eth": 95.49609488638353,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pmi.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 591
+        },
+        {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "eth_in_eth": 10.621668453647438,
+          "eth_out_eth": 69.76790906607248,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pmusa.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+          "eth_in_eth": 44.90644958452618,
+          "eth_out_eth": 89.31256569494599,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "sama.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "eth_in_eth": 0.46334709957197745,
+          "eth_out_eth": 224.094,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "vitalik.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        }
+      ],
+      "sealed_money_edges_among_addresses": 0,
+      "theft_adjudicated": false,
+      "title": "Money ↔ intellectual-property nexus matrix (full expansion)"
+    }
+  ],
+  "id": "money_ip_nexus_matrix",
+  "nexus_rows": [
+    {
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "eth_in_eth": 0.74569354,
+      "eth_out_eth": 1.0256677786479125,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "abg.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 4
+    },
+    {
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "eth_in_eth": 0.6,
+      "eth_out_eth": 0.37446765211809285,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "authenticbrands.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 10
+    },
+    {
+      "address": "0x983110309620D911731Ac0932219af06091b6744",
+      "eth_in_eth": 68.61293819080582,
+      "eth_out_eth": 132.53777739399214,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "elonmusk.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "eth_in_eth": 17.01255854,
+      "eth_out_eth": 8.981478074748157,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "fyllo.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 95
+    },
+    {
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "eth_in_eth": 11.134314023577383,
+      "eth_out_eth": 50.869657029561715,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "jamiesalter.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [
+        "jamiesalter.eth"
+      ],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+      "eth_in_eth": 5.0248271529420565,
+      "eth_out_eth": 3.4737017133612835,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "japantobacco.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 173
+    },
+    {
+      "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+      "eth_in_eth": 14.504384266357762,
+      "eth_out_eth": 30.004549292253802,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "jensenhuang.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "eth_in_eth": 43.432339441050466,
+      "eth_out_eth": 237.51298031683368,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "juul.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+      "eth_in_eth": 68.31823386454937,
+      "eth_out_eth": 140.08460192670123,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "juullabs.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [
+        "juullabs.eth"
+      ],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 304
+    },
+    {
+      "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+      "eth_in_eth": 19.07275072668008,
+      "eth_out_eth": 19.294081509479152,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "njoy.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 187
+    },
+    {
+      "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+      "eth_in_eth": 4.13066612648921,
+      "eth_out_eth": 6.992407368156391,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "pax.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 11
+    },
+    {
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "eth_in_eth": 80.27580575124323,
+      "eth_out_eth": 206.2215865119841,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "paxlabs.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "eth_in_eth": 17.6338046020962,
+      "eth_out_eth": 34.36256600929792,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "philipmorris.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [
+        "philipmorris.eth"
+      ],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "eth_in_eth": 12.463406543936959,
+      "eth_out_eth": 60.16384091513331,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "philipmorrisusa.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+      "eth_in_eth": 3.8303206381002997,
+      "eth_out_eth": 6.501564968096229,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "ploom.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 104
+    },
+    {
+      "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+      "eth_in_eth": 67.65480249,
+      "eth_out_eth": 95.49609488638353,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "pmi.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 591
+    },
+    {
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "eth_in_eth": 10.621668453647438,
+      "eth_out_eth": 69.76790906607248,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "pmusa.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+      "eth_in_eth": 44.90644958452618,
+      "eth_out_eth": 89.31256569494599,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "sama.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    },
+    {
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "eth_in_eth": 0.46334709957197745,
+      "eth_out_eth": 224.094,
+      "ip_linked_token_hits": 0,
+      "ip_royalty_rail_authenticated": false,
+      "label": "vitalik.eth",
+      "money_to_sealed_ip_authenticated": false,
+      "sealed_eth_peers": [],
+      "sealed_pub_metadata_matches": [],
+      "token_transfers": 600
+    }
+  ],
+  "status": "SEALED",
+  "title": "Money ↔ IP nexus matrix"
+}

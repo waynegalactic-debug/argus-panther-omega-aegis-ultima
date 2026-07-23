@@ -1,0 +1,853 @@
+{
+  "artifacts": {
+    "ip": "docs/investigation/wave32/all_intellectual_property_flows.json",
+    "money": "docs/investigation/wave32/all_money_flows.json",
+    "nexus": "docs/investigation/wave32/money_ip_nexus_matrix.json",
+    "summary_md": "docs/investigation/WAVE32_MONEY_AND_IP_FLOWS.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W32",
+  "counts": {
+    "addresses_screened": 19,
+    "adjudicated_total": 0,
+    "findings": 3,
+    "onchain_ip_token_hits": 0,
+    "sealed_money_edges": 0,
+    "sealed_publications": 15,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "5eb1a93ea2c049108bf2bd9f6107d4511cb53f0c7b8e5b49dafe702afdca2fc3",
+    "leaves": [
+      {
+        "id": "all_money_flows",
+        "sha3_256": "dac1d4560faed18a38ae57d10e60fb07856a41119ab087b8c4a02bc73b988953",
+        "status": "SEALED"
+      },
+      {
+        "id": "all_intellectual_property_flows",
+        "sha3_256": "ab7db94d9b9156b1b9f5f56c508b3e826c127f9a3ab1b7d37e93ab1f8b66d1a9",
+        "status": "SEALED"
+      },
+      {
+        "id": "money_ip_nexus_matrix",
+        "sha3_256": "0da780ab7552cbfbcb3cb1bb080701f77678317130b5dcb3fa79680b3a2d125a",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "f0ec38d2039479fc7afdeb325dbcd93cd6c2cebf9ecc811d15d06382c040f333",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "50bfde6ed901aea59ad0c898342de50203e02793f2a059159df81bcc5a5ad41c6c211fa09ae2832c4b7b948376f0b297c0f6496e5b9ac08054b814c17556ce68"
+  },
+  "disposition": {
+    "authenticated_ip_royalty_or_license_payment_rail": false,
+    "authenticated_money_flow_to_sealed_ip": false,
+    "illicit_money_flow_adjudicated": false,
+    "illicit_royalty_adjudicated": false,
+    "stolen_ip_conveyance_authenticated": false,
+    "theft_adjudicated": false,
+    "uspto_assignment_chain_authenticated": false
+  },
+  "elapsed_ms": 331368,
+  "findings": [
+    {
+      "address_book": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "elonmusk.eth": "0x983110309620D911731Ac0932219af06091b6744",
+        "fyllo.eth": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+        "japantobacco.eth": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+        "jensenhuang.eth": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+        "juul.eth": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+        "juullabs.eth": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+        "njoy.eth": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+        "pax.eth": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+        "paxlabs.eth": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+        "philipmorris.eth": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+        "philipmorrisusa.eth": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+        "ploom.eth": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+        "pmi.eth": "0x516F381d6C94110CDE63F3266B779065525096f7",
+        "pmusa.eth": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+        "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+        "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      "addresses_hitting_page_cap": [
+        "juul.eth",
+        "elonmusk.eth",
+        "jensenhuang.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "paxlabs.eth",
+        "jamiesalter.eth",
+        "pmusa.eth",
+        "vitalik.eth",
+        "sama.eth"
+      ],
+      "addresses_screened": 19,
+      "aggregate_eth_in_eth": 490.43831103557443,
+      "aggregate_eth_in_wei": 490438311035574420556,
+      "aggregate_eth_out_eth": 1417.0714981077672,
+      "aggregate_eth_out_wei": 1417071498107767135368,
+      "aggregate_token_transfers": 7479,
+      "detail": "Followed money flows for 19 labels. Aggregate ETH in=490.438311 / out=1417.071498 (scanned pages). Token transfers scanned=7479. Sealed-set money edges=0 / pair space 171. Not an illicit-flow adjudication.",
+      "id": "W32-F1",
+      "illicit_money_flow_adjudicated": false,
+      "pair_space": 171,
+      "sealed_set_money_edge_count": 0,
+      "sealed_set_money_edges": [],
+      "title": "All money flows followed across sealed addresses (ETH + internal + tokens)"
+    },
+    {
+      "alleged_corpus_constants": {
+        "patent_families_15213": {
+          "status": "ALLEGED_CORPUS_CONSTANT_NOT_AUTHENTICATED",
+          "value_claimed": 15213
+        },
+        "wip_0194": {
+          "located": false,
+          "status": "UNLOCATED_OR_UNAUTHENTICATED"
+        }
+      },
+      "assignee_clusters": {
+        "Ahkeo Labs, Llc": [
+          "US11234465B2",
+          "US11275070B2",
+          "US20180191180A1"
+        ],
+        "Ahkeo Ventures LLC": [
+          "US20240215633A1",
+          "USD795407S1"
+        ],
+        "Brent M. Skoda": [
+          "US20190378609A1"
+        ],
+        "UrgentRN LLC": [
+          "US20220104664A1"
+        ],
+        "Zorday IP, LLC": [
+          "US20190240429A1",
+          "US20200005924A1",
+          "US20210202056A1",
+          "US20230112752A1",
+          "US20240242809A1",
+          "US20240244430A1",
+          "US20250054595A1",
+          "US20250177708A1"
+        ]
+      },
+      "detail": "IP flow baseline = 15 sealed pubs across 5 assignee clusters. On-chain IP-heuristic token hits across money screens=0; sealed pub-number matches in token metadata=0. USPTO assignment chains remain unauthenticated. No theft adjudication.",
+      "id": "W32-F2",
+      "illicit_royalty_adjudicated": false,
+      "ip_flow_graph": {
+        "edge_meaning": "Metadata assignee→publication edges only — NOT authenticated USPTO assignment conveyances",
+        "edges": [
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US11234465B2"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US11275070B2"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Labs, Llc",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20180191180A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20190240429A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Brent M. Skoda",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20190378609A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20200005924A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20210202056A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:UrgentRN LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20220104664A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20230112752A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Ventures LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240215633A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240242809A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20240244430A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20250054595A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Zorday IP, LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:US20250177708A1"
+          },
+          {
+            "authenticated_assignment_chain": false,
+            "from": "assignee:Ahkeo Ventures LLC",
+            "relation": "assignee_of_record_on_publication_metadata",
+            "to": "pub:USD795407S1"
+          }
+        ],
+        "nodes": [
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+            "id": "pub:US11234465B2",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US11234465B2",
+            "title": "Heating mechanisms for vaporizers"
+          },
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+            "id": "pub:US11275070B2",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US11275070B2",
+            "title": "Systems and methods for dipstick diagnostic tools and related methods"
+          },
+          {
+            "assignee_field": "Ahkeo Labs, Llc",
+            "google_patents_url": "https://patents.google.com/patent/US20180191180A1/en",
+            "id": "pub:US20180191180A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20180191180A1",
+            "title": "Systems and methods for portable charging systems and designs thereof"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+            "id": "pub:US20190240429A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20190240429A1",
+            "title": "Systems and methods for intelligent vaporizers"
+          },
+          {
+            "assignee_field": "Brent M. Skoda",
+            "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+            "id": "pub:US20190378609A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20190378609A1",
+            "title": "Systems and methods for medical dispensing, management and monitoring"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+            "id": "pub:US20200005924A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20200005924A1",
+            "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+            "id": "pub:US20210202056A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20210202056A1",
+            "title": "Systems and methods for managing a medical supply chain"
+          },
+          {
+            "assignee_field": "UrgentRN LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20220104664A1/en",
+            "id": "pub:US20220104664A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20220104664A1",
+            "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+            "id": "pub:US20230112752A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20230112752A1",
+            "title": "Systems and methods for intelligent vaporizers"
+          },
+          {
+            "assignee_field": "Ahkeo Ventures LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+            "id": "pub:US20240215633A1",
+            "inventor_query": "inventor=\"Brent Skoda\"",
+            "kind": "publication",
+            "publication": "US20240215633A1",
+            "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+            "id": "pub:US20240242809A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20240242809A1",
+            "title": "Systems and methods for medical dispensing, management and monitoring"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+            "id": "pub:US20240244430A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20240244430A1",
+            "title": "Network-enabled electronic cigarette"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20250054595A1/en",
+            "id": "pub:US20250054595A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20250054595A1",
+            "title": "Systems and methods for smart mixers"
+          },
+          {
+            "assignee_field": "Zorday IP, LLC",
+            "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+            "id": "pub:US20250177708A1",
+            "inventor_query": "inventor=\"Brent M. Skoda\"",
+            "kind": "publication",
+            "publication": "US20250177708A1",
+            "title": "Systems and methods for medical diagnostics and medication delivery"
+          },
+          {
+            "assignee_field": "Ahkeo Ventures LLC",
+            "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+            "id": "pub:USD795407S1",
+            "inventor_query": "inventor=\"Brent Skoda\"",
+            "kind": "publication",
+            "publication": "USD795407S1",
+            "title": "Vaporization and inhaler apparatus"
+          },
+          {
+            "count": 3,
+            "id": "assignee:Ahkeo Labs, Llc",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US11234465B2",
+              "US11275070B2",
+              "US20180191180A1"
+            ]
+          },
+          {
+            "count": 8,
+            "id": "assignee:Zorday IP, LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20190240429A1",
+              "US20200005924A1",
+              "US20210202056A1",
+              "US20230112752A1",
+              "US20240242809A1",
+              "US20240244430A1",
+              "US20250054595A1",
+              "US20250177708A1"
+            ]
+          },
+          {
+            "count": 1,
+            "id": "assignee:Brent M. Skoda",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20190378609A1"
+            ]
+          },
+          {
+            "count": 1,
+            "id": "assignee:UrgentRN LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20220104664A1"
+            ]
+          },
+          {
+            "count": 2,
+            "id": "assignee:Ahkeo Ventures LLC",
+            "kind": "assignee_cluster",
+            "publications": [
+              "US20240215633A1",
+              "USD795407S1"
+            ]
+          }
+        ]
+      },
+      "onchain_ip_by_label": {
+        "abg.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "authenticbrands.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "elonmusk.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "fyllo.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "jamiesalter.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "japantobacco.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "jensenhuang.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "juul.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "juullabs.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "njoy.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pax.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "paxlabs.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "philipmorris.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "philipmorrisusa.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "ploom.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pmi.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "pmusa.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "sama.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        },
+        "vitalik.eth": {
+          "ip_linked_token_hit_count": 0,
+          "ip_linked_token_samples": [],
+          "sealed_pub_id_matches_in_token_metadata": []
+        }
+      },
+      "onchain_ip_linked_token_hits_total": 0,
+      "sealed_pub_id_token_metadata_hits_total": 0,
+      "sealed_publication_count": 15,
+      "stolen_ip_conveyance_authenticated": false,
+      "theft_adjudicated": false,
+      "title": "All intellectual-property flows followed (sealed pubs + on-chain IP heuristics)",
+      "traditional_ip_flow_status": {
+        "licensing_to_screened_subjects_authenticated": false,
+        "uspto_assignment_chain_authenticated": false,
+        "wave14_note": "Google Patents inventor-search fields only. Assignment ownership requires USPTO assignment records.",
+        "wave25_disposition_retained": {
+          "alleged_15213_authenticated": false,
+          "illicit_royalty_adjudicated": false,
+          "stolen_ip_link_universally_authenticated": false,
+          "theft_adjudicated": false,
+          "wip_0194_artifact_located": false
+        }
+      }
+    },
+    {
+      "any_ip_heuristic_token_hit": false,
+      "any_sealed_pub_metadata_match_on_money_screens": false,
+      "authenticated_ip_royalty_or_license_payment_rail": false,
+      "authenticated_money_flow_to_sealed_ip": false,
+      "detail": "Cross-matrix for 19 labels. Sealed-set money edges=0. Sealed-pub metadata matches on money screens=False; IP-heuristic token hits present=False. No authenticated money→sealed-IP royalty/license rail.",
+      "id": "W32-F3",
+      "illicit_royalty_adjudicated": false,
+      "nexus_rows": [
+        {
+          "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+          "eth_in_eth": 0.74569354,
+          "eth_out_eth": 1.0256677786479125,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "abg.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 4
+        },
+        {
+          "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+          "eth_in_eth": 0.6,
+          "eth_out_eth": 0.37446765211809285,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "authenticbrands.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 10
+        },
+        {
+          "address": "0x983110309620D911731Ac0932219af06091b6744",
+          "eth_in_eth": 68.61293819080582,
+          "eth_out_eth": 132.53777739399214,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "elonmusk.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+          "eth_in_eth": 17.01255854,
+          "eth_out_eth": 8.981478074748157,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "fyllo.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 95
+        },
+        {
+          "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+          "eth_in_eth": 11.134314023577383,
+          "eth_out_eth": 50.869657029561715,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "jamiesalter.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "jamiesalter.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+          "eth_in_eth": 5.0248271529420565,
+          "eth_out_eth": 3.4737017133612835,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "japantobacco.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 173
+        },
+        {
+          "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+          "eth_in_eth": 14.504384266357762,
+          "eth_out_eth": 30.004549292253802,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "jensenhuang.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+          "eth_in_eth": 43.432339441050466,
+          "eth_out_eth": 237.51298031683368,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "juul.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+          "eth_in_eth": 68.31823386454937,
+          "eth_out_eth": 140.08460192670123,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "juullabs.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "juullabs.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 304
+        },
+        {
+          "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+          "eth_in_eth": 19.07275072668008,
+          "eth_out_eth": 19.294081509479152,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "njoy.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 187
+        },
+        {
+          "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+          "eth_in_eth": 4.13066612648921,
+          "eth_out_eth": 6.992407368156391,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pax.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 11
+        },
+        {
+          "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+          "eth_in_eth": 80.27580575124323,
+          "eth_out_eth": 206.2215865119841,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "paxlabs.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+          "eth_in_eth": 17.6338046020962,
+          "eth_out_eth": 34.36256600929792,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "philipmorris.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [
+            "philipmorris.eth"
+          ],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+          "eth_in_eth": 12.463406543936959,
+          "eth_out_eth": 60.16384091513331,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "philipmorrisusa.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+          "eth_in_eth": 3.8303206381002997,
+          "eth_out_eth": 6.501564968096229,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "ploom.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 104
+        },
+        {
+          "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+          "eth_in_eth": 67.65480249,
+          "eth_out_eth": 95.49609488638353,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pmi.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 591
+        },
+        {
+          "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+          "eth_in_eth": 10.621668453647438,
+          "eth_out_eth": 69.76790906607248,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "pmusa.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+          "eth_in_eth": 44.90644958452618,
+          "eth_out_eth": 89.31256569494599,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "sama.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        },
+        {
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "eth_in_eth": 0.46334709957197745,
+          "eth_out_eth": 224.094,
+          "ip_linked_token_hits": 0,
+          "ip_royalty_rail_authenticated": false,
+          "label": "vitalik.eth",
+          "money_to_sealed_ip_authenticated": false,
+          "sealed_eth_peers": [],
+          "sealed_pub_metadata_matches": [],
+          "token_transfers": 600
+        }
+      ],
+      "sealed_money_edges_among_addresses": 0,
+      "theft_adjudicated": false,
+      "title": "Money ↔ intellectual-property nexus matrix (full expansion)"
+    }
+  ],
+  "generated_at": "2026-07-23T22:05:36Z",
+  "policy": "Wave-32 deepens analysis to follow all money flows and all intellectual-property flows across the sealed set, with a money↔IP nexus matrix. No theft, illicit-royalty, or stolen-IP conveyance adjudication.",
+  "seal": "0d5649fb20afc719769f25314391df730cbe405d845098ae99f9c0aeb695c44f",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "all_money_flows",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "All money flows (sealed address set)"
+    },
+    {
+      "adjudicated": false,
+      "id": "all_intellectual_property_flows",
+      "next_actions": [
+        "USPTO assignment extract for all 15 sealed pubs",
+        "Do not treat WETH/marketplace token noise as IP royalty rails"
+      ],
+      "status": "SEALED",
+      "title": "All intellectual-property flows"
+    },
+    {
+      "adjudicated": false,
+      "id": "money_ip_nexus_matrix",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "Money ↔ IP nexus matrix"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W32-M1",
+          "item": "USPTO assignments for all 15 sealed pubs (gates IP-flow charging theories)",
+          "priority": "IMMEDIATE"
+        },
+        {
+          "id": "W32-M2",
+          "item": "Archive-node uncapped money-flow pagination for page-capped EOAs",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W32-M3",
+          "item": "Do not equate marketplace/WETH flows with IP royalty or stolen-IP monetization",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W32-M4",
+          "item": "Supply non-ETH chain addresses if multi-chain money/IP theories persist",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-32 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE32"
+}

@@ -1,0 +1,5491 @@
+{
+  "findings": [
+    {
+      "address_book": {
+        "abg.eth": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+        "authenticbrands.eth": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+        "elonmusk.eth": "0x983110309620D911731Ac0932219af06091b6744",
+        "fyllo.eth": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+        "jamiesalter.eth": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+        "japantobacco.eth": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+        "jensenhuang.eth": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+        "juul.eth": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+        "juullabs.eth": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+        "njoy.eth": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+        "pax.eth": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+        "paxlabs.eth": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+        "philipmorris.eth": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+        "philipmorrisusa.eth": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+        "ploom.eth": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+        "pmi.eth": "0x516F381d6C94110CDE63F3266B779065525096f7",
+        "pmusa.eth": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+        "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+        "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      "addresses_hitting_page_cap": [
+        "juul.eth",
+        "elonmusk.eth",
+        "jensenhuang.eth",
+        "philipmorris.eth",
+        "philipmorrisusa.eth",
+        "paxlabs.eth",
+        "jamiesalter.eth",
+        "pmusa.eth",
+        "vitalik.eth",
+        "sama.eth"
+      ],
+      "addresses_screened": 19,
+      "aggregate_eth_in_eth": 490.43831103557443,
+      "aggregate_eth_in_wei": 490438311035574420556,
+      "aggregate_eth_out_eth": 1417.0714981077672,
+      "aggregate_eth_out_wei": 1417071498107767135368,
+      "aggregate_token_transfers": 7479,
+      "detail": "Followed money flows for 19 labels. Aggregate ETH in=490.438311 / out=1417.071498 (scanned pages). Token transfers scanned=7479. Sealed-set money edges=0 / pair space 171. Not an illicit-flow adjudication.",
+      "id": "W32-F1",
+      "illicit_money_flow_adjudicated": false,
+      "pair_space": 171,
+      "sealed_set_money_edge_count": 0,
+      "sealed_set_money_edges": [],
+      "title": "All money flows followed across sealed addresses (ETH + internal + tokens)"
+    }
+  ],
+  "id": "all_money_flows",
+  "next_actions": [
+    "Archive-node uncapped history for page-capped EOAs",
+    "Supply non-ETH chain addresses if multi-chain money theories persist"
+  ],
+  "screens": {
+    "abg.eth": {
+      "activity_span": {
+        "earliest": "2023-12-04T19:13:11.000000Z",
+        "latest": "2025-01-24T23:57:47.000000Z"
+      },
+      "address": "0x85Ac302DACf19d67Bf028Aa9AB9aD00035AEF1a0",
+      "eth_flows": {
+        "in_count": 2,
+        "in_eth": 0.74569354,
+        "in_wei": 745693540000000000,
+        "internal_in_wei": 529620936836233580,
+        "internal_out_wei": 0,
+        "net_external_wei": -279974238647912624,
+        "out_count": 4,
+        "out_eth": 1.0256677786479125,
+        "out_wei": 1025667778647912624
+      },
+      "internal_scanned": 3,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "abg.eth",
+      "methods_top": [
+        [
+          "unknown",
+          3
+        ],
+        [
+          "register",
+          1
+        ],
+        [
+          "commit",
+          1
+        ],
+        [
+          "fulfillBasicOrder_efficient_6GL6yc",
+          1
+        ],
+        [
+          "setName",
+          1
+        ],
+        [
+          "setAddr",
+          1
+        ],
+        [
+          "reclaim",
+          1
+        ],
+        [
+          "renew",
+          1
+        ]
+      ],
+      "money_method_hits": 1,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          2
+        ],
+        [
+          "?",
+          1
+        ],
+        [
+          "MILJP",
+          1
+        ]
+      ],
+      "token_transfer_count": 4,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xcb0e74724067f4328652313a6927481b31e31ce9",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 510000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.51,
+          "total_wei": 510000000000000000
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 490667778647912624,
+          "sealed_label": null,
+          "total_eth": 0.49066777864791267,
+          "total_wei": 490667778647912624
+        },
+        {
+          "address": "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1",
+          "in_n": 1,
+          "in_wei": 395693540000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.39569354,
+          "total_wei": 395693540000000000
+        },
+        {
+          "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+          "in_n": 1,
+          "in_wei": 350000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.35,
+          "total_wei": 350000000000000000
+        },
+        {
+          "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 25000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.025,
+          "total_wei": 25000000000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 4,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 10
+    },
+    "authenticbrands.eth": {
+      "activity_span": {
+        "earliest": "2021-06-17T13:37:34.000000Z",
+        "latest": "2021-06-17T19:26:48.000000Z"
+      },
+      "address": "0xE1711dcce17eC0f9aa3f95a1CA35BC9049b65711",
+      "eth_flows": {
+        "in_count": 2,
+        "in_eth": 0.6,
+        "in_wei": 600000000000000000,
+        "internal_in_wei": 34051087588015017,
+        "internal_out_wei": 0,
+        "net_external_wei": 225532347881907130,
+        "out_count": 6,
+        "out_eth": 0.37446765211809285,
+        "out_wei": 374467652118092870
+      },
+      "internal_scanned": 6,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "authenticbrands.eth",
+      "methods_top": [
+        [
+          "commit",
+          7
+        ],
+        [
+          "registerWithConfig",
+          6
+        ],
+        [
+          "safeTransferFrom",
+          3
+        ],
+        [
+          "setOwner",
+          2
+        ],
+        [
+          "unknown",
+          2
+        ]
+      ],
+      "money_method_hits": 3,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          9
+        ],
+        [
+          "PC",
+          1
+        ]
+      ],
+      "token_transfer_count": 10,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x0885d38003d569843ff39f771cbfb5424dd9f04f",
+          "in_n": 2,
+          "in_wei": 600000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.6,
+          "total_wei": 600000000000000000
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 6,
+          "out_wei": 374467652118092870,
+          "sealed_label": null,
+          "total_eth": 0.37446765211809285,
+          "total_wei": 374467652118092870
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 10,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 20
+    },
+    "elonmusk.eth": {
+      "activity_span": {
+        "earliest": "2020-03-26T23:41:17.000000Z",
+        "latest": "2026-07-20T14:50:11.000000Z"
+      },
+      "address": "0x983110309620D911731Ac0932219af06091b6744",
+      "eth_flows": {
+        "in_count": 59,
+        "in_eth": 68.61293819080582,
+        "in_wei": 68612938190805830410,
+        "internal_in_wei": 44248216707595045659,
+        "internal_out_wei": 0,
+        "net_external_wei": -63924839203186312776,
+        "out_count": 563,
+        "out_eth": 132.53777739399214,
+        "out_wei": 132537777393992143186
+      },
+      "internal_scanned": 219,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "elonmusk.eth",
+      "methods_top": [
+        [
+          "unknown",
+          380
+        ],
+        [
+          "commit",
+          117
+        ],
+        [
+          "multicall",
+          87
+        ],
+        [
+          "registerWithConfig",
+          86
+        ],
+        [
+          "bid",
+          77
+        ],
+        [
+          "reclaim",
+          39
+        ],
+        [
+          "setText",
+          36
+        ],
+        [
+          "castVote",
+          32
+        ],
+        [
+          "safeTransferFrom",
+          32
+        ],
+        [
+          "cancel",
+          31
+        ],
+        [
+          "setAddr",
+          27
+        ],
+        [
+          "register",
+          26
+        ],
+        [
+          "renew",
+          26
+        ],
+        [
+          "setContenthash",
+          19
+        ],
+        [
+          "setSubnodeRecord",
+          18
+        ],
+        [
+          "setResolver",
+          13
+        ],
+        [
+          "transferFrom",
+          13
+        ],
+        [
+          "batchMint",
+          13
+        ],
+        [
+          "transfer",
+          9
+        ],
+        [
+          "approve",
+          9
+        ]
+      ],
+      "money_method_hits": 169,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          178
+        ],
+        [
+          "LOVE",
+          79
+        ],
+        [
+          "?",
+          35
+        ],
+        [
+          "SCAPEXT",
+          27
+        ],
+        [
+          "META",
+          15
+        ],
+        [
+          "ILL",
+          14
+        ],
+        [
+          "OPENSTORE",
+          13
+        ],
+        [
+          "WETH",
+          9
+        ],
+        [
+          "SCAPE",
+          9
+        ],
+        [
+          "PS",
+          9
+        ],
+        [
+          "SAD",
+          8
+        ],
+        [
+          "SOCKS",
+          6
+        ],
+        [
+          "Ͼ",
+          4
+        ],
+        [
+          "WPUNKS",
+          4
+        ],
+        [
+          "MASKS",
+          3
+        ],
+        [
+          "PUNK",
+          3
+        ],
+        [
+          "METROBLOCK",
+          3
+        ],
+        [
+          "DOOOOGE",
+          3
+        ],
+        [
+          "WMC",
+          2
+        ],
+        [
+          "CATE",
+          2
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x96184444629f3489c4de199871e6f99568229d8f",
+          "in_n": 15,
+          "in_wei": 29253655000000000000,
+          "out_n": 7,
+          "out_wei": 38200000000000000000,
+          "sealed_label": null,
+          "total_eth": 67.453655,
+          "total_wei": 67453655000000000000
+        },
+        {
+          "address": "0xc2e2db098852a49c2d0489100b83be9a26e98a7b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 40000000000000000000,
+          "sealed_label": null,
+          "total_eth": 40.0,
+          "total_wei": 40000000000000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 5,
+          "out_wei": 11000000000000000000,
+          "sealed_label": null,
+          "total_eth": 11.0,
+          "total_wei": 11000000000000000000
+        },
+        {
+          "address": "0x46499275b5c4d67dfa46b92d89aada3158ea392e",
+          "in_n": 1,
+          "in_wei": 11000000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 11.0,
+          "total_wei": 11000000000000000000
+        },
+        {
+          "address": "0xcdb573cd096a47cc36280f323317b87a670d9f9e",
+          "in_n": 1,
+          "in_wei": 5447708840000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 5.44770884,
+          "total_wei": 5447708840000000000
+        },
+        {
+          "address": "0xcb938bbed7789ee8aabd259a8cb789aa3500bbf3",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 45,
+          "out_wei": 5133900000000000000,
+          "sealed_label": null,
+          "total_eth": 5.1339,
+          "total_wei": 5133900000000000000
+        },
+        {
+          "address": "0x0904dac3347ea47d208f3fd67402d039a3b99859",
+          "in_n": 2,
+          "in_wei": 4216000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 4.216,
+          "total_wei": 4216000000000000000
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 110,
+          "out_wei": 3101564716410696146,
+          "sealed_label": null,
+          "total_eth": 3.1015647164106963,
+          "total_wei": 3101564716410696146
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 2,
+          "in_wei": 3061879930000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 3.06187993,
+          "total_wei": 3061879930000000000
+        },
+        {
+          "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 3046861680476845018,
+          "sealed_label": null,
+          "total_eth": 3.046861680476845,
+          "total_wei": 3046861680476845018
+        },
+        {
+          "address": "0xc87e7a41bab66f8d55b128d9595bcbfce1d2fed4",
+          "in_n": 1,
+          "in_wei": 2645562020000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.64556202,
+          "total_wei": 2645562020000000000
+        },
+        {
+          "address": "0x18ae9fc06bed0637b1d46063d6b7af1a4f97b02c",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 19,
+          "out_wei": 2312000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.312,
+          "total_wei": 2312000000000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 1250
+    },
+    "fyllo.eth": {
+      "activity_span": {
+        "earliest": "2021-12-19T02:44:24.000000Z",
+        "latest": "2023-12-20T17:02:35.000000Z"
+      },
+      "address": "0xE739955225Ee00EE9b6e859BcD6C82308bb5E909",
+      "eth_flows": {
+        "in_count": 8,
+        "in_eth": 17.01255854,
+        "in_wei": 17012558540000000000,
+        "internal_in_wei": 657571818524413687,
+        "internal_out_wei": 0,
+        "net_external_wei": 8031080465251842254,
+        "out_count": 81,
+        "out_eth": 8.981478074748157,
+        "out_wei": 8981478074748157746
+      },
+      "internal_scanned": 5,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "fyllo.eth",
+      "methods_top": [
+        [
+          "run",
+          68
+        ],
+        [
+          "unknown",
+          13
+        ],
+        [
+          "freeMint",
+          10
+        ],
+        [
+          "setApprovalForAll",
+          5
+        ],
+        [
+          "swap",
+          5
+        ],
+        [
+          "approve",
+          3
+        ],
+        [
+          "registerWithConfig",
+          3
+        ],
+        [
+          "matchOrders",
+          2
+        ],
+        [
+          "commit",
+          2
+        ],
+        [
+          "cancelOrder_",
+          2
+        ],
+        [
+          "transfer",
+          1
+        ],
+        [
+          "atomicMatch_",
+          1
+        ],
+        [
+          "setName",
+          1
+        ],
+        [
+          "mintNFTDuringPresale",
+          1
+        ],
+        [
+          "registerProxy",
+          1
+        ],
+        [
+          "presaleMint",
+          1
+        ]
+      ],
+      "money_method_hits": 9,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "MEC",
+          8
+        ],
+        [
+          "FOLK",
+          6
+        ],
+        [
+          "APE",
+          6
+        ],
+        [
+          "PABI",
+          5
+        ],
+        [
+          "END",
+          4
+        ],
+        [
+          "POP",
+          4
+        ],
+        [
+          "MM",
+          4
+        ],
+        [
+          "LANGELS",
+          4
+        ],
+        [
+          "XOXO",
+          4
+        ],
+        [
+          "LORDNFT",
+          4
+        ],
+        [
+          "OXYA",
+          3
+        ],
+        [
+          "KCG",
+          3
+        ],
+        [
+          "BBB",
+          3
+        ],
+        [
+          "Airdrop",
+          2
+        ],
+        [
+          "DGFAM",
+          2
+        ],
+        [
+          "SCORCH",
+          2
+        ],
+        [
+          "DSRP",
+          2
+        ],
+        [
+          "Babies",
+          2
+        ],
+        [
+          "BUNNY",
+          2
+        ],
+        [
+          "IAP",
+          2
+        ]
+      ],
+      "token_transfer_count": 95,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 2,
+          "in_wei": 9090138180000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 9.09013818,
+          "total_wei": 9090138180000000000
+        },
+        {
+          "address": "0x8d738f36074c4be1443a1993c32929718ab4b461",
+          "in_n": 2,
+          "in_wei": 4300000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 4.3,
+          "total_wei": 4300000000000000000
+        },
+        {
+          "address": "0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 68,
+          "out_wei": 3495500000000000000,
+          "sealed_label": null,
+          "total_eth": 3.4955,
+          "total_wei": 3495500000000000000
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 2900000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.9,
+          "total_wei": 2900000000000000000
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "in_n": 2,
+          "in_wei": 2357353020000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.35735302,
+          "total_wei": 2357353020000000000
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "in_n": 1,
+          "in_wei": 1065067340000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.06506734,
+          "total_wei": 1065067340000000000
+        },
+        {
+          "address": "0x66ac7c1d709c5707b3a2fccaa025d07dcd7c2624",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 1000000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.0,
+          "total_wei": 1000000000000000000
+        },
+        {
+          "address": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 500000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.5,
+          "total_wei": 500000000000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 450000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.45,
+          "total_wei": 450000000000000000
+        },
+        {
+          "address": "0x9372b371196751dd2f603729ae8d8014bbeb07f6",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 400000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.4,
+          "total_wei": 400000000000000000
+        },
+        {
+          "address": "0xf18bf4750bf060b9b9606de575304706d501737e",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 200000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.2,
+          "total_wei": 200000000000000000
+        },
+        {
+          "address": "0xdfe67f0a130297215da931e2dc6199219e172f74",
+          "in_n": 1,
+          "in_wei": 200000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.2,
+          "total_wei": 200000000000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 95,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 119
+    },
+    "jamiesalter.eth": {
+      "activity_span": {
+        "earliest": "2025-07-17T04:33:35.000000Z",
+        "latest": "2026-07-18T00:16:59.000000Z"
+      },
+      "address": "0x9BCd78AE10965c28ED1d60f1963ad55f245BD353",
+      "eth_flows": {
+        "in_count": 56,
+        "in_eth": 11.134314023577383,
+        "in_wei": 11134314023577382683,
+        "internal_in_wei": 13471002940346035643,
+        "internal_out_wei": 234290000000000000,
+        "net_external_wei": -39735343005984326471,
+        "out_count": 472,
+        "out_eth": 50.869657029561715,
+        "out_wei": 50869657029561709154
+      },
+      "internal_scanned": 50,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "jamiesalter.eth",
+      "methods_top": [
+        [
+          "execute",
+          253
+        ],
+        [
+          "approve",
+          134
+        ],
+        [
+          "unknown",
+          99
+        ],
+        [
+          "transferAndMulticall",
+          67
+        ],
+        [
+          "multicall",
+          65
+        ],
+        [
+          "commit",
+          47
+        ],
+        [
+          "cancel",
+          41
+        ],
+        [
+          "batchCommit",
+          38
+        ],
+        [
+          "depositV3",
+          35
+        ],
+        [
+          "setContenthash",
+          34
+        ],
+        [
+          "batchRegister",
+          29
+        ],
+        [
+          "register",
+          29
+        ],
+        [
+          "transfer",
+          23
+        ],
+        [
+          "setText",
+          21
+        ],
+        [
+          "list",
+          20
+        ],
+        [
+          "0xf34cfc0f",
+          20
+        ],
+        [
+          "exec",
+          18
+        ],
+        [
+          "setApprovalForAll",
+          15
+        ],
+        [
+          "setAddr",
+          15
+        ],
+        [
+          "revoke",
+          14
+        ]
+      ],
+      "money_method_hits": 528,
+      "ok": true,
+      "sealed_eth_peers": {
+        "jamiesalter.eth": {
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 5,
+          "out_wei": 629290000000000000
+        }
+      },
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "UPEG",
+          202
+        ],
+        [
+          "ENS",
+          113
+        ],
+        [
+          "USDC",
+          54
+        ],
+        [
+          "UNICODED",
+          32
+        ],
+        [
+          "WAAC",
+          21
+        ],
+        [
+          "WETH",
+          19
+        ],
+        [
+          "PNKSTR",
+          12
+        ],
+        [
+          "?",
+          11
+        ],
+        [
+          "wUNICODED",
+          10
+        ],
+        [
+          "DOG",
+          8
+        ],
+        [
+          "APESTR",
+          8
+        ],
+        [
+          "USDT",
+          6
+        ],
+        [
+          "CURSOR",
+          5
+        ],
+        [
+          "uSATO",
+          4
+        ],
+        [
+          "GWEI",
+          4
+        ],
+        [
+          "SHIT",
+          3
+        ],
+        [
+          "CAT",
+          3
+        ],
+        [
+          "MAYC",
+          3
+        ],
+        [
+          "DOGE",
+          3
+        ],
+        [
+          "PF",
+          3
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 74,
+          "out_wei": 15271999995219526256,
+          "sealed_label": null,
+          "total_eth": 15.271999995219526,
+          "total_wei": 15271999995219526256
+        },
+        {
+          "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 29,
+          "out_wei": 8696192576515122841,
+          "sealed_label": null,
+          "total_eth": 8.696192576515124,
+          "total_wei": 8696192576515122841
+        },
+        {
+          "address": "0x1e577705ebb4aa6230a38fda38f4d9a2be6c0ff6",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 13,
+          "out_wei": 5130000000000000000,
+          "sealed_label": null,
+          "total_eth": 5.13,
+          "total_wei": 5130000000000000000
+        },
+        {
+          "address": "0xf5042e6ffac5a625d4e7848e0b01373d8eb9e222",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 47,
+          "out_wei": 3541932730120979895,
+          "sealed_label": null,
+          "total_eth": 3.5419327301209798,
+          "total_wei": 3541932730120979895
+        },
+        {
+          "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 12,
+          "out_wei": 3385000000000000000,
+          "sealed_label": null,
+          "total_eth": 3.385,
+          "total_wei": 3385000000000000000
+        },
+        {
+          "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 61,
+          "out_wei": 2079703290408224398,
+          "sealed_label": null,
+          "total_eth": 2.0797032904082244,
+          "total_wei": 2079703290408224398
+        },
+        {
+          "address": "0xb2ecfe4e4d61f8790bbb9de2d1259b9e2410cea5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 1999900000000000000,
+          "sealed_label": null,
+          "total_eth": 1.9999,
+          "total_wei": 1999900000000000000
+        },
+        {
+          "address": "0x0000000000000068f116a894984e2db1123eb395",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 19,
+          "out_wei": 1771100599999990000,
+          "sealed_label": null,
+          "total_eth": 1.77110059999999,
+          "total_wei": 1771100599999990000
+        },
+        {
+          "address": "0x96e649472f1768fc92b722cc337c9ed7400f15fc",
+          "in_n": 3,
+          "in_wei": 1605000000000000000,
+          "out_n": 1,
+          "out_wei": 100000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.705,
+          "total_wei": 1705000000000000000
+        },
+        {
+          "address": "0x8884ae2d5a381833565a8aae6bd38bc3e4520412",
+          "in_n": 4,
+          "in_wei": 887000000000000000,
+          "out_n": 7,
+          "out_wei": 796900000000000000,
+          "sealed_label": null,
+          "total_eth": 1.6839,
+          "total_wei": 1683900000000000000
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 7,
+          "out_wei": 1437808373281840216,
+          "sealed_label": null,
+          "total_eth": 1.43780837328184,
+          "total_wei": 1437808373281840216
+        },
+        {
+          "address": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+          "in_n": 4,
+          "in_wei": 1397939630000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.39793963,
+          "total_wei": 1397939630000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 1250
+    },
+    "japantobacco.eth": {
+      "activity_span": {
+        "earliest": "2021-01-09T15:28:07.000000Z",
+        "latest": "2025-05-16T18:32:35.000000Z"
+      },
+      "address": "0x272fB300717A9F7e0215AfE22595af5cBfA58591",
+      "eth_flows": {
+        "in_count": 71,
+        "in_eth": 5.0248271529420565,
+        "in_wei": 5024827152942056179,
+        "internal_in_wei": 564537065184942016,
+        "internal_out_wei": 0,
+        "net_external_wei": 1551125439580772381,
+        "out_count": 97,
+        "out_eth": 3.4737017133612835,
+        "out_wei": 3473701713361283798
+      },
+      "internal_scanned": 24,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "japantobacco.eth",
+      "methods_top": [
+        [
+          "unknown",
+          77
+        ],
+        [
+          "swapExactETHForTokens",
+          40
+        ],
+        [
+          "approve",
+          37
+        ],
+        [
+          "swap",
+          15
+        ],
+        [
+          "unoswap",
+          14
+        ],
+        [
+          "transfer",
+          12
+        ],
+        [
+          "anySwapOutUnderlying",
+          9
+        ],
+        [
+          "multicall",
+          8
+        ],
+        [
+          "renew",
+          7
+        ],
+        [
+          "commit",
+          6
+        ],
+        [
+          "deposit",
+          5
+        ],
+        [
+          "depositERC20ToByChainId",
+          5
+        ],
+        [
+          "stake",
+          4
+        ],
+        [
+          "setApprovalForAll",
+          4
+        ],
+        [
+          "depositETH",
+          3
+        ],
+        [
+          "exactInputSingle",
+          3
+        ],
+        [
+          "registerWithConfig",
+          3
+        ],
+        [
+          "burn",
+          2
+        ],
+        [
+          "send",
+          2
+        ],
+        [
+          "depositEtherFor",
+          2
+        ]
+      ],
+      "money_method_hits": 128,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "WETH",
+          30
+        ],
+        [
+          "METIS",
+          10
+        ],
+        [
+          "OVR",
+          10
+        ],
+        [
+          "ENS",
+          9
+        ],
+        [
+          "USDC",
+          9
+        ],
+        [
+          "NEXO",
+          6
+        ],
+        [
+          "ENJ",
+          6
+        ],
+        [
+          "ALI",
+          5
+        ],
+        [
+          "MANA",
+          5
+        ],
+        [
+          "UNI",
+          4
+        ],
+        [
+          "anyUSDC",
+          4
+        ],
+        [
+          "USTC",
+          4
+        ],
+        [
+          "PRE",
+          4
+        ],
+        [
+          "RARI",
+          4
+        ],
+        [
+          "MATIC",
+          4
+        ],
+        [
+          "OHM",
+          4
+        ],
+        [
+          "WFTM",
+          4
+        ],
+        [
+          "LINK",
+          3
+        ],
+        [
+          "AAVE",
+          3
+        ],
+        [
+          "MAHA",
+          2
+        ]
+      ],
+      "token_transfer_count": 173,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 41,
+          "out_wei": 2256296791400192535,
+          "sealed_label": null,
+          "total_eth": 2.2562967914001923,
+          "total_wei": 2256296791400192535
+        },
+        {
+          "address": "0x7b23c81c532657bf0128e88c11102ad0aad9370d",
+          "in_n": 3,
+          "in_wei": 854988352942056179,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.8549883529420562,
+          "total_wei": 854988352942056179
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "in_n": 11,
+          "in_wei": 719163950000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.71916395,
+          "total_wei": 719163950000000000
+        },
+        {
+          "address": "0x0fb6cb4d79cd84d6aba519b769d5c9a74bfd82ec",
+          "in_n": 1,
+          "in_wei": 509445980000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.50944598,
+          "total_wei": 509445980000000000
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 9,
+          "in_wei": 382535820000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.38253582,
+          "total_wei": 382535820000000000
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "in_n": 12,
+          "in_wei": 373205510000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.37320551,
+          "total_wei": 373205510000000000
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 7,
+          "in_wei": 304818640000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.30481864,
+          "total_wei": 304818640000000000
+        },
+        {
+          "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 10,
+          "out_wei": 297756714081995295,
+          "sealed_label": null,
+          "total_eth": 0.2977567140819953,
+          "total_wei": 297756714081995295
+        },
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 8,
+          "out_wei": 253000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.253,
+          "total_wei": 253000000000000000
+        },
+        {
+          "address": "0x2385fa70ac81f22059f14dbe4e8486fd49695a14",
+          "in_n": 1,
+          "in_wei": 225056690000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.22505669,
+          "total_wei": 225056690000000000
+        },
+        {
+          "address": "0xcae91ef49a2648cdfd6643f00fe1fa393b0a40a5",
+          "in_n": 1,
+          "in_wei": 220000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.22,
+          "total_wei": 220000000000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 204700000000000000,
+          "sealed_label": null,
+          "total_eth": 0.2047,
+          "total_wei": 204700000000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 173,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 279
+    },
+    "jensenhuang.eth": {
+      "activity_span": {
+        "earliest": "2018-01-09T01:46:47.000000Z",
+        "latest": "2026-07-23T17:08:47.000000Z"
+      },
+      "address": "0xEFE320582dEC3aC7cf2358B9Ba0e27B203D06ec6",
+      "eth_flows": {
+        "in_count": 37,
+        "in_eth": 14.504384266357762,
+        "in_wei": 14504384266357761756,
+        "internal_in_wei": 17800379843804423346,
+        "internal_out_wei": 0,
+        "net_external_wei": -15500165025896041956,
+        "out_count": 313,
+        "out_eth": 30.004549292253802,
+        "out_wei": 30004549292253803712
+      },
+      "internal_scanned": 94,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "jensenhuang.eth",
+      "methods_top": [
+        [
+          "atomicMatch_",
+          95
+        ],
+        [
+          "unknown",
+          69
+        ],
+        [
+          "setApprovalForAll",
+          61
+        ],
+        [
+          "mint",
+          59
+        ],
+        [
+          "registerWithConfig",
+          33
+        ],
+        [
+          "commit",
+          33
+        ],
+        [
+          "approve",
+          32
+        ],
+        [
+          "bulkTransfer",
+          31
+        ],
+        [
+          "purchase",
+          29
+        ],
+        [
+          "transfer",
+          27
+        ],
+        [
+          "deposit",
+          25
+        ],
+        [
+          "alt_buyCollectible",
+          23
+        ],
+        [
+          "proxyAssert",
+          19
+        ],
+        [
+          "withdraw",
+          16
+        ],
+        [
+          "0xba20c521",
+          15
+        ],
+        [
+          "swap",
+          14
+        ],
+        [
+          "transferFrom",
+          13
+        ],
+        [
+          "fulfillBasicOrder_efficient_6GL6yc",
+          11
+        ],
+        [
+          "fulfillAvailableAdvancedOrders",
+          9
+        ],
+        [
+          "create",
+          9
+        ]
+      ],
+      "money_method_hits": 262,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "WETH",
+          235
+        ],
+        [
+          "BLOCKS",
+          204
+        ],
+        [
+          "SVBLOOT",
+          27
+        ],
+        [
+          "PXC256",
+          24
+        ],
+        [
+          "STATS",
+          20
+        ],
+        [
+          "BGIRLS",
+          13
+        ],
+        [
+          "USDC",
+          13
+        ],
+        [
+          "DOGG",
+          9
+        ],
+        [
+          "BIOME",
+          8
+        ],
+        [
+          "BLOOTBD",
+          8
+        ],
+        [
+          "BlootRE",
+          6
+        ],
+        [
+          "IRENEDAO",
+          6
+        ],
+        [
+          "ABSTUDIO_79",
+          4
+        ],
+        [
+          "NVC",
+          4
+        ],
+        [
+          "PLOTSFLEX",
+          3
+        ],
+        [
+          "Decimals",
+          3
+        ],
+        [
+          "ETHPSW",
+          2
+        ],
+        [
+          "ETHP",
+          2
+        ],
+        [
+          "PXC",
+          2
+        ],
+        [
+          "ĖTḨ",
+          2
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xb4ecfb87a9245211332f70034ef461066e86f4cf",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 7,
+          "out_wei": 4766000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.766,
+          "total_wei": 4766000000000000000
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 88,
+          "out_wei": 4584000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.584,
+          "total_wei": 4584000000000000000
+        },
+        {
+          "address": "0xfd4dde49d56c184cb5c15e227318f5586f20d077",
+          "in_n": 6,
+          "in_wei": 3872987617305370555,
+          "out_n": 9,
+          "out_wei": 418000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.290987617305371,
+          "total_wei": 4290987617305370555
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 5,
+          "in_wei": 2331046870000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.33104687,
+          "total_wei": 2331046870000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 9,
+          "out_wei": 2232884078728246314,
+          "sealed_label": null,
+          "total_eth": 2.2328840787282465,
+          "total_wei": 2232884078728246314
+        },
+        {
+          "address": "0x07d20cbb25b2780a0188dc877994e7b83a57a8db",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 2000000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.0,
+          "total_wei": 2000000000000000000
+        },
+        {
+          "address": "0xb5a4d58c047ba782f54e1febe4833a11e2b228e0",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 15,
+          "out_wei": 1885000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.885,
+          "total_wei": 1885000000000000000
+        },
+        {
+          "address": "0x3a23f943181408eac424116af7b7790c94cb97a5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 1880000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.88,
+          "total_wei": 1880000000000000000
+        },
+        {
+          "address": "0x92612711d4d07debe4964d4d1401d7d7b5a11737",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 1860000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.86,
+          "total_wei": 1860000000000000000
+        },
+        {
+          "address": "0xe80403b55e7d727a69ad7594c2e0c28708aed968",
+          "in_n": 1,
+          "in_wei": 1740096890000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.74009689,
+          "total_wei": 1740096890000000000
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "in_n": 1,
+          "in_wei": 1609483580000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.60948358,
+          "total_wei": 1609483580000000000
+        },
+        {
+          "address": "0xf2371ae9a0da223fae3a535365922e201f4d75ab",
+          "in_n": 1,
+          "in_wei": 1468528980000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.46852898,
+          "total_wei": 1468528980000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 723
+    },
+    "juul.eth": {
+      "activity_span": {
+        "earliest": "2023-12-15T13:49:47.000000Z",
+        "latest": "2026-07-20T18:22:23.000000Z"
+      },
+      "address": "0x19625fEde85fc0267D29bb3338F1636Fee5477D3",
+      "eth_flows": {
+        "in_count": 47,
+        "in_eth": 43.432339441050466,
+        "in_wei": 43432339441050465710,
+        "internal_in_wei": 195739038184887182926,
+        "internal_out_wei": 0,
+        "net_external_wei": -194080640875783223437,
+        "out_count": 146,
+        "out_eth": 237.51298031683368,
+        "out_wei": 237512980316833689147
+      },
+      "internal_scanned": 84,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "juul.eth",
+      "methods_top": [
+        [
+          "execTransaction",
+          170
+        ],
+        [
+          "unknown",
+          119
+        ],
+        [
+          "approve",
+          106
+        ],
+        [
+          "transfer",
+          55
+        ],
+        [
+          "execute",
+          49
+        ],
+        [
+          "commit",
+          28
+        ],
+        [
+          "register",
+          26
+        ],
+        [
+          "deposit",
+          17
+        ],
+        [
+          "borrowAssets",
+          15
+        ],
+        [
+          "0x1fff991f",
+          14
+        ],
+        [
+          "multiSend",
+          12
+        ],
+        [
+          "debond",
+          9
+        ],
+        [
+          "transferFrom",
+          9
+        ],
+        [
+          "bond",
+          9
+        ],
+        [
+          "withdraw",
+          8
+        ],
+        [
+          "send",
+          8
+        ],
+        [
+          "bridge",
+          8
+        ],
+        [
+          "repayAsset",
+          7
+        ],
+        [
+          "createOrder",
+          6
+        ],
+        [
+          "addLPAndStake",
+          6
+        ]
+      ],
+      "money_method_hits": 172,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "USDC",
+          224
+        ],
+        [
+          "WETH",
+          39
+        ],
+        [
+          "PEAS",
+          39
+        ],
+        [
+          "ETH",
+          38
+        ],
+        [
+          "ENS",
+          26
+        ],
+        [
+          "DAI",
+          18
+        ],
+        [
+          " USDC      ",
+          14
+        ],
+        [
+          "OHM",
+          14
+        ],
+        [
+          "EꓔH",
+          12
+        ],
+        [
+          "U឵S឵Dꓚ",
+          11
+        ],
+        [
+          "USDT",
+          11
+        ],
+        [
+          "lvfPEAS",
+          10
+        ],
+        [
+          "ÚЅDС",
+          8
+        ],
+        [
+          "UNI-V3-POS",
+          8
+        ],
+        [
+          "pPEPE",
+          8
+        ],
+        [
+          "PEPE",
+          7
+        ],
+        [
+          "NPC",
+          5
+        ],
+        [
+          "Е᠎T᠎Н",
+          5
+        ],
+        [
+          "pOHMO",
+          5
+        ],
+        [
+          "pVER2",
+          5
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x21fe3e26e824783ca7e374355a8d30ae8bbf6e37",
+          "in_n": 4,
+          "in_wei": 39270000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 39.27,
+          "total_wei": 39270000000000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 10,
+          "out_wei": 25364000000000000000,
+          "sealed_label": null,
+          "total_eth": 25.364,
+          "total_wei": 25364000000000000000
+        },
+        {
+          "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 16,
+          "out_wei": 21831000000000000000,
+          "sealed_label": null,
+          "total_eth": 21.831,
+          "total_wei": 21831000000000000000
+        },
+        {
+          "address": "0x892acde9e85d31cee1e7d78ac6d7a9cfe48a8381",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 20000000000000000000,
+          "sealed_label": null,
+          "total_eth": 20.0,
+          "total_wei": 20000000000000000000
+        },
+        {
+          "address": "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 6,
+          "out_wei": 18793000000000000000,
+          "sealed_label": null,
+          "total_eth": 18.793,
+          "total_wei": 18793000000000000000
+        },
+        {
+          "address": "0x058009f6a8a05743599987b56c279871bff3b0b1",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 16110000000000000000,
+          "sealed_label": null,
+          "total_eth": 16.11,
+          "total_wei": 16110000000000000000
+        },
+        {
+          "address": "0x47ddb0b2bf0db257e9b15ff63a9d41fc02dcfc7d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000000,
+          "sealed_label": null,
+          "total_eth": 10.0,
+          "total_wei": 10000000000000000000
+        },
+        {
+          "address": "0xbdbff34b514923742b659ef79139c5f64c9a2f4e",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 8750000000000000000,
+          "sealed_label": null,
+          "total_eth": 8.75,
+          "total_wei": 8750000000000000000
+        },
+        {
+          "address": "0x353ef922a102b64f04bef639d7425469645392a5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 8500000000000000000,
+          "sealed_label": null,
+          "total_eth": 8.5,
+          "total_wei": 8500000000000000000
+        },
+        {
+          "address": "0x805ca7e8478d4b64c453579c69793be06c8edb63",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 7300000000000000000,
+          "sealed_label": null,
+          "total_eth": 7.3,
+          "total_wei": 7300000000000000000
+        },
+        {
+          "address": "0x29eb6b2a9f163f8f43fb6b0b02fd058acfadc9be",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 7000000000000000000,
+          "sealed_label": null,
+          "total_eth": 7.0,
+          "total_wei": 7000000000000000000
+        },
+        {
+          "address": "0x00cd000000003f7f682be4813200893d4e690000",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 7,
+          "out_wei": 6784000000000000000,
+          "sealed_label": null,
+          "total_eth": 6.784,
+          "total_wei": 6784000000000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 740
+    },
+    "juullabs.eth": {
+      "activity_span": {
+        "earliest": "2021-08-07T06:24:56.000000Z",
+        "latest": "2025-10-01T07:18:47.000000Z"
+      },
+      "address": "0x841B13b5D54752a928221C834acF312ceDAdD9d3",
+      "eth_flows": {
+        "in_count": 11,
+        "in_eth": 68.31823386454937,
+        "in_wei": 68318233864549365616,
+        "internal_in_wei": 29363999982056098742,
+        "internal_out_wei": 0,
+        "net_external_wei": -71766368062151878322,
+        "out_count": 102,
+        "out_eth": 140.08460192670123,
+        "out_wei": 140084601926701243938
+      },
+      "internal_scanned": 9,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "juullabs.eth",
+      "methods_top": [
+        [
+          "atomicMatch_",
+          52
+        ],
+        [
+          "unknown",
+          29
+        ],
+        [
+          "transferFrom",
+          20
+        ],
+        [
+          "setApprovalForAll",
+          8
+        ],
+        [
+          "cancelOrder_",
+          6
+        ],
+        [
+          "transfer",
+          4
+        ],
+        [
+          "fulfillBasicOrder",
+          4
+        ],
+        [
+          "approve",
+          3
+        ],
+        [
+          "incarcerate",
+          3
+        ],
+        [
+          "cloneWithoutSpecies",
+          3
+        ],
+        [
+          "redeem",
+          3
+        ],
+        [
+          "matchAskWithTakerBidUsingETHAndWETH",
+          3
+        ],
+        [
+          "mintAuction",
+          3
+        ],
+        [
+          "mutateApeWithSerum",
+          3
+        ],
+        [
+          "registerWithConfig",
+          3
+        ],
+        [
+          "swap",
+          2
+        ],
+        [
+          "mint",
+          2
+        ],
+        [
+          "safeTransferFrom",
+          2
+        ],
+        [
+          "exchangeBatch",
+          2
+        ],
+        [
+          "0x71b95262",
+          2
+        ]
+      ],
+      "money_method_hits": 85,
+      "ok": true,
+      "sealed_eth_peers": {
+        "juullabs.eth": {
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000
+        }
+      },
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "PTHL",
+          24
+        ],
+        [
+          "GOR",
+          12
+        ],
+        [
+          "BGP",
+          11
+        ],
+        [
+          "KIDS",
+          11
+        ],
+        [
+          "WET",
+          10
+        ],
+        [
+          "JUICE",
+          9
+        ],
+        [
+          "TOR",
+          9
+        ],
+        [
+          "?",
+          8
+        ],
+        [
+          "nftms",
+          8
+        ],
+        [
+          "CRIMES",
+          6
+        ],
+        [
+          "DOODLE",
+          6
+        ],
+        [
+          "MAYC",
+          6
+        ],
+        [
+          "PAW",
+          6
+        ],
+        [
+          "APE",
+          5
+        ],
+        [
+          "WETH",
+          5
+        ],
+        [
+          "ADI",
+          4
+        ],
+        [
+          "ADICAP",
+          4
+        ],
+        [
+          "CFLN",
+          4
+        ],
+        [
+          "CLONE",
+          4
+        ],
+        [
+          "BAKC",
+          4
+        ]
+      ],
+      "token_transfer_count": 304,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 48,
+          "out_wei": 84884200000000000000,
+          "sealed_label": null,
+          "total_eth": 84.8842,
+          "total_wei": 84884200000000000000
+        },
+        {
+          "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+          "in_n": 4,
+          "in_wei": 49700000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 49.7,
+          "total_wei": 49700000000000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 4,
+          "out_wei": 15028900000000000000,
+          "sealed_label": null,
+          "total_eth": 15.0289,
+          "total_wei": 15028900000000000000
+        },
+        {
+          "address": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000000,
+          "sealed_label": null,
+          "total_eth": 10.0,
+          "total_wei": 10000000000000000000
+        },
+        {
+          "address": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+          "in_n": 1,
+          "in_wei": 6479044140000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 6.47904414,
+          "total_wei": 6479044140000000000
+        },
+        {
+          "address": "0x077d360f11d220e4d5d831430c81c26c9be7c4a4",
+          "in_n": 1,
+          "in_wei": 5395294500000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 5.3952945,
+          "total_wei": 5395294500000000000
+        },
+        {
+          "address": "0xd3623a20caa6aecce8b5d4635e4d8272481a50d1",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 5000000000000000000,
+          "sealed_label": null,
+          "total_eth": 5.0,
+          "total_wei": 5000000000000000000
+        },
+        {
+          "address": "0xe263cd6f26009b2dbf7f092517e1b9c5ea576aa7",
+          "in_n": 1,
+          "in_wei": 320000000000000000,
+          "out_n": 2,
+          "out_wei": 4200000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.52,
+          "total_wei": 4520000000000000000
+        },
+        {
+          "address": "0x6871eacd33fbcfe585009ab64f0795d7152dc5a0",
+          "in_n": 1,
+          "in_wei": 3470000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 3.47,
+          "total_wei": 3470000000000000000
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 4,
+          "out_wei": 3370000000000000000,
+          "sealed_label": null,
+          "total_eth": 3.37,
+          "total_wei": 3370000000000000000
+        },
+        {
+          "address": "0x7a1f56f9641d7bd8c57f0909959c894c97e39beb",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 2650000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.65,
+          "total_wei": 2650000000000000000
+        },
+        {
+          "address": "0x959868b0f8999e23279e9cba4c94729516c3044e",
+          "in_n": 1,
+          "in_wei": 1566922759277577568,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.5669227592775774,
+          "total_wei": 1566922759277577568
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 304,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 189
+    },
+    "njoy.eth": {
+      "activity_span": {
+        "earliest": "2021-08-06T16:59:29.000000Z",
+        "latest": "2026-03-08T18:44:47.000000Z"
+      },
+      "address": "0x9BF10a9A1254EDaDEF6a2a4A34E51b34A5928cf9",
+      "eth_flows": {
+        "in_count": 20,
+        "in_eth": 19.07275072668008,
+        "in_wei": 19072750726680078548,
+        "internal_in_wei": 1149126582376445690,
+        "internal_out_wei": 0,
+        "net_external_wei": -221330782799076211,
+        "out_count": 164,
+        "out_eth": 19.294081509479152,
+        "out_wei": 19294081509479154759
+      },
+      "internal_scanned": 42,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "njoy.eth",
+      "methods_top": [
+        [
+          "fulfillBasicOrder",
+          55
+        ],
+        [
+          "atomicMatch_",
+          33
+        ],
+        [
+          "unknown",
+          22
+        ],
+        [
+          "registerWithConfig",
+          21
+        ],
+        [
+          "commit",
+          20
+        ],
+        [
+          "fulfillBasicOrder_efficient_6GL6yc",
+          13
+        ],
+        [
+          "renewAll",
+          12
+        ],
+        [
+          "renew",
+          7
+        ],
+        [
+          "0x4d0b189f",
+          5
+        ],
+        [
+          "bid",
+          3
+        ],
+        [
+          "approve",
+          3
+        ],
+        [
+          "setAddr",
+          3
+        ],
+        [
+          "reclaim",
+          3
+        ],
+        [
+          "multicall",
+          3
+        ],
+        [
+          "deposit",
+          2
+        ],
+        [
+          "setApprovalForAll",
+          2
+        ],
+        [
+          "createBid",
+          2
+        ],
+        [
+          "mint",
+          2
+        ],
+        [
+          "depositEth",
+          2
+        ],
+        [
+          "depositETH",
+          2
+        ]
+      ],
+      "money_method_hits": 114,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          104
+        ],
+        [
+          "m",
+          15
+        ],
+        [
+          "?",
+          9
+        ],
+        [
+          "WETH",
+          8
+        ],
+        [
+          "SILV2",
+          7
+        ],
+        [
+          "Silks",
+          4
+        ],
+        [
+          "SILKSHORSE",
+          3
+        ],
+        [
+          "MAG",
+          3
+        ],
+        [
+          "CELL",
+          3
+        ],
+        [
+          "SHIMA",
+          3
+        ],
+        [
+          "MOTUP",
+          2
+        ],
+        [
+          "MAXPAINANDFRENSOPENEDITIONBYXCOPY",
+          2
+        ],
+        [
+          "BOTTO",
+          2
+        ],
+        [
+          "STR2022",
+          2
+        ],
+        [
+          "ENSMAXIS",
+          2
+        ],
+        [
+          "TPLMECHAPART",
+          2
+        ],
+        [
+          "MOTU",
+          1
+        ],
+        [
+          "TURBO",
+          1
+        ],
+        [
+          "MemeLab",
+          1
+        ],
+        [
+          "HUMEGENESIS",
+          1
+        ]
+      ],
+      "token_transfer_count": 187,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xf5f26a6041f27377d9488406f60a26daed4d4c20",
+          "in_n": 15,
+          "in_wei": 12218212726680078548,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 12.218212726680079,
+          "total_wei": 12218212726680078548
+        },
+        {
+          "address": "0xf34f0420b588b6cf956f66beabab3f75deb10a63",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 4198000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.198,
+          "total_wei": 4198000000000000000
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 1,
+          "in_wei": 4100000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 4.1,
+          "total_wei": 4100000000000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 33,
+          "out_wei": 3653222222220000000,
+          "sealed_label": null,
+          "total_eth": 3.65322222222,
+          "total_wei": 3653222222220000000
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 56,
+          "out_wei": 3174018000000000000,
+          "sealed_label": null,
+          "total_eth": 3.174018,
+          "total_wei": 3174018000000000000
+        },
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 2570000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.57,
+          "total_wei": 2570000000000000000
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 2,
+          "in_wei": 2519538000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.519538,
+          "total_wei": 2519538000000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 1200000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.2,
+          "total_wei": 1200000000000000000
+        },
+        {
+          "address": "0x0000000000000068f116a894984e2db1123eb395",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 5,
+          "out_wei": 939000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.939,
+          "total_wei": 939000000000000000
+        },
+        {
+          "address": "0x55e0f7a3bb39a28bd7bcc458e04b3cf00ad3219e",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 660000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.66,
+          "total_wei": 660000000000000000
+        },
+        {
+          "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 8,
+          "out_wei": 507699000000000000,
+          "sealed_label": null,
+          "total_eth": 0.507699,
+          "total_wei": 507699000000000000
+        },
+        {
+          "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 9,
+          "out_wei": 498517901091734181,
+          "sealed_label": null,
+          "total_eth": 0.4985179010917342,
+          "total_wei": 498517901091734181
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 187,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 228
+    },
+    "pax.eth": {
+      "activity_span": {
+        "earliest": "2021-03-11T03:10:38.000000Z",
+        "latest": "2025-01-19T19:56:47.000000Z"
+      },
+      "address": "0xf9e1D465620FEe96F09Cce67F26C7Fb61c60E470",
+      "eth_flows": {
+        "in_count": 3,
+        "in_eth": 4.13066612648921,
+        "in_wei": 4130666126489210519,
+        "internal_in_wei": 4663358348433901253,
+        "internal_out_wei": 0,
+        "net_external_wei": -2861741241667180370,
+        "out_count": 9,
+        "out_eth": 6.992407368156391,
+        "out_wei": 6992407368156390889
+      },
+      "internal_scanned": 5,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "pax.eth",
+      "methods_top": [
+        [
+          "placeBid",
+          4
+        ],
+        [
+          "unknown",
+          3
+        ],
+        [
+          "commit",
+          2
+        ],
+        [
+          "createReserveAuction",
+          2
+        ],
+        [
+          "mintAndApproveMarket",
+          2
+        ],
+        [
+          "finalizeReserveAuction",
+          2
+        ],
+        [
+          "renew",
+          1
+        ],
+        [
+          "multicall",
+          1
+        ],
+        [
+          "register",
+          1
+        ],
+        [
+          "upsertListingV2",
+          1
+        ],
+        [
+          "purchase",
+          1
+        ],
+        [
+          "mint",
+          1
+        ],
+        [
+          "exchange",
+          1
+        ]
+      ],
+      "money_method_hits": 1,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "FND",
+          5
+        ],
+        [
+          "DIXT",
+          1
+        ],
+        [
+          "WETH",
+          1
+        ],
+        [
+          "?",
+          1
+        ],
+        [
+          "FCPR",
+          1
+        ],
+        [
+          "NFTD",
+          1
+        ],
+        [
+          "RARI",
+          1
+        ]
+      ],
+      "token_transfer_count": 11,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 4,
+          "out_wei": 5893100000000000000,
+          "sealed_label": null,
+          "total_eth": 5.8931,
+          "total_wei": 5893100000000000000
+        },
+        {
+          "address": "0xbe5e6a584920303b607ff89d63b68f32b29044af",
+          "in_n": 1,
+          "in_wei": 2000000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.0,
+          "total_wei": 2000000000000000000
+        },
+        {
+          "address": "0xc9f5296eb3ac266c94568d790b6e91eba7d76a11",
+          "in_n": 1,
+          "in_wei": 1998754000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.998754,
+          "total_wei": 1998754000000000000
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 1046480368156390889,
+          "sealed_label": null,
+          "total_eth": 1.046480368156391,
+          "total_wei": 1046480368156390889
+        },
+        {
+          "address": "0x912fd21d7a69678227fe6d08c64222db41477ba0",
+          "in_n": 1,
+          "in_wei": 131912126489210519,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.13191212648921052,
+          "total_wei": 131912126489210519
+        },
+        {
+          "address": "0xad08067c7d3d3dbc14a9df8d671ff2565fc5a1ae",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 50000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.05,
+          "total_wei": 50000000000000000
+        },
+        {
+          "address": "0xcd4ec7b66fbc029c116ba9ffb3e59351c20b5b06",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 2050000000000000,
+          "sealed_label": null,
+          "total_eth": 0.00205,
+          "total_wei": 2050000000000000
+        },
+        {
+          "address": "0x03ad6cd7410ce01a8b9ed26a080f8f9c1d7cc222",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 777000000000000,
+          "sealed_label": null,
+          "total_eth": 0.000777,
+          "total_wei": 777000000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 11,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 22
+    },
+    "paxlabs.eth": {
+      "activity_span": {
+        "earliest": "2018-07-16T20:31:27.000000Z",
+        "latest": "2025-08-24T19:03:47.000000Z"
+      },
+      "address": "0x356c938a1d889D87999c75dC4e7aF1263b93e45D",
+      "eth_flows": {
+        "in_count": 50,
+        "in_eth": 80.27580575124323,
+        "in_wei": 80275805751243219592,
+        "internal_in_wei": 0,
+        "internal_out_wei": 0,
+        "net_external_wei": -125945780760740880196,
+        "out_count": 195,
+        "out_eth": 206.2215865119841,
+        "out_wei": 206221586511984099788
+      },
+      "internal_scanned": 0,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "paxlabs.eth",
+      "methods_top": [
+        [
+          "transfer",
+          114
+        ],
+        [
+          "cancelMultipleMakerOrders",
+          102
+        ],
+        [
+          "claim",
+          100
+        ],
+        [
+          "unknown",
+          95
+        ],
+        [
+          "multicall",
+          80
+        ],
+        [
+          "setApprovalForAll",
+          68
+        ],
+        [
+          "atomicMatch_",
+          54
+        ],
+        [
+          "safeTransferFrom",
+          26
+        ],
+        [
+          "approve",
+          24
+        ],
+        [
+          "deposit",
+          23
+        ],
+        [
+          "swap",
+          20
+        ],
+        [
+          "withdraw",
+          18
+        ],
+        [
+          "tradeWithHint",
+          14
+        ],
+        [
+          "swapExactETHForTokens",
+          13
+        ],
+        [
+          "matchOrders",
+          12
+        ],
+        [
+          "matchAskWithTakerBidUsingETHAndWETH",
+          10
+        ],
+        [
+          "cancelOrder_",
+          9
+        ],
+        [
+          "enter",
+          8
+        ],
+        [
+          "commit",
+          7
+        ],
+        [
+          "mint",
+          6
+        ]
+      ],
+      "money_method_hits": 374,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "LOOKS",
+          190
+        ],
+        [
+          "USDC",
+          151
+        ],
+        [
+          "WETH",
+          33
+        ],
+        [
+          "CREYZIES",
+          27
+        ],
+        [
+          "OTHR",
+          20
+        ],
+        [
+          "G-NO",
+          17
+        ],
+        [
+          "WEBBLAND",
+          8
+        ],
+        [
+          "?",
+          8
+        ],
+        [
+          "BEND",
+          6
+        ],
+        [
+          "APE",
+          6
+        ],
+        [
+          "SOS",
+          6
+        ],
+        [
+          "ENS",
+          5
+        ],
+        [
+          "DREAM",
+          5
+        ],
+        [
+          "KKI",
+          4
+        ],
+        [
+          "MFER",
+          3
+        ],
+        [
+          "DT",
+          3
+        ],
+        [
+          "INSPIRATION",
+          3
+        ],
+        [
+          "DUSK",
+          3
+        ],
+        [
+          "DAW",
+          3
+        ],
+        [
+          "veSOS",
+          3
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+          "in_n": 23,
+          "in_wei": 52512221724044949250,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 52.51222172404495,
+          "total_wei": 52512221724044949250
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 30,
+          "out_wei": 37205400000000000000,
+          "sealed_label": null,
+          "total_eth": 37.2054,
+          "total_wei": 37205400000000000000
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 18,
+          "out_wei": 31606900000000000000,
+          "sealed_label": null,
+          "total_eth": 31.6069,
+          "total_wei": 31606900000000000000
+        },
+        {
+          "address": "0x59728544b08ab483533076417fbbb2fd0b17ce3a",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 10,
+          "out_wei": 30780000000000000000,
+          "sealed_label": null,
+          "total_eth": 30.78,
+          "total_wei": 30780000000000000000
+        },
+        {
+          "address": "0x818e6fecd516ecc3849daf6845e3ec868087b755",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 15,
+          "out_wei": 28084447720000000000,
+          "sealed_label": null,
+          "total_eth": 28.08444772,
+          "total_wei": 28084447720000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 15,
+          "out_wei": 14915818474354172831,
+          "sealed_label": null,
+          "total_eth": 14.915818474354172,
+          "total_wei": 14915818474354172831
+        },
+        {
+          "address": "0xffef95ff9f605f7970ee9d58823128357326e5e4",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 13200000000000000000,
+          "sealed_label": null,
+          "total_eth": 13.2,
+          "total_wei": 13200000000000000000
+        },
+        {
+          "address": "0xcdfcaeee7e43b56b4e0468935e00b86338bc42b4",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 10110000000000000000,
+          "sealed_label": null,
+          "total_eth": 10.11,
+          "total_wei": 10110000000000000000
+        },
+        {
+          "address": "0x76db1a8a8dac24b14506950ae64100a38e25f5d8",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 10000000000000000000,
+          "sealed_label": null,
+          "total_eth": 10.0,
+          "total_wei": 10000000000000000000
+        },
+        {
+          "address": "0x19958268aca43b6303d3faad7a916f5d69e46630",
+          "in_n": 1,
+          "in_wei": 9392194520000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 9.39219452,
+          "total_wei": 9392194520000000000
+        },
+        {
+          "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 14,
+          "out_wei": 7575459454897552359,
+          "sealed_label": null,
+          "total_eth": 7.575459454897552,
+          "total_wei": 7575459454897552359
+        },
+        {
+          "address": "0xcad5a0ddcb31acc0221d95581c36d29766883f03",
+          "in_n": 1,
+          "in_wei": 4405381040000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 4.40538104,
+          "total_wei": 4405381040000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 875
+    },
+    "philipmorris.eth": {
+      "activity_span": {
+        "earliest": "2021-01-18T17:30:25.000000Z",
+        "latest": "2025-11-07T23:33:35.000000Z"
+      },
+      "address": "0xd9568b97Ddc98c2Bb55261b88240de698B9F974C",
+      "eth_flows": {
+        "in_count": 83,
+        "in_eth": 17.6338046020962,
+        "in_wei": 17633804602096196737,
+        "internal_in_wei": 25582647730105637240,
+        "internal_out_wei": 0,
+        "net_external_wei": -16728761407201727219,
+        "out_count": 367,
+        "out_eth": 34.36256600929792,
+        "out_wei": 34362566009297923956
+      },
+      "internal_scanned": 282,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "philipmorris.eth",
+      "methods_top": [
+        [
+          "commit",
+          334
+        ],
+        [
+          "registerWithConfig",
+          203
+        ],
+        [
+          "unknown",
+          138
+        ],
+        [
+          "swapExactTokensForTokens",
+          77
+        ],
+        [
+          "approve",
+          75
+        ],
+        [
+          "transfer",
+          67
+        ],
+        [
+          "cancelOrder_",
+          38
+        ],
+        [
+          "atomicMatch_",
+          28
+        ],
+        [
+          "exactInput",
+          27
+        ],
+        [
+          "swapExactTokensForETH",
+          25
+        ],
+        [
+          "swapExactETHForTokens",
+          20
+        ],
+        [
+          "0xe5b67c23",
+          16
+        ],
+        [
+          "0x8813034e",
+          16
+        ],
+        [
+          "multicall",
+          15
+        ],
+        [
+          "exactInputSingle",
+          15
+        ],
+        [
+          "setApprovalForAll",
+          14
+        ],
+        [
+          "transferFrom",
+          12
+        ],
+        [
+          "execute",
+          11
+        ],
+        [
+          "withdraw",
+          10
+        ],
+        [
+          "setName",
+          9
+        ]
+      ],
+      "money_method_hits": 341,
+      "ok": true,
+      "sealed_eth_peers": {
+        "philipmorris.eth": {
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 14,
+          "out_wei": 656680044567080
+        }
+      },
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          397
+        ],
+        [
+          "USDT",
+          63
+        ],
+        [
+          "USDC",
+          52
+        ],
+        [
+          "?",
+          15
+        ],
+        [
+          "WETH",
+          9
+        ],
+        [
+          "DOGE20",
+          8
+        ],
+        [
+          "ZRO",
+          5
+        ],
+        [
+          "RVP",
+          5
+        ],
+        [
+          "YKPS",
+          4
+        ],
+        [
+          "MOG",
+          4
+        ],
+        [
+          "BITB",
+          4
+        ],
+        [
+          "TCR",
+          4
+        ],
+        [
+          "SHIDO",
+          3
+        ],
+        [
+          "MYC",
+          3
+        ],
+        [
+          "amto.site",
+          2
+        ],
+        [
+          "RX",
+          1
+        ],
+        [
+          "SCOTTY",
+          1
+        ],
+        [
+          "UNI-V2",
+          1
+        ],
+        [
+          "DAEA Mint Pass Original",
+          1
+        ],
+        [
+          "X Sims Mint Pass Origin",
+          1
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 5,
+          "out_wei": 5579000000000000000,
+          "sealed_label": null,
+          "total_eth": 5.579,
+          "total_wei": 5579000000000000000
+        },
+        {
+          "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 12,
+          "out_wei": 4377500000000000000,
+          "sealed_label": null,
+          "total_eth": 4.3775,
+          "total_wei": 4377500000000000000
+        },
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 21,
+          "out_wei": 4168400000000000000,
+          "sealed_label": null,
+          "total_eth": 4.1684,
+          "total_wei": 4168400000000000000
+        },
+        {
+          "address": "0x8a8dbb8ae34d4a2ef3c82ff723e8879962ab6f94",
+          "in_n": 3,
+          "in_wei": 2320000000000000000,
+          "out_n": 2,
+          "out_wei": 1565601588433127927,
+          "sealed_label": null,
+          "total_eth": 3.885601588433128,
+          "total_wei": 3885601588433127927
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "in_n": 9,
+          "in_wei": 3495135870000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 3.49513587,
+          "total_wei": 3495135870000000000
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 204,
+          "out_wei": 3286722178086592560,
+          "sealed_label": null,
+          "total_eth": 3.2867221780865927,
+          "total_wei": 3286722178086592560
+        },
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 24,
+          "out_wei": 3191200000000000000,
+          "sealed_label": null,
+          "total_eth": 3.1912,
+          "total_wei": 3191200000000000000
+        },
+        {
+          "address": "0x000000000000509081d6fcd3ee63e791ad1db763",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 16,
+          "out_wei": 3037706728191381890,
+          "sealed_label": null,
+          "total_eth": 3.037706728191382,
+          "total_wei": 3037706728191381890
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 7,
+          "in_wei": 2197615690000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.19761569,
+          "total_wei": 2197615690000000000
+        },
+        {
+          "address": "0xa1d8d972560c2f8144af871db508f0b0b10a3fbf",
+          "in_n": 9,
+          "in_wei": 1979365670000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.97936567,
+          "total_wei": 1979365670000000000
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 7,
+          "in_wei": 1736566200000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.7365662,
+          "total_wei": 1736566200000000000
+        },
+        {
+          "address": "0xb2ecfe4e4d61f8790bbb9de2d1259b9e2410cea5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 1710000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.71,
+          "total_wei": 1710000000000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1234
+    },
+    "philipmorrisusa.eth": {
+      "activity_span": {
+        "earliest": "2021-03-14T17:40:42.000000Z",
+        "latest": "2026-05-21T01:27:23.000000Z"
+      },
+      "address": "0x4F809EfFB315A91093169E17e6E1bf8f27889240",
+      "eth_flows": {
+        "in_count": 96,
+        "in_eth": 12.463406543936959,
+        "in_wei": 12463406543936959382,
+        "internal_in_wei": 47700221681599569755,
+        "internal_out_wei": 0,
+        "net_external_wei": -47700434371196348746,
+        "out_count": 518,
+        "out_eth": 60.16384091513331,
+        "out_wei": 60163840915133308128
+      },
+      "internal_scanned": 299,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "philipmorrisusa.eth",
+      "methods_top": [
+        [
+          "unknown",
+          318
+        ],
+        [
+          "swap",
+          115
+        ],
+        [
+          "approve",
+          103
+        ],
+        [
+          "atomicMatch_",
+          88
+        ],
+        [
+          "setApprovalForAll",
+          62
+        ],
+        [
+          "transfer",
+          55
+        ],
+        [
+          "withdraw",
+          41
+        ],
+        [
+          "fulfillBasicOrder",
+          32
+        ],
+        [
+          "execute",
+          27
+        ],
+        [
+          "registerWithConfig",
+          26
+        ],
+        [
+          "commit",
+          26
+        ],
+        [
+          "swapExactETHForTokens",
+          26
+        ],
+        [
+          "cancelOrder_",
+          26
+        ],
+        [
+          "deposit",
+          18
+        ],
+        [
+          "swapExactTokensForETH",
+          18
+        ],
+        [
+          "recruit",
+          16
+        ],
+        [
+          "mint",
+          14
+        ],
+        [
+          "claimMany",
+          14
+        ],
+        [
+          "cancel",
+          13
+        ],
+        [
+          "fulfillBasicOrder_efficient_6GL6yc",
+          11
+        ]
+      ],
+      "money_method_hits": 496,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "WOOL",
+          95
+        ],
+        [
+          "WETH",
+          66
+        ],
+        [
+          "ENS",
+          33
+        ],
+        [
+          "AXS",
+          31
+        ],
+        [
+          "?",
+          27
+        ],
+        [
+          "TIME",
+          15
+        ],
+        [
+          "SKVLLZ",
+          14
+        ],
+        [
+          "SKVLLBABIEZ",
+          12
+        ],
+        [
+          "GODS",
+          10
+        ],
+        [
+          "BCB",
+          9
+        ],
+        [
+          "SHIB",
+          9
+        ],
+        [
+          "DINO",
+          8
+        ],
+        [
+          "GU",
+          8
+        ],
+        [
+          "LAND",
+          8
+        ],
+        [
+          "BBCC",
+          7
+        ],
+        [
+          "ONE",
+          7
+        ],
+        [
+          "PH",
+          7
+        ],
+        [
+          "BBYC",
+          6
+        ],
+        [
+          "FARMER",
+          6
+        ],
+        [
+          "OHM",
+          6
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 58,
+          "out_wei": 12406070000000000000,
+          "sealed_label": null,
+          "total_eth": 12.40607,
+          "total_wei": 12406070000000000000
+        },
+        {
+          "address": "0xe21f061d54373ed7fa805ec243ab9f4ee062c081",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 24,
+          "out_wei": 4187074913584851574,
+          "sealed_label": null,
+          "total_eth": 4.187074913584851,
+          "total_wei": 4187074913584851574
+        },
+        {
+          "address": "0x9efee866aa4593695ce34466d5ae0ebe377f3812",
+          "in_n": 3,
+          "in_wei": 430072817595967523,
+          "out_n": 6,
+          "out_wei": 3674340000000000000,
+          "sealed_label": null,
+          "total_eth": 4.104412817595968,
+          "total_wei": 4104412817595967523
+        },
+        {
+          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 27,
+          "out_wei": 3826944450525640376,
+          "sealed_label": null,
+          "total_eth": 3.82694445052564,
+          "total_wei": 3826944450525640376
+        },
+        {
+          "address": "0x0b357ac4fc9b90d1323bd00a6b64106d67eb4ed0",
+          "in_n": 8,
+          "in_wei": 1469701301890630859,
+          "out_n": 9,
+          "out_wei": 2303910000000000000,
+          "sealed_label": null,
+          "total_eth": 3.7736113018906305,
+          "total_wei": 3773611301890630859
+        },
+        {
+          "address": "0x0ef9901071b5a2c0d221fabd48766ede658cae4d",
+          "in_n": 5,
+          "in_wei": 2847376796270774000,
+          "out_n": 2,
+          "out_wei": 26670000000000000,
+          "sealed_label": null,
+          "total_eth": 2.8740467962707736,
+          "total_wei": 2874046796270774000
+        },
+        {
+          "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 24,
+          "out_wei": 2873000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.873,
+          "total_wei": 2873000000000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 11,
+          "out_wei": 2631000000000000000,
+          "sealed_label": null,
+          "total_eth": 2.631,
+          "total_wei": 2631000000000000000
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "in_n": 11,
+          "in_wei": 2435613060000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.43561306,
+          "total_wei": 2435613060000000000
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 22,
+          "in_wei": 2286258450000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.28625845,
+          "total_wei": 2286258450000000000
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 30,
+          "out_wei": 1805850000000000000,
+          "sealed_label": null,
+          "total_eth": 1.80585,
+          "total_wei": 1805850000000000000
+        },
+        {
+          "address": "0x4ceee3577802246cebf111fa62084e57ee8b6e30",
+          "in_n": 18,
+          "in_wei": 593880328179587000,
+          "out_n": 23,
+          "out_wei": 992150000000000000,
+          "sealed_label": null,
+          "total_eth": 1.5860303281795871,
+          "total_wei": 1586030328179587000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 1250
+    },
+    "ploom.eth": {
+      "activity_span": {
+        "earliest": "2022-05-04T16:48:21.000000Z",
+        "latest": "2023-03-24T12:12:59.000000Z"
+      },
+      "address": "0x8d1A9428d60dA4434117D1FDE8CE522D5f53e45f",
+      "eth_flows": {
+        "in_count": 11,
+        "in_eth": 3.8303206381002997,
+        "in_wei": 3830320638100299938,
+        "internal_in_wei": 0,
+        "internal_out_wei": 0,
+        "net_external_wei": -2671244329995929268,
+        "out_count": 45,
+        "out_eth": 6.501564968096229,
+        "out_wei": 6501564968096229206
+      },
+      "internal_scanned": 0,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "ploom.eth",
+      "methods_top": [
+        [
+          "unknown",
+          29
+        ],
+        [
+          "commit",
+          17
+        ],
+        [
+          "registerWithConfig",
+          16
+        ],
+        [
+          "withdraw",
+          7
+        ],
+        [
+          "deposit",
+          6
+        ],
+        [
+          "atomicMatch_",
+          4
+        ],
+        [
+          "multicall",
+          4
+        ],
+        [
+          "proxyAssert",
+          3
+        ],
+        [
+          "cancelOrder_",
+          3
+        ],
+        [
+          "transfer",
+          2
+        ],
+        [
+          "transferFrom",
+          2
+        ],
+        [
+          "approve",
+          2
+        ],
+        [
+          "reveal",
+          1
+        ],
+        [
+          "multiAssetSwap",
+          1
+        ],
+        [
+          "setText",
+          1
+        ],
+        [
+          "updateRoyaltyInfoForCollectionIfOwner",
+          1
+        ],
+        [
+          "setCost",
+          1
+        ],
+        [
+          "depositEth",
+          1
+        ],
+        [
+          "setApprovalForAll",
+          1
+        ],
+        [
+          "registerProxy",
+          1
+        ]
+      ],
+      "money_method_hits": 27,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          42
+        ],
+        [
+          "WOTI",
+          42
+        ],
+        [
+          "WETH",
+          14
+        ],
+        [
+          "USDC",
+          4
+        ],
+        [
+          "LUNA 2.0 (lunav2.io)",
+          2
+        ]
+      ],
+      "token_transfer_count": 104,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 6,
+          "out_wei": 2157107035913174358,
+          "sealed_label": null,
+          "total_eth": 2.157107035913174,
+          "total_wei": 2157107035913174358
+        },
+        {
+          "address": "0x0b7a434782792b539623fd72a428838ea4173b22",
+          "in_n": 3,
+          "in_wei": 2082753900989000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.082753900989,
+          "total_wei": 2082753900989000000
+        },
+        {
+          "address": "0x305976ffd3bee33366b94796958809955ccea632",
+          "in_n": 5,
+          "in_wei": 1704005282457265858,
+          "out_n": 3,
+          "out_wei": 323609827184952477,
+          "sealed_label": null,
+          "total_eth": 2.0276151096422184,
+          "total_wei": 2027615109642218335
+        },
+        {
+          "address": "0x86aab490599a86534d925fac7f2183fc0ad206b7",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 996465415000000000,
+          "sealed_label": null,
+          "total_eth": 0.996465415,
+          "total_wei": 996465415000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 949000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.949,
+          "total_wei": 949000000000000000
+        },
+        {
+          "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 469971918691414919,
+          "sealed_label": null,
+          "total_eth": 0.4699719186914149,
+          "total_wei": 469971918691414919
+        },
+        {
+          "address": "0x0a267cf51ef038fc00e71801f5a524aec06e4f07",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 419290000000000000,
+          "sealed_label": null,
+          "total_eth": 0.41929,
+          "total_wei": 419290000000000000
+        },
+        {
+          "address": "0xff026f7d7da765586ebd840985a0fdbd3dda784b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 250661467762150118,
+          "sealed_label": null,
+          "total_eth": 0.2506614677621501,
+          "total_wei": 250661467762150118
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 16,
+          "out_wei": 235352337720608822,
+          "sealed_label": null,
+          "total_eth": 0.23535233772060885,
+          "total_wei": 235352337720608822
+        },
+        {
+          "address": "0x049fa853e1d6cdcc0d91590aef2e3ce9f600a4b9",
+          "in_n": 1,
+          "in_wei": 532256468495463,
+          "out_n": 8,
+          "out_wei": 203138530001037736,
+          "sealed_label": null,
+          "total_eth": 0.20367078646953318,
+          "total_wei": 203670786469533199
+        },
+        {
+          "address": "0x52ec2f3d7c5977a8e558c8d9c6000b615098e8fc",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 200000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.2,
+          "total_wei": 200000000000000000
+        },
+        {
+          "address": "0xd3d3bc64f2df951a9e823ef990d495cab27e7c28",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 199293083000000000,
+          "sealed_label": null,
+          "total_eth": 0.199293083,
+          "total_wei": 199293083000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 104,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 107
+    },
+    "pmi.eth": {
+      "activity_span": {
+        "earliest": "2020-07-07T12:37:51.000000Z",
+        "latest": "2026-05-22T08:30:23.000000Z"
+      },
+      "address": "0x516F381d6C94110CDE63F3266B779065525096f7",
+      "eth_flows": {
+        "in_count": 25,
+        "in_eth": 67.65480249,
+        "in_wei": 67654802490000000000,
+        "internal_in_wei": 44021058615176101498,
+        "internal_out_wei": 0,
+        "net_external_wei": -27841292396383536781,
+        "out_count": 385,
+        "out_eth": 95.49609488638353,
+        "out_wei": 95496094886383536781
+      },
+      "internal_scanned": 410,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "pmi.eth",
+      "methods_top": [
+        [
+          "commit",
+          361
+        ],
+        [
+          "registerWithConfig",
+          325
+        ],
+        [
+          "approve",
+          68
+        ],
+        [
+          "renewAll",
+          45
+        ],
+        [
+          "unknown",
+          37
+        ],
+        [
+          "swap",
+          21
+        ],
+        [
+          "execute",
+          20
+        ],
+        [
+          "buyLandWithSand",
+          16
+        ],
+        [
+          "unoswap",
+          6
+        ],
+        [
+          "multicall",
+          5
+        ],
+        [
+          "swapExactTokensForETH",
+          5
+        ],
+        [
+          "mint",
+          5
+        ],
+        [
+          "redeem",
+          4
+        ],
+        [
+          "borrow",
+          4
+        ],
+        [
+          "enterMarkets",
+          4
+        ],
+        [
+          "swapExactTokensForTokens",
+          3
+        ],
+        [
+          "renew",
+          2
+        ],
+        [
+          "unoswapWithPermit",
+          2
+        ],
+        [
+          "setApprovalForAll",
+          2
+        ],
+        [
+          "cancelOrder_",
+          2
+        ]
+      ],
+      "money_method_hits": 71,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          325
+        ],
+        [
+          "LAND",
+          48
+        ],
+        [
+          "SAND",
+          36
+        ],
+        [
+          "USDC",
+          29
+        ],
+        [
+          "USDT",
+          18
+        ],
+        [
+          "BAT",
+          9
+        ],
+        [
+          "PREMIA",
+          7
+        ],
+        [
+          "ZRX",
+          7
+        ],
+        [
+          "DAI",
+          7
+        ],
+        [
+          "COMP",
+          6
+        ],
+        [
+          "QNT",
+          5
+        ],
+        [
+          "ALEPH",
+          4
+        ],
+        [
+          "MCB",
+          4
+        ],
+        [
+          "LPT",
+          4
+        ],
+        [
+          "BOND",
+          4
+        ],
+        [
+          "CBAT",
+          4
+        ],
+        [
+          "Airdrop",
+          3
+        ],
+        [
+          "ZCN",
+          3
+        ],
+        [
+          "LDO",
+          3
+        ],
+        [
+          "DODO",
+          3
+        ]
+      ],
+      "token_transfer_count": 591,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 325,
+          "out_wei": 21945526828802855981,
+          "sealed_label": null,
+          "total_eth": 21.945526828802855,
+          "total_wei": 21945526828802855981
+        },
+        {
+          "address": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+          "in_n": 1,
+          "in_wei": 17648828500000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 17.6488285,
+          "total_wei": 17648828500000000000
+        },
+        {
+          "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 16900000000000000000,
+          "sealed_label": null,
+          "total_eth": 16.9,
+          "total_wei": 16900000000000000000
+        },
+        {
+          "address": "0xa048b3bd4ab515e2f065156d527be4d33deb9c85",
+          "in_n": 1,
+          "in_wei": 16000000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 16.0,
+          "total_wei": 16000000000000000000
+        },
+        {
+          "address": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+          "in_n": 1,
+          "in_wei": 11575109770000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 11.57510977,
+          "total_wei": 11575109770000000000
+        },
+        {
+          "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 11306860000000000000,
+          "sealed_label": null,
+          "total_eth": 11.30686,
+          "total_wei": 11306860000000000000
+        },
+        {
+          "address": "0xa12159e5131b1eef6b4857eee3e1954744b5033a",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 30,
+          "out_wei": 9036095801743990542,
+          "sealed_label": null,
+          "total_eth": 9.036095801743992,
+          "total_wei": 9036095801743990542
+        },
+        {
+          "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 15,
+          "out_wei": 8678367564542480171,
+          "sealed_label": null,
+          "total_eth": 8.67836756454248,
+          "total_wei": 8678367564542480171
+        },
+        {
+          "address": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+          "in_n": 4,
+          "in_wei": 7843317170000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 7.84331717,
+          "total_wei": 7843317170000000000
+        },
+        {
+          "address": "0x818e6fecd516ecc3849daf6845e3ec868087b755",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 7000000000000000000,
+          "sealed_label": null,
+          "total_eth": 7.0,
+          "total_wei": 7000000000000000000
+        },
+        {
+          "address": "0x6317c5e82a06e1d8bf200d21f4510ac2c038ac81",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 6500000000000000000,
+          "sealed_label": null,
+          "total_eth": 6.5,
+          "total_wei": 6500000000000000000
+        },
+        {
+          "address": "0xce7418abca8bbdfd27d47b031c7828f55475bb60",
+          "in_n": 1,
+          "in_wei": 6407770800000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 6.4077708,
+          "total_wei": 6407770800000000000
+        }
+      ],
+      "tt_hit_page_cap": false,
+      "tt_scanned": 591,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 965
+    },
+    "pmusa.eth": {
+      "activity_span": {
+        "earliest": "2021-10-09T20:02:01.000000Z",
+        "latest": "2022-09-09T01:19:19.000000Z"
+      },
+      "address": "0x06aE908A3EBb99f70CAF27b9f9B52e8056f7Df0c",
+      "eth_flows": {
+        "in_count": 51,
+        "in_eth": 10.621668453647438,
+        "in_wei": 10621668453647437347,
+        "internal_in_wei": 40467797269358143096,
+        "internal_out_wei": 0,
+        "net_external_wei": -59146240612425041927,
+        "out_count": 512,
+        "out_eth": 69.76790906607248,
+        "out_wei": 69767909066072479274
+      },
+      "internal_scanned": 290,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "pmusa.eth",
+      "methods_top": [
+        [
+          "atomicMatch_",
+          206
+        ],
+        [
+          "commit",
+          144
+        ],
+        [
+          "registerWithConfig",
+          142
+        ],
+        [
+          "setApprovalForAll",
+          132
+        ],
+        [
+          "unknown",
+          70
+        ],
+        [
+          "mint",
+          47
+        ],
+        [
+          "deposit",
+          47
+        ],
+        [
+          "withdraw",
+          31
+        ],
+        [
+          "mintWithOG",
+          25
+        ],
+        [
+          "cancelOrder_",
+          24
+        ],
+        [
+          "fulfillBasicOrder",
+          20
+        ],
+        [
+          "claim",
+          19
+        ],
+        [
+          "levelUpRoboOogaWithOG",
+          19
+        ],
+        [
+          "spinMysteryBox",
+          19
+        ],
+        [
+          "swap",
+          17
+        ],
+        [
+          "approve",
+          14
+        ],
+        [
+          "withdrawLoomi",
+          11
+        ],
+        [
+          "0x5072c1ee",
+          11
+        ],
+        [
+          "claimReward",
+          11
+        ],
+        [
+          "stake",
+          8
+        ]
+      ],
+      "money_method_hits": 345,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "ENS",
+          164
+        ],
+        [
+          "OG",
+          103
+        ],
+        [
+          "ARMS",
+          34
+        ],
+        [
+          "MAG",
+          28
+        ],
+        [
+          "WETH",
+          28
+        ],
+        [
+          "CreepzDAO",
+          20
+        ],
+        [
+          "LOOMI",
+          17
+        ],
+        [
+          "VAULT",
+          17
+        ],
+        [
+          "CN",
+          14
+        ],
+        [
+          "CBC",
+          8
+        ],
+        [
+          "OPENSTORE",
+          8
+        ],
+        [
+          "PTG",
+          8
+        ],
+        [
+          "LOADOUT",
+          6
+        ],
+        [
+          "MPL",
+          6
+        ],
+        [
+          "?",
+          5
+        ],
+        [
+          "Capeverse",
+          5
+        ],
+        [
+          "KRYPTORIA",
+          4
+        ],
+        [
+          "EALIEN",
+          4
+        ],
+        [
+          "MEGA",
+          4
+        ],
+        [
+          "ANIMUS",
+          4
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 134,
+          "out_wei": 31263000000000000000,
+          "sealed_label": null,
+          "total_eth": 31.263,
+          "total_wei": 31263000000000000000
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 64,
+          "out_wei": 11345300000000000000,
+          "sealed_label": null,
+          "total_eth": 11.3453,
+          "total_wei": 11345300000000000000
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 14,
+          "out_wei": 9440000000000000000,
+          "sealed_label": null,
+          "total_eth": 9.44,
+          "total_wei": 9440000000000000000
+        },
+        {
+          "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 7,
+          "out_wei": 4900000000000000000,
+          "sealed_label": null,
+          "total_eth": 4.9,
+          "total_wei": 4900000000000000000
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 13,
+          "in_wei": 4751693190000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 4.75169319,
+          "total_wei": 4751693190000000000
+        },
+        {
+          "address": "0xc90952242f142a0335712e74786dda9cc93c33c6",
+          "in_n": 7,
+          "in_wei": 1683916631419537800,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.683916631419538,
+          "total_wei": 1683916631419537800
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 8,
+          "in_wei": 1267530930000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.26753093,
+          "total_wei": 1267530930000000000
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "in_n": 7,
+          "in_wei": 1028260680000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 1.02826068,
+          "total_wei": 1028260680000000000
+        },
+        {
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 19,
+          "out_wei": 1016300000000000000,
+          "sealed_label": null,
+          "total_eth": 1.0163,
+          "total_wei": 1016300000000000000
+        },
+        {
+          "address": "0xa63673fd80e67aaeab5489c61760a490476a748a",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 1000000000000000000,
+          "sealed_label": null,
+          "total_eth": 1.0,
+          "total_wei": 1000000000000000000
+        },
+        {
+          "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+          "in_n": 8,
+          "in_wei": 954553480000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.95455348,
+          "total_wei": 954553480000000000
+        },
+        {
+          "address": "0xbe3fa23339566a59335feb7be037399f683e11b5",
+          "in_n": 3,
+          "in_wei": 433969612363913139,
+          "out_n": 2,
+          "out_wei": 513485972074800079,
+          "sealed_label": null,
+          "total_eth": 0.9474555844387132,
+          "total_wei": 947455584438713218
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1137
+    },
+    "sama.eth": {
+      "activity_span": {
+        "earliest": "2021-08-22T23:31:53.000000Z",
+        "latest": "2026-07-10T19:42:59.000000Z"
+      },
+      "address": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
+      "eth_flows": {
+        "in_count": 44,
+        "in_eth": 44.90644958452618,
+        "in_wei": 44906449584526178640,
+        "internal_in_wei": 2019218164042666512,
+        "internal_out_wei": 896167786273377,
+        "net_external_wei": -44406116110419797772,
+        "out_count": 457,
+        "out_eth": 89.31256569494599,
+        "out_wei": 89312565694945976412
+      },
+      "internal_scanned": 100,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "sama.eth",
+      "methods_top": [
+        [
+          "mint",
+          111
+        ],
+        [
+          "unknown",
+          76
+        ],
+        [
+          "commit",
+          55
+        ],
+        [
+          "setApprovalForAll",
+          52
+        ],
+        [
+          "safeTransferFrom",
+          46
+        ],
+        [
+          "0x75090ebf",
+          46
+        ],
+        [
+          "registerWithConfig",
+          42
+        ],
+        [
+          "atomicMatch_",
+          36
+        ],
+        [
+          "approve",
+          32
+        ],
+        [
+          "placeBid",
+          30
+        ],
+        [
+          "renew",
+          28
+        ],
+        [
+          "reserve",
+          28
+        ],
+        [
+          "deposit",
+          27
+        ],
+        [
+          "withdraw",
+          27
+        ],
+        [
+          "execute",
+          24
+        ],
+        [
+          "fulfillBasicOrder",
+          20
+        ],
+        [
+          "purchase",
+          19
+        ],
+        [
+          "placeBidV2",
+          19
+        ],
+        [
+          "multicall",
+          18
+        ],
+        [
+          "mintFromFixedPriceSaleWithEarlyAccessAllowlist",
+          14
+        ]
+      ],
+      "money_method_hits": 274,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "?",
+          72
+        ],
+        [
+          "ENS",
+          51
+        ],
+        [
+          "WETH",
+          26
+        ],
+        [
+          "ATS",
+          24
+        ],
+        [
+          "USDC",
+          18
+        ],
+        [
+          "ATC",
+          12
+        ],
+        [
+          "PEMU",
+          11
+        ],
+        [
+          "GEESE",
+          11
+        ],
+        [
+          "MIL",
+          10
+        ],
+        [
+          "WMC",
+          10
+        ],
+        [
+          "PXLDY",
+          8
+        ],
+        [
+          "CULT",
+          7
+        ],
+        [
+          "sndbx",
+          7
+        ],
+        [
+          "MIZUKI",
+          7
+        ],
+        [
+          "OCARINA",
+          6
+        ],
+        [
+          "PLT",
+          6
+        ],
+        [
+          "JTP",
+          6
+        ],
+        [
+          "OPENSTORE",
+          6
+        ],
+        [
+          "WIFE",
+          5
+        ],
+        [
+          "SUBT",
+          5
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 50,
+          "out_wei": 24628920210000000000,
+          "sealed_label": null,
+          "total_eth": 24.62892021,
+          "total_wei": 24628920210000000000
+        },
+        {
+          "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+          "in_n": 15,
+          "in_wei": 23464268523600000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 23.464268523599998,
+          "total_wei": 23464268523600000000
+        },
+        {
+          "address": "0x253553366da8546fc250f225fe3d25d0c782303b",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 31,
+          "out_wei": 10062120511575989310,
+          "sealed_label": null,
+          "total_eth": 10.06212051157599,
+          "total_wei": 10062120511575989310
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 14,
+          "out_wei": 8069948728340821851,
+          "sealed_label": null,
+          "total_eth": 8.069948728340822,
+          "total_wei": 8069948728340821851
+        },
+        {
+          "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+          "in_n": 5,
+          "in_wei": 7727751190000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 7.72775119,
+          "total_wei": 7727751190000000000
+        },
+        {
+          "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+          "in_n": 5,
+          "in_wei": 6049598590000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 6.04959859,
+          "total_wei": 6049598590000000000
+        },
+        {
+          "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 44,
+          "out_wei": 5637186303759547901,
+          "sealed_label": null,
+          "total_eth": 5.637186303759547,
+          "total_wei": 5637186303759547901
+        },
+        {
+          "address": "0xe72651bbc594eea65852959c9a0c8d2e7ae8a46e",
+          "in_n": 4,
+          "in_wei": 1920000000000000000,
+          "out_n": 3,
+          "out_wei": 3080000000000000000,
+          "sealed_label": null,
+          "total_eth": 5.0,
+          "total_wei": 5000000000000000000
+        },
+        {
+          "address": "0x0000000000a39bb272e79075ade125fd351887ac",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 9,
+          "out_wei": 4781100000000000000,
+          "sealed_label": null,
+          "total_eth": 4.7811,
+          "total_wei": 4781100000000000000
+        },
+        {
+          "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 3991113967394853805,
+          "sealed_label": null,
+          "total_eth": 3.991113967394854,
+          "total_wei": 3991113967394853805
+        },
+        {
+          "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 26,
+          "out_wei": 3852990000000000000,
+          "sealed_label": null,
+          "total_eth": 3.85299,
+          "total_wei": 3852990000000000000
+        },
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "in_n": 2,
+          "in_wei": 2926958750000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 2.92695875,
+          "total_wei": 2926958750000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": false,
+      "tx_scanned": 1082
+    },
+    "vitalik.eth": {
+      "activity_span": {
+        "earliest": "2026-04-30T18:08:59.000000Z",
+        "latest": "2026-07-22T17:22:59.000000Z"
+      },
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "eth_flows": {
+        "in_count": 102,
+        "in_eth": 0.46334709957197745,
+        "in_wei": 463347099571977499,
+        "internal_in_wei": 1228994048111720442,
+        "internal_out_wei": 0,
+        "net_external_wei": -223630652900428022501,
+        "out_count": 15,
+        "out_eth": 224.094,
+        "out_wei": 224094000000000000000
+      },
+      "internal_scanned": 100,
+      "ip_linked_token_hit_count": 0,
+      "ip_linked_token_hits": [],
+      "label": "vitalik.eth",
+      "methods_top": [
+        [
+          "approve",
+          532
+        ],
+        [
+          "swapExactTokensForETHSupportingFeeOnTransferTokens",
+          486
+        ],
+        [
+          "unknown",
+          115
+        ],
+        [
+          "multicall",
+          25
+        ],
+        [
+          "depositToAztecPublic",
+          11
+        ],
+        [
+          "deposit",
+          7
+        ],
+        [
+          "0xdf63087b",
+          6
+        ],
+        [
+          "0x45746820",
+          6
+        ],
+        [
+          "ethsGEGzXlymji3hvTyjQnpYo",
+          5
+        ],
+        [
+          "setContenthash",
+          5
+        ],
+        [
+          "0x68747470",
+          4
+        ],
+        [
+          "executeWithSig",
+          4
+        ],
+        [
+          "0xb61d27f6",
+          4
+        ],
+        [
+          "transfer",
+          2
+        ],
+        [
+          "0x0bd2ec05",
+          2
+        ],
+        [
+          "execute",
+          2
+        ],
+        [
+          "0x2e7c10b2",
+          2
+        ],
+        [
+          "execTransaction",
+          2
+        ],
+        [
+          "0x00c63044",
+          1
+        ],
+        [
+          "0xc0b03d13",
+          1
+        ]
+      ],
+      "money_method_hits": 541,
+      "ok": true,
+      "sealed_eth_peers": {},
+      "sealed_token_peer_counts": {},
+      "token_symbols_top": [
+        [
+          "CMD",
+          88
+        ],
+        [
+          "SLOPPACK",
+          79
+        ],
+        [
+          "VITALIK",
+          57
+        ],
+        [
+          "?",
+          15
+        ],
+        [
+          "AZTEC",
+          14
+        ],
+        [
+          "BASTIAN",
+          11
+        ],
+        [
+          "USDC",
+          10
+        ],
+        [
+          "GLOBE",
+          9
+        ],
+        [
+          "ĖTḨ",
+          7
+        ],
+        [
+          "ETH",
+          7
+        ],
+        [
+          "vitalik bull",
+          7
+        ],
+        [
+          "BZUKI",
+          7
+        ],
+        [
+          "HEX",
+          5
+        ],
+        [
+          "DOG",
+          4
+        ],
+        [
+          "FWOG",
+          4
+        ],
+        [
+          "USDT",
+          3
+        ],
+        [
+          "0xwormhole",
+          3
+        ],
+        [
+          "VB",
+          3
+        ],
+        [
+          "CapyBara",
+          3
+        ],
+        [
+          "AVC",
+          3
+        ]
+      ],
+      "token_transfer_count": 600,
+      "top_counterparties_by_eth": [
+        {
+          "address": "0x3c7779d27348017415a9184acadc0d62052841ab",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 160000000000000000000,
+          "sealed_label": null,
+          "total_eth": 160.0,
+          "total_wei": 160000000000000000000
+        },
+        {
+          "address": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 64000000000000000000,
+          "sealed_label": null,
+          "total_eth": 64.0,
+          "total_wei": 64000000000000000000
+        },
+        {
+          "address": "0xdadb0d80178819f2319190d340ce9a924f783711",
+          "in_n": 8,
+          "in_wei": 381022968638319852,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.38102296863831986,
+          "total_wei": 381022968638319852
+        },
+        {
+          "address": "0x6181a4c5566051081b70d9348db673ee83ca0313",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 3,
+          "out_wei": 30000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.03,
+          "total_wei": 30000000000000000
+        },
+        {
+          "address": "0x62a29205f7ff00f4233d9779c210150787638e7f",
+          "in_n": 1,
+          "in_wei": 20289941064035037,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.020289941064035037,
+          "total_wei": 20289941064035037
+        },
+        {
+          "address": "0x6ff94bf88e94c6f73024d6336db8ac428025a434",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 2,
+          "out_wei": 20000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.02,
+          "total_wei": 20000000000000000
+        },
+        {
+          "address": "0x781a7bfc2efe8e455fc1d23e0a5f7fe70a302130",
+          "in_n": 12,
+          "in_wei": 18067028567400000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.0180670285674,
+          "total_wei": 18067028567400000
+        },
+        {
+          "address": "0xa1abfa21f80ecf401bd41365adbb6fef6fefdf09",
+          "in_n": 1,
+          "in_wei": 12213220000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.01221322,
+          "total_wei": 12213220000000000
+        },
+        {
+          "address": "0x7a59777f4cd80f4c4fc90d8eee9ef935ec99356f",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.01,
+          "total_wei": 10000000000000000
+        },
+        {
+          "address": "0x4e3f4b4373692d0169a71d29a45754a7ee9d06ea",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.01,
+          "total_wei": 10000000000000000
+        },
+        {
+          "address": "0xd828031b12a8dad99c0c8e8a7dc67cbd5d718db6",
+          "in_n": 0,
+          "in_wei": 0,
+          "out_n": 1,
+          "out_wei": 10000000000000000,
+          "sealed_label": null,
+          "total_eth": 0.01,
+          "total_wei": 10000000000000000
+        },
+        {
+          "address": "0x82eb45562f991329ed2867f43fc60f0ba52c3dab",
+          "in_n": 1,
+          "in_wei": 10000000000000000,
+          "out_n": 0,
+          "out_wei": 0,
+          "sealed_label": null,
+          "total_eth": 0.01,
+          "total_wei": 10000000000000000
+        }
+      ],
+      "tt_hit_page_cap": true,
+      "tt_scanned": 600,
+      "tx_hit_page_cap": true,
+      "tx_scanned": 1250
+    }
+  },
+  "status": "SEALED",
+  "title": "All money flows (sealed address set)"
+}
