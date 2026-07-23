@@ -1,0 +1,149 @@
+{
+  "adjudicated": false,
+  "findings": [
+    {
+      "assignees": [
+        "Urgentrn LLC"
+      ],
+      "dates": {
+        "filingDate": "2021-05-18",
+        "priorityDate": "2020-05-19",
+        "publicationDate": "2022-04-07"
+      },
+      "detail": "Priority date 2020-05-19 is the same month as the urgentrn.com Urgent Response Network Wayback page naming Brent Skoda and advertising gel hand sanitizer. Corroborates Wave-14 UrgentRN assignee cluster. Assignment chain still needs USPTO records.",
+      "id": "W15-F4",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "publication": "US20220104664A1",
+      "severity": "google_patents_html",
+      "sha3_256": "6ce0685117776f29b35a827b3fb489a210b019a7b39ab36f91bf8548608d42a2",
+      "title": "US20220104664A1 \u2014 inventor Brent M. Skoda; assignee Urgentrn LLC; priority 2020-05-19"
+    },
+    {
+      "assignees": [
+        "AHKEO LABS LLC"
+      ],
+      "dates": {
+        "filingDate": "2017-01-03",
+        "priorityDate": "2017-01-03",
+        "publicationDate": "2018-07-05"
+      },
+      "detail": "Filed after DE Ahkeo Labs formation 2016-07-14 (Wave-9). Expands Ahkeo Labs assignee cluster beyond Wave-4 sealed set.",
+      "id": "W15-F5",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "provenance": "google_patents_html",
+      "publication": "US20180191180A1",
+      "sha3_256": "3c838950bd921fdee2b6cc847ec93fa7d94f3005793345cc34d9963bebbc3c4f",
+      "title": "US20180191180A1 \u2014 Ahkeo Labs portable charging (filed 2017-01-03)"
+    },
+    {
+      "assignees": [
+        "Zorday IP LLC"
+      ],
+      "dates": {
+        "filingDate": "2024-10-24",
+        "priorityDate": "2015-02-19",
+        "publicationDate": "2025-02-13"
+      },
+      "detail": "Continues Zorday IP, LLC cluster. Priority reaches 2015 \u2014 pre-Ahkeo Labs DE formation; not a theft adjudication.",
+      "id": "W15-F6",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "provenance": "google_patents_html",
+      "publication": "US20250054595A1",
+      "sha3_256": "f6a5dcda9ab614a76f6792311171f67b8e7d7a0b90ca00b4e88451047d5d2c0d",
+      "title": "US20250054595A1 \u2014 Zorday IP smart mixers (priority 2015-02-19)"
+    }
+  ],
+  "generated_at": "2026-07-23T15:13:04Z",
+  "id": "wave14_new_pubs_biblio",
+  "next_actions": [
+    "USPTO_API_KEY assignment pull for these three + full 15-pub set"
+  ],
+  "publications": {
+    "US20180191180A1": {
+      "application_number": "US:15/397,707",
+      "assignees": [
+        "AHKEO LABS LLC"
+      ],
+      "bytes": 145857,
+      "dates": {
+        "filingDate": "2017-01-03",
+        "priorityDate": "2017-01-03",
+        "publicationDate": "2018-07-05"
+      },
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "mentions_caffeine": false,
+      "mentions_sanitizer": false,
+      "mentions_skoda": true,
+      "ok": true,
+      "pdf_url": "https://patentimages.storage.googleapis.com/83/55/42/847461b51a3d77/US20180191180A1.pdf",
+      "publication": "US20180191180A1",
+      "publication_number_meta": "US:20180191180:A1",
+      "sha256": "3d4751df938ded0c7189ef1b79dc6414bc9e47dc74f8e1beb249d4d20273233c",
+      "sha3_256": "3c838950bd921fdee2b6cc847ec93fa7d94f3005793345cc34d9963bebbc3c4f",
+      "title": "Systems and methods for portable charging systems and designs thereof",
+      "url": "https://patents.google.com/patent/US20180191180A1/en"
+    },
+    "US20220104664A1": {
+      "application_number": "US:17/323,661",
+      "assignees": [
+        "Urgentrn LLC"
+      ],
+      "bytes": 600000,
+      "dates": {
+        "filingDate": "2021-05-18",
+        "priorityDate": "2020-05-19",
+        "publicationDate": "2022-04-07"
+      },
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "mentions_caffeine": false,
+      "mentions_sanitizer": true,
+      "mentions_skoda": true,
+      "ok": true,
+      "pdf_url": "https://patentimages.storage.googleapis.com/ac/45/be/8aed63549bfd20/US20220104664A1.pdf",
+      "publication": "US20220104664A1",
+      "publication_number_meta": "US:20220104664:A1",
+      "sha256": "3e96fdd5612dcb9fe0b8192eaec289b48118e42cfed94bdcc6ccf696d4761f50",
+      "sha3_256": "6ce0685117776f29b35a827b3fb489a210b019a7b39ab36f91bf8548608d42a2",
+      "title": "Systems and methods for sanitizer dispensing devices and remote management of the same",
+      "url": "https://patents.google.com/patent/US20220104664A1/en"
+    },
+    "US20250054595A1": {
+      "application_number": "US:18/926,063",
+      "assignees": [
+        "Zorday IP LLC"
+      ],
+      "bytes": 370792,
+      "dates": {
+        "filingDate": "2024-10-24",
+        "priorityDate": "2015-02-19",
+        "publicationDate": "2025-02-13"
+      },
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "mentions_caffeine": false,
+      "mentions_sanitizer": false,
+      "mentions_skoda": true,
+      "ok": true,
+      "pdf_url": "https://patentimages.storage.googleapis.com/55/98/30/f6b2d1915cffaf/US20250054595A1.pdf",
+      "publication": "US20250054595A1",
+      "publication_number_meta": "US:20250054595:A1",
+      "sha256": "192caad2a0918536cf3facb1f82ce365f083863e4b05efb7f4ddd6f33a2e4a3f",
+      "sha3_256": "f6a5dcda9ab614a76f6792311171f67b8e7d7a0b90ca00b4e88451047d5d2c0d",
+      "title": "Systems and methods for smart mixers",
+      "url": "https://patents.google.com/patent/US20250054595A1/en"
+    }
+  },
+  "status": "SEALED",
+  "title": "Google Patents HTML biblio \u2014 Wave-14 new publications"
+}

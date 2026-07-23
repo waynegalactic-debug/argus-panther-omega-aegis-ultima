@@ -102,6 +102,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-14 Google Patents portfolio refresh",
     )
+    parser.add_argument(
+        "--investigate-wave15",
+        action="store_true",
+        help="Run investigation wave-15 UrgentRN / Urgent Response Network cluster",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -129,6 +134,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave12,
             args.investigate_wave13,
             args.investigate_wave14,
+            args.investigate_wave15,
         )
     )
     if wave_flags > 1:
@@ -137,7 +143,8 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave3 / --investigate-wave4 / --investigate-wave5 / "
             "--investigate-wave6 / --investigate-wave7 / --investigate-wave8 / "
             "--investigate-wave9 / --investigate-wave10 / --investigate-wave11 / "
-            "--investigate-wave12 / --investigate-wave13 / --investigate-wave14.",
+            "--investigate-wave12 / --investigate-wave13 / --investigate-wave14 / "
+            "--investigate-wave15.",
             file=sys.stderr,
         )
         return 2
@@ -211,6 +218,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave14 import main as wave14_main
 
         return int(wave14_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave15:
+        from us_ipforce_investigation_wave15 import main as wave15_main
+
+        return int(wave15_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

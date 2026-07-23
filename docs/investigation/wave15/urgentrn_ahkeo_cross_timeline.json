@@ -1,0 +1,69 @@
+{
+  "adjudicated": false,
+  "events": [
+    {
+      "date": "2015-02-19",
+      "event": "US20250054595A1 priority (smart mixers / Zorday IP)",
+      "source": "W15-F6"
+    },
+    {
+      "date": "2016-07-14",
+      "event": "AHKEO LABS, LLC Delaware file 6096179 formed",
+      "source": "Wave-9"
+    },
+    {
+      "date": "2017-01-03",
+      "event": "US20180191180A1 filed (Ahkeo Labs portable charging)",
+      "source": "W15-F5"
+    },
+    {
+      "date": "2017-05/06",
+      "event": "ahkeolabs.com brand + Plurimi complaint",
+      "source": "Wave-13 / Wave-8"
+    },
+    {
+      "date": "2020-03-30",
+      "event": "urgentrn.com domain registered (GoDaddy)",
+      "source": "W15-F1"
+    },
+    {
+      "date": "2020-05-12",
+      "event": "urgentrn.com Wayback \u2014 Urgent Response Network; Brent Skoda named",
+      "source": "W15-F2"
+    },
+    {
+      "date": "2020-05-19",
+      "event": "US20220104664A1 priority (sanitizer dispenser / Urgentrn LLC)",
+      "source": "W15-F4"
+    },
+    {
+      "date": "2021-05-18",
+      "event": "US20220104664A1 filed",
+      "source": "W15-F4"
+    },
+    {
+      "date": "2024-04",
+      "event": "urgentrn.com late Wayback capture (pre-current lander)",
+      "source": "W15-F3"
+    },
+    {
+      "date": "2026",
+      "event": "urgentrn.com Afternic NS / lander redirect (RDAP live)",
+      "source": "W15-F1"
+    }
+  ],
+  "generated_at": "2026-07-23T15:13:04Z",
+  "id": "urgentrn_ahkeo_cross_timeline",
+  "next_actions": [
+    "Insert UrgentRN LLC formation date when SOS/DE abstract obtained"
+  ],
+  "policy": "Evidence sequencing only \u2014 not theft/RICO/UBO adjudication. UrgentRN LLC corporate charter still operator-gated.",
+  "status": "SEALED",
+  "supporting_tracks": [
+    "urgentrn_rdap_domain",
+    "urgentrn_wayback_custody",
+    "wave14_new_pubs_biblio"
+  ],
+  "title": "UrgentRN \u2194 Ahkeo/Zorday authenticated cross-timeline",
+  "true_ubo_asserted": 0
+}

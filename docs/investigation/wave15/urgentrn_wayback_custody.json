@@ -1,0 +1,224 @@
+{
+  "adjudicated": false,
+  "cdx": {
+    "ok": true,
+    "rows": [
+      {
+        "digest": "T3RJDTGFDYRTWTX7YE3DNEMRFU62OLN7",
+        "length": "19323",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200512004900"
+      },
+      {
+        "digest": "5QNO2YJF642JBTZXBEGJKZ42WXWSHPIO",
+        "length": "20015",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200517115813"
+      },
+      {
+        "digest": "CRPJOAPWZ4VDDM7G73XP77TGKMZRPGDU",
+        "length": "19150",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200520072035"
+      },
+      {
+        "digest": "Q6JAC3KW7Y6QWXEBHTAQYQNO65JD65WC",
+        "length": "19296",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200526132913"
+      },
+      {
+        "digest": "V5DS4DOALONBHXL2BVPWB2EKWBGXZ43H",
+        "length": "16619",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200531022114"
+      },
+      {
+        "digest": "MPW7JPM2FD6OJUP6AE6RJ5X2O37OJP65",
+        "length": "16614",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200531130648"
+      },
+      {
+        "digest": "QVVXWSG26YUMFYMQYUXO6O73T5G5HWVU",
+        "length": "17113",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200617111936"
+      },
+      {
+        "digest": "PH3E3NRE3PDLZCX2W2GJZT3DJMPTCW4H",
+        "length": "17039",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200707201022"
+      },
+      {
+        "digest": "RRDMERS5FOA3L6OCQLVWXLKDSF7TRY7V",
+        "length": "1276",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200808165908"
+      },
+      {
+        "digest": "OX7XYJ3WVMG3B7XHGCET3OHAHFZ7MTR6",
+        "length": "2449",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200922221240"
+      },
+      {
+        "digest": "ISRGMGTAKHXMAODZ64TCPND2QFBPQMQ4",
+        "length": "2453",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20200924142610"
+      },
+      {
+        "digest": "HFS7OILQ3AQUPLGG7VAFUKNAVMZBNOIH",
+        "length": "2550",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20201023055216"
+      },
+      {
+        "digest": "S2OZYXA5FAQNSDLEJMIYYHA5FG5AHYNZ",
+        "length": "2606",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20201030045937"
+      },
+      {
+        "digest": "NHEKNROEILYAOP2WLGNFCPKFTSZHRW5O",
+        "length": "2366",
+        "mimetype": "text/html",
+        "original": "https://www.urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20201031112949"
+      },
+      {
+        "digest": "OLFILO2AR7FNJJ2G4KZYTP5LBDXVZ3UI",
+        "length": "1048",
+        "mimetype": "text/html",
+        "original": "http://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20231102104735"
+      },
+      {
+        "digest": "7HMQKXUYPBZDUEQGHND5JINF6WGD5MPJ",
+        "length": "532",
+        "mimetype": "text/html",
+        "original": "https://urgentrn.com/",
+        "statuscode": "200",
+        "timestamp": "20240423234918"
+      }
+    ],
+    "sha3_256": "a9ed7f02a513c5b8d0e6e7dea72a580fe1c46220d50ee163cd9fa955eb88c796",
+    "url": "https://web.archive.org/cdx/search/cdx?url=urgentrn.com%2F&matchType=exact&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype%2Clength&filter=statuscode%3A200&collapse=digest&limit=40"
+  },
+  "findings": [
+    {
+      "detail": "Internet Archive snapshot 2020-05-12 titles 'Home - Urgent Response Network' and states corporate leadership by 'global entrepreneur Brent Skoda' in COVID-19 PPE / sanitizer commerce. Not a finding of wrongdoing \u2014 brand/operator nexus only.",
+      "id": "W15-F2",
+      "page_title": "Home - Urgent Response Network",
+      "severity": "wayback_snapshot",
+      "sha3_256": "14691d4d7972cf7a23e1501f9b41ac5083474a5e25180256084e132c06cc5d2c",
+      "skoda_contexts": [
+        "e world safe. SELL NOW Corporate Led by global entrepreneur Brent Skoda , Urgent Response Network is committed to assisting governments, health systems, businesses and individuals receive critical Personal Protective Equipment (PPE"
+      ],
+      "timestamp": "20200512004900",
+      "title": "urgentrn.com May 2020 \u2014 Urgent Response Network led by Brent Skoda",
+      "wayback_url": "https://web.archive.org/web/20200512004900id_/https://urgentrn.com/"
+    },
+    {
+      "count_collapsed_digest": 16,
+      "detail": "Public CDX index only. Live domain now parked/Afternic-oriented (see RDAP). Historical brand content ends before present lander state.",
+      "first_timestamp": "20200512004900",
+      "id": "W15-F3",
+      "last_timestamp": "20240423234918",
+      "severity": "wayback_cdx",
+      "title": "urgentrn.com Wayback span 2020-05 \u2192 2024-04 (digest-collapsed)"
+    }
+  ],
+  "generated_at": "2026-07-23T15:13:01Z",
+  "id": "urgentrn_wayback_custody",
+  "next_actions": [
+    "Counsel may attach W15-F2 Skoda corporate page to preservation package"
+  ],
+  "snapshots": {
+    "urgentrn_2020_launch": {
+      "bytes": 90758,
+      "excerpt": "Home - Urgent Response Network Buy Sell Corporate Media Contact Cart Login Buy Sell Corporate Media Contact Cart Login Home V R 2020-05-12T00:02:09+00:00 Gel hand sanitizer now available. Click here or visit store.UrgentRN.com to order now. Amazon partners with Urgent Response Network. Supplying Amazon COVID-19 Supplies. Keeping our front lines safe. We are available 24 hours a day to get supplies to those who need them most. Call or Text: 1-855-842-0440 anytime BUY NOW Whatever your needs ... We have you covered. All types of Personal Protective Equipment (PPE) available. BUY NOW Certified face masks Large quantities available now. BUY NOW BUY PPE Certified masks, gloves, gowns, sanitizer available now. BUY NOW SELL PPE Please register if you have products to sell us. SELL NOW TALK TO US Call or text us at 855-852-0440 anytime. We are here 24 hours a day. TALK TO US Buy Personal Protective Equipment PPE available to to order now. Goggles , Personal Protection , Supplies Nitrile Exam (Non-sterile) Gloves (M or L size), Pair Add to Quote You have already added this product to your quote. Add Quantities Face Masks , Personal Protection , Supplies KN95 (CE) Add to Quote You have already added this product to your quote. Add Quantities Gloves , Personal Protection , Supplies Latex Exam (Non-sterile) Gloves (M or L size), Pair Add to Quote You have already added this product to your quote. Add Quantities Diagnostics , Supplies , Thermometers Non-contact Infrared Medical Thermometer with LED Indicator Add to Quote You have already added this product to your quote. Add Quantities ",
+      "keyword_hits": {
+        "ahkeo": false,
+        "amazon": true,
+        "brent": true,
+        "medical": true,
+        "ppe": true,
+        "sanitizer": true,
+        "skoda": true,
+        "urgent": true,
+        "zorday": false
+      },
+      "label": "urgentrn_2020_launch",
+      "ok": true,
+      "original": "https://urgentrn.com/",
+      "sha256": "313d205ab07b12dd525bacab8c26f6fd5413e0cfb5f029e268e429d2cf789f8e",
+      "sha3_256": "14691d4d7972cf7a23e1501f9b41ac5083474a5e25180256084e132c06cc5d2c",
+      "skoda_contexts": [
+        "e world safe. SELL NOW Corporate Led by global entrepreneur Brent Skoda , Urgent Response Network is committed to assisting governments, health systems, businesses and individuals receive critical Personal Protective Equipment (PPE"
+      ],
+      "text_chars": 3399,
+      "timestamp": "20200512004900",
+      "title": "Home - Urgent Response Network",
+      "wayback_url": "https://web.archive.org/web/20200512004900id_/https://urgentrn.com/"
+    },
+    "urgentrn_2024_late": {
+      "bytes": 114,
+      "excerpt": "",
+      "keyword_hits": {
+        "ahkeo": false,
+        "amazon": false,
+        "brent": false,
+        "medical": false,
+        "ppe": false,
+        "sanitizer": false,
+        "skoda": false,
+        "urgent": false,
+        "zorday": false
+      },
+      "label": "urgentrn_2024_late",
+      "ok": true,
+      "original": "https://urgentrn.com/",
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "sha3_256": "be066141dcb38e7dcf8a01b24f17c235a497908262e857c81af17283a5f88832",
+      "skoda_contexts": [],
+      "text_chars": 0,
+      "timestamp": "20240423234918",
+      "title": null,
+      "wayback_url": "https://web.archive.org/web/20240423234918id_/https://urgentrn.com/"
+    }
+  },
+  "status": "SEALED",
+  "title": "Wayback custody \u2014 urgentrn.com / Urgent Response Network",
+  "true_ubo_asserted": 0
+}

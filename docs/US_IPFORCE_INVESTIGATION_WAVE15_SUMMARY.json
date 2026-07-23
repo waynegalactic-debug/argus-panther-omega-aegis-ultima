@@ -1,0 +1,206 @@
+{
+  "artifacts": {
+    "biblio": "docs/investigation/wave15/wave14_new_pubs_biblio.json",
+    "rdap": "docs/investigation/wave15/urgentrn_rdap_domain.json",
+    "summary_md": "docs/investigation/WAVE15_URGENTRN_CLUSTER.md",
+    "timeline": "docs/investigation/wave15/urgentrn_ahkeo_cross_timeline.json",
+    "wayback": "docs/investigation/wave15/urgentrn_wayback_custody.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W15",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 6,
+    "new_pubs_ok": 3,
+    "timeline_events": 10,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "2c7b151b44f8fa7646e66318e2f92444613e664f9d43bce1242ad3698a49ec6f",
+    "leaves": [
+      {
+        "id": "urgentrn_rdap_domain",
+        "sha3_256": "84c8404a7a08baa816d03b0c76696ba3bf69315c21f66b6c90ea9e6a8f3475ef",
+        "status": "SEALED"
+      },
+      {
+        "id": "urgentrn_wayback_custody",
+        "sha3_256": "d26c08d19ff4d7b9e115a1d1ed317231cac8f0be8f539154b627c10571df5bb2",
+        "status": "SEALED"
+      },
+      {
+        "id": "wave14_new_pubs_biblio",
+        "sha3_256": "4d318dbdeca9e73e212f0835efd0d325b9c644ffc25cf6f5f6d571ed794e7d5f",
+        "status": "SEALED"
+      },
+      {
+        "id": "urgentrn_ahkeo_cross_timeline",
+        "sha3_256": "cd363ca2ae3d82106d8e7115716dc470baa5a3cb9aedf820b93a73114ded1027",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "9a07fbb0b548a18befd17b284d3b81c8a92b6eb54e60ed45c1bf71226d8efdc9",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "62c2861adbbd2277b150bffb4278515bdfff9aa7292e039626e28bce3ea61d12aae69f0c3b0ff0cf18232c47165e516241a5be2f4545417d1706c8ea92bd5714"
+  },
+  "elapsed_ms": 16029,
+  "findings": [
+    {
+      "detail": "Verisign RDAP: URGENTRN.COM registered 2020-03-30T22:53:49Z via GoDaddy.com, LLC (IANA 146). Nameservers include Afternic + verification NS \u2014 consistent with aftermarket/parked state. Live root returns JS redirect to /lander.",
+      "expiration": "2027-03-30T22:53:49Z",
+      "id": "W15-F1",
+      "nameservers": [
+        "NS1.AFTERNIC.COM",
+        "NS2.AFTERNIC.COM",
+        "VERIFICATION-DJKNE8FNLDKHSJVAZ52WDZ.NS101.VERIFY.HN"
+      ],
+      "registrar": {
+        "handle": "146",
+        "name": "GoDaddy.com, LLC",
+        "roles": [
+          "registrar"
+        ]
+      },
+      "registration": "2020-03-30T22:53:49Z",
+      "severity": "rdap",
+      "title": "urgentrn.com registered 2020-03-30 (GoDaddy); now Afternic NS"
+    },
+    {
+      "detail": "Internet Archive snapshot 2020-05-12 titles 'Home - Urgent Response Network' and states corporate leadership by 'global entrepreneur Brent Skoda' in COVID-19 PPE / sanitizer commerce. Not a finding of wrongdoing \u2014 brand/operator nexus only.",
+      "id": "W15-F2",
+      "page_title": "Home - Urgent Response Network",
+      "severity": "wayback_snapshot",
+      "sha3_256": "14691d4d7972cf7a23e1501f9b41ac5083474a5e25180256084e132c06cc5d2c",
+      "skoda_contexts": [
+        "e world safe. SELL NOW Corporate Led by global entrepreneur Brent Skoda , Urgent Response Network is committed to assisting governments, health systems, businesses and individuals receive critical Personal Protective Equipment (PPE"
+      ],
+      "timestamp": "20200512004900",
+      "title": "urgentrn.com May 2020 \u2014 Urgent Response Network led by Brent Skoda",
+      "wayback_url": "https://web.archive.org/web/20200512004900id_/https://urgentrn.com/"
+    },
+    {
+      "count_collapsed_digest": 16,
+      "detail": "Public CDX index only. Live domain now parked/Afternic-oriented (see RDAP). Historical brand content ends before present lander state.",
+      "first_timestamp": "20200512004900",
+      "id": "W15-F3",
+      "last_timestamp": "20240423234918",
+      "severity": "wayback_cdx",
+      "title": "urgentrn.com Wayback span 2020-05 \u2192 2024-04 (digest-collapsed)"
+    },
+    {
+      "assignees": [
+        "Urgentrn LLC"
+      ],
+      "dates": {
+        "filingDate": "2021-05-18",
+        "priorityDate": "2020-05-19",
+        "publicationDate": "2022-04-07"
+      },
+      "detail": "Priority date 2020-05-19 is the same month as the urgentrn.com Urgent Response Network Wayback page naming Brent Skoda and advertising gel hand sanitizer. Corroborates Wave-14 UrgentRN assignee cluster. Assignment chain still needs USPTO records.",
+      "id": "W15-F4",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "publication": "US20220104664A1",
+      "severity": "google_patents_html",
+      "sha3_256": "6ce0685117776f29b35a827b3fb489a210b019a7b39ab36f91bf8548608d42a2",
+      "title": "US20220104664A1 \u2014 inventor Brent M. Skoda; assignee Urgentrn LLC; priority 2020-05-19"
+    },
+    {
+      "assignees": [
+        "AHKEO LABS LLC"
+      ],
+      "dates": {
+        "filingDate": "2017-01-03",
+        "priorityDate": "2017-01-03",
+        "publicationDate": "2018-07-05"
+      },
+      "detail": "Filed after DE Ahkeo Labs formation 2016-07-14 (Wave-9). Expands Ahkeo Labs assignee cluster beyond Wave-4 sealed set.",
+      "id": "W15-F5",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "provenance": "google_patents_html",
+      "publication": "US20180191180A1",
+      "sha3_256": "3c838950bd921fdee2b6cc847ec93fa7d94f3005793345cc34d9963bebbc3c4f",
+      "title": "US20180191180A1 \u2014 Ahkeo Labs portable charging (filed 2017-01-03)"
+    },
+    {
+      "assignees": [
+        "Zorday IP LLC"
+      ],
+      "dates": {
+        "filingDate": "2024-10-24",
+        "priorityDate": "2015-02-19",
+        "publicationDate": "2025-02-13"
+      },
+      "detail": "Continues Zorday IP, LLC cluster. Priority reaches 2015 \u2014 pre-Ahkeo Labs DE formation; not a theft adjudication.",
+      "id": "W15-F6",
+      "inventors": [
+        "Brent M. Skoda"
+      ],
+      "provenance": "google_patents_html",
+      "publication": "US20250054595A1",
+      "sha3_256": "f6a5dcda9ab614a76f6792311171f67b8e7d7a0b90ca00b4e88451047d5d2c0d",
+      "title": "US20250054595A1 \u2014 Zorday IP smart mixers (priority 2015-02-19)"
+    }
+  ],
+  "generated_at": "2026-07-23T15:13:04Z",
+  "policy": "Wave-15 seals UrgentRN / Urgent Response Network web+patent nexus (Brent Skoda named on 2020 site; sanitizer pub priority same month). No theft/RICO/UBO adjudication.",
+  "seal": "56dcf49ef9187d46aca43366c7818e56ce0507552e4d6e4f15ff5ae65a5b02c7",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "urgentrn_rdap_domain",
+      "next_actions": [
+        "Paid WHOIS history for urgentrn.com registrant chain",
+        "Ohio/DE SOS abstract for UrgentRN LLC / Urgent Response Network"
+      ],
+      "status": "SEALED",
+      "title": "RDAP \u2014 urgentrn.com domain custody"
+    },
+    {
+      "adjudicated": false,
+      "id": "urgentrn_wayback_custody",
+      "next_actions": [
+        "Counsel may attach W15-F2 Skoda corporate page to preservation package"
+      ],
+      "status": "SEALED",
+      "title": "Wayback custody \u2014 urgentrn.com / Urgent Response Network"
+    },
+    {
+      "adjudicated": false,
+      "id": "wave14_new_pubs_biblio",
+      "next_actions": [
+        "USPTO_API_KEY assignment pull for these three + full 15-pub set"
+      ],
+      "status": "SEALED",
+      "title": "Google Patents HTML biblio \u2014 Wave-14 new publications"
+    },
+    {
+      "adjudicated": false,
+      "id": "urgentrn_ahkeo_cross_timeline",
+      "next_actions": [
+        "Insert UrgentRN LLC formation date when SOS/DE abstract obtained"
+      ],
+      "status": "SEALED",
+      "title": "UrgentRN \u2194 Ahkeo/Zorday authenticated cross-timeline"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        "Entity abstract for UrgentRN LLC is the top corporate gap after W15-F2"
+      ],
+      "status": "OPEN",
+      "title": "Wave-15 operator priority worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE15"
+}

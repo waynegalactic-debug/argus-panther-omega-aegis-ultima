@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-07-23T15:13:04Z",
+  "id": "operator_worklist",
+  "next_actions": [
+    "Entity abstract for UrgentRN LLC is the top corporate gap after W15-F2"
+  ],
+  "priorities": [
+    {
+      "blocked_on": "env_secret",
+      "item": "USPTO_API_KEY \u2192 assignments for 15-pub expanded portfolio",
+      "rank": 1
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "DE/OH SOS abstract \u2014 UrgentRN LLC / Urgent Response Network",
+      "rank": 2
+    },
+    {
+      "blocked_on": "operator_payment",
+      "item": "Paid DE Certificate of Status \u2014 Ahkeo Labs 6096179",
+      "rank": 3
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Ohio SOS foreign qualification \u2014 Ahkeo Labs DE 6096179",
+      "rank": 4
+    },
+    {
+      "blocked_on": "operator_browser",
+      "item": "Cuyahoga parcel \u2014 6685 Beta Drive",
+      "rank": 5
+    },
+    {
+      "blocked_on": "operator_subscription",
+      "item": "Paid WHOIS \u2014 urgentrn.com + ahkeo/ahkeolabs",
+      "rank": 6
+    },
+    {
+      "blocked_on": "counsel_review",
+      "item": "Counsel send Wave-11; attach W15-F2 + W13-F1 exhibits",
+      "rank": 7
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-15 operator priority worklist",
+  "uspto_api_key_present": false
+}

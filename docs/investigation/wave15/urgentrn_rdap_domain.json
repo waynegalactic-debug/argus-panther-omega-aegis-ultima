@@ -1,0 +1,77 @@
+{
+  "adjudicated": false,
+  "domain": {
+    "events": {
+      "expiration": "2027-03-30T22:53:49Z",
+      "last changed": "2026-03-21T04:19:13Z",
+      "last update of RDAP database": "2026-07-23T15:12:37Z",
+      "registration": "2020-03-30T22:53:49Z"
+    },
+    "handle": "2509383829_DOMAIN_COM-VRSN",
+    "ldhName": "URGENTRN.COM",
+    "nameservers": [
+      "NS1.AFTERNIC.COM",
+      "NS2.AFTERNIC.COM",
+      "VERIFICATION-DJKNE8FNLDKHSJVAZ52WDZ.NS101.VERIFY.HN"
+    ],
+    "registrar": {
+      "handle": "146",
+      "name": "GoDaddy.com, LLC",
+      "roles": [
+        "registrar"
+      ]
+    },
+    "status": [
+      "client delete prohibited",
+      "client renew prohibited",
+      "client transfer prohibited",
+      "client update prohibited"
+    ]
+  },
+  "findings": [
+    {
+      "detail": "Verisign RDAP: URGENTRN.COM registered 2020-03-30T22:53:49Z via GoDaddy.com, LLC (IANA 146). Nameservers include Afternic + verification NS \u2014 consistent with aftermarket/parked state. Live root returns JS redirect to /lander.",
+      "expiration": "2027-03-30T22:53:49Z",
+      "id": "W15-F1",
+      "nameservers": [
+        "NS1.AFTERNIC.COM",
+        "NS2.AFTERNIC.COM",
+        "VERIFICATION-DJKNE8FNLDKHSJVAZ52WDZ.NS101.VERIFY.HN"
+      ],
+      "registrar": {
+        "handle": "146",
+        "name": "GoDaddy.com, LLC",
+        "roles": [
+          "registrar"
+        ]
+      },
+      "registration": "2020-03-30T22:53:49Z",
+      "severity": "rdap",
+      "title": "urgentrn.com registered 2020-03-30 (GoDaddy); now Afternic NS"
+    }
+  ],
+  "generated_at": "2026-07-23T15:12:48Z",
+  "id": "urgentrn_rdap_domain",
+  "live_probe": {
+    "bytes": 114,
+    "error": null,
+    "ok": true,
+    "sha3_256": "be066141dcb38e7dcf8a01b24f17c235a497908262e857c81af17283a5f88832",
+    "snippet": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander\"}</script></head></html>",
+    "status": 200
+  },
+  "next_actions": [
+    "Paid WHOIS history for urgentrn.com registrant chain",
+    "Ohio/DE SOS abstract for UrgentRN LLC / Urgent Response Network"
+  ],
+  "probe": {
+    "bytes": 2642,
+    "error": null,
+    "ok": true,
+    "sha3_256": "fbe429687ce5423547d0f5df2585a447cbe80f7281fccb0402b40859d209e31b",
+    "status": 200,
+    "url": "https://rdap.org/domain/urgentrn.com"
+  },
+  "status": "SEALED",
+  "title": "RDAP \u2014 urgentrn.com domain custody"
+}
