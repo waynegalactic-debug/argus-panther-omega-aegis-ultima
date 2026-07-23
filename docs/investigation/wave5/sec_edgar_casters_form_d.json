@@ -1,0 +1,257 @@
+{
+  "adjudicated": false,
+  "cik": "0001792675",
+  "edgar_brand_queries": {
+    "Ahkeo": {
+      "body_sha3_256": "f1483baf2674d1eb19fe81804408736deefdd85ec8a59296f84d8c2e5cc1d809",
+      "error": null,
+      "ok": true,
+      "status_code": 200,
+      "total": {
+        "relation": "eq",
+        "value": 0
+      }
+    },
+    "Zorday": {
+      "body_sha3_256": "de34f9623cc194a793ed20bb6026be1a18fc6f2ee24d2a463998864a659874dc",
+      "error": null,
+      "ok": true,
+      "status_code": 200,
+      "total": {
+        "relation": "eq",
+        "value": 0
+      }
+    }
+  },
+  "edgar_fulltext_brent_skoda": {
+    "body_sha3_256": "94bc83f747c7d52c6d4072df4a9823dca96f1afd969577fe6363491c7938d5cb",
+    "error": null,
+    "ok": true,
+    "sample": [
+      {
+        "cik": [
+          "0001792675"
+        ],
+        "entity": [
+          "Casters Holdings Inc.  (CIK 0001792675)"
+        ],
+        "file_date": "2019-11-04",
+        "form": "D"
+      }
+    ],
+    "status_code": 200,
+    "total": {
+      "relation": "eq",
+      "value": 1
+    }
+  },
+  "filings": [
+    {
+      "accession": "0000897069-19-000500",
+      "body_sha3_256": "6fe480d42bd2cb1014ccfe665da36915042f2f29963b0b6da63c6b0c0c135845",
+      "brent_skoda_present": true,
+      "brent_skoda_records": [
+        {
+          "city": "Mayfield Village",
+          "first_name": "Brent",
+          "is_brent_skoda": true,
+          "last_name": "Skoda",
+          "relationships": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "OH",
+          "street1": "6685 Beta Drive",
+          "street2": null,
+          "zip": "44143"
+        }
+      ],
+      "entity_name": "Casters Holdings Inc.",
+      "error": null,
+      "label": "2019-11-04",
+      "ok": true,
+      "related_person_count": 5,
+      "related_person_names": [
+        "Brent Skoda",
+        "Chad Bronstein",
+        "Michael Chock",
+        "Katie Ford",
+        "Clive Sirkin"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "9250000",
+      "total_offering_amount": "9250000",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000089706919000500/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-20-000004",
+      "body_sha3_256": "8a215cc9dc25dbb21b0e770818b3b68b68ba15b2a679b87f873ff566414ae9d4",
+      "brent_skoda_present": false,
+      "brent_skoda_records": [],
+      "entity_name": "Casters Holdings Inc",
+      "error": null,
+      "label": "2020-08-26",
+      "ok": true,
+      "related_person_count": 8,
+      "related_person_names": [
+        "Chad Bronstein",
+        "Kathleen Ford",
+        "Clive Sirkin",
+        "Jason Klarreich",
+        "Mitchell Kahn",
+        "Lorne Gertner",
+        "David Friedman",
+        "Arjuna Reddy"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "6811000",
+      "total_offering_amount": "15000000",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267520000004/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-21-000001",
+      "body_sha3_256": "9b27f08322f66ad21f001642fe0c058ad68d24b1e42ded9337483ec694b1da24",
+      "brent_skoda_present": false,
+      "brent_skoda_records": [],
+      "entity_name": "Casters Holdings Inc",
+      "error": null,
+      "label": "2021-03-05",
+      "ok": true,
+      "related_person_count": 9,
+      "related_person_names": [
+        "Chad Bronstein",
+        "Clive Sirkin",
+        "Jason Klarreich",
+        "Mitchell Kahn",
+        "Lorne Gertner",
+        "Craig Robinson",
+        "Christie Hefner",
+        "Roxanne Taylor",
+        "Arjuna Reddy"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "20150001",
+      "total_offering_amount": "40000000",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267521000001/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-21-000003",
+      "body_sha3_256": "3f71a025b5183e86071afb5bf3f6b7a4ce732208632bae872613a6fe18128016",
+      "brent_skoda_present": false,
+      "brent_skoda_records": [],
+      "entity_name": "Casters Holdings Inc",
+      "error": null,
+      "label": "2021-11-10",
+      "ok": true,
+      "related_person_count": 11,
+      "related_person_names": [
+        "Chad Bronstein",
+        "Clive Sirkin",
+        "Jason Klarreich",
+        "Mitchell Kahn",
+        "Craig Robinson",
+        "Christie Hefner",
+        "Peter Kraus",
+        "Kristopher Koka",
+        "Travis Moyer",
+        "Mamta Patel",
+        "Kathleen Ford"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "40998097",
+      "total_offering_amount": "41100000",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267521000003/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-22-000001",
+      "body_sha3_256": "ed1f71f969d22fe9df15408cd24c6215ec7e5be6ac4745746f096d198d985b5a",
+      "brent_skoda_present": false,
+      "brent_skoda_records": [],
+      "entity_name": "Casters Holdings Inc",
+      "error": null,
+      "label": "2022-10-21",
+      "ok": true,
+      "related_person_count": 11,
+      "related_person_names": [
+        "Chad Bronstein",
+        "Clive Sirkin",
+        "Jason Klarreich",
+        "Craig Robinson",
+        "Christie Hefner",
+        "Kristopher Koka",
+        "Travis Moyer",
+        "Mitchell Kahn",
+        "Peter Kraus",
+        "Adam Arviv",
+        "Mamta Patel"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "0",
+      "total_offering_amount": "Indefinite",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267522000001/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-23-000001",
+      "body_sha3_256": "fa99f5b39fcaaf7fc39e2d3668761882107db7afc57b70d785bc76e0aa78fe72",
+      "brent_skoda_present": false,
+      "brent_skoda_records": [],
+      "entity_name": "Casters Holdings Inc",
+      "error": null,
+      "label": "2023-12-28",
+      "ok": true,
+      "related_person_count": 13,
+      "related_person_names": [
+        "Jeff Ragovin",
+        "Kendl Friedman",
+        "Marie Scheibert",
+        "Ying Miao",
+        "Zac Pinkham",
+        "Mitchell Kahn",
+        "Peter Kraus",
+        "Christie Hefner",
+        "Jason Klarreich",
+        "Kristopher Koka",
+        "Craig Robinson",
+        "Clive Sirkin",
+        "Adam Arviv"
+      ],
+      "status_code": 200,
+      "total_amount_sold": "3100401",
+      "total_offering_amount": "6000000",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267523000001/primary_doc.xml"
+    }
+  ],
+  "filings_parsed": 6,
+  "filings_with_brent_skoda": 1,
+  "id": "sec_edgar_casters_form_d",
+  "issuer": "Casters Holdings Inc",
+  "next_actions": [
+    "Counsel review before citing Form D in preservation letters",
+    "Cross-check 6685 Beta Drive Mayfield Village against Ohio SOS abstracts",
+    "Identify Casters Holdings Inc. relationship (if any) to Ahkeo cluster"
+  ],
+  "policy": "Form D related-person listing authenticates a public securities nexus and Ohio address for Brent Skoda at Casters Holdings Inc. Does not prove Ahkeo LLC charter facts or IP ownership chain.",
+  "primary_authenticated_hit": {
+    "accession": "0000897069-19-000500",
+    "address": {
+      "city": "Mayfield Village",
+      "state": "OH",
+      "street1": "6685 Beta Drive",
+      "zip": "44143"
+    },
+    "body_sha3_256": "6fe480d42bd2cb1014ccfe665da36915042f2f29963b0b6da63c6b0c0c135845",
+    "file_label": "2019-11-04",
+    "relationships": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1792675/000089706919000500/primary_doc.xml"
+  },
+  "status": "done",
+  "submissions_url": "https://data.sec.gov/submissions/CIK0001792675.json",
+  "timeline_note": "Brent Skoda appears on 2019-11-04 Form D as EO/Director/Promoter (Mayfield Village, OH). Subsequent Form D filings 2020\u20132023 list other related persons and omit Skoda \u2014 presence/absence recorded only; no inference of wrongdoing.",
+  "title": "SEC EDGAR Form D \u2014 Casters Holdings / Brent Skoda related person",
+  "wave": 5
+}

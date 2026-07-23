@@ -1,0 +1,87 @@
+{
+  "adjudicated": false,
+  "claimed_scope_note": "Prior investigation notes claimed Ohio scope 69 vs screened 41 (gap 28 retained \u2014 entities not invented).",
+  "cluster_count": 5,
+  "entities": [
+    {
+      "charter_number": null,
+      "entity_id": "VI-035",
+      "evidence_status": "roster_screened_not_sos_abstracted",
+      "illicit_mirror": false,
+      "jurisdiction": "us_oh",
+      "name": "AHKEO LLC",
+      "name_variants": [
+        "AHKEO"
+      ],
+      "ohio_llc": true,
+      "slug": "ahkeo-llc",
+      "sos_status": "OPEN_MANUAL"
+    },
+    {
+      "charter_number": null,
+      "entity_id": "VI-036",
+      "evidence_status": "roster_screened_not_sos_abstracted",
+      "illicit_mirror": false,
+      "jurisdiction": "us_oh",
+      "name": "AHKEO VENTURES LLC",
+      "name_variants": [],
+      "ohio_llc": true,
+      "slug": "ahkeo-ventures-llc",
+      "sos_status": "OPEN_MANUAL"
+    },
+    {
+      "charter_number": null,
+      "entity_id": "VI-037",
+      "evidence_status": "roster_screened_not_sos_abstracted",
+      "illicit_mirror": false,
+      "jurisdiction": "us_oh",
+      "name": "AHKEO ELECTRIC LLC",
+      "name_variants": [],
+      "ohio_llc": true,
+      "slug": "ahkeo-electric-llc",
+      "sos_status": "OPEN_MANUAL"
+    },
+    {
+      "charter_number": null,
+      "entity_id": "VI-038",
+      "evidence_status": "roster_screened_not_sos_abstracted",
+      "illicit_mirror": false,
+      "jurisdiction": "us_oh",
+      "name": "AHKEO MANAGEMENT LLC",
+      "name_variants": [],
+      "ohio_llc": true,
+      "slug": "ahkeo-management-llc",
+      "sos_status": "OPEN_MANUAL"
+    },
+    {
+      "charter_number": null,
+      "entity_id": "VI-039",
+      "evidence_status": "roster_screened_not_sos_abstracted",
+      "illicit_mirror": false,
+      "jurisdiction": "pr",
+      "name": "AHKEO HOLDINGS PUERTO RICO LLC",
+      "name_variants": [
+        "AHKEO HOLDINGS PUERTO RICO (PR) LLC",
+        "AHKEO HOLDINGS PR"
+      ],
+      "ohio_llc": false,
+      "slug": "ahkeo-holdings-puerto-rico-llc",
+      "sos_status": "OPEN_MANUAL"
+    }
+  ],
+  "id": "ahkeo_ohio_cluster_extract",
+  "next_actions": [
+    "Ohio SOS certified abstract for AHKEO LLC / VENTURES / ELECTRIC / MANAGEMENT",
+    "PR Registro search for AHKEO HOLDINGS PUERTO RICO LLC",
+    "Map registered agent / organizer / address to Form D Mayfield Village nexus"
+  ],
+  "non_ohio_count": 1,
+  "ohio_count": 4,
+  "policy": "Roster evidence only. No charter numbers invented. Ohio SOS / PR Registro certified abstracts still required.",
+  "roster_count": 48,
+  "roster_ohio_llc_count": 41,
+  "source": "data/victim_inventor_ohio_llc_roster.json",
+  "status": "done",
+  "title": "Ahkeo Ohio/PR cluster extracted from evidence roster",
+  "wave": 5
+}

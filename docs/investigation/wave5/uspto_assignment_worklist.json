@@ -1,0 +1,160 @@
+{
+  "adjudicated": false,
+  "blocker": "assignment-api.uspto.gov and assignment.uspto.gov resolve with DNS failure from this environment; data.uspto.gov assignment path returns HTML shell (not JSON) without ODP credentials.",
+  "id": "uspto_assignment_worklist",
+  "item_count": 12,
+  "items": [
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US11234465B2/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US11234465B2",
+      "queries": [
+        "assignee search: Ahkeo Labs, Llc",
+        "publication: US11234465B2"
+      ],
+      "title": "Heating mechanisms for vaporizers"
+    },
+    {
+      "assignee_field": "Ahkeo Labs, Llc",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US11275070B2/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US11275070B2",
+      "queries": [
+        "assignee search: Ahkeo Labs, Llc",
+        "publication: US11275070B2"
+      ],
+      "title": "Systems and methods for dipstick diagnostic tools and related methods"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20190240429A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20190240429A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20190240429A1"
+      ],
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": "Brent M. Skoda",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20190378609A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20190378609A1",
+      "queries": [
+        "assignee search: Brent M. Skoda",
+        "publication: US20190378609A1"
+      ],
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20200005924A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20200005924A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20200005924A1"
+      ],
+      "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20210202056A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20210202056A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20210202056A1"
+      ],
+      "title": "Systems and methods for managing a medical supply chain"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20230112752A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20230112752A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20230112752A1"
+      ],
+      "title": "Systems and methods for intelligent vaporizers"
+    },
+    {
+      "assignee_field": null,
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20240215633A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20240215633A1",
+      "queries": [
+        "assignee search: ",
+        "publication: US20240215633A1"
+      ],
+      "title": null
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20240242809A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20240242809A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20240242809A1"
+      ],
+      "title": "Systems and methods for medical dispensing, management and monitoring"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20240244430A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20240244430A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20240244430A1"
+      ],
+      "title": "Network-enabled electronic cigarette"
+    },
+    {
+      "assignee_field": "Zorday IP, LLC",
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/US20250177708A1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "US20250177708A1",
+      "queries": [
+        "assignee search: Zorday IP, LLC",
+        "publication: US20250177708A1"
+      ],
+      "title": "Systems and methods for medical diagnostics and medication delivery"
+    },
+    {
+      "assignee_field": null,
+      "assignment_status": "OPEN_REQUIRES_USPTO_ODP_OR_ASSIGNMENT_UI",
+      "google_patents_url": "https://patents.google.com/patent/USD795407S1/en",
+      "pair_status": "OPEN_REQUIRES_USPTO_ODP",
+      "publication": "USD795407S1",
+      "queries": [
+        "assignee search: ",
+        "publication: USD795407S1"
+      ],
+      "title": null
+    }
+  ],
+  "next_actions": [
+    "Obtain USPTO Open Data Portal API key",
+    "Pull assignment reel/frame for each of the 12 authenticated pubs",
+    "Capture conveyances involving Ahkeo Labs / Ahkeo Ventures / Zorday IP"
+  ],
+  "status": "blocked_public_api",
+  "title": "USPTO assignment / PAIR worklist for authenticated pubs",
+  "wave": 5
+}

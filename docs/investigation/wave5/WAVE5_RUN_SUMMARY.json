@@ -1,0 +1,126 @@
+{
+  "artifacts": {
+    "ahkeo_cluster": "docs/investigation/wave5/ahkeo_ohio_cluster_extract.json",
+    "alert": "docs/investigation/WAVE5_AHKEO_SEC_ASSIGNMENT.md",
+    "assignment_worklist": "docs/investigation/wave5/uspto_assignment_worklist.json",
+    "operator_worklist": "docs/investigation/wave5/operator_worklist.json",
+    "sec_form_d": "docs/investigation/wave5/sec_edgar_casters_form_d.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W5",
+  "counts": {
+    "adjudicated_total": 0,
+    "ahkeo_cluster_entities": 5,
+    "assignment_worklist_items": 12,
+    "form_d_filings_parsed": 6,
+    "form_d_with_brent_skoda": 1,
+    "tracks": 6,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "009ff3fdf5b1f8fffdc65bc9f45ea942a74481e0253d1f622a00d0f5dab560e6",
+    "leaves": [
+      {
+        "id": "ahkeo_ohio_cluster_extract",
+        "sha3_256": "6cdbce891ae324b7d0fb155fd6fd8035e5be3622785d94e8a369bda53f16ea4b",
+        "status": "done"
+      },
+      {
+        "id": "wave4_assignee_ohio_crosswalk",
+        "sha3_256": "e719d407e4fd28962b5f08f3a5ad673978a9f9a5548b91062f251de74472421f",
+        "status": "done"
+      },
+      {
+        "id": "uspto_assignment_worklist",
+        "sha3_256": "1442afb00de009c8f179e6ebd7e5ae634f4793211c29530e466422a0f58cf575",
+        "status": "blocked_public_api"
+      },
+      {
+        "id": "public_surface_probes",
+        "sha3_256": "6bee76fc2b2f8d3b2fed8827161d7a9e42ecdd9319a1a71870c1e388a0211d11",
+        "status": "done"
+      },
+      {
+        "id": "sec_edgar_casters_form_d",
+        "sha3_256": "9706ff9a3e8a888d2be627148a153815619a9bfdd805061ea3c124cf1598ebd0",
+        "status": "done"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "902403d08beb23a5800800bde4d685109bdd6efecef21aa1b3a252664f10230b",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "5bf83e19d4f9a2f8d2283334810c9e9d283181d1a7db2dd7cdff3e7b214a62ba46f3bf105bb27f0d253b4b5b709c310b60ca77e5bc44c20157f82b01eb86f92e"
+  },
+  "elapsed_ms": 4826,
+  "generated_at": "2026-07-23T00:44:16Z",
+  "policy": "Wave-5 seals Ahkeo roster extract, Wave-4 assignee crosswalk, USPTO assignment blockers, and SEC Form D related-person hit for Brent Skoda / Casters Holdings. No theft/RICO/UBO adjudication. Quarantined patent IDs remain quarantined.",
+  "seal": "fa8a8a1c46523151fc4f56e1deb094937d11b202fc753c029af3fec27607806a",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "ahkeo_ohio_cluster_extract",
+      "next_actions": [
+        "Ohio SOS certified abstract for AHKEO LLC / VENTURES / ELECTRIC / MANAGEMENT",
+        "PR Registro search for AHKEO HOLDINGS PUERTO RICO LLC",
+        "Map registered agent / organizer / address to Form D Mayfield Village nexus"
+      ],
+      "status": "done",
+      "title": "Ahkeo Ohio/PR cluster extracted from evidence roster"
+    },
+    {
+      "adjudicated": false,
+      "id": "wave4_assignee_ohio_crosswalk",
+      "next_actions": [
+        "Confirm Ahkeo Labs, LLC vs AHKEO LLC identity on Ohio SOS",
+        "Locate Zorday IP, LLC jurisdiction and charter"
+      ],
+      "status": "done",
+      "title": "Wave-4 patent assignees \u2194 Ohio Ahkeo roster crosswalk"
+    },
+    {
+      "adjudicated": false,
+      "id": "uspto_assignment_worklist",
+      "next_actions": [
+        "Obtain USPTO Open Data Portal API key",
+        "Pull assignment reel/frame for each of the 12 authenticated pubs",
+        "Capture conveyances involving Ahkeo Labs / Ahkeo Ventures / Zorday IP"
+      ],
+      "status": "blocked_public_api",
+      "title": "USPTO assignment / PAIR worklist for authenticated pubs"
+    },
+    {
+      "adjudicated": false,
+      "id": "public_surface_probes",
+      "next_actions": [
+        "Operator: Ohio SOS browser session + certified abstracts",
+        "Operator: USPTO ODP key for assignment JSON",
+        "Operator: certified Czech UPV search for 1997 caffeine vaporizer"
+      ],
+      "status": "done",
+      "title": "USPTO assignment / OpenCorporates / UPV / Ohio SOS surface probes"
+    },
+    {
+      "adjudicated": false,
+      "id": "sec_edgar_casters_form_d",
+      "next_actions": [
+        "Counsel review before citing Form D in preservation letters",
+        "Cross-check 6685 Beta Drive Mayfield Village against Ohio SOS abstracts",
+        "Identify Casters Holdings Inc. relationship (if any) to Ahkeo cluster"
+      ],
+      "status": "done",
+      "title": "SEC EDGAR Form D \u2014 Casters Holdings / Brent Skoda related person"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-5 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE5"
+}

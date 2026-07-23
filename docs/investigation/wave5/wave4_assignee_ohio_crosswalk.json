@@ -1,0 +1,54 @@
+{
+  "adjudicated": false,
+  "assignee_fields": [
+    "Ahkeo Labs, Llc",
+    "Brent M. Skoda",
+    "Zorday IP, LLC"
+  ],
+  "authenticated_publication_count": 12,
+  "id": "wave4_assignee_ohio_crosswalk",
+  "links": [
+    {
+      "match_strength": "name_affinity_not_identity",
+      "publications": [
+        "US11234465B2",
+        "US11275070B2"
+      ],
+      "roster_entity_id": "VI-035",
+      "roster_name": "AHKEO LLC",
+      "wave4_assignee_field": "Ahkeo Labs, Llc"
+    },
+    {
+      "match_strength": "none",
+      "publications": [
+        "US20190378609A1"
+      ],
+      "roster_entity_id": null,
+      "roster_name": null,
+      "wave4_assignee_field": "Brent M. Skoda"
+    },
+    {
+      "match_strength": "assignee_not_in_ahkeo_cluster_roster",
+      "publications": [
+        "US20190240429A1",
+        "US20200005924A1",
+        "US20210202056A1",
+        "US20230112752A1",
+        "US20240242809A1",
+        "US20240244430A1",
+        "US20250177708A1"
+      ],
+      "roster_entity_id": null,
+      "roster_name": null,
+      "wave4_assignee_field": "Zorday IP, LLC"
+    }
+  ],
+  "next_actions": [
+    "Confirm Ahkeo Labs, LLC vs AHKEO LLC identity on Ohio SOS",
+    "Locate Zorday IP, LLC jurisdiction and charter"
+  ],
+  "policy": "Name alignment is not corporate identity proof. Requires SOS abstracts + USPTO assignment reel.",
+  "status": "done",
+  "title": "Wave-4 patent assignees \u2194 Ohio Ahkeo roster crosswalk",
+  "wave": 5
+}

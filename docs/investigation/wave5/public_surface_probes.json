@@ -1,0 +1,122 @@
+{
+  "adjudicated": false,
+  "id": "public_surface_probes",
+  "next_actions": [
+    "Operator: Ohio SOS browser session + certified abstracts",
+    "Operator: USPTO ODP key for assignment JSON",
+    "Operator: certified Czech UPV search for 1997 caffeine vaporizer"
+  ],
+  "probes": [
+    {
+      "body_prefix": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r",
+      "body_sha3_256": "a630e267d3d294d160b367557e019c63a7485c4c3357e204d6530601f4244551",
+      "bytes": 8000,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 59,
+      "error": "HTTPError:403",
+      "looks_like_html": false,
+      "name": "ohio_sos_business_search",
+      "ok": false,
+      "status_code": 403,
+      "url": "https://businesssearch.ohiosos.gov/"
+    },
+    {
+      "body_prefix": "<html>\n<head>\n<style>\n#captcha_frame{\nposition: relative;\nbackground-color: white;\nmargin: 2em;\nwidth: 35%;\nheight: 20%;",
+      "body_sha3_256": "c237f3d1839010d1f9e4a7da3409bfb60320e61d3ad8796e023b98529de903fa",
+      "bytes": 1534,
+      "content_type": "text/html",
+      "elapsed_ms": 131,
+      "error": null,
+      "looks_like_html": true,
+      "name": "opencorporates_ahkeo_html",
+      "ok": true,
+      "status_code": 200,
+      "url": "https://opencorporates.com/companies?q=Ahkeo+LLC"
+    },
+    {
+      "body_prefix": "{\"error\":{\"message\":\"Invalid Api Token. Please check your OpenCorporates account\"}}",
+      "body_sha3_256": "0af6e380ac3fd7c30a6b0b3385d919e098db69f95225095bcedab0bf29ae711d",
+      "bytes": 83,
+      "content_type": "application/json;charset=utf-8",
+      "elapsed_ms": 455,
+      "error": "HTTPError:401",
+      "looks_like_html": false,
+      "name": "opencorporates_api",
+      "ok": false,
+      "status_code": 401,
+      "url": "https://api.opencorporates.com/v0.4/companies/search?q=Ahkeo"
+    },
+    {
+      "body_prefix": "<!doctype html><html lang=\"en\" class=\"pvs-theme js-ok\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset",
+      "body_sha3_256": "a7eefc203f4de6f387be4af530c17a69d63757f7a201605180f654e22029ade2",
+      "bytes": 67414,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 886,
+      "error": null,
+      "looks_like_html": true,
+      "name": "upv_en_home",
+      "ok": true,
+      "status_code": 200,
+      "url": "https://upv.gov.cz/en"
+    },
+    {
+      "body_prefix": "",
+      "body_sha3_256": null,
+      "bytes": 0,
+      "content_type": null,
+      "elapsed_ms": 135,
+      "error": "URLError:<urlopen error [Errno -5] No address associated with hostname>",
+      "looks_like_html": false,
+      "name": "uspto_assignment_api",
+      "ok": false,
+      "status_code": null,
+      "url": "https://assignment-api.uspto.gov/patent/detailed-search?criteriaText=Ahkeo"
+    },
+    {
+      "body_prefix": "",
+      "body_sha3_256": null,
+      "bytes": 0,
+      "content_type": null,
+      "elapsed_ms": 89,
+      "error": "URLError:<urlopen error [Errno -5] No address associated with hostname>",
+      "looks_like_html": false,
+      "name": "uspto_assignment_ui",
+      "ok": false,
+      "status_code": null,
+      "url": "https://assignment.uspto.gov/patent/index.html"
+    },
+    {
+      "body_prefix": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" c",
+      "body_sha3_256": "735ec6f40d74656274d58ff446981844d2bf421a5a5cda645258f00bd84bd9af",
+      "bytes": 20666,
+      "content_type": "text/html",
+      "elapsed_ms": 360,
+      "error": null,
+      "looks_like_html": true,
+      "name": "uspto_data_assignment_v1",
+      "ok": true,
+      "status_code": 200,
+      "url": "https://data.uspto.gov/apis/patent-assignment/v1/assignments?assigneeNameText=Ahkeo"
+    }
+  ],
+  "status": "done",
+  "summary": {
+    "dns_fail": [
+      "uspto_assignment_api",
+      "uspto_assignment_ui"
+    ],
+    "html_shell_200": [
+      "opencorporates_ahkeo_html",
+      "upv_en_home",
+      "uspto_data_assignment_v1"
+    ],
+    "http_401": [
+      "opencorporates_api"
+    ],
+    "http_403": [
+      "ohio_sos_business_search"
+    ]
+  },
+  "title": "USPTO assignment / OpenCorporates / UPV / Ohio SOS surface probes",
+  "wave": 5
+}

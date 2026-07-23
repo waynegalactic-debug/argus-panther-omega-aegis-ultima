@@ -1,0 +1,71 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "item_count": 8,
+  "items": [
+    {
+      "action": "Certified Czech UPV search",
+      "detail": "Inventor Brent Michael Skoda / \u0160koda + caffeine vaporizer + 1997; do not cite quarantined CZ283061/B6",
+      "priority": 1,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Ohio SOS certified abstracts \u2014 Ahkeo cluster",
+      "detail": "Capture charter #, status, registered agent, organizer, principal office; cross-check 6685 Beta Drive Mayfield Village OH",
+      "entities": [
+        "AHKEO LLC",
+        "AHKEO VENTURES LLC",
+        "AHKEO ELECTRIC LLC",
+        "AHKEO MANAGEMENT LLC"
+      ],
+      "priority": 2,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Ohio SOS abstracts \u2014 remaining screened roster (41)",
+      "detail": "Do not invent the 28-entity gap; only abstract screened names",
+      "priority": 3,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "PR Registro \u2014 Ahkeo Holdings Puerto Rico",
+      "entities": [
+        "AHKEO HOLDINGS PUERTO RICO LLC"
+      ],
+      "priority": 4,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "USPTO ODP assignments for authenticated portfolio",
+      "priority": 5,
+      "publication_count": 12,
+      "status": "BLOCKED_NEEDS_API_KEY"
+    },
+    {
+      "accession": "0000897069-19-000500",
+      "action": "Counsel review of Casters Holdings Form D exhibit",
+      "priority": 6,
+      "status": "OPEN_COUNSEL"
+    },
+    {
+      "action": "Send preservation drafts after counsel review",
+      "priority": 7,
+      "status": "OPEN_COUNSEL",
+      "targets": [
+        "Ulmer",
+        "Fine",
+        "Salvador",
+        "Meta"
+      ]
+    },
+    {
+      "action": "AZ bar discipline order pull \u2014 Anthony G. Salvador",
+      "priority": 8,
+      "status": "OPEN_MANUAL"
+    }
+  ],
+  "status": "done",
+  "title": "Wave-5 operator / counsel worklist",
+  "true_ubo_asserted": 0,
+  "wave": 5
+}
