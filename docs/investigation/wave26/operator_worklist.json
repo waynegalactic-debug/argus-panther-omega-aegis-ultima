@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W26-M1",
+      "item": "Archive-node pagination for page-capped EOAs (vitalik/jamiesalter/etc.)",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W26-M2",
+      "item": "Supply non-Ethereum addresses if multi-chain genesis coverage is claimed",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "W26-M3",
+      "item": "Named DAO contract list if stealth-DAO theory targets specific orgs",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-26 operator worklist"
+}

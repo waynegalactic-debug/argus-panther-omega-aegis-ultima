@@ -152,6 +152,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-25 universal victim-IP linkage matrix",
     )
+    parser.add_argument(
+        "--investigate-wave26",
+        action="store_true",
+        help="Run investigation wave-26 blockchain flows / dust / DAO combinations",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -189,6 +194,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave23,
             args.investigate_wave24,
             args.investigate_wave25,
+            args.investigate_wave26,
         )
     )
     if wave_flags > 1:
@@ -201,7 +207,7 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave15 / --investigate-wave16 / --investigate-wave17 / "
             "--investigate-wave18 / --investigate-wave20 / --investigate-wave21 / "
             "--investigate-wave22 / --investigate-wave23 / --investigate-wave24 / "
-            "--investigate-wave25.",
+            "--investigate-wave25 / --investigate-wave26.",
             file=sys.stderr,
         )
         return 2
@@ -325,6 +331,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave25 import main as wave25_main
 
         return int(wave25_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave26:
+        from us_ipforce_investigation_wave26 import main as wave26_main
+
+        return int(wave26_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

@@ -1,0 +1,17 @@
+{
+  "findings": [
+    {
+      "detail": "Enumerated C(19,2)=171 unordered pairs; 0 showed any peer flow in scanned pages; 0 showed dust-threshold ETH. Absence of a pair edge ≠ proof of no historical link beyond page caps.",
+      "id": "W26-F2",
+      "illicit_combination_network_adjudicated": false,
+      "pair_combination_space": 171,
+      "pairs_with_any_observed_flow": 0,
+      "pairs_with_dust_flow": 0,
+      "title": "Pairwise combination flows among screened addresses (all values + dust)"
+    }
+  ],
+  "id": "pairwise_flow_combinations",
+  "pairs_with_flows": [],
+  "status": "SEALED",
+  "title": "Pairwise blockchain flow combinations (all + dust)"
+}
