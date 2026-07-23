@@ -1,0 +1,61 @@
+{
+  "abg_public_site": {
+    "about": {
+      "excerpt": " About &mdash; Authentic Brands Group document.documentElement.classList.add('wf-loading') @keyframes fonts-loading { 0%, 99% { color: transparent; } } html.wf-loading * { animation: fonts-loading 3s; } /* latin */ @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2f393d17-9090-44f9-80e3-e592452d0313/latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* vietnamese */ @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('",
+      "mentions": {
+        "DAO": false,
+        "NFT": false,
+        "Skoda": false,
+        "blockchain": false,
+        "ethereum": false,
+        "licensing": true,
+        "patent": false,
+        "shell": false,
+        "subsidiary": false
+      },
+      "ok": true,
+      "sha256": "e8f787ee012da5508db0f80bef2dd1e3898cab8ce7a9bdb71010811ad334f5b4"
+    },
+    "home": {
+      "excerpt": " Authentic Brands Group document.documentElement.classList.add('wf-loading') @keyframes fonts-loading { 0%, 99% { color: transparent; } } html.wf-loading * { animation: fonts-loading 3s; } /* latin */ @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2f393d17-9090-44f9-80e3-e592452d0313/latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* vietnamese */ @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://file.s",
+      "mentions": {
+        "DAO": false,
+        "NFT": false,
+        "Skoda": false,
+        "blockchain": false,
+        "ethereum": false,
+        "licensing": false,
+        "patent": false,
+        "shell": false,
+        "subsidiary": false
+      },
+      "ok": true,
+      "sha256": "0802dbabda4dea1e985bc6e2e40a0d8f6ab8705de72aa10dbf9f45195fcc60b3"
+    }
+  },
+  "findings": [
+    {
+      "abg_site_blockchain_mention": false,
+      "abg_site_dao_mention": false,
+      "approx_100_percent_corporate_licensing_authenticated": false,
+      "authenticated_skoda_publication_count": 15,
+      "dao_licensing_to_stolen_ip_adjudicated": false,
+      "detail": "Public ABG marketing site extracts do not surface DAO/blockchain/NFT/Skoda/patent keywords as licensing rails. Wayback S-1 (Wave-23 track 2) has zero DAO mentions. Monolith '100% Fortune 5000 / Global 2000 / S&P' stealth-DAO licensing remains a synthetic coverage engine. Sealed Skoda portfolio remains 15 pubs; alleged 15213 families unauthenticated. Cannot adjudicate illicit monetization fronts via DAO/stealth-DAO licensing from public evidence in this wave.",
+      "fortune_5000_coverage_authenticated": false,
+      "global_2000_coverage_authenticated": false,
+      "id": "W23-F3",
+      "illicit_monetization_via_dao_adjudicated": false,
+      "sp500_and_beyond_coverage_authenticated": false,
+      "stealth_dao_licensing_adjudicated": false,
+      "title": "No authenticated DAO/stealth-DAO licensing rail from ABG to sealed Skoda pubs or Fortune-universe 100% coverage"
+    }
+  ],
+  "id": "dao_stealth_fortune_licensing_screen",
+  "next_actions": [
+    "Counsel-only private DAO/license agreements if operator asserts off-public-record rails",
+    "Do not treat monolith synthetic Fortune-universe rows as authenticated licensees"
+  ],
+  "portfolio_source": "docs/investigation/wave14/EXPANDED_SKODA_PORTFOLIO.json",
+  "status": "SEALED",
+  "title": "DAO / stealth-DAO × Fortune-universe licensing screen"
+}

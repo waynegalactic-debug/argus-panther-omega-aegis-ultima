@@ -1,0 +1,75 @@
+{
+  "constants": {
+    "FORTUNE_5000_COUNT": {
+      "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+      "present_in_monolith": true,
+      "value": 5000
+    },
+    "GLOBAL_2000_COUNT": {
+      "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+      "present_in_monolith": true,
+      "value": 2000
+    },
+    "SHELL_CORPORATIONS": {
+      "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+      "present_in_monolith": true,
+      "value": 90000000
+    },
+    "STEALTH_DAOS": {
+      "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+      "present_in_monolith": true,
+      "value": 90000000
+    }
+  },
+  "findings": [
+    {
+      "approx_100_percent_coverage_authenticated": false,
+      "constants": {
+        "FORTUNE_5000_COUNT": {
+          "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+          "present_in_monolith": true,
+          "value": 5000
+        },
+        "GLOBAL_2000_COUNT": {
+          "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+          "present_in_monolith": true,
+          "value": 2000
+        },
+        "SHELL_CORPORATIONS": {
+          "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+          "present_in_monolith": true,
+          "value": 90000000
+        },
+        "STEALTH_DAOS": {
+          "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+          "present_in_monolith": true,
+          "value": 90000000
+        }
+      },
+      "detail": "Monolith hardcodes SHELL_CORPORATIONS=90_000_000 and STEALTH_DAOS=90_000_000. Fortune 5000 / Global 2000 DAO licensing '100% coverage' is produced by a synthetic index loop that sets dao_licensing_commitment=True for every row. These are not sealed grant-verified or SOS-authenticated shell inventories, and cannot authenticate illicit monetization fronts for stolen Skoda IP.",
+      "fortune_5000_dao_licensing_authenticated": false,
+      "global_2000_dao_licensing_authenticated": false,
+      "id": "W23-F1",
+      "ninety_million_shells_authenticated": false,
+      "sp500_dao_licensing_authenticated": false,
+      "synthetic_dao_engine": {
+        "authenticated_against_public_filings": false,
+        "behavior": "Deterministic synthetic corporation rows with dao_licensing_commitment=True for every index; stealth flag via det_hash % 3. Not EDGAR/contract evidence.",
+        "claims_100_percent_coverage": true,
+        "method": "USIPForceAnalyzer.scan_fortune_global_dao_licensing / _corporate_at_index",
+        "source_file": "us_ipforce_monolith_live.py"
+      },
+      "title": "90M shells / 90M stealth DAOs / 100% Fortune-universe DAO licensing are corpus constants, not authenticated inventories"
+    }
+  ],
+  "id": "corpus_constant_classification",
+  "status": "SEALED",
+  "synthetic_dao_engine": {
+    "authenticated_against_public_filings": false,
+    "behavior": "Deterministic synthetic corporation rows with dao_licensing_commitment=True for every index; stealth flag via det_hash % 3. Not EDGAR/contract evidence.",
+    "claims_100_percent_coverage": true,
+    "method": "USIPForceAnalyzer.scan_fortune_global_dao_licensing / _corporate_at_index",
+    "source_file": "us_ipforce_monolith_live.py"
+  },
+  "title": "90M shell / stealth-DAO / Fortune-universe claim classification"
+}

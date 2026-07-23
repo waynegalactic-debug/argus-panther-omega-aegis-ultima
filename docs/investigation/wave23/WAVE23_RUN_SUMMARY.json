@@ -1,0 +1,287 @@
+{
+  "artifacts": {
+    "abg": "docs/investigation/wave23/abg_authenticated_subsidiary_inventory.json",
+    "corpus": "docs/investigation/wave23/corpus_constant_classification.json",
+    "dao": "docs/investigation/wave23/dao_stealth_fortune_licensing_screen.json",
+    "summary_md": "docs/investigation/WAVE23_ABG_SHELL_DAO_FORTUNE_SCREEN.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W23",
+  "counts": {
+    "adjudicated_total": 0,
+    "authenticated_abg_sec_named": 7,
+    "findings": 3,
+    "tracks": 4,
+    "true_ubo_asserted": 0,
+    "wayback_s1_named_entities": 8
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "24375a9478a311c204382ff3137f0ce9f0f79ab0286b18d4fb8cdeaaec31f35c",
+    "leaves": [
+      {
+        "id": "corpus_constant_classification",
+        "sha3_256": "e2508de0a5adda141d0bc1aa5316fb61f1e9bd6fd76bfa876afb073eb9ec7c6a",
+        "status": "SEALED"
+      },
+      {
+        "id": "abg_authenticated_subsidiary_inventory",
+        "sha3_256": "a7ae11eec3e2e795be9ab58f88ee3b6bfd0a1f8c59e8e4544e0c8fc483261247",
+        "status": "SEALED"
+      },
+      {
+        "id": "dao_stealth_fortune_licensing_screen",
+        "sha3_256": "8e13194c33c1aeaa1770a51a9bd74325d179aa2775d22754bcf4d6db25f10b6c",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "9c768930696c149dfb1a943d28817627df03959171450ba503fe7930ea5a58e2",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "7a305cd9c28d65450cd32fb38e86908c5b66d15463ec4b468ccaf109591586a04c25ce65a042550b0f5848720bf786fb66ebf5951f35073ebdffc242d3a915f8"
+  },
+  "disposition": {
+    "approx_100_percent_corporate_licensing_authenticated": false,
+    "dao_licensing_to_stolen_ip_adjudicated": false,
+    "fortune_5000_coverage_authenticated": false,
+    "global_2000_coverage_authenticated": false,
+    "hidden_global_shell_inventory_authenticated": false,
+    "illicit_monetization_front_adjudicated": false,
+    "illicit_monetization_via_dao_adjudicated": false,
+    "ninety_million_shells_authenticated": false,
+    "sp500_and_beyond_coverage_authenticated": false,
+    "stealth_dao_licensing_adjudicated": false,
+    "theft_adjudicated": false
+  },
+  "elapsed_ms": 22221,
+  "findings": [
+    {
+      "approx_100_percent_coverage_authenticated": false,
+      "constants": {
+        "FORTUNE_5000_COUNT": {
+          "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+          "present_in_monolith": true,
+          "value": 5000
+        },
+        "GLOBAL_2000_COUNT": {
+          "class": "CORPUS_UNIVERSE_SIZE_CONSTANT",
+          "present_in_monolith": true,
+          "value": 2000
+        },
+        "SHELL_CORPORATIONS": {
+          "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+          "present_in_monolith": true,
+          "value": 90000000
+        },
+        "STEALTH_DAOS": {
+          "class": "CORPUS_CONSTANT_NOT_AUTHENTICATED_INVENTORY",
+          "present_in_monolith": true,
+          "value": 90000000
+        }
+      },
+      "detail": "Monolith hardcodes SHELL_CORPORATIONS=90_000_000 and STEALTH_DAOS=90_000_000. Fortune 5000 / Global 2000 DAO licensing '100% coverage' is produced by a synthetic index loop that sets dao_licensing_commitment=True for every row. These are not sealed grant-verified or SOS-authenticated shell inventories, and cannot authenticate illicit monetization fronts for stolen Skoda IP.",
+      "fortune_5000_dao_licensing_authenticated": false,
+      "global_2000_dao_licensing_authenticated": false,
+      "id": "W23-F1",
+      "ninety_million_shells_authenticated": false,
+      "sp500_dao_licensing_authenticated": false,
+      "synthetic_dao_engine": {
+        "authenticated_against_public_filings": false,
+        "behavior": "Deterministic synthetic corporation rows with dao_licensing_commitment=True for every index; stealth flag via det_hash % 3. Not EDGAR/contract evidence.",
+        "claims_100_percent_coverage": true,
+        "method": "USIPForceAnalyzer.scan_fortune_global_dao_licensing / _corporate_at_index",
+        "source_file": "us_ipforce_monolith_live.py"
+      },
+      "title": "90M shells / 90M stealth DAOs / 100% Fortune-universe DAO licensing are corpus constants, not authenticated inventories"
+    },
+    {
+      "delaware_icis_detail_authenticated_count": 2,
+      "delaware_icis_detail_entities": [
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS GROUP INC.",
+          "file_number": "5952305",
+          "formation_date": "2/1/2016"
+        },
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS, LLLP",
+          "file_number": "4646833",
+          "formation_date": "1/20/2009"
+        }
+      ],
+      "delaware_icis_file_hit_detail_open": [
+        {
+          "entity_name": "AUTHENTIC BRANDS GROUP LLC",
+          "file_number": "4789754"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS, INC.",
+          "file_number": "3152333"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS LLC",
+          "file_number": "6896342"
+        }
+      ],
+      "detail": "Wave-18 sealed SEC-named ABG holdcos/subs: 7. Delaware ICIS detail-authenticated: 2. Wayback ABG S-1 named ABG/Authentic Brands entities extracted: 8. S-1 filing index Exhibit 21 present: False. S-1 text: DAO mentions=0, shell-company mentions=0, ninety-million mentions=false. No public inventory authenticates 90,000,000 ABG-linked shell corporations or hidden global subsidiaries as illicit IP monetization fronts.",
+      "gap_vs_alleged_90_million": 89999992,
+      "hidden_global_shell_inventory_authenticated": false,
+      "id": "W23-F2",
+      "illicit_monetization_front_adjudicated": false,
+      "title": "Authenticated ABG nested entities are order-of-tens, not ninety million shells",
+      "wave18_sec_named_subsidiaries": [
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "source": "ABG S-1 / S-1/A (CIK 0001666054)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "corroboration": "Tilray EX-10.21 describes ABG Intermediate Holdings 2, LLC as a Delaware limited liability company",
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "source": "ABG S-1 / S-1/A; Tilray EX-10.21 counterparty",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "delaware_icis_file_number": "5952305",
+          "name": "Authentic Brands Group Inc.",
+          "source": "ABG S-1; Certificate of Incorporation EX-3.1",
+          "status": "SEC_NAMED_PLUS_ICIS_DETAIL"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        }
+      ],
+      "wave18_sec_named_subsidiary_count": 7,
+      "wayback_s1_index_exhibit_labels_sample": [
+        "EXHIBIT 3.1",
+        "EX-3.1",
+        "EXHIBIT 3.3",
+        "EX-3.3",
+        "EXHIBIT 10.5",
+        "EX-10.5",
+        "EXHIBIT 23.1",
+        "EX-23.1",
+        "EXHIBIT 23.2",
+        "EX-23.2",
+        "EXHIBIT 23.3",
+        "EX-23.3",
+        "EXHIBIT 99.1",
+        "EX-99.1",
+        "EXHIBIT 99.2",
+        "EX-99.2",
+        "EXHIBIT 99.3",
+        "EX-99.3"
+      ],
+      "wayback_s1_index_has_exhibit_21": false,
+      "wayback_s1_named_entities": [
+        "ABG Aggregator LLC",
+        "ABG Aggregator LP",
+        "ABG EPE IP LLC",
+        "ABG Executive Equity Holdco LLC",
+        "ABG Inc.",
+        "ABG LLC",
+        "ABG Management Equity Holdco LLC",
+        "Authentic Brands Group LLC"
+      ],
+      "wayback_s1_named_entity_count": 8
+    },
+    {
+      "abg_site_blockchain_mention": false,
+      "abg_site_dao_mention": false,
+      "approx_100_percent_corporate_licensing_authenticated": false,
+      "authenticated_skoda_publication_count": 15,
+      "dao_licensing_to_stolen_ip_adjudicated": false,
+      "detail": "Public ABG marketing site extracts do not surface DAO/blockchain/NFT/Skoda/patent keywords as licensing rails. Wayback S-1 (Wave-23 track 2) has zero DAO mentions. Monolith '100% Fortune 5000 / Global 2000 / S&P' stealth-DAO licensing remains a synthetic coverage engine. Sealed Skoda portfolio remains 15 pubs; alleged 15213 families unauthenticated. Cannot adjudicate illicit monetization fronts via DAO/stealth-DAO licensing from public evidence in this wave.",
+      "fortune_5000_coverage_authenticated": false,
+      "global_2000_coverage_authenticated": false,
+      "id": "W23-F3",
+      "illicit_monetization_via_dao_adjudicated": false,
+      "sp500_and_beyond_coverage_authenticated": false,
+      "stealth_dao_licensing_adjudicated": false,
+      "title": "No authenticated DAO/stealth-DAO licensing rail from ABG to sealed Skoda pubs or Fortune-universe 100% coverage"
+    }
+  ],
+  "generated_at": "2026-07-23T16:21:13Z",
+  "policy": "Wave-23 separates monolith 90M shell / stealth-DAO / Fortune-universe constants from authenticated ABG subsidiary surfaces (Wave-18 + Wayback S-1). No illicit-monetization, theft, or DAO-licensing adjudication.",
+  "seal": "ce6dbba362aae64084fdfb67aca3e37e7e36268c5eed1cae547747aadbb41509",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "corpus_constant_classification",
+      "next_actions": null,
+      "status": "SEALED",
+      "title": "90M shell / stealth-DAO / Fortune-universe claim classification"
+    },
+    {
+      "adjudicated": false,
+      "id": "abg_authenticated_subsidiary_inventory",
+      "next_actions": [
+        "If ABG refiles a registration statement with Exhibit 21, ingest full subsidiary table",
+        "Delaware ICIS captcha still blocks Intermediate Holdings / Aggregator file numbers"
+      ],
+      "status": "SEALED",
+      "title": "ABG authenticated subsidiary / nested-entity inventory"
+    },
+    {
+      "adjudicated": false,
+      "id": "dao_stealth_fortune_licensing_screen",
+      "next_actions": [
+        "Counsel-only private DAO/license agreements if operator asserts off-public-record rails",
+        "Do not treat monolith synthetic Fortune-universe rows as authenticated licensees"
+      ],
+      "status": "SEALED",
+      "title": "DAO / stealth-DAO × Fortune-universe licensing screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W23-M1",
+          "item": "Supply Exhibit 21 / full ABG org chart if claiming nested subsidiaries beyond sealed S-1 holdcos",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W23-M2",
+          "item": "Do not equate monolith SHELL_CORPORATIONS=90M with an authenticated global shell census",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W23-M3",
+          "item": "If Fortune/G2000/S&P DAO licenses exist, supply contract hashes / EDGAR exhibits for deterministic ingest",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-23 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE23"
+}

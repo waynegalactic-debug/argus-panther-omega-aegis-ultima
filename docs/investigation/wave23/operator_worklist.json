@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W23-M1",
+      "item": "Supply Exhibit 21 / full ABG org chart if claiming nested subsidiaries beyond sealed S-1 holdcos",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W23-M2",
+      "item": "Do not equate monolith SHELL_CORPORATIONS=90M with an authenticated global shell census",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W23-M3",
+      "item": "If Fortune/G2000/S&P DAO licenses exist, supply contract hashes / EDGAR exhibits for deterministic ingest",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-23 operator worklist"
+}

@@ -1,0 +1,145 @@
+{
+  "delaware_source": "docs/investigation/wave18/delaware_abg_entity_roster.json",
+  "findings": [
+    {
+      "delaware_icis_detail_authenticated_count": 2,
+      "delaware_icis_detail_entities": [
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS GROUP INC.",
+          "file_number": "5952305",
+          "formation_date": "2/1/2016"
+        },
+        {
+          "agent_name": "CORPORATION SERVICE COMPANY",
+          "entity_name": "AUTHENTIC BRANDS, LLLP",
+          "file_number": "4646833",
+          "formation_date": "1/20/2009"
+        }
+      ],
+      "delaware_icis_file_hit_detail_open": [
+        {
+          "entity_name": "AUTHENTIC BRANDS GROUP LLC",
+          "file_number": "4789754"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS, INC.",
+          "file_number": "3152333"
+        },
+        {
+          "entity_name": "AUTHENTIC BRANDS LLC",
+          "file_number": "6896342"
+        }
+      ],
+      "detail": "Wave-18 sealed SEC-named ABG holdcos/subs: 7. Delaware ICIS detail-authenticated: 2. Wayback ABG S-1 named ABG/Authentic Brands entities extracted: 8. S-1 filing index Exhibit 21 present: False. S-1 text: DAO mentions=0, shell-company mentions=0, ninety-million mentions=false. No public inventory authenticates 90,000,000 ABG-linked shell corporations or hidden global subsidiaries as illicit IP monetization fronts.",
+      "gap_vs_alleged_90_million": 89999992,
+      "hidden_global_shell_inventory_authenticated": false,
+      "id": "W23-F2",
+      "illicit_monetization_front_adjudicated": false,
+      "title": "Authenticated ABG nested entities are order-of-tens, not ninety million shells",
+      "wave18_sec_named_subsidiaries": [
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 1 LLC",
+          "source": "ABG S-1 / S-1/A (CIK 0001666054)",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "corroboration": "Tilray EX-10.21 describes ABG Intermediate Holdings 2, LLC as a Delaware limited liability company",
+          "delaware_icis_file_number": null,
+          "name": "ABG Intermediate Holdings 2 LLC",
+          "source": "ABG S-1 / S-1/A; Tilray EX-10.21 counterparty",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": "4789754",
+          "name": "Authentic Brands Group LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_PLUS_ICIS_FILE_HIT"
+        },
+        {
+          "delaware_icis_file_number": "5952305",
+          "name": "Authentic Brands Group Inc.",
+          "source": "ABG S-1; Certificate of Incorporation EX-3.1",
+          "status": "SEC_NAMED_PLUS_ICIS_DETAIL"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LLC",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Aggregator LP",
+          "source": "ABG S-1",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        },
+        {
+          "delaware_icis_file_number": null,
+          "name": "ABG Executive Equity Holdco LLC",
+          "source": "ABG S-1/A",
+          "status": "SEC_NAMED_ICIS_FILE_OPEN"
+        }
+      ],
+      "wave18_sec_named_subsidiary_count": 7,
+      "wayback_s1_index_exhibit_labels_sample": [
+        "EXHIBIT 3.1",
+        "EX-3.1",
+        "EXHIBIT 3.3",
+        "EX-3.3",
+        "EXHIBIT 10.5",
+        "EX-10.5",
+        "EXHIBIT 23.1",
+        "EX-23.1",
+        "EXHIBIT 23.2",
+        "EX-23.2",
+        "EXHIBIT 23.3",
+        "EX-23.3",
+        "EXHIBIT 99.1",
+        "EX-99.1",
+        "EXHIBIT 99.2",
+        "EX-99.2",
+        "EXHIBIT 99.3",
+        "EX-99.3"
+      ],
+      "wayback_s1_index_has_exhibit_21": false,
+      "wayback_s1_named_entities": [
+        "ABG Aggregator LLC",
+        "ABG Aggregator LP",
+        "ABG EPE IP LLC",
+        "ABG Executive Equity Holdco LLC",
+        "ABG Inc.",
+        "ABG LLC",
+        "ABG Management Equity Holdco LLC",
+        "Authentic Brands Group LLC"
+      ],
+      "wayback_s1_named_entity_count": 8
+    }
+  ],
+  "id": "abg_authenticated_subsidiary_inventory",
+  "next_actions": [
+    "If ABG refiles a registration statement with Exhibit 21, ingest full subsidiary table",
+    "Delaware ICIS captcha still blocks Intermediate Holdings / Aggregator file numbers"
+  ],
+  "status": "SEALED",
+  "title": "ABG authenticated subsidiary / nested-entity inventory",
+  "wave18_source": "docs/investigation/wave18/sec_abg_structure.json",
+  "wayback_s1": {
+    "bytes": 10400001,
+    "dao_mentions": 0,
+    "final_url": "https://web.archive.org/web/20220205151159/https://www.sec.gov/Archives/edgar/data/1666054/000110465921089494/tm2114913-5_s1.htm",
+    "fortune_mentions": 0,
+    "ninety_million_mentions": false,
+    "ok": true,
+    "sha256": "9feb2885e303e127efa84ae5f01dcbec0ec90135c37d45c7190e6985950462c9",
+    "shell_company_mentions": 0,
+    "url": "https://web.archive.org/web/20220205151159/https://www.sec.gov/Archives/edgar/data/1666054/000110465921089494/tm2114913-5_s1.htm"
+  },
+  "wayback_s1_index": {
+    "has_exhibit_21": false,
+    "ok": true,
+    "sha256": "d451c308cd6b9771b663ab64c9164ee94878b0546247b04a03d8e12298393219",
+    "status": 200
+  }
+}
