@@ -1019,7 +1019,8 @@ def run_wave29() -> dict[str, Any]:
     OUT.mkdir(parents=True, exist_ok=True)
     DOCS.mkdir(parents=True, exist_ok=True)
 
-    summaries = load_all_wave_summaries()
+    # Exclude self (Wave-29) so the hypergraph consolidates prior sealed waves only
+    summaries = load_all_wave_summaries(exclude_waves={29})
     index = track_findings_index(summaries)
     hg = build_consolidated_hypergraph(summaries)
     seal = track_hypergraph_seal(hg, index)

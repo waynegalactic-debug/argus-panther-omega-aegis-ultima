@@ -3,10 +3,10 @@
     "backend": "numpy_cpu_nvidia_compatible",
     "connected_components": 1,
     "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-    "elapsed_ms": 8,
-    "hyperedge_weighted_degree_mean": 2.1576868829337092,
-    "incidence_nnz": 1819,
-    "largest_component_size": 596,
+    "elapsed_ms": 7,
+    "hyperedge_weighted_degree_mean": 2.134407027818448,
+    "incidence_nnz": 1743,
+    "largest_component_size": 573,
     "nvidia_accelerated": false,
     "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible",
     "top_cooccurrence": [
@@ -25,8 +25,8 @@
       {
         "a": "flag:theft_adjudicated=False",
         "b": "disposition:theft_adjudicated",
-        "jaccard": 0.391304,
-        "shared_hyperedges": 9
+        "jaccard": 0.4,
+        "shared_hyperedges": 8
       },
       {
         "a": "wave:22",
@@ -37,19 +37,25 @@
       {
         "a": "wave:28",
         "b": "flag:illicit_dust_evasion_adjudicated=False",
-        "jaccard": 0.102041,
+        "jaccard": 0.108696,
         "shared_hyperedges": 5
       },
       {
         "a": "wave:25",
         "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.084746,
+        "jaccard": 0.089286,
         "shared_hyperedges": 5
       },
       {
-        "a": "wave:17",
-        "b": "flag:corruption_adjudicated=False",
-        "jaccard": 0.181818,
+        "a": "flag:alleged_15213_authenticated=False",
+        "b": "disposition:alleged_15213_authenticated",
+        "jaccard": 0.5,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "flag:wip_0194_artifact_located=False",
+        "b": "disposition:wip_0194_artifact_located",
+        "jaccard": 0.5,
         "shared_hyperedges": 4
       },
       {
@@ -59,9 +65,9 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:18",
+        "a": "wave:17",
         "b": "flag:corruption_adjudicated=False",
-        "jaccard": 0.133333,
+        "jaccard": 0.181818,
         "shared_hyperedges": 4
       },
       {
@@ -71,15 +77,9 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:29",
-        "b": "flag:wrapped_rap_rail_authenticated=False",
-        "jaccard": 0.125,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:29",
-        "b": "flag:illicit_dust_evasion_adjudicated=False",
-        "jaccard": 0.111111,
+        "a": "wave:18",
+        "b": "flag:corruption_adjudicated=False",
+        "jaccard": 0.133333,
         "shared_hyperedges": 4
       },
       {
@@ -89,20 +89,14 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:29",
-        "b": "flag:theft_adjudicated=False",
-        "jaccard": 0.083333,
-        "shared_hyperedges": 4
-      },
-      {
         "a": "wave:26",
         "b": "flag:illicit_dust_evasion_adjudicated=False",
-        "jaccard": 0.072727,
+        "jaccard": 0.076923,
         "shared_hyperedges": 4
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.070175,
         "shared_hyperedges": 4
       },
@@ -114,25 +108,25 @@
       },
       {
         "a": "wave:21",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.070175,
-        "shared_hyperedges": 4
-      },
-      {
-        "a": "wave:27",
-        "b": "flag:wrapped_rap_rail_authenticated=False",
-        "jaccard": 0.065574,
         "shared_hyperedges": 4
       },
       {
         "a": "wave:27",
         "b": "flag:illicit_royalty_adjudicated=False",
-        "jaccard": 0.065574,
+        "jaccard": 0.066667,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:21",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.057143,
         "shared_hyperedges": 4
       },
       {
         "a": "wave:22",
-        "b": "flag:royalty_payment_adjudicated=False",
+        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
         "jaccard": 0.056338,
         "shared_hyperedges": 4
       },
@@ -144,8 +138,14 @@
       },
       {
         "a": "wave:22",
-        "b": "flag:royalty_linked_to_stolen_families_adjudicated=False",
+        "b": "flag:royalty_payment_adjudicated=False",
         "jaccard": 0.056338,
+        "shared_hyperedges": 4
+      },
+      {
+        "a": "wave:22",
+        "b": "flag:alleged_15213_authenticated=False",
+        "jaccard": 0.055556,
         "shared_hyperedges": 4
       },
       {
@@ -155,9 +155,9 @@
         "shared_hyperedges": 4
       },
       {
-        "a": "wave:22",
-        "b": "flag:alleged_15213_authenticated=False",
-        "jaccard": 0.055556,
+        "a": "wave:27",
+        "b": "flag:theft_adjudicated=False",
+        "jaccard": 0.054795,
         "shared_hyperedges": 4
       }
     ],
@@ -184,18 +184,18 @@
         "weighted_degree": 42.4
       },
       {
-        "id": "wave:27",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 42.399999999999984
-      },
-      {
         "id": "wave:21",
         "kinds": [
           "wave"
         ],
         "weighted_degree": 41.39999999999998
+      },
+      {
+        "id": "wave:27",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 40.899999999999984
       },
       {
         "id": "wave:14",
@@ -226,13 +226,6 @@
         "weighted_degree": 30.39999999999998
       },
       {
-        "id": "wave:29",
-        "kinds": [
-          "wave"
-        ],
-        "weighted_degree": 28.300000000000008
-      },
-      {
         "id": "wave:20",
         "kinds": [
           "wave"
@@ -247,13 +240,6 @@
         "weighted_degree": 25.800000000000008
       },
       {
-        "id": "flag:theft_adjudicated=False",
-        "kinds": [
-          "flag"
-        ],
-        "weighted_degree": 22.099999999999998
-      },
-      {
         "id": "wave:17",
         "kinds": [
           "wave"
@@ -266,10 +252,24 @@
           "wave"
         ],
         "weighted_degree": 19.900000000000006
+      },
+      {
+        "id": "flag:theft_adjudicated=False",
+        "kinds": [
+          "flag"
+        ],
+        "weighted_degree": 19.4
+      },
+      {
+        "id": "wave:15",
+        "kinds": [
+          "wave"
+        ],
+        "weighted_degree": 17.0
       }
     ],
     "vertex_weighted_degree_max": 59.999999999999964,
-    "vertex_weighted_degree_mean": 2.5667785234899325
+    "vertex_weighted_degree_mean": 2.544153577661431
   },
   "address_book_size": 19,
   "backend": "numpy_cpu_nvidia_compatible",
@@ -7420,354 +7420,6 @@
       "cardinality": 2,
       "id": "he_00522",
       "members": [
-        "case:IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_case",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00523",
-      "members": [
-        "finding:W29-F1",
-        "wave:29"
-      ],
-      "meta": {
-        "finding_id": "W29-F1",
-        "merged_count": 1
-      },
-      "relation_type": "wave_finding",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00524",
-      "members": [
-        "finding:W29-F2",
-        "wave:29"
-      ],
-      "meta": {
-        "finding_id": "W29-F2",
-        "merged_count": 1
-      },
-      "relation_type": "wave_finding",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00525",
-      "members": [
-        "finding:W29-F3",
-        "wave:29"
-      ],
-      "meta": {
-        "finding_id": "W29-F3",
-        "merged_count": 1
-      },
-      "relation_type": "wave_finding",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00526",
-      "members": [
-        "finding:W29-F3",
-        "flag:illicit_dust_evasion_adjudicated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "finding_flag",
-      "weight": 0.5
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00527",
-      "members": [
-        "finding:W29-F3",
-        "flag:theft_adjudicated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "finding_flag",
-      "weight": 0.5
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00528",
-      "members": [
-        "finding:W29-F3",
-        "flag:tokenized_royalty_rail_authenticated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "finding_flag",
-      "weight": 0.5
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00529",
-      "members": [
-        "finding:W29-F3",
-        "flag:wrapped_rap_rail_authenticated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "finding_flag",
-      "weight": 0.5
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00530",
-      "members": [
-        "disposition:consolidation_complete",
-        "flag:consolidation_complete=True",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00531",
-      "members": [
-        "disposition:hypergraph_sealed",
-        "flag:hypergraph_sealed=True",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00532",
-      "members": [
-        "disposition:illicit_dust_evasion_adjudicated",
-        "flag:illicit_dust_evasion_adjudicated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00533",
-      "members": [
-        "disposition:nvidia_gpu_active",
-        "flag:nvidia_gpu_active=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00534",
-      "members": [
-        "disposition:nvidia_path",
-        "flag:nvidia_path=numpy_vectorized_nvidia_compatible",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00535",
-      "members": [
-        "disposition:theft_adjudicated",
-        "flag:theft_adjudicated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00536",
-      "members": [
-        "disposition:tokenized_royalty_rail_authenticated",
-        "flag:tokenized_royalty_rail_authenticated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 3,
-      "id": "he_00537",
-      "members": [
-        "disposition:wrapped_rap_rail_authenticated",
-        "flag:wrapped_rap_rail_authenticated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_disposition",
-      "weight": 1.0
-    },
-    {
-      "cardinality": 9,
-      "id": "he_00538",
-      "members": [
-        "flag:consolidation_complete=True",
-        "flag:hypergraph_sealed=True",
-        "flag:illicit_dust_evasion_adjudicated=False",
-        "flag:nvidia_gpu_active=False",
-        "flag:nvidia_path=numpy_vectorized_nvidia_compatible",
-        "flag:theft_adjudicated=False",
-        "flag:tokenized_royalty_rail_authenticated=False",
-        "flag:wrapped_rap_rail_authenticated=False",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1,
-        "wave": 29
-      },
-      "relation_type": "wave_disposition_bundle",
-      "weight": 1.2
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00539",
-      "members": [
-        "track:29:consolidated_findings_index",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_track",
-      "weight": 0.8
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00540",
-      "members": [
-        "track:29:nvidia_accelerated_consolidated_hypergraph",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_track",
-      "weight": 0.8
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00541",
-      "members": [
-        "track:29:hypergraph_consolidation_seal",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_track",
-      "weight": 0.8
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00542",
-      "members": [
-        "track:29:operator_worklist",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_track",
-      "weight": 0.8
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00543",
-      "members": [
-        "custody_leaf:29:consolidated_findings_index",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_custody_leaf",
-      "weight": 0.6
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00544",
-      "members": [
-        "custody_leaf:29:nvidia_accelerated_consolidated_hypergraph",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_custody_leaf",
-      "weight": 0.6
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00545",
-      "members": [
-        "custody_leaf:29:hypergraph_consolidation_seal",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_custody_leaf",
-      "weight": 0.6
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00546",
-      "members": [
-        "custody_leaf:29:operator_worklist",
-        "wave:29"
-      ],
-      "meta": {
-        "merged_count": 1
-      },
-      "relation_type": "wave_custody_leaf",
-      "weight": 0.6
-    },
-    {
-      "cardinality": 2,
-      "id": "he_00547",
-      "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "ens:abg.eth"
       ],
@@ -7779,7 +7431,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00548",
+      "id": "he_00523",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:21"
@@ -7793,7 +7445,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00549",
+      "id": "he_00524",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:22"
@@ -7807,7 +7459,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00550",
+      "id": "he_00525",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:24"
@@ -7821,7 +7473,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00551",
+      "id": "he_00526",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:26"
@@ -7835,7 +7487,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00552",
+      "id": "he_00527",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:27"
@@ -7849,7 +7501,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00553",
+      "id": "he_00528",
       "members": [
         "addr:0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
         "wave:28"
@@ -7863,7 +7515,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00554",
+      "id": "he_00529",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "ens:authenticbrands.eth"
@@ -7876,7 +7528,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00555",
+      "id": "he_00530",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:21"
@@ -7890,7 +7542,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00556",
+      "id": "he_00531",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:22"
@@ -7904,7 +7556,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00557",
+      "id": "he_00532",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:24"
@@ -7918,7 +7570,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00558",
+      "id": "he_00533",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:26"
@@ -7932,7 +7584,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00559",
+      "id": "he_00534",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:27"
@@ -7946,7 +7598,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00560",
+      "id": "he_00535",
       "members": [
         "addr:0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
         "wave:28"
@@ -7960,7 +7612,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00561",
+      "id": "he_00536",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "ens:elonmusk.eth"
@@ -7973,7 +7625,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00562",
+      "id": "he_00537",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:21"
@@ -7987,7 +7639,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00563",
+      "id": "he_00538",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:22"
@@ -8001,7 +7653,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00564",
+      "id": "he_00539",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:24"
@@ -8015,7 +7667,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00565",
+      "id": "he_00540",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:26"
@@ -8029,7 +7681,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00566",
+      "id": "he_00541",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:27"
@@ -8043,7 +7695,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00567",
+      "id": "he_00542",
       "members": [
         "addr:0x983110309620d911731ac0932219af06091b6744",
         "wave:28"
@@ -8057,7 +7709,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00568",
+      "id": "he_00543",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "ens:fyllo.eth"
@@ -8070,7 +7722,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00569",
+      "id": "he_00544",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:21"
@@ -8084,7 +7736,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00570",
+      "id": "he_00545",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:22"
@@ -8098,7 +7750,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00571",
+      "id": "he_00546",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:24"
@@ -8112,7 +7764,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00572",
+      "id": "he_00547",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:26"
@@ -8126,7 +7778,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00573",
+      "id": "he_00548",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:27"
@@ -8140,7 +7792,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00574",
+      "id": "he_00549",
       "members": [
         "addr:0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
         "wave:28"
@@ -8154,7 +7806,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00575",
+      "id": "he_00550",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "ens:jamiesalter.eth"
@@ -8167,7 +7819,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00576",
+      "id": "he_00551",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:21"
@@ -8181,7 +7833,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00577",
+      "id": "he_00552",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:22"
@@ -8195,7 +7847,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00578",
+      "id": "he_00553",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:24"
@@ -8209,7 +7861,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00579",
+      "id": "he_00554",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:26"
@@ -8223,7 +7875,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00580",
+      "id": "he_00555",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:27"
@@ -8237,7 +7889,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00581",
+      "id": "he_00556",
       "members": [
         "addr:0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
         "wave:28"
@@ -8251,7 +7903,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00582",
+      "id": "he_00557",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "ens:japantobacco.eth"
@@ -8264,7 +7916,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00583",
+      "id": "he_00558",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:21"
@@ -8278,7 +7930,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00584",
+      "id": "he_00559",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:22"
@@ -8292,7 +7944,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00585",
+      "id": "he_00560",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:24"
@@ -8306,7 +7958,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00586",
+      "id": "he_00561",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:26"
@@ -8320,7 +7972,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00587",
+      "id": "he_00562",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:27"
@@ -8334,7 +7986,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00588",
+      "id": "he_00563",
       "members": [
         "addr:0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "wave:28"
@@ -8348,7 +8000,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00589",
+      "id": "he_00564",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "ens:jensenhuang.eth"
@@ -8361,7 +8013,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00590",
+      "id": "he_00565",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:21"
@@ -8375,7 +8027,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00591",
+      "id": "he_00566",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:22"
@@ -8389,7 +8041,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00592",
+      "id": "he_00567",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:24"
@@ -8403,7 +8055,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00593",
+      "id": "he_00568",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:26"
@@ -8417,7 +8069,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00594",
+      "id": "he_00569",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:27"
@@ -8431,7 +8083,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00595",
+      "id": "he_00570",
       "members": [
         "addr:0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "wave:28"
@@ -8445,7 +8097,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00596",
+      "id": "he_00571",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "ens:juul.eth"
@@ -8458,7 +8110,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00597",
+      "id": "he_00572",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:21"
@@ -8472,7 +8124,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00598",
+      "id": "he_00573",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:22"
@@ -8486,7 +8138,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00599",
+      "id": "he_00574",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:24"
@@ -8500,7 +8152,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00600",
+      "id": "he_00575",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:26"
@@ -8514,7 +8166,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00601",
+      "id": "he_00576",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:27"
@@ -8528,7 +8180,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00602",
+      "id": "he_00577",
       "members": [
         "addr:0x19625fede85fc0267d29bb3338f1636fee5477d3",
         "wave:28"
@@ -8542,7 +8194,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00603",
+      "id": "he_00578",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "ens:juullabs.eth"
@@ -8555,7 +8207,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00604",
+      "id": "he_00579",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:21"
@@ -8569,7 +8221,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00605",
+      "id": "he_00580",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:22"
@@ -8583,7 +8235,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00606",
+      "id": "he_00581",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:24"
@@ -8597,7 +8249,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00607",
+      "id": "he_00582",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:26"
@@ -8611,7 +8263,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00608",
+      "id": "he_00583",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:27"
@@ -8625,7 +8277,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00609",
+      "id": "he_00584",
       "members": [
         "addr:0x841b13b5d54752a928221c834acf312cedadd9d3",
         "wave:28"
@@ -8639,7 +8291,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00610",
+      "id": "he_00585",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "ens:njoy.eth"
@@ -8652,7 +8304,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00611",
+      "id": "he_00586",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:21"
@@ -8666,7 +8318,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00612",
+      "id": "he_00587",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:22"
@@ -8680,7 +8332,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00613",
+      "id": "he_00588",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:24"
@@ -8694,7 +8346,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00614",
+      "id": "he_00589",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:26"
@@ -8708,7 +8360,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00615",
+      "id": "he_00590",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:27"
@@ -8722,7 +8374,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00616",
+      "id": "he_00591",
       "members": [
         "addr:0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
         "wave:28"
@@ -8736,7 +8388,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00617",
+      "id": "he_00592",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "ens:pax.eth"
@@ -8749,7 +8401,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00618",
+      "id": "he_00593",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:21"
@@ -8763,7 +8415,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00619",
+      "id": "he_00594",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:22"
@@ -8777,7 +8429,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00620",
+      "id": "he_00595",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:24"
@@ -8791,7 +8443,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00621",
+      "id": "he_00596",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:26"
@@ -8805,7 +8457,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00622",
+      "id": "he_00597",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:27"
@@ -8819,7 +8471,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00623",
+      "id": "he_00598",
       "members": [
         "addr:0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
         "wave:28"
@@ -8833,7 +8485,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00624",
+      "id": "he_00599",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "ens:paxlabs.eth"
@@ -8846,7 +8498,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00625",
+      "id": "he_00600",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:21"
@@ -8860,7 +8512,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00626",
+      "id": "he_00601",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:22"
@@ -8874,7 +8526,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00627",
+      "id": "he_00602",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:24"
@@ -8888,7 +8540,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00628",
+      "id": "he_00603",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:26"
@@ -8902,7 +8554,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00629",
+      "id": "he_00604",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:27"
@@ -8916,7 +8568,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00630",
+      "id": "he_00605",
       "members": [
         "addr:0x356c938a1d889d87999c75dc4e7af1263b93e45d",
         "wave:28"
@@ -8930,7 +8582,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00631",
+      "id": "he_00606",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "ens:philipmorris.eth"
@@ -8943,7 +8595,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00632",
+      "id": "he_00607",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:21"
@@ -8957,7 +8609,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00633",
+      "id": "he_00608",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:22"
@@ -8971,7 +8623,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00634",
+      "id": "he_00609",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:24"
@@ -8985,7 +8637,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00635",
+      "id": "he_00610",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:26"
@@ -8999,7 +8651,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00636",
+      "id": "he_00611",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:27"
@@ -9013,7 +8665,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00637",
+      "id": "he_00612",
       "members": [
         "addr:0xd9568b97ddc98c2bb55261b88240de698b9f974c",
         "wave:28"
@@ -9027,7 +8679,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00638",
+      "id": "he_00613",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "ens:philipmorrisusa.eth"
@@ -9040,7 +8692,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00639",
+      "id": "he_00614",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:21"
@@ -9054,7 +8706,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00640",
+      "id": "he_00615",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:22"
@@ -9068,7 +8720,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00641",
+      "id": "he_00616",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:24"
@@ -9082,7 +8734,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00642",
+      "id": "he_00617",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:26"
@@ -9096,7 +8748,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00643",
+      "id": "he_00618",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:27"
@@ -9110,7 +8762,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00644",
+      "id": "he_00619",
       "members": [
         "addr:0x4f809effb315a91093169e17e6e1bf8f27889240",
         "wave:28"
@@ -9124,7 +8776,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00645",
+      "id": "he_00620",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "ens:ploom.eth"
@@ -9137,7 +8789,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00646",
+      "id": "he_00621",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:21"
@@ -9151,7 +8803,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00647",
+      "id": "he_00622",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:22"
@@ -9165,7 +8817,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00648",
+      "id": "he_00623",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:24"
@@ -9179,7 +8831,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00649",
+      "id": "he_00624",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:26"
@@ -9193,7 +8845,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00650",
+      "id": "he_00625",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:27"
@@ -9207,7 +8859,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00651",
+      "id": "he_00626",
       "members": [
         "addr:0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
         "wave:28"
@@ -9221,7 +8873,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00652",
+      "id": "he_00627",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "ens:pmi.eth"
@@ -9234,7 +8886,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00653",
+      "id": "he_00628",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:21"
@@ -9248,7 +8900,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00654",
+      "id": "he_00629",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:22"
@@ -9262,7 +8914,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00655",
+      "id": "he_00630",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:24"
@@ -9276,7 +8928,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00656",
+      "id": "he_00631",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:26"
@@ -9290,7 +8942,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00657",
+      "id": "he_00632",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:27"
@@ -9304,7 +8956,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00658",
+      "id": "he_00633",
       "members": [
         "addr:0x516f381d6c94110cde63f3266b779065525096f7",
         "wave:28"
@@ -9318,7 +8970,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00659",
+      "id": "he_00634",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "ens:pmusa.eth"
@@ -9331,7 +8983,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00660",
+      "id": "he_00635",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:21"
@@ -9345,7 +8997,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00661",
+      "id": "he_00636",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:22"
@@ -9359,7 +9011,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00662",
+      "id": "he_00637",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:24"
@@ -9373,7 +9025,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00663",
+      "id": "he_00638",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:26"
@@ -9387,7 +9039,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00664",
+      "id": "he_00639",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:27"
@@ -9401,7 +9053,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00665",
+      "id": "he_00640",
       "members": [
         "addr:0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "wave:28"
@@ -9415,7 +9067,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00666",
+      "id": "he_00641",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "ens:sama.eth"
@@ -9428,7 +9080,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00667",
+      "id": "he_00642",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:21"
@@ -9442,7 +9094,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00668",
+      "id": "he_00643",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:22"
@@ -9456,7 +9108,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00669",
+      "id": "he_00644",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:24"
@@ -9470,7 +9122,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00670",
+      "id": "he_00645",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:26"
@@ -9484,7 +9136,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00671",
+      "id": "he_00646",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:27"
@@ -9498,7 +9150,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00672",
+      "id": "he_00647",
       "members": [
         "addr:0x9a659894e5d115846767db0e1685744c452e7a6e",
         "wave:28"
@@ -9512,7 +9164,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00673",
+      "id": "he_00648",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "ens:vitalik.eth"
@@ -9525,7 +9177,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00674",
+      "id": "he_00649",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:21"
@@ -9539,7 +9191,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00675",
+      "id": "he_00650",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:22"
@@ -9553,7 +9205,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00676",
+      "id": "he_00651",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:24"
@@ -9567,7 +9219,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00677",
+      "id": "he_00652",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:26"
@@ -9581,7 +9233,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00678",
+      "id": "he_00653",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:27"
@@ -9595,7 +9247,7 @@
     },
     {
       "cardinality": 2,
-      "id": "he_00679",
+      "id": "he_00654",
       "members": [
         "addr:0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
         "wave:28"
@@ -9609,7 +9261,7 @@
     },
     {
       "cardinality": 19,
-      "id": "he_00680",
+      "id": "he_00655",
       "members": [
         "ens:abg.eth",
         "ens:authenticbrands.eth",
@@ -9640,7 +9292,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00681",
+      "id": "he_00656",
       "members": [
         "pub:US11234465B2",
         "wave:14",
@@ -9654,7 +9306,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00682",
+      "id": "he_00657",
       "members": [
         "pub:US11275070B2",
         "wave:14",
@@ -9668,7 +9320,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00683",
+      "id": "he_00658",
       "members": [
         "pub:US20180191180A1",
         "wave:14",
@@ -9682,7 +9334,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00684",
+      "id": "he_00659",
       "members": [
         "pub:US20190240429A1",
         "wave:14",
@@ -9696,7 +9348,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00685",
+      "id": "he_00660",
       "members": [
         "pub:US20190378609A1",
         "wave:14",
@@ -9710,7 +9362,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00686",
+      "id": "he_00661",
       "members": [
         "pub:US20200005924A1",
         "wave:14",
@@ -9724,7 +9376,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00687",
+      "id": "he_00662",
       "members": [
         "pub:US20210202056A1",
         "wave:14",
@@ -9738,7 +9390,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00688",
+      "id": "he_00663",
       "members": [
         "pub:US20220104664A1",
         "wave:14",
@@ -9752,7 +9404,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00689",
+      "id": "he_00664",
       "members": [
         "pub:US20230112752A1",
         "wave:14",
@@ -9766,7 +9418,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00690",
+      "id": "he_00665",
       "members": [
         "pub:US20240215633A1",
         "wave:14",
@@ -9780,7 +9432,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00691",
+      "id": "he_00666",
       "members": [
         "pub:US20240242809A1",
         "wave:14",
@@ -9794,7 +9446,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00692",
+      "id": "he_00667",
       "members": [
         "pub:US20240244430A1",
         "wave:14",
@@ -9808,7 +9460,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00693",
+      "id": "he_00668",
       "members": [
         "pub:US20250054595A1",
         "wave:14",
@@ -9822,7 +9474,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00694",
+      "id": "he_00669",
       "members": [
         "pub:US20250177708A1",
         "wave:14",
@@ -9836,7 +9488,7 @@
     },
     {
       "cardinality": 3,
-      "id": "he_00695",
+      "id": "he_00670",
       "members": [
         "pub:USD795407S1",
         "wave:14",
@@ -9850,7 +9502,7 @@
     },
     {
       "cardinality": 17,
-      "id": "he_00696",
+      "id": "he_00671",
       "members": [
         "pub:US11234465B2",
         "pub:US11275070B2",
@@ -9879,7 +9531,7 @@
     },
     {
       "cardinality": 5,
-      "id": "he_00697",
+      "id": "he_00672",
       "members": [
         "disposition:alleged_15213_authenticated",
         "flag:alleged_15213_authenticated=False",
@@ -9901,7 +9553,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00698",
+      "id": "he_00673",
       "members": [
         "disposition:corruption_adjudicated",
         "flag:corruption_adjudicated=False",
@@ -9921,7 +9573,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00699",
+      "id": "he_00674",
       "members": [
         "disposition:cyber_dust_illicit_flow_adjudicated",
         "flag:cyber_dust_illicit_flow_adjudicated=False",
@@ -9940,22 +9592,20 @@
       "weight": 1.5
     },
     {
-      "cardinality": 5,
-      "id": "he_00700",
+      "cardinality": 4,
+      "id": "he_00675",
       "members": [
         "disposition:illicit_dust_evasion_adjudicated",
         "flag:illicit_dust_evasion_adjudicated=False",
         "wave:26",
-        "wave:28",
-        "wave:29"
+        "wave:28"
       ],
       "meta": {
         "key": "illicit_dust_evasion_adjudicated",
         "merged_count": 1,
         "waves": [
           26,
-          28,
-          29
+          28
         ]
       },
       "relation_type": "shared_negative_disposition",
@@ -9963,7 +9613,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00701",
+      "id": "he_00676",
       "members": [
         "disposition:illicit_registration_adjudicated",
         "flag:illicit_registration_adjudicated=False",
@@ -9983,7 +9633,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00702",
+      "id": "he_00677",
       "members": [
         "disposition:illicit_royalty_adjudicated",
         "flag:illicit_royalty_adjudicated=False",
@@ -10003,7 +9653,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00703",
+      "id": "he_00678",
       "members": [
         "disposition:royalty_linked_to_stolen_families_adjudicated",
         "flag:royalty_linked_to_stolen_families_adjudicated=False",
@@ -10023,7 +9673,7 @@
     },
     {
       "cardinality": 4,
-      "id": "he_00704",
+      "id": "he_00679",
       "members": [
         "disposition:royalty_payment_adjudicated",
         "flag:royalty_payment_adjudicated=False",
@@ -10042,8 +9692,8 @@
       "weight": 1.5
     },
     {
-      "cardinality": 10,
-      "id": "he_00705",
+      "cardinality": 9,
+      "id": "he_00680",
       "members": [
         "disposition:theft_adjudicated",
         "flag:theft_adjudicated=False",
@@ -10053,8 +9703,7 @@
         "wave:24",
         "wave:25",
         "wave:26",
-        "wave:27",
-        "wave:29"
+        "wave:27"
       ],
       "meta": {
         "key": "theft_adjudicated",
@@ -10066,8 +9715,7 @@
           24,
           25,
           26,
-          27,
-          29
+          27
         ]
       },
       "relation_type": "shared_negative_disposition",
@@ -10075,7 +9723,7 @@
     },
     {
       "cardinality": 5,
-      "id": "he_00706",
+      "id": "he_00681",
       "members": [
         "disposition:wip_0194_artifact_located",
         "flag:wip_0194_artifact_located=False",
@@ -10096,28 +9744,8 @@
       "weight": 1.5
     },
     {
-      "cardinality": 4,
-      "id": "he_00707",
-      "members": [
-        "disposition:wrapped_rap_rail_authenticated",
-        "flag:wrapped_rap_rail_authenticated=False",
-        "wave:27",
-        "wave:29"
-      ],
-      "meta": {
-        "key": "wrapped_rap_rail_authenticated",
-        "merged_count": 1,
-        "waves": [
-          27,
-          29
-        ]
-      },
-      "relation_type": "shared_negative_disposition",
-      "weight": 1.5
-    },
-    {
-      "cardinality": 27,
-      "id": "he_00708",
+      "cardinality": 26,
+      "id": "he_00682",
       "members": [
         "wave:10",
         "wave:11",
@@ -10138,7 +9766,6 @@
         "wave:26",
         "wave:27",
         "wave:28",
-        "wave:29",
         "wave:3",
         "wave:4",
         "wave:5",
@@ -10149,7 +9776,7 @@
       ],
       "meta": {
         "merged_count": 1,
-        "waves": 27
+        "waves": 26
       },
       "relation_type": "full_investigation_corpus",
       "weight": 3.0
@@ -10312,64 +9939,58 @@
       "findings": 3,
       "tracks": 4,
       "wave": 28
-    },
-    {
-      "disposition_keys": 8,
-      "findings": 3,
-      "tracks": 4,
-      "wave": 29
     }
   ],
   "metrics": {
-    "avg_cardinality": 2.56558533145275,
-    "degree_gini": 0.5861054639506182,
+    "avg_cardinality": 2.5519765739385067,
+    "degree_gini": 0.584669267946881,
     "degree_max": 85.0,
-    "degree_mean": 3.052013422818792,
+    "degree_mean": 3.0418848167539267,
     "hyperedges_merged_away": 0,
     "kind_counts": {
       "address": 19,
-      "case": 27,
-      "custody_leaf": 115,
-      "disposition_key": 81,
+      "case": 26,
+      "custody_leaf": 111,
+      "disposition_key": 76,
       "ens_label": 19,
-      "finding": 69,
-      "flag": 109,
+      "finding": 66,
+      "flag": 104,
       "publication": 15,
-      "track": 115,
-      "wave": 27
+      "track": 111,
+      "wave": 26
     },
-    "max_cardinality": 27,
-    "num_hyperedges_optimized": 709,
-    "num_hyperedges_raw": 709,
-    "num_vertices": 596,
+    "max_cardinality": 26,
+    "num_hyperedges_optimized": 683,
+    "num_hyperedges_raw": 683,
+    "num_vertices": 573,
     "relation_type_counts": {
       "address_wave_screen": 114,
       "ens_address": 19,
-      "finding_flag": 108,
+      "finding_flag": 104,
       "full_investigation_corpus": 1,
       "publication_wave_corpus": 15,
       "sealed_address_set": 1,
       "sealed_publication_set": 1,
-      "shared_negative_disposition": 11,
-      "wave_case": 27,
-      "wave_custody_leaf": 115,
-      "wave_disposition": 101,
-      "wave_disposition_bundle": 12,
-      "wave_finding": 69,
-      "wave_track": 115
+      "shared_negative_disposition": 10,
+      "wave_case": 26,
+      "wave_custody_leaf": 111,
+      "wave_disposition": 93,
+      "wave_disposition_bundle": 11,
+      "wave_finding": 66,
+      "wave_track": 111
     }
   },
   "negative_disposition_integration": {
-    "false_disposition_keys": 63,
-    "shared_negative_bundles": 11
+    "false_disposition_keys": 61,
+    "shared_negative_bundles": 10
   },
   "scaling": {
     "components": 1,
-    "hyperedges_optimized": 709,
-    "largest_component_size": 596,
+    "hyperedges_optimized": 683,
+    "largest_component_size": 573,
     "streamline_merged_away": 0,
-    "vertices": 596,
-    "waves_ingested": 27
+    "vertices": 573,
+    "waves_ingested": 26
   },
   "sealed_publications": 15,
   "status": "SEALED",
@@ -10377,17 +9998,17 @@
   "topology": {
     "betti_numbers": [
       1,
-      1840,
+      1734,
       0
     ],
-    "entities_in_topo": 596,
+    "entities_in_topo": 573,
     "metrics": {
-      "avg_cardinality": 2.56558533145275,
-      "density": 0.003998646438441149,
-      "num_hyperedges": 709,
-      "num_vertices": 596
+      "avg_cardinality": 2.5519765739385067,
+      "density": 0.0041677345342266804,
+      "num_hyperedges": 683,
+      "num_vertices": 573
     },
-    "relationships_in_topo": 709
+    "relationships_in_topo": 683
   },
   "vertices_top": [
     {
@@ -10415,7 +10036,7 @@
       }
     },
     {
-      "degree": 58,
+      "degree": 57,
       "id": "wave:27",
       "kinds": [
         "wave"
@@ -10511,18 +10132,6 @@
       }
     },
     {
-      "degree": 29,
-      "id": "wave:29",
-      "kinds": [
-        "wave"
-      ],
-      "meta": {
-        "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-        "seal": "bf5cfcdb28d03dd48d81f29b7193ec86",
-        "source": "docs/US_IPFORCE_INVESTIGATION_WAVE29_SUMMARY.json"
-      }
-    },
-    {
       "degree": 27,
       "id": "wave:18",
       "kinds": [
@@ -10535,17 +10144,6 @@
       }
     },
     {
-      "degree": 23,
-      "id": "flag:theft_adjudicated=False",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "theft_adjudicated",
-        "value": false
-      }
-    },
-    {
       "degree": 22,
       "id": "wave:13",
       "kinds": [
@@ -10555,6 +10153,17 @@
         "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W13",
         "seal": "8a4e101df70c6369d538a3c45088bd04",
         "source": "docs/US_IPFORCE_INVESTIGATION_WAVE13_SUMMARY.json"
+      }
+    },
+    {
+      "degree": 20,
+      "id": "flag:theft_adjudicated=False",
+      "kinds": [
+        "flag"
+      ],
+      "meta": {
+        "key": "theft_adjudicated",
+        "value": false
       }
     },
     {
@@ -10654,17 +10263,6 @@
       }
     },
     {
-      "degree": 11,
-      "id": "flag:illicit_dust_evasion_adjudicated=False",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "illicit_dust_evasion_adjudicated",
-        "value": false
-      }
-    },
-    {
       "degree": 10,
       "id": "finding:W23-F3",
       "kinds": [
@@ -10724,7 +10322,7 @@
       }
     },
     {
-      "degree": 9,
+      "degree": 8,
       "id": "disposition:theft_adjudicated",
       "kinds": [
         "disposition_key"
@@ -10741,6 +10339,17 @@
       ],
       "meta": {
         "key": "alleged_15213_authenticated",
+        "value": false
+      }
+    },
+    {
+      "degree": 8,
+      "id": "flag:illicit_dust_evasion_adjudicated=False",
+      "kinds": [
+        "flag"
+      ],
+      "meta": {
+        "key": "illicit_dust_evasion_adjudicated",
         "value": false
       }
     },
@@ -11054,17 +10663,6 @@
       }
     },
     {
-      "degree": 7,
-      "id": "flag:wrapped_rap_rail_authenticated=False",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "wrapped_rap_rail_authenticated",
-        "value": false
-      }
-    },
-    {
       "degree": 6,
       "id": "finding:W22-F2",
       "kinds": [
@@ -11188,17 +10786,6 @@
     },
     {
       "degree": 5,
-      "id": "finding:W29-F3",
-      "kinds": [
-        "finding"
-      ],
-      "meta": {
-        "title": "Prior-wave negative dispositions retained inside integrated hypergraph",
-        "wave": 29
-      }
-    },
-    {
-      "degree": 5,
       "id": "flag:professional_enabler_adjudicated=False",
       "kinds": [
         "flag"
@@ -11216,16 +10803,6 @@
       ],
       "meta": {
         "key": "alleged_15213_authenticated"
-      }
-    },
-    {
-      "degree": 4,
-      "id": "disposition:illicit_dust_evasion_adjudicated",
-      "kinds": [
-        "disposition_key"
-      ],
-      "meta": {
-        "key": "illicit_dust_evasion_adjudicated"
       }
     },
     {
@@ -11348,6 +10925,16 @@
     },
     {
       "degree": 3,
+      "id": "disposition:illicit_dust_evasion_adjudicated",
+      "kinds": [
+        "disposition_key"
+      ],
+      "meta": {
+        "key": "illicit_dust_evasion_adjudicated"
+      }
+    },
+    {
+      "degree": 3,
       "id": "disposition:illicit_registration_adjudicated",
       "kinds": [
         "disposition_key"
@@ -11384,16 +10971,6 @@
       ],
       "meta": {
         "key": "royalty_payment_adjudicated"
-      }
-    },
-    {
-      "degree": 3,
-      "id": "disposition:wrapped_rap_rail_authenticated",
-      "kinds": [
-        "disposition_key"
-      ],
-      "meta": {
-        "key": "wrapped_rap_rail_authenticated"
       }
     },
     {
@@ -11926,17 +11503,6 @@
     },
     {
       "degree": 3,
-      "id": "flag:tokenized_royalty_rail_authenticated=False",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "tokenized_royalty_rail_authenticated",
-        "value": false
-      }
-    },
-    {
-      "degree": 3,
       "id": "flag:tokenized_royalty_to_skoda_authenticated=False",
       "kinds": [
         "flag"
@@ -11965,6 +11531,17 @@
       ],
       "meta": {
         "key": "wrapped_fractionalized_stolen_ip_adjudicated",
+        "value": false
+      }
+    },
+    {
+      "degree": 3,
+      "id": "flag:wrapped_rap_rail_authenticated=False",
+      "kinds": [
+        "flag"
+      ],
+      "meta": {
+        "key": "wrapped_rap_rail_authenticated",
         "value": false
       }
     },
@@ -12380,17 +11957,6 @@
     },
     {
       "degree": 2,
-      "id": "flag:consolidation_complete=True",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "consolidation_complete",
-        "value": true
-      }
-    },
-    {
-      "degree": 2,
       "id": "flag:ferraiuoli_exact_suite_match=False",
       "kinds": [
         "flag"
@@ -12468,17 +12034,6 @@
     },
     {
       "degree": 2,
-      "id": "flag:hypergraph_sealed=True",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "hypergraph_sealed",
-        "value": true
-      }
-    },
-    {
-      "degree": 2,
       "id": "flag:is_contract=False",
       "kinds": [
         "flag"
@@ -12486,28 +12041,6 @@
       "meta": {
         "key": "is_contract",
         "value": false
-      }
-    },
-    {
-      "degree": 2,
-      "id": "flag:nvidia_gpu_active=False",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "nvidia_gpu_active",
-        "value": false
-      }
-    },
-    {
-      "degree": 2,
-      "id": "flag:nvidia_path=numpy_vectorized_nvidia_compatible",
-      "kinds": [
-        "flag"
-      ],
-      "meta": {
-        "key": "nvidia_path",
-        "value": "numpy_vectorized_nvidia_compatible"
       }
     },
     {
@@ -12611,7 +12144,103 @@
         "publication_number": "US20180191180A1",
         "title": "Systems and methods for portable charging systems and designs thereof"
       }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20190240429A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Zorday IP, LLC",
+        "publication_number": "US20190240429A1",
+        "title": "Systems and methods for intelligent vaporizers"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20190378609A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Brent M. Skoda",
+        "publication_number": "US20190378609A1",
+        "title": "Systems and methods for medical dispensing, management and monitoring"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20200005924A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Zorday IP, LLC",
+        "publication_number": "US20200005924A1",
+        "title": "System and method for managing and dispensing an inhalable composition, &hellip;"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20210202056A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Zorday IP, LLC",
+        "publication_number": "US20210202056A1",
+        "title": "Systems and methods for managing a medical supply chain"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20220104664A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "UrgentRN LLC",
+        "publication_number": "US20220104664A1",
+        "title": "Systems and methods for sanitizer dispensing devices and remote management of &hellip;"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20230112752A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Zorday IP, LLC",
+        "publication_number": "US20230112752A1",
+        "title": "Systems and methods for intelligent vaporizers"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20240215633A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Ahkeo Ventures LLC",
+        "publication_number": "US20240215633A1",
+        "title": "Inhalable compositions comprising caffeine, methods of use and an apparatus for &hellip;"
+      }
+    },
+    {
+      "degree": 2,
+      "id": "pub:US20240242809A1",
+      "kinds": [
+        "publication"
+      ],
+      "meta": {
+        "assignee": "Zorday IP, LLC",
+        "publication_number": "US20240242809A1",
+        "title": "Systems and methods for medical dispensing, management and monitoring"
+      }
     }
   ],
-  "vertices_total": 596
+  "vertices_total": 573
 }

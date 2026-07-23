@@ -1,10 +1,10 @@
 {
   "findings": [
     {
-      "detail": "Indexed 80 consolidated rows across 27 waves.",
-      "finding_rows": 64,
+      "detail": "Indexed 77 consolidated rows across 26 waves.",
+      "finding_rows": 61,
       "id": "W29-F1",
-      "index_rows": 80,
+      "index_rows": 77,
       "title": "All sealed-wave findings ingested into consolidated hypergraph index",
       "waves_present": [
         2,
@@ -32,8 +32,7 @@
         25,
         26,
         27,
-        28,
-        29
+        28
       ]
     }
   ],
@@ -646,27 +645,6 @@
       "seal_prefix": "3d7c688324d05f79",
       "title": "Full update of prior-wave dust dispositions under finer thresholds",
       "wave": 28
-    },
-    {
-      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-      "finding_id": "W29-F1",
-      "seal_prefix": "bf5cfcdb28d03dd4",
-      "title": "All sealed-wave findings ingested into consolidated hypergraph index",
-      "wave": 29
-    },
-    {
-      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-      "finding_id": "W29-F2",
-      "seal_prefix": "bf5cfcdb28d03dd4",
-      "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
-      "wave": 29
-    },
-    {
-      "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W29",
-      "finding_id": "W29-F3",
-      "seal_prefix": "bf5cfcdb28d03dd4",
-      "title": "Prior-wave negative dispositions retained inside integrated hypergraph",
-      "wave": 29
     }
   ],
   "status": "SEALED",

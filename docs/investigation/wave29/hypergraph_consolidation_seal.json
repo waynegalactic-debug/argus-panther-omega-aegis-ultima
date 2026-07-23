@@ -4,85 +4,85 @@
       "acceleration": {
         "connected_components": 1,
         "cugraph_status": "rapids_not_installed_cpu_vectorized_fallback",
-        "elapsed_ms": 8,
-        "incidence_nnz": 1819,
-        "largest_component_size": 596,
+        "elapsed_ms": 7,
+        "incidence_nnz": 1743,
+        "largest_component_size": 573,
         "nvidia_accelerated": false,
         "nvidia_supercharged_path": "numpy_vectorized_nvidia_compatible"
       },
       "address_book_size": 19,
       "adjudicated_total": 0,
       "backend": "numpy_cpu_nvidia_compatible",
-      "detail": "Hypergraph vertices=596 hyperedges_optimized=709 backend=numpy_cpu_nvidia_compatible components=1.",
-      "findings_index_rows": 80,
+      "detail": "Hypergraph vertices=573 hyperedges_optimized=683 backend=numpy_cpu_nvidia_compatible components=1.",
+      "findings_index_rows": 77,
       "id": "W29-F2",
       "metrics": {
-        "avg_cardinality": 2.56558533145275,
-        "degree_gini": 0.5861054639506182,
+        "avg_cardinality": 2.5519765739385067,
+        "degree_gini": 0.584669267946881,
         "degree_max": 85.0,
-        "degree_mean": 3.052013422818792,
+        "degree_mean": 3.0418848167539267,
         "hyperedges_merged_away": 0,
         "kind_counts": {
           "address": 19,
-          "case": 27,
-          "custody_leaf": 115,
-          "disposition_key": 81,
+          "case": 26,
+          "custody_leaf": 111,
+          "disposition_key": 76,
           "ens_label": 19,
-          "finding": 69,
-          "flag": 109,
+          "finding": 66,
+          "flag": 104,
           "publication": 15,
-          "track": 115,
-          "wave": 27
+          "track": 111,
+          "wave": 26
         },
-        "max_cardinality": 27,
-        "num_hyperedges_optimized": 709,
-        "num_hyperedges_raw": 709,
-        "num_vertices": 596,
+        "max_cardinality": 26,
+        "num_hyperedges_optimized": 683,
+        "num_hyperedges_raw": 683,
+        "num_vertices": 573,
         "relation_type_counts": {
           "address_wave_screen": 114,
           "ens_address": 19,
-          "finding_flag": 108,
+          "finding_flag": 104,
           "full_investigation_corpus": 1,
           "publication_wave_corpus": 15,
           "sealed_address_set": 1,
           "sealed_publication_set": 1,
-          "shared_negative_disposition": 11,
-          "wave_case": 27,
-          "wave_custody_leaf": 115,
-          "wave_disposition": 101,
-          "wave_disposition_bundle": 12,
-          "wave_finding": 69,
-          "wave_track": 115
+          "shared_negative_disposition": 10,
+          "wave_case": 26,
+          "wave_custody_leaf": 111,
+          "wave_disposition": 93,
+          "wave_disposition_bundle": 11,
+          "wave_finding": 66,
+          "wave_track": 111
         }
       },
       "negative_disposition_integration": {
-        "false_disposition_keys": 63,
-        "shared_negative_bundles": 11
+        "false_disposition_keys": 61,
+        "shared_negative_bundles": 10
       },
       "scaling": {
         "components": 1,
-        "hyperedges_optimized": 709,
-        "largest_component_size": 596,
+        "hyperedges_optimized": 683,
+        "largest_component_size": 573,
         "streamline_merged_away": 0,
-        "vertices": 596,
-        "waves_ingested": 27
+        "vertices": 573,
+        "waves_ingested": 26
       },
       "sealed_publications": 15,
       "title": "NVIDIA-accelerated hypergraph built, optimized, streamlined, and scaled",
       "topology": {
         "betti_numbers": [
           1,
-          1840,
+          1734,
           0
         ],
-        "entities_in_topo": 596,
+        "entities_in_topo": 573,
         "metrics": {
-          "avg_cardinality": 2.56558533145275,
-          "density": 0.003998646438441149,
-          "num_hyperedges": 709,
-          "num_vertices": 596
+          "avg_cardinality": 2.5519765739385067,
+          "density": 0.0041677345342266804,
+          "num_hyperedges": 683,
+          "num_vertices": 573
         },
-        "relationships_in_topo": 709
+        "relationships_in_topo": 683
       },
       "true_ubo_asserted": 0
     },
@@ -90,7 +90,7 @@
       "detail": "Consolidation integrates sealed negatives as hyperedges; does not authenticate stolen-IP, royalty, wrapped-RaP, or illicit-dust rails.",
       "id": "W29-F3",
       "illicit_dust_evasion_adjudicated": false,
-      "shared_negative_bundles": 11,
+      "shared_negative_bundles": 10,
       "theft_adjudicated": false,
       "title": "Prior-wave negative dispositions retained inside integrated hypergraph",
       "tokenized_royalty_rail_authenticated": false,
