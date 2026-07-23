@@ -1,0 +1,141 @@
+{
+  "findings": [
+    {
+      "commandeering_adjudicated": false,
+      "detail": "EDGAR person screens: Brent Skoda×CSC=0; Brent Skoda×Authentic Brands=0; Brent Skoda×commandeer=0; Anthony Salvador×Authentic Brands=0; Tucker Ellis×CSC=0; Ulmer & Berne×CSC=0; Salvador Law×251 Little Falls=0; Ferraiuoli×CSC=0; Chad Bronstein×Authentic Brands=0. ICIS firm-name RA pulls were captcha-blocked this session.",
+      "entities_on_csc": [
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "6096179",
+          "name": "AHKEO LABS, LLC",
+          "source": "wave9"
+        },
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "5952305",
+          "name": "AUTHENTIC BRANDS GROUP INC.",
+          "source": "wave18"
+        },
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "4646833",
+          "name": "AUTHENTIC BRANDS, LLLP",
+          "source": "wave18"
+        }
+      ],
+      "id": "W20-F5",
+      "interpretation": "Corporation Service Company at 251 Little Falls Drive is a high-volume Delaware registered agent. Ahkeo Labs and Authentic Brands Group entities sharing CSC does NOT evidence affiliation, control, staff commandeering, or illicit transfer.",
+      "professional_enabler_corruption_adjudicated": false,
+      "staff_edgar_totals": {
+        "anthony_salvador_and_authentic_brands": null,
+        "brent_skoda_and_authentic_brands": null,
+        "brent_skoda_and_commandeer": null,
+        "brent_skoda_and_csc": null,
+        "chad_bronstein_and_authentic_brands": null,
+        "ferraiuoli_and_csc": null,
+        "salvador_law_and_little_falls": null,
+        "tucker_ellis_and_csc": null,
+        "ulmer_berne_and_csc": null
+      },
+      "title": "Shared CSC @ 251 Little Falls is mass-market RA coincidence, not commandeering"
+    }
+  ],
+  "id": "shared_csc_ra_and_staff_screen",
+  "next_actions": [
+    "Re-try Delaware ICIS firm entity details when captcha clears",
+    "PR RCE still gating UrgentRN registered agent (separate from Casters/ABG)"
+  ],
+  "sealed_csc_entities": [
+    {
+      "agent": "CORPORATION SERVICE COMPANY",
+      "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+      "file": "6096179",
+      "name": "AHKEO LABS, LLC",
+      "source": "wave9"
+    },
+    {
+      "agent": "CORPORATION SERVICE COMPANY",
+      "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+      "file": "5952305",
+      "name": "AUTHENTIC BRANDS GROUP INC.",
+      "source": "wave18"
+    },
+    {
+      "agent": "CORPORATION SERVICE COMPANY",
+      "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+      "file": "4646833",
+      "name": "AUTHENTIC BRANDS, LLLP",
+      "source": "wave18"
+    }
+  ],
+  "sec_queries": {
+    "anthony_salvador_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Anthony%20Salvador%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "brent_skoda_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Brent%20Skoda%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "brent_skoda_and_commandeer": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Brent%20Skoda%22%20AND%20commandeer",
+      "samples": [],
+      "total": null
+    },
+    "brent_skoda_and_csc": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Brent%20Skoda%22%20AND%20%22Corporation%20Service%20Company%22",
+      "samples": [],
+      "total": null
+    },
+    "chad_bronstein_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Chad%20Bronstein%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "ferraiuoli_and_csc": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Ferraiuoli%22%20AND%20%22Corporation%20Service%20Company%22",
+      "samples": [],
+      "total": null
+    },
+    "salvador_law_and_little_falls": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Salvador%20Law%22%20AND%20%22251%20Little%20Falls%22",
+      "samples": [],
+      "total": null
+    },
+    "tucker_ellis_and_csc": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Tucker%20Ellis%22%20AND%20%22Corporation%20Service%20Company%22",
+      "samples": [],
+      "total": null
+    },
+    "ulmer_berne_and_csc": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Ulmer%20%26%20Berne%22%20AND%20%22Corporation%20Service%20Company%22",
+      "samples": [],
+      "total": null
+    }
+  },
+  "status": "SEALED",
+  "title": "Shared CSC RA + victim-inventor staff commandeering screen"
+}

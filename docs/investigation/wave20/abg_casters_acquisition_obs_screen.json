@@ -1,0 +1,103 @@
+{
+  "abg_s1": {
+    "casters_mentions": 0,
+    "ok": false,
+    "sha256": "22b9cea3d56168e805034874ddb80477910c5391fcbbdc14a9ee54fa277a66f3"
+  },
+  "findings": [
+    {
+      "abg_s1_casters_mentions": 0,
+      "acquisition_hits_own_cik_in_sample": 0,
+      "detail": "Public EDGAR screen finds zero co-occurrence of Casters Holdings with Authentic Brands / ABG / Jamie Salter / ABG Intermediate. ABG S-1 has zero 'Casters' mentions. Absence of public disclosure is not affirmative proof of a covert OBS transfer — and does not authorize adjudicating illicit acquisition.",
+      "false_positive_note": "'Casters Holdings' AND acquisition/off-balance EDGAR hits are dominated by unrelated fund filings (e.g., Meridian Fund NPORT; Advisors' Inner Circle 485BPOS listing Casters Holdings LLC (Fyllo) as a board-affiliation disclosure). None of the sampled hits are Casters CIK 0001792675 announcing an ABG deal.",
+      "id": "W20-F2",
+      "illicit_acquisition_adjudicated": false,
+      "off_balance_hits_own_cik_in_sample": 0,
+      "off_balance_sheet_transfer_adjudicated": false,
+      "title": "No EDGAR evidence ABG acquired Casters via disclosed or OBS transaction",
+      "totals": {
+        "abg_intermediate_and_casters": null,
+        "authentic_brands_and_casters": null,
+        "casters_and_abg": null,
+        "casters_and_acquisition": null,
+        "casters_and_authentic_brands": null,
+        "casters_and_jamie_salter": null,
+        "casters_and_off_balance": null,
+        "cik_and_authentic_brands": null
+      },
+      "zero_hit_queries": [
+        "casters_and_authentic_brands",
+        "casters_and_abg",
+        "casters_and_jamie_salter",
+        "cik_and_authentic_brands",
+        "authentic_brands_and_casters",
+        "abg_intermediate_and_casters"
+      ]
+    }
+  ],
+  "id": "abg_casters_acquisition_obs_screen",
+  "next_actions": [
+    "Counsel diligence: any private SPA/assignment involving Casters equity and ABG affiliates",
+    "Monitor future ABG registration statements for Casters/Fyllo exhibits"
+  ],
+  "queries": {
+    "abg_intermediate_and_casters": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22ABG%20Intermediate%20Holdings%22%20AND%20Casters",
+      "samples": [],
+      "total": null
+    },
+    "authentic_brands_and_casters": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Authentic%20Brands%20Group%22%20AND%20Casters",
+      "samples": [],
+      "total": null
+    },
+    "casters_and_abg": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Casters%20Holdings%22%20AND%20ABG",
+      "samples": [],
+      "total": null
+    },
+    "casters_and_acquisition": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Casters%20Holdings%22%20AND%20acquisition",
+      "samples": [],
+      "total": null
+    },
+    "casters_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Casters%20Holdings%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "casters_and_jamie_salter": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Casters%20Holdings%22%20AND%20%22Jamie%20Salter%22",
+      "samples": [],
+      "total": null
+    },
+    "casters_and_off_balance": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Casters%20Holdings%22%20AND%20%22off-balance%22",
+      "samples": [],
+      "total": null
+    },
+    "cik_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "1792675%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    }
+  },
+  "status": "SEALED",
+  "title": "ABG × Casters acquisition / off-balance-sheet screen"
+}

@@ -1,0 +1,23 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W20-M1",
+      "item": "DE ICIS abstract — Casters Holdings Inc. file # / current agent",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W20-M2",
+      "item": "Counsel-only: request any SPA/assignment alleging ABG OBS acquisition of Casters — public EDGAR screen is negative",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W20-M3",
+      "item": "Preserve GhostRetail PR + Form D Arviv rows as commercial-bridge exhibits only",
+      "priority": "MEDIUM"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-20 operator worklist"
+}

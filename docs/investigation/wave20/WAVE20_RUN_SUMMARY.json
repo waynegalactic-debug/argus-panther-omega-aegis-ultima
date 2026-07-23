@@ -1,0 +1,249 @@
+{
+  "artifacts": {
+    "acquisition_screen": "docs/investigation/wave20/abg_casters_acquisition_obs_screen.json",
+    "arviv": "docs/investigation/wave20/adam_arviv_casters_abg_bridge.json",
+    "casters": "docs/investigation/wave20/casters_form_d_continuity.json",
+    "shared_ra": "docs/investigation/wave20/shared_csc_ra_and_staff_screen.json",
+    "summary_md": "docs/investigation/WAVE20_CASTERS_ARVIV_ABG_SCREEN.md"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W20",
+  "counts": {
+    "adjudicated_total": 0,
+    "findings": 5,
+    "form_d_filings_ok": 0,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "d6a2058632f9a3cb4b3930d4b7f96a68c1030158a15dac0af39e1b2eed4e517d",
+    "leaves": [
+      {
+        "id": "casters_form_d_continuity",
+        "sha3_256": "fb79cad6422e1526e7465a63114806b462ceee52d3799903f9bf1861b155f0f3",
+        "status": "SEALED"
+      },
+      {
+        "id": "abg_casters_acquisition_obs_screen",
+        "sha3_256": "594db4c2d5850e4a1b3bccddbb64ae96c34c7be534e338d0587c94e70a8f2894",
+        "status": "SEALED"
+      },
+      {
+        "id": "adam_arviv_casters_abg_bridge",
+        "sha3_256": "8175628ca50e1b1931848e262aa022dc59cc9d33284f3cd11e64bc67f0f87a26",
+        "status": "SEALED"
+      },
+      {
+        "id": "shared_csc_ra_and_staff_screen",
+        "sha3_256": "407ec3f6bd421870fb7df29c387e5a306e9aea189c85703729447aff8b79bd4e",
+        "status": "SEALED"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "83b3744adb8e060ad7e27b7b10a6a3e8aef61d855c4b7be2d033f621b20f443f",
+        "status": "OPEN"
+      }
+    ],
+    "root_sha3_512": "d614154525b3147e67e78eabdc105d2f8dbf8024c6ba481aa54f7eb712131374afeba9b7928e0db7c97d36ae6ef0520f181c1c053b1d63e4fc062dedd65c544d"
+  },
+  "disposition": {
+    "arviv_abg_control_adjudicated": false,
+    "arviv_abg_edgar_cooccurrence": 0,
+    "arviv_casters_form_d_director": true,
+    "casters_abg_edgar_cooccurrence": 0,
+    "commandeering_adjudicated": false,
+    "ghostretail_commercial_co_mention": true,
+    "illicit_acquisition_adjudicated": false,
+    "off_balance_sheet_transfer_adjudicated": false
+  },
+  "elapsed_ms": 14767,
+  "findings": [
+    {
+      "address_migration": [],
+      "brent_skoda_only_on": [],
+      "cik": "0001792675",
+      "current_sec_address": null,
+      "detail": "2019-11-04 Form D: issuer 6685 Beta Drive, Mayfield Village OH; Brent Skoda listed EO/Director/Promoter. Subsequent Form Ds migrate to Chicago (845 W Washington → 433 W Van Buren). Brent absent from 2020+ filings. No Authentic Brands / Jamie Salter / CSC tokens inside any Form D XML body.",
+      "filings_ok": 0,
+      "id": "W20-F1",
+      "state_of_incorporation": null,
+      "title": "Casters Holdings Inc. Form D continuum (2019–2023) authenticated"
+    },
+    {
+      "abg_s1_casters_mentions": 0,
+      "acquisition_hits_own_cik_in_sample": 0,
+      "detail": "Public EDGAR screen finds zero co-occurrence of Casters Holdings with Authentic Brands / ABG / Jamie Salter / ABG Intermediate. ABG S-1 has zero 'Casters' mentions. Absence of public disclosure is not affirmative proof of a covert OBS transfer — and does not authorize adjudicating illicit acquisition.",
+      "false_positive_note": "'Casters Holdings' AND acquisition/off-balance EDGAR hits are dominated by unrelated fund filings (e.g., Meridian Fund NPORT; Advisors' Inner Circle 485BPOS listing Casters Holdings LLC (Fyllo) as a board-affiliation disclosure). None of the sampled hits are Casters CIK 0001792675 announcing an ABG deal.",
+      "id": "W20-F2",
+      "illicit_acquisition_adjudicated": false,
+      "off_balance_hits_own_cik_in_sample": 0,
+      "off_balance_sheet_transfer_adjudicated": false,
+      "title": "No EDGAR evidence ABG acquired Casters via disclosed or OBS transaction",
+      "totals": {
+        "abg_intermediate_and_casters": null,
+        "authentic_brands_and_casters": null,
+        "casters_and_abg": null,
+        "casters_and_acquisition": null,
+        "casters_and_authentic_brands": null,
+        "casters_and_jamie_salter": null,
+        "casters_and_off_balance": null,
+        "cik_and_authentic_brands": null
+      },
+      "zero_hit_queries": [
+        "casters_and_authentic_brands",
+        "casters_and_abg",
+        "casters_and_jamie_salter",
+        "cik_and_authentic_brands",
+        "authentic_brands_and_casters",
+        "abg_intermediate_and_casters"
+      ]
+    },
+    {
+      "detail": "SEC Form D related-person entries list Adam Arviv as Director on 2022-10-21 and 2023-12-28 Casters Holdings Inc. filings (Chicago address). He does not appear on the 2019 Form D that lists Brent Skoda.",
+      "id": "W20-F3",
+      "records": [],
+      "title": "Adam Arviv authenticated as Casters Holdings Director (Form D 2022–2023)"
+    },
+    {
+      "arviv_abg_control_adjudicated": false,
+      "detail": "Authenticated public press (GhostRetail, 2021-10-06): Adam Arviv quoted as GhostRetail Board Chairman; same release lists Authentic Brands Group among Fortune 500 brands adopting GhostRetail's live-shopping platform. Linkage class = commercial platform customer co-mention — NOT ABG officer/director status for Arviv, NOT Casters equity transfer to ABG.",
+      "edgar_zero_hits": {
+        "Adam Arviv AND ABG": null,
+        "Adam Arviv AND Authentic Brands": null,
+        "Adam Arviv AND Casters (fulltext)": null,
+        "Adam Arviv AND Jamie Salter": null,
+        "KAOS Capital AND Authentic Brands": null
+      },
+      "ghostretail": {
+        "abg_named_among_brand_adopters": true,
+        "arviv_board_chairman_quoted": true,
+        "bytes": 214646,
+        "casters_mentioned": false,
+        "linkage_class": "commercial_platform_customer_co_mention",
+        "ok": true,
+        "sha256": "1a3cc8637e5cba903bc46b4260830fe449aa2f54cffec7d779c257758a84ab03",
+        "url": "https://www.prnewswire.com/news-releases/ghostretail-emerges-to-unveil-transformative-live-video-shopping-platform-with-top-retailers-on-board-301393559.html",
+        "windows": [
+          "video co-shopping. Fortune 500 brands including American Eagle &nbsp;(AEO Inc), Authentic Brands Group (ABG) ,&nbsp; Canada Goose , Maple Leaf Sports and Entertainment (MLSE) and others are either live in market or finalizing implementation of GhostRetail's white-label platform to launch ahead of the ",
+          "for a seamless approach that drives conversions up.\" GhostRetail Board Chairman Adam Arviv said, \"GhostRetail has brought a unique solution to market -- first -- during an incredibly explosive time in the retail industry. Seeing it in action is looking at an experience that aligns not only"
+        ]
+      },
+      "id": "W20-F4",
+      "sol_global_note": "SOL Global Investments × Authentic Brands EDGAR hits are Tilray litigation/ABG licensing disclosures naming Andrew DeFrancesco/SOL — sampled docs contain neither Adam Arviv nor Casters. Not an Arviv-ABG control link.",
+      "title": "Arviv↔ABG: GhostRetail commercial co-mention; EDGAR person×ABG = 0"
+    },
+    {
+      "commandeering_adjudicated": false,
+      "detail": "EDGAR person screens: Brent Skoda×CSC=0; Brent Skoda×Authentic Brands=0; Brent Skoda×commandeer=0; Anthony Salvador×Authentic Brands=0; Tucker Ellis×CSC=0; Ulmer & Berne×CSC=0; Salvador Law×251 Little Falls=0; Ferraiuoli×CSC=0; Chad Bronstein×Authentic Brands=0. ICIS firm-name RA pulls were captcha-blocked this session.",
+      "entities_on_csc": [
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "6096179",
+          "name": "AHKEO LABS, LLC",
+          "source": "wave9"
+        },
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "5952305",
+          "name": "AUTHENTIC BRANDS GROUP INC.",
+          "source": "wave18"
+        },
+        {
+          "agent": "CORPORATION SERVICE COMPANY",
+          "agent_address": "251 LITTLE FALLS DRIVE, WILMINGTON DE 19808",
+          "file": "4646833",
+          "name": "AUTHENTIC BRANDS, LLLP",
+          "source": "wave18"
+        }
+      ],
+      "id": "W20-F5",
+      "interpretation": "Corporation Service Company at 251 Little Falls Drive is a high-volume Delaware registered agent. Ahkeo Labs and Authentic Brands Group entities sharing CSC does NOT evidence affiliation, control, staff commandeering, or illicit transfer.",
+      "professional_enabler_corruption_adjudicated": false,
+      "staff_edgar_totals": {
+        "anthony_salvador_and_authentic_brands": null,
+        "brent_skoda_and_authentic_brands": null,
+        "brent_skoda_and_commandeer": null,
+        "brent_skoda_and_csc": null,
+        "chad_bronstein_and_authentic_brands": null,
+        "ferraiuoli_and_csc": null,
+        "salvador_law_and_little_falls": null,
+        "tucker_ellis_and_csc": null,
+        "ulmer_berne_and_csc": null
+      },
+      "title": "Shared CSC @ 251 Little Falls is mass-market RA coincidence, not commandeering"
+    }
+  ],
+  "generated_at": "2026-07-23T15:57:15Z",
+  "policy": "Wave-20 seals Casters Form D continuity, Adam Arviv director status, negative EDGAR ABG-acquisition/OBS screens, and GhostRetail commercial co-mention classification. No illicit acquisition / commandeering adjudication.",
+  "seal": "14a537e682d2ae6a07687ec14fb6ebb8962f7b669b614b677fae8e484b6b6938",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "casters_form_d_continuity",
+      "next_actions": [
+        "Delaware ICIS file number for Casters Holdings Inc. (captcha-blocked in session)",
+        "Optional: private cap-table / SPA docs via counsel (not public EDGAR)"
+      ],
+      "status": "SEALED",
+      "title": "Casters Holdings Inc. — Form D continuity + Skoda exit"
+    },
+    {
+      "adjudicated": false,
+      "id": "abg_casters_acquisition_obs_screen",
+      "next_actions": [
+        "Counsel diligence: any private SPA/assignment involving Casters equity and ABG affiliates",
+        "Monitor future ABG registration statements for Casters/Fyllo exhibits"
+      ],
+      "status": "SEALED",
+      "title": "ABG × Casters acquisition / off-balance-sheet screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "adam_arviv_casters_abg_bridge",
+      "next_actions": [
+        "Optional: GhostRetail corporate abstracts / investor lists (private)",
+        "Do not treat GhostRetail customer co-mention as Casters acquisition proof"
+      ],
+      "status": "SEALED",
+      "title": "Adam Arviv — Casters director + ABG linkage screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "shared_csc_ra_and_staff_screen",
+      "next_actions": [
+        "Re-try Delaware ICIS firm entity details when captcha clears",
+        "PR RCE still gating UrgentRN registered agent (separate from Casters/ABG)"
+      ],
+      "status": "SEALED",
+      "title": "Shared CSC RA + victim-inventor staff commandeering screen"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": [
+        {
+          "id": "W20-M1",
+          "item": "DE ICIS abstract — Casters Holdings Inc. file # / current agent",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W20-M2",
+          "item": "Counsel-only: request any SPA/assignment alleging ABG OBS acquisition of Casters — public EDGAR screen is negative",
+          "priority": "HIGH"
+        },
+        {
+          "id": "W20-M3",
+          "item": "Preserve GhostRetail PR + Form D Arviv rows as commercial-bridge exhibits only",
+          "priority": "MEDIUM"
+        }
+      ],
+      "status": "OPEN",
+      "title": "Wave-20 operator worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE20"
+}

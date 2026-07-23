@@ -1,0 +1,133 @@
+{
+  "findings": [
+    {
+      "detail": "SEC Form D related-person entries list Adam Arviv as Director on 2022-10-21 and 2023-12-28 Casters Holdings Inc. filings (Chicago address). He does not appear on the 2019 Form D that lists Brent Skoda.",
+      "id": "W20-F3",
+      "records": [],
+      "title": "Adam Arviv authenticated as Casters Holdings Director (Form D 2022–2023)"
+    },
+    {
+      "arviv_abg_control_adjudicated": false,
+      "detail": "Authenticated public press (GhostRetail, 2021-10-06): Adam Arviv quoted as GhostRetail Board Chairman; same release lists Authentic Brands Group among Fortune 500 brands adopting GhostRetail's live-shopping platform. Linkage class = commercial platform customer co-mention — NOT ABG officer/director status for Arviv, NOT Casters equity transfer to ABG.",
+      "edgar_zero_hits": {
+        "Adam Arviv AND ABG": null,
+        "Adam Arviv AND Authentic Brands": null,
+        "Adam Arviv AND Casters (fulltext)": null,
+        "Adam Arviv AND Jamie Salter": null,
+        "KAOS Capital AND Authentic Brands": null
+      },
+      "ghostretail": {
+        "abg_named_among_brand_adopters": true,
+        "arviv_board_chairman_quoted": true,
+        "bytes": 214646,
+        "casters_mentioned": false,
+        "linkage_class": "commercial_platform_customer_co_mention",
+        "ok": true,
+        "sha256": "1a3cc8637e5cba903bc46b4260830fe449aa2f54cffec7d779c257758a84ab03",
+        "url": "https://www.prnewswire.com/news-releases/ghostretail-emerges-to-unveil-transformative-live-video-shopping-platform-with-top-retailers-on-board-301393559.html",
+        "windows": [
+          "video co-shopping. Fortune 500 brands including American Eagle &nbsp;(AEO Inc), Authentic Brands Group (ABG) ,&nbsp; Canada Goose , Maple Leaf Sports and Entertainment (MLSE) and others are either live in market or finalizing implementation of GhostRetail's white-label platform to launch ahead of the ",
+          "for a seamless approach that drives conversions up.\" GhostRetail Board Chairman Adam Arviv said, \"GhostRetail has brought a unique solution to market -- first -- during an incredibly explosive time in the retail industry. Seeing it in action is looking at an experience that aligns not only"
+        ]
+      },
+      "id": "W20-F4",
+      "sol_global_note": "SOL Global Investments × Authentic Brands EDGAR hits are Tilray litigation/ABG licensing disclosures naming Andrew DeFrancesco/SOL — sampled docs contain neither Adam Arviv nor Casters. Not an Arviv-ABG control link.",
+      "title": "Arviv↔ABG: GhostRetail commercial co-mention; EDGAR person×ABG = 0"
+    }
+  ],
+  "form_d_arviv": [
+    {
+      "accession": "0001792675-22-000001",
+      "date": "2022-10-21",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267522000001/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-23-000001",
+      "date": "2023-12-28",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267523000001/primary_doc.xml"
+    }
+  ],
+  "ghostretail_pr": {
+    "abg_named_among_brand_adopters": true,
+    "arviv_board_chairman_quoted": true,
+    "bytes": 214646,
+    "casters_mentioned": false,
+    "linkage_class": "commercial_platform_customer_co_mention",
+    "ok": true,
+    "sha256": "1a3cc8637e5cba903bc46b4260830fe449aa2f54cffec7d779c257758a84ab03",
+    "url": "https://www.prnewswire.com/news-releases/ghostretail-emerges-to-unveil-transformative-live-video-shopping-platform-with-top-retailers-on-board-301393559.html",
+    "windows": [
+      "video co-shopping. Fortune 500 brands including American Eagle &nbsp;(AEO Inc), Authentic Brands Group (ABG) ,&nbsp; Canada Goose , Maple Leaf Sports and Entertainment (MLSE) and others are either live in market or finalizing implementation of GhostRetail's white-label platform to launch ahead of the ",
+      "for a seamless approach that drives conversions up.\" GhostRetail Board Chairman Adam Arviv said, \"GhostRetail has brought a unique solution to market -- first -- during an incredibly explosive time in the retail industry. Seeing it in action is looking at an experience that aligns not only"
+    ]
+  },
+  "id": "adam_arviv_casters_abg_bridge",
+  "next_actions": [
+    "Optional: GhostRetail corporate abstracts / investor lists (private)",
+    "Do not treat GhostRetail customer co-mention as Casters acquisition proof"
+  ],
+  "sec_person_queries": {
+    "adam_arviv": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Adam%20Arviv%22",
+      "samples": [],
+      "total": null
+    },
+    "arviv_and_abg": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Adam%20Arviv%22%20AND%20ABG",
+      "samples": [],
+      "total": null
+    },
+    "arviv_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Adam%20Arviv%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "arviv_and_authentic_brands_group": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "Arviv%20AND%20%22Authentic%20Brands%20Group%22",
+      "samples": [],
+      "total": null
+    },
+    "arviv_and_casters": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Adam%20Arviv%22%20AND%20Casters",
+      "samples": [],
+      "total": null
+    },
+    "arviv_and_jamie_salter": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22Adam%20Arviv%22%20AND%20%22Jamie%20Salter%22",
+      "samples": [],
+      "total": null
+    },
+    "kaos_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22KAOS%20Capital%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    },
+    "sol_global_and_authentic_brands": {
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "query_encoded": "%22SOL%20Global%20Investments%22%20AND%20%22Authentic%20Brands%22",
+      "samples": [],
+      "total": null
+    }
+  },
+  "status": "SEALED",
+  "title": "Adam Arviv — Casters director + ABG linkage screen"
+}

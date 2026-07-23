@@ -1,0 +1,69 @@
+{
+  "filings": [
+    {
+      "accession": "0000897069-19-000500",
+      "date": "2019-11-04",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000089706919000500/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-20-000004",
+      "date": "2020-08-26",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267520000004/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-21-000001",
+      "date": "2021-03-05",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267521000001/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-21-000003",
+      "date": "2021-11-10",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267521000003/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-22-000001",
+      "date": "2022-10-21",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267522000001/primary_doc.xml"
+    },
+    {
+      "accession": "0001792675-23-000001",
+      "date": "2023-12-28",
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1792675/000179267523000001/primary_doc.xml"
+    }
+  ],
+  "findings": [
+    {
+      "address_migration": [],
+      "brent_skoda_only_on": [],
+      "cik": "0001792675",
+      "current_sec_address": null,
+      "detail": "2019-11-04 Form D: issuer 6685 Beta Drive, Mayfield Village OH; Brent Skoda listed EO/Director/Promoter. Subsequent Form Ds migrate to Chicago (845 W Washington → 433 W Van Buren). Brent absent from 2020+ filings. No Authentic Brands / Jamie Salter / CSC tokens inside any Form D XML body.",
+      "filings_ok": 0,
+      "id": "W20-F1",
+      "state_of_incorporation": null,
+      "title": "Casters Holdings Inc. Form D continuum (2019–2023) authenticated"
+    }
+  ],
+  "id": "casters_form_d_continuity",
+  "next_actions": [
+    "Delaware ICIS file number for Casters Holdings Inc. (captcha-blocked in session)",
+    "Optional: private cap-table / SPA docs via counsel (not public EDGAR)"
+  ],
+  "status": "SEALED",
+  "submissions": {
+    "ok": false
+  },
+  "title": "Casters Holdings Inc. — Form D continuity + Skoda exit"
+}
