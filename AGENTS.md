@@ -76,6 +76,7 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave29.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave30.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave31.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave32.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave33.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith

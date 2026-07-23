@@ -257,6 +257,7 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave30,
             args.investigate_wave31,
             args.investigate_wave32,
+            args.investigate_wave33,
         )
     )
     if wave_flags > 1:
@@ -271,7 +272,7 @@ def main(argv: list[str] | None = None) -> int:
             "--investigate-wave22 / --investigate-wave23 / --investigate-wave24 / "
             "--investigate-wave25 / --investigate-wave26 / --investigate-wave27 / "
             "--investigate-wave28 / --investigate-wave29 / --investigate-wave30 / "
-            "--investigate-wave31 / --investigate-wave32.",
+            "--investigate-wave31 / --investigate-wave32 / --investigate-wave33.",
             file=sys.stderr,
         )
         return 2
@@ -430,6 +431,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave32 import main as wave32_main
 
         return int(wave32_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave33:
+        from us_ipforce_investigation_wave33 import main as wave33_main
+
+        return int(wave33_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main
