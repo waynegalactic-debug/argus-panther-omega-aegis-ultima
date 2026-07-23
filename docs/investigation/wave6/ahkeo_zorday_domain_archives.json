@@ -1,0 +1,336 @@
+{
+  "adjudicated": false,
+  "cdx": [
+    {
+      "body_sha3_256": "4c315c09abf166106cd07cbf5d1609b1e2ce77e2913637505cb7a52c505d6bff",
+      "error": null,
+      "first_timestamp_in_sample": "20110304192558",
+      "host": "ahkeo.com",
+      "last_timestamp_in_sample": "20121201062934",
+      "ok": true,
+      "sample_count": 7,
+      "samples": [
+        {
+          "digest": "55TDPSTGZP3J36ZXQTQVDPEW7AS56C6N",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20110304192558"
+        },
+        {
+          "digest": "5TAUS7ARRNVPGLRB7M7A4OWQX7KRRQX6",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20120725133815"
+        },
+        {
+          "digest": "WFJ4KBZD4XYVV56G3MDLPOVQTZUOMCB3",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com/",
+          "statuscode": "200",
+          "timestamp": "20120808211427"
+        },
+        {
+          "digest": "WHTGU6PUGAKWK5SJBR5GLKDABBCH3NQZ",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20120825165327"
+        },
+        {
+          "digest": "36ZVK5VUJMCPWZZLIXT2WSTH2GLRRLJZ",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20120928040728"
+        },
+        {
+          "digest": "X6DL3R7EOFIBRDRBPMCCC5XOEMKUOBNY",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20121029015321"
+        },
+        {
+          "digest": "JCCPLICQJ27WPORTHC76USEWOGXFOD46",
+          "mimetype": "text/html",
+          "original": "http://www.ahkeo.com:80/",
+          "statuscode": "200",
+          "timestamp": "20121201062934"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "body_sha3_256": "c29ff3882a787c66bdd524d1304965fb4c2956be67a2f18d7fa8d870807eb161",
+      "error": null,
+      "first_timestamp_in_sample": "20170502091214",
+      "host": "ahkeolabs.com",
+      "last_timestamp_in_sample": "20230611124520",
+      "ok": true,
+      "sample_count": 7,
+      "samples": [
+        {
+          "digest": "WKLFROGVPZACG7UADUSM3NDHWIAHNYBH",
+          "mimetype": "text/html",
+          "original": "http://ahkeolabs.com:80/",
+          "statuscode": "200",
+          "timestamp": "20170502091214"
+        },
+        {
+          "digest": "WSE3YYGHO4WZTUM25BM5IKDAB6WRVMB5",
+          "mimetype": "text/html",
+          "original": "http://ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20170922162422"
+        },
+        {
+          "digest": "MDWMCMKXU2NZPOMFSDZ2LSXLK5NMKUOZ",
+          "mimetype": "text/html",
+          "original": "http://ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20181227042531"
+        },
+        {
+          "digest": "WSE3YYGHO4WZTUM25BM5IKDAB6WRVMB5",
+          "mimetype": "text/html",
+          "original": "http://ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20190622003928"
+        },
+        {
+          "digest": "QNQXYCJHWKNHYHCEU6RAGFRCSWSPCSY7",
+          "mimetype": "text/html",
+          "original": "https://www.ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20200810113111"
+        },
+        {
+          "digest": "F3OMTGXBEGF4ZDBMDWM2X4IYJZTZYPZS",
+          "mimetype": "text/html",
+          "original": "https://www.ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20220519054529"
+        },
+        {
+          "digest": "CQWLYMUXIM3X2U6ZPPZX54EUBNYCTM5G",
+          "mimetype": "text/html",
+          "original": "https://ahkeolabs.com/",
+          "statuscode": "200",
+          "timestamp": "20230611124520"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "body_sha3_256": "b3ffb25a6d6c58ba9930c673cb7a9b909e5b649ac1881fa44ab8e81a6b71c7ba",
+      "error": null,
+      "first_timestamp_in_sample": "20010719153304",
+      "host": "collegefitness.com",
+      "last_timestamp_in_sample": "20040604071634",
+      "ok": true,
+      "sample_count": 7,
+      "samples": [
+        {
+          "digest": "FCU6JV44WINSJR4GOJKDXG6KO42JF7YA",
+          "mimetype": "text/html",
+          "original": "http://www.collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20010719153304"
+        },
+        {
+          "digest": "O4JHPSPOEQBYCZXCY7XW5JGT2ZI3TDBW",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20010928224848"
+        },
+        {
+          "digest": "5BASVSWOA75T763KYW3DYOIBGHKPJYTM",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20030920100456"
+        },
+        {
+          "digest": "OJNAETDJNVNP57UQE37NKNTQHBCTPJGU",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20031213115412"
+        },
+        {
+          "digest": "FOIY4W2BQILVR6JUZMZK2GDIFIABMTFL",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20040210044552"
+        },
+        {
+          "digest": "ZTRHL3XLQ34QKJBXAWLIAMJ5JXWMU6KB",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20040331155734"
+        },
+        {
+          "digest": "IHHCSQFGGKQRV4YIU4L5DOKSWENV7ESF",
+          "mimetype": "text/html",
+          "original": "http://collegefitness.com:80/",
+          "statuscode": "200",
+          "timestamp": "20040604071634"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "body_sha3_256": "72d1b8732adb4d0cb2d1575b7c433dbc6aa0944d84076f14520f82e6d1b41880",
+      "error": null,
+      "first_timestamp_in_sample": "20220314111553",
+      "host": "zorday.com",
+      "last_timestamp_in_sample": "20220314111552",
+      "ok": true,
+      "sample_count": 5,
+      "samples": [
+        {
+          "digest": "H7EJFGHRFNXYBOFC7MSM7SXFMN2SEOOD",
+          "mimetype": "text/html",
+          "original": "https://zorday.com/",
+          "statuscode": "200",
+          "timestamp": "20220314111553"
+        },
+        {
+          "digest": "7HMQKXUYPBZDUEQGHND5JINF6WGD5MPJ",
+          "mimetype": "text/html",
+          "original": "https://zorday.com/",
+          "statuscode": "200",
+          "timestamp": "20241001170956"
+        },
+        {
+          "digest": "CEQFHDDXVUPSRKESIO2LKP7CVQLMYO6G",
+          "mimetype": "image/x-icon",
+          "original": "https://zorday.com/favicon.ico",
+          "statuscode": "200",
+          "timestamp": "20220315165823"
+        },
+        {
+          "digest": "ARGOND4D52CUGR275ILPNY5HHUUKDRWV",
+          "mimetype": "text/plain",
+          "original": "https://zorday.com/robots.txt",
+          "statuscode": "200",
+          "timestamp": "20211222023134"
+        },
+        {
+          "digest": "NL3E3GWDI633BM6P4I2KPEDTZ4C2HCMC",
+          "mimetype": "text/plain",
+          "original": "https://zorday.com/robots.txt",
+          "statuscode": "200",
+          "timestamp": "20220314111552"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "body_sha3_256": "7b41ad4a50b29158e075c6463133761266adb475130b8e886f2f5649070031cf",
+      "error": null,
+      "first_timestamp_in_sample": null,
+      "host": "zordayip.com",
+      "last_timestamp_in_sample": null,
+      "ok": true,
+      "sample_count": 0,
+      "samples": [],
+      "status_code": 200
+    }
+  ],
+  "highlights": [
+    "ahkeolabs.com 2017 snapshot copyright text includes AHKEO LABS, LLC",
+    "ahkeo.com CDX reaches back to at least 2011",
+    "zorday.com present as create-react-app shell (2022); limited HTML text",
+    "zordayip.com \u2014 no statuscode:200 CDX samples in this probe"
+  ],
+  "id": "ahkeo_zorday_domain_archives",
+  "next_actions": [
+    "Preserve additional ahkeolabs.com snapshots under counsel hold",
+    "WHOIS/RDAP historical pull for ahkeo.com / ahkeolabs.com / zorday.com"
+  ],
+  "policy": "Domain archives corroborate brand presence aligned to Wave-4 assignees. Not chain-of-title for patents; not Ohio SOS identity proof.",
+  "snapshots": [
+    {
+      "body_sha3_256": "e4489ec98ea13e09f4340fef4fbe4af06eb23a854ed4130a0fcf231acbe835bc",
+      "bytes": 4037,
+      "error": null,
+      "host": "ahkeolabs.com",
+      "id": "ahkeolabs_2017",
+      "keyword_hits": [
+        "Ahkeo",
+        "AHKEO LABS, LLC"
+      ],
+      "mentions_ahkeo_labs_llc": true,
+      "metas": [],
+      "ok": true,
+      "plain_excerpt": "00 Days : 00 Hours : 00 Minutes : 00 Seconds Join Please enter a valid email. Contact Us COPYRIGHT \u00a9 2017 AHKEO LABS, LLC. ALL RIGHTS RESERVED.",
+      "status_code": 200,
+      "timestamp": "20170502091214",
+      "title": "Ahkeo Labs",
+      "url": "https://web.archive.org/web/20170502091214id_/http://ahkeolabs.com:80/"
+    },
+    {
+      "body_sha3_256": "3eb22e634c132e87a87c063392818f9981f392bcf9b0d4b511af6946205e61d8",
+      "bytes": 2652,
+      "error": null,
+      "host": "ahkeolabs.com",
+      "id": "ahkeolabs_2020",
+      "keyword_hits": [
+        "Ahkeo"
+      ],
+      "mentions_ahkeo_labs_llc": false,
+      "metas": [
+        "An innovative company pushing the boundaries of what is possible"
+      ],
+      "ok": true,
+      "plain_excerpt": "Ahkeo Labs Sign Up For More Information Submit Thank you for signing up!",
+      "status_code": 200,
+      "timestamp": "20200810113111",
+      "title": "Ahkeo Labs",
+      "url": "https://web.archive.org/web/20200810113111id_/https://www.ahkeolabs.com/"
+    },
+    {
+      "body_sha3_256": "8cbd11e6ae8b2feaa0012d5584bae58981026b7191c8e43a912ae191fccc3c6f",
+      "bytes": 3133,
+      "error": null,
+      "host": "zorday.com",
+      "id": "zorday_2022",
+      "keyword_hits": [],
+      "mentions_ahkeo_labs_llc": false,
+      "metas": [
+        "Web site created using create-react-app"
+      ],
+      "ok": true,
+      "plain_excerpt": "You need to enable JavaScript to run this app.",
+      "status_code": 200,
+      "timestamp": "20220314111553",
+      "title": "Zorday",
+      "url": "https://web.archive.org/web/20220314111553id_/https://zorday.com/"
+    },
+    {
+      "body_sha3_256": "5ab0d24c187376fa201bbe366bbfc14e12681ffd8d69ab778a899e62b324603e",
+      "bytes": 5303,
+      "error": null,
+      "host": "ahkeo.com",
+      "id": "ahkeo_2011",
+      "keyword_hits": [],
+      "mentions_ahkeo_labs_llc": false,
+      "metas": [],
+      "ok": true,
+      "plain_excerpt": "-->",
+      "status_code": 200,
+      "timestamp": "20110304192558",
+      "title": "Ahkeo",
+      "url": "https://web.archive.org/web/20110304192558id_/http://www.ahkeo.com:80/"
+    }
+  ],
+  "status": "done",
+  "title": "Wayback CDX + snapshot seals for Ahkeo / Zorday domains",
+  "wave": 6
+}

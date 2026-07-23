@@ -1,0 +1,107 @@
+{
+  "artifacts": {
+    "address_nexus": "docs/investigation/wave6/mayfield_beta_drive_address_nexus.json",
+    "alert": "docs/investigation/WAVE6_ADDRESS_DOMAIN_NEXUS.md",
+    "bronstein": "docs/investigation/wave6/bronstein_casters_raw_continuity.json",
+    "domains": "docs/investigation/wave6/ahkeo_zorday_domain_archives.json",
+    "operator_worklist": "docs/investigation/wave6/operator_worklist.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W6",
+  "counts": {
+    "adjudicated_total": 0,
+    "ahkeo_labs_llc_copyright_snapshot": true,
+    "beta_drive_cik_matches": 2,
+    "bronstein_raw_records": 1,
+    "domain_hosts_probed": 5,
+    "snapshots_ok": 4,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "a136e8299756561422fce106f0a7fb496c19a682c3581b376cfc4d22be28108a",
+    "leaves": [
+      {
+        "id": "mayfield_beta_drive_address_nexus",
+        "sha3_256": "2312577fb8c925b2499bdedbf42f0d39d7d6da33792c63d23446e52f97449cc6",
+        "status": "done"
+      },
+      {
+        "id": "bronstein_casters_raw_continuity",
+        "sha3_256": "06637818c081bbab218f9d8e948f9beb5c7a2bf34a14c0acfdc61f0422462fee",
+        "status": "done"
+      },
+      {
+        "id": "ahkeo_zorday_domain_archives",
+        "sha3_256": "b336a2825acab34a7eb5702f38cfe70552078c86492177a46f3699d2cd1064d2",
+        "status": "done"
+      },
+      {
+        "id": "salvador_az_bar_refresh",
+        "sha3_256": "1ecaff4a03e75f214ed68b5d00bb8b41672dd33ba70b3079e914da00720c5d9f",
+        "status": "open_manual"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "e2819da780557fd36e225672dcccf934640f200c6446dd2a4e3f91edf5fc3fbc",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "34df6a369f8bc2f1630ec0eb370d090c3dce97d30b70a20d6aca9ccf75704dab73c7f6f9ef2bca98639cc6c690d0fa9a06456bc78a5d982cdfe1d7bf77d6cd7a"
+  },
+  "elapsed_ms": 73408,
+  "generated_at": "2026-07-23T00:51:47Z",
+  "policy": "Wave-6 seals Mayfield Beta Drive SEC address nexus, Ahkeo/Zorday Wayback archives, and Bronstein Form D continuity. No theft/RICO/UBO adjudication. Quarantined patent IDs remain quarantined.",
+  "seal": "86efa7a792de6c4e0b597baaeff2c44627a4f0d4508801db5c32afe6e6a568a5",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "mayfield_beta_drive_address_nexus",
+      "next_actions": [
+        "Ohio SOS abstract: confirm any Ahkeo LLC principal office at 6685 Beta Drive",
+        "Counsel: whether to cite address nexus in preservation letters"
+      ],
+      "status": "done",
+      "title": "6685 Beta Drive Mayfield Village address nexus (SEC)"
+    },
+    {
+      "adjudicated": false,
+      "id": "bronstein_casters_raw_continuity",
+      "next_actions": [
+        "Optional: map remaining Casters related persons across later Form Ds"
+      ],
+      "status": "done",
+      "title": "Chad Bronstein \u2014 Casters Form D \u2192 Real American Wrestling Form D"
+    },
+    {
+      "adjudicated": false,
+      "id": "ahkeo_zorday_domain_archives",
+      "next_actions": [
+        "Preserve additional ahkeolabs.com snapshots under counsel hold",
+        "WHOIS/RDAP historical pull for ahkeo.com / ahkeolabs.com / zorday.com"
+      ],
+      "status": "done",
+      "title": "Wayback CDX + snapshot seals for Ahkeo / Zorday domains"
+    },
+    {
+      "adjudicated": false,
+      "id": "salvador_az_bar_refresh",
+      "next_actions": [
+        "Obtain certified Arizona State Bar / AZ Supreme Court discipline order (primary)",
+        "Do not charge from allegation JSON alone"
+      ],
+      "status": "open_manual",
+      "title": "Anthony G. Salvador AZ bar surface refresh"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-6 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE6"
+}

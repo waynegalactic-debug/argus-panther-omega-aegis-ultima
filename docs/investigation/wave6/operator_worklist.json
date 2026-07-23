@@ -1,0 +1,57 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "item_count": 7,
+  "items": [
+    {
+      "action": "Certified Czech UPV search \u2014 1997 caffeine vaporizer",
+      "detail": "Do not cite quarantined CZ283061/B6",
+      "priority": 1,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Ohio SOS abstracts \u2014 Ahkeo cluster + 6685 Beta Drive cross-check",
+      "priority": 2,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "USPTO ODP assignments for Wave-4 12 pubs",
+      "priority": 3,
+      "status": "BLOCKED_NEEDS_API_KEY"
+    },
+    {
+      "action": "Counsel review \u2014 Casters Form D + Beta Drive nexus exhibit pack",
+      "exhibits": [
+        "docs/investigation/wave5/sec_edgar_casters_form_d.json",
+        "docs/investigation/wave6/mayfield_beta_drive_address_nexus.json"
+      ],
+      "priority": 4,
+      "status": "OPEN_COUNSEL"
+    },
+    {
+      "action": "WHOIS/RDAP historical \u2014 ahkeo.com / ahkeolabs.com / zorday.com",
+      "priority": 5,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "AZ bar certified discipline order \u2014 Anthony G. Salvador",
+      "priority": 6,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Send preservation drafts after counsel review",
+      "priority": 7,
+      "status": "OPEN_COUNSEL",
+      "targets": [
+        "Ulmer",
+        "Fine",
+        "Salvador",
+        "Meta"
+      ]
+    }
+  ],
+  "status": "done",
+  "title": "Wave-6 operator / counsel worklist",
+  "true_ubo_asserted": 0,
+  "wave": 6
+}

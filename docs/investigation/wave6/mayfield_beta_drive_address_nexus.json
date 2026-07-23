@@ -1,0 +1,192 @@
+{
+  "address": {
+    "city": "Mayfield Village",
+    "normalized": "6685 BETA DRIVE, MAYFIELD VILLAGE, OH 44143",
+    "state": "OH",
+    "street1": "6685 Beta Drive",
+    "zip": "44143"
+  },
+  "adjudicated": false,
+  "authenticated_facts": [
+    "Casters Holdings Inc. 2019 Form D issuer street1 = 6685 BETA DRIVE, Mayfield Village OH 44143",
+    "Brent Skoda related-person address on that Form D matches issuer address",
+    "Gregory J. Skoda CIK mailing address = 6685 BETA DRIVE, Mayfield Village OH 44143",
+    "Patricia A. Skoda CIK mailing address = 6685 BETA DRIVE, Mayfield Village OH 44143",
+    "Casters issuer address relocates to Chicago IL on later Form D filings"
+  ],
+  "casters_form_d_issuer_migration": [
+    {
+      "accession": "0000897069-19-000500",
+      "body_sha3_256": "6fe480d42bd2cb1014ccfe665da36915042f2f29963b0b6da63c6b0c0c135845",
+      "brent_skoda_present": true,
+      "chad_bronstein_present": true,
+      "error": null,
+      "issuer": {
+        "city": "MAYFIELD VILLAGE",
+        "entityName": "Casters Holdings Inc.",
+        "jurisdictionOfInc": "DELAWARE",
+        "stateOrCountry": "OH",
+        "street1": "6685 BETA DRIVE",
+        "zipCode": "44143"
+      },
+      "label": "2019-11-04",
+      "ok": true
+    },
+    {
+      "accession": "0001792675-20-000004",
+      "body_sha3_256": "8a215cc9dc25dbb21b0e770818b3b68b68ba15b2a679b87f873ff566414ae9d4",
+      "brent_skoda_present": false,
+      "chad_bronstein_present": true,
+      "error": null,
+      "issuer": {
+        "city": "Chicago",
+        "entityName": "Casters Holdings Inc",
+        "jurisdictionOfInc": "DELAWARE",
+        "stateOrCountry": "IL",
+        "street1": "845 W. Washington Blvd.",
+        "street2": "Floor 3",
+        "zipCode": "60607"
+      },
+      "label": "2020-08-26",
+      "ok": true
+    },
+    {
+      "accession": "0001792675-23-000001",
+      "body_sha3_256": "fa99f5b39fcaaf7fc39e2d3668761882107db7afc57b70d785bc76e0aa78fe72",
+      "brent_skoda_present": false,
+      "chad_bronstein_present": false,
+      "error": null,
+      "issuer": {
+        "city": "CHICAGO",
+        "entityName": "Casters Holdings Inc",
+        "jurisdictionOfInc": "DELAWARE",
+        "stateOrCountry": "IL",
+        "street1": "433 W. VAN BUREN STREET",
+        "street2": "SUITE 200",
+        "zipCode": "60607"
+      },
+      "label": "2023-12-28",
+      "ok": true
+    }
+  ],
+  "id": "mayfield_beta_drive_address_nexus",
+  "next_actions": [
+    "Ohio SOS abstract: confirm any Ahkeo LLC principal office at 6685 Beta Drive",
+    "Counsel: whether to cite address nexus in preservation letters"
+  ],
+  "policy": "Address co-location is authenticated from SEC public records. Does NOT adjudicate kinship, control, UBO, or wrongdoing among Brent / Gregory / Patricia Skoda or Casters / Ahkeo entities.",
+  "sec_submission_addresses": {
+    "casters_holdings": {
+      "addresses": {
+        "business": {
+          "city": "CHICAGO",
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "IL",
+          "stateOrCountryDescription": "IL",
+          "street1": "433 W. VAN BUREN STREET",
+          "street2": "SUITE 200",
+          "zipCode": "60607"
+        },
+        "mailing": {
+          "city": "CHICAGO",
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "IL",
+          "stateOrCountryDescription": "IL",
+          "street1": "433 W. VAN BUREN STREET",
+          "street2": "SUITE 200",
+          "zipCode": "60607"
+        }
+      },
+      "body_sha3_256": "330b58eea37306218574904bca35487078de81729d5647a930ea97f62fe064c0",
+      "cik": "0001792675",
+      "error": null,
+      "mailing_matches_beta_drive": false,
+      "name": "Casters Holdings Inc",
+      "ok": true,
+      "status_code": 200,
+      "submissions_url": "https://data.sec.gov/submissions/CIK0001792675.json"
+    },
+    "gregory_j_skoda": {
+      "addresses": {
+        "business": {
+          "city": null,
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "",
+          "stateOrCountryDescription": "",
+          "street1": null,
+          "street2": null,
+          "zipCode": null
+        },
+        "mailing": {
+          "city": "MAYFIELD VILLAGE",
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "OH",
+          "stateOrCountryDescription": "OH",
+          "street1": "6685 BETA DRIVE",
+          "street2": null,
+          "zipCode": "44143"
+        }
+      },
+      "body_sha3_256": "07e427759c517e549b003e5abc4d8389f8046b0347124c93e824d65518bbe236",
+      "cik": "0001475649",
+      "error": null,
+      "mailing_matches_beta_drive": true,
+      "name": "Skoda Gregory J",
+      "ok": true,
+      "status_code": 200,
+      "submissions_url": "https://data.sec.gov/submissions/CIK0001475649.json"
+    },
+    "patricia_a_skoda": {
+      "addresses": {
+        "business": {
+          "city": null,
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "",
+          "stateOrCountryDescription": "",
+          "street1": null,
+          "street2": null,
+          "zipCode": null
+        },
+        "mailing": {
+          "city": "MAYFIELD VILLAGE",
+          "country": null,
+          "countryCode": null,
+          "foreignStateTerritory": null,
+          "isForeignLocation": null,
+          "stateOrCountry": "OH",
+          "stateOrCountryDescription": "OH",
+          "street1": "6685 BETA DRIVE",
+          "street2": null,
+          "zipCode": "44143"
+        }
+      },
+      "body_sha3_256": "d7df959988639967bb225da5411fff17943c40c124aed198d16551d66ed00f33",
+      "cik": "0001476263",
+      "error": null,
+      "mailing_matches_beta_drive": true,
+      "name": "Skoda Patricia A",
+      "ok": true,
+      "status_code": 200,
+      "submissions_url": "https://data.sec.gov/submissions/CIK0001476263.json"
+    }
+  },
+  "status": "done",
+  "title": "6685 Beta Drive Mayfield Village address nexus (SEC)",
+  "true_ubo_asserted": 0,
+  "wave": 6
+}

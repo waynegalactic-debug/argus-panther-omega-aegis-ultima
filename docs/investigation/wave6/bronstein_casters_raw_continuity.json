@@ -1,0 +1,46 @@
+{
+  "adjudicated": false,
+  "casters_2019": {
+    "cik": "0001792675",
+    "note": "Present with Brent Skoda on Casters Holdings Form D 2019-11-04 (EO/Director/Promoter) \u2014 see Wave-5 sec_edgar_casters_form_d.json"
+  },
+  "id": "bronstein_casters_raw_continuity",
+  "next_actions": [
+    "Optional: map remaining Casters related persons across later Form Ds"
+  ],
+  "policy": "Records public related-person continuity for Chad Bronstein only. No conspiracy/RICO inference.",
+  "real_american_wrestling": {
+    "accession": "0002069272-26-000001",
+    "body_sha3_256": "2ab7477f59cc6afbcbf9573714213bb3a2fd7869b7178419c3ce78edf33c392e",
+    "chad_bronstein_records": [
+      {
+        "city": "TAMPA",
+        "first_name": "CHAD",
+        "last_name": "BRONSTEIN",
+        "relationships": [
+          "Executive Officer",
+          "Director"
+        ],
+        "state": "FL",
+        "street1": "4518 WEST ROSEMERE ROAD",
+        "zip": "33609"
+      }
+    ],
+    "cik": "0002069272",
+    "error": null,
+    "issuer": {
+      "city": "TAMPA",
+      "entityName": "Real American Wrestling, Inc.",
+      "jurisdictionOfInc": "DELAWARE",
+      "stateOrCountry": "FL",
+      "street1": "4518 WEST ROSEMERE ROAD",
+      "zipCode": "33609"
+    },
+    "ok": true,
+    "status_code": 200,
+    "url": "https://www.sec.gov/Archives/edgar/data/2069272/000206927226000001/primary_doc.xml"
+  },
+  "status": "done",
+  "title": "Chad Bronstein \u2014 Casters Form D \u2192 Real American Wrestling Form D",
+  "wave": 6
+}

@@ -1,0 +1,71 @@
+{
+  "adjudicated": false,
+  "id": "salvador_az_bar_refresh",
+  "next_actions": [
+    "Obtain certified Arizona State Bar / AZ Supreme Court discipline order (primary)",
+    "Do not charge from allegation JSON alone"
+  ],
+  "prior_wave2": "docs/investigation/wave2/salvador_az_bar_screen.json",
+  "probes": [
+    {
+      "body_sha3_256": "60331e8fb2f93d1d78d436123588eaf5eeaa1474bf6981acc5b7cfaf1d2db477",
+      "bytes": 113927,
+      "error": null,
+      "label": "azbar_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "State Bar of Arizona",
+      "url": "https://www.azbar.org/"
+    },
+    {
+      "body_sha3_256": "33a5903ae9e34b7ef03c14b5b0c1824dd558bdd7f052404e6e5bf25fc94eff5a",
+      "bytes": 67692,
+      "error": null,
+      "label": "azcourts_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "Arizona Judicial Branch",
+      "url": "https://www.azcourts.gov/"
+    },
+    {
+      "body_sha3_256": "929ce30dce8d2ad0c0595d5cd92ca806006b07ff4d9fabc588e1681b7845b4fa",
+      "bytes": 1245,
+      "error": "HTTPError:404",
+      "label": "azcourts_attorneycenter",
+      "ok": false,
+      "status_code": 404,
+      "title": null,
+      "url": "https://www.azcourts.gov/attorneycenter"
+    },
+    {
+      "body_sha3_256": null,
+      "bytes": 0,
+      "error": "URLError:<urlopen error [Errno -2] Name or service not known>",
+      "label": "az_supreme_attorneysearch",
+      "ok": false,
+      "status_code": null,
+      "title": null,
+      "url": "https://apps.supremecourt.az.gov/attorneysearch/"
+    },
+    {
+      "body_sha3_256": null,
+      "bytes": 0,
+      "error": "URLError:<urlopen error [Errno -2] Name or service not known>",
+      "label": "azbar_member_directory",
+      "ok": false,
+      "status_code": null,
+      "title": null,
+      "url": "https://member.azbar.org/s/directory"
+    }
+  ],
+  "screening_only": true,
+  "status": "open_manual",
+  "subject": {
+    "claimed_status_in_prior_materials": "Attorney (Disbarred) \u2014 unproven here",
+    "firm": "Salvador Law Group, PLLC",
+    "name": "Anthony G. Salvador, Esq.",
+    "office": "Phoenix, AZ"
+  },
+  "title": "Anthony G. Salvador AZ bar surface refresh",
+  "wave": 6
+}
