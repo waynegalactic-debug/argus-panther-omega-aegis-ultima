@@ -1,0 +1,79 @@
+{
+  "adjudicated": false,
+  "authenticated_facts": {
+    "excerpts": {
+      "complaint_party_para": "Plaintiff Ahkeo Labs LLC is a Delaware Limited Liability Company with its principle place of business located at headquartered at 6685 Beta Drive, Mayfield Village, OH 44143",
+      "opinion_collegefitness": "Skoda tried to convince Dupee and Dupee\u2019s father to invest in a venture called collegefitness.com. 7 Dupee and his father weren\u2019t interested.8 Nonetheless, Skoda kept in touch with Dupee.9 In the Fall of 2016, Skoda and Dupee again met in London.10 S",
+      "opinion_holding": "For all of those reasons, the Court GRANTS Plurimi\u2019s motion to dismiss for lack of personal jurisdiction. The Court DENIES as futile Ahkeo\u2019s motion to amend the complaint. And the Court DENIES AS MOOT Plurimi\u2019s motion to dismiss for failure to jo in an indispensable party, its request that the case",
+      "opinion_vaporizer": "allegedly represented that Dupee had \u201cclients\u201d who might invest in a marijuana vaporizer venture that Ahkeo hoped to grow.12 B. Dupee and the Plurimi Entities When Skoda and Dupee met in London, Dupee was working for Plurimi Wealth LL P. Pl"
+    },
+    "from_complaint": [
+      "Plaintiff Ahkeo Labs, LLC captioned with address 6685 Beta Drive, Mayfield Village, OH",
+      "Ahkeo Labs LLC alleged Delaware LLC with principal place of business at 6685 Beta Drive, Mayfield Village, OH 44143",
+      "Brent Skoda identified as Plaintiff's Chairman and CEO",
+      "Feb 7, 2017 meeting in London between Dupee and Skoda regarding loans / Credit Revolver Agreement",
+      "Plaintiff counsel: Tucker Ellis LLP (John Q. Lewis; Seth J. Linnick), Cleveland, OH",
+      "Claims: injunctive relief, breach of contract, promissory estoppel re revolver loans"
+    ],
+    "from_opinion": [
+      "Caption: AHKEO LABS LLC v. PLURIMI INVESTMENT MANAGERS, LLP \u2014 CASE NO. 1:17-cv-1248",
+      "Holding: GRANTS Plurimi motion to dismiss for lack of personal jurisdiction (2018-02-27)",
+      "Holding: DENIES as futile Ahkeo's motion to amend",
+      "Court narrative: years earlier Skoda tried to convince Dupee to invest in collegefitness.com",
+      "Court narrative: Fall 2016 London dinner; Dupee allegedly interested in marijuana vaporizer venture Ahkeo hoped to grow",
+      "Citation string in CL search: 293 F. Supp. 3d 741"
+    ]
+  },
+  "case": {
+    "caption": "Ahkeo Labs LLC v. Plurimi Investment Managers, LLP",
+    "court": "N.D. Ohio",
+    "courtlistener_docket_id": "6112063",
+    "docket_number": "1:17-cv-01248",
+    "judge": "James S. Gwin"
+  },
+  "documents": [
+    {
+      "body_sha3_256": "730b8644abf230bf91d632f1c22b9c8cb10f3e1e0e20cf25a363bd3c9b60d5d1",
+      "bytes": 36681,
+      "error": null,
+      "filed": "2017-06-14",
+      "filename": "gov.uscourts.ohnd.234561.1.0.pdf",
+      "html_url": "https://www.courtlistener.com/docket/6112063/1/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+      "id": "complaint_doc1",
+      "label": "Complaint (Doc. 1)",
+      "local_path": "output_artifacts/investigation/wave8/recap_pdfs/gov.uscourts.ohnd.234561.1.0.pdf",
+      "ok": true,
+      "pdf_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.1.0.pdf",
+      "status_code": 200,
+      "text_chars": 11553,
+      "text_sha3_256": "614b0290dff0c27d716da1735fe32a433b48d7bf90f1f23e95495ce2f549817f"
+    },
+    {
+      "body_sha3_256": "eb2e01fa0c4132461716c031de0117c6c9c0293c09fdb385234cfd3546786c23",
+      "bytes": 422961,
+      "citation": "293 F. Supp. 3d 741",
+      "error": null,
+      "filed": "2018-02-27",
+      "filename": "gov.uscourts.ohnd.234561.65.0.pdf",
+      "html_url": "https://www.courtlistener.com/opinion/7328746/ahkeo-labs-llc-v-plurimi-inv-managers-llp/",
+      "id": "opinion_doc65",
+      "label": "Opinion & Order (Doc. 65)",
+      "local_path": "output_artifacts/investigation/wave8/recap_pdfs/gov.uscourts.ohnd.234561.65.0.pdf",
+      "ok": true,
+      "pdf_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.65.0.pdf",
+      "status_code": 200,
+      "text_chars": 51905,
+      "text_sha3_256": "f907b346e56d5499335a411b8282b1bf94ff2ce6878e4cc7d646b25fb1d548ab"
+    }
+  ],
+  "id": "ahkeo_plurimi_recap_exhibits",
+  "next_actions": [
+    "Cross-check Delaware LLC charter for Ahkeo Labs LLC (not Ohio SOS alone)",
+    "Counsel: whether to attach Doc.1 / Doc.65 to preservation package"
+  ],
+  "policy": "Federal pleading/opinion authenticate corporate address, Skoda's Ahkeo CEO role, and collegefitness.com historical pitch narrative. Case dismissed for lack of personal jurisdiction \u2014 not an IP title ruling and not a finding of fraud/theft.",
+  "status": "done",
+  "title": "RECAP exhibits \u2014 Ahkeo Labs complaint + Gwin opinion",
+  "true_ubo_asserted": 0,
+  "wave": 8
+}

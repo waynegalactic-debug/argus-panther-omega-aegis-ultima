@@ -1,0 +1,208 @@
+{
+  "adjudicated": false,
+  "id": "courtlistener_ahkeo_plurimi_search",
+  "next_actions": [
+    "Counsel: pull full PACER docket PDF set if RECAP incomplete"
+  ],
+  "primary_docket": {
+    "court": "N.D. Ohio",
+    "courtlistener_docket_id": "6112063",
+    "docket_number": "1:17-cv-01248",
+    "pacer_case_hint": "gov.uscourts.ohnd.234561"
+  },
+  "queries": [
+    {
+      "body_sha3_256": "0e5e69dff92d0d86e0a809d72e0a945ea22c292dce3ff96d7a60367119a35ef8",
+      "count": 1,
+      "error": null,
+      "label": "ahkeo_opinion",
+      "ok": true,
+      "params": {
+        "q": "Ahkeo Labs",
+        "type": "o"
+      },
+      "status_code": 200,
+      "top": [
+        {
+          "absolute_url": "/opinion/7328746/ahkeo-labs-llc-v-plurimi-inv-managers-llp/",
+          "caseName": "Ahkeo Labs LLC v. Plurimi Inv. Managers, LLP.",
+          "citation": [
+            "293 F. Supp. 3d 741"
+          ],
+          "court": "District Court, N.D. Ohio",
+          "dateFiled": "2018-02-27",
+          "description": null,
+          "docketNumber": "CASE NO. 1:17\u2013cv\u20131248",
+          "filepath_local": null,
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "body_sha3_256": "1defb23a02754f097454ab38d182626bc392e5a2e295f1a51524c90c9781e99e",
+      "count": 20,
+      "error": null,
+      "label": "ahkeo_docket",
+      "ok": true,
+      "params": {
+        "q": "Ahkeo Labs LLC v. Plurimi",
+        "type": "d"
+      },
+      "status_code": 200,
+      "top": [
+        {
+          "absolute_url": null,
+          "caseName": "Ahkeo Labs LLC v. Plurimi Investment Managers LLP",
+          "citation": null,
+          "court": "District Court, N.D. Ohio",
+          "dateFiled": "2017-06-14",
+          "description": null,
+          "docketNumber": "1:17-cv-01248",
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": null,
+          "caseName": "Reebok International LTD., LLC v. Autry USA LLC",
+          "citation": null,
+          "court": "District Court, D. Massachusetts",
+          "dateFiled": "2023-05-02",
+          "description": null,
+          "docketNumber": "1:23-cv-10966",
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": null,
+          "caseName": "BTL INDUSTRIES INC v. REJUVA FRESH LLC",
+          "citation": null,
+          "court": "District Court, D. Maine",
+          "dateFiled": "2023-01-17",
+          "description": null,
+          "docketNumber": "1:23-cv-00032",
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": null,
+          "caseName": "Kiel James Patrick, LLC v. The Partnerships and Unincorporated Associations Identified on Schedule A",
+          "citation": null,
+          "court": "District Court, D. Rhode Island",
+          "dateFiled": "2025-11-26",
+          "description": null,
+          "docketNumber": "1:25-cv-00633",
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": null,
+          "caseName": "Kiel James Patrick, LLC v. The Partnerships and Unincorporated Associations Identified on Schedule A",
+          "citation": null,
+          "court": "District Court, D. Rhode Island",
+          "dateFiled": "2024-10-21",
+          "description": null,
+          "docketNumber": "1:24-cv-00435",
+          "filepath_local": null,
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "body_sha3_256": "b759d915f29586d92535eee6ebe9facd2800c5469f5140ef28a5e2018512460e",
+      "count": 3,
+      "error": null,
+      "label": "brent_skoda_rd",
+      "ok": true,
+      "params": {
+        "q": "\"Brent Skoda\" AND Ahkeo",
+        "type": "rd"
+      },
+      "status_code": 200,
+      "top": [
+        {
+          "absolute_url": "/docket/6112063/38/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2017-10-30",
+          "description": "Opposition to 33 Motion to dismiss for failure to join an indispensable party filed by Ahkeo Labs LLC. (Attachments: # 1 Exhibit 1 - Declaration of Brent Skoda with Attachments, # 2 Exhibit 2 - Screenshot of Defendant's ",
+          "docketNumber": null,
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": "/docket/6112063/1/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2017-06-14",
+          "description": "Complaint with jury demand against All Defendants. Filing fee paid $ 400, Receipt number 0647-8199312.. Filed by Ahkeo Labs LLC. (Linnick, Seth) (Entered: 06/14/2017)",
+          "docketNumber": null,
+          "filepath_local": "recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.1.0.pdf",
+          "snippet": "Case: 1:17-cv-01248-JG Doc #: 1 Filed: 06/14/17 1 of 7. PageID #: 1 UNITED STATES DISTRICT COURT FOR THE NORTHERN DISTRICT OF OHIO AHKEO LABS, LLC ) CASE NO. . 6685 Beta Dri"
+        },
+        {
+          "absolute_url": "/docket/6112063/65/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2018-02-27",
+          "description": " Opinion & Order signed by Judge James S. Gwin on 2/27/18.  The Court, for the reason set forth in this order, grants defendant's motion to dismiss for lack of jurisdiction and denies as futile plaintiff's motion to amen",
+          "docketNumber": null,
+          "filepath_local": "recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.65.0.pdf",
+          "snippet": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF OHIO ------------------------------------------------------ : AHKEO LABS LLC, : CASE NO. 1:17-cv-1248"
+        }
+      ]
+    },
+    {
+      "body_sha3_256": "0b79f9e41c2fe456486adc5562c61431f243656e1fd63f985a27ea64af96e2a5",
+      "count": 3,
+      "error": null,
+      "label": "skoda_ahkeo_rd",
+      "ok": true,
+      "params": {
+        "q": "Skoda AND \"Ahkeo Labs\"",
+        "type": "rd"
+      },
+      "status_code": 200,
+      "top": [
+        {
+          "absolute_url": "/docket/6112063/38/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2017-10-30",
+          "description": "Opposition to 33 Motion to dismiss for failure to join an indispensable party filed by Ahkeo Labs LLC. (Attachments: # 1 Exhibit 1 - Declaration of Brent Skoda with Attachments, # 2 Exhibit 2 - Screenshot of Defendant's ",
+          "docketNumber": null,
+          "filepath_local": null,
+          "snippet": null
+        },
+        {
+          "absolute_url": "/docket/6112063/1/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2017-06-14",
+          "description": "Complaint with jury demand against All Defendants. Filing fee paid $ 400, Receipt number 0647-8199312.. Filed by Ahkeo Labs LLC. (Linnick, Seth) (Entered: 06/14/2017)",
+          "docketNumber": null,
+          "filepath_local": "recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.1.0.pdf",
+          "snippet": "Case: 1:17-cv-01248-JG Doc #: 1 Filed: 06/14/17 1 of 7. PageID #: 1 UNITED STATES DISTRICT COURT FOR THE NORTHERN DISTRICT OF OHIO AHKEO LABS, LLC ) CASE NO. . 6685 Beta Dri"
+        },
+        {
+          "absolute_url": "/docket/6112063/65/ahkeo-labs-llc-v-plurimi-investment-managers-llp/",
+          "caseName": null,
+          "citation": null,
+          "court": null,
+          "dateFiled": "2018-02-27",
+          "description": " Opinion & Order signed by Judge James S. Gwin on 2/27/18.  The Court, for the reason set forth in this order, grants defendant's motion to dismiss for lack of jurisdiction and denies as futile plaintiff's motion to amen",
+          "docketNumber": null,
+          "filepath_local": "recap/gov.uscourts.ohnd.234561/gov.uscourts.ohnd.234561.65.0.pdf",
+          "snippet": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF OHIO ------------------------------------------------------ : AHKEO LABS LLC, : CASE NO. 1:17-cv-1248"
+        }
+      ]
+    }
+  ],
+  "status": "done",
+  "title": "CourtListener search \u2014 Ahkeo Labs / Brent Skoda / Plurimi",
+  "wave": 8
+}

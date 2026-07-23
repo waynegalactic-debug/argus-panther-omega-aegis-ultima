@@ -1,0 +1,84 @@
+{
+  "adjudicated": false,
+  "highlights": [
+    "ulmer.com title='UB Greensfelder LLP' (successor branding check)",
+    "ubglaw.com title='UB Greensfelder LLP'",
+    "Tucker Ellis LLP appears as Ahkeo plaintiff counsel on 2017 complaint",
+    "Ohio SOS business search remains HTTP 403 in this environment",
+    "Beatrice Advisors homepage 403"
+  ],
+  "id": "counsel_firm_public_presence",
+  "next_actions": [
+    "Keep preservation addressed to UB Greensfelder as Ulmer successor",
+    "Optional: identify Tucker Ellis engagement files via counsel letter"
+  ],
+  "probes": [
+    {
+      "body_sha3_256": "8782b4af17ebd673d3ad15ec0c4f8acf05751b455b80f09158a65fb7470bd924",
+      "bytes": 1776,
+      "error": null,
+      "label": "ub_greensfelder_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "UB Greensfelder LLP",
+      "url": "https://www.ubglaw.com/"
+    },
+    {
+      "body_sha3_256": "8782b4af17ebd673d3ad15ec0c4f8acf05751b455b80f09158a65fb7470bd924",
+      "bytes": 1776,
+      "error": null,
+      "label": "ulmer_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "UB Greensfelder LLP",
+      "url": "https://www.ulmer.com/"
+    },
+    {
+      "body_sha3_256": "4c43fa0e247e64115d4de56600c907116dc3b0817ed9e1f52de08d022cd4c4c8",
+      "bytes": 121996,
+      "error": null,
+      "label": "foley_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "Foley &amp; Lardner LLP | Top 50 Global Law Firm",
+      "url": "https://www.foley.com/"
+    },
+    {
+      "body_sha3_256": "c9389b56e98a8fddb29a8ccddf7c1eb665c599933df393bb914397a597b261f5",
+      "bytes": 66276,
+      "error": null,
+      "label": "tucker_ellis_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "Tucker Ellis LLP | Lead by Example",
+      "url": "https://www.tuckerellis.com/"
+    },
+    {
+      "body_sha3_256": "633e6d35f11ab3c580e573ee4c54683b6e2471202652678ebd72229ab30944cf",
+      "bytes": 119023,
+      "error": null,
+      "label": "beatrice_advisors",
+      "ok": true,
+      "status_code": 200,
+      "title": "Trusted Financial Advisors in New York",
+      "url": "https://www.beatriceadvisors.com/"
+    },
+    {
+      "body_sha3_256": "a630e267d3d294d160b367557e019c63a7485c4c3357e204d6530601f4244551",
+      "bytes": 8000,
+      "error": "HTTPError:403",
+      "label": "ohio_sos_business_search",
+      "ok": false,
+      "status_code": 403,
+      "title": "Ohio Secretary of State's Office Website Maintenance",
+      "url": "https://businesssearch.ohiosos.gov/"
+    }
+  ],
+  "status": "done",
+  "title": "Counsel / firm public presence (Ulmer\u2192UBG, Foley, Tucker Ellis)",
+  "wave": 8,
+  "whois_cli": {
+    "note": "Wave-7 RDAP remains the domain custody source; whois binary absent here",
+    "present": false
+  }
+}

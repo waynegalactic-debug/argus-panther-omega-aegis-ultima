@@ -1,0 +1,90 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE8_AHKEO_PLURIMI_LITIGATION.md",
+    "counsel_firms": "docs/investigation/wave8/counsel_firm_public_presence.json",
+    "courtlistener_search": "docs/investigation/wave8/courtlistener_ahkeo_plurimi_search.json",
+    "operator_worklist": "docs/investigation/wave8/operator_worklist.json",
+    "recap_exhibits": "docs/investigation/wave8/ahkeo_plurimi_recap_exhibits.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W8",
+  "counts": {
+    "adjudicated_total": 0,
+    "complaint_facts": 6,
+    "opinion_facts": 6,
+    "recap_docs_ok": 2,
+    "tracks": 4,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "0ce681ea5defd28d2e45d72ad9afe9fa31ad1d9bdfe5ad6f9176af8f2a479589",
+    "leaves": [
+      {
+        "id": "courtlistener_ahkeo_plurimi_search",
+        "sha3_256": "9d7c4812fe49d65e53b1867d266eca74078485689fdc98faeb86b901144307ab",
+        "status": "done"
+      },
+      {
+        "id": "ahkeo_plurimi_recap_exhibits",
+        "sha3_256": "bd6b41839176f00b687c660a3f0b8af0609c36f982ae61b6ecda8e3afb32d6b6",
+        "status": "done"
+      },
+      {
+        "id": "counsel_firm_public_presence",
+        "sha3_256": "dd63fb6f2190127d09fa773534928a311139c27eb2c8f181e303181c9fd26982",
+        "status": "done"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "d1fbc5d436900d2afd66e5aa3360b0a8aefbde79bedb951927cbb43c8d168c76",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "361d2b8b8a988ca14bfdf36d5afc3c876391c2ed0a8396e33f2830730e7851b113a88fd4e16c743548c03f5232a40dcbd0e56957de26f4b374729c76675da921"
+  },
+  "elapsed_ms": 9299,
+  "generated_at": "2026-07-23T01:10:24Z",
+  "policy": "Wave-8 seals N.D. Ohio Ahkeo Labs v. Plurimi RECAP complaint/opinion authenticating Beta Drive PPB + Skoda CEO role + collegefitness narrative. Dismissed for personal jurisdiction \u2014 not IP title. No theft/RICO/UBO.",
+  "seal": "9267ec32c93513c55ce2765337fe384f2b05b0e0de39427f0e1a65182150e0c2",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "courtlistener_ahkeo_plurimi_search",
+      "next_actions": [
+        "Counsel: pull full PACER docket PDF set if RECAP incomplete"
+      ],
+      "status": "done",
+      "title": "CourtListener search \u2014 Ahkeo Labs / Brent Skoda / Plurimi"
+    },
+    {
+      "adjudicated": false,
+      "id": "ahkeo_plurimi_recap_exhibits",
+      "next_actions": [
+        "Cross-check Delaware LLC charter for Ahkeo Labs LLC (not Ohio SOS alone)",
+        "Counsel: whether to attach Doc.1 / Doc.65 to preservation package"
+      ],
+      "status": "done",
+      "title": "RECAP exhibits \u2014 Ahkeo Labs complaint + Gwin opinion"
+    },
+    {
+      "adjudicated": false,
+      "id": "counsel_firm_public_presence",
+      "next_actions": [
+        "Keep preservation addressed to UB Greensfelder as Ulmer successor",
+        "Optional: identify Tucker Ellis engagement files via counsel letter"
+      ],
+      "status": "done",
+      "title": "Counsel / firm public presence (Ulmer\u2192UBG, Foley, Tucker Ellis)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-8 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE8"
+}
