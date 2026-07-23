@@ -1,0 +1,34 @@
+{
+  "adjudicated": false,
+  "continuity_candidate": {
+    "foundational_status": "OPEN_MANUAL_STILL_UNVERIFIED",
+    "path": "data/victim_inventor_continuity_chain_REBUILT_CANDIDATE.json",
+    "seal": "c599242aa1e1044772efce9322151cfe1b25d6eef79d28133b9bfcf76a4fc2ed"
+  },
+  "id": "quarantine_reinforce_and_track01_supersession",
+  "integrity_alert": "docs/investigation/INTEGRITY_ALERT_WAVE3_QUARANTINE.md",
+  "next_actions": [
+    "Certified UPV search without assuming CZ283061",
+    "Keep Wave-4 authenticated USPTO portfolio as modern exhibit set"
+  ],
+  "policy": "Quarantine remains binding. Foundational CZ1997 caffeine-vaporizer grant stays OPEN_MANUAL without a verified number.",
+  "quarantined_do_not_cite": [
+    "CZ283061/B6",
+    "CZ283061",
+    "WO1997033272A1",
+    "US5618592",
+    "US20220083955",
+    "US20220083956",
+    "US20220083957",
+    "WO2023123456"
+  ],
+  "status": "done",
+  "title": "Reinforce Wave-3 patent quarantine; supersede Track-01 CZ283061 ask",
+  "track01": {
+    "czech_patent_number_field": "283061",
+    "path": "docs/investigation/tracks/01_czech_upv_chain_of_title.json",
+    "status": "partial",
+    "supersession": "Wave-3 quarantined CZ283061/B6 as wrong invention (loom weft). Wave-7 forbids citing that number as foundational grant identity. Track-01 next_actions that request certified extract for CZ 283061 are SUPERSEDED \u2014 replace with open inventor+subject+1997 UPV search."
+  },
+  "wave": 7
+}

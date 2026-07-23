@@ -1,0 +1,55 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "item_count": 7,
+  "items": [
+    {
+      "action": "Certified Czech UPV search \u2014 inventor + caffeine vaporizer + 1997",
+      "detail": "Do not cite quarantined CZ283061/B6 as the grant identity",
+      "priority": 1,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Ohio SOS abstracts \u2014 Ahkeo cluster + 6685 Beta Drive",
+      "priority": 2,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Historical WHOIS pre-2026 for ahkeo.com / ahkeolabs.com",
+      "detail": "Current DropCatch 2026 domains: ['ahkeo.com', 'ahkeolabs.com']",
+      "priority": 3,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "USPTO ODP assignments \u2014 Wave-4 12 pubs",
+      "priority": 4,
+      "status": "BLOCKED_NEEDS_API_KEY"
+    },
+    {
+      "action": "Counsel \u2014 domain preservation addendum + Form D / Beta Drive pack",
+      "priority": 5,
+      "status": "OPEN_COUNSEL"
+    },
+    {
+      "action": "AZ bar certified discipline order \u2014 Anthony G. Salvador",
+      "priority": 6,
+      "status": "OPEN_MANUAL"
+    },
+    {
+      "action": "Send preservation drafts after counsel review",
+      "priority": 7,
+      "status": "OPEN_COUNSEL",
+      "targets": [
+        "Ulmer/UB Greensfelder",
+        "Fine",
+        "Salvador",
+        "Meta",
+        "DropCatch/GoDaddy"
+      ]
+    }
+  ],
+  "status": "done",
+  "title": "Wave-7 operator / counsel worklist",
+  "true_ubo_asserted": 0,
+  "wave": 7
+}

@@ -1,0 +1,113 @@
+{
+  "adjudicated": false,
+  "foundational_claim_status": "OPEN_MANUAL_STILL_UNVERIFIED",
+  "id": "upv_epo_patent_surface_blockers",
+  "next_actions": [
+    "Operator: certified Czech UPV search (inventor + caffeine vaporizer + 1997)",
+    "Do NOT treat quarantined CZ283061 as the search target identity"
+  ],
+  "probes": [
+    {
+      "body_sha3_256": "0fd629466df8136c065f00efccf3c9c79e232a11a6d39334a1a68c047a023a31",
+      "bytes": 208,
+      "content_type": "application/xml",
+      "elapsed_ms": 337,
+      "error": "HTTPError:403",
+      "name": "epo_ops_search",
+      "ok": false,
+      "status_code": 403,
+      "title": null,
+      "url": "https://ops.epo.org/3.2/rest-services/published-data/search?q=caffeine%20vaporizer"
+    },
+    {
+      "body_sha3_256": "5ceac16dd31db1ba7ac1f05d8a3416b164e0dfbc4d756e042eaff1f6c0f6ec47",
+      "bytes": 5954,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 282,
+      "error": "HTTPError:403",
+      "name": "espacenet_search",
+      "ok": false,
+      "status_code": 403,
+      "title": "Just a moment...",
+      "url": "https://worldwide.espacenet.com/patent/search?q=caffeine%20vaporizer%20Skoda"
+    },
+    {
+      "body_sha3_256": "d8a143070270c05f7021cc1385acd9d3ec626ca0521d5b3b53a75409a09fc94f",
+      "bytes": 1461,
+      "content_type": "text/html; charset=utf-8",
+      "elapsed_ms": 114,
+      "error": "HTTPError:500",
+      "name": "google_patents_assignee_ahkeo",
+      "ok": false,
+      "status_code": 500,
+      "title": "Error 500 (Internal Server Error)!!1",
+      "url": "https://patents.google.com/xhr/query?url=assignee%3A%22Ahkeo%20Labs%22"
+    },
+    {
+      "body_sha3_256": "6160b27f9f8341a8102429420aba596d27a33889bdd1542fa56167e060d03c3c",
+      "bytes": 86921,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 1085,
+      "error": null,
+      "name": "upv_cz_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "\u00da\u0159ad pr\u016fmyslov\u00e9ho vlastnictv\u00ed",
+      "url": "https://www.upv.gov.cz/"
+    },
+    {
+      "body_sha3_256": "a7eefc203f4de6f387be4af530c17a69d63757f7a201605180f654e22029ade2",
+      "bytes": 67414,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 672,
+      "error": null,
+      "name": "upv_en_home",
+      "ok": true,
+      "status_code": 200,
+      "title": "Industrial Property Office of the Czech Republic",
+      "url": "https://upv.gov.cz/en"
+    },
+    {
+      "body_sha3_256": null,
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 2498,
+      "error": "HTTPError:302",
+      "name": "upv_resdb",
+      "ok": false,
+      "status_code": 302,
+      "title": null,
+      "url": "https://isdv.upv.cz/webapp/!resdb.pta.frm"
+    },
+    {
+      "body_sha3_256": "6374c2e2f606ff65768798c6670a9e7760a846678b6fdcbbb9be629c58f79a73",
+      "bytes": 8000,
+      "content_type": "text/html;charset=UTF-8",
+      "elapsed_ms": 420,
+      "error": "HTTPError:403",
+      "name": "wipo_patentscope",
+      "ok": false,
+      "status_code": 403,
+      "title": "ERROR 403 FORBIDDEN",
+      "url": "https://patentscope.wipo.int/search/en/result.jsf?query=IN:(Skoda)"
+    }
+  ],
+  "status": "blocked_public_api",
+  "summary": {
+    "connection_errors": [],
+    "html_ok": [
+      "upv_cz_home",
+      "upv_en_home"
+    ],
+    "http_403": [
+      "epo_ops_search",
+      "espacenet_search",
+      "wipo_patentscope"
+    ],
+    "http_500": [
+      "google_patents_assignee_ahkeo"
+    ]
+  },
+  "title": "UPV / Espacenet / WIPO / Google Patents surface blockers",
+  "wave": 7
+}

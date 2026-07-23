@@ -18,12 +18,14 @@ US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave3
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave4
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave5
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave6
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce.py --investigate-wave7
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_runner.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave2.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave3.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave4.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave5.py
 US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave6.py
+US_IPFORCE_VERIFIED_MODE=1 python3 us_ipforce_investigation_wave7.py
 
 # Legacy monoliths (explicit opt-in)
 python3 us_ipforce.py --legacy-monolith

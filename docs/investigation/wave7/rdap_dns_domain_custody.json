@@ -1,0 +1,274 @@
+{
+  "adjudicated": false,
+  "domains": [
+    {
+      "body_sha3_256": "f594fce1bb7168febbfc16be6eaf254e1ce6b2ca48d05c36819419aa2ab1e3cf",
+      "dns": {
+        "A": [
+          "54.243.117.197",
+          "13.223.25.84"
+        ],
+        "NS": [
+          "nsg1.namebrightdns.com",
+          "nsg2.namebrightdns.com"
+        ]
+      },
+      "domain": "ahkeo.com",
+      "entities": [
+        {
+          "fn": "DropCatch.com 1470 LLC",
+          "handle": "3679",
+          "roles": [
+            "registrar"
+          ]
+        },
+        {
+          "fn": "",
+          "handle": null,
+          "parent_roles": [
+            "registrar"
+          ],
+          "roles": [
+            "abuse"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "action": "registration",
+          "date": "2026-03-12T18:15:25Z"
+        },
+        {
+          "action": "expiration",
+          "date": "2027-03-12T18:15:25Z"
+        },
+        {
+          "action": "last changed",
+          "date": "2026-03-12T18:15:31Z"
+        },
+        {
+          "action": "last update of RDAP database",
+          "date": "2026-07-23T01:05:38Z"
+        }
+      ],
+      "flags": {
+        "afternic_ns": false,
+        "dropcatch_registrar": true,
+        "namebright_ns": true,
+        "registration_year_2026": true
+      },
+      "handle": "3076399558_DOMAIN_COM-VRSN",
+      "ldhName": "AHKEO.COM",
+      "nameservers": [
+        "NSG1.NAMEBRIGHTDNS.COM",
+        "NSG2.NAMEBRIGHTDNS.COM"
+      ],
+      "ok": true,
+      "posture": "dropcatch_or_namebright_aftermarket_2026_registration",
+      "registrar_fns": [
+        "DropCatch.com 1470 LLC"
+      ],
+      "registration_date": "2026-03-12T18:15:25Z",
+      "source_url": "https://rdap.verisign.com/com/v1/domain/ahkeo.com",
+      "status": [
+        "client transfer prohibited"
+      ]
+    },
+    {
+      "body_sha3_256": "91756128a590ceb6c97156ee35ac4223f6ce636956a60f792b36d37144a67f72",
+      "dns": {
+        "A": [
+          "13.223.25.84",
+          "54.243.117.197"
+        ],
+        "NS": [
+          "nsg1.namebrightdns.com",
+          "nsg2.namebrightdns.com"
+        ]
+      },
+      "domain": "ahkeolabs.com",
+      "entities": [
+        {
+          "fn": "DropCatch.com 547 LLC",
+          "handle": "2027",
+          "roles": [
+            "registrar"
+          ]
+        },
+        {
+          "fn": "",
+          "handle": null,
+          "parent_roles": [
+            "registrar"
+          ],
+          "roles": [
+            "abuse"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "action": "registration",
+          "date": "2026-01-11T19:28:37Z"
+        },
+        {
+          "action": "expiration",
+          "date": "2027-01-11T19:28:37Z"
+        },
+        {
+          "action": "last changed",
+          "date": "2026-01-12T21:45:14Z"
+        },
+        {
+          "action": "last update of RDAP database",
+          "date": "2026-07-23T01:05:38Z"
+        }
+      ],
+      "flags": {
+        "afternic_ns": false,
+        "dropcatch_registrar": true,
+        "namebright_ns": true,
+        "registration_year_2026": true
+      },
+      "handle": "3056594424_DOMAIN_COM-VRSN",
+      "ldhName": "AHKEOLABS.COM",
+      "nameservers": [
+        "NSG1.NAMEBRIGHTDNS.COM",
+        "NSG2.NAMEBRIGHTDNS.COM"
+      ],
+      "ok": true,
+      "posture": "dropcatch_or_namebright_aftermarket_2026_registration",
+      "registrar_fns": [
+        "DropCatch.com 547 LLC"
+      ],
+      "registration_date": "2026-01-11T19:28:37Z",
+      "source_url": "https://rdap.verisign.com/com/v1/domain/ahkeolabs.com",
+      "status": [
+        "client transfer prohibited"
+      ]
+    },
+    {
+      "body_sha3_256": null,
+      "dns": {
+        "A": [],
+        "NS": []
+      },
+      "domain": "zorday.com",
+      "error": "HTTPError:404",
+      "ok": false,
+      "posture": "rdap_not_found",
+      "source_url": "https://rdap.verisign.com/com/v1/domain/zorday.com",
+      "status_code": 404
+    },
+    {
+      "body_sha3_256": null,
+      "dns": {
+        "A": [],
+        "NS": []
+      },
+      "domain": "zordayip.com",
+      "error": "HTTPError:404",
+      "ok": false,
+      "posture": "rdap_not_found",
+      "source_url": "https://rdap.verisign.com/com/v1/domain/zordayip.com",
+      "status_code": 404
+    },
+    {
+      "body_sha3_256": "22fe08f4c4c000021ccaf5fb9a4ff20ba10feab2ab069e3c102da75b0ea03166",
+      "dns": {
+        "A": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "NS": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "domain": "collegefitness.com",
+      "entities": [
+        {
+          "fn": "GoDaddy.com, LLC",
+          "handle": "146",
+          "roles": [
+            "registrar"
+          ]
+        },
+        {
+          "fn": "",
+          "handle": null,
+          "parent_roles": [
+            "registrar"
+          ],
+          "roles": [
+            "abuse"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "action": "registration",
+          "date": "2002-05-20T18:42:29Z"
+        },
+        {
+          "action": "expiration",
+          "date": "2027-05-20T18:42:29Z"
+        },
+        {
+          "action": "last changed",
+          "date": "2026-05-22T16:32:36Z"
+        },
+        {
+          "action": "last update of RDAP database",
+          "date": "2026-07-23T01:05:38Z"
+        }
+      ],
+      "flags": {
+        "afternic_ns": true,
+        "dropcatch_registrar": false,
+        "namebright_ns": false,
+        "registration_year_2026": false
+      },
+      "handle": "86765771_DOMAIN_COM-VRSN",
+      "ldhName": "COLLEGEFITNESS.COM",
+      "nameservers": [
+        "NS1.AFTERNIC.COM",
+        "NS2.AFTERNIC.COM"
+      ],
+      "ok": true,
+      "posture": "afternic_aftermarket_dns_long_registration",
+      "registrar_fns": [
+        "GoDaddy.com, LLC"
+      ],
+      "registration_date": "2002-05-20T18:42:29Z",
+      "source_url": "https://rdap.verisign.com/com/v1/domain/collegefitness.com",
+      "status": [
+        "client delete prohibited",
+        "client renew prohibited",
+        "client transfer prohibited",
+        "client update prohibited"
+      ]
+    }
+  ],
+  "dropcatch_2026_domains": [
+    "ahkeo.com",
+    "ahkeolabs.com"
+  ],
+  "highlights": [
+    "ahkeo.com and ahkeolabs.com show 2026 DropCatch registrar registrations + NameBright NS",
+    "Wave-6 Wayback brand history for those hosts therefore predates current RDAP registrant",
+    "collegefitness.com retains 2002 registration (GoDaddy) with Afternic NS",
+    "zorday.com / zordayip.com RDAP 404 in this probe; zorday.com empty A/NS"
+  ],
+  "id": "rdap_dns_domain_custody",
+  "next_actions": [
+    "Counsel: domain preservation notices to DropCatch/NameBright/GoDaddy/Afternic",
+    "Historical WHOIS (paid/archived) for ahkeo.com / ahkeolabs.com pre-2026",
+    "Confirm whether brand sites should be treated as abandoned-domain risk"
+  ],
+  "policy": "Current RDAP does not identify the historical 2011\u20132020 registrant. DropCatch 2026 registration indicates aftermarket re-registration / parking posture relative to Wave-6 archive content. No theft adjudication.",
+  "status": "done",
+  "title": "RDAP + DNS custody posture for Ahkeo / Zorday / CollegeFitness",
+  "true_ubo_asserted": 0,
+  "wave": 7
+}

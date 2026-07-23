@@ -1,0 +1,39 @@
+{
+  "adjudicated": false,
+  "id": "domain_preservation_addendum",
+  "next_actions": [
+    "Counsel merge into outbound preservation package after review"
+  ],
+  "parent_draft": "docs/investigation/PRESERVATION_LETTERS_DRAFT.md",
+  "policy": "Addendum only. Do not auto-send. Complements Ulmer/Fine/Salvador/Meta drafts.",
+  "status": "draft_counsel",
+  "targets": [
+    {
+      "ask": "Preserve registration, account, DNS, and auction/drop-catch logs for ahkeo.com and ahkeolabs.com (including pre-capture if any).",
+      "domains": [
+        "ahkeo.com",
+        "ahkeolabs.com"
+      ],
+      "party": "DropCatch.com / NameBright"
+    },
+    {
+      "ask": "Preserve registration/DNS/aftermarket listing history for collegefitness.com (2002\u2013present).",
+      "domains": [
+        "collegefitness.com"
+      ],
+      "party": "GoDaddy / Afternic"
+    },
+    {
+      "ask": "Preserve listed Wayback captures already hashed in Wave-6 seals.",
+      "domains": [
+        "ahkeo.com",
+        "ahkeolabs.com",
+        "zorday.com",
+        "collegefitness.com"
+      ],
+      "party": "Internet Archive"
+    }
+  ],
+  "title": "Domain preservation addendum (draft \u2014 not sent)",
+  "wave": 7
+}

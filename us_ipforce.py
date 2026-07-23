@@ -62,6 +62,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Run investigation wave-6 Mayfield address nexus + domain archives",
     )
+    parser.add_argument(
+        "--investigate-wave7",
+        action="store_true",
+        help="Run investigation wave-7 RDAP/DNS custody + UPV surface blockers",
+    )
     args, unknown = parser.parse_known_args(argv)
 
     os.environ.setdefault("US_IPFORCE_VERIFIED_MODE", "1")
@@ -81,13 +86,14 @@ def main(argv: list[str] | None = None) -> int:
             args.investigate_wave4,
             args.investigate_wave5,
             args.investigate_wave6,
+            args.investigate_wave7,
         )
     )
     if wave_flags > 1:
         print(
             "Run only one of --investigate / --investigate-wave2 / "
             "--investigate-wave3 / --investigate-wave4 / --investigate-wave5 / "
-            "--investigate-wave6.",
+            "--investigate-wave6 / --investigate-wave7.",
             file=sys.stderr,
         )
         return 2
@@ -121,6 +127,11 @@ def main(argv: list[str] | None = None) -> int:
         from us_ipforce_investigation_wave6 import main as wave6_main
 
         return int(wave6_main(["--print-report"] if args.print_report else []))
+
+    if args.investigate_wave7:
+        from us_ipforce_investigation_wave7 import main as wave7_main
+
+        return int(wave7_main(["--print-report"] if args.print_report else []))
 
     if args.legacy_monolith:
         from us_ipforce_monolith import main as legacy_main

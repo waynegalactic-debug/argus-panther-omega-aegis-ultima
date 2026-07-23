@@ -1,0 +1,107 @@
+{
+  "artifacts": {
+    "alert": "docs/investigation/WAVE7_DOMAIN_CUSTODY_RDAP.md",
+    "domain_preservation": "docs/investigation/wave7/domain_preservation_addendum.json",
+    "operator_worklist": "docs/investigation/wave7/operator_worklist.json",
+    "patent_surfaces": "docs/investigation/wave7/upv_epo_patent_surface_blockers.json",
+    "quarantine_reinforce": "docs/investigation/wave7/quarantine_reinforce_and_track01_supersession.json",
+    "rdap_dns": "docs/investigation/wave7/rdap_dns_domain_custody.json"
+  },
+  "brand": "IP FORCE",
+  "case_id": "IP-FORCE-20260723-SYSTEMATIC-INVESTIGATION-W7",
+  "counts": {
+    "adjudicated_total": 0,
+    "domains_probed": 5,
+    "dropcatch_2026_domains": 2,
+    "patent_surfaces_probed": 7,
+    "tracks": 5,
+    "true_ubo_asserted": 0
+  },
+  "custody": {
+    "algorithm": "SHA3-512 root + HMAC-SHA3-256",
+    "hmac_present": true,
+    "hmac_sha3_256": "612d4a77c2a78cc4eb17e1c0c2adba53a4cb3c9fd21adf092f54516653f69078",
+    "leaves": [
+      {
+        "id": "rdap_dns_domain_custody",
+        "sha3_256": "ac6093063128dcc18e5529d498cbb204f02011ed55b708016dab6833d056d017",
+        "status": "done"
+      },
+      {
+        "id": "upv_epo_patent_surface_blockers",
+        "sha3_256": "f16f354558e1004ce3d0d01765732cafd499d0e233a167ee54498e40b3d5a7db",
+        "status": "blocked_public_api"
+      },
+      {
+        "id": "quarantine_reinforce_and_track01_supersession",
+        "sha3_256": "7f4ae6ed446fde506f8c8d6bccdf14775a277e996517643fcfed99537b6989af",
+        "status": "done"
+      },
+      {
+        "id": "domain_preservation_addendum",
+        "sha3_256": "0bb8f63a74ae2001490fd590807db721f3dda165a3551768b4d3265298b2de92",
+        "status": "draft_counsel"
+      },
+      {
+        "id": "operator_worklist",
+        "sha3_256": "6bf424c316f5e05f14fc0f816b01662d9c7c2ff7f48932044e6f9a11fbe16d67",
+        "status": "done"
+      }
+    ],
+    "root_sha3_512": "1698d283d76a14c6fe9ace48c29229e41f44dd72d050d2c1ae9fb464876492412b878c6d2d25f7f9354f1089790a17b251d5b6c2d544e03d4f8bb47a94a7c645"
+  },
+  "elapsed_ms": 4776,
+  "generated_at": "2026-07-23T01:05:50Z",
+  "policy": "Wave-7 seals current RDAP/DNS custody posture (DropCatch 2026 flip on ahkeo/ahkeolabs), patent-surface blockers, and Track-01 CZ283061 supersession under Wave-3 quarantine. No theft/RICO/UBO adjudication.",
+  "seal": "b4f06f9bf82febda2e7c781bb1748e1f2ea13e6826aec67c5238ea662dc38b0c",
+  "tracks": [
+    {
+      "adjudicated": false,
+      "id": "rdap_dns_domain_custody",
+      "next_actions": [
+        "Counsel: domain preservation notices to DropCatch/NameBright/GoDaddy/Afternic",
+        "Historical WHOIS (paid/archived) for ahkeo.com / ahkeolabs.com pre-2026",
+        "Confirm whether brand sites should be treated as abandoned-domain risk"
+      ],
+      "status": "done",
+      "title": "RDAP + DNS custody posture for Ahkeo / Zorday / CollegeFitness"
+    },
+    {
+      "adjudicated": false,
+      "id": "upv_epo_patent_surface_blockers",
+      "next_actions": [
+        "Operator: certified Czech UPV search (inventor + caffeine vaporizer + 1997)",
+        "Do NOT treat quarantined CZ283061 as the search target identity"
+      ],
+      "status": "blocked_public_api",
+      "title": "UPV / Espacenet / WIPO / Google Patents surface blockers"
+    },
+    {
+      "adjudicated": false,
+      "id": "quarantine_reinforce_and_track01_supersession",
+      "next_actions": [
+        "Certified UPV search without assuming CZ283061",
+        "Keep Wave-4 authenticated USPTO portfolio as modern exhibit set"
+      ],
+      "status": "done",
+      "title": "Reinforce Wave-3 patent quarantine; supersede Track-01 CZ283061 ask"
+    },
+    {
+      "adjudicated": false,
+      "id": "domain_preservation_addendum",
+      "next_actions": [
+        "Counsel merge into outbound preservation package after review"
+      ],
+      "status": "draft_counsel",
+      "title": "Domain preservation addendum (draft \u2014 not sent)"
+    },
+    {
+      "adjudicated": false,
+      "id": "operator_worklist",
+      "next_actions": null,
+      "status": "done",
+      "title": "Wave-7 operator / counsel worklist"
+    }
+  ],
+  "version": "2026.7.23-INVESTIGATION-WAVE7"
+}
