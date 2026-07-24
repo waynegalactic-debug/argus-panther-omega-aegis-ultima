@@ -1,6 +1,6 @@
 # Wave 37 — First ten million linked wallets + NVIDIA full-stack acceleration
 
-Generated: `2026-07-24T15:46:19Z`
+Generated: `2026-07-24T17:47:28Z`
 
 ## Disposition (policy-gated)
 
@@ -12,40 +12,40 @@ Generated: `2026-07-24T15:46:19Z`
 
 - Sealed seeds: `19`
 - Target: `10000000`
-- Linked wallets traced: `2515937`
+- Linked wallets traced: `3030175`
 - Target reached: `False`
-- Resumed from: `2147663`
-- Expanded addresses: `276382`
-- Pages fetched: `102754`
-- Elapsed seconds: `7200`
+- Resumed from: `2515937`
+- Expanded addresses: `334366`
+- Pages fetched: `115956`
+- Elapsed seconds: `7201`
 - Status: `PARTIAL`
-- Hop histogram: `{'0': 19, '1': 5204, '2': 234828, '3': 1965858, '4': 310028}`
-- Via histogram: `{'seed': 19, 'tx': 1303661, 'tt': 1212243, 'internal': 14}`
+- Hop histogram: `{'0': 19, '1': 5204, '2': 234828, '3': 1965858, '4': 824266}`
+- Via histogram: `{'seed': 19, 'tx': 1504173, 'tt': 1525969, 'internal': 14}`
 
 ## NVIDIA acceleration
 
 - Backend: `numpy_scipy_numba_nvidia_compatible`
 - GPU active: `False`
 - Modules: `['numba', 'scipy', 'numpy']`
-- Vertices analyzed: `500000` / corpus `2515937`
+- Vertices analyzed: `500000` / corpus `3030175`
 - Analytics partial: `True`
-- WCC: `{'backend': 'numba_unionfind', 'components': 19, 'largest': 119385, 'cugraph_error': None, 'elapsed_ms': 539}`
-- Degree summary: `{'mean_degree': 1.999924, 'max_degree': 1137, 'hop_histogram': {'0': 19, '1': 5204, '2': 234828, '3': 259949}, 'backend': 'numpy_scipy_numba_nvidia_compatible', 'elapsed_ms': 12}`
+- WCC: `{'backend': 'numba_unionfind', 'components': 19, 'largest': 119385, 'cugraph_error': None, 'elapsed_ms': 550}`
+- Degree summary: `{'mean_degree': 1.999924, 'max_degree': 1137, 'hop_histogram': {'0': 19, '1': 5204, '2': 234828, '3': 259949}, 'backend': 'numpy_scipy_numba_nvidia_compatible', 'elapsed_ms': 7}`
 
 ## Seed contribution (top)
 
+- `fyllo.eth` → descendants `490067`
 - `vitalik.eth` → descendants `341747`
+- `japantobacco.eth` → descendants `277969`
 - `philipmorrisusa.eth` → descendants `275304`
 - `elonmusk.eth` → descendants `267173`
-- `fyllo.eth` → descendants `228935`
 - `pmusa.eth` → descendants `168444`
 - `philipmorris.eth` → descendants `162543`
 - `paxlabs.eth` → descendants `139507`
 - `juullabs.eth` → descendants `129764`
 - `sama.eth` → descendants `124235`
 - `abg.eth` → descendants `121096`
-- `japantobacco.eth` → descendants `119384`
-- `njoy.eth` → descendants `89754`
+- `pax.eth` → descendants `105352`
 
 ## Artifacts
 
