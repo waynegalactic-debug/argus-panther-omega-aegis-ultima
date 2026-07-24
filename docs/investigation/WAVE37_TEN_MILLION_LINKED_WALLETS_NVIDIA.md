@@ -1,6 +1,6 @@
 # Wave 37 — First ten million linked wallets + NVIDIA full-stack acceleration
 
-Generated: `2026-07-24T17:47:28Z`
+Generated: `2026-07-24T19:59:18Z`
 
 ## Disposition (policy-gated)
 
@@ -12,31 +12,31 @@ Generated: `2026-07-24T17:47:28Z`
 
 - Sealed seeds: `19`
 - Target: `10000000`
-- Linked wallets traced: `3030175`
+- Linked wallets traced: `3525202`
 - Target reached: `False`
-- Resumed from: `2515937`
-- Expanded addresses: `334366`
-- Pages fetched: `115956`
+- Resumed from: `3030175`
+- Expanded addresses: `392253`
+- Pages fetched: `115761`
 - Elapsed seconds: `7201`
 - Status: `PARTIAL`
-- Hop histogram: `{'0': 19, '1': 5204, '2': 234828, '3': 1965858, '4': 824266}`
-- Via histogram: `{'seed': 19, 'tx': 1504173, 'tt': 1525969, 'internal': 14}`
+- Hop histogram: `{'0': 19, '1': 5204, '2': 234828, '3': 1965858, '4': 1319293}`
+- Via histogram: `{'seed': 19, 'tx': 1709221, 'tt': 1815948, 'internal': 14}`
 
 ## NVIDIA acceleration
 
 - Backend: `numpy_scipy_numba_nvidia_compatible`
 - GPU active: `False`
 - Modules: `['numba', 'scipy', 'numpy']`
-- Vertices analyzed: `500000` / corpus `3030175`
+- Vertices analyzed: `500000` / corpus `3525202`
 - Analytics partial: `True`
-- WCC: `{'backend': 'numba_unionfind', 'components': 19, 'largest': 119385, 'cugraph_error': None, 'elapsed_ms': 550}`
-- Degree summary: `{'mean_degree': 1.999924, 'max_degree': 1137, 'hop_histogram': {'0': 19, '1': 5204, '2': 234828, '3': 259949}, 'backend': 'numpy_scipy_numba_nvidia_compatible', 'elapsed_ms': 7}`
+- WCC: `{'backend': 'numba_unionfind', 'components': 19, 'largest': 119385, 'cugraph_error': None, 'elapsed_ms': 597}`
+- Degree summary: `{'mean_degree': 1.999924, 'max_degree': 1137, 'hop_histogram': {'0': 19, '1': 5204, '2': 234828, '3': 259949}, 'backend': 'numpy_scipy_numba_nvidia_compatible', 'elapsed_ms': 14}`
 
 ## Seed contribution (top)
 
+- `japantobacco.eth` → descendants `772996`
 - `fyllo.eth` → descendants `490067`
 - `vitalik.eth` → descendants `341747`
-- `japantobacco.eth` → descendants `277969`
 - `philipmorrisusa.eth` → descendants `275304`
 - `elonmusk.eth` → descendants `267173`
 - `pmusa.eth` → descendants `168444`
