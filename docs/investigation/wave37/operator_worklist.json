@@ -4,7 +4,7 @@
   "items": [
     {
       "id": "W37-M1",
-      "item": "Resume enumeration until linked_wallets==10_000_000 (now=2147663)",
+      "item": "Resume enumeration until linked_wallets==10_000_000 (now=2515937)",
       "priority": "CRITICAL"
     },
     {
