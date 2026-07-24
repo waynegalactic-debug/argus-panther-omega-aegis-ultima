@@ -2,7 +2,7 @@
   "degree_hop": {
     "backend": "numpy_scipy_numba_nvidia_compatible",
     "edge_count_directed": 499981,
-    "elapsed_ms": 11,
+    "elapsed_ms": 32,
     "hop_histogram": {
       "0": 19,
       "1": 5204,
@@ -165,13 +165,13 @@
       }
     ]
   },
-  "elapsed_ms": 1623,
+  "elapsed_ms": 1621,
   "findings": [
     {
       "backend": "numpy_scipy_numba_nvidia_compatible",
       "degree_hop_summary": {
         "backend": "numpy_scipy_numba_nvidia_compatible",
-        "elapsed_ms": 11,
+        "elapsed_ms": 32,
         "hop_histogram": {
           "0": 19,
           "1": 5204,
@@ -181,12 +181,12 @@
         "max_degree": 1137,
         "mean_degree": 1.999924
       },
-      "detail": "NVIDIA path=numpy_scipy_numba_nvidia_compatible gpu=False; analyzed 500000 / 1414116 linked wallets (partial=True). Ranking only — not adjudication.",
+      "detail": "NVIDIA path=numpy_scipy_numba_nvidia_compatible gpu=False; analyzed 500000 / 1825654 linked wallets (partial=True). Ranking only — not adjudication.",
       "graph_stats": {
         "analytics_cap": 500000,
         "analytics_partial": true,
-        "build_ms": 433,
-        "corpus_linked_wallets": 1414116,
+        "build_ms": 428,
+        "corpus_linked_wallets": 1825654,
         "directed_edges": 499981,
         "vertices_analyzed": 500000
       },
@@ -199,7 +199,7 @@
         "backend": "numba_unionfind",
         "components": 19,
         "cugraph_error": null,
-        "elapsed_ms": 499,
+        "elapsed_ms": 509,
         "largest": 119385
       }
     }
@@ -207,8 +207,8 @@
   "graph_stats": {
     "analytics_cap": 500000,
     "analytics_partial": true,
-    "build_ms": 433,
-    "corpus_linked_wallets": 1414116,
+    "build_ms": 428,
+    "corpus_linked_wallets": 1825654,
     "directed_edges": 499981,
     "vertices_analyzed": 500000
   },
@@ -419,13 +419,13 @@
         "seed_label": "ploom.eth"
       }
     ],
-    "elapsed_ms": 148
+    "elapsed_ms": 144
   },
   "seed_pagerank": {
     "alpha": 0.85,
     "backend": "scipy_csr_power_iteration",
     "cugraph_pagerank": null,
-    "elapsed_ms": 112,
+    "elapsed_ms": 122,
     "iterations": 20,
     "score_max": 0.015491487882648222,
     "score_mean": 2.0000000000000003e-06,
@@ -578,7 +578,7 @@
     "backend": "numba_unionfind",
     "components": 19,
     "cugraph_error": null,
-    "elapsed_ms": 499,
+    "elapsed_ms": 509,
     "largest": 119385
   }
 }
