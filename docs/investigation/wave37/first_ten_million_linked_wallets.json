@@ -22,26 +22,46 @@
         "sama.eth": "0x9a659894e5D115846767dB0e1685744c452E7a6e",
         "vitalik.eth": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
       },
-      "detail": "BFS toward 10000000 linked wallets: traced 386525 (reached=False), resumed_from=122845, expanded=18886, pages=37601 in 3000s. NVIDIA backend=numpy_scipy_numba_nvidia_compatible gpu_active=False. Linkage only.",
-      "elapsed_sec": 3000,
-      "expanded_addresses": 18886,
+      "detail": "BFS toward 10000000 linked wallets: traced 959512 (reached=False), resumed_from=386525, expanded=71650, pages=105523 in 7209s. NVIDIA backend=numpy_scipy_numba_nvidia_compatible gpu_active=False. Linkage only.",
+      "elapsed_sec": 7209,
+      "expanded_addresses": 71650,
       "hop_histogram": {
         "0": 19,
         "1": 5204,
         "2": 234828,
-        "3": 146474
+        "3": 719461
       },
       "id": "W37-F1",
-      "linked_wallets": 386525,
+      "linked_wallets": 959512,
       "nvidia_backend": "numpy_scipy_numba_nvidia_compatible",
       "nvidia_gpu_active": false,
-      "pages_fetched": 37601,
-      "resumed_from": 122845,
+      "pages_fetched": 105523,
+      "resumed_from": 386525,
       "seed_contribution_top": [
+        {
+          "address": "0x983110309620d911731ac0932219af06091b6744",
+          "label": "elonmusk.eth",
+          "linked_descendants_counted": 267173
+        },
+        {
+          "address": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+          "label": "juullabs.eth",
+          "linked_descendants_counted": 129764
+        },
         {
           "address": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
           "label": "japantobacco.eth",
-          "linked_descendants_counted": 83814
+          "linked_descendants_counted": 119384
+        },
+        {
+          "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+          "label": "philipmorris.eth",
+          "linked_descendants_counted": 106344
+        },
+        {
+          "address": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+          "label": "njoy.eth",
+          "linked_descendants_counted": 89754
         },
         {
           "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
@@ -59,19 +79,9 @@
           "linked_descendants_counted": 28018
         },
         {
-          "address": "0x983110309620d911731ac0932219af06091b6744",
-          "label": "elonmusk.eth",
-          "linked_descendants_counted": 22641
-        },
-        {
           "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
           "label": "pmusa.eth",
           "linked_descendants_counted": 16916
-        },
-        {
-          "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
-          "label": "philipmorris.eth",
-          "linked_descendants_counted": 16097
         },
         {
           "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
@@ -87,16 +97,6 @@
           "address": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
           "label": "abg.eth",
           "linked_descendants_counted": 13522
-        },
-        {
-          "address": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
-          "label": "jamiesalter.eth",
-          "linked_descendants_counted": 12733
-        },
-        {
-          "address": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
-          "label": "pax.eth",
-          "linked_descendants_counted": 10831
         }
       ],
       "seeds": 19,
@@ -106,92 +106,92 @@
       "title": "First-ten-million linked-wallet BFS enumeration (NVIDIA-accelerated analysis)",
       "top_expansion_hubs": [
         {
-          "address": "0x7b2aa6f8b93f28cd14d44d4538db77fe7f0a891f",
-          "new_wallets_yielded": 183
+          "address": "0x94fdc38c4a8e34248f8dd19cb3336e0295227023",
+          "new_wallets_yielded": 98
         },
         {
-          "address": "0xfe0c61894627a789e1d1ebcefa251aa35d22c2fa",
-          "new_wallets_yielded": 179
+          "address": "0x833fe1de3fd42063c8c9f9a5df00f3428e91180e",
+          "new_wallets_yielded": 98
         },
         {
-          "address": "0xb5885b4bb63928f77e1f669785dae2f3cc7562d7",
-          "new_wallets_yielded": 179
+          "address": "0xf311762a7e12f8facd2a69a7880e60436878cd85",
+          "new_wallets_yielded": 98
         },
         {
-          "address": "0x1c9b1717181f12b26a2b1b9d93d41e3085df54ed",
-          "new_wallets_yielded": 178
+          "address": "0x3bdb03ad7363152dfbc185ee23ebc93f0cf93fd1",
+          "new_wallets_yielded": 97
         },
         {
-          "address": "0x7f3ba3f18f1378fbd8efa0a20bfe7016e2efd266",
-          "new_wallets_yielded": 174
+          "address": "0x22cb3720bfa1c69f0f99f374cd74ac8a6a05385a",
+          "new_wallets_yielded": 97
         },
         {
-          "address": "0x9e351a9d94d7a0727f273450f4a75f2b062e479b",
-          "new_wallets_yielded": 171
+          "address": "0x9164b7d3ab0b5e26cff7416f911d461c505f20f6",
+          "new_wallets_yielded": 96
         },
         {
-          "address": "0x3a9b127e87295d90ac0136eba0aaa39db185d341",
-          "new_wallets_yielded": 169
+          "address": "0x6b2b47451c719c1268b4625db15a565abbf4d624",
+          "new_wallets_yielded": 96
         },
         {
-          "address": "0xafc628ae96e4d964222a3c7c4fad92bac72c26cd",
-          "new_wallets_yielded": 168
+          "address": "0x6cc1a61cd1c31fcf83810a37577f2889148ec035",
+          "new_wallets_yielded": 95
         },
         {
-          "address": "0xc9aa60d7d0fb88570d1673022fe458cb738bfe12",
-          "new_wallets_yielded": 168
+          "address": "0x002d46d8417834d7fd35266a07e7c466a8a74305",
+          "new_wallets_yielded": 94
         },
         {
-          "address": "0x45300136662dd4e58fc0df61e6290dffd992b785",
-          "new_wallets_yielded": 167
+          "address": "0x652ef251412d4c983ccd6ca59a30e8de1d0fdc62",
+          "new_wallets_yielded": 92
         },
         {
-          "address": "0xa1abfa21f80ecf401bd41365adbb6fef6fefdf09",
-          "new_wallets_yielded": 166
+          "address": "0x0fca5194baa59a362a835031d9c4a25970effe68",
+          "new_wallets_yielded": 90
         },
         {
-          "address": "0x2cff890f0378a11913b6129b2e97417a2c302680",
-          "new_wallets_yielded": 164
+          "address": "0x495bfbe0f5da7cb4ce66e4f59a0676fb6ba3bd92",
+          "new_wallets_yielded": 89
         },
         {
-          "address": "0xbb057b406adfbf0930d71f8bac0413132e30bbc3",
-          "new_wallets_yielded": 163
+          "address": "0xcc9557f04633d82fb6a1741dcec96986cd8689ae",
+          "new_wallets_yielded": 89
         },
         {
-          "address": "0x62a29205f7ff00f4233d9779c210150787638e7f",
-          "new_wallets_yielded": 161
+          "address": "0x8449fffd14379ad2de02111b7b7d902744478399",
+          "new_wallets_yielded": 88
         },
         {
-          "address": "0xe786b5596a792d7beafcf08eaf9de711c7b7b14b",
-          "new_wallets_yielded": 157
+          "address": "0xa5d7f0f7027fa8f4d1be8042e1e43bbdec36951e",
+          "new_wallets_yielded": 88
         },
         {
-          "address": "0x7d7443f52c9835ecf82a81cf8c7d04415b2c76a4",
-          "new_wallets_yielded": 153
+          "address": "0x706d7f8b3445d8dfc790c524e3990ef014e7c578",
+          "new_wallets_yielded": 88
         },
         {
-          "address": "0x6f9fe88ce51936bdf7701bf23d7d479dbb05d44a",
-          "new_wallets_yielded": 153
+          "address": "0x83706eb0e7d938571de2c2b067b4b5cbffc398f8",
+          "new_wallets_yielded": 88
         },
         {
-          "address": "0x95a9bd206ae52c4ba8eecfc93d18eacdd41c88cc",
-          "new_wallets_yielded": 152
+          "address": "0xa64dec481e73fb2c9a927577ee6ae065757f188a",
+          "new_wallets_yielded": 87
         },
         {
-          "address": "0xc9a1a17d5f6ad4f7dd57fc7e8f009cda8a877344",
-          "new_wallets_yielded": 152
+          "address": "0xf7c8da79da4cb294c4f55dfebb1b404e3e38d921",
+          "new_wallets_yielded": 87
         },
         {
-          "address": "0xc0ad8e63ce3c43b158ad7284b26ab161a5122af1",
-          "new_wallets_yielded": 151
+          "address": "0xfdb7941769e292d3f0b9cc356c9e054cb3f2c729",
+          "new_wallets_yielded": 86
         }
       ],
       "true_ubo_asserted": false,
       "via_histogram": {
         "internal": 14,
         "seed": 19,
-        "tt": 167516,
-        "tx": 218976
+        "tt": 462415,
+        "tx": 497064
       }
     }
   ],
@@ -202,29 +202,49 @@
     "Provision CUDA+RAPIDS host to engage rapids_full path"
   ],
   "snapshot_summary": {
-    "elapsed_sec": 3000,
-    "expand_errors": 2,
-    "expanded_addresses": 18886,
-    "hit_page_caps": 16304,
+    "elapsed_sec": 7209,
+    "expand_errors": 5,
+    "expanded_addresses": 71650,
+    "hit_page_caps": 64582,
     "hop_histogram": {
       "0": 19,
       "1": 5204,
       "2": 234828,
-      "3": 146474
+      "3": 719461
     },
-    "linked_wallets": 386525,
-    "max_expand": 800000,
-    "max_runtime_sec": 3000,
+    "linked_wallets": 959512,
+    "max_expand": 1200000,
+    "max_runtime_sec": 7200,
     "nvidia_backend": "numpy_scipy_numba_nvidia_compatible",
     "nvidia_gpu_active": false,
-    "pages_fetched": 37601,
-    "queue_remaining": 367639,
-    "resumed_from": 122845,
+    "pages_fetched": 105523,
+    "queue_remaining": 887850,
+    "resumed_from": 386525,
     "seed_contribution": [
+      {
+        "address": "0x983110309620d911731ac0932219af06091b6744",
+        "label": "elonmusk.eth",
+        "linked_descendants_counted": 267173
+      },
+      {
+        "address": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+        "label": "juullabs.eth",
+        "linked_descendants_counted": 129764
+      },
       {
         "address": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
         "label": "japantobacco.eth",
-        "linked_descendants_counted": 83814
+        "linked_descendants_counted": 119384
+      },
+      {
+        "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+        "label": "philipmorris.eth",
+        "linked_descendants_counted": 106344
+      },
+      {
+        "address": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+        "label": "njoy.eth",
+        "linked_descendants_counted": 89754
       },
       {
         "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
@@ -242,19 +262,9 @@
         "linked_descendants_counted": 28018
       },
       {
-        "address": "0x983110309620d911731ac0932219af06091b6744",
-        "label": "elonmusk.eth",
-        "linked_descendants_counted": 22641
-      },
-      {
         "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
         "label": "pmusa.eth",
         "linked_descendants_counted": 16916
-      },
-      {
-        "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
-        "label": "philipmorris.eth",
-        "linked_descendants_counted": 16097
       },
       {
         "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
@@ -282,11 +292,6 @@
         "linked_descendants_counted": 10831
       },
       {
-        "address": "0x841b13b5d54752a928221c834acf312cedadd9d3",
-        "label": "juullabs.eth",
-        "linked_descendants_counted": 10487
-      },
-      {
         "address": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
         "label": "jensenhuang.eth",
         "linked_descendants_counted": 8568
@@ -300,11 +305,6 @@
         "address": "0x516f381d6c94110cde63f3266b779065525096f7",
         "label": "pmi.eth",
         "linked_descendants_counted": 7277
-      },
-      {
-        "address": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
-        "label": "njoy.eth",
-        "linked_descendants_counted": 6393
       },
       {
         "address": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
@@ -321,174 +321,174 @@
     "target_reached": false,
     "top_expansion_hubs": [
       {
-        "address": "0x7b2aa6f8b93f28cd14d44d4538db77fe7f0a891f",
-        "new_wallets_yielded": 183
+        "address": "0x94fdc38c4a8e34248f8dd19cb3336e0295227023",
+        "new_wallets_yielded": 98
       },
       {
-        "address": "0xfe0c61894627a789e1d1ebcefa251aa35d22c2fa",
-        "new_wallets_yielded": 179
+        "address": "0x833fe1de3fd42063c8c9f9a5df00f3428e91180e",
+        "new_wallets_yielded": 98
       },
       {
-        "address": "0xb5885b4bb63928f77e1f669785dae2f3cc7562d7",
-        "new_wallets_yielded": 179
+        "address": "0xf311762a7e12f8facd2a69a7880e60436878cd85",
+        "new_wallets_yielded": 98
       },
       {
-        "address": "0x1c9b1717181f12b26a2b1b9d93d41e3085df54ed",
-        "new_wallets_yielded": 178
+        "address": "0x3bdb03ad7363152dfbc185ee23ebc93f0cf93fd1",
+        "new_wallets_yielded": 97
       },
       {
-        "address": "0x7f3ba3f18f1378fbd8efa0a20bfe7016e2efd266",
-        "new_wallets_yielded": 174
+        "address": "0x22cb3720bfa1c69f0f99f374cd74ac8a6a05385a",
+        "new_wallets_yielded": 97
       },
       {
-        "address": "0x9e351a9d94d7a0727f273450f4a75f2b062e479b",
-        "new_wallets_yielded": 171
+        "address": "0x9164b7d3ab0b5e26cff7416f911d461c505f20f6",
+        "new_wallets_yielded": 96
       },
       {
-        "address": "0x3a9b127e87295d90ac0136eba0aaa39db185d341",
-        "new_wallets_yielded": 169
+        "address": "0x6b2b47451c719c1268b4625db15a565abbf4d624",
+        "new_wallets_yielded": 96
       },
       {
-        "address": "0xafc628ae96e4d964222a3c7c4fad92bac72c26cd",
-        "new_wallets_yielded": 168
+        "address": "0x6cc1a61cd1c31fcf83810a37577f2889148ec035",
+        "new_wallets_yielded": 95
       },
       {
-        "address": "0xc9aa60d7d0fb88570d1673022fe458cb738bfe12",
-        "new_wallets_yielded": 168
+        "address": "0x002d46d8417834d7fd35266a07e7c466a8a74305",
+        "new_wallets_yielded": 94
       },
       {
-        "address": "0x45300136662dd4e58fc0df61e6290dffd992b785",
-        "new_wallets_yielded": 167
+        "address": "0x652ef251412d4c983ccd6ca59a30e8de1d0fdc62",
+        "new_wallets_yielded": 92
       },
       {
-        "address": "0xa1abfa21f80ecf401bd41365adbb6fef6fefdf09",
-        "new_wallets_yielded": 166
+        "address": "0x0fca5194baa59a362a835031d9c4a25970effe68",
+        "new_wallets_yielded": 90
       },
       {
-        "address": "0x2cff890f0378a11913b6129b2e97417a2c302680",
-        "new_wallets_yielded": 164
+        "address": "0x495bfbe0f5da7cb4ce66e4f59a0676fb6ba3bd92",
+        "new_wallets_yielded": 89
       },
       {
-        "address": "0xbb057b406adfbf0930d71f8bac0413132e30bbc3",
-        "new_wallets_yielded": 163
+        "address": "0xcc9557f04633d82fb6a1741dcec96986cd8689ae",
+        "new_wallets_yielded": 89
       },
       {
-        "address": "0x62a29205f7ff00f4233d9779c210150787638e7f",
-        "new_wallets_yielded": 161
+        "address": "0x8449fffd14379ad2de02111b7b7d902744478399",
+        "new_wallets_yielded": 88
       },
       {
-        "address": "0xe786b5596a792d7beafcf08eaf9de711c7b7b14b",
-        "new_wallets_yielded": 157
+        "address": "0xa5d7f0f7027fa8f4d1be8042e1e43bbdec36951e",
+        "new_wallets_yielded": 88
       },
       {
-        "address": "0x7d7443f52c9835ecf82a81cf8c7d04415b2c76a4",
-        "new_wallets_yielded": 153
+        "address": "0x706d7f8b3445d8dfc790c524e3990ef014e7c578",
+        "new_wallets_yielded": 88
       },
       {
-        "address": "0x6f9fe88ce51936bdf7701bf23d7d479dbb05d44a",
-        "new_wallets_yielded": 153
+        "address": "0x83706eb0e7d938571de2c2b067b4b5cbffc398f8",
+        "new_wallets_yielded": 88
       },
       {
-        "address": "0x95a9bd206ae52c4ba8eecfc93d18eacdd41c88cc",
-        "new_wallets_yielded": 152
+        "address": "0xa64dec481e73fb2c9a927577ee6ae065757f188a",
+        "new_wallets_yielded": 87
       },
       {
-        "address": "0xc9a1a17d5f6ad4f7dd57fc7e8f009cda8a877344",
-        "new_wallets_yielded": 152
+        "address": "0xf7c8da79da4cb294c4f55dfebb1b404e3e38d921",
+        "new_wallets_yielded": 87
       },
       {
-        "address": "0xc0ad8e63ce3c43b158ad7284b26ab161a5122af1",
-        "new_wallets_yielded": 151
+        "address": "0xfdb7941769e292d3f0b9cc356c9e054cb3f2c729",
+        "new_wallets_yielded": 86
       },
       {
-        "address": "0x0ac850a303169bd762a06567caad02a8e680e7b3",
-        "new_wallets_yielded": 147
+        "address": "0x62c9cfc659d547d83313bb69a89ba3a53e53f82c",
+        "new_wallets_yielded": 85
       },
       {
-        "address": "0x0058e72db74460a7f44d36b66463132eca983d4d",
-        "new_wallets_yielded": 147
+        "address": "0x43baa676ab627b4e9e10928f58531e8096391695",
+        "new_wallets_yielded": 85
       },
       {
-        "address": "0xeaa63125dd63f10874f99cdbbb18410e7fc79dd3",
-        "new_wallets_yielded": 146
+        "address": "0x59a5e90e47c4b318d8f226d91f389241358bc2ea",
+        "new_wallets_yielded": 84
       },
       {
-        "address": "0xfffc1fd463d953422ef7b3e4f39ac8fcb6a93825",
-        "new_wallets_yielded": 145
+        "address": "0x808d0aee8db7e7c74faf4b264333afe8c9ccdba4",
+        "new_wallets_yielded": 84
       },
       {
-        "address": "0xb62d08519a7cc5cbebee997468a7ee5546e89931",
-        "new_wallets_yielded": 143
+        "address": "0x016606acc6b0cfe537acc221e3bf1bb44b4049ee",
+        "new_wallets_yielded": 83
       },
       {
-        "address": "0x60597bff98bfb335f57d08bd2d23f96ee0015bdc",
-        "new_wallets_yielded": 139
+        "address": "0xc329d775418b085779b01e66d15a92caa936b6dc",
+        "new_wallets_yielded": 83
       },
       {
-        "address": "0x3b4eebf98e8141e6e380ea5e7435b715a4870a9f",
-        "new_wallets_yielded": 138
+        "address": "0x0e58a7652143a0a275750e5ac57a4fb14eb4a18d",
+        "new_wallets_yielded": 82
       },
       {
-        "address": "0x1a0ad011913a150f69f6a19df447a0cfd9551054",
-        "new_wallets_yielded": 138
+        "address": "0x0f49943d89e7417522107f6e824c30aad487e6c0",
+        "new_wallets_yielded": 81
       },
       {
-        "address": "0xa6c5ec3f4b31e37770afe102540cac1b2ab004bc",
-        "new_wallets_yielded": 137
+        "address": "0x337371d2bb532e563db423e66096bede4efb3acb",
+        "new_wallets_yielded": 81
       },
       {
-        "address": "0xb9d514814c1780c235e4b973d16210d917e32926",
-        "new_wallets_yielded": 136
+        "address": "0x1ef1b6bb65cc49c3819ec9f2053000984cd7beb7",
+        "new_wallets_yielded": 81
       },
       {
-        "address": "0x0ef7cff558cbda67d2030aa3f0b84773b6d77765",
-        "new_wallets_yielded": 135
+        "address": "0xda55e5b697ead7f5b77d43fd500397e24bf793b5",
+        "new_wallets_yielded": 80
       },
       {
-        "address": "0xb1e8df7e585b1ffed100843ea99b54324db49d67",
-        "new_wallets_yielded": 135
+        "address": "0x54b7b8a624cbe33377097c6645e969e6fd3e3802",
+        "new_wallets_yielded": 80
       },
       {
-        "address": "0x12fbd83663161c7a3e3acff67507072da2cf57a2",
-        "new_wallets_yielded": 134
+        "address": "0x70c4949d483166abefb2b4b2be78e338cd8b2c40",
+        "new_wallets_yielded": 80
       },
       {
-        "address": "0x6cd62ece6442d3b989f8cd1b3201727964c6fc26",
-        "new_wallets_yielded": 134
+        "address": "0xb5ff0b0f9c2972801860d9ed823d648ace067aef",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0x84bbc67b11881fdaffb4f0ca10a3a07300a151a6",
-        "new_wallets_yielded": 132
+        "address": "0x9bdbbd6ff7889e1cb668c21c5da3c8a73a7742ae",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0xf96fa29bfe8676955241a4409066283a13e877bf",
-        "new_wallets_yielded": 131
+        "address": "0x8d56f551b44a6da6072a9608d63d664ce67681a5",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0x6081258689a75d253d87ce902a8de3887239fe80",
-        "new_wallets_yielded": 131
+        "address": "0x2e9555c4d34b96b0e76b641457293d5a9fbe4d03",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0x3f5a70fac29c1a5000ef77be5d996c5b016b3261",
-        "new_wallets_yielded": 131
+        "address": "0xffdab1083fcbbcee32997795388b3d61ebab786e",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0xfe233163daf81861750bdaeaf30f2b4036648bd8",
-        "new_wallets_yielded": 129
+        "address": "0x157057ab2153158a478c34e424aa974ecce2fde2",
+        "new_wallets_yielded": 79
       },
       {
-        "address": "0xddd41bcd80feb8b02e46bada482eb6afd433aff7",
-        "new_wallets_yielded": 129
+        "address": "0x4f1df94db1a168cb7a584cc4d186a708d86c2838",
+        "new_wallets_yielded": 78
       }
     ],
     "via_histogram": {
       "internal": 14,
       "seed": 19,
-      "tt": 167516,
-      "tx": 218976
+      "tt": 462415,
+      "tx": 497064
     },
     "wallets_jsonl": "output_artifacts/investigation/wave37/linked_wallets.jsonl",
-    "workers": 10
+    "workers": 12
   },
   "status": "PARTIAL",
   "title": "First ten million linked wallets (BFS + NVIDIA acceleration)"
