@@ -320,6 +320,15 @@ class TenMillionWalletTracer:
         OUT.mkdir(parents=True, exist_ok=True)
         self.wallets_jsonl = OUT / "linked_wallets.jsonl"
         self.expanded_jsonl = OUT / "expanded_addrs.jsonl"
+        # Continue shard numbering across resumes (avoid overwrite)
+        existing_shards = sorted(OUT.glob("wallets_shard_*.json"))
+        if existing_shards:
+            try:
+                self.shard_idx = max(
+                    int(p.stem.split("_")[-1]) for p in existing_shards
+                )
+            except ValueError:
+                self.shard_idx = len(existing_shards)
 
     def _deadline_hit(self) -> bool:
         return (time.perf_counter() - self.started) >= MAX_RUNTIME_SEC
