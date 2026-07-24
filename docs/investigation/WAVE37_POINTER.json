@@ -1,9 +1,9 @@
 {
   "brand": "IP FORCE",
-  "generated_at": "2026-07-24T10:19:25Z",
-  "linked_wallets": 1825654,
+  "generated_at": "2026-07-24T13:33:42Z",
+  "linked_wallets": 2147663,
   "nvidia_backend": "numpy_scipy_numba_nvidia_compatible",
-  "seal": "8be0fbe349284170377ac7e2163a2faf9ea52a284c58348c3801e2d9ea2a7101",
+  "seal": "892151d80c0d2a5696a26e1f3f319e51f40b8a1a81abf831c7171fc1c7757c4d",
   "summary_md": "docs/investigation/WAVE37_TEN_MILLION_LINKED_WALLETS_NVIDIA.md",
   "summary_path": "docs/investigation/wave37/WAVE37_RUN_SUMMARY.json",
   "target": 10000000,
