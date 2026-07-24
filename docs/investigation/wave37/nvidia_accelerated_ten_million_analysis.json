@@ -1,0 +1,584 @@
+{
+  "degree_hop": {
+    "backend": "numpy_scipy_numba_nvidia_compatible",
+    "edge_count_directed": 386506,
+    "elapsed_ms": 5,
+    "hop_histogram": {
+      "0": 19,
+      "1": 5204,
+      "2": 234828,
+      "3": 146474
+    },
+    "max_degree": 1137,
+    "mean_degree": 1.9999016881184917,
+    "n": 386525,
+    "top_degree": [
+      {
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "degree": 1137,
+        "hop": 0,
+        "seed_label": "vitalik.eth"
+      },
+      {
+        "address": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+        "degree": 616,
+        "hop": 0,
+        "seed_label": "philipmorrisusa.eth"
+      },
+      {
+        "address": "0x983110309620d911731ac0932219af06091b6744",
+        "degree": 464,
+        "hop": 0,
+        "seed_label": "elonmusk.eth"
+      },
+      {
+        "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+        "degree": 453,
+        "hop": 0,
+        "seed_label": "pmusa.eth"
+      },
+      {
+        "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+        "degree": 406,
+        "hop": 0,
+        "seed_label": "sama.eth"
+      },
+      {
+        "address": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+        "degree": 341,
+        "hop": 0,
+        "seed_label": "juul.eth"
+      },
+      {
+        "address": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+        "degree": 337,
+        "hop": 0,
+        "seed_label": "paxlabs.eth"
+      },
+      {
+        "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+        "degree": 288,
+        "hop": 0,
+        "seed_label": "philipmorris.eth"
+      },
+      {
+        "address": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+        "degree": 261,
+        "hop": 0,
+        "seed_label": "jamiesalter.eth"
+      },
+      {
+        "address": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+        "degree": 260,
+        "hop": 0,
+        "seed_label": "jensenhuang.eth"
+      },
+      {
+        "address": "0xf2d15c0a89428c9251d71a0e29b39ff1e86bce25",
+        "degree": 240,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x111bb5c4157f3ec5f1967e57025ea84a924efe07",
+        "degree": 239,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0xd4307e0acd12cf46fd6cf93bc264f5d5d1598792",
+        "degree": 238,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "degree": 237,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x660b045699ecc049036c0db165bcb99fc22a2d51",
+        "degree": 233,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+        "degree": 231,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+        "degree": 231,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1",
+        "degree": 231,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x059b2051bc369a52dfa4bcbaa77388483279320c",
+        "degree": 230,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x79f7cf7651b3df58759f046e6087e493ec827a23",
+        "degree": 222,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x71660c4005ba85c37ccec55d0c4493e66fe775d3",
+        "degree": 221,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x695e449525d42055d368f84e97912032c7410a46",
+        "degree": 220,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x4ad64983349c49defe8d7a4686202d24b25d0ce8",
+        "degree": 219,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+        "degree": 219,
+        "hop": 1,
+        "seed_label": null
+      },
+      {
+        "address": "0xdd0d0781fd0045ccb8c4f56ab4229a37f8e86e42",
+        "degree": 217,
+        "hop": 1,
+        "seed_label": null
+      }
+    ]
+  },
+  "elapsed_ms": 1084,
+  "findings": [
+    {
+      "backend": "numpy_scipy_numba_nvidia_compatible",
+      "degree_hop_summary": {
+        "backend": "numpy_scipy_numba_nvidia_compatible",
+        "elapsed_ms": 5,
+        "hop_histogram": {
+          "0": 19,
+          "1": 5204,
+          "2": 234828,
+          "3": 146474
+        },
+        "max_degree": 1137,
+        "mean_degree": 1.9999016881184917
+      },
+      "detail": "NVIDIA path=numpy_scipy_numba_nvidia_compatible gpu=False; analyzed 386525 / 386525 linked wallets (partial=False). Ranking only — not adjudication.",
+      "graph_stats": {
+        "analytics_cap": 500000,
+        "analytics_partial": false,
+        "build_ms": 336,
+        "corpus_linked_wallets": 386525,
+        "directed_edges": 386506,
+        "vertices_analyzed": 386525
+      },
+      "id": "W37-F2",
+      "nvidia_gpu_active": false,
+      "theft_adjudicated": false,
+      "title": "NVIDIA full-stack accelerated graph analysis (10M expansion corpus)",
+      "true_ubo_asserted": false,
+      "wcc": {
+        "backend": "numba_unionfind",
+        "components": 19,
+        "cugraph_error": null,
+        "elapsed_ms": 292,
+        "largest": 83815
+      }
+    }
+  ],
+  "graph_stats": {
+    "analytics_cap": 500000,
+    "analytics_partial": false,
+    "build_ms": 336,
+    "corpus_linked_wallets": 386525,
+    "directed_edges": 386506,
+    "vertices_analyzed": 386525
+  },
+  "id": "nvidia_accelerated_ten_million_analysis",
+  "probe": {
+    "backend": "numpy_scipy_numba_nvidia_compatible",
+    "fallback_note": "No CUDA GPU visible in this runtime; engaged NumPy/SciPy/Numba NVIDIA-compatible vectorized path. RAPIDS/CuPy/cuGraph codepaths are wired and activate automatically when a GPU stack is present.",
+    "modules_engaged": [
+      "numba",
+      "scipy",
+      "numpy"
+    ],
+    "nvidia_accelerated": false,
+    "nvidia_gpu_active": false,
+    "nvidia_supercharged_path": "numpy_scipy_numba_nvidia_compatible",
+    "stack": {
+      "cuda_runtime": false,
+      "cudf": false,
+      "cugraph": false,
+      "cuml": false,
+      "cupy": false,
+      "numba": true,
+      "numba_cuda": false,
+      "numba_version": "0.66.0",
+      "numpy": true,
+      "numpy_version": "2.4.4",
+      "nvidia_smi": false,
+      "scipy": true,
+      "tensorrt": false,
+      "torch": false,
+      "torch_cuda": false
+    }
+  },
+  "seed_contribution": {
+    "backend": "numpy_scipy_numba_nvidia_compatible",
+    "by_label": [
+      {
+        "label": "japantobacco.eth",
+        "linked_descendants": 83815
+      },
+      {
+        "label": "vitalik.eth",
+        "linked_descendants": 54734
+      },
+      {
+        "label": "fyllo.eth",
+        "linked_descendants": 51577
+      },
+      {
+        "label": "philipmorrisusa.eth",
+        "linked_descendants": 28019
+      },
+      {
+        "label": "elonmusk.eth",
+        "linked_descendants": 22642
+      },
+      {
+        "label": "pmusa.eth",
+        "linked_descendants": 16917
+      },
+      {
+        "label": "philipmorris.eth",
+        "linked_descendants": 16098
+      },
+      {
+        "label": "sama.eth",
+        "linked_descendants": 15790
+      },
+      {
+        "label": "paxlabs.eth",
+        "linked_descendants": 13830
+      },
+      {
+        "label": "abg.eth",
+        "linked_descendants": 13523
+      },
+      {
+        "label": "jamiesalter.eth",
+        "linked_descendants": 12734
+      },
+      {
+        "label": "pax.eth",
+        "linked_descendants": 10832
+      },
+      {
+        "label": "juullabs.eth",
+        "linked_descendants": 10488
+      },
+      {
+        "label": "jensenhuang.eth",
+        "linked_descendants": 8569
+      },
+      {
+        "label": "juul.eth",
+        "linked_descendants": 7504
+      },
+      {
+        "label": "pmi.eth",
+        "linked_descendants": 7278
+      },
+      {
+        "label": "njoy.eth",
+        "linked_descendants": 6394
+      },
+      {
+        "label": "authenticbrands.eth",
+        "linked_descendants": 3992
+      },
+      {
+        "label": "ploom.eth",
+        "linked_descendants": 1789
+      }
+    ],
+    "by_root_seed": [
+      {
+        "linked_descendants": 83815,
+        "root_seed": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+        "seed_label": "japantobacco.eth"
+      },
+      {
+        "linked_descendants": 54734,
+        "root_seed": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "seed_label": "vitalik.eth"
+      },
+      {
+        "linked_descendants": 51577,
+        "root_seed": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "seed_label": "fyllo.eth"
+      },
+      {
+        "linked_descendants": 28019,
+        "root_seed": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+        "seed_label": "philipmorrisusa.eth"
+      },
+      {
+        "linked_descendants": 22642,
+        "root_seed": "0x983110309620d911731ac0932219af06091b6744",
+        "seed_label": "elonmusk.eth"
+      },
+      {
+        "linked_descendants": 16917,
+        "root_seed": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+        "seed_label": "pmusa.eth"
+      },
+      {
+        "linked_descendants": 16098,
+        "root_seed": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+        "seed_label": "philipmorris.eth"
+      },
+      {
+        "linked_descendants": 15790,
+        "root_seed": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+        "seed_label": "sama.eth"
+      },
+      {
+        "linked_descendants": 13830,
+        "root_seed": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+        "seed_label": "paxlabs.eth"
+      },
+      {
+        "linked_descendants": 13523,
+        "root_seed": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+        "seed_label": "abg.eth"
+      },
+      {
+        "linked_descendants": 12734,
+        "root_seed": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+        "seed_label": "jamiesalter.eth"
+      },
+      {
+        "linked_descendants": 10832,
+        "root_seed": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+        "seed_label": "pax.eth"
+      },
+      {
+        "linked_descendants": 10488,
+        "root_seed": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+        "seed_label": "juullabs.eth"
+      },
+      {
+        "linked_descendants": 8569,
+        "root_seed": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+        "seed_label": "jensenhuang.eth"
+      },
+      {
+        "linked_descendants": 7504,
+        "root_seed": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+        "seed_label": "juul.eth"
+      },
+      {
+        "linked_descendants": 7278,
+        "root_seed": "0x516f381d6c94110cde63f3266b779065525096f7",
+        "seed_label": "pmi.eth"
+      },
+      {
+        "linked_descendants": 6394,
+        "root_seed": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+        "seed_label": "njoy.eth"
+      },
+      {
+        "linked_descendants": 3992,
+        "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+        "seed_label": "authenticbrands.eth"
+      },
+      {
+        "linked_descendants": 1789,
+        "root_seed": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+        "seed_label": "ploom.eth"
+      }
+    ],
+    "elapsed_ms": 116
+  },
+  "seed_pagerank": {
+    "alpha": 0.85,
+    "backend": "scipy_csr_power_iteration",
+    "cugraph_pagerank": null,
+    "elapsed_ms": 97,
+    "iterations": 20,
+    "score_max": 0.01549148788264822,
+    "score_mean": 2.587154776534506e-06,
+    "top": [
+      {
+        "address": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+        "hop": 0,
+        "root_seed": "0x19625fede85fc0267d29bb3338f1636fee5477d3",
+        "score": 0.01549148788264822,
+        "seed_label": "juul.eth"
+      },
+      {
+        "address": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+        "hop": 0,
+        "root_seed": "0xefe320582dec3ac7cf2358b9ba0e27b203d06ec6",
+        "score": 0.010345746463278443,
+        "seed_label": "jensenhuang.eth"
+      },
+      {
+        "address": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+        "hop": 0,
+        "root_seed": "0x4f809effb315a91093169e17e6e1bf8f27889240",
+        "score": 0.010345221221997629,
+        "seed_label": "philipmorrisusa.eth"
+      },
+      {
+        "address": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+        "hop": 0,
+        "root_seed": "0x8d1a9428d60da4434117d1fde8ce522d5f53e45f",
+        "score": 0.009827931437120699,
+        "seed_label": "ploom.eth"
+      },
+      {
+        "address": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+        "hop": 0,
+        "root_seed": "0xd9568b97ddc98c2bb55261b88240de698b9f974c",
+        "score": 0.009770937109650695,
+        "seed_label": "philipmorris.eth"
+      },
+      {
+        "address": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+        "hop": 0,
+        "root_seed": "0x356c938a1d889d87999c75dc4e7af1263b93e45d",
+        "score": 0.009580810759465456,
+        "seed_label": "paxlabs.eth"
+      },
+      {
+        "address": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+        "hop": 0,
+        "root_seed": "0x9bcd78ae10965c28ed1d60f1963ad55f245bd353",
+        "score": 0.009461428107270744,
+        "seed_label": "jamiesalter.eth"
+      },
+      {
+        "address": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+        "hop": 0,
+        "root_seed": "0x272fb300717a9f7e0215afe22595af5cbfa58591",
+        "score": 0.009361402566011912,
+        "seed_label": "japantobacco.eth"
+      },
+      {
+        "address": "0x983110309620d911731ac0932219af06091b6744",
+        "hop": 0,
+        "root_seed": "0x983110309620d911731ac0932219af06091b6744",
+        "score": 0.009254430610412735,
+        "seed_label": "elonmusk.eth"
+      },
+      {
+        "address": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+        "hop": 0,
+        "root_seed": "0x9a659894e5d115846767db0e1685744c452e7a6e",
+        "score": 0.009169585019810102,
+        "seed_label": "sama.eth"
+      },
+      {
+        "address": "0x516f381d6c94110cde63f3266b779065525096f7",
+        "hop": 0,
+        "root_seed": "0x516f381d6c94110cde63f3266b779065525096f7",
+        "score": 0.009014700885405947,
+        "seed_label": "pmi.eth"
+      },
+      {
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "hop": 0,
+        "root_seed": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "score": 0.008765903467396547,
+        "seed_label": "vitalik.eth"
+      },
+      {
+        "address": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+        "hop": 0,
+        "root_seed": "0x06ae908a3ebb99f70caf27b9f9b52e8056f7df0c",
+        "score": 0.00875361655306052,
+        "seed_label": "pmusa.eth"
+      },
+      {
+        "address": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+        "hop": 0,
+        "root_seed": "0x85ac302dacf19d67bf028aa9ab9ad00035aef1a0",
+        "score": 0.008591659300970283,
+        "seed_label": "abg.eth"
+      },
+      {
+        "address": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+        "hop": 0,
+        "root_seed": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+        "score": 0.008589361007638721,
+        "seed_label": "juullabs.eth"
+      },
+      {
+        "address": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+        "hop": 0,
+        "root_seed": "0x9bf10a9a1254edadef6a2a4a34e51b34a5928cf9",
+        "score": 0.008478172419847758,
+        "seed_label": "njoy.eth"
+      },
+      {
+        "address": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "hop": 0,
+        "root_seed": "0xe739955225ee00ee9b6e859bcd6c82308bb5e909",
+        "score": 0.008377108004166868,
+        "seed_label": "fyllo.eth"
+      },
+      {
+        "address": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+        "hop": 0,
+        "root_seed": "0xf9e1d465620fee96f09cce67f26c7fb61c60e470",
+        "score": 0.00829545036676404,
+        "seed_label": "pax.eth"
+      },
+      {
+        "address": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+        "hop": 0,
+        "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+        "score": 0.008051992910203148,
+        "seed_label": "authenticbrands.eth"
+      },
+      {
+        "address": "0xd152f549545093347a162dce210e7293f1452150",
+        "hop": 1,
+        "root_seed": "0xe1711dcce17ec0f9aa3f95a1ca35bc9049b65711",
+        "score": 0.003364840216965115,
+        "seed_label": null
+      }
+    ]
+  },
+  "status": "SEALED",
+  "title": "NVIDIA-accelerated analysis of ten-million linked-wallet expansion",
+  "wcc": {
+    "backend": "numba_unionfind",
+    "components": 19,
+    "cugraph_error": null,
+    "elapsed_ms": 292,
+    "largest": 83815
+  }
+}

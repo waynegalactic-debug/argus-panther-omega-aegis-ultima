@@ -1,0 +1,28 @@
+{
+  "adjudicated": false,
+  "id": "operator_worklist",
+  "items": [
+    {
+      "id": "W37-M1",
+      "item": "Resume enumeration until linked_wallets==10_000_000 (now=386525)",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "W37-M2",
+      "item": "Provision NVIDIA CUDA + RAPIDS (cuDF/cuGraph/CuPy/cuML) to flip backend from numpy_scipy_numba_nvidia_compatible → rapids_full",
+      "priority": "HIGH"
+    },
+    {
+      "id": "W37-M3",
+      "item": "Do not treat accelerated PageRank hubs as True-UBO",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "W37-M0",
+      "item": "CUDA GPU not visible — NVIDIA-compatible CPU path engaged; GPU path armed",
+      "priority": "HIGH"
+    }
+  ],
+  "status": "OPEN",
+  "title": "Wave-37 operator worklist"
+}
